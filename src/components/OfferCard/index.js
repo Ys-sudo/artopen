@@ -8,7 +8,7 @@ const OfferCard = (props) => {
 
   return (
     <div>
-
+    
     <div className='offert'>
 
       {posts
@@ -18,22 +18,22 @@ const OfferCard = (props) => {
 
           <div
             className='offer'
-            style={{margin:'10px',marginBottom:'50px'}}
+            style={{margin:'10px',textAlign:'left',marginBottom:'50px'}}
             key={post.id}
           >
           <Link to={post.fields.slug+'/'}>
-          <img src={post.frontmatter.cover.publicURL} style={{width:'80%',height:'70%',borderRadius:'10px',marginBottom:'10px'}} />
-          <br></br>
-              <Link className='button-green' style={{fontSize:'12px'}} to={post.fields.slug+'/'}>
-                {post.frontmatter.title}
+          <img alt={post.frontmatter.title} src={post.frontmatter.icon.publicURL} style={{width:'100px',height:'100px',borderRadius:'10px',marginBottom:'5px'}} />
 
+          <br></br>
+          <div style={{textAlign:'left'}}>
+              <Link className='is-title' style={{fontSize:'12px',color:'#00d1b2',fontSize:'15px'}} to={post.fields.slug+'/'}>
+                <strong>{post.frontmatter.title}</strong>
               </Link>
 
-              <p>
-              <br></br>
+              <p style={{color:'#333333',fontSize:'12px'}}>
                 {post.frontmatter.desc}
               </p>
-
+          </div>
           </Link>
 
 

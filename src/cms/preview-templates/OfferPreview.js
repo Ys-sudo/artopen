@@ -10,11 +10,13 @@ const OfferPreview = ({ entry, widgetFor }) => {
         <div className='column is-10 is-offset-1'>
           <OfferTemplate
             content={widgetFor('body')}
+            icon={entry.getIn(['data', 'icon'])}
             cover={entry.getIn(['data', 'cover'])}
             meta_title={entry.getIn(['data', 'meta_title'])}
             meta_desc={entry.getIn(['data', 'meta_description'])}
             title={entry.getIn(['data', 'title'])}
             desc={entry.getIn(['data', 'desc'])}
+            subtitle={entry.getIn(['data', 'subtitle'])}
             slug={entry.getIn(['data', 'slug'])}
             tags={tags && tags.toJS()}
           />

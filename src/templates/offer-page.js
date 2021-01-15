@@ -10,11 +10,11 @@ import Disqus from '../components/Disqus'
 import Layout from '../components/Layout'
 
 const OfferPage = (props) => {
-  const { data: { markdownRemark: { html, fields: { slug }, frontmatter: { title, meta_title, meta_description, cover, date, tags, desc } } } } = props
+  const { data: { markdownRemark: { html, fields: { slug }, frontmatter: { title, meta_title, meta_description, cover, date, tags, desc, subtitle, icon } } } } = props
 
   return (
     <Layout>
-      <section className='section'>
+
         <SE0
           title={title}
           meta_title={meta_title}
@@ -30,9 +30,7 @@ const OfferPage = (props) => {
           userTwitter={config.userTwitter}
           pathPrefix={config.pathPrefix}
         />
-        <div className='container content'>
-          <div className='columns'>
-            <div className='column is-10 is-offset-1'>
+
 
               <OfferTemplate
                 content={html}
@@ -43,6 +41,8 @@ const OfferPage = (props) => {
                 tags={tags}
                 title={title}
                 desc={desc}
+                subtitle={subtitle}
+                icon={icon}
               />
               <Share
                 title={title}
@@ -52,16 +52,17 @@ const OfferPage = (props) => {
                 pathPrefix={config.pathPrefix}
               />
               <hr />
+              <div style={{marginRight:'10%',marginLeft:'10%'}}>
               <Disqus
                 title={title}
                 slug={slug}
                 siteUrl={config.siteUrl}
                 disqusShortname={config.disqusShortname}
               />
-            </div>
-          </div>
-        </div>
-      </section>
+              <br></br>
+              </div>
+
+
     </Layout>
   )
 }
@@ -85,6 +86,14 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "DD. MM. YYYY")
         title
+        icon {
+            childImageSharp {
+              fluid(maxWidth: 500, quality: 72) {
+                  ...GatsbyImageSharpFluid
+                }
+            }
+            publicURL
+        }
         cover {
             childImageSharp {
                 fluid(maxWidth: 1075, quality: 72) {
@@ -97,6 +106,7 @@ export const pageQuery = graphql`
         meta_description
         tags
         desc
+        subtitle
 
       }
     }

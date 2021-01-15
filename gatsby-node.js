@@ -59,11 +59,24 @@ exports.createPages = ({ actions, graphql }) => {
                 }
                 publicURL
               }
+              icon {
+                childImageSharp{
+                  fluid (maxWidth:500, quality:50){
+                    src
+                    srcSet
+                    aspectRatio
+                    sizes
+                    base64
+                  }
+                }
+                publicURL
+              }
               tags
               templateKey
               category
               desc
               date(formatString: "DD. MM. YYYY")
+              subtitle
             }
           }
         }

@@ -5,6 +5,8 @@ desc: Opis
 slug: fotografia
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg
+icon: /img/slider_2.jpg
+subtitle: podtytuł
 tags:
   - Studio Reklamy
   - agencja interaktywna

@@ -53,7 +53,9 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "offer-page"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "desc", widget: "string"}
+      - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Icon", name: "icon", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Cover", name: "cover", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
