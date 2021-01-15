@@ -1,0 +1,134 @@
+$primary: #00d1b2
+$primary-invert: #ffffff
+
+
+@import "~bulma"
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&display=swap')
+
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper,
+#layout-wrapper
+  height: 100%
+
+#layout-wrapper
+  width: 100%
+  display: flex
+  flex-direction: column
+
+#content-wrapper
+  flex: 1
+
+nav
+  font-family: 'Poppins' !important
+
+.navbar-item
+  font-size: 13px
+  color: #222222
+  font-weight: 700
+  margin-left: 1%
+  margin-right: 1%
+
+.navbar-item:hover, .navbar-item:focus
+  color: #00d1b2 !important
+
+
+
+.navbar-burger
+  border: 0px solid white !important
+
+.button:focus:not(:active), .button.is-focused:not(:active)
+  box-shadow: 0 0 0 0em white !important
+
+.navbar-burger span
+  height: 2px !important
+
+.subMenu
+  display: none
+  opacity: 0
+  left: 30%
+  padding: 20px
+  position: fixed
+  top: 57px
+  background-color: #222222
+  z-index: 100
+  border: 0px solid white
+
+.submenu-item
+  font-size: 12px
+  font-weight: 700
+  color: #777777
+  padding: 5px
+  display: block
+
+.submenu-item:hover
+  color: #00d1b2
+
+
+.button-green
+  color: #00d1b2
+  font-size: 13px
+  font-weight: 500
+  border: 1px solid #00d1b2
+  padding: 10px
+  border-radius: 20px
+
+.button-green:hover
+  background-color: #00d1b2
+  color: white
+
+.content .taglist
+  list-style: none
+  margin-bottom: 0
+  margin-left: 0
+  margin-right: 1.5rem
+  margin-top: 1.5rem
+  display: flex
+  flex-wrap: wrap
+  justify-content: left
+  align-items: center
+  li
+    padding: 0 2rem 1rem 0
+    margin-bottom: 1.5rem
+    margin-top: 0
+
+.margin-top-0
+  margin-top: 0 !important
+
+.footer
+  background-color: #111111 !important
+  color: white
+.portfolio
+  display: flex
+.portfo
+  width: 25% !important
+
+
+@import "~bulma"
+
+
+
++tablet-only
+  .subMenu
+    position: relative !important
+    top: auto
+    left: auto
+    padding-left: 30px
+  .portfolio
+    display: flex
+    flex-wrap: wrap
+  .portfo
+    width: 50% !important
+
++mobile
+  .portfolio
+    display: block
+  .portfo
+    width: 100% !important
+  .subMenu
+    position: relative !important
+    top: auto
+    left: auto
+    padding-left: 30px
