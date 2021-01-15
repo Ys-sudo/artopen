@@ -72,63 +72,63 @@ const NavBar = () => {
 
               <nav className="subMenu"  onMouseLeave={hideSubMenu}>
 
-                <Link className='submenu-item' to='/oferta/covid-19/'>
+                <Link className='submenu-item' to='/covid-19/'>
                   COVID-19
                 </Link>
 
-                <Link className='submenu-item' to='/oferta/ekologia/'>
+                <Link className='submenu-item' to='/ekologia/'>
                   EKOLOGIA
                 </Link>
 
-                <Link className='submenu-item' to='/oferta/projektowanie-graficzne/' >
+                <Link className='submenu-item' to='/projektowanie-graficzne/' >
                   PROJEKTOWANIE GRAFICZNE
                 </Link>
 
-                <Link className='submenu-item' to='/oferta/strony-internetowe/' >
+                <Link className='submenu-item' to='/strony-internetowe/' >
                   STRONY INTERNETOWE
                 </Link>
 
-                <Link className='submenu-item' to='/oferta/branding/' >
+                <Link className='submenu-item' to='/branding/' >
                   BRANDING
                 </Link>
 
-                <Link className='submenu-item' to='/oferta/kalendarze-ksiazkowe/' >
+                <Link className='submenu-item' to='/kalendarze-ksiazkowe/' >
                   KALENDARZE KSIĄŻKOWE 
                 </Link>
 
-                <Link className='submenu-item' to='/oferta/kalendarze-firmowe/' >
+                <Link className='submenu-item' to='/kalendarze-firmowe/' >
                   KALENDARZE FIRMOWE 
                 </Link>
 
-                <Link className='submenu-item' to='/oferta/gadzety/' >
+                <Link className='submenu-item' to='/gadzety/' >
                   GADŻETY REKLAMOWE 
                 </Link>
 
-                <Link className='submenu-item' to='/oferta/wydruki/' >
+                <Link className='submenu-item' to='/wydruki/' >
                   WYDRUKI REKLAMOWE 
                 </Link>
 
-                <Link className='submenu-item' to='/oferta/reklama-zewnetrzna/' >
+                <Link className='submenu-item' to='/reklama-zewnetrzna/' >
                   REKLAMY OUTDOOR 
                 </Link>
 
-                <Link className='submenu-item' to='/oferta/fotografia/' >
+                <Link className='submenu-item' to='/fotografia/' >
                   FOTOGRAFIE PRODUKTOWE 
                 </Link>
 
-                <Link className='submenu-item' to='/oferta/wystawiennictwo/' >
+                <Link className='submenu-item' to='/wystawiennictwo/' >
                   SYSTEMY WYSTAWIENNICZE  
                 </Link>
 
-                <Link className='submenu-item' to='/oferta/filmowanie/' >
+                <Link className='submenu-item' to='/filmowanie/' >
                   FILMY REKLAMOWE 
                 </Link>
 
-                <Link className='submenu-item' to='/oferta/opakowania/' >
+                <Link className='submenu-item' to='/opakowania/' >
                   OPAKOWANIA 
                 </Link>
 
-                <Link className='submenu-item' to='/oferta/vr/' >
+                <Link className='submenu-item' to='/vr/' >
                   WIRTUALNA RZECZYWISTOŚĆ
                 </Link>
 

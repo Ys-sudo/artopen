@@ -20,10 +20,10 @@ const StronaKontakt = () => {
               <div className='column is-10 is-offset-1'>
                 <div className='section'>
                   <h1 className='title'>
-                    jeden
+                    Kontakt
                   </h1>
                   <h2 className='subtitle'>
-                    dwa
+                    Skontaktuj się z nami!
                   </h2>
                 </div>
               </div>
@@ -31,11 +31,13 @@ const StronaKontakt = () => {
           </div>
         </div>
       </section>
-      <section className='section'>
-        <div className='container'>
+      <div className='hero'>
+      <div className='hero-body'>
+        <div className='container' style={{marginLeft:'10%',marginRight:'10%'}}>
           <ContactForm />
         </div>
-      </section>
+      </div>
+      </div>
       </Layout>
     </div>
   )

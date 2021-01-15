@@ -62,7 +62,7 @@ exports.createPages = ({ actions, graphql }) => {
               tags
               templateKey
               category
-              date(formatString: "MMMM DD, YYYY")
+              date(formatString: "DD. MM. YYYY")
             }
           }
         }
@@ -121,8 +121,40 @@ exports.createPages = ({ actions, graphql }) => {
       edges: portfolios,
       createPage: createPage,
       pageTemplate: 'src/templates/portfolio.js',
-      pageLength: 10, // This is optional and defaults to 10 if not used
+      pageLength: 15, // This is optional and defaults to 10 if not used
       pathPrefix: 'portfolio', // This is optional and defaults to an empty string if not used
+      context: {}, // This is optional and defaults to an empty object if not used
+    })
+    postsAndPages.forEach(edge => {
+      const id = edge.node.id
+      createPage({
+        path: edge.node.fields.slug,
+        tags: edge.node.frontmatter.tags,
+        component: path.resolve(
+          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`,
+        ),
+        // additional data can be passed via context
+        context: {
+          id,
+        },
+      })
+    })
+
+    // Offer pages:
+    let offers = []
+    // Iterate through each post/page, putting all found posts (where templateKey = gallery-page) into `portfolios`
+    postsAndPages.forEach(edge => {
+      if (_.isMatch(edge.node.frontmatter, { templateKey: 'offer-page' })) {
+        offers = offers.concat(edge)
+      }
+    })
+
+    createPaginatedPages({
+      edges: offers,
+      createPage: createPage,
+      pageTemplate: 'src/templates/oferta.js',
+      pageLength: 15, // This is optional and defaults to 10 if not used
+      pathPrefix: 'oferta', // This is optional and defaults to an empty string if not used
       context: {}, // This is optional and defaults to an empty object if not used
     })
     postsAndPages.forEach(edge => {

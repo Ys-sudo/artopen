@@ -41,7 +41,7 @@ const SearchBox = props => {
           ? results
             //.filter(page => page.templateKey === 'article-page')
             .map(page => (
-              <Link className='navbar-item' key={page.id} to={page.slug}>
+              <Link className='navbar-item' key={page.id} to={page.slug+'/'}>
                 {page.title}
               </Link>
             ))

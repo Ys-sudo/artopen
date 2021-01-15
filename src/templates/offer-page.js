@@ -3,13 +3,13 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import config from '../../config'
 import { HTMLContent } from '../components/Content'
-import ArticleTemplate from '../components/ArticleTemplate'
+import OfferTemplate from '../components/OfferTemplate'
 import SE0 from '../components/SEO'
 import Share from '../components/Share'
 import Disqus from '../components/Disqus'
 import Layout from '../components/Layout'
 
-const ArticlePage = (props) => {
+const OfferPage = (props) => {
   const { data: { markdownRemark: { html, fields: { slug }, frontmatter: { title, meta_title, meta_description, cover, date, tags } } } } = props
 
   return (
@@ -33,7 +33,8 @@ const ArticlePage = (props) => {
         <div className='container content'>
           <div className='columns'>
             <div className='column is-10 is-offset-1'>
-              <ArticleTemplate
+
+              <OfferTemplate
                 content={html}
                 contentComponent={HTMLContent}
                 cover={cover}
@@ -41,6 +42,7 @@ const ArticlePage = (props) => {
                 meta_desc={meta_description}
                 tags={tags}
                 title={title}
+
               />
               <Share
                 title={title}
@@ -64,16 +66,16 @@ const ArticlePage = (props) => {
   )
 }
 
-ArticlePage.propTypes = {
+OfferPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.object,
   }),
 }
 
-export default ArticlePage
+export default OfferPage
 
 export const pageQuery = graphql`
-  query ArticleByID($id: String!) {
+  query OfferByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html
@@ -94,6 +96,7 @@ export const pageQuery = graphql`
         meta_title
         meta_description
         tags
+        
       }
     }
   }

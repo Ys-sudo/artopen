@@ -1,8 +1,8 @@
 ---
-templateKey: article-page
-title: ArtOpen
-slug: ArtOpen-studio-reklamy
-date: 2020-12-05T13:49:14.606Z
+templateKey: offer-page
+title: Wystawiennictwo - systemy
+slug: wystawiennictwo
+date: 2020-02-05T13:49:14.606Z
 cover: /img/slider_1.jpg
 tags:
   - Studio Reklamy

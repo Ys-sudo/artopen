@@ -13,3 +13,4 @@ CMS.init({
 CMS.registerPreviewStyle('/styles.sass')
 CMS.registerPreviewTemplate('blog', ArticlePreview)
 CMS.registerPreviewTemplate('portfolio', GalleryPreview)
+CMS.registerPreviewTemplate('oferta', OfferPreview)

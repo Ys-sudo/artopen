@@ -1,23 +1,21 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import GalleryTemplate from '../../components/GalleryTemplate'
+import OfferTemplate from '../../components/OfferTemplate'
 
-const GalleryPreview = ({ entry, widgetFor }) => {
+const OfferPreview = ({ entry, widgetFor }) => {
   const tags = entry.getIn(['data', 'tags'])
   return (
     <div className='container content'>
       <div className='columns'>
         <div className='column is-10 is-offset-1'>
-          <GalleryTemplate
+          <OfferTemplate
             content={widgetFor('body')}
             cover={entry.getIn(['data', 'cover'])}
             meta_title={entry.getIn(['data', 'meta_title'])}
             meta_desc={entry.getIn(['data', 'meta_description'])}
             title={entry.getIn(['data', 'title'])}
-            category={entry.getIn(['data', 'category'])}
             slug={entry.getIn(['data', 'slug'])}
             tags={tags && tags.toJS()}
-
           />
         </div>
       </div>
@@ -25,11 +23,11 @@ const GalleryPreview = ({ entry, widgetFor }) => {
   )
 }
 
-GalleryPreview.propTypes = {
+OfferPreview.propTypes = {
   entry: PropTypes.shape({
     getIn: PropTypes.func,
   }),
   widgetFor: PropTypes.func,
 }
 
-export default GalleryPreview
+export default GalleryOffer

@@ -1,7 +1,7 @@
 ---
-templateKey: article-page
-title: ArtOpen
-slug: ArtOpen-studio-reklamy
+templateKey: offer-page
+title: Wydruki reklamowe
+slug: wydruki
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg
 tags:

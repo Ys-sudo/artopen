@@ -10,26 +10,31 @@ const PostCard = (props) => {
         .filter(post => post.node.frontmatter.templateKey === 'article-page')
         .map(({ node: post }) => (
           <div
-            className='content'
+            className='content columns'
             style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
             key={post.id}
           >
-          <img src={post.frontmatter.cover.publicURL} width='200px' style={{backgroundColor:'black'}} />
+          <img src={post.frontmatter.cover.publicURL}  style={{backgroundColor:'lightgreen',width:'40%',marginRight:'5%',borderRadius:'20px',border:'solid 5px #00d1b2'}} />
+          <div>
             <p>
-              <Link className='has-text-primary' to={post.fields.slug}>
+              <Link className='title has-text-primary' to={post.fields.slug+'/'}>
                 {post.frontmatter.title}
               </Link>
-              <span> &bull; </span>
-              <small>{post.frontmatter.date}</small>
-            </p>
-            <p>
-              {post.excerpt}
               <br />
+              <span> &bull; </span>
+              <small><b>{post.frontmatter.date}</b></small>
+              <br />
+
+              <br />
+              {post.excerpt}
+            </p>
+            <p style={{textAlign:'right'}}>
               <br />
               <Link className='button-green' to={post.fields.slug+'/'}>
                 Przeczytaj więcej →
               </Link>
             </p>
+          </div>
           </div>
         ))}
     </div>

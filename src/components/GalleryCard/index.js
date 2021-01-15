@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const GalleryCard = (props) => {
+const OfferCard = (props) => {
   const { posts } = props
   const {cats} = props
   // hides the items
@@ -30,7 +30,7 @@ const GalleryCard = (props) => {
     <div className='catlist' style={{display: 'flex',alignItems:'center',justifyContent:'center', width:'100%'}}>
 
       {cats
-        .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+        .filter(post => post.node.frontmatter.templateKey === 'offer-page')
         .map(({ node: post }) => (
           <div style={{margin:'10px'}}  key={post.id} >
               <a className="button-green" style={{ padding: '10px' }}
@@ -81,4 +81,4 @@ const GalleryCard = (props) => {
 
 
 
-export default GalleryCard
+export default OfferCard
