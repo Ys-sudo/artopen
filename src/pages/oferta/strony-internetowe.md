@@ -1,6 +1,7 @@
 ---
 templateKey: offer-page
 title: Strony internetowe
+desc: Opis
 slug: strony-internetowe
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg

@@ -22,11 +22,17 @@ const OfferCard = (props) => {
             key={post.id}
           >
           <Link to={post.fields.slug+'/'}>
-          <img src={post.frontmatter.cover.publicURL} style={{width:'100%',height:'100%',borderRadius:'10px',marginBottom:'10px'}} />
-
+          <img src={post.frontmatter.cover.publicURL} style={{width:'80%',height:'70%',borderRadius:'10px',marginBottom:'10px'}} />
+          <br></br>
               <Link className='button-green' style={{fontSize:'12px'}} to={post.fields.slug+'/'}>
                 {post.frontmatter.title}
+
               </Link>
+
+              <p>
+              <br></br>
+                {post.frontmatter.desc}
+              </p>
 
           </Link>
 

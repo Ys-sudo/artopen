@@ -1,6 +1,7 @@
 ---
 templateKey: offer-page
 title: filmowanie
+desc: Opis
 slug: filmowanie
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg

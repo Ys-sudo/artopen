@@ -30,7 +30,7 @@ const OfferCard = (props) => {
     <div className='catlist' style={{display: 'flex',alignItems:'center',justifyContent:'center', width:'100%'}}>
 
       {cats
-        .filter(post => post.node.frontmatter.templateKey === 'offer-page')
+        .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
         .map(({ node: post }) => (
           <div style={{margin:'10px'}}  key={post.id} >
               <a className="button-green" style={{ padding: '10px' }}

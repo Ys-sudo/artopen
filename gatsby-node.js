@@ -62,6 +62,7 @@ exports.createPages = ({ actions, graphql }) => {
               tags
               templateKey
               category
+              desc
               date(formatString: "DD. MM. YYYY")
             }
           }

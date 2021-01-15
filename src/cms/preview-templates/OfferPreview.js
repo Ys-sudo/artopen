@@ -14,6 +14,7 @@ const OfferPreview = ({ entry, widgetFor }) => {
             meta_title={entry.getIn(['data', 'meta_title'])}
             meta_desc={entry.getIn(['data', 'meta_description'])}
             title={entry.getIn(['data', 'title'])}
+            desc={entry.getIn(['data', 'desc'])}
             slug={entry.getIn(['data', 'slug'])}
             tags={tags && tags.toJS()}
           />
@@ -30,4 +31,4 @@ OfferPreview.propTypes = {
   widgetFor: PropTypes.func,
 }
 
-export default GalleryOffer
+export default OfferPreview

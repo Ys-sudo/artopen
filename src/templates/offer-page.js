@@ -10,7 +10,7 @@ import Disqus from '../components/Disqus'
 import Layout from '../components/Layout'
 
 const OfferPage = (props) => {
-  const { data: { markdownRemark: { html, fields: { slug }, frontmatter: { title, meta_title, meta_description, cover, date, tags } } } } = props
+  const { data: { markdownRemark: { html, fields: { slug }, frontmatter: { title, meta_title, meta_description, cover, date, tags, desc } } } } = props
 
   return (
     <Layout>
@@ -42,7 +42,7 @@ const OfferPage = (props) => {
                 meta_desc={meta_description}
                 tags={tags}
                 title={title}
-
+                desc={desc}
               />
               <Share
                 title={title}
@@ -96,7 +96,8 @@ export const pageQuery = graphql`
         meta_title
         meta_description
         tags
-        
+        desc
+
       }
     }
   }
