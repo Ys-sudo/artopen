@@ -2,6 +2,7 @@ import CMS from 'netlify-cms-app'
 import '../assets/sass/styles.sass'
 import ArticlePreview from './preview-templates/ArticlePreview'
 import GalleryPreview from './preview-templates/GalleryPreview'
+import OfferPreview from './preview-templates/OfferPreview'
 
 CMS.init({
   config: {

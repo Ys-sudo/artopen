@@ -1,6 +1,7 @@
 ---
 templateKey: offer-page
 title: Branding
+desc: Opis
 slug: branding
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg

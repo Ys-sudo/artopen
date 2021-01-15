@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 import ProgressiveImageContainer from '../ProgressiveImageContainer'
 
 const OfferTemplate = (props) => {
-  const { content, contentComponent, cover, tags, title } = props
+  const { content, contentComponent, cover, tags, title, desc } = props
   const PostContent = contentComponent || Content
 
   return (
@@ -13,6 +13,9 @@ const OfferTemplate = (props) => {
       <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
         {title}
       </h1>
+      <h2 className='subtitle'>
+        {desc}
+      </h2>
 
 
       <ProgressiveImageContainer

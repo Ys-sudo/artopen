@@ -1,6 +1,7 @@
 ---
 templateKey: offer-page
 title: Reklama zewnętrzna
+desc: Opis
 slug: reklama-zewnetrzna
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg

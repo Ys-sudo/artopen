@@ -14,7 +14,7 @@ const GalleryTemplate = (props) => {
         {title}
       </h1>
 
-      <h5>{category}</h5>
+      <h5 className='subtitle' >{category}</h5>
 
       <ProgressiveImageContainer
         image={cover}
