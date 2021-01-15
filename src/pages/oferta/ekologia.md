@@ -1,7 +1,7 @@
 ---
 templateKey: offer-page
-title: ekologia
-desc: Opis
+title: Ekologia
+desc: Poznaj naszą ofertę ekologiczną i zobacz jak możesz zadbać z nami o środowisko.
 slug: ekologia
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg

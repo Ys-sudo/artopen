@@ -1,7 +1,7 @@
 ---
 templateKey: offer-page
 title: Gadżety
-desc: Opis
+desc: Produkujemy ekologiczne gadżety oraz inspirujące karty MAGIC
 slug: gadzety
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg

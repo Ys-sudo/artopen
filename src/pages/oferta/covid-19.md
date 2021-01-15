@@ -1,7 +1,7 @@
 ---
 templateKey: offer-page
 title: COVID-19
-desc: Opis
+desc: Przydatne artykuły do dezynfekcji oraz ochrony zdrowia, w tym m.in. maseczki.
 slug: covid-19
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg

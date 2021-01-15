@@ -1,7 +1,7 @@
 ---
 templateKey: offer-page
-title: Wystawiennictwo - systemy
-desc: Opis
+title: Wystawiennictwo
+desc: Realizujemy całościowe systemy targowe, m.in. ścianki, rollup'y, lady
 slug: wystawiennictwo
 date: 2020-02-05T13:49:14.606Z
 cover: /img/slider_1.jpg

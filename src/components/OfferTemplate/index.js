@@ -72,6 +72,7 @@ const OfferTemplate = (props) => {
 
       </div>
       <hr />
+      
     </div>
     </div>
 

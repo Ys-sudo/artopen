@@ -1,7 +1,7 @@
 ---
 templateKey: offer-page
 title: Kalendarze firmowe
-desc: Opis
+desc: Realizujemy indywidualne kalendarze książkowe, trójdzielne, biurkowe
 slug: kalendarze-firmowe
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg

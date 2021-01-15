@@ -8,7 +8,7 @@ const OfferCard = (props) => {
 
   return (
     <div>
-    
+
     <div className='offert'>
 
       {posts
@@ -18,7 +18,7 @@ const OfferCard = (props) => {
 
           <div
             className='offer'
-            style={{margin:'10px',textAlign:'left',marginBottom:'50px'}}
+            style={{margin:'10px',textAlign:'left',marginBottom:'30px'}}
             key={post.id}
           >
           <Link to={post.fields.slug+'/'}>

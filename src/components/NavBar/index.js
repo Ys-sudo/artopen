@@ -139,12 +139,13 @@ const NavBar = () => {
               PORTFOLIO
             </Link>
 
-            <Link className='navbar-item'  to='/katalogi/'>
-              KATALOGI
-            </Link>
 
             <Link className='navbar-item'  to='/blog/'>
               BLOG
+            </Link>
+
+            <Link className='navbar-item'  to='/katalogi/'>
+              KATALOGI
             </Link>
 
 

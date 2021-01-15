@@ -1,7 +1,7 @@
 ---
 templateKey: offer-page
 title: Kalendarze książkowe
-desc: Opis
+desc: Spersonalizowane kalendarze książkowe
 slug: kalendarze-ksiazkowe
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg
