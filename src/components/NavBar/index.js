@@ -151,24 +151,31 @@ const NavBar = () => {
             <Link className='navbar-item'  to='/kontakt/'>
               KONTAKT
             </Link>
-
-
-
-              <SearchBox searchIndex={data.siteSearchIndex.index} />
-
             </div>
 
             <div className='navbar-item'>
-              <div className='field is-grouped'>
+              <div className='field is-grouped' style={{alignItems:'center'}}>
                 <p className='control'>
                   <Link
                     className='button-green'
                     to='/#'>
-                    Wypełnij brief
+                    Złóż zamówienie
                   </Link>
                 </p>
+
+                <p className='control'>
+                  <Link
+                    className='button-green'
+                    to='/#'>
+                    Sklep online
+                  </Link>
+                </p>
+
+                <SearchBox searchIndex={data.siteSearchIndex.index} />
               </div>
             </div>
+
+
 
 
 
