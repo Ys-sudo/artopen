@@ -15,7 +15,7 @@ const Oferta = () => {
       <meta name='image' content="url img" />
 
       {/* OpenGraph tags */}
-      <meta property='og:url' content={window.location.href} />
+      <meta property='og:url' content="metahref" />
       <meta property='og:type' content='article' />
       <meta property='og:title' content="tytuł" />
       <meta property='og:description' content="opis" />
