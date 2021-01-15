@@ -164,12 +164,12 @@ const NavBar = () => {
                   <Link
                     className='button-green'
                     to='/#'>
-                    Sklep online
+                    Wypełnij brief
                   </Link>
                 </p>
               </div>
             </div>
-            
+
 
 
           </div>

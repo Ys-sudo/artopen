@@ -10,7 +10,7 @@ const Onas = () => {
 
     <Helmet>
       {/* General tags */}
-      <title>Tytuł meta</title>
+      <title>O nas | ArtOpen</title>
       <meta name='description' content="opis meta" />
       <meta name='image' content="url img" />
 
@@ -59,13 +59,33 @@ const Onas = () => {
               <div className='section'>
 
               <h2 className='title'>
-                O nas
+                tytuł 2
               </h2>
-              <br></br>
-              <h3 className='title'> Lorem Ipsum dolorum sit amet </h3>
-              <br></br>
-              <h4 className='title is-bold is-medium'> Nasz zespół </h4>
 
+              <br></br>
+
+              <h3 className='title'>
+                tytuł 3
+              </h3>
+
+              <br></br>
+
+              <h4 className='title is-bold is-medium'>
+                tytuł 4
+              </h4>
+
+              <br></br>
+
+              <h5 className='title'>
+                tytuł 5
+              </h5>
+
+              <br></br>
+
+              <h6 className='title'>
+                tytuł 6
+              </h6>
+              
               </div>
             </div>
           </div>

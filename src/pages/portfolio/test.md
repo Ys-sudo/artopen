@@ -8,6 +8,6 @@ tags:
   - ok
 meta_title: ok
 meta_description: k
-category: kalendarze
+category: kategoria
 ---
 Try

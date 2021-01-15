@@ -26,19 +26,20 @@ const GalleryCard = (props) => {
 
   return (
     <div>
-    {/*
+
     <div className='catlist' style={{display: 'flex',alignItems:'center',justifyContent:'center', width:'100%'}}>
 
       {cats
         .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
         .map(({ node: post }) => (
-          <div key={post.id} >
-              <button style={{ padding: '10px' }}
+          <div style={{margin:'10px'}}  key={post.id} >
+              <a className="button-green" style={{ padding: '10px' }}
               onClick={filterGallery}
-              >{post.frontmatter.category}</button>
+              >{post.frontmatter.category}</a>
           </div>
         ))}
-    </div> */}
+    </div>
+    <br></br>
 
     <div className='portfolio'>
 
