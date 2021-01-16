@@ -4,30 +4,44 @@ import { Link } from 'gatsby'
 const OfferCard = (props) => {
   const { posts } = props
   const {cats} = props
+
   // hides the items
   const filterGallery = (event) =>{
     console.log(event.currentTarget.innerHTML);
+
     let name = event.currentTarget.innerHTML;
+
     let all = document.getElementsByClassName(name);
+
     let rest = document.getElementsByClassName('portfo');
+
+    let nav = document.getElementsByClassName('port-nav');
 
     console.log(rest.length);
 
+    for (let i =0;i<all.length;i++){
+      all[i].style.display = 'none';
+    }
 
     for (let i =0;i<rest.length;i++){
-      rest[i].style.display = 'none';
+      rest[i].style.display = 'block';
     }
-    for (let i =0;i<all.length;i++){
-      all[i].style.display = 'block';
-    }
+
+
+
+
   }
 
 
 
   return (
+
+
     <div>
 
-    <div className='catlist' style={{display: 'flex',alignItems:'center',justifyContent:'center', width:'100%'}}>
+    
+
+    {/*<div className='catlist' style={{display: 'flex',alignItems:'center',justifyContent:'center', width:'100%'}}>
 
       {cats
         .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
@@ -38,7 +52,7 @@ const OfferCard = (props) => {
               >{post.frontmatter.category}</a>
           </div>
         ))}
-    </div>
+    </div>*/}
     <br></br>
 
     <div className='portfolio'>
@@ -50,13 +64,13 @@ const OfferCard = (props) => {
 
           <div
             className={post.frontmatter.category + ' portfo'}
-            style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
+            style={{ margin:'20px'  }}
             key={post.id}
           >
 
-          <img src={post.frontmatter.cover.publicURL} width='200px' style={{backgroundColor:'black'}} />
+          <img src={post.frontmatter.cover.publicURL} width='100%' style={{borderRadius:'10px'}} />
             <p>
-              <Link className='has-text-primary' to={post.fields.slug}>
+              <Link className='has-text-primary' to={post.fields.slug+'/'}>
                 {post.frontmatter.title}
               </Link>
               <span> &bull; </span>
@@ -64,12 +78,9 @@ const OfferCard = (props) => {
             </p>
             <h6>{post.frontmatter.category}</h6>
             <p>
-              {post.excerpt}
               <br />
               <br />
-              <Link className='button-green' to={post.fields.slug}>
-                Przeczytaj więcej →
-              </Link>
+
             </p>
           </div>
         ))}

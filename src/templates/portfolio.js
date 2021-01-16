@@ -45,21 +45,78 @@ const PortfolioPage = (props) => {
       </Helmet>
       <section className='hero is-primary is-bold'>
         <div className='hero-body'>
-          <div className='container'>
-            <div className='columns'>
-              <div className='column is-10 is-offset-1'>
-                <div className='section'>
-                  <h1 className='title'>
-                    Portfolio
-                  </h1>
-                </div>
-              </div>
-            </div>
+        <div className='container section'>
+          <div className='columns section'>
+
+
+                <h1 className='title' style={{fontSize:'50px'}}>
+                  Portfolio
+                </h1>
+
+
           </div>
         </div>
+
+        </div>
       </section>
-      <div><br></br></div>
-      <section className='section' style={{padding: '0px', margin:'0px'}}>
+
+      <br></br>
+      <br></br>
+
+      <div className="portfolio section" style={{padding: '0px', textAlign:'center', marginLeft:'10%',marginRight:'10%'}}>
+
+      <div className=" port-nav portfo">
+        <a href="#" className='button-green'>projekty graficzne</a>
+      </div>
+
+      <div className=" port-nav portfo">
+        <a href="#" className='button-green'>strony internetowe</a>
+      </div>
+
+      <div className=" port-nav portfo">
+        <a href="#" className='button-green'>identyfikacje wizualne</a>
+      </div>
+
+      <div className=" port-nav portfo">
+        <a href="#" className='button-green'>kalendarze książkowe</a>
+      </div>
+
+
+      <div className=" port-nav portfo">
+        <a href="#" className='button-green'>kalendarze drukowane</a>
+      </div>
+
+      <div className=" port-nav portfo">
+        <a href="#" className='button-green'>gadżety reklamowe</a>
+      </div>
+
+      <div className=" port-nav portfo">
+        <a href="#" className='button-green'>wydruki reklamowe</a>
+      </div>
+
+      <div className=" port-nav portfo">
+        <a href="#" className='button-green'>reklamy outdoor</a>
+      </div>
+
+
+      <div className=" port-nav portfo">
+        <a href="#" className='button-green'>fotografia marketingowa</a>
+      </div>
+
+      <div className=" port-nav portfo">
+        <a href="#" className='button-green'>systemy wystawiennicze</a>
+      </div>
+
+      <div className=" port-nav portfo">
+        <a href="#" className='button-green'>filmy reklamowe</a>
+      </div>
+
+      <div className=" port-nav portfo">
+        <a href="#" className='button-green'>opakowania</a>
+      </div>
+
+      </div>
+      <section className='section' style={{padding: '0px', marginLeft:'10%',marginRight:'10%'}}>
         <GalleryCard posts={group} cats={group} />
         <section className='section'>
           <div className='buttons is-centered'>

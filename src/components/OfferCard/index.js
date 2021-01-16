@@ -26,9 +26,9 @@ const OfferCard = (props) => {
 
           <br></br>
           <div style={{textAlign:'left'}}>
-              <Link className='is-title' style={{fontSize:'12px',color:'#00d1b2',fontSize:'15px'}} to={post.fields.slug+'/'}>
+              <p className='is-title' style={{fontSize:'12px',color:'#00d1b2',fontSize:'15px'}} to={post.fields.slug+'/'}>
                 <strong>{post.frontmatter.title}</strong>
-              </Link>
+              </p>
 
               <p style={{color:'#333333',fontSize:'12px'}}>
                 {post.frontmatter.desc}

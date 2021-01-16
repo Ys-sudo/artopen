@@ -45,28 +45,30 @@ const OfertaPage = (props) => {
       </Helmet>
       <section className='hero is-primary is-bold'>
         <div className='hero-body'>
-          <div className='container'>
-            <div className='columns'>
-              <div className='column is-10 is-offset-1'>
-                <div className='section'>
-                  <h1 className='title'>
-                    Oferta - Studio ArtOpen
-                  </h1>
-                </div>
-              </div>
-            </div>
+        <div className='container section'>
+          <div className='columns section'>
+
+
+                <h1 className='title' style={{fontSize:'50px'}}>
+              Oferta 
+                </h1>
+
+
           </div>
+        </div>
         </div>
       </section>
 
-      <div style={{textAlign:'center'}}>
+      <div style={{textAlign:'center',marginTop:'50px'}}>
       <br></br>
 
-      <h2 className='subtitle'>
-      <b>  Zakres naszych działań: </b>
+      <h2 className='title'>
+       Zakres naszych <b>działań</b>:
       </h2>
+      <subtitle className='subtitle'>Zapraszamy do zapoznania się z oferowanymi przez nas usługami.</subtitle>
+
       </div>
-      <section className='section' style={{padding: '0px', margin:'0px'}}>
+      <section className='section' style={{padding: '0px', margin:'0px',marginTop:'50px'}}>
         <OfferCard posts={group} />
         <section className='section'>
           <div className='buttons is-centered'>

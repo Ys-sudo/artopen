@@ -206,7 +206,7 @@ module.exports = {
       resolve: `@gatsby-contrib/gatsby-plugin-elasticlunr-search`,
       options: {
         // Fields to index
-        fields: [`title`, `tags`, `author`, `slug`],
+        fields: [`title`, `tags`, `author`, `slug`, `category`,`subtitle`],
         // How to resolve each field`s value for a supported node type
         resolvers: {
           // For any node of type MarkdownRemark, list how to resolve the fields` values
@@ -215,6 +215,8 @@ module.exports = {
             author: node => node.frontmatter.author,
             tags: node => node.frontmatter.tags,
             slug: node => node.fields.slug,
+            category: node => node.frontmatter.category,
+            subtitle: node => node.frontmatter.subtitle,
             templateKey: node => node.frontmatter.templateKey,
           },
         },

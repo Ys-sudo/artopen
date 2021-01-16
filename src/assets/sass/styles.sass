@@ -104,18 +104,22 @@ nav
   color: white
 .portfolio,
   display: flex
+  flex-wrap: wrap
 .portfo
-  width: 25% !important
+  width: 21% !important
 
 .offert
   display: flex
   flex-wrap: wrap
-  margin-left: 10%
+  margin-left: 15%
   margin-right: 10%
   margin-top: 2%
 .offer
   width: 17% !important
-
+.port-nav
+  background-color: white
+  padding: 10px
+  width: 25% !important
 
 @import "~bulma"
 
@@ -132,6 +136,8 @@ nav
     flex-wrap: wrap
   .portfo
     width: 50% !important
+  .navbar-end
+    margin-left: 0px !important
 
 +mobile
   .portfolio
@@ -143,3 +149,5 @@ nav
     top: auto
     left: auto
     padding-left: 30px
+  .navbar-end
+    margin-left: 0px !important

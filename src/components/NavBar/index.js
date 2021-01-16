@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import SearchBox from '../SearchBox'
+import { ModalForm } from '../../components/ModalForm'
 
 const NavBar = () => {
   const [active, setActive] = useState(false)
@@ -10,8 +11,8 @@ const NavBar = () => {
     console.log(document.getElementsByClassName('subMenu')[0].style.display == 'none');
 
       document.getElementsByClassName('subMenu')[0].style.display = 'block';
-      document.getElementsByClassName('subMenu')[0].style.transition = 'opacity 1s';
-      document.getElementsByClassName('subMenu')[0].style.opacity = '1';
+      document.getElementsByClassName('subMenu')[0].style.transition = 'opacity 0.5s';
+      setTimeout(function(){document.getElementsByClassName('subMenu')[0].style.opacity = '1';},500);
 
   }
   const hideSubMenu = () => {
@@ -21,6 +22,23 @@ const NavBar = () => {
       document.getElementsByClassName('subMenu')[0].style.transition = 'opacity 1s';
       document.getElementsByClassName('subMenu')[0].style.opacity = '0';
       setTimeout(function(){document.getElementsByClassName('subMenu')[0].style.display = 'none';},1000);
+
+  }
+
+  const modalEnter = () => {
+
+    console.log('enter modal');
+    document.getElementById('modal').style.display = 'block';
+    document.getElementById('modal').style.transition = 'opacity 0.5s';
+    setTimeout(function(){document.getElementById('modal').style.opacity = '1';},500);
+  }
+  const modalDestroy = () => {
+
+    console.log('destroy modal');
+
+    document.getElementById('modal').style.transition = 'opacity 1s';
+    document.getElementById('modal').style.opacity = '0';
+    setTimeout(function(){document.getElementById('modal').style.display = 'none';},1000);
 
   }
 
@@ -159,7 +177,8 @@ const NavBar = () => {
                 <p className='control'>
                   <Link
                     className='button-green'
-                    to='/#'>
+                    to='#'
+                    onClick={modalEnter}>
                     Złóż zamówienie
                   </Link>
                 </p>
@@ -176,7 +195,16 @@ const NavBar = () => {
               </div>
             </div>
 
+            <div id='modal'
+            style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'white',zIndex:'200'}}>
+              <div style={{marginLeft:'10%',marginRight:'10%',paddingTop:'5%'}}>
 
+                  <a className='button-green' style={{fontSize:'30px'}} onMouseOver={modalDestroy} >&nbsp;x&nbsp;</a>
+                  <ModalForm />
+
+              </div>
+
+            </div>
 
 
 

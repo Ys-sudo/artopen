@@ -45,19 +45,25 @@ const BlogPage = (props) => {
       </Helmet>
       <section className='hero is-primary is-bold'>
         <div className='hero-body'>
-          <div className='container'>
-            <div className='columns'>
-              <div className='column is-10 is-offset-1'>
-                <div className='section'>
-                  <h1 className='title'>
-                    Blog
-                  </h1>
-                </div>
-              </div>
-            </div>
+        <div className='container section'>
+          <div className='columns section'>
+
+
+                <h1 className='title' style={{fontSize:'50px'}}>
+                  Blog
+                </h1>
+
+
           </div>
         </div>
+        </div>
       </section>
+
+      <div style={{marginLeft:'10%',marginTop:'50px',marginRight:'10%'}}>
+      <h2 className='title'> Witaj na blogu studia ArtOpen.</h2>
+      <h3 className='subtitle'> Piszemy tutaj artykuły z zakresu aktualności, eventów oraz innowacji.</h3>
+      </div>
+
       <section className='section'>
         <PostCard posts={group} />
         <section className='section'>
