@@ -9,7 +9,7 @@ const ContactCall = () => {
         <div className='columns section'>
           <div>
             <h5 className='title'>
-              Zacznijmy wspólny projekt.
+              Zacznijmy wspólny projekt już dziś.
             </h5>
             <h6 className='subtitle'>
               Postaw na doświadczenie i profesjonalizm.
@@ -17,7 +17,7 @@ const ContactCall = () => {
           </div>
         </div>
         <div style={{textAlign:'center'}}>
-          <a className='button-white' style={{fontSize:'20px',fontWeight:'800'}} href="/kontakt/" > Skontaktuj się z nami! </a>
+          <a className='button-white' style={{fontSize:'14px',fontWeight:'800'}} href="/kontakt/" > Skontaktuj się z nami! </a>
         </div>
       </div>
 

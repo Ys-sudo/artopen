@@ -175,20 +175,20 @@ const NavBar = () => {
             <div className='navbar-item'>
               <div className='field is-grouped' style={{alignItems:'center'}}>
                 <p className='control'>
-                  <Link
+                  <a
                     className='button-green'
-                    to='#'
+
                     onClick={modalEnter}>
                     Złóż zamówienie
-                  </Link>
+                  </a>
                 </p>
 
                 <p className='control'>
-                  <Link
+                  <a
                     className='button-green'
-                    to='/#'>
+                    href='/#'>
                     Sklep online
-                  </Link>
+                  </a>
                 </p>
 
                 <SearchBox searchIndex={data.siteSearchIndex.index} />

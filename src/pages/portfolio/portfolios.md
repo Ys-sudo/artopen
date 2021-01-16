@@ -7,8 +7,8 @@ cover: /img/slider_2.jpg
 tags:
   - Portfolio
 meta_description: Portfolio
-category: strony-www
+category: strony internetowe
 meta_title: Portfolio
-Category: strony www
+
 ---
 Portfolio

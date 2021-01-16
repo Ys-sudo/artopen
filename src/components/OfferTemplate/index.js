@@ -27,12 +27,19 @@ const OfferTemplate = (props) => {
           <div className='columns'>
             <div className='column is-10 is-offset-1'>
               <div className='section'>
-                <h1 className='title'>
-                  {title}
-                </h1>
-                <subtitle className='subtitle'>
-                  {desc}
-                </subtitle>
+              <div style={{textAlign:'center'}}>
+              <img alt={title} src={icon.publicURL} style={{filter:' brightness(0) invert(1)',width:'35px',height:'35px',marginBottom:'5px'}} />
+              <h1 className='title'>
+                {title}
+              </h1>
+
+              </div>
+              <br></br>
+              <h2 className='subtitle'>
+                {desc}
+              </h2>
+
+
 
 
               </div>
@@ -50,7 +57,7 @@ const OfferTemplate = (props) => {
 
       <div style={{marginLeft:'10%',marginRight:'10%'}}>
 
-      <h2 className='title'><strong> {subtitle} </strong></h2>
+      <h3 className='title'><strong> {subtitle} </strong></h3>
 
       <PostContent content={content} />
 
@@ -72,7 +79,7 @@ const OfferTemplate = (props) => {
 
       </div>
       <hr />
-      
+
     </div>
     </div>
 

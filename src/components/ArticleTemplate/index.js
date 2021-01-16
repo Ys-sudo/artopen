@@ -17,6 +17,8 @@ const ArticleTemplate = (props) => {
         image={cover}
         alt={title}
       />
+      <br></br>
+      <br></br>
       <PostContent content={content} />
       <div style={{ marginTop: `4rem` }}>
         <h4>Tagi:</h4>

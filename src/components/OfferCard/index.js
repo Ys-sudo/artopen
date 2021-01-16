@@ -18,7 +18,7 @@ const OfferCard = (props) => {
 
           <div
             className='offer'
-            style={{margin:'10px',textAlign:'left',marginBottom:'30px',backgroundColor:'#f5f6f5',borderRadius:'10px',padding:'10px'}}
+            style={{margin:'10px',textAlign:'left',marginBottom:'30px',border:'1px solid #f5f5f5',borderRadius:'10px',padding:'10px'}}
             key={post.id}
 
           >

@@ -87,11 +87,6 @@ export const pageQuery = graphql`
         date(formatString: "DD. MM. YYYY")
         title
         icon {
-            childImageSharp {
-              fluid(maxWidth: 500, quality: 72) {
-                  ...GatsbyImageSharpFluid
-                }
-            }
             publicURL
         }
         cover {

@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import config from '../../config'
 import Helmet from 'react-helmet'
 import PostCard from '../components/PostCard'
+import ContactCall from '../components/ContactCall'
 import Layout from '../components/Layout'
 
 const PaginationLink = props => {
@@ -60,7 +61,7 @@ const BlogPage = (props) => {
         </div>
       </section>
 
-      <div style={{marginLeft:'10%',marginTop:'50px',marginRight:'10%'}}>
+      <div style={{marginLeft:'7%',marginTop:'50px',marginRight:'10%'}}>
       <h2 className='title'> Witaj na blogu studia ArtOpen.</h2>
       <h3 className='subtitle'> Piszemy tutaj artykuły z zakresu aktualności, eventów oraz innowacji.</h3>
       </div>
@@ -73,7 +74,9 @@ const BlogPage = (props) => {
             <PaginationLink test={last} url={nextUrl} text='>' />
           </div>
         </section>
+
       </section>
+      <ContactCall/>
     </Layout>
   )
 }

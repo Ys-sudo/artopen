@@ -8,6 +8,6 @@ tags:
   - ok
 meta_title: ok
 meta_description: k
-category: kategoria
+category: projekty graficzne
 ---
 Try

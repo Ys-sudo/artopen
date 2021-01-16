@@ -8,6 +8,6 @@ tags:
   - test
 meta_title: test
 meta_description: test 2
-category: kalendarze
+category: projekty graficzne
 ---
 Test <button class="button-green">przycisk</button>

@@ -11,7 +11,7 @@ const PostCard = (props) => {
         .map(({ node: post }) => (
           <div
             className='content columns'
-            style={{marginBottom:'3%', backgroundColor:'#f5f5f5', borderRadius:'15px', padding: '2em 4em' }}
+            style={{marginBottom:'3%', border:'2px solid #f5f5f5', borderRadius:'15px', padding: '2em 4em' }}
             key={post.id}
           >
           <img src={post.frontmatter.cover.publicURL}  style={{backgroundColor:'lightgreen',width:'40%',marginRight:'5%',borderRadius:'20px',border:'solid 5px #00d1b2'}} />

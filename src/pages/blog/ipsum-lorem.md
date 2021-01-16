@@ -1,18 +1,20 @@
 ---
-templateKey: offer-page
-title: Branding
-desc: Wykonujemy pełne systemy identyfikacji wizualnej dla firm, marek i instytucji.
-slug: branding
-date: 2020-12-05T13:49:14.606Z
-cover: /img/slider_1.jpg
-icon: /img/pencil-ruler.svg
-subtitle: podtytuł
+templateKey: article-page
+title: ipsum lorem
+slug: lorem-ipsum-dolor-situm
+date: 2018-03-29T03:55:49.370Z
+cover: /img/slider_2.jpg
+meta_title: Lorem Ipsum Dolor Situm
+meta_description: >-
+  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
+  consectetur purus sit amet fermentum.
 tags:
-  - Studio Reklamy
-  - agencja interaktywna
-meta_title: tytuł meta
-meta_description: opis meta
+  - lorem
+  - ipsum
 ---
+
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
