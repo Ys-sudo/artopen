@@ -5,7 +5,7 @@ desc: Produkujemy ekologiczne gadżety oraz inspirujące karty MAGIC
 slug: gadzety
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg
-icon: /img/slider_2.jpg
+icon: /img/lightbulb.svg
 subtitle: podtytuł
 tags:
   - Studio Reklamy

@@ -5,7 +5,7 @@ desc: Wykonujemy pełne systemy identyfikacji wizualnej firm
 slug: branding
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg
-icon: /img/slider_2.jpg
+icon: /img/pencil-ruler.svg
 subtitle: podtytuł
 tags:
   - Studio Reklamy

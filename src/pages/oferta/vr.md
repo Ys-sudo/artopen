@@ -5,7 +5,7 @@ desc: Kreujemy rzeczywistość wirtualną dla biznesu, instytucji kultury i mare
 slug: vr
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg
-icon: /img/slider_2.jpg
+icon: /img/vr-cardboard.svg
 subtitle: podtytuł
 tags:
   - Studio Reklamy

@@ -18,15 +18,17 @@ const OfferCard = (props) => {
 
           <div
             className='offer'
-            style={{margin:'10px',textAlign:'left',marginBottom:'30px'}}
+            style={{margin:'10px',textAlign:'left',marginBottom:'30px',backgroundColor:'#f5f6f5',borderRadius:'10px',padding:'10px'}}
             key={post.id}
+
           >
           <Link to={post.fields.slug+'/'}>
-          <img alt={post.frontmatter.title} src={post.frontmatter.icon.publicURL} style={{width:'100px',height:'100px',borderRadius:'10px',marginBottom:'5px'}} />
+
+          <img alt={post.frontmatter.title} src={post.frontmatter.icon.publicURL} style={{width:'35px',height:'35px',marginBottom:'5px'}} />
 
           <br></br>
           <div style={{textAlign:'left'}}>
-              <p className='is-title' style={{fontSize:'12px',color:'#00d1b2',fontSize:'15px'}} to={post.fields.slug+'/'}>
+              <p className='is-title' style={{fontSize:'13px',color:'#00d1b2'}} to={post.fields.slug+'/'}>
                 <strong>{post.frontmatter.title}</strong>
               </p>
 

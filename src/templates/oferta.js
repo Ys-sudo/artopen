@@ -4,6 +4,7 @@ import config from '../../config'
 import Helmet from 'react-helmet'
 import OfferCard from '../components/OfferCard'
 import Layout from '../components/Layout'
+import ContactCall from '../components/ContactCall'
 
 const PaginationLink = props => {
   if (!props.test) {
@@ -50,7 +51,7 @@ const OfertaPage = (props) => {
 
 
                 <h1 className='title' style={{fontSize:'50px'}}>
-              Oferta 
+              Oferta
                 </h1>
 
 
@@ -65,7 +66,7 @@ const OfertaPage = (props) => {
       <h2 className='title'>
        Zakres naszych <b>działań</b>:
       </h2>
-      <subtitle className='subtitle'>Zapraszamy do zapoznania się z oferowanymi przez nas usługami.</subtitle>
+      <h3 className='subtitle'>Zapraszamy do zapoznania się z oferowanymi przez nas usługami.</h3>
 
       </div>
       <section className='section' style={{padding: '0px', margin:'0px',marginTop:'50px'}}>
@@ -76,6 +77,7 @@ const OfertaPage = (props) => {
             <PaginationLink test={last} url={nextUrl} text='>' />
           </div>
         </section>
+        <ContactCall/>
       </section>
     </Layout>
   )

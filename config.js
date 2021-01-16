@@ -13,7 +13,7 @@ module.exports = {
   userTwitter: '',
   userLocation: 'Wrocław, Poland',
   userDescription: '',
-  copyright: 'Artopen | 2021 Wszelkie prawa zastrzeżone', // Copyright string for the footer of the website and RSS feed.
+  copyright: 'ArtOpen | 2021 Wszelkie prawa zastrzeżone', // Copyright string for the footer of the website and RSS feed.
   themeColor: '#00d1b2', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff', // Used for setting manifest background color.
   cookieConsent: 'Ta strona używa ciasteczek.', // @TODO Add GDPR Cookie Consent

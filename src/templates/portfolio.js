@@ -47,14 +47,17 @@ const PortfolioPage = (props) => {
         <div className='hero-body'>
         <div className='container section'>
           <div className='columns section'>
-
-
-                <h1 className='title' style={{fontSize:'50px'}}>
-                  Portfolio
-                </h1>
-
-
+            <div>
+              <h1 className='title' style={{fontSize:'50px'}}>
+                Portfolio
+              </h1>
+              <h2 className='subtitle'>
+                Zapraszamy do zapoznania się z naszymi realizacjami
+              </h2>
+            </div>
           </div>
+
+
         </div>
 
         </div>
@@ -63,57 +66,64 @@ const PortfolioPage = (props) => {
       <br></br>
       <br></br>
 
+      <div style={{padding: '0px', marginLeft:'10%',marginRight:'10%',marginBottom:'50px'}}>
+        <h3 className='title'> Poznaj szczegóły naszej pracy: </h3>
+
+        <h4 className='subtitle'> Wybrane realizacje według kategori: </h4>
+      </div>
+
+
       <div className="portfolio section" style={{padding: '0px', textAlign:'center', marginLeft:'10%',marginRight:'10%'}}>
 
-      <div className=" port-nav portfo">
-        <a href="#" className='button-green'>projekty graficzne</a>
-      </div>
+          <div className=" port-nav portfo">
+            <a href="#" className='button-green'>projekty graficzne</a>
+          </div>
 
-      <div className=" port-nav portfo">
-        <a href="#" className='button-green'>strony internetowe</a>
-      </div>
+          <div className=" port-nav portfo">
+            <a href="#" className='button-green'>strony internetowe</a>
+          </div>
 
-      <div className=" port-nav portfo">
-        <a href="#" className='button-green'>identyfikacje wizualne</a>
-      </div>
+          <div className=" port-nav portfo">
+            <a href="#" className='button-green'>identyfikacje wizualne</a>
+          </div>
 
-      <div className=" port-nav portfo">
-        <a href="#" className='button-green'>kalendarze książkowe</a>
-      </div>
-
-
-      <div className=" port-nav portfo">
-        <a href="#" className='button-green'>kalendarze drukowane</a>
-      </div>
-
-      <div className=" port-nav portfo">
-        <a href="#" className='button-green'>gadżety reklamowe</a>
-      </div>
-
-      <div className=" port-nav portfo">
-        <a href="#" className='button-green'>wydruki reklamowe</a>
-      </div>
-
-      <div className=" port-nav portfo">
-        <a href="#" className='button-green'>reklamy outdoor</a>
-      </div>
+          <div className=" port-nav portfo">
+            <a href="#" className='button-green'>kalendarze książkowe</a>
+          </div>
 
 
-      <div className=" port-nav portfo">
-        <a href="#" className='button-green'>fotografia marketingowa</a>
-      </div>
+          <div className=" port-nav portfo">
+            <a href="#" className='button-green'>kalendarze drukowane</a>
+          </div>
 
-      <div className=" port-nav portfo">
-        <a href="#" className='button-green'>systemy wystawiennicze</a>
-      </div>
+          <div className=" port-nav portfo">
+            <a href="#" className='button-green'>gadżety reklamowe</a>
+          </div>
 
-      <div className=" port-nav portfo">
-        <a href="#" className='button-green'>filmy reklamowe</a>
-      </div>
+          <div className=" port-nav portfo">
+            <a href="#" className='button-green'>wydruki reklamowe</a>
+          </div>
 
-      <div className=" port-nav portfo">
-        <a href="#" className='button-green'>opakowania</a>
-      </div>
+          <div className=" port-nav portfo">
+            <a href="#" className='button-green'>reklamy outdoor</a>
+          </div>
+
+
+          <div className=" port-nav portfo">
+            <a href="#" className='button-green'>fotografia marketingowa</a>
+          </div>
+
+          <div className=" port-nav portfo">
+            <a href="#" className='button-green'>systemy wystawiennicze</a>
+          </div>
+
+          <div className=" port-nav portfo">
+            <a href="#" className='button-green'>filmy reklamowe</a>
+          </div>
+
+          <div className=" port-nav portfo">
+            <a href="#" className='button-green'>opakowania</a>
+          </div>
 
       </div>
       <section className='section' style={{padding: '0px', marginLeft:'10%',marginRight:'10%'}}>

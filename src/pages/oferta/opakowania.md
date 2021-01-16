@@ -5,7 +5,7 @@ desc: Produkujemy opakowania z wykrojnika o indywidualnych parametrach
 slug: opakowania
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg
-icon: /img/slider_2.jpg
+icon: /img/box-open.svg
 subtitle: podtytuł
 tags:
   - Studio Reklamy

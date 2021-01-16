@@ -5,7 +5,7 @@ desc: Realizujemy indywidualne kalendarze książkowe, trójdzielne, biurkowe
 slug: kalendarze-firmowe
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg
-icon: /img/slider_2.jpg
+icon: /img/calendar-alt.svg
 subtitle: podtytuł
 tags:
   - Studio Reklamy

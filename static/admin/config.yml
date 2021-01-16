@@ -4,7 +4,7 @@ backend:
 
 site_url: https://artopen.netlify.app
 display_url: https://artopen.netlify.app
-logo_url: https://gatsby-business-starter.netlify.app/icons/icon-512x512.png
+logo_url: static/icons/icon-512-512.png
 publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img

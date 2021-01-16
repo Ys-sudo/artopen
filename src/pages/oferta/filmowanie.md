@@ -5,7 +5,7 @@ desc: Kręcimy filmy oraz spoty reklamowe według określonego scenariusza
 slug: filmowanie
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg
-icon: /img/slider_2.jpg
+icon: /img/film.svg
 subtitle: podtytuł
 tags:
   - Studio Reklamy
