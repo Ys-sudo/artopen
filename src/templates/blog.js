@@ -47,13 +47,14 @@ const BlogPage = (props) => {
         <div className='hero-body'>
         <div className='container section'>
           <div className='columns section'>
-
-
-                <h1 className='title' style={{fontSize:'50px'}}>
-                  Blog
-                </h1>
-
-
+            <div>
+              <h1 className='title' style={{fontSize:'50px'}}>
+                Blog
+              </h1>
+              <h2 className='subtitle'>
+                Zapraszamy do lektury.
+              </h2>
+            </div>
           </div>
         </div>
         </div>

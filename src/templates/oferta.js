@@ -48,13 +48,14 @@ const OfertaPage = (props) => {
         <div className='hero-body'>
         <div className='container section'>
           <div className='columns section'>
-
-
-                <h1 className='title' style={{fontSize:'50px'}}>
-              Oferta
-                </h1>
-
-
+            <div>
+              <h1 className='title' style={{fontSize:'50px'}}>
+                Oferta
+              </h1>
+              <h2 className='subtitle'>
+                Poznaj nasze kwalifikacje.
+              </h2>
+            </div>
           </div>
         </div>
         </div>
