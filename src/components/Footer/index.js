@@ -9,7 +9,7 @@ const Footer = (props) => {
         <div className='content has-text-centered'>
 
           <p style={{color:'white',fontSize:'12px'}}>
-            {copyright} | <a  href="#"> Polityka prywatności </a>
+            {copyright} | <a  href="/polityka-prywatnosci/"> Polityka prywatności </a>
           </p>
 
         </div>

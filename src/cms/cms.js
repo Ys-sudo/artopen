@@ -4,6 +4,13 @@ import ArticlePreview from './preview-templates/ArticlePreview'
 import GalleryPreview from './preview-templates/GalleryPreview'
 import OfferPreview from './preview-templates/OfferPreview'
 
+import PolicyPagePreview from './preview-templates/PolicyPagePreview'
+
+
+import ContactPagePreview from './preview-templates/ContactPagePreview'
+import HomePagePreview from './preview-templates/HomePagePreview'
+import AboutPagePreview from './preview-templates/AboutPagePreview'
+
 CMS.init({
   config: {
     backend: {
@@ -12,6 +19,12 @@ CMS.init({
   },
 })
 CMS.registerPreviewStyle('/styles.sass')
-CMS.registerPreviewTemplate('blog', ArticlePreview)
-CMS.registerPreviewTemplate('portfolio', GalleryPreview)
-CMS.registerPreviewTemplate('oferta', OfferPreview)
+CMS.registerPreviewTemplate('Blog', ArticlePreview)
+CMS.registerPreviewTemplate('Portfolio', GalleryPreview)
+CMS.registerPreviewTemplate('Oferta', OfferPreview)
+
+CMS.registerPreviewTemplate('Kontakt', ContactPagePreview)
+CMS.registerPreviewTemplate('Home', HomePagePreview)
+CMS.registerPreviewTemplate('O nas', AboutPagePreview)
+
+CMS.registerPreviewTemplate('Polityka', PolicyPagePreview)

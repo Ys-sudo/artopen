@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import config from '../../config'
 import Helmet from 'react-helmet'
 import OfferCard from '../components/OfferCard'
+import GalleryCard from '../components/OfferCard'
 import Layout from '../components/Layout'
 import ContactCall from '../components/ContactCall'
 

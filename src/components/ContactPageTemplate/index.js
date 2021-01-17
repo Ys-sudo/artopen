@@ -1,18 +1,17 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
-import { ContactForm } from '../../components/forms'
-import Layout from '../../components/Layout'
+import { ContactForm } from '../forms'
 
-const StronaKontakt = () => {
+const ContactPageTemplate = (props) => {
+  const { title, subtitle, meta_title, meta_description } = props
 
   return (
     <div>
       <Helmet>
-        <title>meta_title</title>
-        <meta name='description' content="{meta_description}" />
+        <title>{meta_title}</title>
+        <meta name='description' content={meta_description} />
       </Helmet>
-      <Layout>
       <section className='hero is-primary is-bold is-medium'>
         <div className='hero-body'>
           <div className='container'>
@@ -20,10 +19,10 @@ const StronaKontakt = () => {
               <div className='column is-10 is-offset-1'>
                 <div className='section'>
                   <h1 className='title'>
-                    Kontakt
+                    {title}
                   </h1>
                   <h2 className='subtitle'>
-                    Skontaktuj się z nami!
+                    {subtitle}
                   </h2>
                 </div>
               </div>
@@ -31,17 +30,20 @@ const StronaKontakt = () => {
           </div>
         </div>
       </section>
-      <div className='hero'>
-      <div className='hero-body'>
-        <div className='container' style={{marginLeft:'10%',marginRight:'10%'}}>
+      <section className='section'>
+        <div className='container'>
           <ContactForm />
         </div>
-      </div>
-      </div>
-      </Layout>
+      </section>
     </div>
   )
 }
 
+ContactPageTemplate.propTypes = {
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+  meta_title: PropTypes.string,
+  meta_description: PropTypes.string,
+}
 
-export default StronaKontakt
+export default ContactPageTemplate
