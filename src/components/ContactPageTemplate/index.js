@@ -14,11 +14,7 @@ const ContactPageTemplate = (props) => {
       <Helmet>
         <title>{meta_title}</title>
         <meta name='description' content={meta_description} />
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-        <script
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYExoIV_J6ELf-LirWfgFasKU38FBoYJA&callback=initMap&libraries=&v=weekly"
-          defer
-        ></script>
+
 
       </Helmet>
 
@@ -49,7 +45,6 @@ const ContactPageTemplate = (props) => {
       </div>
 
       <MapContainer />
-
 
 
     </div>

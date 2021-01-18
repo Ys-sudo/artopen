@@ -17,34 +17,42 @@ const Footer = (props) => {
           <h5><b>Oferta</b></h5>
           <br />
           <a className='submenu-item' href='/covid-19/'>
+          <img width="10px" className='icon-green'  alt="covid-19" src='/img/viruses.svg'/>
             Covid-19
           </a>
 
           <a className='submenu-item' href='/ekologia/'>
+          <img width="10px" className='icon-green'  alt="ekologia" src='/img/leaf.svg'/>
             Ekologia
           </a>
 
           <a className='submenu-item' href='/branding/' >
+          <img width="10px" className='icon-green'  alt="branding" src='/img/pencil-ruler.svg'/>
             Branding
           </a>
 
           <a className='submenu-item' href='/projektowanie-graficzne/' >
+          <img width="10px" className='icon-green'  alt="branding" src='/img/pencil-alt.svg'/>
             Projektowanie graficzne
           </a>
 
           <a className='submenu-item' href='/strony-internetowe/' >
+          <img width="10px" className='icon-green'  alt="strony internetowe" src='/img/code.svg'/>
             Strony internetowe
           </a>
 
           <a className='submenu-item' href='/kalendarze-ksiazkowe/' >
+          <img width="10px" className='icon-green'  alt="kalendarze książkowe" src='/img/book.svg'/>
             Kalendarze książkowe
           </a>
 
           <a className='submenu-item' href='/kalendarze-firmowe/' >
+          <img width="10px" className='icon-green'  alt="kalendarze firmowe" src='/img/calendar-alt.svg'/>
             Kalendarze firmowe
           </a>
 
           <a className='submenu-item' href='/gadzety/' >
+          <img width="10px" className='icon-green'  alt="gadżety" src='/img/lightbulb.svg'/>
             Gadżety reklamowe 
           </a>
 
@@ -53,30 +61,37 @@ const Footer = (props) => {
           <br /><br />
 
           <a className='submenu-item' href='/wydruki/' >
+          <img width="10px" className='icon-green'  alt="wydruki" src='/img/map.svg'/>
             Wydruki reklamowe
           </a>
 
           <a className='submenu-item' href='/reklama-zewnetrzna/' >
+          <img width="10px" className='icon-green'  alt="reklama zewnętrzna" src='/img/object-ungroup.svg'/>
             Reklamy outdoor
           </a>
 
           <a className='submenu-item' href='/fotografia/' >
+          <img width="10px" className='icon-green'  alt="fotografia" src='/img/camera-retro.svg'/>
             Fotografie produktowe
           </a>
 
           <a className='submenu-item' href='/wystawiennictwo/' >
+          <img width="10px" className='icon-green'  alt="wystawiennictwo" src='/img/cubes.svg'/>
             Systemy wystawiennicze
           </a>
 
           <a className='submenu-item' href='/filmowanie/' >
+          <img width="10px" className='icon-green'  alt="filmowanie" src='/img/film.svg'/>
             Filmy reklamowe
           </a>
 
           <a className='submenu-item' href='/opakowania/' >
+          <img width="10px" className='icon-green'  alt="opakowania" src='/img/box-open.svg'/>
             Opakowania
           </a>
 
           <a className='submenu-item' href='/vr/' >
+          <img width="10px" className='icon-green'  alt="VR" src='/img/vr-cardboard.svg'/>
             Wirtualna rzeczywistość
           </a>
           </div>
@@ -111,13 +126,24 @@ const Footer = (props) => {
         <div style={{width:'20%',marginRight:'5%',padding:'5px',marginTop:'30px'}}>
           <h5><b>Kontakt</b></h5>
           <br />
-          <p className='submenu-item'>ul. Piotra Ignuta 87</p>
-          <p className='submenu-item'>54-151 Wrocław</p>
+          <p className='submenu-item'>
+          <img width="10px" className='icon-green'  alt="ulica" src='/img/map-marker-alt.svg'/>ul. Piotra Ignuta 87</p>
+          <p className='submenu-item'>
+          <img width="10px" className='icon-green'  alt="ulica" src='/img/city.svg'/>54-151 Wrocław</p>
           <br />
-          <a href="tel:+48 71 728 29 13" className='submenu-item'>Tel: +48 71 728 29 13</a>
-          <a href="mailto:biuro@artopen.pl" className='submenu-item'>biuro@artopen.pl</a>
+
+
+          <a href="tel:+48 71 728 29 13" className='submenu-item' style={{textDecoration:'underline'}}>
+          <img width="10px" className='icon-green'  alt="email" src='/img/phone.svg'/>Tel: +48 71 728 29 13</a>
+
+
+          <a href="mailto:biuro@artopen.pl" className='submenu-item' style={{textDecoration:'underline'}}>
+          <img width="10px" className='icon-green'  alt="email" src='/img/paper-plane.svg'/>biuro@artopen.pl</a>
+
+
           <br />
-          <p className='submenu-item'>pon. - pt: 8:00 - 16:00</p>
+          <p className='submenu-item'>
+          <img width="10px" className='icon-green'  alt="ulica" src='/img/clock.svg'/>pon. - pt: 8:00 - 16:00</p>
 
         </div>
 
@@ -144,6 +170,9 @@ const Footer = (props) => {
         </a>
         <a href='' target="_blank">
           <img width="25px" className='icon-green' alt="linkedin" src='/img/linkedin.svg'/>
+        </a>
+        <a href='' target="_blank">
+          <img width="25px" className='icon-green' alt="tweeter" src='/img/twitter-square.svg'/>
         </a>
         <a href='' target="_blank">
           <img width="25px" className='icon-green' alt="instagram" src='/img/instagram-square.svg'/>
