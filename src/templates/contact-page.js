@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import ContactPageTemplate from '../components/ContactPageTemplate'
+
 import Layout from '../components/Layout'
 
 const ContactPage = (props) => {
@@ -15,6 +16,7 @@ const ContactPage = (props) => {
         meta_title={meta_title}
         meta_description={meta_description}
       />
+
     </Layout>
   )
 }

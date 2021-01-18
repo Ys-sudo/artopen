@@ -15,7 +15,7 @@ class BlogRoll extends React.Component {
           .map(({ node: post }) => (
             <div
               className='content'
-              style={{marginBottom:'3%', border:'2px solid #f5f5f5', borderRadius:'15px', padding: '2em 4em' }}
+              style={{marginBottom:'3%',margin:'10px', border:'2px solid #f5f5f5', borderRadius:'15px', padding: '2em 4em' }}
               key={post.id}
             >
             <img src={post.frontmatter.cover.publicURL}  style={{width:'70%',marginRight:'5%',borderRadius:'20px',border:'solid 1px #00d1b2'}} />

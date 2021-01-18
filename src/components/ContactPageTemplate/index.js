@@ -2,6 +2,9 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 import { ContactForm } from '../forms'
+import MapContainer from '../Map'
+
+
 
 const ContactPageTemplate = (props) => {
   const { title, subtitle, meta_title, meta_description } = props
@@ -11,8 +14,18 @@ const ContactPageTemplate = (props) => {
       <Helmet>
         <title>{meta_title}</title>
         <meta name='description' content={meta_description} />
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+        <script
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYExoIV_J6ELf-LirWfgFasKU38FBoYJA&callback=initMap&libraries=&v=weekly"
+          defer
+        ></script>
+
       </Helmet>
+
+
+
       <section className='hero is-primary is-bold is-medium'>
+
         <div className='hero-body'>
           <div className='container'>
             <div className='columns'>
@@ -28,15 +41,28 @@ const ContactPageTemplate = (props) => {
               </div>
             </div>
           </div>
+
         </div>
       </section>
-      <section className='section'>
-        <div className='container'>
-          <ContactForm />
-        </div>
-      </section>
+      <div className='container' style={{marginLeft:'10%',marginRight:'10%',marginTop:'50px',marginBottom:'150px'}}>
+        <ContactForm />
+      </div>
+
+      <MapContainer />
+
+
+
     </div>
   )
+}
+
+let map;
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
+  });
 }
 
 ContactPageTemplate.propTypes = {

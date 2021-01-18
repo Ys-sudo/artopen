@@ -22,9 +22,10 @@ CMS.registerPreviewStyle('/styles.sass')
 CMS.registerPreviewTemplate('Blog', ArticlePreview)
 CMS.registerPreviewTemplate('Portfolio', GalleryPreview)
 CMS.registerPreviewTemplate('Oferta', OfferPreview)
-
+/*
 CMS.registerPreviewTemplate('Kontakt', ContactPagePreview)
 CMS.registerPreviewTemplate('Home', HomePagePreview)
 CMS.registerPreviewTemplate('O nas', AboutPagePreview)
 
 CMS.registerPreviewTemplate('Polityka', PolicyPagePreview)
+*/
