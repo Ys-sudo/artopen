@@ -3,7 +3,10 @@ import Helmet from 'react-helmet'
 import Offerings from '../Offerings'
 import Testimonials from '../Testimonials'
 import ContactCall from '../ContactCall'
-import OfferCard from '../OfferCard'
+
+import OfferRoll from '../OfferRoll'
+import BlogRoll from '../BlogRoll'
+import PortfolioRoll from '../PortfolioRoll'
 
 import PropTypes from 'prop-types'
 
@@ -46,17 +49,34 @@ const HomePageTemplate = (props) => {
                     <p>{description}</p>
                   </div>
                   <Offerings gridItems={offerings.blurbs} />
-
-                  {/*<OfferCard posts={group}/>*/}
                 </div>
-                <h2 className='has-text-weight-semibold is-size-2'>Co mówią o nas klienci?</h2>
-                <Testimonials testimonials={testimonials} />
               </div>
             </div>
           </div>
         </div>
+
+
       </section>
+      <div style={{marginLeft:'10%',marginRight:'10%'}}>
+      <h4 className='title'> Oferta </h4>
+      </div>
+      <OfferRoll />
+
+
+      <div style={{marginLeft:'10%',marginRight:'10%'}}>
+      <h4 className='title'> Blog </h4>
+      <BlogRoll />
+      <h4 className='title'> Portfolio </h4>
+      <PortfolioRoll />
+      </div>
+
+      <div style={{marginTop:'5%',marginLeft:'10%',marginRight:'10%',marginBottom:'5%'}}>
+      <h2 className='has-text-weight-semibold is-size-2'>Co mówią o nas klienci?</h2>
+      <Testimonials testimonials={testimonials} />
+      </div>
+
       <ContactCall />
+
     </div>
   )
 }

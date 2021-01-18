@@ -2,26 +2,11 @@ import React from 'react'
 import { Link } from 'gatsby'
 import config from '../../config'
 import Helmet from 'react-helmet'
-import OfferCard from '../components/OfferCard'
-import GalleryCard from '../components/OfferCard'
+import OfferRoll from '../components/OfferRoll'
 import Layout from '../components/Layout'
 import ContactCall from '../components/ContactCall'
 
-const PaginationLink = props => {
-  if (!props.test) {
-    return (
-      <Link to={`/portfolio/${props.url}`} className='button is-rounded'>
-        {props.text}
-      </Link>
-    )
-  } else {
-    return (
-      <span disabled className='button is-rounded'>
-        {props.text}
-      </span>
-    )
-  }
-}
+
 
 const OfertaPage = (props) => {
   const { pageContext: { first, group, index, last } } = props
@@ -72,12 +57,9 @@ const OfertaPage = (props) => {
 
       </div>
       <section className='section' style={{padding: '0px', margin:'0px',marginTop:'50px'}}>
-        <OfferCard posts={group} />
+        <OfferRoll />
         <section className='section'>
-          <div className='buttons is-centered'>
-            <PaginationLink test={first} url={previousUrl} text='<' />
-            <PaginationLink test={last} url={nextUrl} text='>' />
-          </div>
+
         </section>
         <ContactCall/>
       </section>
