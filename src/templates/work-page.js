@@ -30,7 +30,7 @@ PracaPage.propTypes = {
 
 export default PracaPage
 
-export const aboutPageQuery = graphql`
+export const pracaPageQuery = graphql`
   query PracaPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html

@@ -30,7 +30,7 @@ KatalogiPage.propTypes = {
 
 export default KatalogiPage
 
-export const aboutPageQuery = graphql`
+export const katalogiPageQuery = graphql`
   query KatalogiPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html

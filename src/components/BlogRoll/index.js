@@ -8,6 +8,7 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
+      <div>
       <div className='container columns'>
         {posts &&
           posts.slice(0,2)
@@ -41,6 +42,10 @@ class BlogRoll extends React.Component {
             </div>
             </div>
           ))}
+          </div>
+          < br/>
+          <a className="button-green" style={{fontSize:'15px'}} href="/blog/"> Zobacz wszystkie wpisy </a>
+
       </div>
   )
 }

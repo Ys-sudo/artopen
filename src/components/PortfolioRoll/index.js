@@ -8,6 +8,7 @@ class PortfolioRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
+      <div style={{margin:'0px'}}>
       <div className='portfolio section'>
         {posts &&
           posts.slice(0,8)
@@ -15,28 +16,32 @@ class PortfolioRoll extends React.Component {
           .map(({ node: post }) => (
             <div
               className={post.frontmatter.category + ' portfo'}
-              style={{ margin:'20px', width:'25%'  }}
+              style={{ margin:'20px', width:'25%', marginBottom:'15px'  }}
               key={post.id}
             >
             <Link className='has-text-primary' to={post.fields.slug+'/'}>
             <img src={post.frontmatter.cover.publicURL} width='100%' style={{borderRadius:'10px'}} />
-              <p>
+              <p style={{textAlign:'left', marginBottom:'15px'}}>
 
                   {post.frontmatter.title}
 
                 <span> &bull; </span>
                 <small>{post.frontmatter.date}</small>
-              </p>
-              <h6>{post.frontmatter.category}</h6>
-              <p>
-                <br />
                 <br />
 
+
               </p>
+              <a className='button-green' style={{fontSize:'10px'}}>{post.frontmatter.category}</a>
+
               </Link>
+
             </div>
           ))}
+
       </div>
+      <a className="button-green" style={{fontSize:'15px'}} href="/portfolio/"> Zobacz wszystkie projekty </a>
+      </div>
+
   )
 }
 }

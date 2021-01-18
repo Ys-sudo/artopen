@@ -26,7 +26,7 @@ const HomePageTemplate = (props) => {
             <div className='columns'>
               <div className='column is-10 is-offset-1'>
                 <div className='section'>
-                  <h1 className='title'>
+                  <h1 className='title' style={{fontSize:'50px'}}>
                     {title}
                   </h1>
                 </div>
@@ -57,17 +57,23 @@ const HomePageTemplate = (props) => {
 
 
       </section>
-      <div style={{marginLeft:'10%',marginRight:'10%'}}>
-      <h4 className='title'> Oferta </h4>
+      <div style={{marginLeft:'10%',marginRight:'10%',textAlign:'center'}}>
+      <h4 className='title'> Poznaj naszą ofertę: </h4>
+      <h5 className='subtitle'> Zobacz co możemy dla Ciebie zrobić. </h5>
+      <br></br>
       </div>
       <OfferRoll />
 
 
-      <div style={{marginLeft:'10%',marginRight:'10%'}}>
-      <h4 className='title'> Blog </h4>
-      <BlogRoll />
-      <h4 className='title'> Portfolio </h4>
+      <div style={{marginLeft:'10%',marginRight:'10%',textAlign:'center',marginTop:'50px'}}>
+      <h4 className='title' style={{marginTop:'100px'}}> Portfolio </h4>
+      <h5 className='subtitle' style={{marginBottom:'-20px'}}> Zapoznaj się z naszymi realizacjami. </h5>
       <PortfolioRoll />
+      <br></br>
+      <br></br>
+      <h4 className='title' style={{marginTop:'100px'}}> Blog </h4>
+      <h5 className='subtitle'> Zapraszamy do lektury. </h5>
+      <BlogRoll />
       </div>
 
       <div style={{marginTop:'5%',marginLeft:'10%',marginRight:'10%',marginBottom:'5%'}}>

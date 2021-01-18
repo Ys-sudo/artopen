@@ -1,5 +1,5 @@
 ---
-templateKey: about-page
+templateKey: work-page
 title: Praca
 meta_title: Praca | ArtOpen Studio
 meta_description: >-

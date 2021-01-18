@@ -1,5 +1,5 @@
 ---
-templateKey: about-page
+templateKey: catalogs-page
 title: Katalogi
 meta_title: Katalogi | ArtOpen Studio
 meta_description: >-
