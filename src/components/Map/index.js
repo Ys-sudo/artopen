@@ -262,6 +262,10 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
+<<<<<<< HEAD
   apiKey: 'API_GMAPS',
   language: 'polski'
+=======
+  apiKey: ' '
+>>>>>>> 8593b55b2469dffcdec25b3f206d450e8d8a6d26
 })(MapContainer);
