@@ -47,7 +47,7 @@ const ContactForm = () => {
         data-netlify-honeypot='bot-field'
       >
       <div className='columns'>
-          <div className='field' style={{marginLeft:'15px',width:'45%',marginRight:'5%'}}>
+          <div className='field column' style={{marginRight:'20px'}}>
             <label className='label'>Imię:<sup>*</sup></label>
             <div className='control'>
               <Field className='input' type='text' placeholder='Imię' name='imię' id='imię' />
@@ -55,7 +55,7 @@ const ContactForm = () => {
             {touched.imię && errors.imię && <small className='has-text-danger'>{errors.imię}</small>}
           </div>
 
-          <div className='field' style={{marginLeft:'15px',width:'48%'}}>
+          <div className='field column'>
             <label className='label'>Email:<sup>*</sup></label>
             <div className='control'>
               <Field className='input' type='email' placeholder='Email' name='email' id='email' />

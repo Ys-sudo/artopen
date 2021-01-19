@@ -13,7 +13,7 @@ const Footer = (props) => {
         </div>
       <div className='section columns' style={{marginLeft:'3%'}}>
 
-        <div style={{width:'20%', padding:'5px',marginTop:'30px'}}>
+        <div className='column' style={{ padding:'5px',marginTop:'30px'}}>
           <h5><b>Oferta</b></h5>
           <br />
           <a className='submenu-item' href='/covid-19/'>
@@ -57,7 +57,7 @@ const Footer = (props) => {
           </a>
 
           </div>
-          <div style={{width:'20%',marginRight:'5%',padding:'5px',marginTop:'30px'}}>
+          <div className='column removespace' style={{marginRight:'5%',padding:'5px',marginTop:'30px'}}>
           <br /><br />
 
           <a className='submenu-item' href='/wydruki/' >
@@ -96,7 +96,7 @@ const Footer = (props) => {
           </a>
           </div>
 
-        <div style={{width:'20%',marginTop:'30px'}}>
+        <div className='column' style={{marginTop:'30px'}}>
           <h5><b>Blog</b></h5>
           <br />
           <a className='submenu-item' href='/' >
@@ -123,7 +123,7 @@ const Footer = (props) => {
 
         </div>
 
-        <div style={{width:'20%',marginRight:'5%',padding:'5px',marginTop:'30px'}}>
+        <div className='column' style={{marginRight:'5%',padding:'5px',marginTop:'30px'}}>
           <h5><b>Kontakt</b></h5>
           <br />
           <p className='submenu-item'>
@@ -147,7 +147,7 @@ const Footer = (props) => {
 
         </div>
 
-        <div style={{width:'20%',marginTop:'30px'}}>
+        <div className='column' style={{marginTop:'30px'}}>
           <h5><b>Art Open Sp. z o.o.</b></h5>
           <br />
 
@@ -194,6 +194,7 @@ const Footer = (props) => {
       <div style={{position:'fixed',right:'2px',bottom:'4px',padding:'4px', width:'27px',textAlign:'center',height:'27px',backgroundColor:'#111111',borderRadius:'5px'}}>
       <a href="#"><img width="20px" className='icon-green'  alt="backtotop" src='/img/angle-up.svg'/></a>
       </div>
+
     </footer>
   )
 }

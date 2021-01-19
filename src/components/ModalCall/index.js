@@ -17,7 +17,7 @@ const ContactCall = () => {
       <div style={{backgroundColor:'lightgreen', width:'75%',borderRadius:'0px 70px 70px 0px',
       backgroundImage: 'linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e6eb 100%',marginBottom:'50px'}}>
         <div className='columns section'>
-          <div style={{marginRight:'50px',marginLeft:'10%'}}>
+          <div className='column' style={{marginRight:'50px',marginLeft:'10%'}}>
             <h5 className='title' style={{color:'white'}}>
               Złóż zamówienie.
             </h5>
@@ -26,7 +26,7 @@ const ContactCall = () => {
             </h6>
           </div>
 
-          <div style={{textAlign:'center'}}>
+          <div className='column' style={{textAlign:'center'}}>
           <br />
           <br />
             <a className='button-white' style={{fontSize:'14px',fontWeight:'800'}} onClick={modalEnter} > Wypełnij krótki brief &nbsp; &nbsp;

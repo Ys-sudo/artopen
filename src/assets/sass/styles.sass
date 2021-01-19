@@ -44,14 +44,14 @@ nav
   font-size: 13px
   color: #222222
   font-weight: 700
-  margin-left: 0.7%
-  margin-right: 0.7%
+  margin-left: 0.5%
+  margin-right: 0.5%
 
 .navbar-item:hover, .navbar-item:focus
   color: #00d1b2 !important
 
 .navbar-end
-  margin-left: 300px !important
+  margin-left: 250px !important
 
 .navbar-burger
   border: 0px solid white !important
@@ -95,6 +95,7 @@ nav
 .button-green:hover
   background-color: #00d1b2
   color: white
+  cursor: pointer
 
 .button-green:hover > img
   filter: brightness(0) invert(1)
@@ -191,8 +192,14 @@ nav
     width: 50% !important
   .navbar-end
     margin-left: 0px !important
+  .field.is-grouped
+    justify-content: center
 
 +mobile
+  .field.is-grouped
+    justify-content: center
+  .removespace
+    margin-top: -55px !important
   .portfolio
     display: block
   .portfo

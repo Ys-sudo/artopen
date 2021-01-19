@@ -23,7 +23,7 @@ const OfertaPage = (props) => {
 
   return (
     <Layout>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang : 'pl-pl', dir:'ltr' }}>
         <title>Oferta | ArtOpen</title>
         {/* Schema.org tags */}
         <script type='application/ld+json'>

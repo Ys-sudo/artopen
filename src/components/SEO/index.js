@@ -65,7 +65,7 @@ const SE0 = (props) => {
   }
 
   return (
-    <Helmet>
+    <Helmet htmlAttributes={{ lang : 'pl-pl', dir:'ltr' }}>
       <title>{meta_title}</title>
       {/* General tags */}
       <meta name='description' content={meta_desc} />

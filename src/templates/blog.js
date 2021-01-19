@@ -37,7 +37,7 @@ const BlogPage = (props) => {
 
   return (
     <Layout>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang : 'pl-pl', dir:'ltr' }}>
         <title>Blog | ArtOpen</title>
         {/* Schema.org tags */}
         <script type='application/ld+json'>
@@ -62,7 +62,7 @@ const BlogPage = (props) => {
       </section>
 
       <div style={{marginLeft:'7%',marginTop:'50px',marginRight:'10%'}}>
-      <h2 className='title'> Witaj na blogu studia ArtOpen.</h2>
+      <h2 className='title'> Witaj na blogu studia Art Open.</h2>
       <h3 className='subtitle'> Piszemy tutaj artykuły z zakresu aktualności, eventów oraz innowacji.</h3>
       </div>
 

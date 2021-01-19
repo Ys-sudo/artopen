@@ -21,7 +21,7 @@ const TagRoute = (props) => {
   return (
     <Layout>
       <section className='section'>
-        <Helmet title={`${tag} | ${title}`} />
+        <Helmet htmlAttributes={{ lang : 'pl-pl', dir:'ltr' }} title={`${tag} | ${title}`} />
         <div className='container content'>
           <div className='columns'>
             <div

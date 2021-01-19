@@ -173,7 +173,7 @@ const NavBar = () => {
             </div>
 
             <div className='navbar-item'>
-              <div className='field is-grouped' style={{alignItems:'center'}}>
+              <div className='field is-grouped'>
                 <p className='control'>
                   <a
                     className='button-green'
@@ -191,8 +191,12 @@ const NavBar = () => {
                   </a>
                 </p>
 
-                <SearchBox searchIndex={data.siteSearchIndex.index} />
+
               </div>
+
+            </div>
+            <div className='navbar-item' style={{marginLeft:'-20px'}}>
+            <SearchBox searchIndex={data.siteSearchIndex.index} />
             </div>
 
             <div id='modal'
@@ -200,7 +204,7 @@ const NavBar = () => {
               <div style={{marginLeft:'10%',marginRight:'10%',paddingTop:'5%'}}>
 
                   <a className='button-green' style={{fontSize:'30px'}} onMouseOver={modalDestroy} >&nbsp;x&nbsp;</a>
-                
+
 
               </div>
 

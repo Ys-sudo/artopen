@@ -11,7 +11,7 @@ const KatalogiPage = (props) => {
 
   return (
     <Layout>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang : 'pl-pl', dir:'ltr' }}>
         <title>{post.frontmatter.meta_title}</title>
         <meta name='description' content={post.frontmatter.meta_description} />
       </Helmet>

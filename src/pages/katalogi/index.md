@@ -8,31 +8,209 @@ meta_description: >-
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
 ---
-## Lorem ipsum dolor sit amet, consectetuer
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
-quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 
-##In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
 
-Nullam dictum felis eu pede mollis
-pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra
-quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-Etiam ultricies nisi vel augue.  Nam eget dui. *Etiam rhoncus*. Maecenas
-tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
-Nam quam nunc, blandit vel, luctus pulvinar
 
-###Curabitur ullamcorper ultricies nisi.
+   <div class="column">
+     <h3 class="title" style="font-size:32px"> Gadżety Premium </h3>
+     <p style="margin-right:25px"> Ekskluzywne artykuły piśmiennicze, pióra wieczne, pióra kulkowe, długopisy z USB, notesy i organizery, latarki, narzędzia wielofunkcyjne, gadżety premium. Produkty marek SHEAFFER, CROSS, EXO, NEBO.
+     </p>
+     <br>
+     <br>
+     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/xbbq/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <br>
+     <br>
+   </div>
 
-Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
-Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales,
-augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut,
-mollis sed, nonummy id, metus.
-* Cras ultricies mi eu turpis hendrerit fringilla.
-* Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-* In ac dui quis mi consectetuer lacinia.
+   <div class="column"">
+    <img src="https://artopen.pl/images/2020/07/01/expen_katalog.png" width="100%">
+   </div>
 
-**Etiam ultricies nisi vel augue!**
+
+</div>
+
+<br></br>
+
+<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+
+
+   <div class="column">
+     <h3 class="title" style="font-size:32px"> Kalendarze i notesy 2021 </h3>
+     <p style="margin-right:25px"> Kalendarze książkowe, notesy, papier z kamienia oraz trawy, power banki, rozgałęźniki usb, oprawy, blaszki, kreatywne przeszycia, łączenia opraw, dodatki, gumki, personalizacje, opakowania, zestawy ECO
+     </p>
+     <br>
+     <br>
+     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/yxew/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <br>
+     <br>
+   </div>
+
+   <div class="column"">
+    <img src="https://artopen.pl/images/katalogi/kalendarze_1.jpg" width="100%">
+   </div>
+
+
+</div>
+
+<br></br>
+
+<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+
+
+   <div class="column">
+     <h3 class="title" style="font-size:32px"> Ceramika </h3>
+     <p style="margin-right:25px"> Kubki reklamowe, kubki sublimacyjne, kalki ceramiczne, filiżanki, zestawy, szklanki i kufle, łyżeczki, talerze, opakowania z tektury falistej dla ceramiki
+     </p>
+     <br>
+     <br>
+     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/lzyd/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <br>
+     <br>
+   </div>
+
+   <div class="column"">
+    <img src="https://artopen.pl/images/2020/04/09/ceramika_1.png" width="100%">
+   </div>
+
+
+</div>
+
+<br></br>
+
+<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+
+
+   <div class="column">
+     <h3 class="title" style="font-size:32px"> Elektronika </h3>
+     <p style="margin-right:25px"> Pamięci USB: standardowe, slim, drewniane, świąteczne, skórzane, metalowe, power banki, myszki, ładowarki indukcyjne, produkty PVC 3D o dowolnym kształcie, długopisy z pamięcią USB, kable, breloki, karty, wiatraczki, lampki, słuchawki, uchwyty, opakowania
+     </p>
+     <br>
+     <br>
+     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/tbku/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <br>
+     <br>
+   </div>
+
+   <div class="column"">
+    <img src="https://artopen.pl/images/2020/04/09/elektronika_1.png" width="100%">
+   </div>
+
+
+</div>
+
+<br></br>
+
+<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+
+
+   <div class="column">
+     <h3 class="title" style="font-size:32px"> Tekstylia </h3>
+     <p style="margin-right:25px"> T-shirty, polo, koszule i odzież biznesowa, bluzy, bluzy z kapturem, polary, softshelle, kurtki, dziecięce, bielizna, sport i rekreacja, bistro, odzież robocza, torby, czapki i akcesoria, tekstylia domowe
+     </p>
+     <br>
+     <br>
+     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/ptud/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <br>
+     <br>
+   </div>
+
+   <div class="column"">
+    <img src="https://artopen.pl/images/katalogi/tekstylia_1.jpg" width="100%">
+   </div>
+
+
+</div>
+
+<br></br>
+
+<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+
+
+   <div class="column">
+     <h3 class="title" style="font-size:32px"> Rollupy, ścianki, flagi </h3>
+     <p style="margin-right:25px"> Rollupy, akcesoria do rollupów, standy tradycyjne oraz z oświetleniem LED, flagi, potykacze, zabudowy reklamowe, ścianki wystawiennicze, namioty, parasole, leżaki, parawany, pufy, uchwyty do tabletów, stojaki na ulotki, reklamy podwieszane
+     </p>
+     <br>
+     <br>
+     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/zxwy/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <br>
+     <br>
+   </div>
+
+   <div class="column"">
+    <img src="https://artopen.pl/images/2020/09/08/rollupy_scianki_katalog.png" width="100%">
+   </div>
+
+
+</div>
+
+<br></br>
+
+<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+
+
+   <div class="column">
+     <h3 class="title" style="font-size:32px"> Systemy wystawiennicze </h3>
+     <p style="margin-right:25px"> Stoiska targowe, ścianki wystawiennicze, rollupy, standy, flagi, outdoor, systemy informacyjne, lady, kasetony LED, stojaki na ulotki i tablety, oświetlenia, podwieszenia, stoiska modułowe, potykacze, namioty, leżaki, torby i walizki, półki i wieszaki oraz stoły
+     </p>
+     <br>
+     <br>
+     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/oogv/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <br>
+     <br>
+   </div>
+
+   <div class="column"">
+    <img src="https://artopen.pl/images/2020/04/09/stoiska_1.png" width="100%">
+   </div>
+
+
+</div>
+
+<br></br>
+
+<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+
+
+   <div class="column">
+     <h3 class="title" style="font-size:32px"> Zestawy Pierre Cardin </h3>
+     <p style="margin-right:25px"> Zestawy VIP, długopisy metalowe, długopisy touchpen, pióra kulkowe, pióra wieczne, zestawy piśmiennicze, zestawy upominkowe, wizytowniki, notesy, ołówki, breloki, pamięci USB, zapalniczki elektryczne, luksusowe foldery, power banki
+     </p>
+     <br>
+     <br>
+     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/jyez/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <br>
+     <br>
+   </div>
+
+   <div class="column"">
+    <img src="https://artopen.pl/images/2020/04/09/zestawy-pismiennicze_1.jpg" width="100%">
+   </div>
+
+
+</div>
+
+<br></br>
+
+<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+
+
+   <div class="column">
+     <h3 class="title" style="font-size:32px"> Puchary i medale </h3>
+     <p style="margin-right:25px"> Puchary, figurki odlewane, trofea, medale i akcesoria, dyplomy, figurki plastikowe, medale odlewane, emblematy, tabliczki z nadrukiem oraz grawerem, nagrody biznesowe, statuetki szklane, pinsy, monety
+     </p>
+     <br>
+     <br>
+     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/izga/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <br>
+     <br>
+   </div>
+
+   <div class="column"">
+    <img src="https://artopen.pl/images/2020/04/09/puchary_1.png" width="100%">
+   </div>
+
+
+</div>

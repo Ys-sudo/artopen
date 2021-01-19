@@ -17,7 +17,7 @@ const HomePageTemplate = (props) => {
 
   return (
     <div>
-      <Helmet>
+      <Helmet htmlAttributes={{ lang : 'pl-pl', dir:'ltr' }}>
         <title>{meta_title}</title>
         <meta name='description' content={meta_description} />
       </Helmet>
