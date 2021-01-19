@@ -14,7 +14,9 @@ const PostCard = (props) => {
             style={{marginBottom:'3%', border:'2px solid #f5f5f5', borderRadius:'15px', padding: '2em 4em' }}
             key={post.id}
           >
-          <img className='column' src={post.frontmatter.cover.publicURL}  style={{maxWidth:'50%',marginRight:'5%',borderRadius:'20px'}} />
+          <Link className='column blog-img' style={{marginRight:'3%'}} to={post.fields.slug+'/'}>
+          <img src={post.frontmatter.cover.publicURL}  style={{width:'95%',borderRadius:'20px'}} />
+          </Link>
           <div className='column'>
             <p>
               <Link className='title has-text-primary' to={post.fields.slug+'/'}>

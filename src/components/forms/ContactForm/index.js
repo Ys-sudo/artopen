@@ -1,5 +1,5 @@
 import React from 'react'
-import { Formik, Field } from 'formik'
+import { Formik, Field, ErrorMessage } from 'formik'
 import { navigate } from 'gatsby-link'
 import validationSchema from './validationSchema'
 
@@ -12,7 +12,7 @@ const encode = (data) => {
 const ContactForm = () => {
   return (
     <Formik
-      initialValues={{ imię: '', email: '', telefon:'',  wiadomosc: '' }}
+      initialValues={{ imię: '', email: '', telefon:'',  wiadomosc: '', acceptTerms: false }}
       validationSchema={validationSchema}
       onSubmit={(values, { setSubmitting }) => {
         fetch("/?no-cache=1", {                                 //eslint-disable-line
@@ -80,14 +80,21 @@ const ContactForm = () => {
           {touched.wiadomość && errors.wiadomość && <small className='has-text-danger'>{errors.wiadomość}</small>}
         </div>
 
-        <div className='field is-grouped is-pulled-right'>
-          <div className='control'>
-            <button className='button' type='reset'>Wyczyść</button>
-          </div>
-          <div className='control'>
-            <button className='button is-primary' type='submit' disabled={isSubmitting}>Wyślij</button>
-          </div>
-        </div>
+        <div className="form-group form-check">
+             <Field type="checkbox" name="acceptTerms" className={'form-check-input ' + (errors.acceptTerms && touched.acceptTerms ? ' is-invalid' : '')} />
+             <label htmlFor="acceptTerms" className="form-check-label">&nbsp; Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z naszą <a target='_blank' className='link-green' href='/polityka-prywatnosci/'>polityką prywatności</a><sup>*</sup>.</label>
+             <br />
+             {touched.acceptTerms && errors.acceptTerms && <small className='has-text-danger'>{errors.acceptTerms}</small>}
+         </div>
+         <br />
+         <div className='field is-grouped is-pulled-right'>
+           <div className='control'>
+             <button className='button' type='reset'>Wyczyść</button>
+           </div>
+           <div className='control'>
+             <button className='button is-primary' type='submit' disabled={isSubmitting}>Wyślij</button>
+           </div>
+         </div>
       </form>)}
     </Formik>
   )

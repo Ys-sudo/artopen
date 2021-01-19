@@ -21,6 +21,20 @@ body::-webkit-scrollbar-track
   background-color: #fff
   box-shadow: inset 0 0 10px rgba(0,0,0,.1)
 
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+p::selection,
+strong::selection,
+b::selection,
+a::selection
+    color: #fff
+    background: #00d1b2
+
+
 html,
 body,
 #___gatsby,
@@ -173,6 +187,23 @@ nav
 .icon-green:hover
   transform: scale(1.3)
   filter: brightness(0) invert(1)
+
+.modalCall
+  transition-duration: 1s
+.modalCall:hover
+  transition-duration: 1s
+  width: 80% !important
+  cursor: pointer
+.modalCall:hover > div> div > a
+  transition-duration: 1s
+  background-color: white
+  color:  #00d1b2
+.modalCall:hover > div> div > a > img
+  filter: brightness(1) invert(0)
+  transition-duration: 1s
+  margin-left: 10px !important
+  transform: scale(1.5)
+
 
 
 @import "~bulma"

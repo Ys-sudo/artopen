@@ -16,6 +16,9 @@ const validationSchema = Yup.object().shape({
     .required('Numer telefonu jest wymagany!'),
   wiadomość: Yup.string()
     .required('Wiadomość jest wymagana!'),
+  acceptTerms: Yup.bool()
+    .oneOf([true], 'Zgoda na przetwarzanie danych jest wymagana.'),
+
 })
 
 export default validationSchema

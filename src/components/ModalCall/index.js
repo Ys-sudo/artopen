@@ -9,12 +9,12 @@ const modalEnter = () => {
 }
 
 
-const ContactCall = () => {
+const ModalCall = () => {
 
   return (
 
 
-      <div style={{backgroundColor:'lightgreen', width:'75%',borderRadius:'0px 70px 70px 0px',
+      <div className='modalCall' style={{width:'75%',borderRadius:'0px 70px 70px 0px',
       backgroundImage: 'linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e6eb 100%',marginBottom:'50px'}}>
         <div className='columns section'>
           <div className='column' style={{marginRight:'50px',marginLeft:'10%'}}>
@@ -42,4 +42,4 @@ const ContactCall = () => {
   )
 }
 
-export default ContactCall
+export default ModalCall

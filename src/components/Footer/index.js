@@ -96,7 +96,7 @@ const Footer = (props) => {
           </a>
           </div>
 
-        <div className='column' style={{marginTop:'30px'}}>
+        <div className='column' style={{marginTop:'20px'}}>
           <h5><b>Blog</b></h5>
           <br />
           <a className='submenu-item' href='/' >
@@ -123,7 +123,7 @@ const Footer = (props) => {
 
         </div>
 
-        <div className='column' style={{marginRight:'5%',padding:'5px',marginTop:'30px'}}>
+        <div className='column' style={{marginRight:'5%',padding:'5px',marginTop:'25px'}}>
           <h5><b>Kontakt</b></h5>
           <br />
           <p className='submenu-item'>
@@ -147,7 +147,7 @@ const Footer = (props) => {
 
         </div>
 
-        <div className='column' style={{marginTop:'30px'}}>
+        <div className='column' style={{marginTop:'20px'}}>
           <h5><b>Art Open Sp. z o.o.</b></h5>
           <br />
 

@@ -8,21 +8,22 @@ const AboutPageTemplate = (props) => {
 
   return (
     <div>
-      <section className='hero is-primary is-bold is-medium'>
-        <div className='hero-body'>
-          <div className='container'>
-            <div className='columns'>
-              <div className='column is-10 is-offset-1'>
-                <div className='section'>
-                  <h1 className='title'>
-                    {title}
-                  </h1>
-                </div>
-              </div>
-            </div>
+    <section className='hero is-primary is-bold'>
+      <div className='hero-body'>
+      <div className='container section'>
+        <div className='columns section'>
+          <div>
+            <h1 className='title' style={{fontSize:'50px'}}>
+              {title}
+            </h1>
+            <h2 className='subtitle'>
+              Dowiedz się kim jesteśmy oraz co nas wyróżnia.
+            </h2>
           </div>
         </div>
-      </section>
+      </div>
+      </div>
+    </section>
       <section className='section section--gradient'>
         <div className='container'>
           <div className='columns'>
