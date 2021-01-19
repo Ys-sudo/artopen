@@ -1,7 +1,7 @@
 ---
 templateKey: 'contact-page'
 title: Kontakt
-subtitle: Z przyjemnością nawiążemy z państwem współpracę.
+subtitle: Z przyjemnością nawiążemy z Państwem współpracę.
 meta_title: Kontakt | ArtOpen Studio
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
