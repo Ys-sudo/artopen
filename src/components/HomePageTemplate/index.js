@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import Offerings from '../Offerings'
 import Testimonials from '../Testimonials'
 import ContactCall from '../ContactCall'
+import ModalCall from '../ModalCall'
 
 import OfferRoll from '../OfferRoll'
 import BlogRoll from '../BlogRoll'
@@ -63,8 +64,10 @@ const HomePageTemplate = (props) => {
       <br></br>
       </div>
       <OfferRoll />
-
-
+      <br />
+      <br />
+      <br />
+      <ModalCall />
       <div style={{marginLeft:'10%',marginRight:'10%',textAlign:'center',marginTop:'50px'}}>
       <h4 className='title' style={{marginTop:'100px'}}> Portfolio </h4>
       <h5 className='subtitle' style={{marginBottom:'-20px'}}> Zapoznaj się z naszymi realizacjami. </h5>

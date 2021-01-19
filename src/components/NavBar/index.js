@@ -200,7 +200,7 @@ const NavBar = () => {
               <div style={{marginLeft:'10%',marginRight:'10%',paddingTop:'5%'}}>
 
                   <a className='button-green' style={{fontSize:'30px'}} onMouseOver={modalDestroy} >&nbsp;x&nbsp;</a>
-                  <ModalForm />
+                
 
               </div>
 

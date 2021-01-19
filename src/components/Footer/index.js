@@ -99,25 +99,25 @@ const Footer = (props) => {
         <div style={{width:'20%',marginTop:'30px'}}>
           <h5><b>Blog</b></h5>
           <br />
-          <a className='submenu-item' href='/vr/' >
+          <a className='submenu-item' href='/' >
             Wpis 1
           </a>
-          <a className='submenu-item' href='/vr/' >
+          <a className='submenu-item' href='/' >
             Wpis 2
           </a>
-          <a className='submenu-item' href='/vr/' >
+          <a className='submenu-item' href='/' >
             Wpis 3
           </a>
-          <a className='submenu-item' href='/vr/' >
+          <a className='submenu-item' href='/' >
             Wpis 4
           </a>
-          <a className='submenu-item' href='/vr/' >
+          <a className='submenu-item' href='/' >
             Wpis 5
           </a>
-          <a className='submenu-item' href='/vr/' >
+          <a className='submenu-item' href='/' >
             Wpis 6
           </a>
-          <a className='submenu-item' href='/vr/' >
+          <a className='submenu-item' href='/' >
             Wpis 7
           </a>
 
@@ -186,7 +186,7 @@ const Footer = (props) => {
           <p style={{color:'white',fontSize:'12px'}}>
             {copyright} | <a className='link-green'  href="/polityka-prywatnosci/"> Polityka prywatności </a>
             | <a className='link-green' href="/polityka-prywatnosci#cookies/"> Pliki Cookies </a>
-            | <a className='link-green' href="#"> Mapa strony </a>
+            | <a className='link-green' href="/sitemap.xml"> Mapa strony </a>
           </p>
 
         </div>

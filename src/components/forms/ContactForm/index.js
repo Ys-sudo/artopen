@@ -12,7 +12,7 @@ const encode = (data) => {
 const ContactForm = () => {
   return (
     <Formik
-      initialValues={{ name: '', email: '', message: '' }}
+      initialValues={{ imię: '', email: '', telefon:'',  wiadomosc: '' }}
       validationSchema={validationSchema}
       onSubmit={(values, { setSubmitting }) => {
         fetch("/?no-cache=1", {                                 //eslint-disable-line
@@ -29,45 +29,55 @@ const ContactForm = () => {
           })
           .catch(error => {
             console.log(error)
-            alert("Error: Please Try Again!");                            //eslint-disable-line
+            alert("Błąd: proszę spróbować ponownie!");                            //eslint-disable-line
             setSubmitting(false)
           })
-      }}
-      render={({
+      }}>
+      {({
         errors,
         touched,
         isSubmitting,
         handleSubmit,
         handleReset,
       }) => (<form
-        name='contact'
+        name='kontakt'
         onSubmit={handleSubmit}
         onReset={handleReset}
         data-netlify='true'
         data-netlify-honeypot='bot-field'
       >
-        <div className='field'>
-          <label className='label'>Imię</label>
-          <div className='control'>
-            <Field className='input' type='text' placeholder='Imię' name='name' id='name' />
+      <div className='columns'>
+          <div className='field' style={{marginLeft:'15px',width:'45%',marginRight:'5%'}}>
+            <label className='label'>Imię:<sup>*</sup></label>
+            <div className='control'>
+              <Field className='input' type='text' placeholder='Imię' name='imię' id='imię' />
+            </div>
+            {touched.imię && errors.imię && <small className='has-text-danger'>{errors.imię}</small>}
           </div>
-          {touched.name && errors.name && <small className='has-text-danger'>{errors.name}</small>}
+
+          <div className='field' style={{marginLeft:'15px',width:'48%'}}>
+            <label className='label'>Email:<sup>*</sup></label>
+            <div className='control'>
+              <Field className='input' type='email' placeholder='Email' name='email' id='email' />
+            </div>
+            {touched.email && errors.email && <small className='has-text-danger'>{errors.email}</small>}
+          </div>
         </div>
 
         <div className='field'>
-          <label className='label'>Email</label>
+          <label className='label'>Telefon:<sup>*</sup></label>
           <div className='control'>
-            <Field className='input' type='email' placeholder='Email' name='email' id='email' />
+            <Field className='input' type='tel' placeholder='Numer telefonu' name='telefon' id='telefon' />
           </div>
-          {touched.email && errors.email && <small className='has-text-danger'>{errors.email}</small>}
+          {touched.telefon && errors.telefon && <small className='has-text-danger'>{errors.telefon}</small>}
         </div>
 
         <div className='field'>
-          <label className='label'>Wiadomość</label>
+          <label className='label'>Wiadomość:<sup>*</sup></label>
           <div className='control'>
-            <Field className='textarea' component='textarea' placeholder='wiadomość' name='message' id='message' rows='6' />
+            <Field className='textarea' component='textarea' placeholder='Wiadomość...' name='wiadomość' id='wiadomość' rows='6' />
           </div>
-          {touched.message && errors.message && <small className='has-text-danger'>{errors.message}</small>}
+          {touched.wiadomość && errors.wiadomość && <small className='has-text-danger'>{errors.wiadomość}</small>}
         </div>
 
         <div className='field is-grouped is-pulled-right'>
@@ -79,7 +89,7 @@ const ContactForm = () => {
           </div>
         </div>
       </form>)}
-    />
+    </Formik>
   )
 }
 
