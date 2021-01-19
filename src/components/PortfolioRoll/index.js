@@ -31,7 +31,7 @@ class PortfolioRoll extends React.Component {
 
 
               </p>
-              <a className='button-green' style={{fontSize:'10px'}}>{post.frontmatter.category}</a>
+              <p className='button-green' style={{fontSize:'10px'}}>{post.frontmatter.category}</p>
 
               </Link>
 
