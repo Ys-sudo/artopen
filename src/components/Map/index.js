@@ -262,5 +262,5 @@ export class MapContainer extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: API_GMAPS
+  apiKey: ' '
 })(MapContainer);
