@@ -6,37 +6,26 @@ const OfferCard = (props) => {
   const {cats} = props
 
   // hides the items
-  const resetGallery = (event) =>{
+  const resetGallery = () =>{
 
-    let name = event.currentTarget.innerHTML;
-
-    let all = document.getElementsByClassName(name);
 
     let rest = document.getElementsByClassName('portfo');
-    let navs = document.getElementsByClassName('button-green');
 
     for (let i =0;i<rest.length;i++){
       rest[i].style.display = 'block';
     }
 
-    for (let i =0;i<navs.length;i++){
-      navs[i].style.textDecoration = 'none';
-      navs[i].style.backgroundColor = 'white';
-      navs[i].style.color = '#00d1b2';
-    }
 
-    event.currentTarget.style.backgroundColor = '#00d1b2';
-    event.currentTarget.style.color = 'white';
-    event.currentTarget.style.textDecoration = 'none';
 
 }
 
 
 
-  const filterGallery = (event) =>{
-    console.log(event.currentTarget.innerHTML);
+  const filterGallery = () =>{
 
-    let name = event.currentTarget.innerHTML;
+    let list = document.getElementById('catlist');
+    console.log(list.options[ list.selectedIndex ].value);
+    let name = list.options[ list.selectedIndex ].value;
 
     let all = document.getElementsByClassName(name);
 
@@ -45,32 +34,22 @@ const OfferCard = (props) => {
 
 
 
+    if (name == "wszystkie realizacje"){
+      resetGallery();
+    } else {
+      console.log(rest.length);
 
-    console.log(rest.length);
+      for (let i =0;i<rest.length;i++){
+        rest[i].style.display = 'none';
+      }
 
-    for (let i =0;i<navs.length;i++){
-      navs[i].style.textDecoration = 'line-through';
-      navs[i].style.backgroundColor = 'white';
-      navs[i].style.backgroundColor = 'white';
-      navs[i].style.color = '#00d1b2';
+      for (let i =0;i<all.length;i++){
+        all[i].style.display = 'block';
+      }
+
+
+      }
     }
-
-    for (let i =0;i<rest.length;i++){
-      rest[i].style.display = 'none';
-    }
-
-    for (let i =0;i<all.length;i++){
-      all[i].style.display = 'block';
-    }
-
-    event.currentTarget.style.backgroundColor = '#00d1b2';
-    event.currentTarget.style.color = 'white';
-    event.currentTarget.style.textDecoration = 'none';
-
-
-
-
-  }
 
 
 
@@ -79,20 +58,20 @@ const OfferCard = (props) => {
 
     <div>
     <div style={{textAlign:'center'}}>
-      <select className='button-green' name="kategorie" id="catlist">
-        <option value="" >Wszystkie realizacje</option>
-        <option value="" >Projekty graficzne</option>
-        <option value="" >Strony internetowe</option>
-        <option value="" >Identyfikacje wizualne</option>
-        <option value="" >Kalendarze książkowe</option>
-        <option value="" >Kalendarze drukowane</option>
-        <option value="" >Gadżety reklamowe</option>
-        <option value="" >Wydruki reklamowe</option>
-        <option value="" >Reklamy outdoor</option>
-        <option value="" >Fotografia marketingowa</option>
-        <option value="" >Systemy wystawiennicze</option>
-        <option value="" >Filmy reklamowe</option>
-        <option value="" >Opakowania</option>
+      <select onChange={filterGallery} className='button-green' name="kategorie" id="catlist">
+        <option value="wszystkie realizacje" >Wszystkie realizacje</option>
+        <option value="projekty graficzne" >Projekty graficzne</option>
+        <option value="strony internetowe" >Strony internetowe</option>
+        <option value="identyfikacje wizualne" >Identyfikacje wizualne</option>
+        <option value="kalendarze książkowe" >Kalendarze książkowe</option>
+        <option value="kalendarze drukowane" >Kalendarze drukowane</option>
+        <option value="gadżety reklamowe" >Gadżety reklamowe</option>
+        <option value="wydruki reklamowe" >Wydruki reklamowe</option>
+        <option value="reklamy outdoor" >Reklamy outdoor</option>
+        <option value="fotografia marketingowa" >Fotografia marketingowa</option>
+        <option value="systemy wystawiennicze" >Systemy wystawiennicze</option>
+        <option value="filmy reklamowe" >Filmy reklamowe</option>
+        <option value="opakowania" >Opakowania</option>
       </select>
     </div>
 
@@ -115,14 +94,12 @@ const OfferCard = (props) => {
         .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
         .slice(0,1)
         .map(({ node: post }) => (
-
-          <div
-            //className={post.frontmatter.category + ' portfo'}
-            className='forty8'
-            key={post.id}
+          <a  href={post.fields.slug+'/'}
+          className={post.frontmatter.category + ' portfo'+' forty8' + ' i350'}
+          key={post.id}
+          style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
           >
-          <a  href={post.fields.slug+'/'}>
-          <img src={post.frontmatter.cover.publicURL} width='100%' className='i350'  />
+
             <div className='pwrapper'>
               <span className='categ'>{post.frontmatter.category}</span>
               <br /> <br />
@@ -137,9 +114,9 @@ const OfferCard = (props) => {
               </span>
             </div>
             </div>
-            </a>
-          </div>
 
+
+          </a>
         ))}
 
         {posts
@@ -147,14 +124,12 @@ const OfferCard = (props) => {
           .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
           .slice(1,3)
           .map(({ node: post }) => (
-
-            <div
-              //className={post.frontmatter.category + ' portfo'}
-              className='twenty1'
-              key={post.id}
+            <a  href={post.fields.slug+'/'}
+            className={post.frontmatter.category + ' portfo' + ' twenty1'+' i350'}
+            key={post.id}
+            style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
             >
-            <a  href={post.fields.slug+'/'}>
-            <img src={post.frontmatter.cover.publicURL} width='100%' className='i350' />
+
               <div className='pwrapper'>
                 <span className='categ'>{post.frontmatter.category}</span>
                 <br /> <br />
@@ -169,23 +144,20 @@ const OfferCard = (props) => {
                 </span>
               </div>
               </div>
-              </a>
-            </div>
 
+            </a>
           ))}
-
+          <div className='flexWrapper'>
           {posts
             .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
             .slice(3,5)
             .map(({ node: post }) => (
-
-              <div
-                //className={post.frontmatter.category + ' portfo'}
-                className='twenty2'
-                key={post.id}
+              <a  href={post.fields.slug+'/'}
+              className={post.frontmatter.category + ' portfo'+' twenty2'+' i160'}
+              key={post.id}
+              style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
               >
-              <a  href={post.fields.slug+'/'}>
-              <img src={post.frontmatter.cover.publicURL} width='100%' className='i160'  />
+
                 <div className='pwrapper'>
                   <span className='categ'>{post.frontmatter.category}</span>
                   <br /> <br />
@@ -200,23 +172,21 @@ const OfferCard = (props) => {
                   </span>
                 </div>
                 </div>
-                </a>
-              </div>
+
+              </a>
 
             ))}
 
             {posts
               .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
-              .slice(5,6)
+              .slice(6,8)
               .map(({ node: post }) => (
-
-                <div
-                  //className={post.frontmatter.category + ' portfo'}
-                  className='forty5'
-                  key={post.id}
+                <a  href={post.fields.slug+'/'}
+                className={post.frontmatter.category + ' portfo'+' twenty2'+' i160'}
+                key={post.id}
+                style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
                 >
-                <a  href={post.fields.slug+'/'}>
-                <img src={post.frontmatter.cover.publicURL} width='100%' className='i350'  />
+
                   <div className='pwrapper'>
                     <span className='categ'>{post.frontmatter.category}</span>
                     <br /> <br />
@@ -231,54 +201,50 @@ const OfferCard = (props) => {
                     </span>
                   </div>
                   </div>
-                  </a>
-                </div>
 
+                </a>
               ))}
+            </div>
+            {posts
+              .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+              .slice(5,6)
+              .map(({ node: post }) => (
+                <a  href={post.fields.slug+'/'}
+                className={post.frontmatter.category + ' portfo'+' forty5'+' i350'}
+                key={post.id}
+                style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
+                >
 
-              {posts
-                .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
-                .slice(6,8)
-                .map(({ node: post }) => (
-
-                  <div
-                    //className={post.frontmatter.category + ' portfo'}
-                    className='twenty22'
-                    key={post.id}
-                  >
-                  <a  href={post.fields.slug+'/'}>
-                  <img src={post.frontmatter.cover.publicURL} width='100%' className='i160'  />
-                    <div className='pwrapper'>
-                      <span className='categ'>{post.frontmatter.category}</span>
-                      <br /> <br />
-                      <h6 style={{marginLeft:'50px',color:'white'}}>
-                          <b>{post.frontmatter.title}</b>
-                        <br />
-                        <small>&bull; {post.frontmatter.date}</small>
-                      </h6>
-                    <div style={{textAlign:'right'}}>
-                      <span className='pspan'>
-                      <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
-                      </span>
-                    </div>
-                    </div>
-                    </a>
+                  <div className='pwrapper'>
+                    <span className='categ'>{post.frontmatter.category}</span>
+                    <br /> <br />
+                    <h6 style={{marginLeft:'50px',color:'white'}}>
+                        <b>{post.frontmatter.title}</b>
+                      <br />
+                      <small>&bull; {post.frontmatter.date}</small>
+                    </h6>
+                  <div style={{textAlign:'right'}}>
+                    <span className='pspan'>
+                    <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
+                    </span>
+                  </div>
                   </div>
 
-                ))}
+                </a>
+              ))}
+
+
 
                 {posts
                   .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
                   .slice(8,9)
                   .map(({ node: post }) => (
-
-                    <div
-                      //className={post.frontmatter.category + ' portfo'}
-                      className='forty8'
-                      key={post.id}
+                    <a  href={post.fields.slug+'/'}
+                    className={post.frontmatter.category + ' portfo'+' forty8' + ' i250'}
+                    key={post.id}
+                    style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
                     >
-                    <a  href={post.fields.slug+'/'}>
-                    <img src={post.frontmatter.cover.publicURL} width='100%' className='i250' />
+
                       <div className='pwrapper'>
                         <span className='categ'>{post.frontmatter.category}</span>
                         <br /> <br />
@@ -293,8 +259,8 @@ const OfferCard = (props) => {
                         </span>
                       </div>
                       </div>
-                      </a>
-                    </div>
+
+                    </a>
 
                   ))}
 
@@ -302,14 +268,11 @@ const OfferCard = (props) => {
                     .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
                     .slice(9,11)
                     .map(({ node: post }) => (
+                      <a  href={post.fields.slug+'/'}
+                      className={post.frontmatter.category + ' portfo' +' twenty1'+' i250'}
+                      key={post.id}
+                      style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}>
 
-                      <div
-                        //className={post.frontmatter.category + ' portfo'}
-                        className='twenty1'
-                        key={post.id}
-                      >
-                      <a  href={post.fields.slug+'/'}>
-                      <img src={post.frontmatter.cover.publicURL} width='100%' className='i250' />
                         <div className='pwrapper'>
                           <span className='categ'>{post.frontmatter.category}</span>
                           <br /> <br />
@@ -324,8 +287,8 @@ const OfferCard = (props) => {
                           </span>
                         </div>
                         </div>
-                        </a>
-                      </div>
+
+                      </a>
 
                     ))}
 
@@ -337,93 +300,6 @@ const OfferCard = (props) => {
 
 
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div className="Portfolio" style={{textAlign:'center',marginTop:'200px'}}>
-          <a onClick={resetGallery} className='button-green'>wszystkie realizacje</a>
-        </div>
-        <br></br>
-        <div className="portfolio section" style={{padding: '0px', textAlign:'center', marginLeft:'10%',marginRight:'10%'}}>
-
-            <div className=" port-nav ">
-              <a onClick={filterGallery} className='button-green'>projekty graficzne</a>
-            </div>
-
-            <div className=" port-nav ">
-              <a onClick={filterGallery} className='button-green'>strony internetowe</a>
-            </div>
-
-            <div className=" port-nav ">
-              <a onClick={filterGallery} className='button-green'>identyfikacje wizualne</a>
-            </div>
-
-            <div className=" port-nav ">
-              <a onClick={filterGallery} className='button-green'>kalendarze książkowe</a>
-            </div>
-
-
-            <div className=" port-nav ">
-              <a onClick={filterGallery} className='button-green'>kalendarze drukowane</a>
-            </div>
-
-            <div className=" port-nav ">
-              <a onClick={filterGallery} className='button-green'>gadżety reklamowe</a>
-            </div>
-
-            <div className=" port-nav ">
-              <a onClick={filterGallery} className='button-green'>wydruki reklamowe</a>
-            </div>
-
-            <div className=" port-nav ">
-              <a onClick={filterGallery} className='button-green'>reklamy outdoor</a>
-            </div>
-
-
-            <div className=" port-nav ">
-              <a onClick={filterGallery} className='button-green'>fotografia marketingowa</a>
-            </div>
-
-            <div className=" port-nav ">
-              <a onClick={filterGallery} className='button-green'>systemy wystawiennicze</a>
-            </div>
-
-            <div className=" port-nav ">
-              <a onClick={filterGallery} className='button-green'>filmy reklamowe</a>
-            </div>
-
-            <div className=" port-nav ">
-              <a onClick={filterGallery} className='button-green'>opakowania</a>
-            </div>
-
-        </div>
-
-
-
-
-
-
     </div>
   )
 }

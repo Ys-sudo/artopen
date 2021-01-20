@@ -171,8 +171,6 @@ nav
 .portfolio
   display: flex
   flex-wrap: wrap
-.portfo
-  width: 21% !important
 
 .offert
   display: flex
@@ -295,22 +293,24 @@ nav
   margin-left: -20px
 
 //Portfolio
+.portfo
+  background-size: cover
+  transition-duration: 1.5s
+
 .pwrapper
-  margin-top: -150px
+  margin-top: 50px
   position: relative
 .categ
   margin-left: 10px
   background-color: #00d1b2
-  padding: 5px
+  padding: 5px 7px 5px 7px
   color: white
   border-radius: 5px
   text-align: center
   margin-bottom: 10px
 .pspan
   margin-right: 25px
-  border: 1px solid #00d1b2
   padding: 10px
-  border-radius: 50%
 
 .forty8
   width: 48%
@@ -319,17 +319,13 @@ nav
   width: 21%
   margin: 20px
 .twenty2
-  width: 22.5%
+  width: 43.9%
   margin: 20px
 .forty5
   width: 45%
   margin: 20px
-.twenty22
-  width: 22.5%
-  margin: 20px
-  margin-top: -158px
 .i160
-  height: 160px
+  height: 171.5px
   border-radius: 10px
   box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
 .i250
@@ -337,9 +333,48 @@ nav
   border-radius: 10px
   box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
 .i350
-  height: 360px
+  height: 385px
   border-radius: 10px
   box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
+.flexWrapper
+  display: flex
+  flex-flow: row wrap
+  width: 51%
+
+.portfo:hover
+  transition-duration: 1.5s
+  background-color: darkturquoise
+  background-blend-mode: overlay
+.portfo:hover > div > div > span > img
+  filter: brightness(0) invert(1)
+  margin-top: -35px
+  transition-duration: 1.5s
+  transform: scale(3)
+
+
+//TODO: work on the breakpoint for portfolio - correct margins to %
+@media screen and (max-width: 1401px)
+  .portfolio
+    display: block
+  .forty8,
+  .twenty1,
+  .twenty2,
+  .forty5
+    width: 100%
+    margin: 50px
+    margin-left: -10px
+  .flexWrapper
+    display: block
+    width: 100%
+    margin: 50px
+    margin-left: 0px
+  .portfo
+    display: block
+    padding-top: 50px
+    padding-left: 50px
+  .i160
+    height: 300px
+
 
 @import "~bulma"
 
@@ -351,22 +386,14 @@ nav
     top: auto
     left: auto
     padding-left: 30px
-  .portfolio
-    display: inline-block
+
 
   .navbar-end
     margin-left: 0px !important
   .field.is-grouped
     justify-content: center
 
-  .forty8,
-  .twenty1,
-  .twenty2,
-  .forty5,
-  .twenty22
-    width: 100%
-    margin: 50px
-    margin-left: -10px
+
 
 +mobile
   .article-wrapper
@@ -386,15 +413,26 @@ nav
     width: 100%
 
   .portfolio
-    display: inline-block
+    display: block
   .forty8,
   .twenty1,
   .twenty2,
-  .forty5,
-  .twenty22
+  .forty5
     width: 100%
     margin: 50px
-    margin-left: -10px
+    margin-left: -5px
+  .portfo
+    display: block
+    padding-top: 30px
+    padding-left: 50px
+  .i160
+    height: 300px
+
+  .flexWrapper
+    display: block
+    width: 100%
+    margin: 50px
+    margin-left: 0px
 
 
   .field.is-grouped
