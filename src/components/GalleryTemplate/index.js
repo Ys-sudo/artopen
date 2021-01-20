@@ -10,16 +10,18 @@ const GalleryTemplate = (props) => {
 
   return (
     <div>
+      <ProgressiveImageContainer
+        image={cover}
+        alt={title}
+        className='imgcont'
+      />
       <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
         {title}
       </h1>
 
-      <h5 className='subtitle' >{category}</h5>
+      <h2 className='subtitle' >{category}</h2>
 
-      <ProgressiveImageContainer
-        image={cover}
-        alt={title}
-      />
+
 
       <PostContent content={content} />
       <div style={{ marginTop: `4rem` }}>

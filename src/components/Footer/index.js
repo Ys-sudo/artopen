@@ -8,7 +8,7 @@ const Footer = (props) => {
 
       <div className='container'>
         <div style={{textAlign:'center'}}>
-          <a href="/"><img width="300px" src='' alt="ArtOpen logo białe svg" /></a>
+          <a href="/"><img width="200px" src='/img/ArtOpen-white.svg' alt="ArtOpen studio reklamy" /></a>
           <br></br>
         </div>
       <div className='section columns' style={{marginLeft:'3%'}}>

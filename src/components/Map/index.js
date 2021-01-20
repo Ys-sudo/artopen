@@ -232,9 +232,9 @@ export class MapContainer extends Component {
           name={"Art Open - Studio Reklamy"}
 
           icon={{
-                  url: '/img/map-marker-alt.svg',
+                  url: '/img/art-marker.svg',
                   anchor: new google.maps.Point(17, 46),
-                  scaledSize: new google.maps.Size(37, 37)
+                  scaledSize: new google.maps.Size(50, 50)
 
               }}
         />

@@ -51,7 +51,9 @@ const HomePageTemplate = (props) => {
       <h4 className='title' style={{marginTop:'100px'}}> Portfolio </h4>
       <h5 className='subtitle' style={{marginBottom:'-20px'}}> Zapoznaj się z naszymi realizacjami. </h5>
       <PortfolioRoll />
-      
+      < br/>
+      <a className="button-green" style={{fontSize:'18px'}} href="/blog/"> Zobacz nasze projekty <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+
       <h4 className='title' style={{marginTop:'100px'}}> Blog </h4>
       <h5 className='subtitle'> Zapraszamy do lektury. </h5>
       <BlogRoll />

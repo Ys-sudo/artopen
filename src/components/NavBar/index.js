@@ -59,9 +59,9 @@ const NavBar = () => {
       render={data => (
         <nav className='navbar is-fixed-top' aria-label='main navigation'>
           <div className='navbar-brand'>
-            <Link to='/' className='navbar-item'>
-              <strong className='fade-in'>Art Open</strong>
-            </Link>
+            <a href='/' className='navbar-item' style={{marginLeft:'10px'}}>
+              <img width="100px" style={{transform:'scale(1.3)'}} src='/img/ArtOpen.svg' alt="ArtOpen multimedialna agencja reklamowa" />
+            </a>
             <button
               className={`button navbar-burger ${active ? 'is-active' : ''}`}
               data-target='navMenu'
@@ -201,7 +201,7 @@ const NavBar = () => {
 
             <div id='modal'
             style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'white',zIndex:'200'}}>
-              <div style={{marginLeft:'10%',marginRight:'10%',paddingTop:'5%'}}>
+              <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'5%'}}>
 
                   <a className='button-green' style={{fontSize:'30px'}} onMouseOver={modalDestroy} >&nbsp;x&nbsp;</a>
 

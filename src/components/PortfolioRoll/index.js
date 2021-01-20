@@ -39,7 +39,7 @@ class PortfolioRoll extends React.Component {
           ))}
 
       </div>
-      <a className="button-green" style={{fontSize:'15px'}} href="/portfolio/"> Zobacz wszystkie projekty &nbsp;&nbsp;<img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+      
       </div>
 
   )
