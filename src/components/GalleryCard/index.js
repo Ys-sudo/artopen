@@ -8,7 +8,6 @@ const OfferCard = (props) => {
   // hides the items
   const resetGallery = (event) =>{
 
-
     let name = event.currentTarget.innerHTML;
 
     let all = document.getElementsByClassName(name);
@@ -79,11 +78,25 @@ const OfferCard = (props) => {
 
 
     <div>
-
-
+    <div style={{textAlign:'center'}}>
+      <select className='button-green' name="kategorie" id="catlist">
+        <option value="" >Wszystkie realizacje</option>
+        <option value="" >Projekty graficzne</option>
+        <option value="" >Strony internetowe</option>
+        <option value="" >Identyfikacje wizualne</option>
+        <option value="" >Kalendarze książkowe</option>
+        <option value="" >Kalendarze drukowane</option>
+        <option value="" >Gadżety reklamowe</option>
+        <option value="" >Wydruki reklamowe</option>
+        <option value="" >Reklamy outdoor</option>
+        <option value="" >Fotografia marketingowa</option>
+        <option value="" >Systemy wystawiennicze</option>
+        <option value="" >Filmy reklamowe</option>
+        <option value="" >Opakowania</option>
+      </select>
+    </div>
 
     {/*<div className='catlist' style={{display: 'flex',alignItems:'center',justifyContent:'center', width:'100%'}}>
-
       {cats
         .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
         .map(({ node: post }) => (
@@ -105,13 +118,13 @@ const OfferCard = (props) => {
 
           <div
             //className={post.frontmatter.category + ' portfo'}
-            style={{ width:'50%',  margin:'20px'  }}
+            className='forty8'
             key={post.id}
           >
           <a  href={post.fields.slug+'/'}>
-          <img src={post.frontmatter.cover.publicURL} width='100%' style={{borderRadius:'10px',height:'350px'}} />
-            <div style={{marginTop:'-150px',position:'relative'}}>
-              <span style={{marginLeft:'10px',backgroundColor:'#00d1b2',padding:'5px',color:'white',borderRadius:'5px',textAlign:'center',marginBottom:'10px'}}>{post.frontmatter.category}</span>
+          <img src={post.frontmatter.cover.publicURL} width='100%' className='i350'  />
+            <div className='pwrapper'>
+              <span className='categ'>{post.frontmatter.category}</span>
               <br /> <br />
               <h5 style={{marginLeft:'50px',color:'white'}}>
                   <b>{post.frontmatter.title}</b>
@@ -119,7 +132,7 @@ const OfferCard = (props) => {
                 <small>&bull; {post.frontmatter.date}</small>
               </h5>
             <div style={{textAlign:'right'}}>
-              <span style={{ marginRight:'25px', backgroundColor:'white',padding:'5px 10px 10px 10px',borderRadius:'50%'}}>
+              <span className='pspan'>
               <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
               </span>
             </div>
@@ -137,13 +150,13 @@ const OfferCard = (props) => {
 
             <div
               //className={post.frontmatter.category + ' portfo'}
-              style={{ width:'20%',  margin:'20px' }}
+              className='twenty1'
               key={post.id}
             >
             <a  href={post.fields.slug+'/'}>
-            <img src={post.frontmatter.cover.publicURL} width='100%' style={{borderRadius:'10px',height:'350px',}} />
-              <div style={{marginTop:'-150px',position:'relative'}}>
-                <span style={{marginLeft:'10px',backgroundColor:'#00d1b2',padding:'5px',color:'white',borderRadius:'5px',textAlign:'center',marginBottom:'10px'}}>{post.frontmatter.category}</span>
+            <img src={post.frontmatter.cover.publicURL} width='100%' className='i350' />
+              <div className='pwrapper'>
+                <span className='categ'>{post.frontmatter.category}</span>
                 <br /> <br />
                 <h6 style={{marginLeft:'50px',color:'white'}}>
                     <b>{post.frontmatter.title}</b>
@@ -151,7 +164,7 @@ const OfferCard = (props) => {
                   <small>&bull; {post.frontmatter.date}</small>
                 </h6>
               <div style={{textAlign:'right'}}>
-                <span style={{ marginRight:'25px', backgroundColor:'white',padding:'5px 10px 10px 10px',borderRadius:'50%'}}>
+                <span className='pspan'>
                 <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
                 </span>
               </div>
@@ -168,13 +181,13 @@ const OfferCard = (props) => {
 
               <div
                 //className={post.frontmatter.category + ' portfo'}
-                style={{ width:'20%',  margin:'20px',marginBottom:'100px'  }}
+                className='twenty2'
                 key={post.id}
               >
               <a  href={post.fields.slug+'/'}>
-              <img src={post.frontmatter.cover.publicURL} width='100%' style={{borderRadius:'10px',height:'350px',}} />
-                <div style={{marginTop:'-150px',position:'relative'}}>
-                  <span style={{marginLeft:'10px',backgroundColor:'#00d1b2',padding:'5px',color:'white',borderRadius:'5px',textAlign:'center',marginBottom:'10px'}}>{post.frontmatter.category}</span>
+              <img src={post.frontmatter.cover.publicURL} width='100%' className='i160'  />
+                <div className='pwrapper'>
+                  <span className='categ'>{post.frontmatter.category}</span>
                   <br /> <br />
                   <h6 style={{marginLeft:'50px',color:'white'}}>
                       <b>{post.frontmatter.title}</b>
@@ -182,7 +195,7 @@ const OfferCard = (props) => {
                     <small>&bull; {post.frontmatter.date}</small>
                   </h6>
                 <div style={{textAlign:'right'}}>
-                  <span style={{ marginRight:'25px', backgroundColor:'white',padding:'5px 10px 10px 10px',borderRadius:'50%'}}>
+                  <span className='pspan'>
                   <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
                   </span>
                 </div>
@@ -191,6 +204,131 @@ const OfferCard = (props) => {
               </div>
 
             ))}
+
+            {posts
+              .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+              .slice(5,6)
+              .map(({ node: post }) => (
+
+                <div
+                  //className={post.frontmatter.category + ' portfo'}
+                  className='forty5'
+                  key={post.id}
+                >
+                <a  href={post.fields.slug+'/'}>
+                <img src={post.frontmatter.cover.publicURL} width='100%' className='i350'  />
+                  <div className='pwrapper'>
+                    <span className='categ'>{post.frontmatter.category}</span>
+                    <br /> <br />
+                    <h6 style={{marginLeft:'50px',color:'white'}}>
+                        <b>{post.frontmatter.title}</b>
+                      <br />
+                      <small>&bull; {post.frontmatter.date}</small>
+                    </h6>
+                  <div style={{textAlign:'right'}}>
+                    <span className='pspan'>
+                    <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
+                    </span>
+                  </div>
+                  </div>
+                  </a>
+                </div>
+
+              ))}
+
+              {posts
+                .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+                .slice(6,8)
+                .map(({ node: post }) => (
+
+                  <div
+                    //className={post.frontmatter.category + ' portfo'}
+                    className='twenty22'
+                    key={post.id}
+                  >
+                  <a  href={post.fields.slug+'/'}>
+                  <img src={post.frontmatter.cover.publicURL} width='100%' className='i160'  />
+                    <div className='pwrapper'>
+                      <span className='categ'>{post.frontmatter.category}</span>
+                      <br /> <br />
+                      <h6 style={{marginLeft:'50px',color:'white'}}>
+                          <b>{post.frontmatter.title}</b>
+                        <br />
+                        <small>&bull; {post.frontmatter.date}</small>
+                      </h6>
+                    <div style={{textAlign:'right'}}>
+                      <span className='pspan'>
+                      <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
+                      </span>
+                    </div>
+                    </div>
+                    </a>
+                  </div>
+
+                ))}
+
+                {posts
+                  .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+                  .slice(8,9)
+                  .map(({ node: post }) => (
+
+                    <div
+                      //className={post.frontmatter.category + ' portfo'}
+                      className='forty8'
+                      key={post.id}
+                    >
+                    <a  href={post.fields.slug+'/'}>
+                    <img src={post.frontmatter.cover.publicURL} width='100%' className='i250' />
+                      <div className='pwrapper'>
+                        <span className='categ'>{post.frontmatter.category}</span>
+                        <br /> <br />
+                        <h6 style={{marginLeft:'50px',color:'white'}}>
+                            <b>{post.frontmatter.title}</b>
+                          <br />
+                          <small>&bull; {post.frontmatter.date}</small>
+                        </h6>
+                      <div style={{textAlign:'right'}}>
+                        <span className='pspan'>
+                        <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
+                        </span>
+                      </div>
+                      </div>
+                      </a>
+                    </div>
+
+                  ))}
+
+                  {posts
+                    .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+                    .slice(9,11)
+                    .map(({ node: post }) => (
+
+                      <div
+                        //className={post.frontmatter.category + ' portfo'}
+                        className='twenty1'
+                        key={post.id}
+                      >
+                      <a  href={post.fields.slug+'/'}>
+                      <img src={post.frontmatter.cover.publicURL} width='100%' className='i250' />
+                        <div className='pwrapper'>
+                          <span className='categ'>{post.frontmatter.category}</span>
+                          <br /> <br />
+                          <h6 style={{marginLeft:'50px',color:'white'}}>
+                              <b>{post.frontmatter.title}</b>
+                            <br />
+                            <small>&bull; {post.frontmatter.date}</small>
+                          </h6>
+                        <div style={{textAlign:'right'}}>
+                          <span className='pspan'>
+                          <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
+                          </span>
+                        </div>
+                        </div>
+                        </a>
+                      </div>
+
+                    ))}
+
 
 
 

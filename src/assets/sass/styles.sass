@@ -294,6 +294,52 @@ nav
   margin-bottom: 25px
   margin-left: -20px
 
+//Portfolio
+.pwrapper
+  margin-top: -150px
+  position: relative
+.categ
+  margin-left: 10px
+  background-color: #00d1b2
+  padding: 5px
+  color: white
+  border-radius: 5px
+  text-align: center
+  margin-bottom: 10px
+.pspan
+  margin-right: 25px
+  border: 1px solid #00d1b2
+  padding: 10px
+  border-radius: 50%
+
+.forty8
+  width: 48%
+  margin: 20px
+.twenty1
+  width: 21%
+  margin: 20px
+.twenty2
+  width: 22.5%
+  margin: 20px
+.forty5
+  width: 45%
+  margin: 20px
+.twenty22
+  width: 22.5%
+  margin: 20px
+  margin-top: -158px
+.i160
+  height: 160px
+  border-radius: 10px
+  box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
+.i250
+  height: 250px
+  border-radius: 10px
+  box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
+.i350
+  height: 360px
+  border-radius: 10px
+  box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
 
 @import "~bulma"
 
@@ -306,14 +352,21 @@ nav
     left: auto
     padding-left: 30px
   .portfolio
-    display: flex
-    flex-wrap: wrap
-  .portfo
-    width: 50% !important
+    display: inline-block
+
   .navbar-end
     margin-left: 0px !important
   .field.is-grouped
     justify-content: center
+
+  .forty8,
+  .twenty1,
+  .twenty2,
+  .forty5,
+  .twenty22
+    width: 100%
+    margin: 50px
+    margin-left: -10px
 
 +mobile
   .article-wrapper
@@ -332,14 +385,23 @@ nav
   .fimg, .bimg
     width: 100%
 
+  .portfolio
+    display: inline-block
+  .forty8,
+  .twenty1,
+  .twenty2,
+  .forty5,
+  .twenty22
+    width: 100%
+    margin: 50px
+    margin-left: -10px
+
+
   .field.is-grouped
     justify-content: center
   .removespace
     margin-top: -55px !important
-  .portfolio
-    display: block
-  .portfo
-    width: 100% !important
+
   .subMenu
     position: relative !important
     top: auto
