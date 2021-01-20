@@ -14,11 +14,11 @@ const ModalCall = () => {
   return (
 
 
-      <div className='modalCall' style={{width:'75%',borderRadius:'0px 70px 70px 0px',
+      <div className='modalCall' onClick={modalEnter} style={{width:'75%',borderRadius:'0px 70px 70px 0px',
       backgroundImage: 'linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e6eb 100%',marginBottom:'50px'}}>
         <div className='columns section'>
           <div className='column' style={{marginRight:'50px',marginLeft:'10%'}}>
-            <h5 className='title' style={{color:'white'}}>
+            <h5 className='title' style={{color:'white',fontSize:'29px'}}>
               Złóż zamówienie.
             </h5>
             <h6 className='subtitle' style={{color:'white',fontSize:'18px'}}>

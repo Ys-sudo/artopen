@@ -12,8 +12,7 @@ import PortfolioRoll from '../PortfolioRoll'
 import PropTypes from 'prop-types'
 
 const HomePageTemplate = (props) => {
-  const { title, heading, description, offerings, meta_title, meta_description, testimonials  } = props
-  const { group } = props
+  const { title, meta_title, meta_description } = props
 
   return (
     <div>
@@ -36,29 +35,9 @@ const HomePageTemplate = (props) => {
           </div>
         </div>
       </section>
-      <section className='section section--gradient'>
-        <div className='container'>
 
-          <div className='section'>
-            <div className='columns'>
-              <div className='column is-10 is-offset-1'>
-                <div className='content'>
-                  <div>
-                    <h3 className='has-text-weight-semibold is-size-2'>
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
-                  </div>
-                  <Offerings gridItems={offerings.blurbs} />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      </section>
       <div style={{marginLeft:'10%',marginRight:'10%',textAlign:'center'}}>
+      <br /><br />
       <h4 className='title'> Poznaj naszą ofertę: </h4>
       <h5 className='subtitle'> Zobacz co możemy dla Ciebie zrobić. </h5>
       <br></br>
@@ -81,7 +60,6 @@ const HomePageTemplate = (props) => {
 
       <div style={{marginTop:'5%',marginLeft:'10%',marginRight:'10%',marginBottom:'5%'}}>
       <h2 className='has-text-weight-semibold is-size-2'>Co mówią o nas klienci?</h2>
-      <Testimonials testimonials={testimonials} />
       </div>
 
       <ContactCall />
@@ -92,13 +70,8 @@ const HomePageTemplate = (props) => {
 HomePageTemplate.propTypes = {
   title: PropTypes.string,
   meta_title: PropTypes.string,
-  meta_description: PropTypes.string,
-  heading: PropTypes.string,
-  description: PropTypes.string,
-  offerings: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
-  testimonials: PropTypes.array,
+  meta_description: PropTypes.string
+
 }
 
 export default HomePageTemplate

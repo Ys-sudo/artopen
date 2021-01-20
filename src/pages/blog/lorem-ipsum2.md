@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
-title: Lorem ipsum2
-slug: dwana
+title: wpis 7
+slug: wpis 7
 date: 2020-12-04T22:26:38.063Z
 cover: /img/slider_3.jpg
 tags:

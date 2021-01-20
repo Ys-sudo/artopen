@@ -82,7 +82,7 @@ const CatalogsPageTemplate = (props) => {
                    </p>
                    <br />
                    <br />
-                   <a className="button-green" target="_blank" id="butt" style={{fontSize:'15px',paddingRight:'20px'}} href="https://online.fliphtml5.com/njygn/takv/"><img width="20px"  style={{marginLeft:'5px',marginRight:'10px'}}   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+                   <a className="button-green" target="_blank" id="butt" style={{fontSize:'15px',paddingRight:'20px'}} href="https://online.fliphtml5.com/njygn/takv/"><img width="20px"  style={{verticalAlign:'middle',marginLeft:'5px',marginRight:'10px'}}   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
                    <br />
                    <br />
                  </div>

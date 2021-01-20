@@ -1,16 +1,15 @@
 ---
 templateKey: article-page
-title: Wpis 1
-slug: wpis1
-date: 2021-12-01T13:49:14.606Z
-cover: /img/slider_1.jpg
+title: wpis 8
+slug: wpis 8
+date: 2020-12-04T22:26:38.063Z
+cover: /img/slider_3.jpg
 tags:
-  - Studio Reklamy
-  - agencja interaktywna
-  - ekologia
-meta_title: tytuł meta
-meta_description: opis meta
+  - test
+meta_title: test
+meta_description: test
 ---
+
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.

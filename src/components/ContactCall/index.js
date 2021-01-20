@@ -17,7 +17,7 @@ const ContactCall = () => {
           </div>
         </div>
         <div style={{textAlign:'center'}}>
-          <a className='button-white' style={{fontSize:'14px',fontWeight:'800'}} href="/kontakt/" > Skontaktuj się z nami! </a>
+          <a className='button-white' style={{fontSize:'14px',fontWeight:'800'}} href="/kontakt/" > Skontaktuj się z nami! &nbsp;&nbsp; <img width="15px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="brief" src='/img/angle-right.svg'/> </a>
         </div>
       </div>
 

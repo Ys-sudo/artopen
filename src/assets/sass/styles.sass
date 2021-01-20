@@ -115,6 +115,7 @@ nav
   filter: brightness(0) invert(1)
 
 .button-white
+  transition-duration: 1s
   color: white
   font-size: 13px
   font-weight: 500
@@ -128,6 +129,7 @@ nav
   color:  #00d1b2
 
 .button-white > img
+  transition-duration: 1s
   filter: brightness(0) invert(1)
 .button-white:hover > img
   filter: brightness(1) invert(0)
@@ -178,13 +180,17 @@ nav
   margin-bottom: 20px
   width: 25% !important
 .link-green
+  transition-duration: 0.5s
   color: #00d1b2
 .link-green:hover
+  transition-duration: 0.5s
   color: #00d1b2
   font-weight: 900
 .icon-green
+  transition-duration: 0.5s
   margin-right: 15px
 .icon-green:hover
+  transition-duration: 0.5s
   transform: scale(1.3)
   filter: brightness(0) invert(1)
 
@@ -204,7 +210,34 @@ nav
   margin-left: 10px !important
   transform: scale(1.5)
 
-
+//BLOG section
+.article-wrapper
+  margin-bottom: 3%
+  border: 2px solid #f5f5f5
+  border-radius: 15px
+  padding: 2em 4em
+  width: 100%
+.tagline
+  text-align: left
+  margin-top: -80px
+  margin-bottom: 50px
+  margin-left: -30px
+.featured-post
+  background-color: white
+  border: 2px solid #f5f5f5
+  margin-top: -200px
+  margin-left: 50px
+  padding: 30px
+  border-radius: 30px
+  margin-right: 5%
+  z-index: 100
+  position: relative
+  box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
+.fimg
+  width: 90%
+  border-radius: 20px
+  z-index: 10
+  box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
 
 @import "~bulma"
 
@@ -227,6 +260,21 @@ nav
     justify-content: center
 
 +mobile
+  .article-wrapper
+    padding: 20px
+  .featured-post
+    padding: 10px
+    margin-top: 0px
+    margin-left: 0px
+    margin-right: 0px
+    box-shadow: rgba(23, 19, 43, 0.0) -5px 5px 15px
+  .tagline
+    display: none
+  .excerpts
+    display: block
+  .fimg
+    width: 100%
+
   .field.is-grouped
     justify-content: center
   .removespace

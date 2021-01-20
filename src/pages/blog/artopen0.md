@@ -1,13 +1,12 @@
 ---
 templateKey: article-page
-title: Wpis 1
-slug: wpis1
-date: 2021-12-01T13:49:14.606Z
+title: wpis2
+slug: wpis2
+date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg
 tags:
   - Studio Reklamy
   - agencja interaktywna
-  - ekologia
 meta_title: tytuł meta
 meta_description: opis meta
 ---

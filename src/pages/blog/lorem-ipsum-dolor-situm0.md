@@ -1,16 +1,20 @@
 ---
 templateKey: article-page
-title: Wpis 1
-slug: wpis1
-date: 2021-12-01T13:49:14.606Z
-cover: /img/slider_1.jpg
+title: wpis 6
+slug: wpis 6
+date: 2018-03-29T03:55:49.370Z
+cover: /img/slider_2.jpg
+meta_title: Lorem Ipsum Dolor Situm
+meta_description: >-
+  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
+  consectetur purus sit amet fermentum.
 tags:
-  - Studio Reklamy
-  - agencja interaktywna
-  - ekologia
-meta_title: tytuł meta
-meta_description: opis meta
+  - lorem
+  - ipsum
 ---
+
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.

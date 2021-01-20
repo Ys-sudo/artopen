@@ -10,70 +10,66 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "strony"
-    label: "Strony"
-    files:
-      - file: "src/pages/index.md"
-        label: "Home"
-        name: "home"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Offerings, name: offerings, widget: object, fields: [{label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Meta Description", name: "meta_description", widget: "text"}
-      - file: "src/pages/o-nas/index.md"
-        label: "O nas"
-        name: "O nas"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Meta Description", name: "meta_description", widget: "text"}
-
-      - file: "src/pages/kontakt/index.md"
-        label: "Kontakt"
-        name: "kontakt"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Subtitle, name: subtitle, widget: string}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Meta Description", name: "meta_description", widget: "text"}
-
-      - file: "src/pages/polityka-prywatnosci/index.md"
-        label: "Polityka prywatności"
-        name: "polityka prywatnosci"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "policy-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Meta Description", name: "meta_description", widget: "text"}
-
-      - file: "src/pages/katalogi/index.md"
-        label: "Polityka prywatności"
-        name: "polityka prywatnosci"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "catalogs-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Meta Description", name: "meta_description", widget: "text"}
-
-      - file: "src/pages/praca/index.md"
-        label: "Polityka prywatności"
-        name: "polityka prywatnosci"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "work-page"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
-          - {label: "Meta Title", name: "meta_title", widget: "string"}
-          - {label: "Meta Description", name: "meta_description", widget: "text"}
+  #- name: "strony"
+  #  label: "Strony"
+  #  files:
+  #    - file: "src/pages/index.md"
+  #      label: "Home"
+  #      name: "home"
+  #      fields:
+  #        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page"}
+  #        - {label: Title, name: title, widget: string}
+  #        - {label: "Meta Title", name: "meta_title", widget: "string"}
+  #        - {label: "Meta Description", name: "meta_description", widget: "text"}
+  #    - file: "src/pages/o-nas/index.md"
+  #      label: "O nas"
+  #      name: "O nas"
+  #      fields:
+  #        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
+  #        - {label: "Title", name: "title", widget: "string"}
+  #        - {label: "Body", name: "body", widget: "markdown"}
+  #        - {label: "Meta Title", name: "meta_title", widget: "string"}
+  #        - {label: "Meta Description", name: "meta_description", widget: "text"}
+  #
+  #    - file: "src/pages/kontakt/index.md"
+  #      label: "Kontakt"
+  #      name: "kontakt"
+  #      fields:
+  #        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
+  #        - {label: Title, name: title, widget: string}
+  #        - {label: Subtitle, name: subtitle, widget: string}
+  #        - {label: "Meta Title", name: "meta_title", widget: "string"}
+  #        - {label: "Meta Description", name: "meta_description", widget: "text"}
+  #
+  #    - file: "src/pages/polityka-prywatnosci/index.md"
+  #      label: "Polityka prywatności"
+  #      name: "polityka prywatnosci"
+  #      fields:
+  #        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "policy-page"}
+  #        - {label: "Title", name: "title", widget: "string"}
+  #        - {label: "Body", name: "body", widget: "markdown"}
+  #        - {label: "Meta Title", name: "meta_title", widget: "string"}
+  #        - {label: "Meta Description", name: "meta_description", widget: "text"}
+  #
+  #    - file: "src/pages/katalogi/index.md"
+  #      label: "katalogi"
+  #      name: "katalogi"
+  #      fields:
+  #        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "catalogs-page"}
+  #        - {label: "Title", name: "title", widget: "string"}
+  #        - {label: "Body", name: "body", widget: "markdown"}
+  #        - {label: "Meta Title", name: "meta_title", widget: "string"}
+  #        - {label: "Meta Description", name: "meta_description", widget: "text"}
+  #
+  #    - file: "src/pages/praca/index.md"
+  #      label: "praca"
+  #      name: "praca"
+  #      fields:
+  #        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "work-page"}
+  #        - {label: "Title", name: "title", widget: "string"}
+  #        - {label: "Body", name: "body", widget: "markdown"}
+  #        - {label: "Meta Title", name: "meta_title", widget: "string"}
+  #        - {label: "Meta Description", name: "meta_description", widget: "text"}
 
   - name: "blog"
     label: "Blog"

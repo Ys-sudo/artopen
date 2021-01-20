@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
-title: Lorem Ipsum Dolor Situm
-slug: lorem-ipsum-dolor-situm
+title: wpis5
+slug: wpis5
 date: 2018-03-29T03:55:49.370Z
 cover: /img/slider_2.jpg
 meta_title: Lorem Ipsum Dolor Situm
