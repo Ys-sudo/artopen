@@ -80,6 +80,153 @@ const OfferCard = (props) => {
 
     <div>
 
+
+
+    {/*<div className='catlist' style={{display: 'flex',alignItems:'center',justifyContent:'center', width:'100%'}}>
+
+      {cats
+        .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+        .map(({ node: post }) => (
+          <div style={{margin:'10px'}}  key={post.id} >
+              <a className="button-green" style={{ padding: '10px' }}
+              onClick={filterGallery}
+              >{post.frontmatter.category}</a>
+          </div>
+        ))}
+    </div>*/}
+
+    <div className='portfolio'>
+
+      {posts
+
+        .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+        .slice(0,1)
+        .map(({ node: post }) => (
+
+          <div
+            //className={post.frontmatter.category + ' portfo'}
+            style={{ width:'50%',  margin:'20px'  }}
+            key={post.id}
+          >
+          <a  href={post.fields.slug+'/'}>
+          <img src={post.frontmatter.cover.publicURL} width='100%' style={{borderRadius:'10px',height:'350px'}} />
+            <div style={{marginTop:'-150px',position:'relative'}}>
+              <span style={{marginLeft:'10px',backgroundColor:'#00d1b2',padding:'5px',color:'white',borderRadius:'5px',textAlign:'center',marginBottom:'10px'}}>{post.frontmatter.category}</span>
+              <br /> <br />
+              <h5 style={{marginLeft:'50px',color:'white'}}>
+                  <b>{post.frontmatter.title}</b>
+                <br />
+                <small>&bull; {post.frontmatter.date}</small>
+              </h5>
+            <div style={{textAlign:'right'}}>
+              <span style={{ marginRight:'25px', backgroundColor:'white',padding:'5px 10px 10px 10px',borderRadius:'50%'}}>
+              <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
+              </span>
+            </div>
+            </div>
+            </a>
+          </div>
+
+        ))}
+
+        {posts
+
+          .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+          .slice(1,3)
+          .map(({ node: post }) => (
+
+            <div
+              //className={post.frontmatter.category + ' portfo'}
+              style={{ width:'20%',  margin:'20px' }}
+              key={post.id}
+            >
+            <a  href={post.fields.slug+'/'}>
+            <img src={post.frontmatter.cover.publicURL} width='100%' style={{borderRadius:'10px',height:'350px',}} />
+              <div style={{marginTop:'-150px',position:'relative'}}>
+                <span style={{marginLeft:'10px',backgroundColor:'#00d1b2',padding:'5px',color:'white',borderRadius:'5px',textAlign:'center',marginBottom:'10px'}}>{post.frontmatter.category}</span>
+                <br /> <br />
+                <h6 style={{marginLeft:'50px',color:'white'}}>
+                    <b>{post.frontmatter.title}</b>
+                  <br />
+                  <small>&bull; {post.frontmatter.date}</small>
+                </h6>
+              <div style={{textAlign:'right'}}>
+                <span style={{ marginRight:'25px', backgroundColor:'white',padding:'5px 10px 10px 10px',borderRadius:'50%'}}>
+                <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
+                </span>
+              </div>
+              </div>
+              </a>
+            </div>
+
+          ))}
+
+          {posts
+            .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+            .slice(3,5)
+            .map(({ node: post }) => (
+
+              <div
+                //className={post.frontmatter.category + ' portfo'}
+                style={{ width:'20%',  margin:'20px',marginBottom:'100px'  }}
+                key={post.id}
+              >
+              <a  href={post.fields.slug+'/'}>
+              <img src={post.frontmatter.cover.publicURL} width='100%' style={{borderRadius:'10px',height:'350px',}} />
+                <div style={{marginTop:'-150px',position:'relative'}}>
+                  <span style={{marginLeft:'10px',backgroundColor:'#00d1b2',padding:'5px',color:'white',borderRadius:'5px',textAlign:'center',marginBottom:'10px'}}>{post.frontmatter.category}</span>
+                  <br /> <br />
+                  <h6 style={{marginLeft:'50px',color:'white'}}>
+                      <b>{post.frontmatter.title}</b>
+                    <br />
+                    <small>&bull; {post.frontmatter.date}</small>
+                  </h6>
+                <div style={{textAlign:'right'}}>
+                  <span style={{ marginRight:'25px', backgroundColor:'white',padding:'5px 10px 10px 10px',borderRadius:'50%'}}>
+                  <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
+                  </span>
+                </div>
+                </div>
+                </a>
+              </div>
+
+            ))}
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div className="Portfolio" style={{textAlign:'center',marginTop:'200px'}}>
+          <a onClick={resetGallery} className='button-green'>wszystkie realizacje</a>
+        </div>
+        <br></br>
         <div className="portfolio section" style={{padding: '0px', textAlign:'center', marginLeft:'10%',marginRight:'10%'}}>
 
             <div className=" port-nav ">
@@ -133,57 +280,11 @@ const OfferCard = (props) => {
             </div>
 
         </div>
-        <br></br>
-        <div className="Portfolio" style={{textAlign:'center'}}>
-          <a onClick={resetGallery} className='button-green'>wszystkie realizacje</a>
-        </div>
 
-    {/*<div className='catlist' style={{display: 'flex',alignItems:'center',justifyContent:'center', width:'100%'}}>
 
-      {cats
-        .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
-        .map(({ node: post }) => (
-          <div style={{margin:'10px'}}  key={post.id} >
-              <a className="button-green" style={{ padding: '10px' }}
-              onClick={filterGallery}
-              >{post.frontmatter.category}</a>
-          </div>
-        ))}
-    </div>*/}
-    <br></br>
 
-    <div className='portfolio'>
 
-      {posts
 
-        .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
-        .map(({ node: post }) => (
-
-          <div
-            className={post.frontmatter.category + ' portfo'}
-            style={{ margin:'20px'  }}
-            key={post.id}
-          >
-          <Link className='has-text-primary' to={post.fields.slug+'/'}>
-          <img src={post.frontmatter.cover.publicURL} width='100%' style={{borderRadius:'10px'}} />
-            <p>
-
-                {post.frontmatter.title}
-
-              <span> &bull; </span>
-              <small>{post.frontmatter.date}</small>
-            </p>
-            <h6>{post.frontmatter.category}</h6>
-            <p>
-              <br />
-              <br />
-
-            </p>
-            </Link>
-          </div>
-
-        ))}
-    </div>
 
     </div>
   )

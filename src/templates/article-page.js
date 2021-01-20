@@ -8,9 +8,11 @@ import SE0 from '../components/SEO'
 import Share from '../components/Share'
 import Disqus from '../components/Disqus'
 import Layout from '../components/Layout'
+import ModalCall from '../components/ModalCall'
+import BlogRoll2 from '../components/BlogRoll2'
 
 const ArticlePage = (props) => {
-  const { data: { markdownRemark: { html, fields: { slug }, frontmatter: { title, meta_title, meta_description, cover, date, tags } } } } = props
+  const { data: { markdownRemark: { html, fields: { slug }, frontmatter: { title, subtitle, meta_title, meta_description, cover, date, tags } } } } = props
 
   return (
     <Layout>
@@ -41,6 +43,8 @@ const ArticlePage = (props) => {
                 meta_desc={meta_description}
                 tags={tags}
                 title={title}
+                subtitle={subtitle}
+                date={date}
               />
               <Share
                 title={title}
@@ -56,11 +60,21 @@ const ArticlePage = (props) => {
                 siteUrl={config.siteUrl}
                 disqusShortname={config.disqusShortname}
               />
+
             </div>
+          </div>
+          <h5 className='is-title' style={{fontSize:'30px'}}> Przeczytaj więcej: </h5>
+          <BlogRoll2 />
+          <div style={{textAlign:'center',margin:'50px'}}>
+          <a className='button-green' style={{fontSize:'18px'}} href='/blog/'> Wróć na bloga &nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
           </div>
         </div>
       </section>
+      <ModalCall />
     </Layout>
+
+
+
   )
 }
 
@@ -83,6 +97,7 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "DD. MM. YYYY")
         title
+        subtitle
         cover {
             childImageSharp {
                 fluid(maxWidth: 1075, quality: 72) {

@@ -15,7 +15,7 @@ const ModalCall = () => {
 
 
       <div className='modalCall' onClick={modalEnter} style={{width:'75%',borderRadius:'0px 70px 70px 0px',
-      backgroundImage: 'linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e6eb 100%',marginBottom:'50px'}}>
+      backgroundImage: 'linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e6eb 100%',marginBottom:'12px'}}>
         <div className='columns section'>
           <div className='column' style={{marginRight:'50px',marginLeft:'10%'}}>
             <h5 className='title' style={{color:'white',fontSize:'29px'}}>

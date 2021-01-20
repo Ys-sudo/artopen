@@ -1,6 +1,7 @@
 ---
 templateKey: article-page
 title: Wpis 1
+subtitle: podtytuł
 slug: wpis1
 date: 2021-12-01T13:49:14.606Z
 cover: /img/slider_1.jpg

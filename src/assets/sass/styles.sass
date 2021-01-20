@@ -10,6 +10,10 @@ body::-webkit-scrollbar
   width: 0.35em
   z-index: 1000
 
+.imgcont
+  border-radius: 20px
+  box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
+
 body::-webkit-scrollbar-thumb
   background-color: rgb(0, 209, 178)
   -webkit-transition: all .2s ease-in-out
@@ -105,14 +109,20 @@ nav
   border: 1px solid #00d1b2
   padding: 10px
   border-radius: 20px
+  transition-duration: 1s
 
 .button-green:hover
+  transition-duration: 1s
   background-color: #00d1b2
   color: white
   cursor: pointer
 
+
 .button-green:hover > img
+  transition-duration: 1s
   filter: brightness(0) invert(1)
+  margin-left: 5px !important
+  transform: scale(1.2)
 
 .button-white
   transition-duration: 1s
@@ -210,7 +220,7 @@ nav
   margin-left: 10px !important
   transform: scale(1.5)
 
-//BLOG section
+//BLOG
 .article-wrapper
   margin-bottom: 3%
   border: 2px solid #f5f5f5
@@ -224,7 +234,6 @@ nav
   margin-left: -30px
 .featured-post
   background-color: white
-  border: 2px solid #f5f5f5
   margin-top: -200px
   margin-left: 50px
   padding: 30px
@@ -238,6 +247,53 @@ nav
   border-radius: 20px
   z-index: 10
   box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
+  transition-duration: 1s
+
+.bimg
+  width: 70%
+  border-radius: 20px
+  z-index: 10
+  box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
+  transition-duration: 1s
+.fimg:hover
+  transition-duration: 3s
+  transform: scale(1.05)
+.bimg:hover
+  transition-duration: 3s
+  transform: scale(1.05)
+
+
+.blogpost
+  width: 75%
+  background-color: white
+  border-radius: 20px
+  margin-top: -180px
+  z-index: 1000
+  position: relative
+  margin-left: 20%
+  padding: 20px
+  box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
+.tagline2
+  margin-top: -70px
+  margin-bottom: 50px
+  margin-left: -20px
+
+
+.blogpostroll
+  width: 85%
+  background-color: white
+  border-radius: 20px
+  margin-top: -40px
+  z-index: 1000
+  position: relative
+  margin-left: 15%
+  padding: 20px
+  box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
+.tagline3
+  margin-top: -60px
+  margin-bottom: 25px
+  margin-left: -20px
+
 
 @import "~bulma"
 
@@ -262,17 +318,18 @@ nav
 +mobile
   .article-wrapper
     padding: 20px
-  .featured-post
+  .featured-post, .blogpost, .blogpostroll
     padding: 10px
-    margin-top: 0px
+    width: 100%
+    margin-top: 20px
     margin-left: 0px
     margin-right: 0px
     box-shadow: rgba(23, 19, 43, 0.0) -5px 5px 15px
-  .tagline
+  .tagline, .tagline2, .tagline3
     display: none
   .excerpts
     display: block
-  .fimg
+  .fimg, .bimg
     width: 100%
 
   .field.is-grouped
