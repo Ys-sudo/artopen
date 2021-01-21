@@ -225,21 +225,21 @@ const NavBar = () => {
             <SearchBox searchIndex={data.siteSearchIndex.index} />
             </div>
 
-            <div id='modal'
-            style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'white',zIndex:'20000'}}>
-              <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'5%'}}>
 
-                  <a className='button-green' style={{fontSize:'30px'}} onMouseOver={modalDestroy} >&nbsp;x&nbsp;</a>
-
-
-              </div>
-
-            </div>
 
 
 
           </div>
+          <div id='modal'
+          style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'white',zIndex:'20000'}}>
+            <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'5%'}}>
 
+                <a className='button-green' style={{fontSize:'30px'}} onMouseOver={modalDestroy} >&nbsp;x&nbsp;</a>
+
+
+            </div>
+
+          </div>
         </nav>
 
       )}
