@@ -1,9 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const OfferCard = (props) => {
+const GalleryCard = (props) => {
   const { posts } = props
-  const {cats} = props
 
   // hides the items
   const resetGallery = () =>{
@@ -58,7 +57,7 @@ const OfferCard = (props) => {
 
     <div>
     <div style={{textAlign:'center'}}>
-      <select onChange={filterGallery} className='button-green' name="kategorie" id="catlist">
+      <select onChange={filterGallery} className='button-green select-green' name="kategorie" id="catlist">
         <option value="wszystkie realizacje" >Wszystkie realizacje</option>
         <option value="projekty graficzne" >Projekty graficzne</option>
         <option value="strony internetowe" >Strony internetowe</option>
@@ -75,17 +74,7 @@ const OfferCard = (props) => {
       </select>
     </div>
 
-    {/*<div className='catlist' style={{display: 'flex',alignItems:'center',justifyContent:'center', width:'100%'}}>
-      {cats
-        .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
-        .map(({ node: post }) => (
-          <div style={{margin:'10px'}}  key={post.id} >
-              <a className="button-green" style={{ padding: '10px' }}
-              onClick={filterGallery}
-              >{post.frontmatter.category}</a>
-          </div>
-        ))}
-    </div>*/}
+
 
     <div className='portfolio'>
 
@@ -307,4 +296,4 @@ const OfferCard = (props) => {
 
 
 
-export default OfferCard
+export default GalleryCard

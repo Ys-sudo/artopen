@@ -10,13 +10,16 @@ const ArticleTemplate = (props) => {
 
   return (
     <div>
-      <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
-        {title}
+      <h1 className='title is-size-2 has-text-weight-bold is-bold-light'
+      >
+        &bull; {title}
       </h1>
-      <h2 className='title is-size-3 has-text-weight-bold is-bold-light'>
+      <h2 className='title is-size-3 has-text-weight-bold is-bold-light'
+      style={{color:'#00d1b2'}}
+      >
         {subtitle}
       </h2>
-      <small>&bull; {date}</small>
+      <small className='categ' style={{marginLeft:'0px'}}> {date}</small>
       <br></br>
       <br></br>
       <ProgressiveImageContainer
@@ -34,13 +37,13 @@ const ArticleTemplate = (props) => {
           {(tags && tags.length)
             ? tags.map(tag => (
               <li key={tag + `tag`}>
-                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                <Link className="button-green" to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
               </li>
             ))
             : null}
         </ul>
       </div>
-      <hr />
+      
     </div>
   )
 }

@@ -24,8 +24,6 @@ const PostCard = (props) => {
           <a className="button-green" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(1,2)} </a>
           &nbsp;&nbsp;
           <a className="button-green" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(2,3)} </a>
-          &nbsp;&nbsp;
-          <a className="button-green" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(3,4)} </a>
           </div>
 
               <Link className='title has-text-primary' to={post.fields.slug+'/'}>
@@ -49,12 +47,13 @@ const PostCard = (props) => {
 
           </div>
         ))}
-
+        <div className='flexWrappers'
+        style={{width:'100%'}}>
         {posts && posts.slice(1)
           .filter(post => post.node.frontmatter.templateKey === 'article-page')
           .map(({ node: post }) => (
             <div
-              className='article-wrapper'
+              className='article-wrapperblog'
               key={post.id}
             >
 
@@ -63,14 +62,12 @@ const PostCard = (props) => {
               </Link>
 
 
-                <div className='blogpost' >
+                <div className='blogpostroll' >
 
                 <div className='tagline2' >
                 <a className="button-green" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(0,1)} </a>
                 &nbsp;&nbsp;
                 <a className="button-green" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(1,2)} </a>
-                &nbsp;&nbsp;
-                <a className="button-green" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(2,3)} </a>
                 </div>
                   <p>
                     <Link className='title has-text-primary' to={post.fields.slug+'/'}>
@@ -93,7 +90,7 @@ const PostCard = (props) => {
                 </div>
             </div>
           ))}
-
+          </div>
     </div>
   )
 }

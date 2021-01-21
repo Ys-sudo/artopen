@@ -4,6 +4,7 @@ import '../../assets/sass/styles.sass'
 import config from '../../../config'
 import NavBar from '../NavBar'
 import Footer from '../Footer'
+import CookieConsent from 'react-cookie-consent'
 
 const Layout = (props) => {
   return (
@@ -59,7 +60,30 @@ const Layout = (props) => {
       />
       <NavBar />
       <>{props.children}</>
+
       <Footer copyright={config.copyright} />
+      <CookieConsent
+        location="bottom"
+        buttonText="Akceptuję"
+        cookieName="ArtOpen Cookie"
+        style={{ background: "#111111", color:"white",width:"270px", marginLeft:"0.5%",marginBottom:"0.5%",borderRadius:"10px",minHeight:'200px' }}
+        buttonStyle={{ color: "#222222",marginTop:'0px', backgroundColor:'#00d1b2', fontSize: "12px",marginLeft: '90px',padding:'12px',borderRadius:'10px'}}
+        expires={150}
+        debug={false}
+        >
+        <div style={{marginLeft:'10px',marginRight:'50px',marginTop:'10px',fontSize:'12px'}}>
+        <span role="img" aria-label="cookie-emoji">🍪</span>&nbsp;
+        <span> Używamy plików <b>cookies</b> w celu zapewnienia najwyższej jakości usług.
+        </span>
+        <br></br><br></br>
+
+         <span style={{ fontSize: "10px", }}>
+          Zajrzyj do naszej <a className='link-green' href="/polityka-prywatnosci#cookies/" target="_blank"> polityki prywatności</a> by dowiedzieć się więcej.
+           </span>
+
+        </div>
+        </CookieConsent>
+
     </>
   )
 }

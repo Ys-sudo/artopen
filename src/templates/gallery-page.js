@@ -8,6 +8,8 @@ import SE0 from '../components/SEO'
 import Share from '../components/Share'
 import Disqus from '../components/Disqus'
 import Layout from '../components/Layout'
+import ModalCall from '../components/ModalCall'
+import PortfolioRoll2 from '../components/PortfolioRoll2'
 
 const GalleryPage = (props) => {
   const { data: { markdownRemark: { html, fields: { slug }, frontmatter: { title, meta_title, meta_description, cover, date, tags, category } } } } = props
@@ -43,6 +45,7 @@ const GalleryPage = (props) => {
                 tags={tags}
                 title={title}
                 category={category}
+                date={date}
               />
               <Share
                 title={title}
@@ -59,9 +62,26 @@ const GalleryPage = (props) => {
                 disqusShortname={config.disqusShortname}
               />
             </div>
+
+          </div>
+          <br />
+          <div style={{textAlign:'center',marginBottom:'30px'}}>
+          <a className='button-green' style={{fontSize:'18px'}} href='/oferta/'> Poznaj naszą ofertę&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a className='button-green' style={{fontSize:'18px'}} href='/blog/'> Poczytaj bloga&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a className='button-green' style={{fontSize:'18px'}} href='/kontakt/'> Skontaktuj się z nami&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+          </div>
+          <br />
+          <br />
+          <h5 className='is-title' style={{fontSize:'30px'}}> Pozostałe <b style={{color:'#00d1b2'}}>projekty</b>: </h5>
+          <PortfolioRoll2 />
+          <div style={{textAlign:'center',margin:'50px'}}>
+          <a className='button-green' style={{fontSize:'18px'}} href='/portfolio/'> Wróć do portfolio &nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
           </div>
         </div>
       </section>
+      <ModalCall />
     </Layout>
   )
 }

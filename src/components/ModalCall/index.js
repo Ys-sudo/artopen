@@ -1,11 +1,23 @@
 import React from 'react'
 
 const modalEnter = () => {
-
+  let i = 0;
   console.log('enter modal');
   document.getElementById('modal').style.display = 'block';
   document.getElementById('modal').style.transition = 'opacity 0.5s';
-  setTimeout(function(){document.getElementById('modal').style.opacity = '1';},500);
+  setTimeout(function(){document.getElementById('modal').style.opacity = '1';
+
+  if (document.getElementsByClassName('featured-post')[0] !== undefined){
+    document.getElementsByClassName('featured-post')[0].style.display = 'none';
+
+    }
+  if (document.getElementsByClassName('blogpostroll') !== undefined){
+    for (i=0; i<document.getElementsByClassName('blogpostroll').length;i++){
+      document.getElementsByClassName('blogpostroll')[i].style.display = 'none';
+    }
+  }
+
+  },500);
 }
 
 
@@ -22,7 +34,7 @@ const ModalCall = () => {
               Złóż zamówienie.
             </h5>
             <h6 className='subtitle' style={{color:'white',fontSize:'18px'}}>
-              A w ciągu 24 godzin skontaktujemy się ze szczegółami naszej oferty.
+              A w ciągu 24 godzin otrzymasz<br /> darmową wycenę zamówionych usług.
             </h6>
           </div>
 

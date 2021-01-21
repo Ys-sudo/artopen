@@ -42,24 +42,33 @@ const HomePageTemplate = (props) => {
       <h5 className='subtitle'> Zobacz co możemy dla Ciebie zrobić. </h5>
       <br></br>
       </div>
+
       <OfferRoll />
       <br />
       <br />
       <br />
       <ModalCall />
-      <div style={{marginLeft:'10%',marginRight:'10%',textAlign:'center',marginTop:'50px'}}>
-      <h4 className='title' style={{marginTop:'100px'}}> Portfolio </h4>
-      <h5 className='subtitle' style={{marginBottom:'-20px'}}> Zapoznaj się z naszymi realizacjami. </h5>
-      <PortfolioRoll />
-      < br/>
-      <a className="button-green" style={{fontSize:'18px'}} href="/blog/"> Zobacz nasze projekty <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
 
+
+      <div style={{marginLeft:'0%',marginRight:'0%',marginTop:'50px'}}>
+        <h4 className='title' style={{marginTop:'100px',textAlign:'center'}}> Portfolio </h4>
+        <h5 className='subtitle' style={{marginBottom:'20px',textAlign:'center'}}> Zapoznaj się z naszymi realizacjami. </h5>
+
+        <PortfolioRoll />
+        < br/>
+        <div style={{textAlign:'center'}}>
+          <a className="button-green" style={{fontSize:'18px'}} href="/blog/"> Zobacz nasze projekty <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+        </div>
+      </div>
+      <div style={{marginTop:'5%',marginLeft:'5%',marginRight:'5%',marginBottom:'5%',textAlign:'center'}}>
       <h4 className='title' style={{marginTop:'100px'}}> Blog </h4>
       <h5 className='subtitle'> Zapraszamy do lektury. </h5>
+      <br />
       <BlogRoll />
 
       < br/>
-      <a className="button-green" style={{fontSize:'18px'}} href="/blog/"> Zobacz wszystkie wpisy <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+
+          <a className="button-green" style={{fontSize:'18px'}} href="/blog/"> Zobacz wszystkie wpisy <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
 
       </div>
 

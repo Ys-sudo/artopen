@@ -67,7 +67,7 @@ const PortfolioPage = (props) => {
       <br></br>
       <br></br>
 
-      <div style={{padding: '0px', marginLeft:'10%',marginRight:'10%',marginBottom:'50px'}}>
+      <div style={{padding: '0px', marginLeft:'5%',marginBottom:'30px'}}>
         <h3 className='title'> Poznaj szczegóły naszej pracy: </h3>
 
         <h4 className='subtitle'> Wybrane realizacje według kategori: </h4>

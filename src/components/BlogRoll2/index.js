@@ -17,6 +17,7 @@ class BlogRoll2 extends React.Component {
             <div
               className='article-wrapper'
               key={post.id}
+              style={{margin:'10px'}}
             >
             <Link  to={post.fields.slug+'/'}>
             <img src={post.frontmatter.cover.publicURL}  className='fimg' />

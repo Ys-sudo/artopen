@@ -8,38 +8,150 @@ class PortfolioRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div style={{margin:'0px'}}>
-      <div className='portfolio section'>
-        {posts &&
-          posts.slice(0,8)
-          .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
-          .map(({ node: post }) => (
-            <div
-              className={post.frontmatter.category + ' portfo'}
-              style={{ margin:'20px', width:'25%', marginBottom:'15px'  }}
-              key={post.id}
-            >
-            <Link className='has-text-primary' to={post.fields.slug+'/'}>
-            <img src={post.frontmatter.cover.publicURL} width='100%' style={{borderRadius:'10px'}} />
-              <p style={{textAlign:'left', marginBottom:'15px'}}>
+      <div className='portfolio'>
+      {posts
 
-                  {post.frontmatter.title}
+        .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+        .slice(0,1)
+        .map(({ node: post }) => (
+          <a  href={post.fields.slug+'/'}
+          className={post.frontmatter.category + ' portfo'+' forty8' + ' i350'}
+          key={post.id}
+          style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
+          >
 
-                <span> &bull; </span>
-                <small>{post.frontmatter.date}</small>
+            <div className='pwrapper'>
+              <span className='categ'>{post.frontmatter.category}</span>
+              <br /> <br />
+              <h5 style={{marginLeft:'50px',color:'white'}}>
+                  <b>{post.frontmatter.title}</b>
                 <br />
-
-
-              </p>
-              <p className='button-green' style={{fontSize:'10px'}}>{post.frontmatter.category}</p>
-
-              </Link>
-
+                <small>&bull; {post.frontmatter.date}</small>
+              </h5>
+            <div style={{textAlign:'right'}}>
+              <span className='pspan'>
+              <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
+              </span>
             </div>
-          ))}
+            </div>
 
-      </div>
-      
+
+          </a>
+        ))}
+        {posts
+
+          .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+          .slice(1,3)
+          .map(({ node: post }) => (
+            <a  href={post.fields.slug+'/'}
+            className={post.frontmatter.category + ' portfo' + ' twenty1'+' i350'}
+            key={post.id}
+            style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
+            >
+
+              <div className='pwrapper'>
+                <span className='categ'>{post.frontmatter.category}</span>
+                <br /> <br />
+                <h6 style={{marginLeft:'50px',color:'white'}}>
+                    <b>{post.frontmatter.title}</b>
+                  <br />
+                  <small>&bull; {post.frontmatter.date}</small>
+                </h6>
+              <div style={{textAlign:'right'}}>
+                <span className='pspan'>
+                <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
+                </span>
+              </div>
+              </div>
+
+            </a>
+          ))}
+          <div className='flexWrapper'>
+          {posts
+            .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+            .slice(3,5)
+            .map(({ node: post }) => (
+              <a  href={post.fields.slug+'/'}
+              className={post.frontmatter.category + ' portfo'+' twenty2'+' i160'}
+              key={post.id}
+              style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
+              >
+
+                <div className='pwrapper'>
+                  <span className='categ'>{post.frontmatter.category}</span>
+                  <br /> <br />
+                  <h6 style={{marginLeft:'50px',color:'white'}}>
+                      <b>{post.frontmatter.title}</b>
+                    <br />
+                    <small>&bull; {post.frontmatter.date}</small>
+                  </h6>
+                <div style={{textAlign:'right'}}>
+                  <span className='pspan'>
+                  <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
+                  </span>
+                </div>
+                </div>
+
+              </a>
+
+            ))}
+
+            {posts
+              .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+              .slice(6,8)
+              .map(({ node: post }) => (
+                <a  href={post.fields.slug+'/'}
+                className={post.frontmatter.category + ' portfo'+' twenty2'+' i160'}
+                key={post.id}
+                style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
+                >
+
+                  <div className='pwrapper'>
+                    <span className='categ'>{post.frontmatter.category}</span>
+                    <br /> <br />
+                    <h6 style={{marginLeft:'50px',color:'white'}}>
+                        <b>{post.frontmatter.title}</b>
+                      <br />
+                      <small>&bull; {post.frontmatter.date}</small>
+                    </h6>
+                  <div style={{textAlign:'right'}}>
+                    <span className='pspan'>
+                    <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
+                    </span>
+                  </div>
+                  </div>
+
+                </a>
+              ))}
+            </div>
+            {posts
+              .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+              .slice(5,6)
+              .map(({ node: post }) => (
+                <a  href={post.fields.slug+'/'}
+                className={post.frontmatter.category + ' portfo'+' forty5'+' i350'}
+                key={post.id}
+                style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
+                >
+
+                  <div className='pwrapper'>
+                    <span className='categ'>{post.frontmatter.category}</span>
+                    <br /> <br />
+                    <h6 style={{marginLeft:'50px',color:'white'}}>
+                        <b>{post.frontmatter.title}</b>
+                      <br />
+                      <small>&bull; {post.frontmatter.date}</small>
+                    </h6>
+                  <div style={{textAlign:'right'}}>
+                    <span className='pspan'>
+                    <img width="10px"  style={{verticalAlign:'middle'}}   alt="arrow" src='/img/angle-right.svg'/>
+                    </span>
+                  </div>
+                  </div>
+
+                </a>
+              ))}
+
       </div>
 
   )

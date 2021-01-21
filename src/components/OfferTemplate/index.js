@@ -1,5 +1,6 @@
 import React from 'react'
 import Content from '../Content'
+import OfferNav from '../OfferNav'
 import { kebabCase } from 'lodash'
 import { Link } from 'gatsby'
 
@@ -9,81 +10,69 @@ const OfferTemplate = (props) => {
   const { content, contentComponent, cover, tags, title, desc, subtitle, icon } = props
   const PostContent = contentComponent || Content
 
+
+
   return (
 
     <div>
-    <div>
+
     <ProgressiveImageContainer
       image={cover}
       alt={title}
+      className="offimg"
+
     />
-    </div>
-    <section className='hero is-primary is-bold is-medium'
-    style={{position:'absolute', marginTop:'-35%',width:'50%',backgroundColor:''}}
-    >
-      <div className='hero-body'
-      style={{padding:'20px'}}>
-        <div className='container'>
-          <div className='columns'>
-            <div className='column is-10 is-offset-1'>
-              <div className='section'>
-              <div style={{textAlign:'center'}}>
-              <img alt={title} src={icon.publicURL} style={{filter:' brightness(0) invert(1)',width:'35px',height:'35px',marginBottom:'5px'}} />
-              <h1 className='title'>
-                {title}
-              </h1>
+    <div style={{position:'absolute',backgroundColor:'#00d1b2',marginTop:'-400px',padding:'50px',borderRadius:'20px'}}>
+      <div style={{textAlign:'center'}}>
+        <img src={icon.publicURL} width='50px'
+        style={{filter:'brightness(0) invert(1)'}}
+        />
 
-              </div>
-              <br></br>
-              <h2 className='subtitle'>
-                {desc}
-              </h2>
-
-
-
-
-              </div>
-
-
-            </div>
-
-          </div>
-        </div>
+      <h1 id="oftitle" className='title is-size-2 has-text-weight-bold is-bold-light'
+      style={{color:'white'}}
+      >
+        {title}
+      </h1>
       </div>
-    </section>
+      <br />
+      <h2 className='subtitle'
+      style={{color:'white'}}
+      >
+        {desc}
+      </h2>
 
-
+    </div>
       <br></br>
+      <div style={{margin:'50px',marginTop:'0px'}}>
+        <h3 className='title is-size-3 has-text-weight-bold is-bold-light'
+        style={{color:'#00d1b2'}}
+        >
+          {subtitle}
+        </h3>
+        <PostContent content={content} />
 
-      <div style={{marginLeft:'10%',marginRight:'10%'}}>
-
-      <h3 className='title'><strong> {subtitle} </strong></h3>
-
-      <PostContent content={content} />
-
-      <div style={{ marginTop: `4rem` }}>
-
-
-
-        <h4><b>Tagi:</b></h4>
-        <br></br>
-        <ul className='taglist'>
-          {(tags && tags.length)
-            ? tags.map(tag => (
-              <li key={tag + `tag`}>
-                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-              </li>
-            ))
-            : null}
-        </ul>
+        <div style={{ marginTop: `4rem` }}>
+          <h4><b>Tagi:</b></h4>
+          <br /><br />
+          <ul className='taglist columns' style={{marginLeft:'10px'}}>
+            {(tags && tags.length)
+              ? tags.map(tag => (
+                <li key={tag + `tag`}>
+                  <Link className="button-green" to={`/tags/${kebabCase(tag)}/`}>{tag}</Link> &nbsp; &nbsp;
+                </li>
+              ))
+              : null}
+          </ul>
+        </div>
 
       </div>
-      <hr />
+      <OfferNav />
 
-    </div>
     </div>
 
   )
 }
+
+
 
 export default OfferTemplate

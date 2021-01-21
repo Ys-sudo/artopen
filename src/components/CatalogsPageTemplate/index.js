@@ -18,6 +18,7 @@ function changeCatplus() {
   document.getElementById('txtchange').innerHTML = titles[i];
   document.getElementById('carousel').src = imgs[i];
   document.getElementById('butt').href = links[i];
+  document.getElementById('link2').href = links[i];
 
 }
 
@@ -30,6 +31,7 @@ function changeCatminus() {
   document.getElementById('txtchange').innerHTML = titles[i];
   document.getElementById('carousel').src = imgs[i];
   document.getElementById('butt').href = links[i];
+  document.getElementById('link2').href = links[i];
 
 }
 
@@ -71,7 +73,7 @@ const CatalogsPageTemplate = (props) => {
               <div className="columns" style={{border:'1px solid lightgray',padding:'50px 20px 50px 20px',borderRadius:'25px',width:'100%'}}>
 
                 <div style={{width:'50px',margin:'auto'}}>
-                  <div onClick={changeCatminus} className="button-green" style={{marginRight:'20px'}} >
+                  <div onClick={changeCatminus} className="button-green-no-zoom" style={{marginRight:'20px'}} >
                     <img width="20px" alt="katalogi" src='/img/angle-left.svg'/>
                   </div>
                 </div>
@@ -88,11 +90,13 @@ const CatalogsPageTemplate = (props) => {
                  </div>
 
                  <div className='column'>
-                  <img id="carousel" src="https://artopen.pl/images/2020/04/09/gadzety_1.png" width="100%"/>
+                <a href="https://online.fliphtml5.com/njygn/takv/" id='link2'>
+                  <img className='catalogimg' id="carousel" src="https://artopen.pl/images/2020/04/09/gadzety_1.png" width="100%"/>
+                  </a>
                  </div>
 
                  <div style={{width:'50px',margin:'auto'}}>
-                   <div onClick={changeCatplus} className="button-green" style={{marginLeft:'20px'}}>
+                   <div onClick={changeCatplus} className="button-green-no-zoom" style={{marginLeft:'20px'}}>
                      <img width="20px" alt="katalogi" src='/img/angle-right.svg'/>
                    </div>
                  </div>

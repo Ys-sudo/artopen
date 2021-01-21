@@ -8,13 +8,14 @@ import SE0 from '../components/SEO'
 import Share from '../components/Share'
 import Disqus from '../components/Disqus'
 import Layout from '../components/Layout'
+import ModalCall from '../components/ModalCall'
 
 const OfferPage = (props) => {
   const { data: { markdownRemark: { html, fields: { slug }, frontmatter: { title, meta_title, meta_description, cover, date, tags, desc, subtitle, icon } } } } = props
 
   return (
     <Layout>
-
+      <section className='full'>
         <SE0
           title={title}
           meta_title={meta_title}
@@ -30,6 +31,7 @@ const OfferPage = (props) => {
           userTwitter={config.userTwitter}
           pathPrefix={config.pathPrefix}
         />
+        <div className=''>
 
 
               <OfferTemplate
@@ -40,29 +42,25 @@ const OfferPage = (props) => {
                 meta_desc={meta_description}
                 tags={tags}
                 title={title}
+                date={date}
+                icon={icon}
                 desc={desc}
                 subtitle={subtitle}
-                icon={icon}
               />
-              <Share
-                title={title}
-                slug={slug}
-                excerpt={meta_description}
-                siteUrl={config.siteUrl}
-                pathPrefix={config.pathPrefix}
-              />
+
               <hr />
-              <div style={{marginRight:'10%',marginLeft:'10%'}}>
-              <Disqus
-                title={title}
-                slug={slug}
-                siteUrl={config.siteUrl}
-                disqusShortname={config.disqusShortname}
-              />
-              <br></br>
-              </div>
 
 
+          <br />
+
+          <br />
+          <br />
+
+
+
+        </div>
+      </section>
+      <ModalCall />
     </Layout>
   )
 }

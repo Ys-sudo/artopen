@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 import ProgressiveImageContainer from '../ProgressiveImageContainer'
 
 const GalleryTemplate = (props) => {
-  const { content, contentComponent, cover, tags, title, category } = props
+  const { content, contentComponent, cover, tags, title, category, date } = props
   const PostContent = contentComponent || Content
 
   return (
@@ -13,15 +13,19 @@ const GalleryTemplate = (props) => {
       <ProgressiveImageContainer
         image={cover}
         alt={title}
-        className='imgcont'
+        className='imgcontp'
       />
+      <div className='portitle' >
       <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
         {title}
       </h1>
 
-      <h2 className='subtitle' >{category}</h2>
-
-
+      <h2 className='subtitle' style={{fontSize:'18px',color:'#00d1b2'}} >&bull; {category}</h2>
+      <small className='categ' style={{marginLeft:'0px'}}>{date}</small>
+      </div>
+      <br />
+      <br />
+      <br />
 
       <PostContent content={content} />
       <div style={{ marginTop: `4rem` }}>
@@ -34,14 +38,14 @@ const GalleryTemplate = (props) => {
           {(tags && tags.length)
             ? tags.map(tag => (
               <li key={tag + `tag`}>
-                <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                <Link className='button-green' to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
               </li>
             ))
             : null}
         </ul>
 
       </div>
-      <hr />
+      
     </div>
   )
 }

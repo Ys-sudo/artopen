@@ -11,6 +11,7 @@ const Footer = (props) => {
           <a href="/"><img width="200px" src='/img/ArtOpen-white.svg' alt="ArtOpen studio reklamy" /></a>
           <br></br>
         </div>
+      <br></br>
       <div className='section columns' style={{marginLeft:'3%'}}>
 
         <div className='column' style={{ padding:'5px',marginTop:'30px'}}>
@@ -186,17 +187,30 @@ const Footer = (props) => {
           <p style={{color:'white',fontSize:'12px'}}>
             {copyright} | <a className='link-green'  href="/polityka-prywatnosci/"> Polityka prywatności </a>
             | <a className='link-green' href="/polityka-prywatnosci#cookies/"> Pliki Cookies </a>
-            | <a className='link-green' href="/sitemap.xml"> Mapa strony </a>
+            | <a className='link-green' href="/sitemap.xml/"> Mapa strony </a>
           </p>
 
         </div>
       </div>
-      <div style={{position:'fixed',right:'2px',bottom:'4px',padding:'4px', width:'27px',textAlign:'center',height:'27px',backgroundColor:'#111111',borderRadius:'5px'}}>
+      <div id='backtotop' style={{display:'none',position:'fixed',right:'2px',bottom:'4px',padding:'4px', width:'27px',textAlign:'center',height:'27px',backgroundColor:'#111111',borderRadius:'5px'}}>
       <a href="#"><img width="20px" className='icon-green'  alt="backtotop" src='/img/angle-up.svg'/></a>
       </div>
 
     </footer>
   )
 }
+
+
+
+function scrollFunction() {
+  if ( document.documentElement.scrollTop > 250) {
+    document.getElementById("backtotop").style.display = "block";
+
+  } else {
+    document.getElementById("backtotop").style.display = "none";
+  }
+}
+
+window.onscroll = function() {scrollFunction()};
 
 export default Footer

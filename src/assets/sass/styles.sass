@@ -10,9 +10,36 @@ body::-webkit-scrollbar
   width: 0.35em
   z-index: 1000
 
+.catalogimg
+  transition-duration: 2s
+
+.catalogimg:hover
+  transition-duration: 2s
+  transform: scale(1.05)
 .imgcont
   border-radius: 20px
   box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
+
+.imgcontp
+  border-radius: 20px
+  margin-top: -20px
+  box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
+.offimg
+  width: 100%
+  margin-top: -50px
+
+
+.social
+  border-radius: 20px
+  background-color: #f6f6f6
+  padding: 20px
+  vertical-align: middle
+
+.social-icon:hover
+  transition-duration: 1s
+  filter: brightness(0) invert(0.2)
+  transform: scale(1.2)
+
 
 body::-webkit-scrollbar-thumb
   background-color: rgb(0, 209, 178)
@@ -102,7 +129,7 @@ nav
   color: #00d1b2
 
 
-.button-green
+.button-green, .button-green-no-zoom
   color: #00d1b2
   font-size: 13px
   font-weight: 500
@@ -111,11 +138,25 @@ nav
   border-radius: 20px
   transition-duration: 1s
 
-.button-green:hover
+.button-green:hover, .button-green-no-zoom:hover
   transition-duration: 1s
   background-color: #00d1b2
   color: white
   cursor: pointer
+.button-green-no-zoom:hover > img
+  filter: brightness(0) invert(1)
+
+.select-green
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+  background-image: url('/img/angle-down.svg')
+  background-repeat: no-repeat
+  background-size: 15px 15px !important
+  background-position: 92% 53% !important
+  width: 220px
+.select-green:hover
+  background-image: url('/img/angle-down-white.svg')
 
 
 .button-green:hover > img
@@ -225,6 +266,14 @@ nav
   border-radius: 15px
   padding: 2em 4em
   width: 100%
+.article-wrapperblog
+  margin-bottom: 3%
+  border: 2px solid #f5f5f5
+  border-radius: 15px
+  padding: 2em 4em
+  width: 48%
+  margin-right: 1%
+  margin-left: 1%
 .tagline
   text-align: left
   margin-top: -80px
@@ -237,7 +286,7 @@ nav
   padding: 30px
   border-radius: 30px
   margin-right: 5%
-  z-index: 100
+  z-index: 10
   position: relative
   box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
 .fimg
@@ -248,7 +297,7 @@ nav
   transition-duration: 1s
 
 .bimg
-  width: 70%
+  width: 80%
   border-radius: 20px
   z-index: 10
   box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
@@ -261,16 +310,6 @@ nav
   transform: scale(1.05)
 
 
-.blogpost
-  width: 75%
-  background-color: white
-  border-radius: 20px
-  margin-top: -180px
-  z-index: 1000
-  position: relative
-  margin-left: 20%
-  padding: 20px
-  box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
 .tagline2
   margin-top: -70px
   margin-bottom: 50px
@@ -282,7 +321,7 @@ nav
   background-color: white
   border-radius: 20px
   margin-top: -40px
-  z-index: 1000
+  z-index: 10
   position: relative
   margin-left: 15%
   padding: 20px
@@ -340,6 +379,10 @@ nav
   display: flex
   flex-flow: row wrap
   width: 51%
+.flexWrappers
+  display: flex
+  flex-flow: row wrap
+  width: 100%
 
 .portfo:hover
   transition-duration: 1.5s
@@ -350,23 +393,40 @@ nav
   margin-top: -35px
   transition-duration: 1.5s
   transform: scale(3)
-
+.portitle
+  margin-top: -130px
+  z-index: 10
+  position: relative
+  background-color: white
+  border-radius: 20px
+  padding: 20px
+  margin-left: 20px
+  width: 50%
+  box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
+.offer-nav
+  display: block
+  position: absolute
+  line-height: 2.8
+  display: block
+  text-align: right
+  right: 5px
+  top: 85px
+  z-index: 0
 
 //TODO: work on the breakpoint for portfolio - correct margins to %
 @media screen and (max-width: 1401px)
+  .offer-nav
+    display: none
   .portfolio
-    display: block
+    display: flex
   .forty8,
-  .twenty1,
   .twenty2,
   .forty5
-    width: 100%
-    margin: 50px
-    margin-left: -10px
+    width: 97%
+    margin: 1%
   .flexWrapper
-    display: block
     width: 100%
-    margin: 50px
+    margin: 1%
     margin-left: 0px
   .portfo
     display: block
@@ -374,7 +434,18 @@ nav
     padding-left: 50px
   .i160
     height: 300px
+    width: 48%
+  .twenty1
+    width: 47.5%
+    margin: 1%
+  .select-green
+    margin-bottom: 30px
 
+@media screen and (max-width: 1220px)
+  .tagline, .tagline2, .tagline3
+    display: none
+  .portitle
+    width: 70%
 
 @import "~bulma"
 
@@ -386,19 +457,23 @@ nav
     top: auto
     left: auto
     padding-left: 30px
-
-
+  .tagline, .tagline2, .tagline3
+    display: none
   .navbar-end
     margin-left: 0px !important
   .field.is-grouped
     justify-content: center
-
+  .article-wrapperblog
+    display: block
+    width: 100%
 
 
 +mobile
-  .article-wrapper
+  .article-wrapper, .article-wrapperblog
     padding: 20px
-  .featured-post, .blogpost, .blogpostroll
+    width: 100%
+    margin: 0px
+  .featured-post, .blogpostroll
     padding: 10px
     width: 100%
     margin-top: 20px
@@ -428,12 +503,14 @@ nav
   .i160
     height: 300px
 
-  .flexWrapper
+  .flexWrapper, .flexWrappers
     display: block
     width: 100%
     margin: 50px
     margin-left: 0px
-
+  .portitle
+    margin-top: -20px
+    width: 98%
 
   .field.is-grouped
     justify-content: center
