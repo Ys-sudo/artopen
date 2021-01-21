@@ -192,7 +192,7 @@ const Footer = (props) => {
 
         </div>
       </div>
-      <div id='backtotop' style={{display:'none',position:'fixed',right:'2px',bottom:'4px',padding:'4px', width:'27px',textAlign:'center',height:'27px',backgroundColor:'#111111',borderRadius:'5px'}}>
+      <div onLoad={loadScroll} id='backtotop' style={{display:'none',position:'fixed',right:'2px',bottom:'4px',padding:'4px', width:'27px',textAlign:'center',height:'27px',backgroundColor:'#111111',borderRadius:'5px'}}>
       <a href="#"><img width="20px" className='icon-green'  alt="backtotop" src='/img/angle-up.svg'/></a>
       </div>
 
@@ -211,8 +211,9 @@ function scrollFunction() {
   }
 }
 
-{/*document.onscroll = function() {scrollFunction()}; - causes build error - not defined use this solution:
-https://stackoverflow.com/questions/61747744/cant-use-document-in-gatsby-build-must-convert-to-hooks
-*/} 
+function loadScroll(){
+  document.onscroll = function() {scrollFunction()};
+}
+
 
 export default Footer
