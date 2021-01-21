@@ -24,6 +24,8 @@ const PostCard = (props) => {
           <a className="button-green" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(1,2)} </a>
           &nbsp;&nbsp;
           <a className="button-green" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(2,3)} </a>
+          &nbsp;&nbsp;
+          <a className="button-green" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(3,4)} </a>
           </div>
 
               <Link className='title has-text-primary' to={post.fields.slug+'/'}>
