@@ -211,6 +211,8 @@ function scrollFunction() {
   }
 }
 
-document.onscroll = function() {scrollFunction()};
+{/*document.onscroll = function() {scrollFunction()}; - causes build error - not defined use this solution:
+https://stackoverflow.com/questions/61747744/cant-use-document-in-gatsby-build-must-convert-to-hooks
+*/} 
 
 export default Footer
