@@ -211,6 +211,6 @@ function scrollFunction() {
   }
 }
 
-window.onscroll = function() {scrollFunction()};
+document.onscroll = function() {scrollFunction()};
 
 export default Footer
