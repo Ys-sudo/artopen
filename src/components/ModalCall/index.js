@@ -31,7 +31,7 @@ const ModalCall = () => {
         <div className='columns section'>
           <div className='column' style={{marginRight:'50px',marginLeft:'10%'}}>
             <h5 className='title' style={{color:'white',fontSize:'29px'}}>
-              Złóż zamówienie.
+              Złóż zamówienie
             </h5>
             <h6 className='subtitle' style={{color:'white',fontSize:'18px'}}>
               A w ciągu 24 godzin otrzymasz<br /> darmową wycenę zamówionych usług.

@@ -16,31 +16,30 @@ class OfferRoll extends React.Component {
 
         .filter(post => post.node.frontmatter.templateKey === 'offer-page')
         .map(({ node: post }) => (
-
+          <a className='offer'
+          style={{margin:'1%',textAlign:'left',marginBottom:'30px',
+          border:'1px solid #f5f5f5',borderRadius:'10px',padding:'10px'}}
+          href={post.fields.slug+'/'}>
           <div
-            className='offer'
-            style={{margin:'10px',textAlign:'left',marginBottom:'30px',border:'1px solid #f5f5f5',borderRadius:'10px',padding:'10px'}}
             key={post.id}
-
           >
-          <Link to={post.fields.slug+'/'}>
 
-          <img alt={post.frontmatter.title} src={post.frontmatter.icon.publicURL} style={{width:'35px',height:'35px',marginBottom:'5px'}} />
+          <div style={{textAlign:'center'}}>
+          <img alt={post.frontmatter.title} src={post.frontmatter.icon.publicURL}
+          style={{width:'35px',height:'35px',marginBottom:'5px'}} />
+          </div>
 
-          <br></br>
           <div style={{textAlign:'left'}}>
-              <p className='is-title' style={{fontSize:'13px',color:'#00d1b2'}} to={post.fields.slug+'/'}>
+              <h3 className='is-title' style={{textAlign:'center',marginBottom:'5px',fontSize:'13px',color:'#00d1b2'}} to={post.fields.slug+'/'}>
                 <strong>{post.frontmatter.title}</strong>
-              </p>
+              </h3>
 
               <p style={{color:'#333333',fontSize:'12px'}}>
                 {post.frontmatter.desc}
               </p>
           </div>
-          </Link>
-
-
           </div>
+          </a>
         ))}
     </div>
     </div>

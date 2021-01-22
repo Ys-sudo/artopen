@@ -1,7 +1,7 @@
 ---
 templateKey: offer-page
 title: VR
-desc: Kreujemy rzeczywistość wirtualną dla biznesu, instytucji kultury i marek
+desc: Kreujemy wirtualną rzeczywistość dla biznesu, instytucji kultury i marek
 slug: vr
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg

@@ -38,14 +38,14 @@ const GalleryTemplate = (props) => {
           {(tags && tags.length)
             ? tags.map(tag => (
               <li key={tag + `tag`}>
-                <Link className='button-green' to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                <Link className='button-green' to={`/tagi/${kebabCase(tag)}/`}>{tag}</Link>
               </li>
             ))
             : null}
         </ul>
 
       </div>
-      
+
     </div>
   )
 }

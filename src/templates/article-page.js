@@ -64,12 +64,12 @@ const ArticlePage = (props) => {
             </div>
           </div>
           <br />
-          <div style={{textAlign:'center',marginBottom:'30px'}}>
-          <a className='button-green' style={{fontSize:'18px'}} href='/oferta/'> Poznaj naszą ofertę&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+          <div className='bottomUi' style={{textAlign:'center',marginBottom:'30px'}}>
+          <a className='button-green' style={{fontSize:'15px'}} href='/oferta/'> Poznaj naszą ofertę&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a className='button-green' style={{fontSize:'18px'}} href='/portfolio/'> Zobacz portfolio&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+          <a className='button-green' style={{fontSize:'15px'}} href='/portfolio/'> Zobacz portfolio&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a className='button-green' style={{fontSize:'18px'}} href='/kontakt/'> Skontaktuj się z nami&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+          <a className='button-green' style={{fontSize:'15px'}} href='/kontakt/'> Skontaktuj się z nami&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
           </div>
           <br /><br />
           <h5 className='is-title' style={{fontSize:'30px'}}> Przeczytaj <b style={{color:'#00d1b2'}}>więcej</b>: </h5>

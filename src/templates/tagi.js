@@ -8,15 +8,17 @@ const TagRoute = (props) => {
 
   const postLinks = posts.map(post => (
     <li key={post.node.fields.slug}>
-      <Link to={post.node.fields.slug}>
-        <h2 className='is-size-2'>{post.node.frontmatter.title}</h2>
+      <Link to={post.node.fields.slug+'/'}>
+        <h2 className='button-green'>{post.node.frontmatter.title}</h2>
       </Link>
     </li>
   ))
 
-  const tagHeader = `${totalCount} post${
-    totalCount === 1 ? '' : 's'
-  } tagged with “${tag}”`
+  const tagHeader = `${totalCount} wpis${
+    totalCount === 1 ? '' : 'ów'
+  } zawieraj${
+    totalCount === 1 ? 'ący' : 'ących'
+  } tag: “${tag}”`
 
   return (
     <Layout>
@@ -31,7 +33,7 @@ const TagRoute = (props) => {
               <h3 className='title is-size-4 is-bold-light'>{tagHeader}</h3>
               <ul className='taglist'>{postLinks}</ul>
               <p>
-                <Link to='/tags/'>Browse all tags</Link>
+                <Link className='button-green' to='/tagi/'>Przejrzyj wszystkie tagi</Link>
               </p>
             </div>
           </div>

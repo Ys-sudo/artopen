@@ -22,13 +22,14 @@ const OfferTemplate = (props) => {
       className="offimg"
 
     />
-    <div style={{position:'absolute',backgroundColor:'#00d1b2',marginTop:'-400px',padding:'50px',borderRadius:'20px'}}>
+    <div className='ofintro'>
       <div style={{textAlign:'center'}}>
         <img src={icon.publicURL} width='50px'
         style={{filter:'brightness(0) invert(1)'}}
         />
 
-      <h1 id="oftitle" className='title is-size-2 has-text-weight-bold is-bold-light'
+      <h1  className='title is-size-2 has-text-weight-bold is-bold-light'
+      id="oftitle"
       style={{color:'white'}}
       >
         {title}
@@ -36,6 +37,7 @@ const OfferTemplate = (props) => {
       </div>
       <br />
       <h2 className='subtitle'
+      id='subtitle'
       style={{color:'white'}}
       >
         {desc}
@@ -44,7 +46,7 @@ const OfferTemplate = (props) => {
     </div>
       <br></br>
       <div style={{margin:'50px',marginTop:'0px'}}>
-        <h3 className='title is-size-3 has-text-weight-bold is-bold-light'
+        <h3 className='title is-size-3 has-text-weight-bold is-bold-light oftitle2'
         style={{color:'#00d1b2'}}
         >
           {subtitle}
@@ -57,8 +59,8 @@ const OfferTemplate = (props) => {
           <ul className='taglist columns' style={{marginLeft:'10px'}}>
             {(tags && tags.length)
               ? tags.map(tag => (
-                <li key={tag + `tag`}>
-                  <Link className="button-green" to={`/tags/${kebabCase(tag)}/`}>{tag}</Link> &nbsp; &nbsp;
+                <li className='tags1' key={tag + `tag`}>
+                  <Link className="button-green" to={`/tagi/${kebabCase(tag)}/`}>{tag}</Link> &nbsp; &nbsp;
                 </li>
               ))
               : null}

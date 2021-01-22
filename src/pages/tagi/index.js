@@ -9,7 +9,7 @@ const TagsPage = (props) => {
 
   return (
     <Layout>
-      <Helmet title={`Tags | ${title}`} />
+      <Helmet title={`Tagi | ${title}`} />
       <section className='hero is-primary is-bold is-medium'>
         <div className='hero-body'>
           <div className='container'>
@@ -17,7 +17,7 @@ const TagsPage = (props) => {
               <div className='column is-10 is-offset-1'>
                 <div className='section'>
                   <h1 className='title'>
-                    Tags
+                    Tagi
                   </h1>
                 </div>
               </div>
@@ -35,7 +35,7 @@ const TagsPage = (props) => {
               <ul className='taglist'>
                 {group.map(tag => (
                   <li key={tag.fieldValue}>
-                    <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                    <Link className='button-green' to={`/tagi/${kebabCase(tag.fieldValue)}/`}>
                       {tag.fieldValue} ({tag.totalCount})
                     </Link>
                   </li>

@@ -7,7 +7,7 @@ const OfferNav = () => {
 
   return (
 
-    <div  className='offer-nav'>
+    <div className='offer-nav'>
 
       <a className='button-green ofnav' href='/covid-19/'>
       <img width="10px" className='icon-green'  alt="covid-19" src='/img/viruses.svg'/>
@@ -79,11 +79,13 @@ const OfferNav = () => {
         Opakowania
       </a>
       <br />
-      <a onLoad={ActiveBtn} className='button-green' href='/vr/' >
+      <a  onLoad={ActiveBtn} className='button-green ofnav' href='/vr/' >
       <img width="10px" className='icon-green'  alt="VR" src='/img/vr-cardboard.svg'/>
         VR
       </a>
+
       <br />
+
     </div>
 
   )
@@ -98,10 +100,14 @@ function ActiveBtn() {
 
 
   for (i=0;i<document.getElementsByClassName('ofnav').length;i++){
-    if(document.getElementsByClassName('ofnav')[i].innerHTML.match(title)!==null){
+    if(document.getElementsByClassName('ofnav')[i].innerHTML.match(title) !== null){
+
+      console.log(document.getElementsByClassName('ofnav')[i]);
       document.getElementsByClassName('ofnav')[i].style.backgroundColor = '#00d1b2';
       document.getElementsByClassName('ofnav')[i].style.color = 'white';
       document.getElementsByClassName('ofnav')[i].firstChild.style.filter = 'brightness(0) invert(1)';
+
+
     }
   }
 }

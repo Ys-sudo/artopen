@@ -20,15 +20,15 @@ const Share = (props) => {
   const realPrefix = pathPrefix === '/' ? '' : pathPrefix
   const url = siteUrl + realPrefix + slug
 
-  const iconSize = mobile ? 36 : 48
+  const iconSize = mobile ? 25 : 38
   const filter = count => (count > 0 ? count : '')
 
   return (
     <div className='columns social'>
       <div className='column'>
-      <h6 style={{marginTop:'20px'}}> Spodobał Ci się artykuł? &nbsp; <b style={{color:'#00d1b2'}}> Udostępnij go znajomym!</b> </h6>
+      <h6 style={{marginTop:'20px'}}> Spodobał Ci się artykuł? <br /> <b style={{color:'#00d1b2'}}> Udostępnij go znajomym!</b> </h6>
       </div>
-      <div className='column' style={{textAlign:'right'}}>
+      <div className='column' style={{textAlign:'right',marginTop:'20px'}}>
         <RedditShareButton url={url} title={title}>
           <img src='/img/reddit-share.svg' className='social-icon' width={iconSize} />
           <RedditShareCount url={url}>
