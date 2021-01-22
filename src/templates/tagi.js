@@ -9,7 +9,7 @@ const TagRoute = (props) => {
   const postLinks = posts.map(post => (
     <li key={post.node.fields.slug}>
       <Link to={post.node.fields.slug+'/'}>
-        <h2 className='button-green'>{post.node.frontmatter.title}</h2>
+        <p className='button-green' style={{fontSize:'20px'}}>{post.node.frontmatter.title}</p>
       </Link>
     </li>
   ))
@@ -31,6 +31,7 @@ const TagRoute = (props) => {
               style={{ marginBottom: '6rem' }}
             >
               <h3 className='title is-size-4 is-bold-light'>{tagHeader}</h3>
+              <br />
               <ul className='taglist'>{postLinks}</ul>
               <p>
                 <Link className='button-green' to='/tagi/'>Przejrzyj wszystkie tagi</Link>
