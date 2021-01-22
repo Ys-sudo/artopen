@@ -84,14 +84,12 @@ const HomePageTemplate = (props) => {
 
       </div>
 
-
-
-
-      <section className='hero is-primary is-bold is-medium'>
+      <section className='is-primary is-bold is-medium'>
         <div className='hero-body'>
           <div className='container'>
+          <h5 className='has-text-weight-semibold is-size-2' style={{textAlign:'center'}}>O nas:</h5>
             <div className='columns'>
-              TODO: liczniki
+              TODO: Nasz zespół 
             </div>
           </div>
         </div>
@@ -100,7 +98,66 @@ const HomePageTemplate = (props) => {
 
 
 
+      <section className='hero is-primary is-bold is-medium'>
+        <div className='hero-body'>
+          <div className='container'>
+            <div className='columns'>
 
+              <div className='column' style={{textAlign:'center'}}>
+              <p>Lat na rynku</p>
+              <h5 className='is-size-2'>
+              12
+              </h5>
+              </div>
+
+              <div className='column' style={{textAlign:'center'}}>
+              <p>Stałych klientów</p>
+              <h5 className='is-size-2'>
+              250
+              </h5>
+              </div>
+
+              <div className='column' style={{textAlign:'center'}}>
+              <p>Projektów graficznych</p>
+              <h5 className='is-size-2'>
+              5000
+              </h5>
+              </div>
+
+              <div className='column' style={{textAlign:'center'}}>
+              <p>Wykonanych zamówień</p>
+              <h5 className='is-size-2'>
+              12500
+              </h5>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className='is-primary is-bold is-medium'>
+        <div className='hero-body'>
+          <div className='container'>
+          <h5 className='has-text-weight-semibold is-size-2' style={{textAlign:'left'}}>Kreator kalnedarzy</h5>
+            <div className='columns' style={{marginLeft:'50px'}}>
+              TODO: Kreator
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section className='is-primary is-bold is-medium'>
+        <div className='hero-body'>
+          <div className='container'>
+          <h5 className='has-text-weight-semibold is-size-2' style={{textAlign:'center'}}>Ekologiczne produkty:</h5>
+            <div className='columns'>
+              TODO: co nas wyróżnia
+            </div>
+          </div>
+        </div>
+      </section>
 
 
 
@@ -127,8 +184,8 @@ const HomePageTemplate = (props) => {
         Firma z pomysłem, kreatywni graficy, nietuzinkowe projekty, ekologiczne produkty, kalendarze z papierem z kamienia, wodoodporne, biodegradowalne. Gadżety z pszenicy, bambusa, słomy, kawy, interesujący design, przyjemny kontakt, szybkie działanie, dobre terminy realizacji. Firma godna polecenia.
         </p>
         <br />
-        <p id='author' style={{color:'#00d1b2'}}>
-        Autor XYZ
+        <p id='autor' style={{color:'#00d1b2'}}>
+        Marek Banach | KRAUSE Sp. z o.o.
         </p>
 
         <br />
@@ -152,7 +209,8 @@ const HomePageTemplate = (props) => {
           <div className='container'>
           <h5 className='has-text-weight-semibold is-size-2' style={{textAlign:'center'}}>Zaufali nam:</h5>
             <div className='columns'>
-              TODO: klienci logotypy 
+              TODO: klienci logotypy
+              {/*https://medium.com/how-to-react/create-beautiful-image-sliders-carousels-in-react-using-react-alice-carousel-395d8ae9310c*/}
             </div>
           </div>
         </div>
@@ -165,19 +223,24 @@ const HomePageTemplate = (props) => {
 }
 
 
-const links = ['']
-const imgs = ['']
-const titles = [''];
+const authors = ['Marek Banach | KRAUSE Sp. z o.o.',
+'Aleksandra Cukier | TOZ Schronisko Wrocław',
+'Łukasz Maślanka | TBS Wrocław Sp. z o.o.',]
+const texts = ['Firma z pomysłem, kreatywni graficy, nietuzinkowe projekty, ekologiczne produkty, kalendarze z papierem z kamienia, wodoodporne, biodegradowalne. Gadżety z pszenicy, bambusa, słomy, kawy, interesujący design, przyjemny kontakt, szybkie działanie, dobre terminy realizacji. Firma godna polecenia.',
+'Zdecydowanie polecam korzystanie z usług firmy Art Open :) Profesjonalny projekt przygotowany zgodnie z wytycznymi, szybka realizacja, a do tego bardzo przyjemny kontakt z Pracownikami na etapie realizacji. Polecam zatem wszystkim, którzy cenią sobie wysoką jakość!',
+'Cenię sobie współpracę z firmą Art Open - pracują w niej profesjonaliści, zlecenia wykonują terminowo, a w trakcie realizacji zleconych prac wykazują się zaangażowaniem i pomysłowością. Polecam!']
+
 
 let i=0;
 
 function changeTestplus() {
-    if (i < 4){
+    if (i < 2){
     i++;
   } else {
     i = 0;
   }
-  document.getElementById('txtchange').innerHTML = titles[i];
+  document.getElementById('txtchange').innerHTML = texts[i];
+  document.getElementById('autor').innerHTML = authors[i];
 
 }
 
@@ -185,9 +248,10 @@ function changeTestminus() {
     if (i > 0){
     i--;
   } else {
-    i = 4;
+    i = 2;
   }
-  document.getElementById('txtchange').innerHTML = titles[i];
+  document.getElementById('txtchange').innerHTML = texts[i];
+  document.getElementById('autor').innerHTML = authors[i];
 
 }
 

@@ -110,7 +110,7 @@ const NavBar = () => {
               PRACA
             </Link>
 
-            <Link className='navbar-item' onMouseOver={loadSubMenu} to='/oferta/'>
+            <Link className='navbar-item' onTouchMove={loadSubMenu} onMouseOver={loadSubMenu} to='/oferta/'>
               OFERTA
             </Link>
 
