@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Art Open - multimedialna agencja reklamowa', // Site title.
   siteTitleAlt: 'Kalendarze, rekalmy, wydruki, gadżety, strony internetowe, aplikacje, wirtualna rzeczywistość', // Alternative site title for SEO.
-  siteLogo: '/icons/icon-512x512.png', // Logo used for SEO and manifest.
+  siteLogo: '/icons/icon-512-512.png', // Logo used for SEO and manifest.
   siteUrl: 'https://artopen.netlify.app', // Domain of your website without pathPrefix.
   pathPrefix: '', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-business/.
   siteDescription: 'Art Open - multimedialna agencja reklamowa - Kalendarze, rekalmy, wydruki, gadżety, strony internetowe, aplikacje, wirtualna rzeczywistość', // Website description used for RSS feeds/meta description tag.

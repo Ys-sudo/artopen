@@ -4,7 +4,7 @@ backend:
 
 site_url: https://artopen.netlify.app
 display_url: https://artopen.netlify.app
-logo_url: static/icons/icon-512-512.png
+logo_url: /icons/ArtOpen-black.svg
 publish_mode: editorial_workflow
 media_folder: static/img
 public_folder: /img
