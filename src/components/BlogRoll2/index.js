@@ -19,8 +19,8 @@ class BlogRoll2 extends React.Component {
               key={post.id}
               style={{margin:'10px'}}
             >
-            <Link  to={post.fields.slug+'/'}>
-            <img src={post.frontmatter.cover.publicURL}  className='fimg' />
+            <Link aria-label="przeczytaj wpis"  to={post.fields.slug+'/'}>
+            <img src={post.frontmatter.cover.publicURL} alt={post.frontmatter.title} className='fimg' />
             </Link>
             <div className='blogpostroll' >
               <div className='tagline3'>

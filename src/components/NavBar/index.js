@@ -91,6 +91,7 @@ const NavBar = () => {
             <button
               className={`button navbar-burger ${active ? 'is-active' : ''}`}
               data-target='navMenu'
+              aria-label="Navbar-mobile"
               onClick={toggleNavBar}
             >
               <span />
