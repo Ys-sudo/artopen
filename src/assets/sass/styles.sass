@@ -6,6 +6,19 @@ $primary-invert: #ffffff
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&display=swap')
 
+.alice-carousel__stage
+  text-align: center
+
+.sliderimg
+  width: 25%
+  height: 100px
+  object-fit: cover
+
+.alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active
+  background-color: #00d1b2 !important
+.alice-carousel__prev-btn-item, .alice-carousel__next-btn-item
+  color: #00d1b2 !important
+
 body::-webkit-scrollbar
   width: 0.35em
   z-index: 1000

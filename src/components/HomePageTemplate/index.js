@@ -9,6 +9,9 @@ import OfferRoll from '../OfferRoll'
 import BlogRoll from '../BlogRoll'
 import PortfolioRoll from '../PortfolioRoll'
 
+import AliceCarousel from 'react-alice-carousel'
+import 'react-alice-carousel/lib/alice-carousel.css';
+
 import PropTypes from 'prop-types'
 
 const HomePageTemplate = (props) => {
@@ -29,6 +32,9 @@ const HomePageTemplate = (props) => {
                   <h1 className='title' style={{fontSize:'50px'}}>
                     {title}
                   </h1>
+                  <h2 className='subtitle' style={{}}>
+                    Multimedialne studio reklamy
+                  </h2>
                 </div>
               </div>
             </div>
@@ -37,11 +43,30 @@ const HomePageTemplate = (props) => {
       </section>
 
 
-      <section className='hero is-primary is-bold is-medium'>
+      <section className='hero is-primary is-bold'>
         <div className='hero-body'>
           <div className='container'>
-            <div className='columns'>
-              TODO: Covid banner
+            <div className='columns' style={{textAlign:'center'}}>
+              <div className='column'>
+              <h3 style={{textAlign:'left'}}><strong style={{color:'white', fontSize:'20px'}}>Oferta produktów ochronnych</strong></h3>
+              </div>
+              <div className='column'>
+              <h3>maseczki</h3>
+              </div>
+              <div className='column'>
+              <h3>przyłbice</h3>
+              </div>
+              <div className='column'>
+              <h3>dezynfekcja</h3>
+              </div>
+              <div className='column'>
+              <a className='button-white' href='/covid-19/' ><b>sprawdź</b></a>
+              </div>
+            </div>
+            <br />
+            <div>
+            <h3>Działalność Art Open w czasie stanu epidemii COVID-19</h3> <br />
+            <h4>W związku z wprowadzeniem stanu epidemii dot. COVID-19 informujemy, iż firma Art Open kontynuuje swoją działalność bez zakłóceń. Na bieżąco przyjmujemy zamówienia oraz realizujemy wszystkie dostawy naszych produktów do Klientów. Wszelkie prace administracyjne oraz graficzne realizowane są bez zmian.</h4>
             </div>
           </div>
         </div>
@@ -84,21 +109,74 @@ const HomePageTemplate = (props) => {
 
       </div>
 
-      <section className='is-primary is-bold is-medium'>
+      <section className='hero is-primary is-bold is-medium' style={{marginTop:'-7px'}}>
         <div className='hero-body'>
           <div className='container'>
-          <h5 className='has-text-weight-semibold is-size-2' style={{textAlign:'center'}}>O nas:</h5>
-            <div className='columns'>
-              TODO: Nasz zespół
-            </div>
+            TODO: newsletter
           </div>
         </div>
       </section>
 
+      <section className=''>
+
+          <div style={{marginTop:'0px',marginBottom:'-7px'}}>
+
+
+            <div className='columns' style={{margin:'0px',marginTop:'0px'}}>
+
+              <div className='column' style={{marginLeft:'50px',marginRight:'50px'}}>
+                <br />
+                <h5 className='has-text-weight-semibold is-size-2'>Ekologiczne produkty</h5>
+                <h3 className='subtitle'> Co nas wyróżnia? </h3>
+                <br />
+                <h4>Nasz zespół tworzą ludzie pełni pasji, kreatywności i zaangażowania w każdy powierzony projekt. Od blisko dekady, wspólnie z Wami, naszymi Klientami, realizujemy różnorodne przedsięwzięcia z zakresu identyfikacji wizualnej, promocji oraz projektowania graficznego, w tym stron internetowych i realizacji filmów.</h4>
+                <br />
+                <br />
+                <a className='button-green' href='/ekologia/'> ekologia </a>
+              </div>
+
+
+              <div className='column' style={{marginRight:'0px',padding:'0px',minWidth:'50%'}}>
+              <img src='/img/slider_1.jpg' alt="" height='100%' />
+              </div>
+
+            </div>
+
+        </div>
+      </section>
+
+
+      <section className='is-primary '>
+
+          <div style={{marginTop:'0px'}}>
+
+            <div className='columns' style={{margin:'0px',marginTop:'0px'}}>
+
+            <div className='column' style={{marginRight:'0px',padding:'0px',minWidth:'50%'}}>
+            <img src='/img/slider_1.jpg' alt="" height='100%' />
+            </div>
+
+              <div className='column' style={{marginLeft:'50px',marginRight:'50px',textAlign:'right'}}>
+                <br />
+                <h5 className='has-text-weight-semibold is-size-2'>Kreator kalendarzy</h5>
+                <h3 className='subtitle'> Zaprojektuj kalendarz online </h3>
+                <br />
+                <h4>Nasz zespół tworzą ludzie pełni pasji, kreatywności i zaangażowania w każdy powierzony projekt. Od blisko dekady, wspólnie z Wami, naszymi Klientami, realizujemy różnorodne przedsięwzięcia z zakresu identyfikacji wizualnej, promocji oraz projektowania graficznego, w tym stron internetowych i realizacji filmów.</h4>
+                <br />
+                <br />
+                <a className='button-green' href='/ekologia/'> kreator kalendarzy </a>
+              </div>
 
 
 
-      <section className='hero is-primary is-bold is-medium'>
+
+            </div>
+          </div>
+
+      </section>
+
+
+      <section className='hero is-primary is-bold is-medium' style={{marginTop:'-7px'}}>
         <div className='hero-body'>
           <div className='container'>
             <div className='columns timers'>
@@ -136,28 +214,38 @@ const HomePageTemplate = (props) => {
         </div>
       </section>
 
-      <section className='is-primary is-bold is-medium'>
-        <div className='hero-body'>
-          <div className='container'>
-          <h5 className='has-text-weight-semibold is-size-2' style={{textAlign:'left'}}>Kreator kalnedarzy</h5>
-            <div className='columns' style={{marginLeft:'50px'}}>
-              TODO: Kreator
-            </div>
-          </div>
-        </div>
-      </section>
 
 
-      <section className='is-primary is-bold is-medium'>
+
+
+      <section className='is-bold is-medium'>
         <div className='hero-body'>
           <div className='container'>
-          <h5 className='has-text-weight-semibold is-size-2' style={{textAlign:'center'}}>Ekologiczne produkty:</h5>
+          <h5 className='has-text-weight-semibold is-size-2' style={{textAlign:'center'}}>O nas:</h5>
+          <br />
+          <br />
             <div className='columns'>
-              TODO: co nas wyróżnia
+
+              <div className='column' style={{marginLeft:'50px',marginRight:'50px'}}>
+                <h3 className='title'> Studio Art Open,<br /> kreatywna agencja </h3>
+                <br />
+                <h4>Nasz zespół tworzą ludzie pełni pasji, kreatywności i zaangażowania w każdy powierzony projekt. Od blisko dekady, wspólnie z Wami, naszymi Klientami, realizujemy różnorodne przedsięwzięcia z zakresu identyfikacji wizualnej, promocji oraz projektowania graficznego, w tym stron internetowych i realizacji filmów.</h4>
+                <br />
+                <br />
+                <a className='button-green' href='/o-nas/'> poznaj nasz zespół </a>
+              </div>
+
+
+              <div className='column' style={{marginRight:'50px'}}>
+              <img src='/img/slider_1.jpg' alt="" height='100%' />
+              </div>
+
             </div>
           </div>
         </div>
       </section>
+
+
 
 
 
@@ -208,10 +296,11 @@ const HomePageTemplate = (props) => {
         <div className='hero-body'>
           <div className='container'>
           <h5 className='has-text-weight-semibold is-size-2' style={{textAlign:'center'}}>Zaufali nam:</h5>
-            <div className='columns'>
-              TODO: klienci logotypy
-              {/*https://medium.com/how-to-react/create-beautiful-image-sliders-carousels-in-react-using-react-alice-carousel-395d8ae9310c*/}
-            </div>
+          <br />
+          <AliceCarousel autoPlay items={items} autoPlayInterval="1500">
+
+          </AliceCarousel>
+
           </div>
         </div>
       </section>
@@ -221,6 +310,22 @@ const HomePageTemplate = (props) => {
     </div>
   )
 }
+
+
+const handleDragStart = (e) => e.preventDefault();
+const items = [
+
+  [<img src="/img/slider_1.jpg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/slider_1.jpg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/slider_1.jpg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/slider_1.jpg" onDragStart={handleDragStart} className="sliderimg" />],
+
+  [<img src="/img/slider_1.jpg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/slider_1.jpg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/slider_1.jpg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/slider_1.jpg" onDragStart={handleDragStart} className="sliderimg" />]
+
+];
 
 {/*  CLIENTS OPINIONS    */}
 const authors = ['Marek Banach | KRAUSE Sp. z o.o.',
