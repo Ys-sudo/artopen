@@ -89,7 +89,7 @@ const HomePageTemplate = (props) => {
           <div className='container'>
           <h5 className='has-text-weight-semibold is-size-2' style={{textAlign:'center'}}>O nas:</h5>
             <div className='columns'>
-              TODO: Nasz zespół 
+              TODO: Nasz zespół
             </div>
           </div>
         </div>
@@ -101,33 +101,33 @@ const HomePageTemplate = (props) => {
       <section className='hero is-primary is-bold is-medium'>
         <div className='hero-body'>
           <div className='container'>
-            <div className='columns'>
+            <div className='columns timers'>
 
               <div className='column' style={{textAlign:'center'}}>
               <p>Lat na rynku</p>
-              <h5 className='is-size-2'>
-              12
+              <h5 id='t1' className='is-size-2'>
+              0
               </h5>
               </div>
 
               <div className='column' style={{textAlign:'center'}}>
               <p>Stałych klientów</p>
-              <h5 className='is-size-2'>
-              250
+              <h5 id='t2' className='is-size-2'>
+              0
               </h5>
               </div>
 
               <div className='column' style={{textAlign:'center'}}>
               <p>Projektów graficznych</p>
-              <h5 className='is-size-2'>
-              5000
+              <h5 id='t3' className='is-size-2'>
+              0
               </h5>
               </div>
 
               <div className='column' style={{textAlign:'center'}}>
               <p>Wykonanych zamówień</p>
-              <h5 className='is-size-2'>
-              12500
+              <h5 id='t4' className='is-size-2'>
+              0
               </h5>
               </div>
 
@@ -222,7 +222,7 @@ const HomePageTemplate = (props) => {
   )
 }
 
-
+{/*  CLIENTS OPINIONS    */}
 const authors = ['Marek Banach | KRAUSE Sp. z o.o.',
 'Aleksandra Cukier | TOZ Schronisko Wrocław',
 'Łukasz Maślanka | TBS Wrocław Sp. z o.o.',]
@@ -256,6 +256,75 @@ function changeTestminus() {
 }
 
 
+{/*  TIMERS    */}
+
+function countDown() {
+//initial numbers
+let x = 0;
+let x1 = 0;
+let x2 = 0;
+let x3 = 0;
+
+
+var a =  setInterval( function(){
+
+    if (document.getElementById('t1')!=null){
+        if (x<10){
+          x++;
+          document.getElementById('t1').innerHTML = x;
+        } else if (x===10){
+          clearInterval(a);
+        }
+        }
+      }, 1500);
+
+
+var b =  setInterval( function(){
+
+    if (document.getElementById('t2')!=null){
+        if (x1<250){
+          x1++;
+          document.getElementById('t2').innerHTML = x1;
+        } else if (x1===250){
+          clearInterval(b);
+        }
+        }
+      }, 100);
+
+var c =  setInterval( function(){
+
+    if (document.getElementById('t3')!=null){
+        if (x2<500){
+          x2++;
+          document.getElementById('t3').innerHTML = x2;
+        } else if (x2===500){
+          clearInterval(c);
+        }
+        }
+      }, 20);
+
+var d =  setInterval( function(){
+
+    if (document.getElementById('t4')!=null){
+        if (x3<12500){
+          x3++;
+          document.getElementById('t4').innerHTML = x3;
+        } else if (x3===12500){
+          clearInterval(d);
+        }
+        }
+      }, 1);
+
+}
+
+setTimeout(()=>{
+  countDown();console.log('time');}
+,3000);
+
+{/*
+https://stackoverflow.com/questions/49916259/show-element-when-in-viewport-on-scroll
+element in viewport opacity animation <--
+  */}
 
 
 HomePageTemplate.propTypes = {

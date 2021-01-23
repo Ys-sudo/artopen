@@ -26,7 +26,7 @@ const Share = (props) => {
   return (
     <div className='columns social'>
       <div className='column'>
-      <h6 style={{marginTop:'20px'}}> Spodobał Ci się artykuł? <br /> <b style={{color:'#00d1b2'}}> Udostępnij go znajomym!</b> </h6>
+      <h6 style={{marginTop:'20px',lineHeight:'2'}}> Spodobał Ci się artykuł? <br /> <b style={{color:'#00d1b2',fontSize:'25px'}}> Udostępnij go znajomym!</b> </h6>
       </div>
       <div className='column' style={{textAlign:'right',marginTop:'20px'}}>
         <RedditShareButton url={url} title={title}>
