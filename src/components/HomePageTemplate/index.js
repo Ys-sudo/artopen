@@ -162,7 +162,7 @@ const HomePageTemplate = (props) => {
                 <h4>Nasz zespół tworzą ludzie pełni pasji, kreatywności i zaangażowania w każdy powierzony projekt. Od blisko dekady, wspólnie z Wami, naszymi Klientami, realizujemy różnorodne przedsięwzięcia z zakresu identyfikacji wizualnej, promocji oraz projektowania graficznego, w tym stron internetowych i realizacji filmów.</h4>
                 <br />
                 <br />
-                <a className='button-green' href='/ekologia/'> kreator kalendarzy </a>
+                <a className='button-green' href='/kreator-kalendarzy/'> kreator kalendarzy </a>
               </div>
 
 
