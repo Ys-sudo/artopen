@@ -205,9 +205,10 @@ const Footer = (props) => {
 function scrollFunction() {
   if ( document.documentElement.scrollTop > 250) {
     document.getElementById("backtotop").style.display = "block";
-
+    console.log('>250')
   } else {
     document.getElementById("backtotop").style.display = "none";
+    console.log('<250')
   }
 }
 
