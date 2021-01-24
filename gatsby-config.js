@@ -66,12 +66,6 @@ module.exports = {
         name: 'pages',
       },
     },
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        exclude: [`/tagi`, `/tagi/*`, `/sukces`],
-      },
-    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     {
@@ -81,7 +75,12 @@ module.exports = {
         showSpinner: false,
       },
     },
-
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/tagi`, `/tagi/*`, `/sukces`],
+      },
+    },
     {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
