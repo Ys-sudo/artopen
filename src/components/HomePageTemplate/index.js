@@ -2,8 +2,10 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Offerings from '../Offerings'
 import Testimonials from '../Testimonials'
+
 import ContactCall from '../ContactCall'
 import ModalCall from '../ModalCall'
+import NewsCall from '../NewsCall'
 
 import OfferRoll from '../OfferRoll'
 import BlogRoll from '../BlogRoll'
@@ -109,12 +111,8 @@ const HomePageTemplate = (props) => {
 
       </div>
 
-      <section className='hero is-primary is-bold is-medium' style={{marginTop:'-7px'}}>
-        <div className='hero-body'>
-          <div className='container'>
-            TODO: newsletter
-          </div>
-        </div>
+      <section className='hero' style={{marginTop:'-7px'}}>
+        <NewsCall />
       </section>
 
       <section className=''>
