@@ -11,9 +11,10 @@ const Layout = (props) => {
     <>
       <Helmet
         htmlAttributes={{
-          lang: `en`,
+          lang: `pl-pl`,
           class: `has-navbar-fixed-top`,
         }}
+
         title={config.siteTitle}
         meta={[
           {
@@ -57,7 +58,17 @@ const Layout = (props) => {
             color: config.themeColor,
           },
         ]}
-      />
+        link={[
+          {
+            rel: `preconnect`,
+            href: `https://fonts.gstatic.com`,
+          }
+
+
+        ]}
+      > <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800&display=swap');
+</style></Helmet>
       <NavBar />
       <>{props.children}</>
 
