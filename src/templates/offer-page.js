@@ -9,6 +9,7 @@ import Share from '../components/Share'
 import Disqus from '../components/Disqus'
 import Layout from '../components/Layout'
 import ModalCall from '../components/ModalCall'
+import NewsCall from '../components/NewsCall'
 
 const OfferPage = (props) => {
   const { data: { markdownRemark: { html, fields: { slug }, frontmatter: { title, meta_title, meta_description, cover, date, tags, desc, subtitle, icon } } } } = props
@@ -47,9 +48,11 @@ const OfferPage = (props) => {
                 desc={desc}
                 subtitle={subtitle}
               />
+              <ModalCall />
 
-              <hr />
 
+              <br />
+              <br />
               <br />
 
               <div className='bottomUi' style={{textAlign:'center',marginBottom:'30px',marginLeft:'20px'}}>
@@ -65,7 +68,8 @@ const OfferPage = (props) => {
 
         </div>
       </section>
-      <ModalCall />
+      <NewsCall />
+
     </Layout>
   )
 }

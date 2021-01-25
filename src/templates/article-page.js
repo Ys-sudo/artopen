@@ -9,6 +9,7 @@ import Share from '../components/Share'
 import Disqus from '../components/Disqus'
 import Layout from '../components/Layout'
 import ModalCall from '../components/ModalCall'
+import NewsCall from '../components/NewsCall'
 import BlogRoll2 from '../components/BlogRoll2'
 
 const ArticlePage = (props) => {
@@ -63,6 +64,7 @@ const ArticlePage = (props) => {
 
             </div>
           </div>
+
           <br />
           <div className='bottomUi' style={{textAlign:'center',marginBottom:'30px'}}>
           <a className='button-green' style={{fontSize:'15px'}} href='/oferta/'> Poznaj naszą ofertę&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
@@ -71,14 +73,20 @@ const ArticlePage = (props) => {
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a className='button-green' style={{fontSize:'15px'}} href='/kontakt/'> Skontaktuj się z nami&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
           </div>
-          <br /><br />
-          <h5 className='is-title' style={{fontSize:'30px'}}> Przeczytaj <b style={{color:'#00d1b2'}}>więcej</b>: </h5>
-          <BlogRoll2 />
-          <div style={{textAlign:'center',margin:'50px'}}>
-          <a className='button-green' style={{fontSize:'18px'}} href='/blog/'> Wróć na bloga &nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
-          </div>
+
         </div>
       </section>
+      <NewsCall />
+      <br /><br />
+      <h5 className='is-title' style={{fontSize:'30px',margin:'50px'}}> Przeczytaj <b style={{color:'#00d1b2'}}>więcej</b>: </h5>
+
+      <div style={{textAlign:'center',margin:'50px'}}>
+      <BlogRoll2 />
+      <br />
+      <br />
+      <a className='button-green' style={{fontSize:'18px'}} href='/blog/'> Wróć na bloga &nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+      <br />
+      </div>
       <ModalCall />
     </Layout>
 

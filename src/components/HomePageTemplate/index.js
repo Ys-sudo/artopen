@@ -105,24 +105,24 @@ const HomePageTemplate = (props) => {
       <br />
       <BlogRoll />
 
-      < br/>
+      < br/>< br/>
 
           <a className="button-green" style={{fontSize:'18px'}} href="/blog/"> Zobacz wszystkie wpisy <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
-
+      < br/>< br/>
       </div>
 
       <section className='hero' style={{marginTop:'-7px'}}>
         <NewsCall />
       </section>
 
-      <section className=''>
+      <section >
 
           <div style={{marginTop:'0px',marginBottom:'-7px'}}>
 
 
             <div className='columns' style={{margin:'0px',marginTop:'0px'}}>
 
-              <div className='column' style={{marginLeft:'50px',marginRight:'50px'}}>
+              <div className='column halfsize' style={{marginLeft:'50px',marginRight:'50px'}}>
                 <br />
                 <h5 className='has-text-weight-semibold is-size-2'>Ekologiczne produkty</h5>
                 <h3 className='subtitle'> Co nas wyróżnia? </h3>
@@ -154,7 +154,7 @@ const HomePageTemplate = (props) => {
             <img src='/img/slider_1.jpg' alt="" height='100%' />
             </div>
 
-              <div className='column' style={{marginLeft:'50px',marginRight:'50px',textAlign:'right'}}>
+              <div className='column halfsize' style={{marginLeft:'50px',marginRight:'50px',textAlign:'right'}}>
                 <br />
                 <h5 className='has-text-weight-semibold is-size-2'>Kreator kalendarzy</h5>
                 <h3 className='subtitle'> Zaprojektuj kalendarz online </h3>
@@ -276,7 +276,7 @@ const HomePageTemplate = (props) => {
 
         <br />
         <br />
-          <a className="button-green" target="_blank"
+          <a className="button-green" target="_blank" rel='noopener norefferer'
           href="https://www.google.com/search?q=artopen+wroc%C5%82aw&oq=artopen+wroc%C5%82aw&aqs=chrome..69i57j0i22i30.2687j0j7&sourceid=chrome&ie=UTF-8#lrd=0x470fc21b332a9cd3:0x6f99075edfe8676,1,,,">
            Zobacz wszystkie opinie &nbsp;&nbsp; <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
         </div>

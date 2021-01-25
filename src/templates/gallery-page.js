@@ -10,6 +10,7 @@ import Disqus from '../components/Disqus'
 import Layout from '../components/Layout'
 import ModalCall from '../components/ModalCall'
 import PortfolioRoll2 from '../components/PortfolioRoll2'
+import NewsCall from '../components/NewsCall'
 
 const GalleryPage = (props) => {
   const { data: { markdownRemark: { html, fields: { slug }, frontmatter: { title, meta_title, meta_description, cover, date, tags, category } } } } = props
@@ -74,13 +75,23 @@ const GalleryPage = (props) => {
           </div>
           <br />
           <br />
-          <h5 className='is-title' style={{fontSize:'30px'}}> Pozostałe <b style={{color:'#00d1b2'}}>projekty</b>: </h5>
-          <PortfolioRoll2 />
-          <div style={{textAlign:'center',margin:'50px'}}>
-          <a className='button-green' style={{fontSize:'18px'}} href='/portfolio/'> Wróć do portfolio &nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
-          </div>
+
+
+
         </div>
       </section>
+      <NewsCall />
+      <br /><br />
+
+      <h5 className='is-title' style={{fontSize:'30px',margin:'50px'}}> Pozostałe <b style={{color:'#00d1b2'}}>projekty</b>: </h5>
+      <div style={{textAlign:'center',margin:'50px'}}>
+
+        <PortfolioRoll2 />
+        <br />
+        <br />
+        <a className='button-green' style={{fontSize:'18px'}} href='/portfolio/'> Wróć do portfolio &nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+        <br />
+      </div>
       <ModalCall />
     </Layout>
   )

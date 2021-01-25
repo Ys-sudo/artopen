@@ -211,7 +211,9 @@ function scrollFunction() {
 }
 
 function loadScroll(){
+  console.log('loaded');
   document.onscroll = function() {scrollFunction()};
+
 }
 
 
