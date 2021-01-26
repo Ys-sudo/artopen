@@ -170,6 +170,7 @@ export default () => (
     query={graphql`
       query PortfolioRollQuery {
         allMarkdownRemark(
+          limit: 8,
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "gallery-page" } } }
         ) {

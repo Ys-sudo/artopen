@@ -72,6 +72,7 @@ export default () => (
     query={graphql`
       query BlogRoll2Query {
         allMarkdownRemark(
+          limit: 3,
           sort: { order: DESC, fields: [frontmatter___date] }
           filter: { frontmatter: { templateKey: { eq: "article-page" } } }
         ) {
