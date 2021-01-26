@@ -1,9 +1,13 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+import config from '../../../config'
+import { graphql, StaticQuery } from 'gatsby'
+class Footer extends React.Component {
+  render() {
+    const { data } = this.props
+    const { edges: posts } = data.allMarkdownRemark
 
-const Footer = (props) => {
-  const { copyright } = props
-
-  return (
+    return (
     <footer className='footer' style={{alignItems:'bottom', paddingBottom:'30px'}}>
 
       <div className='container'>
@@ -100,27 +104,14 @@ const Footer = (props) => {
         <div className='column' style={{marginTop:'20px'}}>
           <h5><b>Blog</b></h5>
           <br />
-          <a className='submenu-item' href='/' >
-            Wpis 1
-          </a>
-          <a className='submenu-item' href='/' >
-            Wpis 2
-          </a>
-          <a className='submenu-item' href='/' >
-            Wpis 3
-          </a>
-          <a className='submenu-item' href='/' >
-            Wpis 4
-          </a>
-          <a className='submenu-item' href='/' >
-            Wpis 5
-          </a>
-          <a className='submenu-item' href='/' >
-            Wpis 6
-          </a>
-          <a className='submenu-item' href='/' >
-            Wpis 7
-          </a>
+          {posts &&
+            posts.slice(0,8)
+            .filter(post => post.node.frontmatter.templateKey === 'article-page')
+            .map(({ node: post }) => (
+              <a className='submenu-item' href={post.fields.slug+'/'} >
+                {post.frontmatter.title}
+              </a>
+          ))}
 
         </div>
 
@@ -185,7 +176,7 @@ const Footer = (props) => {
           <br />
           <br />
           <p style={{color:'white',fontSize:'12px'}}>
-            {copyright} | <a className='link-green'  href="/polityka-prywatnosci/"> Polityka prywatności </a>
+            {config.copyright} | <a className='link-green'  href="/polityka-prywatnosci/"> Polityka prywatności </a>
             | <a className='link-green' href="/polityka-prywatnosci#cookies/"> Pliki Cookies </a>
             | <a className='link-green' href="/sitemap.xml/"> Mapa strony </a>
           </p>
@@ -198,6 +189,7 @@ const Footer = (props) => {
 
     </footer>
   )
+}
 }
 
 
@@ -217,4 +209,38 @@ function loadScroll(){
 }
 
 
-export default Footer
+Footer.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      edges: PropTypes.array,
+    }),
+  }),
+}
+
+export default () => (
+  <StaticQuery
+    query={graphql`
+      query footerQuery {
+        allMarkdownRemark(
+          limit: 8,
+          sort: { order: DESC, fields: [frontmatter___date] }
+          filter: { frontmatter: { templateKey: { eq: "article-page" } } }
+        ) {
+          edges {
+            node {
+              id
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                templateKey
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={(data, count) => <Footer data={data} count={count} />}
+  />
+)

@@ -1,5 +1,6 @@
 import React from 'react'
 import Content from '../Content'
+import ContactCall from '../ContactCall'
 import PropTypes from 'prop-types'
 
 const WorkPageTemplate = (props) => {
@@ -35,6 +36,9 @@ const WorkPageTemplate = (props) => {
           </div>
         </div>
       </section>
+      <br />
+      <br />
+      <ContactCall />
     </div>
   )
 }

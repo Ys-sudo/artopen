@@ -315,17 +315,36 @@ const HomePageTemplate = (props) => {
 
 
 const handleDragStart = (e) => e.preventDefault();
+{/*TODO:// when on wifi download +3 images*/}
 const items = [
 
-  [<img src="/img/slider_1.jpg" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/slider_1.jpg" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/slider_1.jpg" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/slider_1.jpg" onDragStart={handleDragStart} className="sliderimg" />],
+  [<img src="/img/logo-svg/betafence.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/biegpiastow.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/ccc.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/columbus.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/cooper.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/creditsuisse.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/deco.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/hasco.svg" onDragStart={handleDragStart} className="sliderimg" />],
 
-  [<img src="/img/slider_1.jpg" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/slider_1.jpg" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/slider_1.jpg" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/slider_1.jpg" onDragStart={handleDragStart} className="sliderimg" />]
+  [<img src="/img/logo-svg/kd.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/kghm.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/krause.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/macopharma.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/ocado.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/pbi.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/pgnig.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/posco.svg" onDragStart={handleDragStart} className="sliderimg" />],
+
+  [<img src="/img/logo-svg/rotomat.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/vantagedev.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/vw.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/wabco.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/womak.svg" onDragStart={handleDragStart} className="sliderimg" />,
+
+  <img src="/img/logo-svg/pbi.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/pgnig.svg" onDragStart={handleDragStart} className="sliderimg" />,
+  <img src="/img/logo-svg/posco.svg" onDragStart={handleDragStart} className="sliderimg" />]
 
 ];
 
