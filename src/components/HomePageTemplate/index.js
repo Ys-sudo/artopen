@@ -131,6 +131,8 @@ const HomePageTemplate = (props) => {
                 <br />
                 <br />
                 <a className='button-green' href='/ekologia/'> ekologia </a>
+                <br />
+                <br />
               </div>
 
 
@@ -163,6 +165,8 @@ const HomePageTemplate = (props) => {
                 <br />
                 <br />
                 <a className='button-green' href='/kreator-kalendarzy/'> kreator kalendarzy </a>
+                <br />
+                <br />
               </div>
 
 
