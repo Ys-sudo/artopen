@@ -57,17 +57,17 @@ const ContactPageTemplate = (props) => {
           <h4 style={{marginBottom:'20px'}}> Kontakt mailowy lub telefoniczny: </h4>
           <div style={{marginBottom:'20px'}}>
           <a href="mailto:biuro@artopen.pl" className='button-green' >
-          <img width="20px"  style={{verticalAlign:'middle',marginLeft:'5px', marginRight:'15px'}}   alt="email" src='/img/envelope-alt.svg'/><b>biuro@artopen.pl</b></a>
+          <img width="20px"  style={{verticalAlign:'middle',marginLeft:'5px', marginRight:'15px'}}   alt="email" src='/img/envelope-alt.svg'/>biuro@artopen.pl</a>
           </div>
 
           <div style={{marginBottom:'20px'}}>
           <a href="tel:+48 71 728 29 13" className='button-green' >
-          <img width="20px"  style={{verticalAlign:'middle',marginLeft:'5px', marginRight:'15px'}}   alt="numer telefonu" src='/img/phone.svg'/><b>Tel: +48 71 728 29 13</b></a>
+          <img width="20px"  style={{verticalAlign:'middle',marginLeft:'5px', marginRight:'15px'}}   alt="numer telefonu" src='/img/phone.svg'/>Tel: +48 71 728 29 13</a>
           </div>
 
           <div style={{marginBottom:'20px'}}>
             <a href="tel:+48 535 000 881" className='button-green' >
-            <img width="20px"  style={{verticalAlign:'middle',marginLeft:'5px', marginRight:'15px'}}   alt="numer komórkowy" src='/img/mobile.svg'/><b>Kom: +48 535 000 881</b></a>
+            <img width="20px"  style={{verticalAlign:'middle',marginLeft:'5px', marginRight:'15px'}}   alt="numer komórkowy" src='/img/mobile.svg'/>Kom: +48 535 000 881</a>
           </div>
 
 

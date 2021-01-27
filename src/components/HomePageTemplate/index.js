@@ -62,7 +62,9 @@ const HomePageTemplate = (props) => {
               <h3>dezynfekcja</h3>
               </div>
               <div className='column'>
-              <a className='button-white' href='/covid-19/' ><b>sprawdź</b></a>
+              <a className='button-white' href='/covid-19/' ><b>sprawdź</b> &nbsp;&nbsp;
+              <img width="20px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="covid-19" src='/img/viruses.svg'/>
+              </a>
               </div>
             </div>
             <br />
@@ -130,7 +132,9 @@ const HomePageTemplate = (props) => {
                 <h4>Nasz zespół tworzą ludzie pełni pasji, kreatywności i zaangażowania w każdy powierzony projekt. Od blisko dekady, wspólnie z Wami, naszymi Klientami, realizujemy różnorodne przedsięwzięcia z zakresu identyfikacji wizualnej, promocji oraz projektowania graficznego, w tym stron internetowych i realizacji filmów.</h4>
                 <br />
                 <br />
-                <a className='button-green' href='/ekologia/'> ekologia </a>
+                <a className='button-green' href='/ekologia/'> ekologia &nbsp;&nbsp;
+                <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="ekologia" src='/img/leaf.svg'/>
+                 </a>
                 <br />
                 <br />
               </div>
@@ -164,7 +168,9 @@ const HomePageTemplate = (props) => {
                 <h4>Nasz zespół tworzą ludzie pełni pasji, kreatywności i zaangażowania w każdy powierzony projekt. Od blisko dekady, wspólnie z Wami, naszymi Klientami, realizujemy różnorodne przedsięwzięcia z zakresu identyfikacji wizualnej, promocji oraz projektowania graficznego, w tym stron internetowych i realizacji filmów.</h4>
                 <br />
                 <br />
-                <a className='button-green' href='/kreator-kalendarzy/'> kreator kalendarzy </a>
+                <a className='button-green' href='/kreator-kalendarzy/'> kreator kalendarzy &nbsp;&nbsp;
+                    <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="kalendarze" src='/img/calendar-alt.svg'/>
+                 </a>
                 <br />
                 <br />
               </div>
@@ -234,7 +240,9 @@ const HomePageTemplate = (props) => {
                 <h4>Nasz zespół tworzą ludzie pełni pasji, kreatywności i zaangażowania w każdy powierzony projekt. Od blisko dekady, wspólnie z Wami, naszymi Klientami, realizujemy różnorodne przedsięwzięcia z zakresu identyfikacji wizualnej, promocji oraz projektowania graficznego, w tym stron internetowych i realizacji filmów.</h4>
                 <br />
                 <br />
-                <a className='button-green' href='/o-nas/'> poznaj nasz zespół </a>
+                <a className='button-green' href='/o-nas/'> poznaj nasz zespół &nbsp;&nbsp;
+                  <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/>
+                </a>
               </div>
 
 
