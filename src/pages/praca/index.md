@@ -8,31 +8,32 @@ meta_description: >-
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
 ---
-## Lorem ipsum dolor sit amet, consectetuer
+<div class="columns" style="padding:0px;border-radius:25px;width:100%">
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
-quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 
-##In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+   <div class="column">
+     <h3 class="title" style="font-size:32px">Czy to właśnie<br> Ciebie szukamy?</h3>
+     <p style="margin-right:25px"> Art Open to zespół zgranych osób z dobrą energią i kompetencjami, ludzi z otwartymi umysłami, szukający rozwiązań. To Agencja Reklamowa z ponad 10 letnim stażem na rynku, kreatorzy wizerunku i marki. To pasjonaci z międzynarodowym doświadczeniem, nagrodami, skoncentrowani na celach i zadaniach. Inteligentni i wygadani. Tacy co wygrywali i przegrywali, lecz potrafią się podnieść, ale najpierw muszą chwilę posiedzieć i pomyśleć zanim wstaną ponownie. Co cenią lojalność i zaangażowanie. Uważnych na szczegóły i detale, a jednocześnie dostrzegających dalszą perspektywę. Wdzięcznych losowi co można z nimi przysłowiowe "konie kraść".
+     <br><br>
+     <b>I tego samego szukamy u naszych partnerów!</b>
+     </p>
+   </div>
 
-Nullam dictum felis eu pede mollis
-pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra
-quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-Etiam ultricies nisi vel augue.  Nam eget dui. *Etiam rhoncus*. Maecenas
-tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
-Nam quam nunc, blandit vel, luctus pulvinar
+   <div class="column">
 
-###Curabitur ullamcorper ultricies nisi.
+   <img class="oimg" alt="oferta pracy 2021" src="https://artopen.pl/images/2021/01/12/oferta-pracy2021.jpg" width="100%"/>
 
-Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
-Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales,
-augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut,
-mollis sed, nonummy id, metus.
-* Cras ultricies mi eu turpis hendrerit fringilla.
-* Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-* In ac dui quis mi consectetuer lacinia.
+   </div>
 
-**Etiam ultricies nisi vel augue!**
+</div>
+
+
+##01. DLACZEGO SZUKAMY?
+Rozwijamy skrzydła i marzy nam się ekspansja na rynki zachodnie.
+
+Dlatego jeżeli bliskie jest Ci łamanie schematów, docieranie do najbardziej niedostępnych klientów z Niemiec, Austrii, czy Szwajcarii z wyjątkową ofertą, ekologia i dbanie o środowisko jest dla Ciebie ważne, a w Twojej głowie rozpalają się nietuzinkowe rozwiązania to od razu skontaktuj się z nami <a target="_blank" class="link-green" href="mailto:rekrutacja@artopen.pl">rekrutacja@artopen.pl</a>
+
+##02. KOGO SZUKAMY?
+Szukamy osób niezależnych, ogarniętych, które przyjdą z pomysłami, jak dotrzeć do wymagającego klienta w Europie Zachodniej, z językiem niemieckim w mowie i piśmie. Potrafią go skutecznie zainteresować i złowić, są pełni pasji i odwagi na nowe wyzwania. Chcemy rozpocząć nowe projekty z artystami sprzedaży, nietuzinkowymi, którzy są zdyscyplinowani i kreatywni, czasem uparci. Zero wzorowych uczniów. Raczej krnąbrnych, zdolnych i szalonych, gotowych na przygodę.
+
+<b>Jeśli posiadasz ponadprzeciętne zaangażowanie i osiągasz długofalowe efekty działań, przyjdź do nas a solidnie Cię wynagrodzimy...</b>

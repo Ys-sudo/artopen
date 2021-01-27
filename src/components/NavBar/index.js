@@ -213,17 +213,39 @@ const NavBar = () => {
                 <p className='control'>
                   <a
                     className='button-green'
-                    href='/#'>
+                    href='#'>
                     Sklep online
                   </a>
                 </p>
 
-
               </div>
 
             </div>
-            <div className='navbar-item' style={{marginLeft:'-20px'}}>
+            <div className='navbar-item' style={{marginLeft:'-25px',marginRight:'-25px'}}>
             <SearchBox searchIndex={data.siteSearchIndex.index} />
+
+
+
+            </div>
+
+            <div className='navbar-item'>
+              <div className='field is-grouped'>
+              <p className='control'>
+                <a
+                  className='button-green'
+                  href='#'>
+                  EN
+                </a>
+              </p>
+
+              <p className='control'>
+                <a
+                  className='button-green'
+                  href='#'>
+                  DE
+                </a>
+              </p>
+              </div>
             </div>
 
 

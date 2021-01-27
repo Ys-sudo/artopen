@@ -12,7 +12,7 @@ import BlogRoll from '../BlogRoll'
 import PortfolioRoll from '../PortfolioRoll'
 
 import AliceCarousel from 'react-alice-carousel'
-import 'react-alice-carousel/lib/alice-carousel.css';
+import 'react-alice-carousel/lib/alice-carousel.css'
 
 import PropTypes from 'prop-types'
 

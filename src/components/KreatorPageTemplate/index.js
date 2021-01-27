@@ -18,7 +18,7 @@ const KreatorPageTemplate = (props) => {
               {title}
             </h1>
             <h2 className='subtitle'>
-              Zaprojketuj sam swój wyjątkowy kalendarz.
+              Zaprojektuj sam swój wyjątkowy kalendarz.
             </h2>
             <h3>Sprawdź naszą ofertę: </h3>
             <br />
@@ -50,6 +50,14 @@ const KreatorPageTemplate = (props) => {
 
       <section className='section section--gradient'>
 
+      <div className='columns'>
+        <div className='column is-10 is-offset-1'>
+          <div className='section'>
+            <PageContent className='content' content={content} />
+          </div>
+        </div>
+      </div>
+
       <div className='bottomUi' style={{textAlign:'center',marginBottom:'30px'}}>
       <a className='button-green' style={{fontSize:'15px'}} href='/oferta/'> Poznaj naszą ofertę&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -58,13 +66,6 @@ const KreatorPageTemplate = (props) => {
       <a className='button-green' style={{fontSize:'15px'}} href='/blog/'> Poczytaj bloga&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
       </div>
 
-          <div className='columns'>
-            <div className='column is-10 is-offset-1'>
-              <div className='section'>
-                <PageContent className='content' content={content} />
-              </div>
-            </div>
-          </div>
 
       </section>
       <ContactCall />
