@@ -73,7 +73,15 @@ const Layout = (props) => {
       <NavBar />
       <>{props.children}</>
 
+      <div onLoad={loadScroll} id='backtotop'
+      style={{display:'none',position:'fixed',right:'2px',
+      bottom:'4px',padding:'4px', width:'27px',textAlign:'center',
+      height:'27px',backgroundColor:'#111111',borderRadius:'5px'}}>
+      <a href="#"><img width="20px" className='icon-green'  alt="backtotop" src='/img/angle-up.svg'/></a>
+      </div>
+
       <Footer copyright={config.copyright} />
+
       <CookieConsent
         location="bottom"
         buttonText="Akceptuję"
@@ -98,6 +106,21 @@ const Layout = (props) => {
 
     </>
   )
+}
+
+
+function scrollFunction() {
+  if ( document.documentElement.scrollTop > 250) {
+    document.getElementById("backtotop").style.display = "block";
+  } else {
+    document.getElementById("backtotop").style.display = "none";
+  }
+}
+
+function loadScroll(){
+  console.log('loaded');
+  document.onscroll = function() {scrollFunction()};
+
 }
 
 export default Layout

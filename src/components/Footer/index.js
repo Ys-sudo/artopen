@@ -183,29 +183,11 @@ class Footer extends React.Component {
 
         </div>
       </div>
-      <div onLoad={loadScroll} id='backtotop' style={{display:'none',position:'fixed',right:'2px',bottom:'4px',padding:'4px', width:'27px',textAlign:'center',height:'27px',backgroundColor:'#111111',borderRadius:'5px'}}>
-      <a href="#"><img width="20px" className='icon-green'  alt="backtotop" src='/img/angle-up.svg'/></a>
-      </div>
+
 
     </footer>
   )
 }
-}
-
-
-
-function scrollFunction() {
-  if ( document.documentElement.scrollTop > 250) {
-    document.getElementById("backtotop").style.display = "block";
-  } else {
-    document.getElementById("backtotop").style.display = "none";
-  }
-}
-
-function loadScroll(){
-  console.log('loaded');
-  document.onscroll = function() {scrollFunction()};
-
 }
 
 
