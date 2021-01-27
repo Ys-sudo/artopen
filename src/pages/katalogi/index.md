@@ -24,8 +24,10 @@ meta_description: >-
      <br>
    </div>
 
-   <div class="column"">
-    <img src="https://artopen.pl/images/2020/07/01/expen_katalog.png" width="100%">
+   <div class="column">
+     <a class="catalogimg" href="https://online.fliphtml5.com/njygn/xbbq/" target="_blank" >
+      <img src="/img/katalogi/expen_katalog.png" width="100%">
+     </a>
    </div>
 
 
@@ -47,8 +49,10 @@ meta_description: >-
      <br>
    </div>
 
-   <div class="column"">
-    <img src="https://artopen.pl/images/katalogi/kalendarze_1.jpg" width="100%">
+   <div class="column">
+   <a class="catalogimg" href="https://online.fliphtml5.com/njygn/yxew/" target="_blank" >
+    <img  src="/img/katalogi/kalendarze.jpg" width="100%">
+   </a>
    </div>
 
 
@@ -70,8 +74,10 @@ meta_description: >-
      <br>
    </div>
 
-   <div class="column"">
-    <img src="https://artopen.pl/images/2020/04/09/ceramika_1.png" width="100%">
+   <div class="column">
+   <a class="catalogimg" href="https://online.fliphtml5.com/njygn/lzyd/" target="_blank" >
+    <img src="/img/katalogi/ceramika.png" width="100%">
+   </a>
    </div>
 
 
@@ -93,8 +99,10 @@ meta_description: >-
      <br>
    </div>
 
-   <div class="column"">
-    <img src="https://artopen.pl/images/2020/04/09/elektronika_1.png" width="100%">
+   <div class="column">
+   <a class="catalogimg" href="https://online.fliphtml5.com/njygn/tbku/" target="_blank" >
+    <img src="/img/katalogi/elektronika.png" width="100%">
+   </a>
    </div>
 
 
@@ -116,8 +124,10 @@ meta_description: >-
      <br>
    </div>
 
-   <div class="column"">
-    <img src="https://artopen.pl/images/katalogi/tekstylia_1.jpg" width="100%">
+   <div class="column">
+   <a class="catalogimg" href="https://online.fliphtml5.com/njygn/tbku/" target="_blank" >
+    <img src="/img/katalogi/tekstylia.jpg" width="100%">
+   </a>
    </div>
 
 
@@ -139,8 +149,10 @@ meta_description: >-
      <br>
    </div>
 
-   <div class="column"">
-    <img src="https://artopen.pl/images/2020/09/08/rollupy_scianki_katalog.png" width="100%">
+   <div class="column">
+   <a class="catalogimg" href="https://online.fliphtml5.com/njygn/zxwy/" target="_blank" >
+    <img src="/img/katalogi/rollupy_scianki_katalog.png" width="100%">
+   </a>
    </div>
 
 
@@ -162,8 +174,10 @@ meta_description: >-
      <br>
    </div>
 
-   <div class="column"">
-    <img src="https://artopen.pl/images/2020/04/09/stoiska_1.png" width="100%">
+   <div class="column">
+   <a class="catalogimg" href="https://online.fliphtml5.com/njygn/oogv/" target="_blank" >
+    <img src="/img/katalogi/stoiska.png" width="100%">
+   </a>
    </div>
 
 
@@ -185,8 +199,10 @@ meta_description: >-
      <br>
    </div>
 
-   <div class="column"">
-    <img src="https://artopen.pl/images/2020/04/09/zestawy-pismiennicze_1.jpg" width="100%">
+   <div class="column">
+   <a class="catalogimg" href="https://online.fliphtml5.com/njygn/jyez/" target="_blank" >
+    <img src="/img/katalogi/zestawy-pismiennicze.png" width="100%">
+   </a>
    </div>
 
 
@@ -208,8 +224,10 @@ meta_description: >-
      <br>
    </div>
 
-   <div class="column"">
-    <img src="https://artopen.pl/images/2020/04/09/puchary_1.png" width="100%">
+   <div class="column">
+   <a class="catalogimg" href="https://online.fliphtml5.com/njygn/izga/" target="_blank" >
+    <img src="/img/katalogi/puchary.png" width="100%">
+   </a>
    </div>
 
 

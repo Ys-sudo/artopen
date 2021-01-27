@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import ContactCall from '../ContactCall'
 
 const links = ['https://online.fliphtml5.com/njygn/takv/','https://online.fliphtml5.com/ohnj/knuu','https://online.fliphtml5.com/njygn/pips/','https://online.fliphtml5.com/njygn/zxyl/','https://online.fliphtml5.com/njygn/uist'];
-const imgs = ['https://artopen.pl/images/2020/04/09/gadzety_1.png','https://artopen.pl/images/katalogi/gadzety2.png','https://artopen.pl/images/2020/04/09/gadzety_3.png','https://artopen.pl/images/2020/04/09/gadzety_4.png','https://artopen.pl/images/katalogi/gadzety_5.png'];
+const imgs = ['/img/katalogi/gadzety_1.png','/img/katalogi/gadzety_2.png','/img/katalogi/gadzety_3.png','/img/katalogi/gadzety_4.png','/img/katalogi/gadzety_5.png'];
 const titles = ['Gadżety reklamowe 1','Gadżety reklamowe 2','Gadżety reklamowe 3','Gadżety reklamowe 4','Gadżety reklamowe 5'];
 
 let i=0;

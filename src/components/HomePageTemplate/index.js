@@ -299,7 +299,7 @@ const HomePageTemplate = (props) => {
           <div className='container'>
           <h5 className='has-text-weight-semibold is-size-2' style={{textAlign:'center'}}>Zaufali nam:</h5>
           <br />
-          <AliceCarousel autoPlay items={items} autoPlayInterval="1500">
+          <AliceCarousel autoPlay infinite items={items} autoPlayInterval="3500">
 
           </AliceCarousel>
 
