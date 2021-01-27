@@ -412,10 +412,10 @@ let x3 = 0;
 var a =  setInterval( function(){
 
     if (document.getElementById('t1')!=null){
-        if (x<10){
+        if (x<12){
           x++;
           document.getElementById('t1').innerHTML = x;
-        } else if (x===10){
+        } else if (x===12){
           clearInterval(a);
         }
         }
@@ -437,14 +437,14 @@ var b =  setInterval( function(){
 var c =  setInterval( function(){
 
     if (document.getElementById('t3')!=null){
-        if (x2<500){
+        if (x2<5000){
           x2++;
           document.getElementById('t3').innerHTML = x2;
-        } else if (x2===500){
+        } else if (x2===5000){
           clearInterval(c);
         }
         }
-      }, 20);
+      }, 10);
 
 var d =  setInterval( function(){
 
