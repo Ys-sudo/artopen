@@ -235,7 +235,7 @@ const AboutPageTemplate = (props) => {
 
 
       <section id='wyroznia-nas'>
-        <div className='container' style={{paddingTop:'50px'}}>
+        <div className='container' style={{paddingTop:'100px'}}>
           <div className='columns'>
             <div className='column is-10 is-offset-1'>
 
