@@ -31,11 +31,12 @@ const HomePageTemplate = (props) => {
             <div className='columns'>
               <div className='column is-10 is-offset-1'>
                 <div className='section'>
-                  <h1 className='title' style={{fontSize:'50px'}}>
+                  <img src="/img/ArtOpen-white.svg" style={{marginLeft:'-25px'}} width="400px"/>
+                  <h1 className='title'>
                     {title}
                   </h1>
-                  <h2 className='subtitle' style={{}}>
-                    Multimedialne studio reklamy
+                  <h2 className='subtitle'>
+                    (słowa kluczowe)Ekologia, gadżety, projektowanie graficzne, programowanie i dużo, dużo więcej!
                   </h2>
                 </div>
               </div>
@@ -47,7 +48,7 @@ const HomePageTemplate = (props) => {
 
       <section className='hero is-primary is-bold'>
         <div className='hero-body'>
-          <div className='container'>
+          <div className='container' style={{marginLeft:'5%',marginRight:'5%'}}>
             <div className='columns' style={{textAlign:'center'}}>
               <div className='column'>
               <h3 style={{textAlign:'left'}}><strong style={{color:'white', fontSize:'20px'}}>Oferta produktów ochronnych</strong></h3>

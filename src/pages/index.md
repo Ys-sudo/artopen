@@ -1,6 +1,6 @@
 ---
 templateKey: 'home-page'
-title: Art Open
+title: Multimedialne Studio Reklamy - Art Open
 meta_title: Home | ArtOpen Studio Reklamy
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur

@@ -149,6 +149,15 @@ class Footer extends React.Component {
 
           <p className='submenu-item'>KRS: 0000 75 19 13</p>
 
+          <br />
+          <h5><b>Newsletter</b></h5>
+          <br />
+          <label className='submenu-item'> email: </label>
+          <input/>
+          <br />
+          <button> zapisz się </button>
+
+
 
 
         </div>
