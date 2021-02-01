@@ -1,6 +1,7 @@
 import React from 'react'
 import { Formik, Field } from 'formik'
 import { navigate } from 'gatsby-link'
+import FileUpload from '../../FileUpload'
 import validationSchema from './validationSchema'
 
 const encode = (data) => {
@@ -371,18 +372,8 @@ const ModalForm = () => {
                     <div className='column'>
                       <div className='control'>
                       <label className='label is-size-10'>Załącz pliki graficzne, tekstowe:</label>
-                      <input id="file" className='' name="plik" type="file" onChange={(event) => {
-                        let fileinput = document.getElementById('file');
-                        let file = fileinput.files[0];
-                        event.target.name = file;
-                        console.log(event.target.name);
-                        if (file !== undefined){
-                        console.log(file.size);
-                        }
-                      }}
-
+                      <Field id="file" className='' name="plik" component={FileUpload} type="file"
                       />
-
                       </div>
                     </div>
 
