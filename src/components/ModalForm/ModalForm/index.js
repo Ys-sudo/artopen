@@ -209,23 +209,25 @@ const ModalForm = () => {
           <label className='label'>Główny cel stworzenia strony:</label>
           <div className='control'>
 
-            <Field onChange={(event) => {
-              console.log(event.target.value);
-            if(event.target.value == 'sklep internetowy'){
-            document.getElementById('sklep').style.display = 'block';
-          } else {
-            document.getElementById('sklep').style.display = 'none';
-          }
+            <Field
+            className='button-green select-green' as='select'  name='cel' id='cel'
 
+            onInput={(event) => {
+            console.log(event.target.value);
+              if(event.target.value == 'sklep internetowy'){
+                document.getElementById('sklep').style.display = 'block';
+              } else {
+                document.getElementById('sklep').style.display = 'none';
+              }
             }}
-
-            className='button-green select-green' as='select' component='select'  name='cel' id='cel'>
+            >
             <option value="strona wizerunkowa">strona wizerunkowa</option>
             <option value="sklep internetowy">sklep internetowy</option>
             <option value="serwis informacyjny">serwis informacyjny</option>
             <option value="strona dedykowana">strona dedykowana</option>
             <option value="aplikacja webowa">aplikacja webowa</option>
             </Field>
+
           </div>
 
         </div>
