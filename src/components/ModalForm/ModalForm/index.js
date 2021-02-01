@@ -20,7 +20,7 @@ const ModalForm = () => {
           method: 'POST',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
           body: encode({
-            'form-name': 'kontakt',
+            'form-name': 'zamówienie',
             ...values,
           }),
         })
@@ -200,7 +200,9 @@ const ModalForm = () => {
         {/* Strony internetowe */}
 
         <div className='columns' id='Stronyinternetowe' style={{display:'none'}}>
-        <h5 className='subtitle' style={{color:'gray'}}> Strony internetowe: </h5>
+        <label name='strona internetowa' id='strona internetowa' className='subtitle' style={{color:'gray'}}> Strony internetowe: </label>
+        <br />
+        <br />
 
 
         <div className='field' style={{marginLeft:'15px',width:'45%'}}>
