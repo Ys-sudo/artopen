@@ -219,7 +219,7 @@ const ModalForm = () => {
 
             }}
 
-            className='button-green select-green' as="select"  name='cel' id='cel'>
+            className='button-green select-green' as='select' component='select'  name='cel' id='cel'>
             <option value="strona wizerunkowa">strona wizerunkowa</option>
             <option value="sklep internetowy">sklep internetowy</option>
             <option value="serwis informacyjny">serwis informacyjny</option>
