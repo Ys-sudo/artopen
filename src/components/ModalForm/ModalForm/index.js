@@ -156,6 +156,63 @@ const ModalForm = () => {
       <br />
 
       <div style={{marginLeft:'5%',marginRight:'5%',marginBottom:'200px'}}>
+
+      {/* COVID 19 */}
+
+      <div className='columns' id='COVID-19' style={{display:'none'}}>
+
+          <div className='field' style={{marginLeft:'15px',width:'45%',marginRight:'5%'}}>
+          <h5 className='subtitle' style={{color:'gray'}}> Covid-19 </h5>
+            <label className='label'>Maseczki:</label>
+            <div className='control'>
+              <Field className='input' type='number' placeholder='100' name='maski' id='maski' />
+            </div>
+            {touched.imię && errors.imię && <small className='has-text-danger'>{errors.imię}</small>}
+          </div>
+
+          <div className='field' style={{marginLeft:'15px',width:'45%'}}>
+            <label className='label'>Przyłbice:</label>
+            <div className='control'>
+              <Field className='input' type='number' placeholder='100' name='przyłbice' id='przylbice' />
+            </div>
+            {touched.email && errors.email && <small className='has-text-danger'>{errors.email}</small>}
+          </div>
+
+          <div className='field' style={{marginLeft:'15px',width:'45%'}}>
+            <label className='label'>Płyn do dezynfekcji:</label>
+            <div className='control'>
+              <Field className='input' type='number' placeholder='100' name='dezynfekcja' id='dezynfekcja' />
+            </div>
+            {touched.email && errors.email && <small className='has-text-danger'>{errors.email}</small>}
+          </div>
+
+          <hr />
+
+        </div>
+
+        {/* Strony internetowe */}
+
+        <div className='columns' id='Stronyinternetowe' style={{display:'none'}}>
+            <div className='field' style={{marginLeft:'15px',width:'45%',marginRight:'5%'}}>
+              <label className='label'>Maseczki:<sup>*</sup></label>
+              <div className='control'>
+                <Field className='input' type='text' placeholder='Imię' name='imię' id='imię' />
+              </div>
+              {touched.imię && errors.imię && <small className='has-text-danger'>{errors.imię}</small>}
+            </div>
+
+            <div className='field' style={{marginLeft:'15px',width:'45%'}}>
+              <label className='label'>Przyłbice:<sup>*</sup></label>
+              <div className='control'>
+                <Field className='input' type='email' placeholder='Email' name='email' id='email' />
+              </div>
+              {touched.email && errors.email && <small className='has-text-danger'>{errors.email}</small>}
+            </div>
+            <br />
+          </div>
+
+
+
       <div className='columns'>
           <div className='field' style={{marginLeft:'15px',width:'45%',marginRight:'5%'}}>
             <label className='label'>Imię:<sup>*</sup></label>
@@ -165,7 +222,7 @@ const ModalForm = () => {
             {touched.imię && errors.imię && <small className='has-text-danger'>{errors.imię}</small>}
           </div>
 
-          <div className='field' style={{marginLeft:'10px',width:'47%'}}>
+          <div className='field' style={{marginLeft:'15px',width:'45%'}}>
             <label className='label'>Email:<sup>*</sup></label>
             <div className='control'>
               <Field className='input' type='email' placeholder='Email' name='email' id='email' />
@@ -207,20 +264,32 @@ const ModalForm = () => {
 
 function selectOffer(event){
 
-if (event.target.style.backgroundColor == 'rgb(0, 209, 178)'){
-  if (event.target.firstChild !== null){
-    event.target.style.backgroundColor = 'white';
-    event.target.style.color = '#00d1b2';
-    event.target.firstChild.style.filter = 'brightness(1) invert(0)';
+  if (event.target.style.backgroundColor == 'rgb(0, 209, 178)'){
+    if (event.target.firstChild !== null){
+      event.target.style.backgroundColor = 'white';
+      event.target.style.color = '#00d1b2';
+      event.target.firstChild.style.filter = 'brightness(1) invert(0)';
+    }
+  } else {
+    if (event.target.firstChild !== null){
+    event.target.style.backgroundColor = '#00d1b2';
+    event.target.style.color = 'white';
+    event.target.firstChild.style.filter = 'brightness(0) invert(1)';
+    }
   }
-} else {
-  if (event.target.firstChild !== null){
-  event.target.style.backgroundColor = '#00d1b2';
-  event.target.style.color = 'white';
-  event.target.firstChild.style.filter = 'brightness(0) invert(1)';
-  }
-}
 
+  let name = event.target.innerText;
+  name =  name.replace(/\s/g, '');
+  console.log(name);
+
+  console.log(document.getElementById(name));
+  if (document.getElementById(name) !== null){
+    if (document.getElementById(name).style.display=='none'){
+      document.getElementById(name).style.display = 'block';
+    } else {
+      document.getElementById(name).style.display = 'none';
+    }
+  }
 
 }
 
