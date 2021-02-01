@@ -162,7 +162,7 @@ const ModalForm = () => {
       <div className='columns' id='COVID-19' style={{display:'none'}}>
 
           <div className='field' style={{marginLeft:'15px',width:'45%',marginRight:'5%'}}>
-          <input name='covid-19' id='covid-19' className='subtitle' placeholder='COVID-19:' disabled style={{color:'gray',fontFamily:'Poppins', backgroundColor:'white',border:'0px solid white',marginBottom:'-20px'}} /> 
+          <input name='covid-19' id='covid-19' className='subtitle' placeholder='COVID-19:' disabled style={{color:'gray',fontFamily:'Poppins', backgroundColor:'white',border:'0px solid white',marginBottom:'-20px'}} />
             <label className='label'>Maseczki:</label>
             <div className='control'>
               <Field className='input' type='number' placeholder='100' name='maski' id='maski' />
@@ -220,11 +220,11 @@ const ModalForm = () => {
             }}
 
             className='button-green select-green' as="select"  name='cel' id='cel'>
-            <option>strona wizerunkowa</option>
-            <option>sklep internetowy</option>
-            <option>serwis informacyjny</option>
-            <option>strona dedykowana</option>
-            <option>aplikacja webowa</option>
+            <option value="strona wizerunkowa">strona wizerunkowa</option>
+            <option value="sklep internetowy">sklep internetowy</option>
+            <option value="serwis informacyjny">serwis informacyjny</option>
+            <option value="strona dedykowana">strona dedykowana</option>
+            <option value="aplikacja webowa">aplikacja webowa</option>
             </Field>
           </div>
 
@@ -355,10 +355,10 @@ const ModalForm = () => {
                     <div className='column'>
                       <div className='control'>
                       <label className='label is-size-10'>Budżet:</label>
-                      <input style={{width:'100%'}} min='1500' placeholder='5000' max='15000' id="range" className='range' name="budżet" type="range"
+                      <Field style={{width:'100%'}} min='1500' placeholder='5000' max='15000' id="range" className='range' name="budżet" type="range"
                       onInput={(event) => {console.log(document.getElementById('range').value);
                       document.getElementById('rvalueid').innerText = document.getElementById('range').value + ' zł';
-                      }}
+                    }}
                       />
                       <output style={{color:'#00d1b2',textAlign:'center'}} name="rvalueid" id="rvalueid">5000 zł</output>
 
@@ -368,7 +368,7 @@ const ModalForm = () => {
                     <div className='column'>
                       <div className='control'>
                       <label className='label is-size-10'>Załącz pliki graficzne, tekstowe:</label>
-                      <input id="file" className='' name="plik" type="file" onChange={(event) => {
+                      <Field id="file" className='' name="plik" type="file" onChange={(event) => {
                         setFieldValue("file", event.currentTarget.files[0]);
                       }} />
 
