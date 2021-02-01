@@ -12,6 +12,7 @@ const encode = (data) => {
 const ModalForm = () => {
   return (
 
+
     <Formik
       initialValues={{ imię: '', email: '', telefon:'',  wiadomosc: '' }}
       validationSchema={validationSchema}
@@ -370,9 +371,17 @@ const ModalForm = () => {
                     <div className='column'>
                       <div className='control'>
                       <label className='label is-size-10'>Załącz pliki graficzne, tekstowe:</label>
-                      <Field id="file" className='' name="plik" type="file" onChange={(event) => {
-                        setFieldValue("file", event.currentTarget.files[0]);
-                      }} />
+                      <input id="file" className='' name="plik" type="file" onChange={(event) => {
+                        let fileinput = document.getElementById('file');
+                        let file = fileinput.files[0];
+                        event.target.name = file;
+                        console.log(event.target.name);
+                        if (file !== undefined){
+                        console.log(file.size);
+                        }
+                      }}
+
+                      />
 
                       </div>
                     </div>
