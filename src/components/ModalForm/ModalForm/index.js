@@ -13,7 +13,7 @@ const ModalForm = () => {
   return (
 
     <Formik
-      initialValues={{ maski: '', przylbice:'', dezynfekcja:'', imię: '', email: '', telefon:'',  wiadomosc: '' }}
+      initialValues={{ maski: '', przylbice:'', dezynfekcja:'', imięNazwisko: '', adresEmail: '', nrTelefonu:'',  wiadomoscZamowienie: '' }}
       validationSchema={validationSchema}
       onSubmit={(values, { setSubmitting }) => {
         fetch("/?no-cache=1", {                                 //eslint-disable-line
@@ -410,26 +410,26 @@ const ModalForm = () => {
           <div className='field' style={{marginLeft:'15px',width:'45%',marginRight:'5%'}}>
             <label className='label'>Imię:<sup>*</sup></label>
             <div className='control'>
-              <Field className='input' type='text' placeholder='Imię' name='imię i nazwisko' id='imię i nazwisko' />
+              <Field className='input' type='text' placeholder='Imię' name='imięNazwisko' id='imięNazwisko' />
             </div>
-            {touched.imię && errors.imię && <small className='has-text-danger'>{errors.imię}</small>}
+            {touched.imięNazwisko && errors.imięNazwisko && <small className='has-text-danger'>{errors.imięNazwisko}</small>}
           </div>
 
           <div className='field' style={{marginLeft:'15px',width:'46.5%'}}>
             <label className='label'>Email:<sup>*</sup></label>
             <div className='control'>
-              <Field className='input' type='email' placeholder='Email' name='adres email' id='adres email' />
+              <Field className='input' type='email' placeholder='Email' name='adresEmail' id='adresEmail' />
             </div>
-            {touched.email && errors.email && <small className='has-text-danger'>{errors.email}</small>}
+            {touched.adresEmail && errors.adresEmail && <small className='has-text-danger'>{errors.adresEmail}</small>}
           </div>
         </div>
 
         <div className='field'>
           <label className='label'>Telefon:<sup>*</sup></label>
           <div className='control'>
-            <Field className='input' type='tel' placeholder='Numer telefonu' name='nr. telefonu' id='nr.telefonu' />
+            <Field className='input' type='tel' placeholder='Numer telefonu' name='nrTelefonu' id='nrTelefonu' />
           </div>
-          {touched.telefon && errors.telefon && <small className='has-text-danger'>{errors.telefon}</small>}
+          {touched.nrTelefonu && errors.nrTelefonu && <small className='has-text-danger'>{errors.nrTelefonu}</small>}
         </div>
 
         <div className='field'>
@@ -437,7 +437,7 @@ const ModalForm = () => {
           <div className='control'>
             <Field className='textarea' component='textarea' placeholder='Wiadomość...' name='wiadomość-zamówienie' id='wiadomość-zamówienie' rows='6' />
           </div>
-          {touched.wiadomość && errors.wiadomość && <small className='has-text-danger'>{errors.wiadomość}</small>}
+          {touched.wiadomośćZamowienie && errors.wiadomośćZamowienie && <small className='has-text-danger'>{errors.wiadomośćZamowienie}</small>}
         </div>
 
         <div className='field is-grouped is-pulled-right'>

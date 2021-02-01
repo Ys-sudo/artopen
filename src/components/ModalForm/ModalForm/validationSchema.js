@@ -7,17 +7,17 @@ const validationSchema = Yup.object().shape({
   maski: Yup.string(),
   przylbice: Yup.string(),
   dezynfekcja: Yup.string(),
-  imię: Yup.string()
+  imięNazwisko: Yup.string()
     .min(2, 'Za krótkie')
     .max(50, 'Za długie')
     .required('Imię jest wymagane!'),
-  email: Yup.string()
+  adresEmail: Yup.string()
     .email('Wpisz prawidłowy email!')
     .required('Email jest wymagany!'),
-  telefon: Yup.string()
+  nrTelefonu: Yup.string()
     .matches(phoneRegExp, 'Numer telefonu jest nieprawidłowy!')
     .required('Numer telefonu jest wymagany!'),
-  wiadomość: Yup.string()
+  wiadomośćZamowienie: Yup.string()
     .required('Wiadomość jest wymagana!'),
 })
 
