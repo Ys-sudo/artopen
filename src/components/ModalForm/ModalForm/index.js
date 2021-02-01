@@ -162,7 +162,7 @@ const ModalForm = () => {
       <div className='columns' id='COVID-19' style={{display:'none'}}>
 
           <div className='field' style={{marginLeft:'15px',width:'45%',marginRight:'5%'}}>
-          <h5 className='subtitle' style={{color:'gray'}}> Covid-19 </h5>
+          <input name='covid-19' id='covid-19' className='subtitle' placeholder='COVID-19:' disabled style={{color:'gray',fontFamily:'Poppins', backgroundColor:'white',border:'0px solid white'}} /> 
             <label className='label'>Maseczki:</label>
             <div className='control'>
               <Field className='input' type='number' placeholder='100' name='maski' id='maski' />
@@ -200,7 +200,7 @@ const ModalForm = () => {
         {/* Strony internetowe */}
 
         <div className='columns' id='Stronyinternetowe' style={{display:'none'}}>
-        <label name='strona internetowa' id='strona internetowa' className='subtitle' style={{color:'gray'}}> Strony internetowe: </label>
+        <input name='strona internetowa' id='strona internetowa' className='subtitle' placeholder='Strony internetowe:' disabled style={{color:'gray',fontFamily:'Poppins', backgroundColor:'white',border:'0px solid white'}} />
         <br />
         <br />
 
