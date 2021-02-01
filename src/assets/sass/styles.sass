@@ -11,6 +11,10 @@ $primary-invert: #ffffff
 .sliderimg
   height: 80px
 
+.input:focus, .textarea:focus, .select select:focus, .is-focused.input, .is-focused.textarea, .select select.is-focused, .input:active, .textarea:active, .select select:active, .is-active.input, .is-active.textarea, .select select.is-active
+  border-color: #00d1b2 !important
+  box-shadow: 0 0 0 0.125em rgba(0, 209, 178,0.5) !important
+
 
 .alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active
   background-color: #00d1b2 !important
@@ -171,6 +175,13 @@ nav
 .select-green:hover
   background-image: url('/img/angle-down-white.svg')
   background-color: $primary
+
+.number
+  background-color: white !important
+.input-green
+  width: 220px
+.input-green:hover, .number:hover
+  background-color: $primary !important
 
 
 .button-green:hover > img

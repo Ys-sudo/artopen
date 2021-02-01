@@ -167,7 +167,7 @@ const ModalForm = () => {
             <div className='control'>
               <Field className='input' type='number' placeholder='100' name='maski' id='maski' />
             </div>
-            {touched.imię && errors.imię && <small className='has-text-danger'>{errors.imię}</small>}
+
           </div>
 
           <div className='field' style={{marginLeft:'15px',width:'45%'}}>
@@ -175,7 +175,7 @@ const ModalForm = () => {
             <div className='control'>
               <Field className='input' type='number' placeholder='100' name='przyłbice' id='przylbice' />
             </div>
-            {touched.email && errors.email && <small className='has-text-danger'>{errors.email}</small>}
+
           </div>
 
           <div className='field' style={{marginLeft:'15px',width:'45%'}}>
@@ -183,33 +183,225 @@ const ModalForm = () => {
             <div className='control'>
               <Field className='input' type='number' placeholder='100' name='dezynfekcja' id='dezynfekcja' />
             </div>
-            {touched.email && errors.email && <small className='has-text-danger'>{errors.email}</small>}
+
           </div>
 
           <hr />
 
         </div>
 
+
+
+
+
+
+
+
         {/* Strony internetowe */}
 
         <div className='columns' id='Stronyinternetowe' style={{display:'none'}}>
-            <div className='field' style={{marginLeft:'15px',width:'45%',marginRight:'5%'}}>
-              <label className='label'>Maseczki:<sup>*</sup></label>
-              <div className='control'>
-                <Field className='input' type='text' placeholder='Imię' name='imię' id='imię' />
-              </div>
-              {touched.imię && errors.imię && <small className='has-text-danger'>{errors.imię}</small>}
-            </div>
+        <h5 className='subtitle' style={{color:'gray'}}> Strony internetowe: </h5>
 
-            <div className='field' style={{marginLeft:'15px',width:'45%'}}>
-              <label className='label'>Przyłbice:<sup>*</sup></label>
-              <div className='control'>
-                <Field className='input' type='email' placeholder='Email' name='email' id='email' />
-              </div>
-              {touched.email && errors.email && <small className='has-text-danger'>{errors.email}</small>}
-            </div>
-            <br />
+
+        <div className='field' style={{marginLeft:'15px',width:'45%'}}>
+          <label className='label'>Główny cel stworzenia strony:</label>
+          <div className='control'>
+
+            <Field onChange={(event) => {
+              console.log(event.target.value);
+            if(event.target.value == 'sklep internetowy'){
+            document.getElementById('sklep').style.display = 'block';
+          } else {
+            document.getElementById('sklep').style.display = 'none';
+          }
+
+            }}
+
+            className='button-green select-green' as="select"  name='cel' id='cel'>
+            <option>strona wizerunkowa</option>
+            <option>sklep internetowy</option>
+            <option>serwis informacyjny</option>
+            <option>strona dedykowana</option>
+            <option>aplikacja webowa</option>
+            </Field>
           </div>
+
+        </div>
+
+        <div className='field' id='sklep' style={{display:'none',marginLeft:'15px',width:'95%',marginRight:'5%'}}>
+            <div className='control'>
+              <div className='columns'>
+                <div className='column'>
+                <label className='label is-size-10'>Ilość produktów:</label>
+                <Field className='input' type='number' placeholder='100' name='krótki opis' id='opis' />
+                </div>
+
+                <div className='column'>
+                <label className='label is-size-10'>Baza xml z produktami:</label>
+                <Field className='checkbox' type='checkbox'  name='struktura' id='struktura' />
+                </div>
+
+                <div className='column'>
+                <label className='label is-size-10'>Fotografie produktów:</label>
+                <Field className='checkbox' type='checkbox'  name='struktura' id='struktura' />
+                </div>
+
+                <div className='column'>
+                <label className='label is-size-10'>Opisy produktów:</label>
+                <Field className='checkbox' type='checkbox'  name='struktura' id='struktura' />
+                </div>
+
+              </div>
+            </div>
+        </div>
+
+
+
+        <div className='field' style={{marginLeft:'15px',width:'95%',marginRight:'5%'}}>
+            <div className='control'>
+              <div className='columns'>
+                <div className='column'>
+                <label className='label is-size-10'>Krótki opis strony:</label>
+                <Field className='textarea' component='textarea' rows='4' placeholder='Strona xyz.com ma prezentować nowe produkty naszej firmy...' type='text' name='krótki opis' id='opis' />
+                </div>
+
+                <div className='column'>
+                <label className='label is-size-10'>Podstrony i struktura:</label>
+                <Field className='textarea' component='textarea' rows='4' placeholder='home, o nas, oferta...' type='text' name='struktura' id='struktura' />
+                </div>
+
+              </div>
+            </div>
+        </div>
+
+            <br />
+
+        <div className='field' style={{marginLeft:'15px',width:'100%',marginRight:'5%'}}>
+            <h6> Dodatkowa specyfikacja: </h6>
+              <div className='control' style={{display:'flex',flexWrap:'wrap'}}>
+              <label className='label' style={{fontSize:'14px'}}>System zarządzania treścią (CMS)</label>
+                &nbsp;<Field className='checkbox' type='checkbox' name='CMS' id='CMS' />
+                &nbsp;&nbsp;
+                <label className='label' style={{fontSize:'14px'}}>Pozycjonowanie (SEO)</label>
+                  &nbsp;<Field className='checkbox' type='checkbox' name='SEO' id='SEO' />
+                  &nbsp;&nbsp;
+                  <label className='label' style={{fontSize:'14px'}}>Treści tekstowe</label>
+                    &nbsp;<Field className='checkbox' type='checkbox' name='teksty' id='teksty' />
+                    &nbsp;&nbsp;
+                    <label className='label' style={{fontSize:'14px'}}>Materiały graficzne</label>
+                      &nbsp;<Field className='checkbox' type='checkbox' name='grafika' id='grafika' />
+                      &nbsp;&nbsp;
+                      <label className='label' style={{fontSize:'14px'}}>Blog</label>
+                        &nbsp;<Field className='checkbox' type='checkbox' name='blog' id='blog' />
+                        &nbsp;&nbsp;
+                        <label className='label' style={{fontSize:'14px'}}>Tłumaczenia</label>
+                          &nbsp;<Field className='checkbox' type='checkbox' name='tłumaczenia' id='tłumaczenia' />
+                          &nbsp;&nbsp;
+                          <label className='label' style={{fontSize:'14px'}}>Serwer</label>
+                            &nbsp;<Field className='checkbox' type='checkbox' name='serwer' id='serwer' />
+                            &nbsp;&nbsp;
+                            <label className='label' style={{fontSize:'14px'}}>Domena</label>
+                              &nbsp;<Field className='checkbox' type='checkbox' name='domena' id='domena' />
+                              &nbsp;&nbsp;
+
+              </div>
+          </div>
+
+              <br />
+
+            <div className='field' style={{marginLeft:'15px',width:'95%',marginRight:'5%'}}>
+                <div className='control'>
+                  <div className='columns'>
+                    <div className='column'>
+                    <label className='label is-size-10'>Wersje językowe:</label>
+                    <Field className='number button-green input-green' placeholder='1' type='number' name='języki' id='języki' />
+                    </div>
+
+                    <div className='column'>
+                    <label className='label is-size-10'>Jakie języki:</label>
+                    <Field className='input' placeholder='angielski, niemiecki...' type='text' name='jakie języki' id='jakie języki' />
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+
+              <div className='field' style={{marginLeft:'15px',width:'95%',marginRight:'5%'}}>
+                  <div className='control'>
+                    <div className='columns'>
+
+                      <div className='column'>
+                      <label className='label is-size-10'>Informacje odnośnie identyfikacji graficznej firmy:</label>
+                      <Field className='textarea' component='textarea' rows='4' placeholder='Kolorystyka, opis, logo...' type='text' name='branding' id='branding' />
+                      </div>
+
+                      <div className='column'>
+                      <label className='label is-size-10'>Strony internetowe, które mogą być wzorem:</label>
+                      <Field className='textarea' component='textarea' rows='4' placeholder='https://netflix.com' type='text' name='wzorce' id='wzorce' />
+                      </div>
+
+                    </div>
+                  </div>
+                  </div>
+
+
+
+                  <div className='field' style={{marginLeft:'15px',width:'95%',marginRight:'5%'}}>
+
+                  <div className='columns'>
+                    <div className='column'>
+                      <div className='control'>
+                      <label className='label is-size-10'>Budżet:</label>
+                      <input style={{width:'100%'}} min='1500' placeholder='5000' max='15000' id="range" className='range' name="range" type="range"
+                      onInput={(event) => {console.log(document.getElementById('range').value);
+                      document.getElementById('rvalueid').innerText = document.getElementById('range').value + ' zł';
+                      }}
+                      />
+                      <output name="rvalueid" id="rvalueid">5000 zł</output>
+
+                      </div>
+                    </div>
+
+                    <div className='column'>
+                      <div className='control'>
+                      <label className='label is-size-10'>Załącz pliki graficzne, tekstowe:</label>
+                      <input id="file" className='' name="file" type="file" onChange={(event) => {
+                        setFieldValue("file", event.currentTarget.files[0]);
+                      }} />
+
+                      </div>
+                    </div>
+
+                    </div>
+                  </div>
+
+
+                  <div className='field' style={{marginLeft:'15px',width:'95%',marginRight:'5%',display:'flex'}}>
+                  <label className='label' style={{fontSize:'14px'}}>Opieka techniczna nad stroną</label>
+                    &nbsp;<Field className='checkbox' type='checkbox' name='domena' id='domena' />
+                    &nbsp;&nbsp;
+                    <label className='label' style={{fontSize:'14px'}}>Prowadzenie bloga</label>
+                      &nbsp;<Field className='checkbox' type='checkbox' name='domena' id='domena' />
+                      &nbsp;&nbsp;
+                      <label className='label' style={{fontSize:'14px'}}>Analiza statystyk</label>
+                        &nbsp;<Field className='checkbox' type='checkbox' name='domena' id='domena' />
+
+                  </div>
+
+                  <div className='field' style={{marginLeft:'15px',width:'95%',marginRight:'5%'}}>
+                  <label className='label' style={{fontSize:'14px'}}>Termin realizacji:</label>
+                    <Field className='date' type='date' name='domena' id='domena' />
+                  </div>
+
+
+                  <hr />
+                  <br />
+
+              </div>
+
+
+
 
 
 
@@ -222,7 +414,7 @@ const ModalForm = () => {
             {touched.imię && errors.imię && <small className='has-text-danger'>{errors.imię}</small>}
           </div>
 
-          <div className='field' style={{marginLeft:'15px',width:'45%'}}>
+          <div className='field' style={{marginLeft:'15px',width:'46.5%'}}>
             <label className='label'>Email:<sup>*</sup></label>
             <div className='control'>
               <Field className='input' type='email' placeholder='Email' name='email' id='email' />
