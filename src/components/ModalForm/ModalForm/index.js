@@ -233,22 +233,22 @@ const ModalForm = () => {
               <div className='columns'>
                 <div className='column'>
                 <label className='label is-size-10'>Ilość produktów:</label>
-                <Field className='input' type='number' placeholder='100' name='krótki opis' id='opis' />
+                <Field className='input' type='number' placeholder='100' name='ilość produktów' id='ilość produktów' />
                 </div>
 
-                <div className='column'>
-                <label className='label is-size-10'>Baza xml z produktami:</label>
-                <Field className='checkbox' type='checkbox'  name='struktura' id='struktura' />
+                <div className='column' style={{display:'flex'}}>
+                <label className='label' style={{fontSize:'14px'}}>Baza xml z produktami:</label>&nbsp;&nbsp;
+                <Field className='checkbox' type='checkbox'  name='baza xml' id='baza xml' />
                 </div>
 
-                <div className='column'>
-                <label className='label is-size-10'>Fotografie produktów:</label>
-                <Field className='checkbox' type='checkbox'  name='struktura' id='struktura' />
+                <div className='column' style={{display:'flex'}}>
+                <label className='label' style={{fontSize:'14px'}}>Fotografie produktów:</label>&nbsp;&nbsp;
+                <Field className='checkbox' type='checkbox'  name='fotografie produktów' id='fotografie produktów' />
                 </div>
 
-                <div className='column'>
-                <label className='label is-size-10'>Opisy produktów:</label>
-                <Field className='checkbox' type='checkbox'  name='struktura' id='struktura' />
+                <div className='column' style={{display:'flex'}}>
+                <label className='label' style={{fontSize:'14px'}}>Opisy produktów:</label>&nbsp;&nbsp;
+                <Field className='checkbox' type='checkbox'  name='opisy produktów' id='opisy produktów' />
                 </div>
 
               </div>
@@ -314,7 +314,7 @@ const ModalForm = () => {
                   <div className='columns'>
                     <div className='column'>
                     <label className='label is-size-10'>Wersje językowe:</label>
-                    <Field className='number button-green input-green' placeholder='1' type='number' name='języki' id='języki' />
+                    <Field style={{width:'50%'}} className='input' placeholder='1' type='number' name='języki' id='języki' />
                     </div>
 
                     <div className='column'>
@@ -353,12 +353,12 @@ const ModalForm = () => {
                     <div className='column'>
                       <div className='control'>
                       <label className='label is-size-10'>Budżet:</label>
-                      <input style={{width:'100%'}} min='1500' placeholder='5000' max='15000' id="range" className='range' name="range" type="range"
+                      <input style={{width:'100%'}} min='1500' placeholder='5000' max='15000' id="range" className='range' name="budżet" type="range"
                       onInput={(event) => {console.log(document.getElementById('range').value);
                       document.getElementById('rvalueid').innerText = document.getElementById('range').value + ' zł';
                       }}
                       />
-                      <output name="rvalueid" id="rvalueid">5000 zł</output>
+                      <output style={{color:'#00d1b2',textAlign:'center'}} name="rvalueid" id="rvalueid">5000 zł</output>
 
                       </div>
                     </div>
@@ -366,7 +366,7 @@ const ModalForm = () => {
                     <div className='column'>
                       <div className='control'>
                       <label className='label is-size-10'>Załącz pliki graficzne, tekstowe:</label>
-                      <input id="file" className='' name="file" type="file" onChange={(event) => {
+                      <input id="file" className='' name="plik" type="file" onChange={(event) => {
                         setFieldValue("file", event.currentTarget.files[0]);
                       }} />
 
@@ -379,24 +379,23 @@ const ModalForm = () => {
 
                   <div className='field' style={{marginLeft:'15px',width:'95%',marginRight:'5%',display:'flex'}}>
                   <label className='label' style={{fontSize:'14px'}}>Opieka techniczna nad stroną</label>
-                    &nbsp;<Field className='checkbox' type='checkbox' name='domena' id='domena' />
+                    &nbsp;<Field className='checkbox' type='checkbox' name='opieka techniczna' id='opieka techniczna' />
                     &nbsp;&nbsp;
                     <label className='label' style={{fontSize:'14px'}}>Prowadzenie bloga</label>
-                      &nbsp;<Field className='checkbox' type='checkbox' name='domena' id='domena' />
+                      &nbsp;<Field className='checkbox' type='checkbox' name='prowadzenie bloga' id='prowadzenie bloga' />
                       &nbsp;&nbsp;
                       <label className='label' style={{fontSize:'14px'}}>Analiza statystyk</label>
-                        &nbsp;<Field className='checkbox' type='checkbox' name='domena' id='domena' />
+                        &nbsp;<Field className='checkbox' type='checkbox' name='analiza statysyk' id='analiza' />
 
                   </div>
 
                   <div className='field' style={{marginLeft:'15px',width:'95%',marginRight:'5%'}}>
-                  <label className='label' style={{fontSize:'14px'}}>Termin realizacji:</label>
-                    <Field className='date' type='date' name='domena' id='domena' />
+                  <label className='label'>Termin realizacji:</label>
+                    <Field className='button-green date' type='date' name='deadline' id='deadline' />
                   </div>
 
 
                   <hr />
-                  <br />
 
               </div>
 
