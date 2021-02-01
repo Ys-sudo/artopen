@@ -4,6 +4,9 @@ import * as Yup from 'yup'
 const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/
 
 const validationSchema = Yup.object().shape({
+  maski: Yup.number(),
+  przylbice: Yup.number(),
+  dezynfekcja: Yup.number(),
   imię: Yup.string()
     .min(2, 'Za krótkie')
     .max(50, 'Za długie')

@@ -12,7 +12,7 @@ const encode = (data) => {
 const ContactForm = () => {
   return (
     <Formik
-      initialValues={{ imię: '', email: '', telefon:'',  wiadomosc: '', acceptTerms: false }}
+      initialValues={{ imię: '', email: '', telefon:'',  wiadomość: '', acceptTerms: false }}
       validationSchema={validationSchema}
       onSubmit={(values, { setSubmitting }) => {
         fetch("/?no-cache=1", {                                 //eslint-disable-line
