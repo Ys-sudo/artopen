@@ -30,6 +30,7 @@ const NavBar = () => {
     console.log('enter modal');
     document.getElementById('modal').style.display = 'block';
     document.getElementById('modal').style.transition = 'opacity 0.5s';
+    
     setTimeout(function(){document.getElementById('modal').style.opacity = '1';
 
     if (document.getElementsByClassName('featured-post')[0] !== undefined){
@@ -254,11 +255,11 @@ const NavBar = () => {
 
           </div>
           <div id='modal'
-          style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'white',zIndex:'20000'}}>
+          style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'white',zIndex:'20000',overflow:'scroll'}}>
             <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'5%'}}>
 
                 <a className='button-green' style={{fontSize:'30px'}} onMouseOver={modalDestroy} >&nbsp;x&nbsp;</a>
-
+                <ModalForm />
 
             </div>
 

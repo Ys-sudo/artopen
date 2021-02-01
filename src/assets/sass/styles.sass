@@ -5,7 +5,6 @@ $primary-invert: #ffffff
 @import "~bulma"
 
 
-
 .alice-carousel__stage
   text-align: center
 
@@ -84,7 +83,7 @@ body,
 #gatsby-focus-wrapper,
 #layout-wrapper
   height: 100%
-  font-family: 'Poppins',sans-serif !important
+  font-family: Poppins ,sans-serif !important
 
 #layout-wrapper
   width: 100%
@@ -95,7 +94,7 @@ body,
   flex: 1
 
 nav
-  font-family: 'Poppins',sans-serif !important
+  font-family: Poppins ,sans-serif !important
 
 .navbar-item
   font-size: 13px
@@ -139,6 +138,7 @@ nav
 
 .submenu-item:hover
   color: #00d1b2
+
 
 
 .button-green, .button-green-no-zoom
@@ -472,7 +472,7 @@ nav
   .select-green
     margin-bottom: 30px
 
-@media screen and (min-width: 1440px)
+@media screen and (min-width: 1500px)
   .navbar-end
     margin-left: 20% !important
 
@@ -492,6 +492,29 @@ nav
   margin-right: 10%
   margin-top: 2%
 
+.ofnav1
+  width: 17%
+  box-shadow: rgba(23, 19, 43, 0.1) -5px 5px 10px
+  transition-duration: 1.5s
+  margin: 1%
+  color: $primary
+  font-size: 12px
+  font-weight: bold
+  margin-bottom: 10px
+  border: 1px solid $primary
+  border-radius: 10px
+  padding: 10px
+  text-align: center
+
+.ofnav1:hover
+  background-color: $primary
+  margin-top: -3px !important
+  padding-top: 13px
+  transition-duration: 1s
+  color: white
+.ofnav1:hover > img
+ filter: brightness(0) invert(1)
+ transform: scale(1.5)
 .offer
   width: 17%
   box-shadow: rgba(23, 19, 43, 0.1) -5px 5px 10px
@@ -530,6 +553,10 @@ nav
     margin-bottom: 50px
 
 +mobile
+  .ofnav1
+    width: 30%
+    height: 70px
+    font-size: 10px
   .submenu-item
     padding: 16px
   .offer
