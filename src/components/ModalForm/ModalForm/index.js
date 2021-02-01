@@ -13,7 +13,7 @@ const ModalForm = () => {
   return (
 
     <Formik
-      initialValues={{ maski: '', przylbice:'', dezynfekcja:'', imięNazwisko: '', adresEmail: '', nrTelefonu:'',  wiadomoscZamowienie: '' }}
+      initialValues={{ imię: '', email: '', telefon:'',  wiadomosc: '' }}
       validationSchema={validationSchema}
       onSubmit={(values, { setSubmitting }) => {
         fetch("/?no-cache=1", {                                 //eslint-disable-line
@@ -162,7 +162,7 @@ const ModalForm = () => {
       <div className='columns' id='COVID-19' style={{display:'none'}}>
 
           <div className='field' style={{marginLeft:'15px',width:'45%',marginRight:'5%'}}>
-          <input name='covid-19' id='covid-19' className='subtitle' placeholder='COVID-19:' disabled style={{color:'gray',fontFamily:'Poppins', backgroundColor:'white',border:'0px solid white'}} />
+          <input name='covid-19' id='covid-19' className='subtitle' placeholder='COVID-19:' disabled style={{color:'gray',fontFamily:'Poppins', backgroundColor:'white',border:'0px solid white',marginBottom:'-20px'}} /> 
             <label className='label'>Maseczki:</label>
             <div className='control'>
               <Field className='input' type='number' placeholder='100' name='maski' id='maski' />
@@ -410,34 +410,34 @@ const ModalForm = () => {
           <div className='field' style={{marginLeft:'15px',width:'45%',marginRight:'5%'}}>
             <label className='label'>Imię:<sup>*</sup></label>
             <div className='control'>
-              <Field className='input' type='text' placeholder='Imię' name='imięNazwisko' id='imięNazwisko' />
+              <Field className='input' type='text' placeholder='Imię' name='imię' id='imię' />
             </div>
-            {touched.imięNazwisko && errors.imięNazwisko && <small className='has-text-danger'>{errors.imięNazwisko}</small>}
+            {touched.imię && errors.imię && <small className='has-text-danger'>{errors.imię}</small>}
           </div>
 
           <div className='field' style={{marginLeft:'15px',width:'46.5%'}}>
             <label className='label'>Email:<sup>*</sup></label>
             <div className='control'>
-              <Field className='input' type='email' placeholder='Email' name='adresEmail' id='adresEmail' />
+              <Field className='input' type='email' placeholder='Email' name='email' id='email' />
             </div>
-            {touched.adresEmail && errors.adresEmail && <small className='has-text-danger'>{errors.adresEmail}</small>}
+            {touched.email && errors.email && <small className='has-text-danger'>{errors.email}</small>}
           </div>
         </div>
 
         <div className='field'>
           <label className='label'>Telefon:<sup>*</sup></label>
           <div className='control'>
-            <Field className='input' type='tel' placeholder='Numer telefonu' name='nrTelefonu' id='nrTelefonu' />
+            <Field className='input' type='tel' placeholder='Numer telefonu' name='telefon' id='telefon' />
           </div>
-          {touched.nrTelefonu && errors.nrTelefonu && <small className='has-text-danger'>{errors.nrTelefonu}</small>}
+          {touched.telefon && errors.telefon && <small className='has-text-danger'>{errors.telefon}</small>}
         </div>
 
         <div className='field'>
           <label className='label'>Wiadomość:<sup>*</sup></label>
           <div className='control'>
-            <Field className='textarea' component='textarea' placeholder='Wiadomość...' name='wiadomość-zamówienie' id='wiadomość-zamówienie' rows='6' />
+            <Field className='textarea' component='textarea' placeholder='Wiadomość...' name='wiadomość' id='wiadomość' rows='6' />
           </div>
-          {touched.wiadomośćZamowienie && errors.wiadomośćZamowienie && <small className='has-text-danger'>{errors.wiadomośćZamowienie}</small>}
+          {touched.wiadomość && errors.wiadomość && <small className='has-text-danger'>{errors.wiadomość}</small>}
         </div>
 
         <div className='field is-grouped is-pulled-right'>
