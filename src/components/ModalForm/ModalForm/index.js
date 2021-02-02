@@ -16,6 +16,26 @@ function encode(data) {
 
 }
 
+{/* funkcje do podglądu obrazu.
+function hideimg(){
+  const imgTag = document.getElementById("myimage");
+  imgTag.src = ' ';
+}
+
+const handleInput = (e) => {
+  const file  =  e.currentTarget.files[0];
+  const reader = new FileReader();
+  const imgTag = document.getElementById("myimage");
+  if (file.name !== undefined){
+  imgTag.title = file.name;
+  reader.onload = function(event) {
+    imgTag.src = event.target.result;
+  };
+  reader.readAsDataURL(file);
+}
+};
+*/}
+
 class ModalForm extends React.Component {
   constructor(props) {
     super(props)
@@ -36,7 +56,7 @@ class ModalForm extends React.Component {
     let fileinput = document.getElementById('fileinput');
     let file = fileinput.files[0];
 
-    if (file.size<300000){
+    if (file.size< 1048576){
     e.preventDefault()
     const form = e.target
     fetch('/', {
@@ -49,7 +69,7 @@ class ModalForm extends React.Component {
       .then(() => navigate('/kontakt/sukces'))
       .catch(error => alert(error))
   } else {
-    alert('Plik jest zbyt duży. Maksymalna wielkość to 300kb, spróbuj ponownie z mniejszym plikiem');
+    alert('Plik jest zbyt duży. Maksymalna wielkość to 1MB, spróbuj ponownie z mniejszym plikiem');
 
   }
 }
@@ -61,17 +81,58 @@ class ModalForm extends React.Component {
       <form
         name="Zamówienie"
         method="post"
-        action="/ModalForm/ModalForm"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={this.handleSubmit}
         style={{marginRight:'10%', marginLeft:'10%',marginBottom:'100px'}}
       >
 
+      {/* COVID 19 */}
+
+      <div  id='COVID-19' style={{display:'none'}}>
+      <input name='covid-19' id='covid-19' className='subtitle' placeholder='COVID-19:' disabled style={{color:'gray',fontFamily:'Poppins', backgroundColor:'white',border:'0px solid white',marginBottom:'20px'}} />
+
+      <div className='columns'>
+          <div className='field column' >
+
+            <label className='label'>Maseczki:</label>
+            <div className='control'>
+              <input onChange={this.handleChange} className='input' type='number' placeholder='100' name='maski' id='maski' />
+            </div>
+
+          </div>
+
+          <div className='field column' >
+            <label className='label'>Przyłbice:</label>
+            <div className='control'>
+              <input onChange={this.handleChange} className='input' type='number' placeholder='100' name='przyłbice' id='przylbice' />
+            </div>
+
+          </div>
+
+          <div className='field column' >
+            <label className='label'>Płyn do dezynfekcji:</label>
+            <div className='control'>
+              <input onChange={this.handleChange} className='input' type='number' placeholder='100' name='dezynfekcja' id='dezynfekcja' />
+            </div>
+
+          </div>
+        </div>
+          <hr />
+
+        </div>
+
+
+
+
+
+
+
+
       {/* Strony internetowe */}
 
       <div className='columns' id='Stronyinternetowe' style={{display:'none'}}>
-      <input name='strona internetowa' id='strona internetowa' onChange={this.handleChange} className='subtitle' placeholder='Strony internetowe:' disabled style={{color:'gray',fontFamily:'Poppins', backgroundColor:'white',border:'0px solid white'}} />
+      <input name='strona internetowa' id='strona internetowa' className='subtitle' placeholder='Strony internetowe:' disabled style={{color:'gray',fontFamily:'Poppins', backgroundColor:'white',border:'0px solid white'}} />
 
       <div className='field' style={{marginLeft:'15px',width:'45%'}}>
         <label className='label'>Główny cel stworzenia strony:</label>
@@ -213,18 +274,50 @@ class ModalForm extends React.Component {
 
                     <div className='column'>
                     <label className='label is-size-10'>Informacje odnośnie identyfikacji graficznej firmy:</label>
-                    <input className='textarea' onChange={this.handleChange} component='textarea' rows='4' placeholder='Kolorystyka, opis, logo...' type='text' name='branding' id='branding' />
+                    <textarea className='textarea' onChange={this.handleChange} component='textarea' rows='4' placeholder='Kolorystyka, opis, logo...' type='text' name='branding' id='branding' ></textarea>
                     </div>
 
                     <div className='column'>
                     <label className='label is-size-10'>Strony internetowe, które mogą być wzorem:</label>
-                    <input className='textarea' onChange={this.handleChange} component='textarea' rows='4' placeholder='https://netflix.com' type='text' name='wzorce' id='wzorce' />
+                    <textarea className='textarea' onChange={this.handleChange} component='textarea' rows='4' placeholder='https://netflix.com' type='text' name='wzorce' id='wzorce' ></textarea>
                     </div>
 
                   </div>
                 </div>
                 </div>
 
+
+
+                <br />
+
+
+                <div className='field' style={{marginLeft:'15px',width:'95%',marginRight:'5%',display:'flex'}}>
+
+                <div className='field' style={{width:'30%',marginRight:'5%'}}>
+                <label className='label'>Termin realizacji:</label>
+                  <input className='button-green date' type='date' name='deadline' id='deadline'
+                  onChange={this.handleChange}
+                   />
+                </div>
+
+                <label className='label' style={{fontSize:'14px'}}>Opieka techniczna nad stroną</label>
+                  &nbsp;<input
+                  onChange={this.handleChange}
+                   className='checkbox' type='checkbox' name='opieka techniczna' id='opieka techniczna' />
+                  &nbsp;&nbsp;
+                  <label className='label' style={{fontSize:'14px'}}>Prowadzenie bloga</label>
+                    &nbsp;<input
+                    onChange={this.handleChange}
+                     className='checkbox' type='checkbox' name='prowadzenie bloga' id='prowadzenie bloga' />
+                    &nbsp;&nbsp;
+                    <label className='label' style={{fontSize:'14px'}}>Analiza statystyk</label>
+                      &nbsp;<input
+                      onChange={this.handleChange}
+                       className='checkbox' type='checkbox' name='analiza statysyk' id='analiza' />
+
+
+
+                </div>
 
 
                 <div className='field' style={{marginLeft:'15px',width:'95%',marginRight:'5%'}}>
@@ -245,7 +338,7 @@ class ModalForm extends React.Component {
 
                   <div className='column'>
                     <div className='control'>
-                    <label className='label is-size-10'>Załącz pliki graficzne, tekstowe:</label>
+                    <label className='label is-size-10'>Załącz plik:</label>
                     {/*message*/}
 
 
@@ -256,46 +349,29 @@ class ModalForm extends React.Component {
                             type="file"
                             name="attachment"
                             onChange={this.handleAttachment}
+                            onInput ={(o) => handleInput(o)}
                             style={{height:'50px'}}
                             id ="fileinput"
                           />
                         </label>
 
-                        <sub align="center" style={{position:'absolute',backgroundColor:'#111111',color:'white',padding:'2px',marginLeft:'300px',fontSize:'12px'}}> Maksymalna wielkość<br></br> pliku to <b>300kb</b>. </sub>
+                        <sub align="center" style={{position:'absolute',backgroundColor:'#111111',color:'white',padding:'2px',marginLeft:'300px',fontSize:'12px'}}> Maksymalna wielkość<br></br> pliku to <b>1MB</b>. </sub>
+                        <br />
+
                       </div>
+
 
                     <br></br>
                     </div>
-                  </div>
 
                   </div>
+
+                  </div>
                 </div>
+                <br />
 
+              {/* Podgląd obrazu wrazie w.  <img onMouseOver={hideimg} style={{backgroundColor:'black',padding:'15px',postion:'fixed',top:'10px',right:'10px',maxWidth:'150px'}} src={''} alt="" id={'myimage'}/> */}
 
-                <div className='field' style={{marginLeft:'15px',width:'95%',marginRight:'5%',display:'flex'}}>
-                <label className='label' style={{fontSize:'14px'}}>Opieka techniczna nad stroną</label>
-                  &nbsp;<input
-                  onChange={this.handleChange}
-                   className='checkbox' type='checkbox' name='opieka techniczna' id='opieka techniczna' />
-                  &nbsp;&nbsp;
-                  <label className='label' style={{fontSize:'14px'}}>Prowadzenie bloga</label>
-                    &nbsp;<input
-                    onChange={this.handleChange}
-                     className='checkbox' type='checkbox' name='prowadzenie bloga' id='prowadzenie bloga' />
-                    &nbsp;&nbsp;
-                    <label className='label' style={{fontSize:'14px'}}>Analiza statystyk</label>
-                      &nbsp;<input
-                      onChange={this.handleChange}
-                       className='checkbox' type='checkbox' name='analiza statysyk' id='analiza' />
-
-                </div>
-
-                <div className='field' style={{marginLeft:'15px',width:'95%',marginRight:'5%'}}>
-                <label className='label'>Termin realizacji:</label>
-                  <input className='button-green date' type='date' name='deadline' id='deadline'
-                  onChange={this.handleChange}
-                   />
-                </div>
 
 
                 <hr />
