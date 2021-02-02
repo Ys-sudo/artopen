@@ -50,6 +50,11 @@ class ModalForm extends React.Component {
     this.setState({ [e.target.name]: e.target.files[0] })
   }
 
+  resetRange = (e) => {
+  document.getElementById('range').value = 8250;
+  document.getElementById('rvalueid').innerText = document.getElementById('range').value + ' zł';
+  }
+
   handleSubmit = e => {
 
 
@@ -84,7 +89,7 @@ class ModalForm extends React.Component {
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={this.handleSubmit}
-        style={{marginRight:'10%', marginLeft:'10%',marginBottom:'100px'}}
+        style={{marginRight:'5%', marginLeft:'5%',marginBottom:'100px'}}
       >
 
       {/* COVID 19 */}
@@ -494,7 +499,7 @@ class ModalForm extends React.Component {
 
           <div className="field" style={{textAlign:'right'}}>
 
-          <button className="button" type="reset" >
+          <button className="button"  type="reset" onClick={this.resetRange} >
             Wyczyść
           </button>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
