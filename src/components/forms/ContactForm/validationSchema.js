@@ -12,8 +12,7 @@ const validationSchema = Yup.object().shape({
     .email('Wpisz prawidłowy email!')
     .required('Email jest wymagany!'),
   telefon: Yup.string()
-    .matches(phoneRegExp, 'Numer telefonu jest nieprawidłowy!')
-    .required('Numer telefonu jest wymagany!'),
+    .matches(phoneRegExp, 'Numer telefonu jest nieprawidłowy!'),
   wiadomość: Yup.string()
     .required('Wiadomość jest wymagana!'),
   acceptTerms: Yup.bool()

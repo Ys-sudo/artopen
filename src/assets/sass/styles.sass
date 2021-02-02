@@ -5,6 +5,82 @@ $primary-invert: #ffffff
 @import "~bulma"
 
 
+.main
+  display: block
+  position: relative
+  padding-left: 35px
+  margin-bottom: 15px
+  cursor: pointer
+
+
+/* Hiding the initial checkbox */
+input[type=checkbox]
+  visibility: hidden
+
+/* Creating a custom checkbox based on demand */
+.check
+  position: absolute
+  top: 0
+  left: 0
+  height: 22px
+  width: 22px
+  background-color: #111111
+
+/* Specify the background color to be shown when hovering over checkbox */
+.main:hover input ~ .check
+  background-color: gray
+
+/* Specify the background color to be shown when checkbox is active */
+.main input:active ~ .check
+  background-color: white
+
+/* Specify the background color to be shown when checkbox is checked */
+.main input:checked ~ .check
+  background-color: #00d1b2
+
+/* Checkmark to be shown in checkbox */
+/* It is not be shown when not checked */
+.check:after
+  content: ""
+  position: absolute
+  display: none
+
+/* Display checkmark when checked */
+.main input:checked ~ .check:after
+  display: block
+
+/* Styling the checkmark using webkit */
+
+.main .check:after
+  left: 8px
+  bottom: 5px
+  width: 6px
+  height: 12px
+  border: solid white
+  border-width: 0 4px 4px 0
+  -webkit-transform: rotate(45deg)
+  -ms-transform: rotate(45deg)
+  transform: rotate(45deg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 input[type=range]
   height: 25px
   -webkit-appearance: none

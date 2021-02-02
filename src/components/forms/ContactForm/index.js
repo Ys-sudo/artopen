@@ -65,7 +65,7 @@ const ContactForm = () => {
         </div>
 
         <div className='field'>
-          <label className='label'>Telefon:<sup>*</sup></label>
+          <label className='label'>Telefon:</label>
           <div className='control'>
             <Field className='input' type='tel' placeholder='Numer telefonu' name='telefon' id='telefon' />
           </div>
@@ -81,8 +81,8 @@ const ContactForm = () => {
         </div>
 
         <div className="form-group form-check">
-             <Field type="checkbox" name="acceptTerms" className={'form-check-input ' + (errors.acceptTerms && touched.acceptTerms ? ' is-invalid' : '')} />
-             <label htmlFor="acceptTerms" className="form-check-label">&nbsp; Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z naszą <a target='_blank' className='link-green' href='/polityka-prywatnosci/'>polityką prywatności</a><sup>*</sup>.</label>
+
+             <label htmlFor="acceptTerms" style={{fontSize:'12px'}} className="main"> <Field type="checkbox" id="acceptTerms" name="acceptTerms" className={'form-check-input ' + (errors.acceptTerms && touched.acceptTerms ? ' is-invalid' : '')} />&nbsp; Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z naszą <a target='_blank' className='link-green' href='/polityka-prywatnosci/'>polityką prywatności</a><sup>*</sup>.<span className="check"></span></label>
              <br />
              {touched.acceptTerms && errors.acceptTerms && <small className='has-text-danger'>{errors.acceptTerms}</small>}
          </div>
