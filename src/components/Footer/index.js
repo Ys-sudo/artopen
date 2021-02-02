@@ -152,10 +152,8 @@ class Footer extends React.Component {
           <br />
           <h5><b>Newsletter</b></h5>
           <br />
-          <label className='submenu-item'> email: </label>
-          <input/>
-          <br />
-          <button> zapisz się </button>
+
+          <a onClick={newsEnter} className='button-green'> zapisz się </a>
 
 
 
@@ -199,6 +197,14 @@ class Footer extends React.Component {
 }
 }
 
+const newsEnter = () => {
+  let i = 0;
+  console.log('enter modal');
+  document.getElementById('newsletter').style.display = 'block';
+  document.getElementById('newsletter').style.transition = 'opacity 0.5s';
+
+  setTimeout(function(){document.getElementById('newsletter').style.opacity = '1';},500);
+}
 
 Footer.propTypes = {
   data: PropTypes.shape({

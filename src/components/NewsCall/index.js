@@ -1,15 +1,12 @@
 import React from 'react'
 
-const modalEnter = () => {
+const newsEnter = () => {
   let i = 0;
   console.log('enter modal');
-  document.getElementById('modal').style.display = 'block';
-  document.getElementById('modal').style.transition = 'opacity 0.5s';
-  setTimeout(function(){document.getElementById('modal').style.opacity = '1';
+  document.getElementById('newsletter').style.display = 'block';
+  document.getElementById('newsletter').style.transition = 'opacity 0.5s';
 
-  
-
-  },500);
+  setTimeout(function(){document.getElementById('newsletter').style.opacity = '1';},500);
 }
 
 
@@ -18,7 +15,7 @@ const NewsCall = () => {
   return (
 
 
-      <div className='NewsCall' onClick={modalEnter} style={{width:'100%', textAlign:'center',
+      <div className='NewsCall' onClick={newsEnter} style={{width:'100%', textAlign:'center',
       backgroundImage: 'linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e6eb 100%)'}}>
         <div className='columns section'>
           <div className='column' >

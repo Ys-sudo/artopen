@@ -372,7 +372,7 @@ const ModalForm = () => {
                     <div className='column'>
                       <div className='control'>
                       <label className='label is-size-10'>Załącz pliki graficzne, tekstowe:</label>
-                      <Field  name="plik" component={FileUpload} 
+                      <Field id='plik'  name="plik" component={FileUpload} 
                       />
                       </div>
                     </div>

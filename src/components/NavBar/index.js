@@ -30,20 +30,8 @@ const NavBar = () => {
     console.log('enter modal');
     document.getElementById('modal').style.display = 'block';
     document.getElementById('modal').style.transition = 'opacity 0.5s';
-    
-    setTimeout(function(){document.getElementById('modal').style.opacity = '1';
 
-    if (document.getElementsByClassName('featured-post')[0] !== undefined){
-      document.getElementsByClassName('featured-post')[0].style.display = 'none';
-
-      }
-    if (document.getElementsByClassName('blogpostroll') !== undefined){
-      for (i=0; i<document.getElementsByClassName('blogpostroll').length;i++){
-        document.getElementsByClassName('blogpostroll')[i].style.display = 'none';
-      }
-    }
-
-    },500);
+    setTimeout(function(){document.getElementById('modal').style.opacity = '1';},500);
   }
   const modalDestroy = () => {
     let i = 0;
@@ -52,20 +40,18 @@ const NavBar = () => {
     document.getElementById('modal').style.transition = 'opacity 1s';
     document.getElementById('modal').style.opacity = '0';
     setTimeout(function(){document.getElementById('modal').style.display = 'none';
-
-      if (document.getElementsByClassName('featured-post')[0] !== undefined){
-        document.getElementsByClassName('featured-post')[0].style.display = 'block';
-
-      }
-
-      if (document.getElementsByClassName('blogpostroll') !== undefined){
-        for (i=0; i<document.getElementsByClassName('blogpostroll').length;i++){
-          document.getElementsByClassName('blogpostroll')[i].style.display = 'block';
-        }
-      }
+    },500);
+  }
 
 
+  
+  const newsDestroy = () => {
+    let i = 0;
+    console.log('destroy modal');
 
+    document.getElementById('newsletter').style.transition = 'opacity 1s';
+    document.getElementById('newsletter').style.opacity = '0';
+    setTimeout(function(){document.getElementById('newsletter').style.display = 'none';
     },500);
   }
 
@@ -84,7 +70,7 @@ const NavBar = () => {
             }
         `}
       render={data => (
-        <nav className='navbar is-fixed-top' onMouseLeave={hideSubMenu} aria-label='main navigation'>
+        <nav className='navbar is-fixed-top' id='bignav' onMouseLeave={hideSubMenu} aria-label='main navigation'>
           <div className='navbar-brand'>
             <a href='/' className='navbar-item' style={{marginLeft:'10px'}}>
               <img width="100px" style={{transform:'scale(1.3)'}} src='/img/ArtOpen.svg' alt="ArtOpen multimedialna agencja reklamowa" />
@@ -263,7 +249,18 @@ const NavBar = () => {
 
             </div>
 
+
+
           </div>
+          <div id='newsletter'
+          style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'white',zIndex:'20000',overflow:'scroll'}}>
+            <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'5%'}}>
+
+                <a className='button-green' style={{fontSize:'30px'}} onMouseOver={newsDestroy} >&nbsp;x&nbsp;</a>
+
+
+            </div>
+            </div>
         </nav>
 
       )}
@@ -271,5 +268,10 @@ const NavBar = () => {
   )
 
 }
+
+
+
+
+
 
 export default NavBar
