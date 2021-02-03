@@ -253,13 +253,42 @@ const NavBar = () => {
 
           </div>
           <div id='newsletter'
-          style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'rgba(255,255,255,0.5)',zIndex:'20000',overflow:'scroll'}}>
-            <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'5%'}}>
+          style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'rgba(255,255,255,0.9)',zIndex:'20000',overflow:'scroll'}}>
+            <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'8%'}}>
 
-                <a className='button-green' style={{fontSize:'30px'}} onMouseOver={newsDestroy} >&nbsp;x&nbsp;</a>
 
-                <iframe id="fm-fc-f-9yag51wt7d" src="https://forms.freshmail.io/f/9b0p2ylbcz/9yag51wt7d/index.html" frameborder="0" marginheight="0" marginwidth="0" width="100%" style={{minHeight: '416px'}}></iframe>
 
+                <form style={{marginLeft:'auto',marginRight:'auto',minHeight:'450px',maxWidth:'600px',backgroundColor:'#00d1b2',borderRadius:'25px',padding:'10px',paddingTop:'30px'}}>
+                <a className='button-white' style={{fontSize:'20px'}} onMouseOver={newsDestroy} >&nbsp;x&nbsp;</a>
+                <div style={{textAlign:'center',marginLeft:'20px',marginRight:'20px'}}>
+                <br />
+                <br />
+                <h5 className='title'>Zapisz się na <b>newsletter</b>! </h5>
+
+                <input className='field input' type='text' placeholder='Twój adres email'>
+                </input>
+
+                <label style={{fontSize: '12px',color:'white'}} className='main'  htmlFor="zgoda">   <input required={true} type="checkbox" id="zgoda" name="zgoda" defaultChecked="true" value="none"/>Wyrażam zgodę na otrzymywanie drogą elektroniczną na wskazany przeze mnie adres email informacji handlowej w rozumieniu art. 10 ust. 1 ustawy z dnia 18 lipca 2002 roku o świadczeniu usług drogą elektroniczną od Art Open Sp. z o.o.
+                <sup>*</sup>.<span className="check"></span></label>
+                <button onClick={newsDestroy} className="button is-primary" style={{backgroundColor:'#333333',paddingLeft:'35px',paddingRight:'35px',color:'white',fontSize:'20px',borderRadius:'15px'}} type="submit" >
+                <b>Zapisz mnie!</b>
+                </button>
+
+                </div>
+                <div style={{textAlign:'center'}}>
+                <br />
+
+                <img width="150px" src='/img/ArtOpen-white.svg' alt="ArtOpen studio reklamy" />
+                <br />
+                <a className='' href="/polityka-prywatnosci/">Polityka prywatności</a>
+                <br />
+                <br />
+                </div>
+                </form>
+                <div>
+
+
+                </div>
 
             </div>
             </div>
