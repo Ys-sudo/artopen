@@ -150,8 +150,10 @@ class ModalForm extends React.Component {
           console.log(event.target.value);
             if(event.target.value == 'sklep internetowy'){
               document.getElementById('sklep').style.display = 'block';
+              document.getElementById('sklep1').style.display = 'block';
             } else {
               document.getElementById('sklep').style.display = 'none';
+              document.getElementById('sklep1').style.display = 'none';
             }
           }}
           >
@@ -166,39 +168,6 @@ class ModalForm extends React.Component {
 
       </div>
       <br />
-      <div className='field' id='sklep' style={{display:'none',marginLeft:'15px'}}>
-          <div className='control'>
-            <div className='columns'>
-              <div className='column'>
-              <label className='label is-size-10'>Ilość produktów:</label>
-              <input className='input' onChange={this.handleChange} type='number' placeholder='100' name='ilość produktów' id='ilość produktów' />
-
-              </div>
-
-              <div className='column' style={{display:'flex'}}>
-              <label htmlFor="baza xml" className='label main' style={{fontSize:'14px'}}>Baza xml z produktami:&nbsp;&nbsp;
-              <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='baza xml' id='baza xml' />
-              <span className="check"></span>
-              </label>
-              </div>
-
-              <div className='column' style={{display:'flex'}}>
-              <label htmlFor="fotografie produktów" className='label main' style={{fontSize:'14px'}}>Fotografie produktów:&nbsp;&nbsp;
-              <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='fotografie produktów' id='fotografie produktów' />
-              <span className="check"></span>
-              </label>
-              </div>
-
-              <div className='column' style={{display:'flex'}}>
-              <label className='label main'htmlFor="opisy produktów" style={{fontSize:'14px'}}>Opisy produktów:
-              <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='opisy produktów' id='opisy produktów' />
-              <span className="check"></span>
-              </label>&nbsp;&nbsp;
-              </div>
-
-            </div>
-          </div>
-      </div>
 
 
 
@@ -221,59 +190,164 @@ class ModalForm extends React.Component {
 
           <br />
 
-      <div className='field' style={{marginLeft:'15px'}}>
+      <div className='field columns' style={{marginLeft:'15px'}}>
+          <div className='column'>
+
           <h6> Dodatkowa specyfikacja: </h6>
-            <div className='control' style={{display:'flex',flexWrap:'wrap'}}>
-            <label htmlFor="CMS" className='label main' style={{fontSize:'14px'}}>System zarządzania treścią (CMS)
-              &nbsp;<input className='checkbox' type='checkbox' name='CMS' id='CMS'
+          <br />
+          <div id='sklep1' style={{display:'none'}}>
+          <label className='label is-size-10'>Ilość produktów:</label>
+          <input className='input' onChange={this.handleChange} type='number' placeholder='100' name='ilość produktów' id='ilość produktów' />
+          <br /><br />
+          </div>
+
+
+          <label className='label'>Termin realizacji:</label>
+            <input className='button-green date' type='date' name='deadline' id='deadline'
+            onChange={this.handleChange}
+             />
+
+
+
+
+
+
+          </div>
+
+          <div className='field' id='sklep' style={{display:'none',marginLeft:'3%'}}>
+              <div className='control'>
+
+
+                  <div className='column'  style={{display:'',marginLeft:'3%'}}>
+
+
+
+
+                  <label htmlFor="baza xml" className='label main' style={{fontSize:'14px'}}>Baza XML
+                  <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='baza xml' id='baza xml' />
+                  <span className="check"></span>
+                  </label>
+
+
+
+                  <label htmlFor="fotografie produktów" className='label main' style={{fontSize:'14px'}}>Zdjęcia<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='fotografie produktów' id='fotografie produktów' />
+                  <span className="check"></span>
+                  </label>
+
+
+
+                  <label className='label main' htmlFor="opisy produktów" style={{fontSize:'14px'}}>Opisy<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='opisy produktów' id='opisy produktów' />
+                  <span className="check"></span>
+                  </label>
+
+                  <label className='label main' htmlFor="integracje api" style={{fontSize:'14px'}}>Integracje<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='integracje api' id='integracje api' />
+                  <span className="check"></span>
+                  </label>
+
+                  </div>
+                </div>
+
+          </div>
+
+
+          <br />
+            <div className='control column' style={{display:'block',marginLeft:'3%',flexWrap:'wrap'}}>
+
+            <label htmlFor="CMS" className='label main' style={{fontSize:'14px'}}>System CMS
+              <input className='checkbox' type='checkbox' name='CMS' id='CMS'
+              onChange={this.handleChange} />
+
+              <span className="check"></span>
+              </label>
+              <label htmlFor="SEO" className='label main' style={{fontSize:'14px'}}>SEO
+              <input className='checkbox' type='checkbox' name='SEO' id='SEO'
+                onChange={this.handleChange}/>
+
+                <span className="check"></span>
+                </label>
+                <label htmlFor="teksty" className='label main' style={{fontSize:'14px'}}>Treści tekstowe
+                  <input className='checkbox' type='checkbox' name='teksty' id='teksty'
+                  onChange={this.handleChange}/>
+
+                  <span className="check"></span>
+                  </label>
+                  <label htmlFor="grafika" className='label main' style={{fontSize:'14px'}}>Materiały graficzne
+                    <input className='checkbox' type='checkbox' name='grafika' id='grafika'
+                    onChange={this.handleChange} />
+                    <span className="check"></span>
+                    </label>
+
+
+            </div>
+
+
+          <div className='control column' style={{display:'block',marginLeft:'3%',flexWrap:'wrap'}}>
+            <label htmlFor="blog" className='label main' style={{fontSize:'14px'}}>Blog
+              &nbsp;<input className='checkbox' type='checkbox' name='blog' id='blog'
               onChange={this.handleChange} />
               &nbsp;&nbsp;
               <span className="check"></span>
               </label>
-              <label htmlFor="SEO" className='label main' style={{fontSize:'14px'}}>Pozycjonowanie (SEO)
-                &nbsp;<input className='checkbox' type='checkbox' name='SEO' id='SEO'
-                onChange={this.handleChange}/>
+              <label htmlFor="tłumaczenia" className='label main' style={{fontSize:'14px'}}>Tłumaczenia
+                &nbsp;<input className='checkbox' type='checkbox' name='tłumaczenia' id='tłumaczenia'
+                onChange={this.handleChange} />
                 &nbsp;&nbsp;
                 <span className="check"></span>
                 </label>
-                <label htmlFor="teksty" className='label main' style={{fontSize:'14px'}}>Treści tekstowe
-                  &nbsp;<input className='checkbox' type='checkbox' name='teksty' id='teksty'
-                  onChange={this.handleChange}/>
+                <label htmlFor="serwer" className='label main' style={{fontSize:'14px'}}>Serwer
+                  &nbsp;<input className='checkbox' type='checkbox' name='serwer' id='serwer'
+                  onChange={this.handleChange} />
                   &nbsp;&nbsp;
                   <span className="check"></span>
                   </label>
-                  <label htmlFor="grafika" className='label main' style={{fontSize:'14px'}}>Materiały graficzne
-                    &nbsp;<input className='checkbox' type='checkbox' name='grafika' id='grafika'
+                  <label htmlFor="domena" className='label main' style={{fontSize:'14px'}}>Domena
+                    &nbsp;<input className='checkbox' type='checkbox' name='domena' id='domena'
                     onChange={this.handleChange} />
                     &nbsp;&nbsp;
                     <span className="check"></span>
                     </label>
-                    <label htmlFor="blog" className='label main' style={{fontSize:'14px'}}>Blog
-                      &nbsp;<input className='checkbox' type='checkbox' name='blog' id='blog'
-                      onChange={this.handleChange} />
-                      &nbsp;&nbsp;
-                      <span className="check"></span>
-                      </label>
-                      <label htmlFor="tłumaczenia" className='label main' style={{fontSize:'14px'}}>Tłumaczenia
-                        &nbsp;<input className='checkbox' type='checkbox' name='tłumaczenia' id='tłumaczenia'
-                        onChange={this.handleChange} />
-                        &nbsp;&nbsp;
+
+            </div>
+
+
+            <div className='control column' style={{display:'block',marginLeft:'3%',flexWrap:'wrap'}}>
+
+              <label htmlFor="opieka techniczna" className='label main' style={{fontSize:'14px'}}>Wsparcie techniczne
+                <input
+                onChange={this.handleChange}
+                 className='checkbox' type='checkbox' name='opieka techniczna' id='opieka techniczna' />
+                 <span className="check"></span>
+                 </label>
+
+                <label htmlFor="prowadzenie bloga" className='label main' style={{fontSize:'14px'}}>Prowadzenie bloga
+                  &nbsp;<input
+                  onChange={this.handleChange}
+                   className='checkbox' type='checkbox' name='prowadzenie bloga' id='prowadzenie bloga' />
+                   <span className="check"></span>
+                  &nbsp;&nbsp;
+                  </label>
+                  <label htmlFor="analiza" className='label main' style={{fontSize:'14px'}}>Analiza statystyk
+                    &nbsp;<input
+                    onChange={this.handleChange}
+                     className='checkbox' type='checkbox' name='analiza statysyk' id='analiza' />
+                     <span className="check"></span>
+                     </label>
+                     <label htmlFor="newsletter" className='label main' style={{fontSize:'14px'}}>Newsletter
+                       &nbsp;<input
+                       onChange={this.handleChange}
+                        className='checkbox' type='checkbox' name='newsletter' id='newsletter' />
                         <span className="check"></span>
                         </label>
-                        <label htmlFor="serwer" className='label main' style={{fontSize:'14px'}}>Serwer
-                          &nbsp;<input className='checkbox' type='checkbox' name='serwer' id='serwer'
-                          onChange={this.handleChange} />
-                          &nbsp;&nbsp;
-                          <span className="check"></span>
-                          </label>
-                          <label htmlFor="domena" className='label main' style={{fontSize:'14px'}}>Domena
-                            &nbsp;<input className='checkbox' type='checkbox' name='domena' id='domena'
-                            onChange={this.handleChange} />
-                            &nbsp;&nbsp;
-                            <span className="check"></span>
-                            </label>
+
+
             </div>
+
+
+
+
         </div>
+
+
 
             <br />
 
@@ -318,38 +392,7 @@ class ModalForm extends React.Component {
                 <br />
 
 
-                <div className='field' style={{marginLeft:'15px',display:'flex'}}>
 
-                <div className='field' style={{width:'30%',marginRight:'5%'}}>
-                <label className='label'>Termin realizacji:</label>
-                  <input className='button-green date' type='date' name='deadline' id='deadline'
-                  onChange={this.handleChange}
-                   />
-                </div>
-
-                <label htmlFor="opieka techniczna" className='label main' style={{fontSize:'14px'}}>Opieka techniczna nad stroną
-                  &nbsp;<input
-                  onChange={this.handleChange}
-                   className='checkbox' type='checkbox' name='opieka techniczna' id='opieka techniczna' />
-                   <span className="check"></span>
-                   </label>
-                  &nbsp;&nbsp;
-                  <label htmlFor="prowadzenie bloga" className='label main' style={{fontSize:'14px'}}>Prowadzenie bloga
-                    &nbsp;<input
-                    onChange={this.handleChange}
-                     className='checkbox' type='checkbox' name='prowadzenie bloga' id='prowadzenie bloga' />
-                     <span className="check"></span>
-                    &nbsp;&nbsp;
-                    </label>
-                    <label htmlFor="analiza" className='label main' style={{fontSize:'14px'}}>Analiza statystyk
-                      &nbsp;<input
-                      onChange={this.handleChange}
-                       className='checkbox' type='checkbox' name='analiza statysyk' id='analiza' />
-                       <span className="check"></span>
-                       </label>
-
-
-                </div>
 
 
                 <div className='field' style={{marginLeft:'15px'}}>
