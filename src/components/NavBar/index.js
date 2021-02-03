@@ -44,7 +44,7 @@ const NavBar = () => {
   }
 
 
-  
+
   const newsDestroy = () => {
     let i = 0;
     console.log('destroy modal');
@@ -253,10 +253,12 @@ const NavBar = () => {
 
           </div>
           <div id='newsletter'
-          style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'white',zIndex:'20000',overflow:'scroll'}}>
+          style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'rgba(255,255,255,0.5)',zIndex:'20000',overflow:'scroll'}}>
             <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'5%'}}>
 
                 <a className='button-green' style={{fontSize:'30px'}} onMouseOver={newsDestroy} >&nbsp;x&nbsp;</a>
+
+                <iframe id="fm-fc-f-9yag51wt7d" src="https://forms.freshmail.io/f/9b0p2ylbcz/9yag51wt7d/index.html" frameborder="0" marginheight="0" marginwidth="0" width="100%" style={{minHeight: '416px'}}></iframe>
 
 
             </div>
@@ -268,7 +270,6 @@ const NavBar = () => {
   )
 
 }
-
 
 
 

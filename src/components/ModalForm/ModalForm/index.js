@@ -218,7 +218,7 @@ class ModalForm extends React.Component {
               <div className='control'>
 
 
-                  <div className='column'  style={{display:'',marginLeft:'3%'}}>
+                  <div className='column'  style={{display:'block',width:'100%',marginLeft:'3%'}}>
 
 
 
@@ -332,10 +332,10 @@ class ModalForm extends React.Component {
                      className='checkbox' type='checkbox' name='analiza statysyk' id='analiza' />
                      <span className="check"></span>
                      </label>
-                     <label htmlFor="newsletter" className='label main' style={{fontSize:'14px'}}>Newsletter
+                     <label htmlFor="newsletters" className='label main' style={{fontSize:'14px'}}>Newsletter
                        &nbsp;<input
                        onChange={this.handleChange}
-                        className='checkbox' type='checkbox' name='newsletter' id='newsletter' />
+                        className='checkbox' type='checkbox' name='newsletter' id='newsletters' />
                         <span className="check"></span>
                         </label>
 
