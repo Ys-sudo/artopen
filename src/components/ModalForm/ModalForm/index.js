@@ -97,7 +97,7 @@ class ModalForm extends React.Component {
         method="post"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        onSubmit={this.handleSubmit, this.disableEmptyInputs}
+        onSubmit={disableEmptyInputs, this.handleSubmit}
         style={{marginRight:'5%', marginLeft:'5%',marginBottom:'100px'}}
       >
 
