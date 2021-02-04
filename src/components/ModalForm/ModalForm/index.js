@@ -35,6 +35,14 @@ const handleInput = (e) => {
 }
 };
 */}
+function disableEmptyInputs(form) {
+  let controls = form.elements;
+  let iLen = controls.length
+  for (var i=0, i<iLen; i++) {
+    controls[i].disabled = controls[i].value == '';
+  }
+}
+
 
 class ModalForm extends React.Component {
   constructor(props) {
@@ -85,10 +93,11 @@ class ModalForm extends React.Component {
 
       <form
         name="Zamówienie"
+        id = "zamowienie"
         method="post"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        onSubmit={this.handleSubmit}
+        onSubmit={this.handleSubmit, this.disableEmptyInputs}
         style={{marginRight:'5%', marginLeft:'5%',marginBottom:'100px'}}
       >
 
@@ -538,7 +547,6 @@ class ModalForm extends React.Component {
                 name={'numer telefonu'}
                 onChange={this.handleChange}
                 id={'nrtel'}
-                required={true}
               />
             </div>
           </div>
