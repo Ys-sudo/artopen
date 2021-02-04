@@ -71,25 +71,38 @@ class ModalForm extends React.Component {
     let file = fileinput.files[0];
     disableEmptyInputs();
     console.log('test');
-    if (file !== undefined) {
-      if (file.size< 1048576){
-      e.preventDefault()
-      const form = e.target;
+    if (file !== undefined){
+        if (file.size < 1048576){
+        e.preventDefault()
+        const form = e.target;
 
-      fetch('/', {
-        method: 'POST',
-        body: encode({
-          'form-name': form.getAttribute('name'),
-          ...this.state,
-        }),
-      })
-        .then(() => navigate('/kontakt/sukces/'))
-        .catch(error => alert(error))
+        fetch('/', {
+          method: 'POST',
+          body: encode({
+            'form-name': form.getAttribute('name'),
+            ...this.state,
+          }),
+        })
+          .then(() => navigate('/kontakt/sukces'))
+          .catch(error => alert(error))
+      } else {
+        alert('Plik jest zbyt duży. Maksymalna wielkość to 1MB, spróbuj ponownie z mniejszym plikiem');
+        }
     } else {
-      alert('Plik jest zbyt duży. Maksymalna wielkość to 1MB, spróbuj ponownie z mniejszym plikiem');
+    e.preventDefault()
+    const form = e.target;
 
-    }
+    fetch('/', {
+      method: 'POST',
+      body: encode({
+        'form-name': form.getAttribute('name'),
+        ...this.state,
+      }),
+    })
+      .then(() => navigate('/kontakt/sukces'))
+      .catch(error => alert(error))
   }
+
 }
   render() {
     return (
