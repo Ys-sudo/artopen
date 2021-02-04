@@ -38,7 +38,7 @@ const handleInput = (e) => {
 function disableEmptyInputs(form) {
   let controls = form.elements;
   let iLen = controls.length
-  for (var i=0, i<iLen; i++) {
+  for (var i=0; i<iLen; i++) {
     controls[i].disabled = controls[i].value == '';
   }
 }
