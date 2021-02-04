@@ -35,7 +35,8 @@ const handleInput = (e) => {
 }
 };
 */}
-function disableEmptyInputs(form) {
+function disableEmptyInputs() {
+  let form = document.getElementById('zamowienie');
   let controls = form.elements;
   let iLen = controls.length
   for (var i=0; i<iLen; i++) {
@@ -68,22 +69,26 @@ class ModalForm extends React.Component {
 
     let fileinput = document.getElementById('fileinput');
     let file = fileinput.files[0];
+    disableEmptyInputs();
+    console.log('test');
+    if (file !== undefined) {
+      if (file.size< 1048576){
+      e.preventDefault()
+      const form = e.target;
 
-    if (file.size< 1048576){
-    e.preventDefault()
-    const form = e.target
-    fetch('/', {
-      method: 'POST',
-      body: encode({
-        'form-name': form.getAttribute('name'),
-        ...this.state,
-      }),
-    })
-      .then(() => navigate('/kontakt/sukces'))
-      .catch(error => alert(error))
-  } else {
-    alert('Plik jest zbyt duży. Maksymalna wielkość to 1MB, spróbuj ponownie z mniejszym plikiem');
+      fetch('/', {
+        method: 'POST',
+        body: encode({
+          'form-name': form.getAttribute('name'),
+          ...this.state,
+        }),
+      })
+        .then(() => navigate('/kontakt/sukces/'))
+        .catch(error => alert(error))
+    } else {
+      alert('Plik jest zbyt duży. Maksymalna wielkość to 1MB, spróbuj ponownie z mniejszym plikiem');
 
+    }
   }
 }
   render() {
@@ -97,7 +102,7 @@ class ModalForm extends React.Component {
         method="post"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
-        onSubmit={disableEmptyInputs, this.handleSubmit}
+        onSubmit={this.handleSubmit}
         style={{marginRight:'5%', marginLeft:'5%',marginBottom:'100px'}}
       >
 
@@ -604,9 +609,10 @@ class ModalForm extends React.Component {
 }
 function showFileSize() {
 let fileinput = document.getElementById('fileinput');
+
 let file = fileinput.files[0];
 
-if (file !== undefined){
+if (file != undefined){
 console.log(file.size);
 }
 
