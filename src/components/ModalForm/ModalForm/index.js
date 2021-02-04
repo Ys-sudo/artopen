@@ -1,6 +1,5 @@
 import React from 'react'
 import OffNav from '../OffNav'
-//import validationSchema from './validationSchema'
 import { navigate } from 'gatsby-link'
 
 
@@ -310,27 +309,23 @@ class ModalForm extends React.Component {
 
           <div className='control column' style={{display:'block',marginLeft:'3%',flexWrap:'wrap'}}>
             <label htmlFor="blog" className='label main' style={{fontSize:'14px'}}>Blog
-              &nbsp;<input className='checkbox' type='checkbox' name='blog' id='blog'
+              <input className='checkbox' type='checkbox' name='blog' id='blog'
               onChange={this.handleChange} />
-              &nbsp;&nbsp;
               <span className="check"></span>
               </label>
               <label htmlFor="tłumaczenia" className='label main' style={{fontSize:'14px'}}>Tłumaczenia
-                &nbsp;<input className='checkbox' type='checkbox' name='tłumaczenia' id='tłumaczenia'
+                <input className='checkbox' type='checkbox' name='tłumaczenia' id='tłumaczenia'
                 onChange={this.handleChange} />
-                &nbsp;&nbsp;
                 <span className="check"></span>
                 </label>
                 <label htmlFor="serwer" className='label main' style={{fontSize:'14px'}}>Serwer
-                  &nbsp;<input className='checkbox' type='checkbox' name='serwer' id='serwer'
+                  <input className='checkbox' type='checkbox' name='serwer' id='serwer'
                   onChange={this.handleChange} />
-                  &nbsp;&nbsp;
                   <span className="check"></span>
                   </label>
                   <label htmlFor="domena" className='label main' style={{fontSize:'14px'}}>Domena
-                    &nbsp;<input className='checkbox' type='checkbox' name='domena' id='domena'
+                    <input className='checkbox' type='checkbox' name='domena' id='domena'
                     onChange={this.handleChange} />
-                    &nbsp;&nbsp;
                     <span className="check"></span>
                     </label>
 
@@ -347,20 +342,19 @@ class ModalForm extends React.Component {
                  </label>
 
                 <label htmlFor="prowadzenie bloga" className='label main' style={{fontSize:'14px'}}>Prowadzenie bloga
-                  &nbsp;<input
+                  <input
                   onChange={this.handleChange}
                    className='checkbox' type='checkbox' name='prowadzenie bloga' id='prowadzenie bloga' />
                    <span className="check"></span>
-                  &nbsp;&nbsp;
                   </label>
                   <label htmlFor="analiza" className='label main' style={{fontSize:'14px'}}>Analiza statystyk
-                    &nbsp;<input
+                    <input
                     onChange={this.handleChange}
                      className='checkbox' type='checkbox' name='analiza statysyk' id='analiza' />
                      <span className="check"></span>
                      </label>
                      <label htmlFor="newsletters" className='label main' style={{fontSize:'14px'}}>Newsletter
-                       &nbsp;<input
+                       <input
                        onChange={this.handleChange}
                         className='checkbox' type='checkbox' name='newsletter' id='newsletters' />
                         <span className="check"></span>
@@ -590,7 +584,7 @@ class ModalForm extends React.Component {
 
           <div className="control">
 
-          <label style={{fontSize: '12px'}} className='main'  htmlFor="privacy">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacy" name="privacy" defaultChecked="true" value="none"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label><br></br><br></br>
+          <label style={{fontSize: '12px'}} className='main'  htmlFor="privacy">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacy" name="privacy" defaultChecked="true" value="true"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label><br></br><br></br>
 
           </div>
 
@@ -625,7 +619,7 @@ let fileinput = document.getElementById('fileinput');
 
 let file = fileinput.files[0];
 
-if (file != undefined){
+if (file !== undefined){
 console.log(file.size);
 }
 

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import SearchBox from '../SearchBox'
 import { ModalForm } from '../../components/ModalForm'
+import {NewsletterForm} from '../../components/NewsletterForm'
 
 const NavBar = () => {
   const [active, setActive] = useState(false)
@@ -40,18 +41,6 @@ const NavBar = () => {
     document.getElementById('modal').style.transition = 'opacity 1s';
     document.getElementById('modal').style.opacity = '0';
     setTimeout(function(){document.getElementById('modal').style.display = 'none';
-    },500);
-  }
-
-
-
-  const newsDestroy = () => {
-    let i = 0;
-    console.log('destroy modal');
-
-    document.getElementById('newsletter').style.transition = 'opacity 1s';
-    document.getElementById('newsletter').style.opacity = '0';
-    setTimeout(function(){document.getElementById('newsletter').style.display = 'none';
     },500);
   }
 
@@ -208,7 +197,7 @@ const NavBar = () => {
               </div>
 
             </div>
-            <div className='navbar-item' style={{marginLeft:'-25px',marginRight:'-25px'}}>
+            <div className='navbar-item search' style={{marginLeft:'-25px'}}>
             <SearchBox searchIndex={data.siteSearchIndex.index} />
 
 
@@ -257,39 +246,8 @@ const NavBar = () => {
             <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'8%'}}>
 
 
+            <NewsletterForm />
 
-                <form style={{marginLeft:'auto',marginRight:'auto',minHeight:'450px',maxWidth:'600px',backgroundColor:'#00d1b2',borderRadius:'25px',padding:'10px',paddingTop:'30px'}}>
-                <a className='button-white' style={{fontSize:'20px'}} onMouseOver={newsDestroy} >&nbsp;x&nbsp;</a>
-                <div style={{textAlign:'center',marginLeft:'20px',marginRight:'20px'}}>
-                <br />
-                <br />
-                <h5 className='title'>Zapisz się na <b style={{color:'white'}}>newsletter</b>! </h5>
-                <sub className='subtitle'> Nowości, promocje i oferty specjalne.</sub>
-                <br /><br />
-                <input className='field input' required={true} type='email' placeholder='Twój adres email'>
-                </input>
-
-                <label style={{fontSize: '12px',color:'white'}} className='main'  htmlFor="zgoda">   <input required={true} type="checkbox" id="zgoda" name="zgoda" defaultChecked="true" value="none"/>Wyrażam zgodę na otrzymywanie drogą elektroniczną na wskazany przeze mnie adres email informacji handlowej w rozumieniu art. 10 ust. 1 ustawy z dnia 18 lipca 2002 roku o świadczeniu usług drogą elektroniczną od Art Open Sp. z o.o.
-                <sup>*</sup>.<span className="check"></span></label>
-                <button className="button is-primary" style={{backgroundColor:'#333333',paddingLeft:'35px',paddingRight:'35px',color:'white',fontSize:'20px',borderRadius:'15px'}} type="submit" >
-                <b>Zapisz mnie!</b>
-                </button>
-
-                </div>
-                <div style={{textAlign:'center'}}>
-                <br />
-
-                <img width="150px" src='/img/ArtOpen-white.svg' alt="ArtOpen studio reklamy" />
-                <br />
-                <a className='' href="/polityka-prywatnosci/">Polityka prywatności</a>
-                <br />
-                <br />
-                </div>
-                </form>
-                <div>
-
-
-                </div>
 
             </div>
             </div>
