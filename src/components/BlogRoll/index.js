@@ -9,7 +9,7 @@ class BlogRoll extends React.Component {
 
     return (
       <div>
-      <div className='container columns'>
+      <div className='container columns' style={{margin:'auto'}}>
       {posts &&
         posts.slice(0,2)
         .filter(post => post.node.frontmatter.templateKey === 'article-page')
@@ -20,7 +20,7 @@ class BlogRoll extends React.Component {
             key={post.id}
           >
           <Link  to={post.fields.slug+'/'}>
-          <img src={post.frontmatter.cover.publicURL}  className='fimg' />
+          <img src={post.frontmatter.cover.publicURL} alt={post.frontmatter.title}  className='fimg' />
           </Link>
           <div className='blogpostroll' >
             <div className='tagline3'>

@@ -82,7 +82,7 @@ const ContactForm = () => {
 
         <div className="form-group form-check">
 
-             <label htmlFor="acceptTerms" style={{fontSize:'12px'}} className="main"> <Field type="checkbox" defaultChecked="true" value="true" id="acceptTerms" name="acceptTerms" className={'form-check-input ' + (errors.acceptTerms && touched.acceptTerms ? ' is-invalid' : '')} />&nbsp; Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z naszą <a target='_blank' className='link-green' href='/polityka-prywatnosci/'>polityką prywatności</a><sup>*</sup>.<span className="check"></span></label>
+             <label htmlFor="acceptTerms" style={{fontSize:'12px'}} className="main"> <input type="checkbox" defaultChecked="true" id="acceptTerms" name="acceptTerms" className={'form-check-input ' + (errors.acceptTerms && touched.acceptTerms ? ' is-invalid' : '')} />&nbsp; Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z naszą <a target='_blank' className='link-green' href='/polityka-prywatnosci/'>polityką prywatności</a><sup>*</sup>.<span className="check"></span></label>
              <br />
              {touched.acceptTerms && errors.acceptTerms && <small className='has-text-danger'>{errors.acceptTerms}</small>}
          </div>

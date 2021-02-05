@@ -95,7 +95,7 @@ class NewsletterForm extends React.Component {
 
       <label style={{fontSize: '12px',color:'white'}} className='main'  htmlFor="zgoda">   <input onChange={this.handleChange} required={true} type="checkbox" id="zgoda" name="zgoda" defaultChecked="true" value="none"/>Wyrażam zgodę na otrzymywanie drogą elektroniczną na wskazany przeze mnie adres email informacji handlowej w rozumieniu art. 10 ust. 1 ustawy z dnia 18 lipca 2002 roku o świadczeniu usług drogą elektroniczną od Art Open Sp. z o.o.
       <sup>*</sup>.<span className="check"></span></label>
-      <button className="button is-primary" style={{backgroundColor:'#333333',paddingLeft:'35px',paddingRight:'35px',color:'white',fontSize:'20px',borderRadius:'15px'}} type="submit" >
+      <button className="darkbutton" type="submit" >
       <b>Zapisz mnie!</b>
       </button>
 
@@ -105,7 +105,7 @@ class NewsletterForm extends React.Component {
 
       <img width="150px" src='/img/ArtOpen-white.svg' alt="ArtOpen studio reklamy" />
       <br />
-      <a className='' href="/polityka-prywatnosci/">Polityka prywatności</a>
+      <a className='link-white' href="/polityka-prywatnosci/">Polityka prywatności</a>
       <br />
       <br />
       </div>

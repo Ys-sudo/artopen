@@ -47,22 +47,35 @@ const HomePageTemplate = (props) => {
 
 
       <section className='hero is-primary is-bold'>
-        <div className='hero-body'>
-          <div className='container' style={{marginLeft:'5%',marginRight:'5%'}}>
+        <div className='hero-body' style={{backgroundColor:'#333333'}}>
+          <div className='container' style={{marginLeft:'auto',marginRight:'auto'}}>
             <div className='columns' style={{textAlign:'center'}}>
               <div className='column'>
-              <h3 style={{textAlign:'left'}}><strong style={{color:'white', fontSize:'20px'}}>Oferta produktów ochronnych</strong></h3>
+              <h3 style={{textAlign:'left'}}><strong style={{color:'white', fontSize:'20px'}}>Oferta <b style={{color:'#00d1b2'}}>produktów ochronnych</b></strong></h3>
               </div>
+              <a href="/covid-19/" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
+                <div >
+                <img width="40px"  style={{verticalAlign:'middle'}}   alt="maseczki" src='/img/maseczki.svg'/>
+                <br /><br />
+                <h3 style={{color:'white'}}>maseczki</h3>
+                </div>
+              </a>
+              <a href="/covid-19/" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
+                <div >
+                <img width="40px"  style={{verticalAlign:'middle'}}   alt="przyłbice" src='/img/przylbice.svg'/>
+                <br /><br />
+                <h3 style={{color:'white'}}>przyłbice</h3>
+                </div>
+              </a>
+              <a href="/covid-19/" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
+                <div>
+                <img width="40px"  style={{verticalAlign:'middle'}}   alt="dezynfekcja" src='/img/dezynfekcja.svg'/>
+                <br /><br />
+                <h3 style={{color:'white'}}>dezynfekcja</h3>
+                </div>
+              </a>
               <div className='column'>
-              <h3>maseczki</h3>
-              </div>
-              <div className='column'>
-              <h3>przyłbice</h3>
-              </div>
-              <div className='column'>
-              <h3>dezynfekcja</h3>
-              </div>
-              <div className='column'>
+              <br />
               <a className='button-white' href='/covid-19/' ><b>sprawdź</b> &nbsp;&nbsp;
               <img width="20px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="covid-19" src='/img/viruses.svg'/>
               </a>
@@ -70,7 +83,7 @@ const HomePageTemplate = (props) => {
             </div>
             <br />
             <div>
-            <h3>Działalność Art Open w czasie stanu epidemii COVID-19</h3> <br />
+            <h3> <b>Działalność Art Open w czasie stanu epidemii COVID-19 </b></h3> <br />
             <h4>W związku z wprowadzeniem stanu epidemii dot. COVID-19 informujemy, iż firma Art Open kontynuuje swoją działalność bez zakłóceń. Na bieżąco przyjmujemy zamówienia oraz realizujemy wszystkie dostawy naszych produktów do Klientów. Wszelkie prace administracyjne oraz graficzne realizowane są bez zmian.</h4>
             </div>
           </div>
@@ -78,23 +91,32 @@ const HomePageTemplate = (props) => {
       </section>
 
 
-      <div style={{marginLeft:'10%',marginRight:'10%',textAlign:'center'}}>
+      <div style={{marginLeft:'auto',marginRight:'auto',textAlign:'center'}}>
       <br /><br />
+      <img src='/img/slider_1.jpg' width='350px' alt='oferta' />
+      <br />
       <h4 className='title'> Poznaj naszą ofertę: </h4>
       <h5 className='subtitle'> Zobacz co możemy dla Ciebie zrobić. </h5>
-      <br></br>
+      <br />
+      <OfferRoll />
       </div>
 
-      <OfferRoll />
+
       <br />
       <br />
       <br />
       <ModalCall />
 
 
-      <div style={{marginLeft:'0%',marginRight:'0%',marginTop:'50px'}}>
-        <h4 className='title' style={{marginTop:'100px',textAlign:'center'}}> Portfolio </h4>
+      <div style={{marginLeft:'auto',marginRight:'auto',marginTop:'50px'}}>
+        <div style={{textAlign:'right',marginTop:'100px'}}>
+        {/* TODO: Grafika 1*/}
+        <img src='/img/slider_1.jpg' width='750px'  alt='oferta' />
+
+        <br /><br />
+        <h4 className='title' style={{textAlign:'center'}}> Portfolio </h4>
         <h5 className='subtitle' style={{marginBottom:'20px',textAlign:'center'}}> Zapoznaj się z naszymi realizacjami. </h5>
+        </div>
 
         <PortfolioRoll />
         < br/>
@@ -102,11 +124,23 @@ const HomePageTemplate = (props) => {
           <a className="button-green" style={{fontSize:'18px'}} href="/portfolio/"> Zobacz nasze projekty <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
         </div>
       </div>
-      <div style={{marginTop:'5%',marginLeft:'5%',marginRight:'5%',marginBottom:'5%',textAlign:'center'}}>
-      <h4 className='title' style={{marginTop:'100px'}}> Blog </h4>
+
+
+      <div style={{marginTop:'5%',marginLeft:'auto',marginRight:'auto',marginBottom:'5%',textAlign:'center'}}>
+      <div style={{textAlign:'left',marginTop:'50px'}}>
+
+      {/* TODO: Grafika 2*/}
+      <img src='/img/slider_1.jpg' width='750px'  alt='oferta' />
+
+      </div>
+
+      <br />
+      <h4 className='title'> Blog </h4>
       <h5 className='subtitle'> Zapraszamy do lektury. </h5>
       <br />
+
       <BlogRoll />
+
 
       < br/>< br/>
 

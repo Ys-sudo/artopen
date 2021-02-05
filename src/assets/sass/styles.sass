@@ -173,10 +173,30 @@ input[type=range]:focus::-ms-fill-upper
 
 
 
-//TODO: checkbox styles
 
 
 
+.link-white
+  color: white
+.link-white:hover
+  color: #111111
+  background-color: white
+
+
+.darkbutton
+  transition-duration: 1s
+  background-color: #333333
+  padding: 20px 35px 20px 35px
+  color: white
+  font-size: 18px
+  border: 0px solid
+  border-radius: 15px
+  cursor: pointer
+
+.darkbutton:hover
+  transition-duration: 1s
+  background-color: white
+  color: #333333
 
 
 
@@ -662,29 +682,12 @@ nav, button
   .select-green
     margin-bottom: 30px
 
-@media screen and (min-width: 1300px)
-  .search
-    margin-right: -25px
-
-
-@media screen and (min-width: 1500px)
-  .navbar-end
-    margin-left: 20% !important
-
-
-@media screen and (max-width: 1220px)
-  .tagline, .tagline2, .tagline3
-    display: none
-  .portitle
-    width: 70%
-
-@import "~bulma"
 
 .offert
   display: flex
   flex-wrap: wrap
-  margin-left: 10%
-  margin-right: 10%
+  margin-left: 5%
+  margin-right: auto
   margin-top: 2%
 
 .ofnav1
@@ -723,9 +726,37 @@ nav, button
   filter: brightness(0) invert(1)
   color: white
 
-+tablet-only
+@media screen and (min-width: 1400px)
+  .search
+    margin-right: -25px
+@media screen and (max-width: 1400px)
+  .search
+    margin-left: auto !important
+    margin-right: auto !important
+    max-width: 725px
+  .langs
+    margin-bottom: 20px !important
   .offer
-    width: 30%
+    width: 30% !important
+
+@media screen and (min-width: 1500px)
+  .navbar-end
+    margin-left: 20% !important
+
+
+@media screen and (max-width: 1220px)
+
+  .tagline, .tagline2, .tagline3
+    display: none
+  .portitle
+    width: 70%
+
+@import "~bulma"
+
+
+
++tablet-only
+
   .ofintro
     margin-top: -150px
   .oftitle2
@@ -755,7 +786,7 @@ nav, button
   .submenu-item
     padding: 16px
   .offer
-    width: 98%
+    width: 98% !important
   .bottomUi
     display: inline-grid
     line-height: 2em

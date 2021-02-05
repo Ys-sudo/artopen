@@ -204,7 +204,7 @@ const NavBar = () => {
 
             </div>
 
-            <div className='navbar-item'>
+            <div className='navbar-item langs'>
               <div className='field is-grouped'>
               <p className='control'>
                 <a
@@ -242,8 +242,8 @@ const NavBar = () => {
 
           </div>
           <div id='newsletter'
-          style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'rgba(255,255,255,0.9)',zIndex:'20000',overflow:'scroll'}}>
-            <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'8%'}}>
+          style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'rgba(255,255,255,0.85)',zIndex:'20000',overflow:'scroll'}}>
+            <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'6%'}}>
 
 
             <NewsletterForm />

@@ -240,7 +240,7 @@ class ModalForm extends React.Component {
 
           </div>
 
-          <div className='field' id='sklep' style={{display:'none',marginLeft:'3%'}}>
+          <div className='field' id='sklep' style={{display:'none'}}>
               <div className='control'>
 
 
