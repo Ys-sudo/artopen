@@ -62,7 +62,9 @@ function disableEmptyInputs() {
   let iLen = controls.length
   for (var i=0; i<iLen; i++) {
     controls[i].disabled = controls[i].value == '';
+    console.log(controls[i].name + ' ' + controls[i].value);
   }
+
 }
 
 
@@ -91,7 +93,7 @@ class ModalForm extends React.Component {
     let fileinput = document.getElementById('fileinput');
     let file = fileinput.files[0];
     disableEmptyInputs();
-    console.log('test');
+    
     if (file !== undefined){
         if (file.size < 1048576){
         e.preventDefault()
@@ -172,7 +174,7 @@ class ModalForm extends React.Component {
 
 
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-          <input type="hidden" name="form-name" value="zamowienie" />
+          <input type="hidden" name="form-name" value="zamowienieA" />
           <div hidden>
             <label>
               Don’t fill this out:{' '}
