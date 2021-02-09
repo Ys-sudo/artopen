@@ -50,9 +50,12 @@ const HomePageTemplate = (props) => {
         <div className='hero-body' style={{backgroundColor:'#333333'}}>
           <div className='container' style={{marginLeft:'auto',marginRight:'auto'}}>
             <div className='columns' style={{textAlign:'center'}}>
-              <div className='column'>
+              <div className='column ofert'>
               <h3 style={{textAlign:'left'}}><strong style={{color:'white', fontSize:'20px'}}>Oferta <b style={{color:'#00d1b2'}}>produktów ochronnych</b></strong></h3>
               </div>
+
+
+              <div className='column columns' style={{display:'flex-block',marginTop:'20px',minWidth:'60%'}}>
               <a href="/covid-19/" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
                 <div >
                 <img width="40px"  style={{verticalAlign:'middle'}}   alt="maseczki" src='/img/maseczki.svg'/>
@@ -74,6 +77,7 @@ const HomePageTemplate = (props) => {
                 <h3 style={{color:'white'}}>dezynfekcja</h3>
                 </div>
               </a>
+              </div>
               <div className='column'>
               <br />
               <a className='button-white' href='/covid-19/' ><b>sprawdź</b> &nbsp;&nbsp;

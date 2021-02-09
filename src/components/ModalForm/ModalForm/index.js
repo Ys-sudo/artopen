@@ -3,6 +3,27 @@ import OffNav from '../OffNav'
 import { navigate } from 'gatsby-link'
 
 
+import CoVid19 from '../CoVid19'
+import EkoLogia from '../EkoLogia'
+import BranDing from '../BranDing'
+import ProjGraf from '../ProjGraf'
+import StronyW from '../StronyW'
+
+import KalKsia from '../KalKsia'
+import KalFirm from '../KalFirm'
+import GadzetyRek from '../GadzetyRek'
+import WydrukiRek from '../WydrukiRek'
+import RekZew from '../RekZew'
+
+import FotoProd from '../FotoProd'
+import WystaWien from '../WystaWien'
+import FilmoWanie from '../FilmoWanie'
+import OpaKowania from '../OpaKowania'
+import VirReal from '../VirReal'
+
+
+
+
 function encode(data) {
   const formData = new FormData()
 
@@ -15,25 +36,7 @@ function encode(data) {
 
 }
 
-{/* funkcje do podglądu obrazu.
-function hideimg(){
-  const imgTag = document.getElementById("myimage");
-  imgTag.src = ' ';
-}
 
-const handleInput = (e) => {
-  const file  =  e.currentTarget.files[0];
-  const reader = new FileReader();
-  const imgTag = document.getElementById("myimage");
-  if (file.name !== undefined){
-  imgTag.title = file.name;
-  reader.onload = function(event) {
-    imgTag.src = event.target.result;
-  };
-  reader.readAsDataURL(file);
-}
-};
-*/}
 function disableEmptyInputs() {
   let form = document.getElementById('zamowienie');
   let controls = form.elements;
@@ -120,360 +123,96 @@ class ModalForm extends React.Component {
 
       {/* COVID 19 */}
 
-      <div  id='COVID-19' style={{display:'none',padding:'0px'}}>
-      <input name='covid-19' id='covid-19' className='subtitle' placeholder='COVID-19:' disabled style={{color:'gray',fontFamily:'Poppins', backgroundColor:'white',border:'0px solid white',marginBottom:'20px'}} />
+      <div className='columns'  id='COVID-19' style={{display:'none'}}>
+      <CoVid19 />
+      </div>
 
-      <div className='columns' style={{ marginLeft:'15px'}}>
-          <div className='field column' >
+      {/* Ekologia */}
 
-            <label className='label'>Maseczki:</label>
-            <div className='control'>
-              <input onChange={this.handleChange} className='input' type='number' placeholder='100' name='maski' id='maski' />
-            </div>
+      <div className='columns' id='Ekologia' style={{display:'none'}}>
+      <EkoLogia />
+      </div>
 
-          </div>
+      {/* BranDing */}
 
-          <div className='field column' >
-            <label className='label'>Przyłbice:</label>
-            <div className='control'>
-              <input onChange={this.handleChange} className='input' type='number' placeholder='100' name='przyłbice' id='przylbice' />
-            </div>
+      <div className='columns' id='Branding' style={{display:'none'}}>
+      <BranDing />
+      </div>
 
-          </div>
+      {/* Projektowanie graficzne */}
 
-          <div className='field column' >
-            <label className='label'>Płyn do dezynfekcji:</label>
-            <div className='control'>
-              <input onChange={this.handleChange} className='input' type='number' placeholder='100' name='dezynfekcja' id='dezynfekcja' />
-            </div>
-
-          </div>
-        </div>
-          <hr />
-
-        </div>
-
-
-
-
-
-
-
+      <div className='columns' id='Projektowaniegraficzne' style={{display:'none'}}>
+      <ProjGraf />
+      </div>
 
       {/* Strony internetowe */}
 
       <div className='columns' id='Stronyinternetowe' style={{display:'none'}}>
-      <input name='strona internetowa' id='strona internetowa' className='subtitle' placeholder='Strony internetowe:' disabled style={{color:'gray',fontFamily:'Poppins', backgroundColor:'white',border:'0px solid white'}} />
-
-      <div className='field' style={{marginLeft:'18px'}}>
-        <label className='label'>Główny cel stworzenia strony:</label>
-        <div className='control'>
-
-          <select
-          className='button-green select-green' as='select'  name='cel' id='cel'
-          onChange={this.handleChange}
-          onInput={(event) => {
-          console.log(event.target.value);
-            if(event.target.value == 'sklep internetowy'){
-              document.getElementById('sklep').style.display = 'block';
-              document.getElementById('sklep1').style.display = 'block';
-            } else {
-              document.getElementById('sklep').style.display = 'none';
-              document.getElementById('sklep1').style.display = 'none';
-            }
-          }}
-          >
-          <option value="strona wizerunkowa">strona wizerunkowa</option>
-          <option value="sklep internetowy">sklep internetowy</option>
-          <option value="serwis informacyjny">serwis informacyjny</option>
-          <option value="strona dedykowana">strona dedykowana</option>
-          <option value="aplikacja webowa">aplikacja webowa</option>
-          </select>
-
-        </div>
-
-      </div>
-      <br />
-
-
-
-      <div className='field' style={{marginLeft:'15px'}}>
-          <div className='control'>
-            <div className='columns'>
-              <div className='column'>
-              <label className='label is-size-10'>Krótki opis strony:</label>
-              <textarea className='textarea' onChange={this.handleChange} component='textarea' rows='4' placeholder='Strona xyz.com ma prezentować nowe produkty naszej firmy...' type='text' name='krótki opis' id='opis'></textarea>
-              </div>
-
-              <div className='column'>
-              <label className='label is-size-10'>Podstrony i struktura:</label>
-              <textarea className='textarea' onChange={this.handleChange} component='textarea' rows='4' placeholder='home, o nas, oferta...' type='text' name='struktura' id='struktura' ></textarea>
-              </div>
-
-            </div>
-          </div>
+      <StronyW />
       </div>
 
-          <br />
+      {/* Kalendarze książkowe */}
 
-      <div className='field columns' style={{marginLeft:'15px'}}>
-          <div className='column'>
+      <div className='columns'  id='Kalendarzeksiążkowe' style={{display:'none'}}>
+      <KalKsia />
+      </div>
 
-          <h6> Dodatkowa specyfikacja: </h6>
-          <br />
-          <div id='sklep1' style={{display:'none'}}>
-          <label className='label is-size-10'>Ilość produktów:</label>
-          <input className='input' onChange={this.handleChange} type='number' placeholder='100' name='ilość produktów' id='ilość produktów' />
-          <br /><br />
-          </div>
+      {/* Kalendarze firmowe */}
 
+      <div className='columns' id='Kalendarzefirmowe' style={{display:'none'}}>
+      <KalFirm />
+      </div>
 
-          <label className='label'>Termin realizacji:</label>
-            <input className='button-green date' type='date' name='deadline' id='deadline'
-            onChange={this.handleChange}
-             />
+      {/* Gadżety reklamowe */}
 
+      <div className='columns' id='Gadżetyreklamowe' style={{display:'none'}}>
+      <GadzetyRek />
+      </div>
 
+      {/* Wydruki reklamowe */}
 
+      <div className='columns' id='Wydrukireklamowe' style={{display:'none'}}>
+      <WydrukiRek />
+      </div>
 
+      {/* Reklama zewnętrzna */}
 
+      <div className='columns' id='Reklamazewnętrzna' style={{display:'none'}}>
+      <RekZew />
+      </div>
 
-          </div>
+      {/* Fotografia produktowa */}
 
-          <div className='field' id='sklep' style={{display:'none'}}>
-              <div className='control'>
+      <div className='columns' id='Fotografiaproduktowa' style={{display:'none'}}>
+      <FotoProd />
+      </div>
 
+      {/* Wystawiennictwo */}
 
-                  <div className='column'  style={{display:'block',width:'100%',marginLeft:'3%'}}>
+      <div className='columns' id='Wystawiennictwo' style={{display:'none'}}>
+      <WystaWien />
+      </div>
 
+      {/* Filmowanie */}
 
+      <div className='columns' id='Filmowanie' style={{display:'none'}}>
+      <FilmoWanie />
+      </div>
 
+      {/* Opakowania */}
 
-                  <label htmlFor="baza xml" className='label main' style={{fontSize:'14px'}}>Baza XML
-                  <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='baza xml' id='baza xml' />
-                  <span className="check"></span>
-                  </label>
+      <div className='columns' id='Opakowania' style={{display:'none'}}>
+      <OpaKowania />
+      </div>
 
+      {/* VR */}
 
+      <div className='columns' id='VR' style={{display:'none'}}>
+      <VirReal />
+      </div>
 
-                  <label htmlFor="fotografie produktów" className='label main' style={{fontSize:'14px'}}>Zdjęcia<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='fotografie produktów' id='fotografie produktów' />
-                  <span className="check"></span>
-                  </label>
 
 
-
-                  <label className='label main' htmlFor="opisy produktów" style={{fontSize:'14px'}}>Opisy<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='opisy produktów' id='opisy produktów' />
-                  <span className="check"></span>
-                  </label>
-
-                  <label className='label main' htmlFor="integracje api" style={{fontSize:'14px'}}>Integracje<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='integracje api' id='integracje api' />
-                  <span className="check"></span>
-                  </label>
-
-                  </div>
-                </div>
-
-          </div>
-
-
-          <br />
-            <div className='control column' style={{display:'block',marginLeft:'3%',flexWrap:'wrap'}}>
-
-            <label htmlFor="CMS" className='label main' style={{fontSize:'14px'}}>System CMS
-              <input className='checkbox' type='checkbox' name='CMS' id='CMS'
-              onChange={this.handleChange} />
-
-              <span className="check"></span>
-              </label>
-              <label htmlFor="SEO" className='label main' style={{fontSize:'14px'}}>SEO
-              <input className='checkbox' type='checkbox' name='SEO' id='SEO'
-                onChange={this.handleChange}/>
-
-                <span className="check"></span>
-                </label>
-                <label htmlFor="teksty" className='label main' style={{fontSize:'14px'}}>Treści tekstowe
-                  <input className='checkbox' type='checkbox' name='teksty' id='teksty'
-                  onChange={this.handleChange}/>
-
-                  <span className="check"></span>
-                  </label>
-                  <label htmlFor="grafika" className='label main' style={{fontSize:'14px'}}>Materiały graficzne
-                    <input className='checkbox' type='checkbox' name='grafika' id='grafika'
-                    onChange={this.handleChange} />
-                    <span className="check"></span>
-                    </label>
-
-
-            </div>
-
-
-          <div className='control column' style={{display:'block',marginLeft:'3%',flexWrap:'wrap'}}>
-            <label htmlFor="blog" className='label main' style={{fontSize:'14px'}}>Blog
-              <input className='checkbox' type='checkbox' name='blog' id='blog'
-              onChange={this.handleChange} />
-              <span className="check"></span>
-              </label>
-              <label htmlFor="tłumaczenia" className='label main' style={{fontSize:'14px'}}>Tłumaczenia
-                <input className='checkbox' type='checkbox' name='tłumaczenia' id='tłumaczenia'
-                onChange={this.handleChange} />
-                <span className="check"></span>
-                </label>
-                <label htmlFor="serwer" className='label main' style={{fontSize:'14px'}}>Serwer
-                  <input className='checkbox' type='checkbox' name='serwer' id='serwer'
-                  onChange={this.handleChange} />
-                  <span className="check"></span>
-                  </label>
-                  <label htmlFor="domena" className='label main' style={{fontSize:'14px'}}>Domena
-                    <input className='checkbox' type='checkbox' name='domena' id='domena'
-                    onChange={this.handleChange} />
-                    <span className="check"></span>
-                    </label>
-
-            </div>
-
-
-            <div className='control column' style={{display:'block',marginLeft:'3%',flexWrap:'wrap'}}>
-
-              <label htmlFor="opieka techniczna" className='label main' style={{fontSize:'14px'}}>Wsparcie techniczne
-                <input
-                onChange={this.handleChange}
-                 className='checkbox' type='checkbox' name='opieka techniczna' id='opieka techniczna' />
-                 <span className="check"></span>
-                 </label>
-
-                <label htmlFor="prowadzenie bloga" className='label main' style={{fontSize:'14px'}}>Prowadzenie bloga
-                  <input
-                  onChange={this.handleChange}
-                   className='checkbox' type='checkbox' name='prowadzenie bloga' id='prowadzenie bloga' />
-                   <span className="check"></span>
-                  </label>
-                  <label htmlFor="analiza" className='label main' style={{fontSize:'14px'}}>Analiza statystyk
-                    <input
-                    onChange={this.handleChange}
-                     className='checkbox' type='checkbox' name='analiza statysyk' id='analiza' />
-                     <span className="check"></span>
-                     </label>
-                     <label htmlFor="newsletters" className='label main' style={{fontSize:'14px'}}>Newsletter
-                       <input
-                       onChange={this.handleChange}
-                        className='checkbox' type='checkbox' name='newsletter' id='newsletters' />
-                        <span className="check"></span>
-                        </label>
-
-
-            </div>
-
-
-
-
-        </div>
-
-
-
-            <br />
-
-          <div className='field' style={{marginLeft:'15px'}}>
-              <div className='control'>
-                <div className='columns'>
-                  <div className='column'>
-                  <label className='label is-size-10'>Wersje językowe:</label>
-                  <input style={{width:'50%'}} onChange={this.handleChange} className='input' placeholder='1' type='number' name='języki' id='języki' />
-                  </div>
-
-                  <div className='column'>
-                  <label className='label is-size-10'>Jakie języki:</label>
-                  <input className='input' onChange={this.handleChange} placeholder='angielski, niemiecki...' type='text' name='jakie języki' id='jakie języki' />
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-
-            <div className='field' style={{marginLeft:'15px'}}>
-                <div className='control'>
-                  <div className='columns'>
-
-                    <div className='column'>
-                    <label className='label is-size-10'>Informacje odnośnie identyfikacji graficznej firmy:</label>
-                    <textarea className='textarea' onChange={this.handleChange} component='textarea' rows='4' placeholder='Kolorystyka, opis, logo...' type='text' name='branding' id='branding' ></textarea>
-                    </div>
-
-                    <div className='column'>
-                    <label className='label is-size-10'>Strony internetowe, które mogą być wzorem:</label>
-                    <textarea className='textarea' onChange={this.handleChange} component='textarea' rows='4' placeholder='https://netflix.com' type='text' name='wzorce' id='wzorce' ></textarea>
-                    </div>
-
-                  </div>
-                </div>
-                </div>
-
-
-
-                <br />
-
-
-
-
-
-                <div className='field' style={{marginLeft:'15px'}}>
-
-                <div className='columns'>
-                  <div className='column'>
-                    <div className='control'>
-                    <label className='label is-size-10'>Budżet:</label>
-                    <input style={{width:'100%'}} min='1500' placeholder='5000' max='15000' id="range" className='range' name="budżet" type="range"
-                    onInput={(event) => {console.log(document.getElementById('range').value);
-                    document.getElementById('rvalueid').innerText = document.getElementById('range').value + ' zł';
-                  }} onChange={this.handleChange}
-                    />
-                    <output style={{color:'#00d1b2',textAlign:'center'}} name="rvalueid" id="rvalueid">5000 zł</output>
-
-                    </div>
-                  </div>
-
-                  <div className='column'>
-                    <div className='control'>
-                    <label className='label is-size-10'>Załącz plik:</label>
-                    {/*message*/}
-
-
-                      <div className="file">
-                        <label className="file-label">
-                        {/*onInput ={(o) => handleInput(o)}*/}
-                          <input
-                            className="button is-primary"
-                            type="file"
-                            name="attachment"
-                            onChange={this.handleAttachment}
-
-                            style={{height:'50px'}}
-                            id ="fileinput"
-                          />
-                        </label>
-
-                        <sub align="center" style={{position:'absolute',backgroundColor:'#111111',color:'white',padding:'2px',marginLeft:'300px',fontSize:'12px'}}> Maksymalna wielkość<br></br> pliku to <b>1MB</b>. </sub>
-                        <br />
-
-                      </div>
-
-
-                    <br></br>
-                    </div>
-
-                  </div>
-
-                  </div>
-                </div>
-                <br />
-
-              {/* Podgląd obrazu wrazie w.  <img onMouseOver={hideimg} style={{backgroundColor:'black',padding:'15px',postion:'fixed',top:'10px',right:'10px',maxWidth:'150px'}} src={''} alt="" id={'myimage'}/> */}
-
-
-
-                <hr />
-
-            </div>
 
 
 
@@ -511,8 +250,8 @@ class ModalForm extends React.Component {
           </div>
 
           <div className="columns">
-
-          <div className="field column">
+          <div className='column'>
+          <div className="field">
             <label className="label" htmlFor={'name'}>
               Imię i Nazwisko<sup>*</sup>:
             </label>
@@ -526,45 +265,43 @@ class ModalForm extends React.Component {
                 required={true}
               />
             </div>
-          </div>
+            </div>
 
+            <div className="field">
+              <label className="label" htmlFor={'email'}>
+                Adres E-mail<sup>*</sup>:
+              </label>
+              <div className="control">
+                <input
+                  className="input"
+                  type={'email'}
+                  name={'adres email'}
+                  onChange={this.handleChange}
+                  id={'adres email'}
+                  required={true}
+                />
+              </div>
+            </div>
+
+            <div className="field ">
+              <label className="label" htmlFor={'phone'}>
+                Numer telefonu:
+              </label>
+              <div className="control">
+                <input
+                  className="input"
+                  type={'number'}
+                  name={'numer telefonu'}
+                  onChange={this.handleChange}
+                  id={'nrtel'}
+                />
+              </div>
+            </div>
+
+
+          </div>
 
           <div className="field column">
-            <label className="label" htmlFor={'email'}>
-              Adres E-mail<sup>*</sup>:
-            </label>
-            <div className="control">
-              <input
-                className="input"
-                type={'email'}
-                name={'adres email'}
-                onChange={this.handleChange}
-                id={'adres email'}
-                required={true}
-              />
-            </div>
-          </div>
-
-          </div>
-
-
-          <div className="field">
-            <label className="label" htmlFor={'phone'}>
-              Numer telefonu:
-            </label>
-            <div className="control">
-              <input
-                className="input"
-                type={'number'}
-                name={'numer telefonu'}
-                onChange={this.handleChange}
-                id={'nrtel'}
-              />
-            </div>
-          </div>
-
-
-          <div className="field">
             <label className="label" htmlFor={'message'}>
               Wiadomość<sup>*</sup>:
             </label>
@@ -576,32 +313,47 @@ class ModalForm extends React.Component {
                 onChange={this.handleChange}
                 id={'wiadomość'}
                 required={true}
-                rows = "4"
+                rows = "7"
               ></textarea>
             </div>
-          </div>
 
 
-          <div className="control">
 
-          <label style={{fontSize: '12px'}} className='main'  htmlFor="privacy">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacy" name="privacy" defaultChecked="true" value="true"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label><br></br><br></br>
+            <br />
+            <div className="control">
 
-          </div>
+            <label style={{fontSize: '12px'}} className='main'  htmlFor="privacy">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacy" name="privacy" defaultChecked="true" value="true"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label><br></br><br></br>
 
-          <div className="field" style={{textAlign:'right'}}>
+            </div>
 
-          <button className="button"  type="reset" onClick={this.resetRange} >
-            Wyczyść
-          </button>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div className="field" style={{textAlign:'right'}}>
 
-            <button className="button is-primary" type="submit" onClick={showFileSize}>
-              Wyślij
+            <button className="button"  type="reset" onClick={this.resetRange} >
+              Wyczyść
             </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <button className="button is-primary" type="submit" onClick={showFileSize}>
+                Wyślij
+              </button>
+
+
+
+            </div>
+
+
+          </div>
 
 
 
           </div>
+
+
+
+
+
+
+
 
 
 
