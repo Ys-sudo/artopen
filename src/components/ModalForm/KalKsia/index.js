@@ -14,7 +14,7 @@ class KalKsia extends React.Component {
     return (
       <>
 
-      <input name='Kalendarze książkowe' id='projgraf' className='subtitle' placeholder='Kalendarze książkowe:' disabled style={{color:'gray',fontFamily:'Poppins', backgroundColor:'white',border:'0px solid white',marginBottom:'20px',minWidth:'100%'}} />
+      <input name='Kalendarze książkowe' id='kalendarzeksiazkowe' className='subtitle' placeholder='Kalendarze książkowe:' disabled style={{color:'gray',fontFamily:'Poppins', backgroundColor:'white',border:'0px solid white',marginBottom:'20px',minWidth:'100%'}} />
       <div className='field' style={{marginLeft:'18px'}}>
       <div className='control'>
       <label className='label'>Ilość:</label>

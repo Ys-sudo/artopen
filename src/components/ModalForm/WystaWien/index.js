@@ -209,17 +209,17 @@ class WystaWien extends React.Component {
           <div className='column'>
           <label className='label'> Wymiary stoiska (m): </label>
             <div style={{display:'flex'}}>
-            <input  onChange={this.handleChange} className='input' type='number' min="0" placeholder='wysokość' name='wysokość(m)' id='' style={{display:'block',maxWidth:'150px'}} />
+            <input  onChange={this.handleChange} className='input' type='number' min="0" placeholder='wysokość' name='wysokość(m)' id='wysokośćI(m)' style={{display:'block',maxWidth:'150px'}} />
             <label className='label'>&nbsp; x &nbsp;</label>
-            <input  onChange={this.handleChange} className='input' type='number' min="0" placeholder='szerokość' name='szerokość(m)' id='' style={{display:'block',maxWidth:'150px'}} />
+            <input  onChange={this.handleChange} className='input' type='number' min="0" placeholder='szerokość' name='szerokość(m)' id='szerokośćI(m)' style={{display:'block',maxWidth:'150px'}} />
             <label className='label'>&nbsp; x &nbsp;</label>
-            <input  onChange={this.handleChange} className='input' type='number' min="0" placeholder='długość' name='długość(m)' id='' style={{display:'block',maxWidth:'150px'}} />
+            <input  onChange={this.handleChange} className='input' type='number' min="0" placeholder='długość' name='długość(m)' id='długośćI(m)' style={{display:'block',maxWidth:'150px'}} />
             </div>
           </div>
           <div className='column'>
           <label className='label'> Powierzchnia (m<sup>2</sup>): </label>
             <div style={{display:'flex'}}>
-            <input  onChange={this.handleChange} className='input' type='number' min="0" placeholder='powierzchnia' name='powierzchnia(m)' id='' style={{display:'block',maxWidth:'150px'}} />
+            <input  onChange={this.handleChange} className='input' type='number' min="0" placeholder='powierzchnia' name='powierzchnia(m)' id='powierzchnia(m)' style={{display:'block',maxWidth:'150px'}} />
             </div>
           </div>
 
@@ -232,7 +232,7 @@ class WystaWien extends React.Component {
         <div className='column'>
           <label className='label'> Rodzaj zabudowy: </label>
           <select
-          className='button-green select-green' as='select'  name='Usługa montażu' id='podloze zadruku'
+          className='button-green select-green' as='select'  name='Rodzaj zabudowy' id='Rodzaj zabudowy'
           onChange={this.handleChange}
           >
           <option value="Szeregowa">Szeregowa</option>
@@ -258,7 +258,7 @@ class WystaWien extends React.Component {
           <div className='column'>
 
           <label className='label'>Termin realizacji:</label>
-            <input className='button-green date' type='date' name='deadline' id='deadline'
+            <input className='button-green date' type='date' name='deadline' id='deadlineV'
             onChange={this.handleChange}
              />
 
@@ -312,11 +312,11 @@ class WystaWien extends React.Component {
                   <input
                     className="button is-primary"
                     type="file"
-                    name="attachment"
+                    name="plik"
                     onChange={this.handleAttachment}
 
                     style={{height:'50px'}}
-                    id ="fileinput"
+                    id ="fileinputV"
                   />
                 </label>
 

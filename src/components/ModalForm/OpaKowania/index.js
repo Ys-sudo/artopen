@@ -26,18 +26,18 @@ class OpaKowania extends React.Component {
         <div className='control'>
         <label className='label'>Ilość opakowań:</label>
 
-          <input onChange={this.handleChange} style={{maxWidth:'200px'}} className='input' type='number' placeholder='100' name='Ilość zdjęć' id='iloscz' />
+          <input onChange={this.handleChange} style={{maxWidth:'200px'}} className='input' type='number' placeholder='100' name='Ilość opakowań' id='iloscop' />
         </div>
         </div>
 
         <div className='column'>
         <label className='label'> Wymiary opakowania (cm): </label>
           <div style={{display:'flex'}}>
-          <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='wysokość' name='wysokość(cm)' id='' style={{display:'block',maxWidth:'150px'}} />
+          <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='wysokość' name='wysokość(cm)' id='wysokość(cm)' style={{display:'block',maxWidth:'150px'}} />
           <label className='label'>&nbsp; x &nbsp;</label>
-          <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='szerokość' name='szerokość(cm)' id='' style={{display:'block',maxWidth:'150px'}} />
+          <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='szerokość' name='szerokość(cm)' id='szerokość(cm)' style={{display:'block',maxWidth:'150px'}} />
           <label className='label'>&nbsp; x &nbsp;</label>
-          <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='głębokość' name='głębokość(cm)' id='' style={{display:'block',maxWidth:'150px'}} />
+          <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='głębokość' name='głębokość(cm)' id='głębokość(cm)' style={{display:'block',maxWidth:'150px'}} />
           </div>
         </div>
         </div>
@@ -48,7 +48,7 @@ class OpaKowania extends React.Component {
           <div className='column'>
           <label className='label'> Rodzaj opakowania: </label>
           <select
-          className='button-green select-green' as='select'  name='Usługa montażu' id='podloze zadruku'
+          className='button-green select-green' as='select'  name='Rodzaj opakowania' id='Rodzaj opakowania'
           onChange={this.handleChange}
           >
           <option value="Tak">Pudełka fasonowe</option>
@@ -63,7 +63,7 @@ class OpaKowania extends React.Component {
           <div className='column'>
           <label className='label'> Sposób znakowania: </label>
           <select
-          className='button-green select-green' as='select'  name='Usługa montażu' id='podloze zadruku'
+          className='button-green select-green' as='select'  name='Sposób znakowania' id='Sposób znakowania'
           onChange={this.handleChange}
           >
           <option value="Tak">Nadruk full kolor</option>
@@ -80,7 +80,7 @@ class OpaKowania extends React.Component {
           <div className='column'>
           <label className='label'> Wykrojnik: </label>
           <select
-          className='button-green select-green' as='select'  name='Usługa montażu' id='podloze zadruku'
+          className='button-green select-green' as='select'  name='Wykrojnik' id='Wykrojnik'
           onChange={this.handleChange}
           >
           <option value="Własny">Własny</option>
@@ -95,7 +95,7 @@ class OpaKowania extends React.Component {
           <div className='column'>
           <label className='label'> Projekt graficzny: </label>
           <select
-          className='button-green select-green' as='select'  name='Usługa montażu' id='podloze zadruku'
+          className='button-green select-green' as='select'  name='Projekt graficzny' id='Projekt graficznyOp'
           onChange={this.handleChange}
           >
           <option value="Własny">Własny</option>
@@ -115,7 +115,7 @@ class OpaKowania extends React.Component {
         <div className="columns">
           <div className='column'>
           <label className='label'>Termin realizacji:</label>
-            <input className='button-green date' type='date' name='deadline' id='deadline'
+            <input className='button-green date' type='date' name='deadline' id='deadlineVII'
             onChange={this.handleChange}
              />
           </div>
@@ -132,11 +132,11 @@ class OpaKowania extends React.Component {
                   <input
                     className="button is-primary"
                     type="file"
-                    name="attachment"
+                    name="plik"
                     onChange={this.handleAttachment}
 
                     style={{height:'50px'}}
-                    id ="fileinput"
+                    id ="fileinputVI"
                   />
                 </label>
 

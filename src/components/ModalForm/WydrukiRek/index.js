@@ -114,7 +114,7 @@ class WydrukiRek extends React.Component {
             <div className='column'>
             <label className='label'>Projekt graficzny:</label>
             <select
-            className='button-green select-green' as='select'  name='Rodzaj zadruku' id='rodzaj zadruku'
+            className='button-green select-green' as='select'  name='Projekt graficzny' id='Projekt graficzny wr'
             onChange={this.handleChange}
             >
             <option value="własny">Własny</option>
@@ -130,7 +130,7 @@ class WydrukiRek extends React.Component {
             <div className='column'>
             <label className='label'>Podłoże wydruku:</label>
             <select
-            className='button-green select-green' as='select'  name='Podłoże wydruki' id='podloze zadruku'
+            className='button-green select-green' as='select'  name='Podłoże wydruku' id='podloze wydruku'
             onChange={this.handleChange}
             >
             <option value="Papier kredowy">Papier kredowy</option>
@@ -187,7 +187,7 @@ class WydrukiRek extends React.Component {
 
             <div className='column'>
             <label className='label'>Termin realizacji:</label>
-              <input className='button-green date' type='date' name='deadline' id='deadline'
+              <input className='button-green date' type='date' name='deadline' id='deadlineII'
               onChange={this.handleChange}
                />
             </div>
@@ -204,12 +204,12 @@ class WydrukiRek extends React.Component {
 
             <div className='column'>
             <label className='label is-size-10'>Opis produktu:</label>
-            <textarea className='textarea' onChange={this.handleChange} placeholder='opis... ' type='text' name='Opis produktu' id='opis' rows='2'> </textarea>
+            <textarea className='textarea' onChange={this.handleChange} placeholder='opis... ' type='text' name='Opis produktu' id='opis' rows='2'></textarea>
             </div>
 
               <div className='column'>
               <label className='label is-size-10'>Przykładowe realizacje:</label>
-              <textarea className='textarea' onChange={this.handleChange} placeholder='opis... '  type='text' name='Przykładowe realizacje' id='przykładowe realizacje' rows='2'> </textarea>
+              <textarea className='textarea' onChange={this.handleChange} placeholder='opis... '  type='text' name='Przykładowe realizacje' id='przykładowe realizacje' rows='2'></textarea>
               </div>
 
 
@@ -251,11 +251,11 @@ class WydrukiRek extends React.Component {
                     <input
                       className="button is-primary"
                       type="file"
-                      name="attachment"
+                      name="plik"
                       onChange={this.handleAttachment}
 
                       style={{height:'50px'}}
-                      id ="fileinput2"
+                      id ="fileinputII"
                     />
                   </label>
 

@@ -117,7 +117,7 @@ class FotoProd extends React.Component {
                 <div className='column'>
                 <label className='label'>Miejsce sesji:</label>
                 <select
-                className='button-green select-green' as='select'  name='Miejsce sesji:' id='miejsce'
+                className='button-green select-green' as='select'  name='Miejsce sesji' id='miejsce'
                 onChange={this.handleChange}
                 >
                 <option value="Wykonywane u klienta">Wykonywane u Klienta</option>
@@ -131,7 +131,7 @@ class FotoProd extends React.Component {
                 <div className='column'>
                 <label className='label'>Obróbka zdjęć:</label>
                 <select
-                className='button-green select-green' as='select'  name='Miejsce sesji:' id='miejsce'
+                className='button-green select-green' as='select'  name='Obróbka zdjęć' id='obróbka'
                 onChange={this.handleChange}
                 >
                 <option value="Tak">Tak</option>
@@ -147,13 +147,13 @@ class FotoProd extends React.Component {
                 <div className='control'>
                 <label className='label'>Szacowana ilość zdjęć:</label>
 
-                  <input onChange={this.handleChange} style={{maxWidth:'200px'}} className='input' type='number' placeholder='100' name='Ilość zdjęć' id='iloscz' />
+                  <input onChange={this.handleChange} style={{maxWidth:'200px'}} className='input' type='number' placeholder='100' name='Ilość zdjęć' id='ilosczdj' />
                 </div>
                 </div>
 
                 <div className="column">
                 <label className='label is-size-10'>Grupa docelowa:</label>
-                <input className='input' onChange={this.handleChange} placeholder='Dorośli 30+... ' type='text' name='grupa docelowa' id='grupa docelowa' />
+                <input className='input' onChange={this.handleChange} placeholder='Dorośli 30+... ' type='text' name='grupa docelowa' id='grupa docelowaII' />
                 <br /><br />
                 </div>
 
@@ -163,7 +163,7 @@ class FotoProd extends React.Component {
 
                 <div className='column'>
                 <label className='label'>Termin realizacji:</label>
-                  <input className='button-green date' type='date' name='deadline' id='deadline'
+                  <input className='button-green date' type='date' name='deadline' id='deadlineIV'
                   onChange={this.handleChange}
                    />
                 </div>
@@ -212,11 +212,11 @@ class FotoProd extends React.Component {
                         <input
                           className="button is-primary"
                           type="file"
-                          name="attachment"
+                          name="plik"
                           onChange={this.handleAttachment}
 
                           style={{height:'50px'}}
-                          id ="fileinput"
+                          id ="fileinputIV"
                         />
                       </label>
 

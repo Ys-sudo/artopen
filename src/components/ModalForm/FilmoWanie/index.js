@@ -174,7 +174,7 @@ class FilmoWanie extends React.Component {
 
         <div className='column'>
         <label className='label'>Termin realizacji:</label>
-          <input className='button-green date' type='date' name='deadline' id='deadline'
+          <input className='button-green date' type='date' name='deadline' id='deadlineVI'
           onChange={this.handleChange}
            />
            </div>

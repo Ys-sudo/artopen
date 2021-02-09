@@ -54,7 +54,7 @@ class StronyW extends React.Component {
             <div className='columns'>
               <div className='column'>
               <label className='label is-size-10'>Krótki opis strony:</label>
-              <textarea className='textarea' onChange={this.handleChange} component='textarea' rows='4' placeholder='Strona xyz.com ma prezentować nowe produkty naszej firmy...' type='text' name='krótki opis' id='opis'></textarea>
+              <textarea className='textarea' onChange={this.handleChange} component='textarea' rows='4' placeholder='Strona xyz.com ma prezentować nowe produkty naszej firmy...' type='text' name='krótki opis' id='opis www'></textarea>
               </div>
 
               <div className='column'>
@@ -206,7 +206,7 @@ class StronyW extends React.Component {
 
                   <div className='column'>
                   <label className='label'>Termin realizacji:</label>
-                    <input className='button-green date' type='date' name='deadline' id='deadline'
+                    <input className='button-green date' type='date' name='deadline' id='deadlineI'
                     onChange={this.handleChange}
                      />
                   </div>
@@ -243,7 +243,7 @@ class StronyW extends React.Component {
 
                     <div className='column'>
                     <label className='label is-size-10'>Informacje odnośnie identyfikacji graficznej firmy:</label>
-                    <textarea className='textarea' onChange={this.handleChange} component='textarea' rows='4' placeholder='Kolorystyka, opis, logo...' type='text' name='branding' id='branding' ></textarea>
+                    <textarea className='textarea' onChange={this.handleChange} component='textarea' rows='4' placeholder='Kolorystyka, opis, logo...' type='text' name='Identyfikacja wizualna firmy' id='ifowiz' ></textarea>
                     </div>
 
                     <div className='column'>
@@ -291,11 +291,11 @@ class StronyW extends React.Component {
                           <input
                             className="button is-primary"
                             type="file"
-                            name="attachment"
+                            name="plik"
                             onChange={this.handleAttachment}
 
                             style={{height:'50px'}}
-                            id ="fileinput"
+                            id ="fileinputI"
                           />
                         </label>
 

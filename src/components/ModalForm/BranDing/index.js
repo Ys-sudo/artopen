@@ -25,8 +25,7 @@ class BranDing extends React.Component {
           className='textarea' as='textarea' placeholder="Rodzaj działalności, charakterystyka firmy, oferta..."  name='informacje o firmie...' id='info'
           onChange={this.handleChange}
           rows="3"
-          >
-          </textarea>
+          ></textarea>
         </div>
 
       </div>
@@ -44,7 +43,7 @@ class BranDing extends React.Component {
 
               <div className='column'>
               <label className='label is-size-10'>Opis rynku i konkurencji:</label>
-              <textarea className='textarea' onChange={this.handleChange} component='textarea' rows='3' placeholder='Charakterystyka, trendy na rynku, główni gracze, działania konkurencji...' type='text' name='struktura' id='struktura' ></textarea>
+              <textarea className='textarea' onChange={this.handleChange} component='textarea' rows='3' placeholder='Charakterystyka, trendy na rynku, główni gracze, działania konkurencji...' type='text' name='Opis rynku i konkurencji' id='opis rynku i konkurencji' ></textarea>
               </div>
 
 

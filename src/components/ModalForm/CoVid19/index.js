@@ -55,7 +55,7 @@ class CoVid19 extends React.Component {
                   <input
                     className="button is-primary"
                     type="file"
-                    name="attachment"
+                    name="plik"
                     onChange={this.handleAttachment}
 
                     style={{height:'50px'}}
@@ -84,18 +84,18 @@ class CoVid19 extends React.Component {
             <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Maseczka jednorazowa' id='maseczka1'
             onInput={(event) => {
 
-              if(document.getElementById('i14').style.display == 'none'){
-              document.getElementById('i14').style.display = 'block';
+              if(document.getElementById('ib').style.display == 'none'){
+              document.getElementById('ib').style.display = 'block';
 
               } else {
-              document.getElementById('i14').style.display = 'none';
+              document.getElementById('ib').style.display = 'none';
 
               }
             }} />
             <span className="check"></span>
             </label>
 
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość maseczek' id='i14' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość maseczek' id='ib' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
 
 
 

@@ -127,15 +127,15 @@ class RekZew extends React.Component {
 
           <div className='column'>
           <label className='label'> Ilość: </label>
-          <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość' id='' style={{display:'block',maxWidth:'150px'}} />
+          <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość' id='ilość reklam' style={{display:'block',maxWidth:'150px'}} />
           </div>
 
           <div className='column'>
           <label className='label'> Wymiary reklamy (m): </label>
             <div style={{display:'flex'}}>
-            <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='wysokość' name='ilość' id='' style={{display:'block',maxWidth:'150px'}} />
+            <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='wysokość' name='wysokość(m)' id='wysokość' style={{display:'block',maxWidth:'150px'}} />
             <label className='label'>&nbsp; x &nbsp;</label>
-            <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='szerokość' name='ilość' id='' style={{display:'block',maxWidth:'150px'}} />
+            <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='szerokość' name='szerokość(m)' id='szerokość' style={{display:'block',maxWidth:'150px'}} />
             </div>
           </div>
 
@@ -156,7 +156,7 @@ class RekZew extends React.Component {
             <div className='column'>
             <label className='label'> Usługa montażu: </label>
             <select
-            className='button-green select-green' as='select'  name='Usługa montażu' id='podloze zadruku'
+            className='button-green select-green' as='select'  name='Usługa montażu' id='usługa montażu'
             onChange={this.handleChange}
             >
             <option value="Tak">Tak</option>
@@ -184,7 +184,7 @@ class RekZew extends React.Component {
 
             <div className='column'>
             <label className='label'>Termin realizacji:</label>
-              <input className='button-green date' type='date' name='deadline' id='deadline'
+              <input className='button-green date' type='date' name='deadline' id='deadlineIII'
               onChange={this.handleChange}
                />
             </div>
@@ -200,13 +200,13 @@ class RekZew extends React.Component {
 
           <div className='column'>
           <label className='label'> Opis produktu: </label>
-          <textarea  onChange={this.handleChange} className='textarea' type='text'  placeholder='Opisz reklamowany produkt...' name='ilość' id='opis produktu'  />
+          <textarea  onChange={this.handleChange} className='textarea' type='text'  placeholder='Opisz reklamowany produkt...' name='ilość' id='opis produktu RZ'  />
           </div>
 
 
             <div className='column'>
             <label className='label'>Przykładowe realizacje:</label>
-            <textarea className='textarea' onChange={this.handleChange} placeholder='Przykłady reklam zewnętrznych... ' type='text' name='Przykładowe realizacje' id='przykładowe realizacje'></textarea>
+            <textarea className='textarea' onChange={this.handleChange} placeholder='Przykłady reklam zewnętrznych... ' type='text' name='Przykładowe realizacje' id='przykładowe realizacjeRZ'></textarea>
             </div>
 
 
@@ -249,11 +249,11 @@ class RekZew extends React.Component {
                   <input
                     className="button is-primary"
                     type="file"
-                    name="attachment"
+                    name="plik"
                     onChange={this.handleAttachment}
 
                     style={{height:'50px'}}
-                    id ="fileinput"
+                    id ="fileinputIII"
                   />
                 </label>
 

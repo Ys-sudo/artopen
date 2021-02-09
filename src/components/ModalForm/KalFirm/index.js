@@ -28,7 +28,7 @@ class KalFirm extends React.Component {
 
       <label className='label'>Ilość:</label>
 
-        <input onChange={this.handleChange} style={{maxWidth:'200px'}} className='input' type='number' placeholder='100' name='Ilość kalendarzy' id='ilosck' />
+        <input onChange={this.handleChange} style={{maxWidth:'200px'}} className='input' type='number' placeholder='100' name='Ilość kalendarzy' id='ilosckf' />
       </div>
       <br />
 
@@ -87,7 +87,7 @@ class KalFirm extends React.Component {
           <div className='column'>
             <label className='label'>Kalendarium:</label>
             <select
-            className='button-green select-green' as='select'  name='Rodzaj główki' id='rodzaj głowki'
+            className='button-green select-green' as='select'  name='Kalendarium' id='Kalendarium'
             onChange={this.handleChange}
             onInput={(event) => {
             console.log(event.target.value);

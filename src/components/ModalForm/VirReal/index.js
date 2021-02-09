@@ -90,13 +90,13 @@ class VirReal extends React.Component {
 
             <div className='column'>
             <label className='label'> Opis projektu: </label>
-            <textarea  onChange={this.handleChange} className='textarea' type='text' rows='2'  placeholder='Opisz w kilku słowach projekt...' name='Opis projektu' id='opis projektu'  />
+            <textarea  onChange={this.handleChange} className='textarea' type='text' rows='2'  placeholder='Opisz w kilku słowach projekt...' name='Opis projektu VR' id='opis projektu VR'  />
             </div>
 
 
               <div className='column'>
               <label className='label'>Przykładowe realizacje:</label>
-              <textarea className='textarea' onChange={this.handleChange} placeholder='Podaj przykładowe projekty... ' rows='2' type='text' name='Opis produktu' id='opis produktu'></textarea>
+              <textarea className='textarea' onChange={this.handleChange} placeholder='Podaj przykładowe projekty... ' rows='2' type='text' name='Przykładowe projekty VR' id='przykładyVR'></textarea>
               </div>
 
 
@@ -111,7 +111,7 @@ class VirReal extends React.Component {
               <div className='column'>
               <label className='label'>Materiały graficzne:</label>
               <select
-              className='button-green select-green' as='select'  name='Miejsce sesji:' id='miejsce'
+              className='button-green select-green' as='select'  name='Materiały graficzne' id='matgrafI'
               onChange={this.handleChange}
               >
               <option value="Nie">Nie</option>
@@ -128,25 +128,25 @@ class VirReal extends React.Component {
               <div className='control'>
               <label className='label'>Ilość wersji językowych:</label>
 
-                <input onChange={this.handleChange} style={{maxWidth:'200px'}} className='input' type='number' min="1" placeholder='2' name='Ilość zdjęć' id='iloscz' />
+                <input onChange={this.handleChange} style={{maxWidth:'200px'}} className='input' type='number' min="1" placeholder='2' name='Ilość zdjęć' id='ilosczdjec' />
               </div>
               </div>
 
               <div className="column">
               <label className='label is-size-10'>Jakie języki:</label>
-              <input className='input' onChange={this.handleChange} placeholder='Polski, angielski... ' type='text' name='grupa docelowa' id='grupa docelowa' />
+              <input className='input' onChange={this.handleChange} placeholder='Polski, angielski... ' type='text' name='Języki' id='wersje językowe' />
               <br /><br />
               </div>
 
               <div className="column">
               <label className='label is-size-10'>Grupa docelowa:</label>
-              <input className='input' onChange={this.handleChange} placeholder='Dzieci i młodzież... ' type='text' name='grupa docelowa' id='grupa docelowa' />
+              <input className='input' onChange={this.handleChange} placeholder='Dzieci i młodzież... ' type='text' name='grupa docelowaIV' id='grupa docelowaIV' />
               <br /><br />
               </div>
 
               <div className='column'>
               <label className='label'>Termin realizacji:</label>
-                <input className='button-green date' type='date' name='deadline' id='deadline'
+                <input className='button-green date' type='date' name='deadline' id='deadlineVIII'
                 onChange={this.handleChange}
                  />
               </div>

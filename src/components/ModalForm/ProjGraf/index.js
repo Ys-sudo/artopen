@@ -137,7 +137,7 @@ class ProjGraf extends React.Component {
 
                 <div className='column'>
                 <label className='label is-size-10'>Cel projektu:</label>
-                <input className='input' onChange={this.handleChange} placeholder='kampania reklamowa, rebranding, identyfikacja wizualna... ' type='text' name='grupa docelowa' id='grupa docelowa' />
+                <input className='input' onChange={this.handleChange} placeholder='kampania reklamowa, rebranding, identyfikacja wizualna... ' type='text' name='Cel projektu' id='cel projektów' />
                 </div>
 
                 <div className='column'>
