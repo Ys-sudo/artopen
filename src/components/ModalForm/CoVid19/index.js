@@ -7,6 +7,14 @@ class CoVid19 extends React.Component {
     this.state = {}
   }
 
+  handleChange = e => {
+    this.setState({ [e.target.name]: e.target.value })
+  }
+
+  handleAttachment = e => {
+    this.setState({ [e.target.name]: e.target.files[0] })
+  }
+
   render() {
     return (
       <>
