@@ -14,6 +14,18 @@ function encode(data) {
 
 }
 
+function quitModal(){
+  document.getElementById('Stronyinternetowe').style.display = 'none';
+  document.getElementById('StronyinternetoweX').style.display = 'block';
+
+  setTimeout(() => {
+  document.getElementById('StronyinternetoweX').style.display = 'none';
+  document.getElementsByClassName('ofnav1')[4].style.backgroundColor ='white';
+  document.getElementsByClassName('ofnav1')[4].style.color ='#00d1b2';
+  document.getElementsByClassName('ofnav1')[4].firstChild.style.filter = 'brightness(1) invert(0)';
+  },1500);
+
+}
 
 class StronyW extends React.Component {
 
@@ -35,7 +47,7 @@ class StronyW extends React.Component {
 
     let fileinput = document.getElementById('fileinput');
     let file = fileinput.files[0];
-    disableEmptyInputs();
+
 
     if (file !== undefined){
         if (file.size < 1048576){
@@ -49,7 +61,7 @@ class StronyW extends React.Component {
             ...this.state,
           }),
         })
-          .then(() => navigate('/kontakt/sukces'))
+          .then(quitModal())
           .catch(error => alert(error))
       } else {
         alert('Plik jest zbyt duży. Maksymalna wielkość to 1MB, spróbuj ponownie z mniejszym plikiem');
@@ -65,7 +77,7 @@ class StronyW extends React.Component {
         ...this.state,
       }),
     })
-      .then(() => navigate('/kontakt/sukces'))
+      .then(quitModal())
       .catch(error => alert(error))
   }
 
@@ -395,7 +407,7 @@ class StronyW extends React.Component {
                 {/* file input fields */}
 
 
-
+          <hr />
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
           <input type="hidden" name="form-name" value="Strony Internetowe" />
           <div hidden>
@@ -408,7 +420,7 @@ class StronyW extends React.Component {
           </div>
 
           <div className="columns">
-          <div className='column'>
+          <div className='column' style={{marginLeft:'15px'}}>
           <div className="field">
             <label className="label" htmlFor={'name'}>
               Imię i Nazwisko<sup>*</sup>:
@@ -419,7 +431,7 @@ class StronyW extends React.Component {
                 type={'text'}
                 name={'imię i nazwisko'}
                 onChange={this.handleChange}
-                id={'imię i nazwisko'}
+                id={'imię i nazwiskoIX'}
                 required={true}
               />
             </div>
@@ -435,7 +447,7 @@ class StronyW extends React.Component {
                   type={'email'}
                   name={'adres email'}
                   onChange={this.handleChange}
-                  id={'adres email'}
+                  id={'adres emailIX'}
                   required={true}
                 />
               </div>
@@ -451,7 +463,7 @@ class StronyW extends React.Component {
                   type={'number'}
                   name={'numer telefonu'}
                   onChange={this.handleChange}
-                  id={'nrtel'}
+                  id={'nrtelIX'}
                 />
               </div>
             </div>
@@ -469,7 +481,7 @@ class StronyW extends React.Component {
                 type={'text'}
                 name={'wiadomość'}
                 onChange={this.handleChange}
-                id={'wiadomość'}
+                id={'wiadomośćIX'}
                 required={true}
                 rows = "7"
               ></textarea>
@@ -480,16 +492,12 @@ class StronyW extends React.Component {
             <br />
             <div className="control">
 
-            <label style={{fontSize: '12px'}} className='main'  htmlFor="privacy">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacy" name="privacy" defaultChecked="true" value="true"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label><br></br><br></br>
+            <label style={{fontSize: '12px'}} className='main'  htmlFor="privacyIX">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacyIX" name="privacy" defaultChecked="true" value="true"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label>
 
             </div>
 
             <div className="field" style={{textAlign:'right'}}>
 
-            <button className="button"  type="reset" onClick={this.resetRange} >
-              Wyczyść
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
               <button className="button is-primary" type="submit" onSubmit={this.handleSubmit}>
                 Wyślij
@@ -507,7 +515,7 @@ class StronyW extends React.Component {
           </div>
 
 </form>
-  <hr />
+
 
 
 

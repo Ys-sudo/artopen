@@ -13,6 +13,18 @@ function encode(data) {
 
 }
 
+function quitModal(){
+  document.getElementById('Branding').style.display = 'none';
+  document.getElementById('BrandingX').style.display = 'block';
+
+  setTimeout(() => {
+  document.getElementById('BrandingX').style.display = 'none';
+  document.getElementsByClassName('ofnav1')[2].style.backgroundColor ='white';
+  document.getElementsByClassName('ofnav1')[2].style.color ='#00d1b2';
+  document.getElementsByClassName('ofnav1')[2].firstChild.style.filter = 'brightness(1) invert(0)';
+  },1500);
+
+}
 
 
 class BranDing extends React.Component {
@@ -43,7 +55,7 @@ class BranDing extends React.Component {
         ...this.state,
       }),
     })
-      .then(() => navigate('/kontakt/sukces'))
+      .then(quitModal())
       .catch(error => alert(error))
 
   }
@@ -196,10 +208,9 @@ class BranDing extends React.Component {
                   </div>
 
                 </div>
-                <br />
                 {/* file input fields */}
 
-
+                <hr />
 
                     {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                     <input type="hidden" name="form-name" value="Branding" />
@@ -212,8 +223,8 @@ class BranDing extends React.Component {
                       </label>
                     </div>
 
-                    <div className="columns" style={{marginLeft:'15px'}}>
-                    <div className='column'>
+                    <div className="columns">
+                    <div className='column' style={{marginLeft:'15px'}}>
                     <div className="field">
                       <label className="label" htmlFor={'name'}>
                         Imię i Nazwisko<sup>*</sup>:
@@ -224,7 +235,7 @@ class BranDing extends React.Component {
                           type={'text'}
                           name={'imię i nazwisko'}
                           onChange={this.handleChange}
-                          id={'imię i nazwisko'}
+                          id={'imię i nazwiskoI'}
                           required={true}
                         />
                       </div>
@@ -240,7 +251,7 @@ class BranDing extends React.Component {
                             type={'email'}
                             name={'adres email'}
                             onChange={this.handleChange}
-                            id={'adres email'}
+                            id={'adres emailI'}
                             required={true}
                           />
                         </div>
@@ -256,7 +267,7 @@ class BranDing extends React.Component {
                             type={'number'}
                             name={'numer telefonu'}
                             onChange={this.handleChange}
-                            id={'nrtel'}
+                            id={'nrtelI'}
                           />
                         </div>
                       </div>
@@ -274,7 +285,7 @@ class BranDing extends React.Component {
                           type={'text'}
                           name={'wiadomość'}
                           onChange={this.handleChange}
-                          id={'wiadomość'}
+                          id={'wiadomośćI'}
                           required={true}
                           rows = "7"
                         ></textarea>
@@ -285,16 +296,12 @@ class BranDing extends React.Component {
                       <br />
                       <div className="control">
 
-                      <label style={{fontSize: '12px'}} className='main'  htmlFor="privacy">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacy" name="privacy" defaultChecked="true" value="true"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label><br></br><br></br>
+                      <label style={{fontSize: '12px'}} className='main'  htmlFor="privacyI">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacyI" name="privacy" defaultChecked="true" value="true"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label>
 
                       </div>
 
                       <div className="field" style={{textAlign:'right'}}>
 
-                      <button className="button"  type="reset" >
-                        Wyczyść
-                      </button>
-                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
                         <button className="button is-primary" type="submit" onSubmit={this.handleSubmit}>
                           Wyślij
@@ -317,7 +324,7 @@ class BranDing extends React.Component {
 
 
 
-                <hr />
+
 
 
 

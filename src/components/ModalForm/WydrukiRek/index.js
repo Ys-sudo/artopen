@@ -1,6 +1,29 @@
 import React from 'react';
 
+function encode(data) {
+  const formData = new FormData()
 
+
+  for (const key of Object.keys(data)) {
+    formData.append(key, data[key])
+  }
+
+  return formData
+
+}
+
+function quitModal(){
+  document.getElementById('Wydrukireklamowe').style.display = 'none';
+  document.getElementById('WydrukireklamoweX').style.display = 'block';
+
+  setTimeout(() => {
+  document.getElementById('WydrukireklamoweX').style.display = 'none';
+  document.getElementsByClassName('ofnav1')[8].style.backgroundColor ='white';
+  document.getElementsByClassName('ofnav1')[8].style.color ='#00d1b2';
+  document.getElementsByClassName('ofnav1')[8].firstChild.style.filter = 'brightness(1) invert(0)';
+  },1500);
+
+}
 
 class WydrukiRek extends React.Component {
 
@@ -9,11 +32,66 @@ class WydrukiRek extends React.Component {
     this.state = {}
   }
 
+  handleChange = e => {
+    this.setState({ [e.target.name]: e.target.value })
+  }
+
+  handleAttachment = e => {
+    this.setState({ [e.target.name]: e.target.files[0] })
+  }
+
+  handleSubmit = e => {
+
+
+    let fileinput = document.getElementById('fileinput');
+    let file = fileinput.files[0];
+
+
+    if (file !== undefined){
+        if (file.size < 1048576){
+        e.preventDefault()
+        const form = e.target;
+
+        fetch('/', {
+          method: 'POST',
+          body: encode({
+            'form-name': form.getAttribute('name'),
+            ...this.state,
+          }),
+        })
+          .then(quitModal())
+          .catch(error => alert(error))
+      } else {
+        alert('Plik jest zbyt duży. Maksymalna wielkość to 1MB, spróbuj ponownie z mniejszym plikiem');
+        }
+    } else {
+    e.preventDefault()
+    const form = e.target;
+
+    fetch('/', {
+      method: 'POST',
+      body: encode({
+        'form-name': form.getAttribute('name'),
+        ...this.state,
+      }),
+    })
+      .then(quitModal())
+      .catch(error => alert(error))
+  }
+
+}
 
   render() {
     return (
       <>
-
+      <form
+        name="Wydruki reklamowe"
+        id = "wydrukireklform"
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        onSubmit={this.handleSubmit}
+      >
       <input name='Wydruki reklamowe' id='wydrukirek' className='subtitle' placeholder='Wydruki reklamowe:' disabled style={{color:'gray',fontFamily:'Poppins', backgroundColor:'white',border:'0px solid white',marginBottom:'20px',minWidth:'100%'}} />
       <div className='field' style={{marginLeft:'18px'}}>
       <label className='label'>Rodzaj wydruku:</label>
@@ -81,31 +159,37 @@ class WydrukiRek extends React.Component {
             </div>
 
 
-            <div className='column'>
-            <label className='label main' htmlFor="inne" style={{fontSize:'14px'}}>Inne
-            <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Inne' id='inne'
-            onInput={(event) => {
 
-              if(document.getElementById('i8').style.display == 'none'){
-              document.getElementById('i8').style.display = 'block';
 
-              } else {
-              document.getElementById('i8').style.display = 'none';
 
-              }
-            }} />
-            <span className="check"></span>
-            </label>
+
+
 
 
           </div>
+
+          <div className='columns' style={{marginLeft:'3%'}}>
+          <div className='column' style={{maxWidth:'150px'}}>
+          <label className='label main' htmlFor="inne" style={{fontSize:'14px'}}>Inne
+          <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Inne' id='inne'
+          onInput={(event) => {
+
+            if(document.getElementById('i8').style.display == 'none'){
+            document.getElementById('i8').style.display = 'block';
+
+            } else {
+            document.getElementById('i8').style.display = 'none';
+
+            }
+          }} />
+          <span className="check"></span>
+          </label>
+          </div>
+          <div className='column'>
             <input  onChange={this.handleChange} className='input' type='text' placeholder='wpisz inne rodzaje...' name='inne' id='i8' style={{display:'none',maxWidth:'350px'}} />
-
-
-
-
-
           </div>
+
+        </div>
 
 
 
@@ -260,24 +344,141 @@ class WydrukiRek extends React.Component {
                   </label>
 
                   <sub align="center" style={{position:'absolute',backgroundColor:'#111111',color:'white',padding:'2px',marginLeft:'300px',fontSize:'12px'}}> Maksymalna wielkość<br></br> pliku to <b>1MB</b>. </sub>
-                  <br />
+
 
                 </div>
 
 
-              <br></br>
+
               </div>
 
             </div>
           </div>
 
 
-        <br />
+
 
       {/* Podgląd obrazu wrazie w.  <img onMouseOver={hideimg} style={{backgroundColor:'black',padding:'15px',postion:'fixed',top:'10px',right:'10px',maxWidth:'150px'}} src={''} alt="" id={'myimage'}/> */}
       </div>
 
           <hr />
+
+
+                    {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+                    <input type="hidden" name="form-name" value="Kal" />
+                    <div hidden>
+                      <label>
+                        Don’t fill this out:{' '}
+                        <input name="bot-field"
+                        onChange={this.handleChange}
+                        />
+                      </label>
+                    </div>
+
+                    <div className="columns">
+                    <div className='column' style={{marginLeft:'15px'}}>
+                    <div className="field">
+                      <label className="label" htmlFor={'name'}>
+                        Imię i Nazwisko<sup>*</sup>:
+                      </label>
+                      <div className="control">
+                        <input
+                          className="input"
+                          type={'text'}
+                          name={'imię i nazwisko'}
+                          onChange={this.handleChange}
+                          id={'imię i nazwiskoXI'}
+                          required={true}
+                        />
+                      </div>
+                      </div>
+
+                      <div className="field">
+                        <label className="label" htmlFor={'email'}>
+                          Adres E-mail<sup>*</sup>:
+                        </label>
+                        <div className="control">
+                          <input
+                            className="input"
+                            type={'email'}
+                            name={'adres email'}
+                            onChange={this.handleChange}
+                            id={'adres emailXI'}
+                            required={true}
+                          />
+                        </div>
+                      </div>
+
+                      <div className="field ">
+                        <label className="label" htmlFor={'phone'}>
+                          Numer telefonu:
+                        </label>
+                        <div className="control">
+                          <input
+                            className="input"
+                            type={'number'}
+                            name={'numer telefonu'}
+                            onChange={this.handleChange}
+                            id={'nrtelXI'}
+                          />
+                        </div>
+                      </div>
+
+
+                    </div>
+
+                    <div className="field column">
+                      <label className="label" htmlFor={'message'}>
+                        Wiadomość<sup>*</sup>:
+                      </label>
+                      <div className="control">
+                        <textarea
+                          className="textarea"
+                          type={'text'}
+                          name={'wiadomość'}
+                          onChange={this.handleChange}
+                          id={'wiadomośćXI'}
+                          required={true}
+                          rows = "7"
+                        ></textarea>
+                      </div>
+
+
+
+                      <br />
+                      <div className="control">
+
+                      <label style={{fontSize: '12px'}} className='main'  htmlFor="privacyXI">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacyXI" name="privacy" defaultChecked="true" value="true"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label>            </div>
+
+                      <div className="field" style={{textAlign:'right'}}>
+
+
+
+                        <button className="button is-primary" type="submit" onSubmit={this.handleSubmit}>
+                          Wyślij
+                        </button>
+
+
+
+                      </div>
+
+
+                    </div>
+
+
+
+                    </div>
+
+          </form>
+
+
+
+
+
+
+
+
+
 
 
 

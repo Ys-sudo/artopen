@@ -15,6 +15,16 @@ function encode(data) {
 }
 
 
+function quitModal(){
+  document.getElementById('COVID-19').style.display = 'none';
+  document.getElementById('COVID-19X').style.display = 'block';
+  setTimeout(() => {document.getElementById('COVID-19X').style.display = 'none';
+  document.getElementsByClassName('ofnav1')[0].style.backgroundColor ='white';
+  document.getElementsByClassName('ofnav1')[0].style.color ='#00d1b2';
+  document.getElementsByClassName('ofnav1')[0].firstChild.style.filter = 'brightness(1) invert(0)';
+
+  },1500);
+}
 
 
 
@@ -52,7 +62,7 @@ class CoVid19 extends React.Component {
             ...this.state,
           }),
         })
-          .then(() => document.getElementById('COVID-19').style.display = 'none')
+          .then(quitModal())
           .catch(error => alert(error))
       } else {
         alert('Plik jest zbyt duży. Maksymalna wielkość to 1MB, spróbuj ponownie z mniejszym plikiem');
@@ -68,7 +78,7 @@ class CoVid19 extends React.Component {
         ...this.state,
       }),
     })
-      .then(() => document.getElementById('COVID-19').style.display = 'none')
+      .then(quitModal())
       .catch(error => alert(error))
   }
 
@@ -110,7 +120,7 @@ class CoVid19 extends React.Component {
           <div id='i13' style={{display:'none'}}>
             <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość maseczek z logo' id='iml' style={{maxWidth:'350px',marginBottom:'20px'}} />
             <label className='label'>Rodzaj materiału:</label>
-            <select
+            <select selected="selected"
             className='button-green select-green' as='select'  name='Rodzaj materiału:' id='materiał'
             onChange={this.handleChange} style={{marginBottom:'20px'}}
             >
@@ -294,7 +304,7 @@ class CoVid19 extends React.Component {
         */}
       </div>
 
-      {/* file input fields */}
+      <hr />
 
 
 
@@ -309,8 +319,8 @@ class CoVid19 extends React.Component {
             </label>
           </div>
 
-          <div className="columns" style={{marginLeft:'15px'}}>
-          <div className='column'>
+          <div className="columns">
+          <div className='column' style={{marginLeft:'15px'}}>
           <div className="field">
             <label className="label" htmlFor={'name'}>
               Imię i Nazwisko<sup>*</sup>:
@@ -382,16 +392,12 @@ class CoVid19 extends React.Component {
             <br />
             <div className="control">
 
-            <label style={{fontSize: '12px'}} className='main'  htmlFor="privacy">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacy" name="privacy" defaultChecked="true" value="true"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label><br></br><br></br>
+            <label style={{fontSize: '12px'}} className='main'  htmlFor="privacy">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacy" name="privacy" defaultChecked="true" value="true"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label>
 
             </div>
 
             <div className="field" style={{textAlign:'right'}}>
 
-            <button className="button"  type="reset" >
-              Wyczyść
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
               <button className="button is-primary" type="submit" onSubmit={this.handleSubmit} onClick={showFileSize}>
                 Wyślij
@@ -409,7 +415,7 @@ class CoVid19 extends React.Component {
           </div>
 
       </form>
-          <hr />
+
 
 
 

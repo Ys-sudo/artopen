@@ -74,93 +74,228 @@ class ModalForm extends React.Component {
 
       {/* COVID 19 */}
 
-      <div className='columns'  id='COVID-19' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'10px'}}>
+      <div className='columns boxshadow'  id='COVID-19' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
       <CoVid19 />
+      </div>
+
+      <div className='columns boxshadow'  id='COVID-19X' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+      <div className='hero-body has-text-centered'>
+      <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+        <p className='title' style={{color:'white'}}>
+          Wiadomość została wysłana.
+        </p>
+      </div>
       </div>
 
 
       {/* Ekologia */}
 
-     <div className='columns' id='Ekologia' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'10px'}}>
+     <div className='columns boxshadow' id='Ekologia' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
      <EkoLogia />
+     </div>
+
+     <div className='columns boxshadow'  id='EkologiaX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='hero-body has-text-centered'>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+       <p className='title' style={{color:'white'}}>
+         Wiadomość została wysłana.
+       </p>
+     </div>
      </div>
 
      {/* BranDing */}
 
-     <div className='columns' id='Branding' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'10px'}}>
+     <div className='columns boxshadow' id='Branding' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
      <BranDing />
+     </div>
+
+     <div className='columns boxshadow'  id='BrandingX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='hero-body has-text-centered'>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+       <p className='title' style={{color:'white'}}>
+         Wiadomość została wysłana.
+       </p>
+     </div>
      </div>
 
      {/* Projektowanie graficzne */}
 
-     <div className='columns' id='Projektowaniegraficzne' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'10px'}}>
+     <div className='columns boxshadow' id='Projektowaniegraficzne' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
      <ProjGraf />
+     </div>
+
+     <div className='columns boxshadow'  id='ProjektowaniegraficzneX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='hero-body has-text-centered'>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+       <p className='title' style={{color:'white'}}>
+         Wiadomość została wysłana.
+       </p>
+     </div>
      </div>
 
      {/* Strony internetowe */}
 
-     <div className='columns' id='Stronyinternetowe' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'10px'}}>
+     <div className='columns boxshadow' id='Stronyinternetowe' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
      <StronyW />
+     </div>
+
+     <div className='columns boxshadow'  id='StronyinternetoweX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='hero-body has-text-centered'>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+       <p className='title' style={{color:'white'}}>
+         Wiadomość została wysłana.
+       </p>
+     </div>
      </div>
 
      {/* Kalendarze książkowe */}
 
-     <div className='columns'  id='Kalendarzeksiążkowe' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'10px'}}>
+     <div className='columns boxshadow'  id='Kalendarzeksiążkowe' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
      <KalKsia />
+     </div>
+
+     <div className='columns boxshadow'  id='KalendarzeksiążkoweX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='hero-body has-text-centered'>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+       <p className='title' style={{color:'white'}}>
+         Wiadomość została wysłana.
+       </p>
+     </div>
      </div>
 
      {/* Kalendarze firmowe */}
 
-     <div className='columns' id='Kalendarzefirmowe' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'10px'}}>
+     <div className='columns boxshadow' id='Kalendarzefirmowe' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
      <KalFirm />
+     </div>
+
+     <div className='columns boxshadow'  id='KalendarzefirmoweX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='hero-body has-text-centered'>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+       <p className='title' style={{color:'white'}}>
+         Wiadomość została wysłana.
+       </p>
+     </div>
      </div>
 
      {/* Gadżety reklamowe */}
 
-     <div className='columns' id='Gadżetyreklamowe' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'10px'}}>
+     <div className='columns boxshadow' id='Gadżetyreklamowe' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
      <GadzetyRek />
      </div>
 
+
+     <div className='columns boxshadow'  id='GadżetyreklamoweX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='hero-body has-text-centered'>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+       <p className='title' style={{color:'white'}}>
+         Wiadomość została wysłana.
+       </p>
+     </div>
+     </div>
      {/* Wydruki reklamowe */}
 
-     <div className='columns' id='Wydrukireklamowe' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'10px'}}>
+     <div className='columns boxshadow' id='Wydrukireklamowe' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
      <WydrukiRek />
+     </div>
+
+     <div className='columns boxshadow'  id='WydrukireklamoweX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='hero-body has-text-centered'>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+       <p className='title' style={{color:'white'}}>
+         Wiadomość została wysłana.
+       </p>
+     </div>
      </div>
 
      {/* Reklama zewnętrzna */}
 
-     <div className='columns' id='Reklamazewnętrzna' style={{display:'none'}}>
+     <div className='columns boxshadow' id='Reklamazewnętrzna' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
      <RekZew />
+     </div>
+
+     <div className='columns boxshadow'  id='ReklamazewnętrznaX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='hero-body has-text-centered'>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+       <p className='title' style={{color:'white'}}>
+         Wiadomość została wysłana.
+       </p>
+     </div>
      </div>
 
      {/* Fotografia produktowa */}
 
-     <div className='columns' id='Fotografiaproduktowa' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'10px'}}>
+     <div className='columns boxshadow' id='Fotografiaproduktowa' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
      <FotoProd />
+     </div>
+
+     <div className='columns boxshadow'  id='FotografiaproduktowaX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='hero-body has-text-centered'>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+       <p className='title' style={{color:'white'}}>
+         Wiadomość została wysłana.
+       </p>
+     </div>
      </div>
 
      {/* Wystawiennictwo */}
 
-     <div className='columns' id='Wystawiennictwo' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'10px'}}>
+     <div className='columns boxshadow' id='Wystawiennictwo' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
      <WystaWien />
+     </div>
+
+     <div className='columns boxshadow'  id='WystawiennictwoX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='hero-body has-text-centered'>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+       <p className='title' style={{color:'white'}}>
+         Wiadomość została wysłana.
+       </p>
+     </div>
      </div>
 
      {/* Filmowanie */}
 
-     <div className='columns' id='Filmowanie' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'10px'}}>
+     <div className='columns boxshadow' id='Filmowanie' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
      <FilmoWanie />
+     </div>
+
+     <div className='columns boxshadow'  id='FilmowanieX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='hero-body has-text-centered'>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+       <p className='title' style={{color:'white'}}>
+         Wiadomość została wysłana.
+       </p>
+     </div>
      </div>
 
      {/* Opakowania */}
 
-     <div className='columns' id='Opakowania' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'10px'}}>
+     <div className='columns boxshadow' id='Opakowania' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
      <OpaKowania />
+     </div>
+
+     <div className='columns boxshadow'  id='OpakowaniaX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='hero-body has-text-centered'>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+       <p className='title' style={{color:'white'}}>
+         Wiadomość została wysłana.
+       </p>
+     </div>
      </div>
 
      {/* VR */}
 
-     <div className='columns' id='VR' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'10px'}}>
+     <div className='columns boxshadow' id='VR' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
      <VirReal />
+     </div>
+
+     <div className='columns boxshadow'  id='VRX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='hero-body has-text-centered'>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+       <p className='title' style={{color:'white'}}>
+         Wiadomość została wysłana.
+       </p>
+     </div>
      </div>
 
 

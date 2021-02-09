@@ -12,6 +12,18 @@ function encode(data) {
 
 }
 
+function quitModal(){
+  document.getElementById('Projektowaniegraficzne').style.display = 'none';
+  document.getElementById('ProjektowaniegraficzneX').style.display = 'block';
+
+  setTimeout(() => {
+  document.getElementById('ProjektowaniegraficzneX').style.display = 'none';
+  document.getElementsByClassName('ofnav1')[3].style.backgroundColor ='white';
+  document.getElementsByClassName('ofnav1')[3].style.color ='#00d1b2';
+  document.getElementsByClassName('ofnav1')[3].firstChild.style.filter = 'brightness(1) invert(0)';
+  },1500);
+
+}
 
 
 class ProjGraf extends React.Component {
@@ -41,7 +53,7 @@ class ProjGraf extends React.Component {
         ...this.state,
       }),
     })
-      .then(() => navigate('/kontakt/sukces'))
+      .then(quitModal())
       .catch(error => alert(error))
 
   }
@@ -215,7 +227,7 @@ class ProjGraf extends React.Component {
                 {/* file input fields */}
 
 
-
+          <hr />
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
           <input type="hidden" name="form-name" value="Projektowanie graficzne" />
           <div hidden>
@@ -228,7 +240,7 @@ class ProjGraf extends React.Component {
           </div>
 
           <div className="columns">
-          <div className='column'>
+          <div className='column' style={{marginLeft:'15px'}}>
           <div className="field">
             <label className="label" htmlFor={'name'}>
               Imię i Nazwisko<sup>*</sup>:
@@ -239,7 +251,7 @@ class ProjGraf extends React.Component {
                 type={'text'}
                 name={'imię i nazwisko'}
                 onChange={this.handleChange}
-                id={'imię i nazwisko'}
+                id={'imię i nazwiskoVII'}
                 required={true}
               />
             </div>
@@ -255,7 +267,7 @@ class ProjGraf extends React.Component {
                   type={'email'}
                   name={'adres email'}
                   onChange={this.handleChange}
-                  id={'adres email'}
+                  id={'adres emailVII'}
                   required={true}
                 />
               </div>
@@ -271,7 +283,7 @@ class ProjGraf extends React.Component {
                   type={'number'}
                   name={'numer telefonu'}
                   onChange={this.handleChange}
-                  id={'nrtel'}
+                  id={'nrtelVII'}
                 />
               </div>
             </div>
@@ -289,7 +301,7 @@ class ProjGraf extends React.Component {
                 type={'text'}
                 name={'wiadomość'}
                 onChange={this.handleChange}
-                id={'wiadomość'}
+                id={'wiadomośćVII'}
                 required={true}
                 rows = "7"
               ></textarea>
@@ -300,16 +312,12 @@ class ProjGraf extends React.Component {
             <br />
             <div className="control">
 
-            <label style={{fontSize: '12px'}} className='main'  htmlFor="privacy">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacy" name="privacy" defaultChecked="true" value="true"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label><br></br><br></br>
+            <label style={{fontSize: '12px'}} className='main'  htmlFor="privacyVII">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacyVII" name="privacy" defaultChecked="true" value="true"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label>
 
             </div>
 
             <div className="field" style={{textAlign:'right'}}>
 
-            <button className="button"  type="reset" onClick={this.resetRange} >
-              Wyczyść
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
               <button className="button is-primary" type="submit" onSubmit={this.handleSubmit} >
                 Wyślij
@@ -329,7 +337,7 @@ class ProjGraf extends React.Component {
     </form>
 
 
-          <hr />
+
 
 
 
