@@ -4,6 +4,11 @@ import SearchBox from '../SearchBox'
 import { ModalForm } from '../../components/ModalForm'
 import {NewsletterForm} from '../../components/NewsletterForm'
 
+function topFunction() {
+  document.getElementById('modal').scrollTop = 0;
+}
+
+
 const NavBar = () => {
   const [active, setActive] = useState(false)
 
@@ -233,8 +238,10 @@ const NavBar = () => {
           style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'white',zIndex:'20000',overflow:'scroll'}}>
             <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'5%'}}>
 
-                <a className='button-green' style={{fontSize:'30px'}} onMouseOver={modalDestroy} >&nbsp;x&nbsp;</a>
+                <a className='button-green' style={{fontSize:'20px',position:'fixed',top:'1%',left:'1%'}} onMouseOver={modalDestroy} >&nbsp;x&nbsp;</a>
                 <ModalForm />
+
+                <a className='button-green' onClick={topFunction} style={{position:'fixed',bottom:'1%',right:'1%'}}><img width="15px"  alt="backtotop" src='/img/angle-up.svg'/></a>
 
             </div>
 

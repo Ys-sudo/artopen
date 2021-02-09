@@ -82,7 +82,7 @@ class KalKsia extends React.Component {
 
           <div className='column'>
           <label className='label'>Format kalendarza:</label>
-          <select
+          <select selected="selected"
           className='button-green select-green' as='select'  name='Format' id='format'
           onChange={this.handleChange}
           >
@@ -96,7 +96,7 @@ class KalKsia extends React.Component {
 
           <div className='column'>
           <label className='label'>Rodzaj środka:</label>
-          <select
+          <select selected="selected"
           className='button-green select-green' as='select'  name='Rodzaj środka' id='rodzajsrodka'
           onChange={this.handleChange}
           >
@@ -118,7 +118,7 @@ class KalKsia extends React.Component {
 
       <label className='label'>Rodzaj papieru:</label>
 
-      <select
+      <select selected="selected"
       className='button-green select-green' as='select'  name='Rodzaj papieru' id='rodzajpapieru'
       onChange={this.handleChange}
       onInput={(event) => {
@@ -145,12 +145,12 @@ class KalKsia extends React.Component {
 
       <div id='optionI' className='column'>
       <label className='label' >Kolor:</label>
-      <select
+      <select selected="selected"
       className='button-green select-green' as='select'  name='kolor papieru' id='kolorpapieru'
       onChange={this.handleChange}
       >
-      <option value="eco">biały</option>
-      <option value="standardowy">chamois</option>
+      <option value="biały">biały</option>
+      <option value="chamois">chamois</option>
 
       </select>
       </div>
@@ -160,8 +160,8 @@ class KalKsia extends React.Component {
       className='button-green select-green' as='select'  name='Eko papier' id='eko papier'
       onChange={this.handleChange}
       >
-      <option value="eco">papier z trawy</option>
-      <option value="standardowy">papier z kamienia</option>
+      <option value="papier z trawy">papier z trawy</option>
+      <option value="papier z kamienia">papier z kamienia</option>
 
       </select>
       </div>
@@ -177,7 +177,7 @@ class KalKsia extends React.Component {
       <div className='columns'>
       <div className='column'>
       <label className='label'>Okładzina:</label>
-      <select
+      <select selected="selected"
       className='button-green select-green' style={{width:'320px'}} as='select'  name='Okładzina' id='Okładzina'
       onChange={this.handleChange}
       onInput={(event) => {
@@ -194,19 +194,19 @@ class KalKsia extends React.Component {
       }}
       >
       <option value="oprawa z wzornika">oprawa z wzornika</option>
-      <option value="standardowy">oprawa papierowa z zadrukiem fullkolor</option>
+      <option value="oprawa papierowa z zadrukiem fullkolor">oprawa papierowa z zadrukiem fullkolor</option>
 
       </select>
       </div>
       <div className='column'>
       <label className='label'>Tasiemka:</label>
 
-      <select
+      <select selected="selected"
       className='button-green select-green' as='select'  name='Uszlachetnienia' id='Uszlachetnienia'
       onChange={this.handleChange}
       >
-      <option value="eco">standard</option>
-      <option value="standardowy">indywidualna</option>
+      <option value="standard">standard</option>
+      <option value="indywidualna">indywidualna</option>
       </select>
       </div>
       </div>

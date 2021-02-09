@@ -197,7 +197,7 @@ class WydrukiRek extends React.Component {
           <div className="columns">
             <div className='column'>
             <label className='label'>Projekt graficzny:</label>
-            <select
+            <select selected="selected"
             className='button-green select-green' as='select'  name='Projekt graficzny' id='Projekt graficzny wr'
             onChange={this.handleChange}
             >
@@ -213,7 +213,7 @@ class WydrukiRek extends React.Component {
 
             <div className='column'>
             <label className='label'>Podłoże wydruku:</label>
-            <select
+            <select selected="selected"
             className='button-green select-green' as='select'  name='Podłoże wydruku' id='podloze wydruku'
             onChange={this.handleChange}
             >
@@ -227,7 +227,7 @@ class WydrukiRek extends React.Component {
 
             <div className='column'>
             <label className='label'>Rodzaj zadruku:</label>
-            <select
+            <select selected="selected"
             className='button-green select-green' as='select'  name='Rodzaj zadruku' id='rodzaj zadruku'
             onChange={this.handleChange}
             >
@@ -240,7 +240,7 @@ class WydrukiRek extends React.Component {
 
             <div className='column'>
             <label className='label'>Rodzaj uszlachetnienia:</label>
-            <select
+            <select 
             className='button-green select-green' as='select'  name='Rodzaj uszlachetnienia' id='rodzaj uszlachetnienia'
             onChange={this.handleChange}
             >

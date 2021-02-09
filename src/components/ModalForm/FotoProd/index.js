@@ -193,13 +193,13 @@ class FotoProd extends React.Component {
 
                 <div className='column'>
                 <label className='label'>Miejsce sesji:</label>
-                <select
+                <select selected="selected"
                 className='button-green select-green' as='select'  name='Miejsce sesji' id='miejsce'
                 onChange={this.handleChange}
                 >
-                <option value="Wykonywane u klienta">Wykonywane u Klienta</option>
                 <option value="Wykonywane w Studio">Wykonywane w Studio</option>
-                <option value="Inne">Inne</option>
+                <option value="Wykonywane u klienta">Wykonywane u Klienta</option>
+                <option value="Wykonywane w terenie">Wykonywane w terenie</option>
 
 
                 </select>
@@ -207,7 +207,7 @@ class FotoProd extends React.Component {
 
                 <div className='column'>
                 <label className='label'>Obróbka zdjęć:</label>
-                <select
+                <select selected="selected"
                 className='button-green select-green' as='select'  name='Obróbka zdjęć' id='obróbka'
                 onChange={this.handleChange}
                 >

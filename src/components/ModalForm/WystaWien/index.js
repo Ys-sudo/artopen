@@ -324,12 +324,13 @@ class WystaWien extends React.Component {
         <div className='column'>
 
           <label className='label'> Oprawa graficzna: </label>
-          <select
+          <select selected="selected"
           className='button-green select-green' as='select'  name='Oprawa graficzna' id='Oprawa graficzna'
           onChange={this.handleChange}
           >
-          <option value="Własna">Własna</option>
           <option value="Do realizacji">Do realizacji</option>
+          <option value="Własna">Własna</option>
+
 
 
           </select>

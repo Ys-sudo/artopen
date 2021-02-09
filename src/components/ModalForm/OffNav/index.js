@@ -140,10 +140,10 @@ function selectOffer(event){
   if (document.getElementById(name) !== null){
     if (document.getElementById(name).style.display=='none'){
       document.getElementById(name).style.display = 'block';
-      //navigate('#'+name);
+      navigate('#'+name);
     } else {
       document.getElementById(name).style.display = 'none';
-      
+
     }
   }
 

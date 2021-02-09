@@ -106,6 +106,7 @@ class StronyW extends React.Component {
         <div className='control'>
 
           <select
+          selected="selected"
           className='button-green select-green' as='select'  name='cel' id='cel'
           onChange={this.handleChange}
           onInput={(event) => {

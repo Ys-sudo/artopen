@@ -96,7 +96,7 @@ class EkoLogia extends React.Component {
                   type={'text'}
                   name={'imię i nazwisko'}
                   onChange={this.handleChange}
-                  id={'imię i nazwiskoX'}
+                  id={'imię i nazwiskoXb'}
                   required={true}
                 />
               </div>
@@ -112,7 +112,7 @@ class EkoLogia extends React.Component {
                     type={'email'}
                     name={'adres email'}
                     onChange={this.handleChange}
-                    id={'adres emailX'}
+                    id={'adres emailXb'}
                     required={true}
                   />
                 </div>
@@ -128,7 +128,7 @@ class EkoLogia extends React.Component {
                     type={'number'}
                     name={'numer telefonu'}
                     onChange={this.handleChange}
-                    id={'nrtelX'}
+                    id={'nrtelXb'}
                   />
                 </div>
               </div>
@@ -146,7 +146,7 @@ class EkoLogia extends React.Component {
                   type={'text'}
                   name={'wiadomość'}
                   onChange={this.handleChange}
-                  id={'wiadomośćX'}
+                  id={'wiadomośćXb'}
                   required={true}
                   rows = "7"
                 ></textarea>
@@ -157,7 +157,7 @@ class EkoLogia extends React.Component {
               <br />
               <div className="control">
 
-              <label style={{fontSize: '12px'}} className='main'  htmlFor="privacyX">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacy" name="privacy" defaultChecked="true" value="true"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label>            </div>
+              <label style={{fontSize: '12px'}} className='main'  htmlFor="privacyXb">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacyXb" name="privacy" defaultChecked="true" value="true"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label>            </div>
 
               <div className="field" style={{textAlign:'right'}}>
 

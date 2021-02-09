@@ -90,7 +90,7 @@ class KalFirm extends React.Component {
       <div className='column'>
           <label className='label'>Typ kalendarza:</label>
 
-          <select
+          <select selected="selected"
           className='button-green select-green' as='select'  name='Typ kalendarza' id='typ'
           onChange={this.handleChange}
           onInput={(event) => {
@@ -120,7 +120,7 @@ class KalFirm extends React.Component {
         <div className='column' >
           <div id='glowka'>
           <label className='label'>Rodzaj główki:</label>
-          <select
+          <select selected="selected"
           className='button-green select-green' as='select'  name='Rodzaj główki' id='rodzaj głowki'
           onChange={this.handleChange}
           >
@@ -141,7 +141,7 @@ class KalFirm extends React.Component {
         <div className='columns'>
           <div className='column'>
             <label className='label'>Kalendarium:</label>
-            <select
+            <select selected="selected"
             className='button-green select-green' as='select'  name='Kalendarium' id='Kalendarium'
             onChange={this.handleChange}
             onInput={(event) => {
@@ -160,7 +160,7 @@ class KalFirm extends React.Component {
 
           <div className='column'>
             <label className='label'>Okienko:</label>
-            <select
+            <select selected="selected"
             className='button-green select-green' as='select'  name='Okienko' id='okienko'
             onChange={this.handleChange}
             >
@@ -175,7 +175,7 @@ class KalFirm extends React.Component {
 
 
           <label className='label'>Projekt:</label>
-          <select
+          <select selected="selected"
           className='button-green select-green' as='select'  name='Projekt' id='proj'
           onChange={this.handleChange}
           >

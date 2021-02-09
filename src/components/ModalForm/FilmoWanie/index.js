@@ -78,7 +78,7 @@ class FilmoWanie extends React.Component {
         <div className='column' style={{marginRight:'10px'}} >
 
           <label className='label'>Cel stworzenia filmu:</label>
-          <select
+          <select selected="selected"
           className='button-green select-green' as='select'  name='Cel stworzenia filmu' id='celfilmu' style={{minWidth:'300px'}}
           onChange={this.handleChange}
           >
@@ -96,12 +96,13 @@ class FilmoWanie extends React.Component {
         <div className='column' >
 
           <label className='label'>Użycie drona:</label>
-          <select
+          <select selected="selected"
           className='button-green select-green' as='select'  name='Dron' id='dron'
           onChange={this.handleChange}
           >
-          <option value="Tak">Tak</option>
           <option value="Nie">Nie</option>
+          <option value="Tak">Tak</option>
+
 
 
           </select>
@@ -111,12 +112,13 @@ class FilmoWanie extends React.Component {
         <div className='column' >
 
           <label className='label'>Scenariusz:</label>
-          <select
+          <select selected="selected"
           className='button-green select-green' as='select'  name='Scenariusz' id='Scenariusz'
           onChange={this.handleChange}
           >
-          <option value="Własny">Własny</option>
+
           <option value="Do zrealizowania">Do zrealizowania</option>
+          <option value="Własny">Własny</option>
 
 
           </select>

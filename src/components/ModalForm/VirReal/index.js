@@ -169,7 +169,7 @@ class VirReal extends React.Component {
 
               <div className='column'>
               <label className='label'>Materiały graficzne:</label>
-              <select
+              <select selected="selected"
               className='button-green select-green' as='select'  name='Materiały graficzne' id='matgrafI'
               onChange={this.handleChange}
               >

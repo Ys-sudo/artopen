@@ -126,13 +126,14 @@ class OpaKowania extends React.Component {
 
           <div className='column'>
           <label className='label'> Rodzaj opakowania: </label>
-          <select
+          <select selected="selected"
           className='button-green select-green' as='select'  name='Rodzaj opakowania' id='Rodzaj opakowania'
           onChange={this.handleChange}
           >
+          <option value="Nie">Pudełka produktowe</option>
           <option value="Tak">Pudełka fasonowe</option>
           <option value="Nie">Pudełka premium</option>
-          <option value="Nie">Pudełka produktowe</option>
+
 
 
           </select>
@@ -141,7 +142,7 @@ class OpaKowania extends React.Component {
 
           <div className='column'>
           <label className='label'> Sposób znakowania: </label>
-          <select
+          <select selected="selected"
           className='button-green select-green' as='select'  name='Sposób znakowania' id='Sposób znakowania'
           onChange={this.handleChange}
           >
@@ -158,12 +159,13 @@ class OpaKowania extends React.Component {
 
           <div className='column'>
           <label className='label'> Wykrojnik: </label>
-          <select
+          <select selected="selected"
           className='button-green select-green' as='select'  name='Wykrojnik' id='Wykrojnik'
           onChange={this.handleChange}
           >
-          <option value="Własny">Własny</option>
           <option value="Nowy">Nowy</option>
+          <option value="Własny">Własny</option>
+
 
 
 
@@ -173,7 +175,7 @@ class OpaKowania extends React.Component {
 
           <div className='column'>
           <label className='label'> Projekt graficzny: </label>
-          <select
+          <select selected="selected"
           className='button-green select-green' as='select'  name='Projekt graficzny' id='Projekt graficznyOp'
           onChange={this.handleChange}
           >

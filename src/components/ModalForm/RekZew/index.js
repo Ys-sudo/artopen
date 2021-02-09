@@ -233,7 +233,7 @@ class RekZew extends React.Component {
           <div className='columns'>
             <div className='column'>
             <label className='label'> Usługa montażu: </label>
-            <select
+            <select selected="selected"
             className='button-green select-green' as='select'  name='Usługa montażu' id='usługa montażu'
             onChange={this.handleChange}
             >
@@ -248,7 +248,7 @@ class RekZew extends React.Component {
 
             <div className='column'>
             <label className='label'> Projekt graficzny: </label>
-            <select
+            <select selected="selected"
             className='button-green select-green' as='select'  name='Projekt graficzny' id='projekt graficzny'
             onChange={this.handleChange}
             >
