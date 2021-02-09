@@ -9,11 +9,6 @@ class RekZew extends React.Component {
     this.state = {}
   }
 
-  handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value })
-  }
-
-
 
 
   render() {
@@ -227,12 +222,12 @@ class RekZew extends React.Component {
           <div className='column'>
             <div className='control'>
             <label className='label is-size-10'>Budżet:</label>
-            <input style={{width:'100%'}} min='1500' placeholder='25000' max='50000' id="range" className='range' name="budżet" type="range"
-            onInput={(event) => {console.log(document.getElementById('range').value);
-            document.getElementById('rvalueid').innerText = document.getElementById('range').value + ' zł';
+            <input style={{width:'100%'}} min='1500' placeholder='25000' max='50000' id="range4" className='range' name="budżet" type="range"
+            onInput={(event) => {console.log(document.getElementById('range4').value);
+            document.getElementById('rvalueid4').innerText = document.getElementById('range4').value + ' zł';
           }} onChange={this.handleChange}
             />
-            <output style={{color:'#00d1b2',textAlign:'center'}} name="rvalueid" id="rvalueid">25000 zł</output>
+            <output style={{color:'#00d1b2',textAlign:'center'}} name="rvalueid4" id="rvalueid4">25000 zł</output>
 
             </div>
         <br />

@@ -1,25 +1,7 @@
 import React from 'react';
 
 
-{/* funkcje do podglądu obrazu.
-function hideimg(){
-  const imgTag = document.getElementById("myimage");
-  imgTag.src = ' ';
-}
 
-const handleInput = (e) => {
-  const file  =  e.currentTarget.files[0];
-  const reader = new FileReader();
-  const imgTag = document.getElementById("myimage");
-  if (file.name !== undefined){
-  imgTag.title = file.name;
-  reader.onload = function(event) {
-    imgTag.src = event.target.result;
-  };
-  reader.readAsDataURL(file);
-}
-};
-*/}
 
 class StronyW extends React.Component {
 
@@ -28,59 +10,6 @@ class StronyW extends React.Component {
     this.state = {}
   }
 
-  handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value })
-  }
-
-  handleAttachment = e => {
-    this.setState({ [e.target.name]: e.target.files[0] })
-  }
-
-  resetRange = (e) => {
-  document.getElementById('range').value = 8250;
-  document.getElementById('rvalueid').innerText = document.getElementById('range').value + ' zł';
-  }
-
-  handleSubmit = e => {
-
-
-    let fileinput = document.getElementById('fileinput');
-    let file = fileinput.files[0];
-    disableEmptyInputs();
-    console.log('test');
-    if (file !== undefined){
-        if (file.size < 1048576){
-        e.preventDefault()
-        const form = e.target;
-
-        fetch('/', {
-          method: 'POST',
-          body: encode({
-            'form-name': form.getAttribute('name'),
-            ...this.state,
-          }),
-        })
-          .then(() => navigate('/kontakt/sukces'))
-          .catch(error => alert(error))
-      } else {
-        alert('Plik jest zbyt duży. Maksymalna wielkość to 1MB, spróbuj ponownie z mniejszym plikiem');
-        }
-    } else {
-    e.preventDefault()
-    const form = e.target;
-
-    fetch('/', {
-      method: 'POST',
-      body: encode({
-        'form-name': form.getAttribute('name'),
-        ...this.state,
-      }),
-    })
-      .then(() => navigate('/kontakt/sukces'))
-      .catch(error => alert(error))
-  }
-
-  }
   render() {
     return (
       <>
@@ -340,12 +269,12 @@ class StronyW extends React.Component {
                   <div className='column'>
                     <div className='control'>
                     <label className='label is-size-10'>Budżet:</label>
-                    <input style={{width:'100%'}} min='1500' placeholder='5000' max='15000' id="range" className='range' name="budżet" type="range"
-                    onInput={(event) => {console.log(document.getElementById('range').value);
-                    document.getElementById('rvalueid').innerText = document.getElementById('range').value + ' zł';
+                    <input style={{width:'100%'}} min='1500' placeholder='12500' max='25000' id="range2" className='range' name="budżet" type="range"
+                    onInput={(event) => {console.log(document.getElementById('range2').value);
+                    document.getElementById('rvalueid2').innerText = document.getElementById('range2').value + ' zł';
                   }} onChange={this.handleChange}
                     />
-                    <output style={{color:'#00d1b2',textAlign:'center'}} name="rvalueid" id="rvalueid">5000 zł</output>
+                    <output style={{color:'#00d1b2',textAlign:'center'}} name="rvalueid2" id="rvalueid2">12500 zł</output>
 
                     </div>
                   </div>

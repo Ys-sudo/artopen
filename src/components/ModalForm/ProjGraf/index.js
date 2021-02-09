@@ -9,11 +9,6 @@ class ProjGraf extends React.Component {
     this.state = {}
   }
 
-  handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value })
-  }
-
-
 
 
   render() {
@@ -161,12 +156,12 @@ class ProjGraf extends React.Component {
                   <div className=''>
                     <div className='control'>
                     <label className='label is-size-10'>Budżet:</label>
-                    <input style={{width:'100%'}} min='1500' placeholder='25000' max='50000' id="range" className='range' name="budżet" type="range"
-                    onInput={(event) => {console.log(document.getElementById('range').value);
-                    document.getElementById('rvalueid').innerText = document.getElementById('range').value + ' zł';
+                    <input style={{width:'100%'}} min='1500' placeholder='25000' max='50000' id="range1" className='range' name="budżet" type="range"
+                    onInput={(event) => {console.log(document.getElementById('range1').value);
+                    document.getElementById('rvalueid1').innerText = document.getElementById('range1').value + ' zł';
                   }} onChange={this.handleChange}
                     />
-                    <output style={{color:'#00d1b2',textAlign:'center'}} name="rvalueid" id="rvalueid">25000 zł</output>
+                    <output style={{color:'#00d1b2',textAlign:'center'}} name="rvalueid1" id="rvalueid1">25000 zł</output>
 
                     </div>
                   </div>

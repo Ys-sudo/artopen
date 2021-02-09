@@ -23,6 +23,25 @@ import VirReal from '../VirReal'
 
 
 
+{/* funkcje do podglądu obrazu.
+function hideimg(){
+  const imgTag = document.getElementById("myimage");
+  imgTag.src = ' ';
+}
+
+const handleInput = (e) => {
+  const file  =  e.currentTarget.files[0];
+  const reader = new FileReader();
+  const imgTag = document.getElementById("myimage");
+  if (file.name !== undefined){
+  imgTag.title = file.name;
+  reader.onload = function(event) {
+    imgTag.src = event.target.result;
+  };
+  reader.readAsDataURL(file);
+}
+};
+*/}
 
 function encode(data) {
   const formData = new FormData()

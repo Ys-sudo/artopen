@@ -21,13 +21,13 @@ function OffNav(props) {
     <br />
       COVID-19
     </a>
-    {/*
+
     <a onClick={selectOffer} className='ofnav1' >
     <img  width="10px" className='icon-green' style={{marginRight:'0px'}} alt="ekologia" src='/img/leaf.svg'/>
     <br />
       Ekologia
     </a>
-    */}
+
     <a onClick={selectOffer} className='ofnav1' >
     <img  width="10px" className='icon-green' style={{marginRight:'0px'}} alt="branding" src='/img/pencil-ruler.svg'/>
     <br />
@@ -51,20 +51,20 @@ function OffNav(props) {
     <br />
       Kalendarze książkowe
     </a>
-    {/*
+
     <a onClick={selectOffer} className='ofnav1' >
     <img  width="10px" className='icon-green' style={{marginRight:'0px'}} alt="kalendarze firmowe" src='/img/calendar-alt.svg'/>
     <br />
       Kalendarze firmowe
     </a>
-    */}
-    {/*
+
+
     <a onClick={selectOffer} className='ofnav1' >
     <img  width="10px" className='icon-green' style={{marginRight:'0px'}} alt="gadżety" src='/img/lightbulb.svg'/>
     <br />
       Gadżety reklamowe 
     </a>
-    */}
+
     <a onClick={selectOffer} className='ofnav1' >
     <img  width="10px" className='icon-green' style={{marginRight:'0px'}} alt="wydruki" src='/img/map.svg'/>
     <br />
@@ -88,13 +88,13 @@ function OffNav(props) {
     <br />
       Wystawiennictwo
     </a>
-    {/*
+
     <a onClick={selectOffer} className='ofnav1' >
     <img  width="10px" className='icon-green' style={{marginRight:'0px'}} alt="filmowanie" src='/img/film.svg'/>
     <br />
     Filmowanie
     </a>
-    */}
+    
     <a onClick={selectOffer} className='ofnav1' >
     <img  width="10px" className='icon-green' style={{marginRight:'0px'}} alt="opakowania" src='/img/box-open.svg'/>
     <br />
