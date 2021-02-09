@@ -15,6 +15,47 @@ class CoVid19 extends React.Component {
     this.setState({ [e.target.name]: e.target.files[0] })
   }
 
+  handleSubmit = e => {
+
+
+    let fileinput = document.getElementById('fileinput');
+    let file = fileinput.files[0];
+    disableEmptyInputs();
+
+    if (file !== undefined){
+        if (file.size < 1048576){
+        e.preventDefault()
+        const form = e.target;
+
+        fetch('/', {
+          method: 'POST',
+          body: encode({
+            'form-name': form.getAttribute('name'),
+            ...this.state,
+          }),
+        })
+          .then(() => navigate('/kontakt/sukces'))
+          .catch(error => alert(error))
+      } else {
+        alert('Plik jest zbyt duży. Maksymalna wielkość to 1MB, spróbuj ponownie z mniejszym plikiem');
+        }
+    } else {
+    e.preventDefault()
+    const form = e.target;
+
+    fetch('/', {
+      method: 'POST',
+      body: encode({
+        'form-name': form.getAttribute('name'),
+        ...this.state,
+      }),
+    })
+      .then(() => navigate('/kontakt/sukces'))
+      .catch(error => alert(error))
+  }
+
+}
+
   render() {
     return (
       <>
