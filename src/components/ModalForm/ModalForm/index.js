@@ -57,7 +57,7 @@ function encode(data) {
 
 
 function disableEmptyInputs() {
-  let form = document.getElementById('zamowienie');
+  let form = document.getElementById('zamowienieA');
   let controls = form.elements;
   let iLen = controls.length
   for (var i=0; i<iLen; i++) {
