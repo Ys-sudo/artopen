@@ -131,8 +131,8 @@ class ModalForm extends React.Component {
       <OffNav />
 
       <form
-        name="Zamówienie"
-        id = "zamowienie"
+        name="ZamówienieA"
+        id = "zamowienieA"
         method="post"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
@@ -145,92 +145,6 @@ class ModalForm extends React.Component {
       <div className='columns'  id='COVID-19' style={{display:'none'}}>
       <CoVid19 />
       </div>
-
-      {/* Ekologia */}
-
-      <div className='columns' id='Ekologia' style={{display:'none'}}>
-      <EkoLogia />
-      </div>
-
-      {/* BranDing */}
-
-      <div className='columns' id='Branding' style={{display:'none'}}>
-      <BranDing />
-      </div>
-
-      {/* Projektowanie graficzne */}
-
-      <div className='columns' id='Projektowaniegraficzne' style={{display:'none'}}>
-      <ProjGraf />
-      </div>
-
-      {/* Strony internetowe */}
-
-      <div className='columns' id='Stronyinternetowe' style={{display:'none'}}>
-      <StronyW />
-      </div>
-
-      {/* Kalendarze książkowe */}
-
-      <div className='columns'  id='Kalendarzeksiążkowe' style={{display:'none'}}>
-      <KalKsia />
-      </div>
-
-      {/* Kalendarze firmowe */}
-
-      <div className='columns' id='Kalendarzefirmowe' style={{display:'none'}}>
-      <KalFirm />
-      </div>
-
-      {/* Gadżety reklamowe */}
-
-      <div className='columns' id='Gadżetyreklamowe' style={{display:'none'}}>
-      <GadzetyRek />
-      </div>
-
-      {/* Wydruki reklamowe */}
-
-      <div className='columns' id='Wydrukireklamowe' style={{display:'none'}}>
-      <WydrukiRek />
-      </div>
-
-      {/* Reklama zewnętrzna */}
-
-      <div className='columns' id='Reklamazewnętrzna' style={{display:'none'}}>
-      <RekZew />
-      </div>
-
-      {/* Fotografia produktowa */}
-
-      <div className='columns' id='Fotografiaproduktowa' style={{display:'none'}}>
-      <FotoProd />
-      </div>
-
-      {/* Wystawiennictwo */}
-
-      <div className='columns' id='Wystawiennictwo' style={{display:'none'}}>
-      <WystaWien />
-      </div>
-
-      {/* Filmowanie */}
-
-      <div className='columns' id='Filmowanie' style={{display:'none'}}>
-      <FilmoWanie />
-      </div>
-
-      {/* Opakowania */}
-
-      <div className='columns' id='Opakowania' style={{display:'none'}}>
-      <OpaKowania />
-      </div>
-
-      {/* VR */}
-
-      <div className='columns' id='VR' style={{display:'none'}}>
-      <VirReal />
-      </div>
-
-
 
 
 
