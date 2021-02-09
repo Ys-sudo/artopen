@@ -154,7 +154,7 @@ class CoVid19 extends React.Component {
                 <div id="i15" style={{display:'none'}}>
 
                 <label className='label main' htmlFor="płynydez50" style={{fontSize:'14px'}}>50 ml
-                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Płyny dezynfekujące 50ml' id='płynydez50'
+                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='50 ml' id='płynydez50'
                 onInput={(event) => {
 
                   if(document.getElementById('i16').style.display == 'none'){
@@ -168,11 +168,11 @@ class CoVid19 extends React.Component {
                 <span className="check"></span>
                 </label>
 
-                <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='Płyny dezynfekujące 50ml' id='i16' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+                <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='Ilość 50ml' id='i16' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
 
 
                 <label className='label main' htmlFor="płynydez500" style={{fontSize:'14px'}}>500 ml
-                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Płyny dezynfekujące 500ml' id='płynydez500'
+                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='500 ml' id='płynydez500'
                 onInput={(event) => {
 
                   if(document.getElementById('i17').style.display == 'none'){
@@ -186,10 +186,10 @@ class CoVid19 extends React.Component {
                 <span className="check"></span>
                 </label>
 
-                <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='Płyny dezynfekujące 500ml' id='i17' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+                <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='Ilość 500ml' id='i17' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
 
                 <label className='label main' htmlFor="płynydez1000" style={{fontSize:'14px'}}>1000 ml
-                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Płyny dezynfekujące 1000ml' id='płynydez1000'
+                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='1000 ml' id='płynydez1000'
                 onInput={(event) => {
 
                   if(document.getElementById('i18').style.display == 'none'){
@@ -203,7 +203,7 @@ class CoVid19 extends React.Component {
                 <span className="check"></span>
                 </label>
 
-                <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='Płyny dezynfekujące 1000ml' id='i18' style={{display:'none',maxWidth:'350px'}} />
+                <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='Ilość 1000 ml' id='i18' style={{display:'none',maxWidth:'350px'}} />
 
 
 

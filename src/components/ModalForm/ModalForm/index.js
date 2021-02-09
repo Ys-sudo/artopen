@@ -93,7 +93,7 @@ class ModalForm extends React.Component {
     let fileinput = document.getElementById('fileinput');
     let file = fileinput.files[0];
     disableEmptyInputs();
-    
+
     if (file !== undefined){
         if (file.size < 1048576){
         e.preventDefault()
@@ -268,7 +268,7 @@ class ModalForm extends React.Component {
             </button>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-              <button className="button is-primary" type="submit" onClick={showFileSize}>
+              <button className="button is-primary" type="submit" onSubmit={this.handleSubmit} onClick={showFileSize}>
                 Wyślij
               </button>
 
