@@ -16,8 +16,9 @@ function OffNav(props) {
     <br />
     <div className='modalnav' style={{display:'flex',flexWrap:'wrap',marginLeft:'5%',marginBottom:'50px'}}>
 
-    <a onClick={selectOffer} className='ofnav1' >
-    <img  width="10px" className='icon-green' style={{marginRight:'0px'}} alt="covid-19" src='/img/viruses.svg'/>
+    <a onClick={selectOffer} className='ofnav1' style={{backgroundColor:'#00d1b2',color:'white'}}>
+    <img  width="10px" className='icon-green' style={{marginRight:'0px',filter: 'brightness(0) invert(1)',
+    transform: 'scale(1.5)'}} alt="covid-19" src='/img/viruses.svg'/>
     <br />
       COVID-19
     </a>

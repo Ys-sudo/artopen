@@ -74,7 +74,7 @@ class ModalForm extends React.Component {
 
       {/* COVID 19 */}
 
-      <div className='columns boxshadow'  id='COVID-19' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
+      <div className='columns boxshadow'  id='COVID-19' style={{ display:'block',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
       <CoVid19 />
       </div>
 
