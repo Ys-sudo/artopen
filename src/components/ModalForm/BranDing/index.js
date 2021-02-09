@@ -1,18 +1,67 @@
 import React from 'react';
 
 
+function encode(data) {
+  const formData = new FormData()
+
+
+  for (const key of Object.keys(data)) {
+    formData.append(key, data[key])
+  }
+
+  return formData
+
+}
+
+
+
 class BranDing extends React.Component {
 
   constructor(props) {
     super(props)
     this.state = {}
   }
-  
+
+
+  handleChange = e => {
+    this.setState({ [e.target.name]: e.target.value })
+  }
+
+  handleAttachment = e => {
+    this.setState({ [e.target.name]: e.target.files[0] })
+  }
+
+  handleSubmit = e => {
+
+    e.preventDefault()
+    const form = e.target;
+
+    fetch('/', {
+      method: 'POST',
+      body: encode({
+        'form-name': form.getAttribute('name'),
+        ...this.state,
+      }),
+    })
+      .then(() => navigate('/kontakt/sukces'))
+      .catch(error => alert(error))
+
+  }
+
+
 
 
   render() {
     return (
       <>
+      <form
+        name="Branding"
+        id = "brandingform"
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        onSubmit={this.handleSubmit}
+      >
       {/* Branding */}
 
       <input name='branding' id='branding' className='subtitle' placeholder='Branding:' disabled style={{color:'gray',fontFamily:'Poppins', backgroundColor:'white',border:'0px solid white'}} />
@@ -148,6 +197,121 @@ class BranDing extends React.Component {
 
                 </div>
                 <br />
+                {/* file input fields */}
+
+
+
+                    {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+                    <input type="hidden" name="form-name" value="Branding" />
+                    <div hidden>
+                      <label>
+                        Don’t fill this out:{' '}
+                        <input name="bot-field"
+                        onChange={this.handleChange}
+                        />
+                      </label>
+                    </div>
+
+                    <div className="columns" style={{marginLeft:'15px'}}>
+                    <div className='column'>
+                    <div className="field">
+                      <label className="label" htmlFor={'name'}>
+                        Imię i Nazwisko<sup>*</sup>:
+                      </label>
+                      <div className="control">
+                        <input
+                          className="input"
+                          type={'text'}
+                          name={'imię i nazwisko'}
+                          onChange={this.handleChange}
+                          id={'imię i nazwisko'}
+                          required={true}
+                        />
+                      </div>
+                      </div>
+
+                      <div className="field">
+                        <label className="label" htmlFor={'email'}>
+                          Adres E-mail<sup>*</sup>:
+                        </label>
+                        <div className="control">
+                          <input
+                            className="input"
+                            type={'email'}
+                            name={'adres email'}
+                            onChange={this.handleChange}
+                            id={'adres email'}
+                            required={true}
+                          />
+                        </div>
+                      </div>
+
+                      <div className="field ">
+                        <label className="label" htmlFor={'phone'}>
+                          Numer telefonu:
+                        </label>
+                        <div className="control">
+                          <input
+                            className="input"
+                            type={'number'}
+                            name={'numer telefonu'}
+                            onChange={this.handleChange}
+                            id={'nrtel'}
+                          />
+                        </div>
+                      </div>
+
+
+                    </div>
+
+                    <div className="field column">
+                      <label className="label" htmlFor={'message'}>
+                        Wiadomość<sup>*</sup>:
+                      </label>
+                      <div className="control">
+                        <textarea
+                          className="textarea"
+                          type={'text'}
+                          name={'wiadomość'}
+                          onChange={this.handleChange}
+                          id={'wiadomość'}
+                          required={true}
+                          rows = "7"
+                        ></textarea>
+                      </div>
+
+
+
+                      <br />
+                      <div className="control">
+
+                      <label style={{fontSize: '12px'}} className='main'  htmlFor="privacy">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacy" name="privacy" defaultChecked="true" value="true"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label><br></br><br></br>
+
+                      </div>
+
+                      <div className="field" style={{textAlign:'right'}}>
+
+                      <button className="button"  type="reset" >
+                        Wyczyść
+                      </button>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        <button className="button is-primary" type="submit" onSubmit={this.handleSubmit}>
+                          Wyślij
+                        </button>
+
+
+
+                      </div>
+
+
+                    </div>
+
+
+
+                    </div>
+
+                </form>
 
 
 

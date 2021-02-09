@@ -94,7 +94,7 @@ function OffNav(props) {
     <br />
     Filmowanie
     </a>
-    
+
     <a onClick={selectOffer} className='ofnav1' >
     <img  width="10px" className='icon-green' style={{marginRight:'0px'}} alt="opakowania" src='/img/box-open.svg'/>
     <br />
@@ -143,6 +143,7 @@ function selectOffer(event){
       //navigate('#'+name);
     } else {
       document.getElementById(name).style.display = 'none';
+      
     }
   }
 
