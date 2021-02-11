@@ -1,5 +1,7 @@
 import React from 'react';
 
+let num;
+
 function encode(data) {
   const formData = new FormData()
 
@@ -173,105 +175,105 @@ class KalKsia extends React.Component {
       <br />
       <label className='label'>Wzornik opraw:</label>
       <br />
-      <div className='columns' style={{marginLeft:'15px'}}>
+      <div className='columns' style={{ display:'flex', flexWrap:'wrap'}}>
       <div className='column'>
-        <label className="choicebtn">
+        <label onClick={changeOne(0)} className="choicebtn">
           Canvas
         </label>
         <br /><br />
 
-        <label className="choicebtn">
+        <label onClick={changeOne(1)} className="choicebtn">
           Vivela
         </label>
         <br /><br />
 
-        <label className="choicebtn">
+        <label onClick={changeOne(2)} className="choicebtn">
           Image
         </label>
         <br /><br />
 
-        <label className="choicebtn">
+        <label onClick={changeOne(3)} className="choicebtn">
           Cross
         </label>
         <br /><br />
-        <label className="choicebtn">
+        <label onClick={changeOne(4)} className="choicebtn">
           Ideo 
         </label>
         <br /><br />
 
-        <label className="choicebtn">
+        <label onClick={changeOne(5)} className="choicebtn">
           Natura 
         </label>
         <br /><br />
-        <label className="choicebtn">
+        <label onClick={changeOne(6)} className="choicebtn">
           Carbon 
         </label>
 
       </div>
       <div className='column'>
 
-        <label className="choicebtn">
+        <label onClick={changeOne(7)} className="choicebtn">
           Zamsz 
         </label>
         <br /><br />
 
-        <label className="choicebtn">
+        <label onClick={changeOne(8)} className="choicebtn">
           Guma 
         </label>
         <br /><br />
 
-        <label className="choicebtn">
+        <label onClick={changeOne(9)} className="choicebtn">
           Piko 
         </label>
         <br /><br />
 
-        <label className="choicebtn">
+        <label onClick={changeOne(10)} className="choicebtn">
           Flesz  
         </label>
         <br /><br />
 
-        <label className="choicebtn">
-          Aluminum  
+        <label onClick={changeOne(11)} className="choicebtn">
+          Aluminium  
         </label>
         <br /><br />
-        <label className="choicebtn">
-          Kraft  &nbsp;
+        <label onClick={changeOne(12)} className="choicebtn">
+          Craft 
         </label>
         <br /><br />
-        <label className="choicebtn">
-          Holo   &nbsp;
+        <label onClick={changeOne(13)} className="choicebtn">
+          Holo  
         </label>
 
       </div>
 
       <div className='column'>
-          <label className="choicebtn">
-            Outlet - Image    &nbsp;
+          <label onClick={changeOne(14)} className="choicebtn">
+            Image   2
           </label>
           <br /><br />
 
-          <label className="choicebtn">
-            Outlet - Colorado     &nbsp;
+          <label onClick={changeOne(15)} className="choicebtn">
+            Colorado    
           </label>
           <br /><br />
-          <label className="choicebtn">
-            Outlet - Juta  &nbsp;
+          <label onClick={changeOne(16)} className="choicebtn">
+            Juta 
           </label>
           <br /><br />
-          <label className="choicebtn">
-            Outlet - Beton   &nbsp;
+          <label onClick={changeOne(17)} className="choicebtn">
+            Beton  
           </label>
           <br /><br />
-          <label className="choicebtn">
-            Outlet - Cross  &nbsp;
+          <label onClick={changeOne(18)} className="choicebtn">
+            Cross 2
           </label>
           <br /><br />
-          <label className="choicebtn">
-            Outlet - Vivela   &nbsp;
+          <label onClick={changeOne(19)} className="choicebtn">
+            Vivela  2
           </label>
           <br /><br />
-          <label className="choicebtn">
-            Outlet - Fabra   &nbsp;
+          <label onClick={changeOne(20)} className="choicebtn">
+            Fabra  
           </label>
         </div>
       </div>
@@ -279,53 +281,55 @@ class KalKsia extends React.Component {
 
 
       {/* Obrazki radio buttons - kolory*/}
-      <div style={{textAlign:'center'}}>
+      <div style={{textAlign:'left',marginLeft:'15px'}}>
       <label>
-        <input className='koloroprawy' type="radio" name="kolor" value="" />
-        <img src="/img/oprawy/canvas__zielony.png" width='50px' />
+        <input className='koloroprawy' type="radio" name="kolor"  />
+        <img className='obrazek' src="/img/oprawy/canvas__zielony.png" width='50px' />
       </label>
       &nbsp; &nbsp;
 
       <label>
-        <input className='koloroprawy' type="radio" name="kolor" value="" />
-        <img src="/img/oprawy/canvas__zielony.png" width='50px' />
+        <input className='koloroprawy' type="radio" name="kolor" />
+        <img className='obrazek' src="/img/oprawy/canvas__czarny.png" width='50px' />
       </label>
       &nbsp; &nbsp;
 
       <label>
-        <input className='koloroprawy' type="radio" name="kolor" value="" />
-        <img src="/img/oprawy/canvas__zielony.png" width='50px' />
+        <input className='koloroprawy' type="radio" name="kolor" />
+        <img className='obrazek' src="/img/oprawy/canvas__szary.png" width='50px' />
       </label>
       &nbsp; &nbsp;
 
       <label>
-        <input className='koloroprawy' type="radio" name="kolor" value="" />
-        <img src="/img/oprawy/canvas__zielony.png" width='50px' />
+        <input className='koloroprawy' type="radio" name="kolor"  />
+        <img className='obrazek' src="/img/oprawy/canvas__niebieski.png" width='50px' />
       </label>
       &nbsp; &nbsp;
 
       <label>
-        <input className='koloroprawy' type="radio" name="kolor" value="" />
-        <img src="/img/oprawy/canvas__zielony.png" width='50px' />
+        <input className='koloroprawy' type="radio" name="kolor"  />
+        <img className='obrazek' src="/img/oprawy/canvas__granatowy.png" width='50px' />
       </label>
       &nbsp; &nbsp;
 
-      <label>
-        <input className='koloroprawy' type="radio" name="kolor" value="" />
-        <img src="/img/oprawy/canvas__zielony.png" width='50px' />
-      </label>
-      &nbsp; &nbsp;
+
 
       <label>
-        <input className='koloroprawy' type="radio" name="kolor" value="" />
-        <img src="/img/oprawy/canvas__zielony.png" width='50px' />
+        <input className='koloroprawy' type="radio" name="kolor"  />
+        <img className='obrazek' src="/img/oprawy/canvas__czerwony.png" width='50px' />
       </label>
 
       &nbsp; &nbsp;
 
       <label>
-        <input className='koloroprawy' type="radio" name="kolor" value="" />
-        <img src="/img/oprawy/canvas__zielony.png" width='50px' />
+        <input className='koloroprawy' type="radio" name="kolor"  />
+        <img className='obrazek' src="/img/oprawy/canvas__brazowy.png" width='50px' />
+      </label>
+      &nbsp; &nbsp;
+
+      <label>
+        <input className='koloroprawy' type="radio" name="kolor" />
+        <img className='obrazek' src="" width='50px' />
       </label>
 
 
@@ -575,5 +579,158 @@ class KalKsia extends React.Component {
     )
   }
 }
+
+
+
+
+let canvas = ['zielony','czarny','szary','niebieski','granatowy','czerwony','brazowy',''];
+let vivela = ['brazowy','ciemny-granat','czarny','czerwony','magenta','seledynowy','szary','turkusowy'];
+let image = ['bordowy','czarny','czekoladowy','grafitowy','granatowy','pomaranczowy','szary','zielony'];
+let cross = ['czekoladowy','czerwony','granatowy','szary','','','',''];
+let ideo = ['czarny','czerwony','granatowy','seledynowy','','','',''];
+let natura = ['bordowy','brazowy','grafitowy','granatowy','szary','','',''];
+let carbon = ['czarny','grafitowy','','','','','',''];
+
+let zamsz = ['czarny','granatowy','szary','','','','',''];
+let guma = ['czarny-satynowy','czerwony','granat-satynowy','mitowy','niebieski','pomaranczowy','szary-satynowy',''];
+let piko = ['brazowy','czarny','fioletowy','granatowy-blysk','granatowy-mat','srebrny','szary',''];
+let flesz = ['grafitowy','srebrny','zolty','','','','',''];
+let aluminium = ['czarny','granatowy','srebrny','','','','',''];
+let craft = ['grafitowy','granatowy','koralowy','niebieski','','','',''];
+let holo = ['hologram','','','','','','',''];
+
+let image2 = ['cieniowana-cegla','cieniowana-czekolada','','','','','',''];
+let colorado = ['bordowy','czerwony','grafitowy','szary','','','',''];
+let juta = ['brazowy','','','','','','',''];
+let beton = ['granatowy','','','','','','',''];
+let cross2 = ['malinowy','pomaranczowy','','','','','',''];
+let vivela2 = ['bezowy','','','','','','',''];
+let fabra = ['zielony','','','','','','',''];
+
+
+const changeOne = (num) => (event) =>{
+
+  let colors = document.getElementsByClassName('koloroprawy');
+  let pictures = document.getElementsByClassName('obrazek');
+  let name = event.target.innerText.toLowerCase();
+  name = name.replace(/\s/g, '');
+
+  var collection;
+if (num == 0){
+  collection = canvas;
+}
+  else if (num == 1){
+  collection = vivela;
+}
+  else if (num == 2) {
+  collection = image;
+}
+  else if (num == 3) {
+  collection = cross;
+}
+  else if (num == 4) {
+  collection = ideo;
+}
+  else if (num == 5) {
+  collection = natura;
+}
+  else if (num == 6) {
+  collection = carbon;
+}
+  else if (num == 7) {
+  collection = zamsz;
+}
+  else if (num == 8) {
+    collection = guma;
+  }
+  else if (num == 9) {
+    collection = piko;
+  }
+  else if (num == 10){
+  collection = flesz;
+}
+  else if (num == 11) {
+  collection = aluminium;
+}
+  else if (num == 12) {
+  collection = craft;
+}
+  else if (num == 13) {
+  collection = holo;
+}
+  else if (num == 14) {
+  collection = image2;
+  }
+  else if (num == 15) {
+  collection = colorado;
+}
+  else if (num == 16) {
+  collection = juta;
+}
+  else if (num == 17) {
+  collection = beton;
+}
+  else if (num == 18) {
+    collection = cross2;
+  }
+  else if (num == 19) {
+    collection = vivela2;
+  }
+  else if (num == 20) {
+    collection = fabra;
+  }
+
+
+
+
+  console.log(collection)
+
+
+      colors[0].value =  name + ' ' + collection[0];
+      pictures[0].src = '/img/oprawy/'+name+'__'+collection[0]+'.png';
+      console.log(colors[0].value)
+
+      colors[1].value =  name + ' ' + collection[1];
+      pictures[1].src = '/img/oprawy/'+name+'__'+collection[1]+'.png';
+
+
+      colors[2].value =  name + ' ' + collection[2];
+      pictures[2].src = '/img/oprawy/'+name+'__'+collection[2]+'.png';
+
+
+      colors[3].value =  name + ' ' + collection[3];
+      pictures[3].src = '/img/oprawy/'+name+'__'+collection[3]+'.png';
+
+
+      colors[4].value =  name + ' ' + collection[4];
+      pictures[4].src = '/img/oprawy/'+name+'__'+collection[4]+'.png';
+
+
+      colors[5].value =  name + ' ' + collection[5];
+      pictures[5].src = '/img/oprawy/'+name+'__'+collection[5]+'.png';
+
+
+      colors[6].value =  name + collection[6];
+      pictures[6].src = '/img/oprawy/'+name+'__'+collection[6]+'.png';
+
+
+      colors[7].value =  name + collection[7];
+      pictures[7].src = '/img/oprawy/'+name+'__'+collection[7]+'.png';
+
+      for (let i = 0; i < collection.length; i++){
+        if (collection[i] === ''){
+        pictures[i].src = ' ';
+        colors[i].setAttribute("disabled","true");
+      } else {
+        colors[i].removeAttribute("disabled");
+      }
+    }
+    colors[0].checked = 'true';
+
+
+
+}
+
+changeOne(0);
 
 export default KalKsia;
