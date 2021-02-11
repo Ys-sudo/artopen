@@ -173,7 +173,172 @@ class KalKsia extends React.Component {
       <br />
       <label className='label'>Wzornik opraw:</label>
       <br />
+      <div className='columns' style={{marginLeft:'15px'}}>
+      <div className='column'>
+        <label className="choicebtn">
+          Canvas
+        </label>
+        <br /><br />
 
+        <label className="choicebtn">
+          Vivela
+        </label>
+        <br /><br />
+
+        <label className="choicebtn">
+          Image
+        </label>
+        <br /><br />
+
+        <label className="choicebtn">
+          Cross
+        </label>
+        <br /><br />
+        <label className="choicebtn">
+          Ideo 
+        </label>
+        <br /><br />
+
+        <label className="choicebtn">
+          Natura 
+        </label>
+        <br /><br />
+        <label className="choicebtn">
+          Carbon 
+        </label>
+
+      </div>
+      <div className='column'>
+
+        <label className="choicebtn">
+          Zamsz 
+        </label>
+        <br /><br />
+
+        <label className="choicebtn">
+          Guma 
+        </label>
+        <br /><br />
+
+        <label className="choicebtn">
+          Piko 
+        </label>
+        <br /><br />
+
+        <label className="choicebtn">
+          Flesz  
+        </label>
+        <br /><br />
+
+        <label className="choicebtn">
+          Aluminum  
+        </label>
+        <br /><br />
+        <label className="choicebtn">
+          Kraft  &nbsp;
+        </label>
+        <br /><br />
+        <label className="choicebtn">
+          Holo   &nbsp;
+        </label>
+
+      </div>
+
+      <div className='column'>
+          <label className="choicebtn">
+            Outlet - Image    &nbsp;
+          </label>
+          <br /><br />
+
+          <label className="choicebtn">
+            Outlet - Colorado     &nbsp;
+          </label>
+          <br /><br />
+          <label className="choicebtn">
+            Outlet - Juta  &nbsp;
+          </label>
+          <br /><br />
+          <label className="choicebtn">
+            Outlet - Beton   &nbsp;
+          </label>
+          <br /><br />
+          <label className="choicebtn">
+            Outlet - Cross  &nbsp;
+          </label>
+          <br /><br />
+          <label className="choicebtn">
+            Outlet - Vivela   &nbsp;
+          </label>
+          <br /><br />
+          <label className="choicebtn">
+            Outlet - Fabra   &nbsp;
+          </label>
+        </div>
+      </div>
+      <br />
+
+
+      {/* Obrazki radio buttons - kolory*/}
+      <div style={{textAlign:'center'}}>
+      <label>
+        <input className='koloroprawy' type="radio" name="kolor" value="" />
+        <img src="/img/oprawy/canvas__zielony.png" width='50px' />
+      </label>
+      &nbsp; &nbsp;
+
+      <label>
+        <input className='koloroprawy' type="radio" name="kolor" value="" />
+        <img src="/img/oprawy/canvas__zielony.png" width='50px' />
+      </label>
+      &nbsp; &nbsp;
+
+      <label>
+        <input className='koloroprawy' type="radio" name="kolor" value="" />
+        <img src="/img/oprawy/canvas__zielony.png" width='50px' />
+      </label>
+      &nbsp; &nbsp;
+
+      <label>
+        <input className='koloroprawy' type="radio" name="kolor" value="" />
+        <img src="/img/oprawy/canvas__zielony.png" width='50px' />
+      </label>
+      &nbsp; &nbsp;
+
+      <label>
+        <input className='koloroprawy' type="radio" name="kolor" value="" />
+        <img src="/img/oprawy/canvas__zielony.png" width='50px' />
+      </label>
+      &nbsp; &nbsp;
+
+      <label>
+        <input className='koloroprawy' type="radio" name="kolor" value="" />
+        <img src="/img/oprawy/canvas__zielony.png" width='50px' />
+      </label>
+      &nbsp; &nbsp;
+
+      <label>
+        <input className='koloroprawy' type="radio" name="kolor" value="" />
+        <img src="/img/oprawy/canvas__zielony.png" width='50px' />
+      </label>
+
+      &nbsp; &nbsp;
+
+      <label>
+        <input className='koloroprawy' type="radio" name="kolor" value="" />
+        <img src="/img/oprawy/canvas__zielony.png" width='50px' />
+      </label>
+
+
+      </div>
+
+
+
+
+
+
+
+
+      <br />
       <div className='columns'>
       <div className='column'>
       <label className='label'>Okładzina:</label>
