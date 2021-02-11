@@ -4,6 +4,31 @@ $primary-invert: #ffffff
 
 @import "~bulma"
 
+html
+  overflow-x: hidden
+
+
+.custom-file-input::-webkit-file-upload-button
+  visibility: hidden
+
+.custom-file-input::before
+  content: 'Wybierz plik'
+  display: inline-block
+  background: white
+  border: 1px solid $primary
+  border-radius: 3px
+  padding: 5px 8px
+  outline: none
+  white-space: nowrap
+  -webkit-user-select: none
+  cursor: pointer
+  font-size: 10pt
+
+.custom-file-input:hover::before
+  background-color: $primary
+  color: white
+
+
 
 .main
   display: block
@@ -759,6 +784,8 @@ nav, button
 @media screen and (min-width: 700px)
   .covidoffer
     display: flex !important
+  .cv1
+    min-width: 350px
 
 .modalitem
   margin-right: 5%
@@ -796,6 +823,8 @@ nav, button
     margin-bottom: 50px
 
 +mobile
+  body
+    overflow-x: hidden !important
   .covidoffer
     display: block !important
   .modalitem

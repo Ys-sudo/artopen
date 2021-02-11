@@ -102,7 +102,7 @@ class CoVid19 extends React.Component {
       <div className='field' style={{marginLeft:'18px'}}>
       <div className='columns'>
 
-        <div className='column' style={{minWidth:'350px'}}>
+        <div className='column cv1'>
           <label className='label main' htmlFor="maseczkawu" style={{fontSize:'14px'}}>Maseczka wielokrotnego użytku z logo
           <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Maseczka z logo' id='maseczkawu'
           onInput={(event) => {
@@ -136,26 +136,22 @@ class CoVid19 extends React.Component {
 
 
               <div className="file">
-                <label className="file-label">
+                <label className="file-label" style={{width:'100%',cursor:'pointer'}}>
                 {/*onInput ={(o) => handleInput(o)}*/}
                   <input
-                    className="button is-primary"
+                    className="custom-file-input"
                     type="file"
                     name="plik"
+                    style={{width:'100%',cursor:'pointer'}}
                     onChange={this.handleAttachment}
-
-                    style={{height:'50px'}}
                     id ="fileinput"
                   />
                 </label>
 
-                <sub align="center" style={{position:'absolute',backgroundColor:'#111111',color:'white',padding:'2px',marginLeft:'300px',fontSize:'12px'}}> Maksymalna wielkość<br></br> pliku to <b>1MB</b>. </sub>
-                <br />
-
               </div>
+              <br />
+              <p align="center" style={{backgroundColor:'#111111',color:'white',padding:'2px',fontSize:'12px'}}> Maksymalna wielkość pliku to <b>1MB</b>. </p>
 
-
-            <br></br>
             </div>
           </div>
 
