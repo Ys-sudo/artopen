@@ -74,13 +74,13 @@ class ModalForm extends React.Component {
 
       {/* COVID 19 */}
 
-      <div className='columns boxshadow'  id='COVID-19' style={{ display:'block',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
+      <div className='boxshadow modalitem'  id='COVID-19' style={{ display:'block'}}>
       <CoVid19 />
       </div>
 
-      <div className='columns boxshadow'  id='COVID-19X' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+      <div className='boxshadow modalitem'  id='COVID-19X' style={{ display:'none',backgroundColor:'#00d1b2'}}>
       <div className='hero-body has-text-centered'>
-      <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+      <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="covid-19" src='/img/check.svg'/>
         <p className='title' style={{color:'white'}}>
           Wiadomość została wysłana.
         </p>
@@ -90,13 +90,13 @@ class ModalForm extends React.Component {
 
       {/* Ekologia */}
 
-     <div className='columns boxshadow' id='Ekologia' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
+     <div className='boxshadow modalitem' id='Ekologia' style={{ display:'none'}}>
      <EkoLogia />
      </div>
 
-     <div className='columns boxshadow'  id='EkologiaX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='boxshadow modalitem'  id='EkologiaX' style={{ display:'none',backgroundColor:'#00d1b2'}}>
      <div className='hero-body has-text-centered'>
-     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="ekologia" src='/img/check.svg'/>
        <p className='title' style={{color:'white'}}>
          Wiadomość została wysłana.
        </p>
@@ -105,13 +105,13 @@ class ModalForm extends React.Component {
 
      {/* BranDing */}
 
-     <div className='columns boxshadow' id='Branding' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
+     <div className='boxshadow modalitem' id='Branding' style={{ display:'none'}}>
      <BranDing />
      </div>
 
-     <div className='columns boxshadow'  id='BrandingX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='boxshadow modalitem'  id='BrandingX' style={{ display:'none',backgroundColor:'#00d1b2'}}>
      <div className='hero-body has-text-centered'>
-     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="Branding" src='/img/check.svg'/>
        <p className='title' style={{color:'white'}}>
          Wiadomość została wysłana.
        </p>
@@ -120,13 +120,13 @@ class ModalForm extends React.Component {
 
      {/* Projektowanie graficzne */}
 
-     <div className='columns boxshadow' id='Projektowaniegraficzne' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
+     <div className='boxshadow modalitem' id='Projektowaniegraficzne' style={{ display:'none'}}>
      <ProjGraf />
      </div>
 
-     <div className='columns boxshadow'  id='ProjektowaniegraficzneX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='boxshadow modalitem'  id='ProjektowaniegraficzneX' style={{ display:'none',backgroundColor:'#00d1b2'}}>
      <div className='hero-body has-text-centered'>
-     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="Projektowanie graficzne" src='/img/check.svg'/>
        <p className='title' style={{color:'white'}}>
          Wiadomość została wysłana.
        </p>
@@ -135,13 +135,13 @@ class ModalForm extends React.Component {
 
      {/* Strony internetowe */}
 
-     <div className='columns boxshadow' id='Stronyinternetowe' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
+     <div className='boxshadow modalitem' id='Stronyinternetowe' style={{ display:'none'}}>
      <StronyW />
      </div>
 
-     <div className='columns boxshadow'  id='StronyinternetoweX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='boxshadow modalitem'  id='StronyinternetoweX' style={{ display:'none',backgroundColor:'#00d1b2'}}>
      <div className='hero-body has-text-centered'>
-     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="strony internetowe" src='/img/check.svg'/>
        <p className='title' style={{color:'white'}}>
          Wiadomość została wysłana.
        </p>
@@ -150,13 +150,13 @@ class ModalForm extends React.Component {
 
      {/* Kalendarze książkowe */}
 
-     <div className='columns boxshadow'  id='Kalendarzeksiążkowe' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
+     <div className='boxshadow modalitem'  id='Kalendarzeksiążkowe' style={{ display:'none'}}>
      <KalKsia />
      </div>
 
-     <div className='columns boxshadow'  id='KalendarzeksiążkoweX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='boxshadow modalitem'  id='KalendarzeksiążkoweX' style={{ display:'none',backgroundColor:'#00d1b2'}}>
      <div className='hero-body has-text-centered'>
-     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="Kalendarze książkowe" src='/img/check.svg'/>
        <p className='title' style={{color:'white'}}>
          Wiadomość została wysłana.
        </p>
@@ -165,13 +165,13 @@ class ModalForm extends React.Component {
 
      {/* Kalendarze firmowe */}
 
-     <div className='columns boxshadow' id='Kalendarzefirmowe' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
+     <div className='boxshadow modalitem' id='Kalendarzefirmowe' style={{ display:'none'}}>
      <KalFirm />
      </div>
 
-     <div className='columns boxshadow'  id='KalendarzefirmoweX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='boxshadow modalitem'  id='KalendarzefirmoweX' style={{ display:'none',backgroundColor:'#00d1b2'}}>
      <div className='hero-body has-text-centered'>
-     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="Kalendarze firmowe" src='/img/check.svg'/>
        <p className='title' style={{color:'white'}}>
          Wiadomość została wysłana.
        </p>
@@ -180,14 +180,14 @@ class ModalForm extends React.Component {
 
      {/* Gadżety reklamowe */}
 
-     <div className='columns boxshadow' id='Gadżetyreklamowe' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
+     <div className='boxshadow modalitem' id='Gadżetyreklamowe' style={{ display:'none'}}>
      <GadzetyRek />
      </div>
 
 
-     <div className='columns boxshadow'  id='GadżetyreklamoweX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='boxshadow modalitem'  id='GadżetyreklamoweX' style={{ display:'none',backgroundColor:'#00d1b2'}}>
      <div className='hero-body has-text-centered'>
-     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="Gadżety reklamowe" src='/img/check.svg'/>
        <p className='title' style={{color:'white'}}>
          Wiadomość została wysłana.
        </p>
@@ -195,13 +195,13 @@ class ModalForm extends React.Component {
      </div>
      {/* Wydruki reklamowe */}
 
-     <div className='columns boxshadow' id='Wydrukireklamowe' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
+     <div className='boxshadow modalitem' id='Wydrukireklamowe' style={{ display:'none',marginBottom:'50px'}}>
      <WydrukiRek />
      </div>
 
-     <div className='columns boxshadow'  id='WydrukireklamoweX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='boxshadow modalitem'  id='WydrukireklamoweX' style={{ display:'none',backgroundColor:'#00d1b2'}}>
      <div className='hero-body has-text-centered'>
-     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="Wydruki reklamowe" src='/img/check.svg'/>
        <p className='title' style={{color:'white'}}>
          Wiadomość została wysłana.
        </p>
@@ -210,13 +210,13 @@ class ModalForm extends React.Component {
 
      {/* Reklama zewnętrzna */}
 
-     <div className='columns boxshadow' id='Reklamazewnętrzna' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
+     <div className='boxshadow modalitem' id='Reklamazewnętrzna' style={{ display:'none'}}>
      <RekZew />
      </div>
 
-     <div className='columns boxshadow'  id='ReklamazewnętrznaX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='boxshadow modalitem'  id='ReklamazewnętrznaX' style={{ display:'none',backgroundColor:'#00d1b2'}}>
      <div className='hero-body has-text-centered'>
-     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="Reklama zewnętrzna" src='/img/check.svg'/>
        <p className='title' style={{color:'white'}}>
          Wiadomość została wysłana.
        </p>
@@ -225,13 +225,13 @@ class ModalForm extends React.Component {
 
      {/* Fotografia produktowa */}
 
-     <div className='columns boxshadow' id='Fotografiaproduktowa' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
+     <div className='boxshadow modalitem' id='Fotografiaproduktowa' style={{ display:'none'}}>
      <FotoProd />
      </div>
 
-     <div className='columns boxshadow'  id='FotografiaproduktowaX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='boxshadow modalitem'  id='FotografiaproduktowaX' style={{ display:'none',backgroundColor:'#00d1b2'}}>
      <div className='hero-body has-text-centered'>
-     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="Fotografia produktowa" src='/img/check.svg'/>
        <p className='title' style={{color:'white'}}>
          Wiadomość została wysłana.
        </p>
@@ -240,13 +240,13 @@ class ModalForm extends React.Component {
 
      {/* Wystawiennictwo */}
 
-     <div className='columns boxshadow' id='Wystawiennictwo' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
+     <div className='boxshadow modalitem' id='Wystawiennictwo' style={{ display:'none'}}>
      <WystaWien />
      </div>
 
-     <div className='columns boxshadow'  id='WystawiennictwoX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='boxshadow modalitem'  id='WystawiennictwoX' style={{ display:'none',backgroundColor:'#00d1b2'}}>
      <div className='hero-body has-text-centered'>
-     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="Wystawiennictwo" src='/img/check.svg'/>
        <p className='title' style={{color:'white'}}>
          Wiadomość została wysłana.
        </p>
@@ -255,13 +255,13 @@ class ModalForm extends React.Component {
 
      {/* Filmowanie */}
 
-     <div className='columns boxshadow' id='Filmowanie' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
+     <div className='boxshadow modalitem' id='Filmowanie' style={{ display:'none'}}>
      <FilmoWanie />
      </div>
 
-     <div className='columns boxshadow'  id='FilmowanieX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='boxshadow modalitem'  id='FilmowanieX' style={{ display:'none',backgroundColor:'#00d1b2'}}>
      <div className='hero-body has-text-centered'>
-     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="Filmowanie" src='/img/check.svg'/>
        <p className='title' style={{color:'white'}}>
          Wiadomość została wysłana.
        </p>
@@ -270,13 +270,13 @@ class ModalForm extends React.Component {
 
      {/* Opakowania */}
 
-     <div className='columns boxshadow' id='Opakowania' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
+     <div className='boxshadow modalitem' id='Opakowania' style={{ display:'none'}}>
      <OpaKowania />
      </div>
 
-     <div className='columns boxshadow'  id='OpakowaniaX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='boxshadow modalitem'  id='OpakowaniaX' style={{ display:'none',backgroundColor:'#00d1b2'}}>
      <div className='hero-body has-text-centered'>
-     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="Opakowania" src='/img/check.svg'/>
        <p className='title' style={{color:'white'}}>
          Wiadomość została wysłana.
        </p>
@@ -285,13 +285,13 @@ class ModalForm extends React.Component {
 
      {/* VR */}
 
-     <div className='columns boxshadow' id='VR' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px'}}>
+     <div className='boxshadow modalitem' id='VR' style={{ display:'none'}}>
      <VirReal />
      </div>
 
-     <div className='columns boxshadow'  id='VRX' style={{ display:'none',marginRight:'5%', marginLeft:'5%',marginBottom:'50px',backgroundColor:'#00d1b2'}}>
+     <div className='boxshadow modalitem'  id='VRX' style={{ display:'none',backgroundColor:'#00d1b2'}}>
      <div className='hero-body has-text-centered'>
-     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="numer komórkowy" src='/img/check.svg'/>
+     <img width="50px"  style={{verticalAlign:'middle',filter:'invert(1)',marginTop:'-50px',marginBottom:'15px'}}   alt="VR" src='/img/check.svg'/>
        <p className='title' style={{color:'white'}}>
          Wiadomość została wysłana.
        </p>

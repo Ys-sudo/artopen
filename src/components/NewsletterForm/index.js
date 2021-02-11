@@ -93,7 +93,7 @@ class NewsletterForm extends React.Component {
       <input className='field input' required={true} onChange={this.handleChange} name='adres email' type='email' placeholder='Twój adres email'>
       </input>
 
-      <label style={{fontSize: '12px',color:'white'}} className='main'  htmlFor="zgoda">   <input onChange={this.handleChange} required={true} type="checkbox" id="zgoda" name="zgoda" defaultChecked="true" value="none"/>Wyrażam zgodę na otrzymywanie drogą elektroniczną na wskazany przeze mnie adres email informacji handlowej w rozumieniu art. 10 ust. 1 ustawy z dnia 18 lipca 2002 roku o świadczeniu usług drogą elektroniczną od Art Open Sp. z o.o.
+      <label style={{fontSize: '12px',color:'white'}} className='main'  htmlFor="zgoda">   <input onChange={this.handleChange} required={true} type="checkbox" id="zgoda" name="zgoda" defaultChecked="true" value="true"/>Wyrażam zgodę na otrzymywanie drogą elektroniczną na wskazany przeze mnie adres email informacji handlowej w rozumieniu art. 10 ust. 1 ustawy z dnia 18 lipca 2002 roku o świadczeniu usług drogą elektroniczną od Art Open Sp. z o.o.
       <sup>*</sup>.<span className="check"></span></label>
       <button className="darkbutton" type="submit" >
       <b>Zapisz mnie!</b>

@@ -55,7 +55,7 @@ const HomePageTemplate = (props) => {
               </div>
 
 
-              <div className='column columns' style={{display:'flex-block',marginTop:'20px',minWidth:'60%'}}>
+              <div className='column columns covidoffer' style={{marginTop:'20px',minWidth:'60%'}}>
               <a href="/covid-19/" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
                 <div >
                 <img width="40px"  style={{verticalAlign:'middle'}}   alt="maseczki" src='/img/maseczki.svg'/>
