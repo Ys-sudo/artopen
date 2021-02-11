@@ -281,7 +281,7 @@ class KalKsia extends React.Component {
 
 
       {/* Obrazki radio buttons - kolory*/}
-      <div style={{textAlign:'left',marginLeft:'15px'}}>
+      <div style={{textAlign:'center'}}>
       <label>
         <input className='koloroprawy' type="radio" name="kolor"  />
         <img className='obrazek' src="/img/oprawy/canvas__zielony.png" width='50px' />
