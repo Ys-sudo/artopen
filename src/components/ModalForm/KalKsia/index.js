@@ -344,40 +344,41 @@ class KalKsia extends React.Component {
 
       <br />
       <div className='columns'>
-      <div className='column'>
-      <label className='label'>Okładzina:</label>
-      <select selected="selected"
-      className='button-green select-green' style={{width:'320px'}} as='select'  name='Okładzina' id='Okładzina'
-      onChange={this.handleChange}
-      onInput={(event) => {
-      console.log(event.target.value);
-        if(event.target.value == 'oprawa z wzornika'){
-          document.getElementById('UszlachetnieniaI').style.display = 'flex';
-          document.getElementById('UszlachetnieniaII').style.display = 'none';
+        <div className='column'>
+        <label className='label'>Okładzina:</label>
+        <select selected="selected"
+        className='button-green select-green' style={{width:'320px'}} as='select'  name='Okładzina' id='Okładzina'
+        onChange={this.handleChange}
+        onInput={(event) => {
+        console.log(event.target.value);
+          if(event.target.value == 'oprawa z wzornika'){
+            document.getElementById('UszlachetnieniaI').style.display = 'flex';
+            document.getElementById('UszlachetnieniaII').style.display = 'none';
 
-        } else {
-          document.getElementById('UszlachetnieniaI').style.display = 'none';
-          document.getElementById('UszlachetnieniaII').style.display = 'flex';
+          } else {
+            document.getElementById('UszlachetnieniaI').style.display = 'none';
+            document.getElementById('UszlachetnieniaII').style.display = 'flex';
 
-        }
-      }}
-      >
-      <option value="oprawa z wzornika">oprawa z wzornika</option>
-      <option value="oprawa papierowa z zadrukiem fullkolor">oprawa papierowa z zadrukiem fullkolor</option>
+          }
+        }}
+        >
+        <option value="oprawa z wzornika">oprawa z wzornika</option>
+        <option value="oprawa papierowa z zadrukiem fullkolor">oprawa papierowa z zadrukiem fullkolor</option>
 
-      </select>
-      </div>
-      <div className='column'>
-      <label className='label'>Tasiemka:</label>
+        </select>
+        </div>
+        <div className='column'>
+        <label className='label'>Tasiemka:</label>
 
-      <select selected="selected"
-      className='button-green select-green' as='select'  name='Uszlachetnienia' id='Uszlachetnienia'
-      onChange={this.handleChange}
-      >
-      <option value="standard">standard</option>
-      <option value="indywidualna">indywidualna</option>
-      </select>
-      </div>
+        <select selected="selected"
+        className='button-green select-green' as='select'  name='Uszlachetnienia' id='Uszlachetnienia'
+        onChange={this.handleChange}
+        >
+        <option value="standard">standard</option>
+        <option value="indywidualna">indywidualna</option>
+        </select>
+        </div>
+
       </div>
 
       <label className='label'>Uszlachetnienia:</label>
@@ -455,6 +456,164 @@ class KalKsia extends React.Component {
       <label className='label'>Dodatki:</label>
       <br />
       </div>
+
+      <div className="columns" style={{textAlign:'center'}}>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+
+
+
+      </div>
+
+
+
+
+    <div className="columns" style={{textAlign:'center'}}>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+
+
+
+
+
+
+    </div>
+
+
+    <div className="columns" style={{textAlign:'center'}}>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+
+
+
+
+
+
+    </div>
+
+    <div className="columns" style={{textAlign:'center'}}>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <label className='column'>
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>
+
+      <span className='column'>
+
+      </span>
+      <span className='column'>
+
+      </span>
+
+
+    </div>
+
+
+
+
       <hr />
 
 
