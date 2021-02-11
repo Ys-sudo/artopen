@@ -17,7 +17,7 @@ const NewsCall = () => {
 
       <div className='NewsCall' onClick={newsEnter} style={{width:'100%', textAlign:'center',
       backgroundImage: 'linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e6eb 100%)'}}>
-        <div className='columns section'>
+        <div style={{paddingTop:'30px',paddingBottom:'50px'}}>
           <div className='column' >
             <h5 className='title' style={{color:'white',fontSize:'29px'}}>
               Bądź na bieżąco

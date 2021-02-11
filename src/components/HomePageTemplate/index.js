@@ -97,7 +97,7 @@ const HomePageTemplate = (props) => {
 
       <div style={{marginLeft:'auto',marginRight:'auto',textAlign:'center'}}>
       <br /><br />
-      <img src='/img/slider_1.jpg' width='350px' alt='oferta' />
+      <img src='/img/slider_1.jpg' style={{maxWidth:'350px'}} alt='oferta' />
       <br />
       <h4 className='title'> Poznaj naszą ofertę: </h4>
       <h5 className='subtitle'> Zobacz co możemy dla Ciebie zrobić. </h5>
@@ -118,8 +118,8 @@ const HomePageTemplate = (props) => {
         <img src='/img/slider_1.jpg' width='750px'  alt='oferta' />
 
         <br /><br />
-        <h4 className='title' style={{textAlign:'center'}}> Portfolio </h4>
-        <h5 className='subtitle' style={{marginBottom:'20px',textAlign:'center'}}> Zapoznaj się z naszymi realizacjami. </h5>
+        <h4 className='title' style={{textAlign:'center',marginLeft:'15px',marginRight:'15px'}}> Portfolio </h4>
+        <h5 className='subtitle' style={{marginBottom:'20px',textAlign:'center',marginLeft:'15px',marginRight:'15px'}}> Zapoznaj się z naszymi realizacjami. </h5>
         </div>
 
         <PortfolioRoll />

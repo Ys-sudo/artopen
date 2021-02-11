@@ -73,12 +73,7 @@ const Layout = (props) => {
       <NavBar />
       <>{props.children}</>
 
-      <div onLoad={loadScroll} id='backtotop'
-      style={{display:'none',position:'fixed',right:'2px',
-      bottom:'4px',padding:'4px', width:'27px',textAlign:'center',
-      height:'27px',backgroundColor:'#111111',borderRadius:'5px'}}>
-      <a href="#"><img width="20px" className='icon-green'  alt="backtotop" src='/img/angle-up.svg'/></a>
-      </div>
+
 
       <Footer copyright={config.copyright} />
 
@@ -109,35 +104,5 @@ const Layout = (props) => {
 }
 
 
-function scrollFunction() {
-  if ( document.documentElement.scrollTop > 250) {
-    document.getElementById("backtotop").style.display = "block";
-
-    //document.getElementsByClassName("navbar")[0].style.color =  '#111111';
-    //document.getElementsByClassName("navbar")[0].style.backgroundColor = 'rgba(255,255,255,0)';
-
-    //document.getElementsByClassName("navbar-item")[0].firstChild.style.filter =  'invert(0)';
-
-
-
-
-  } else {
-    document.getElementById("backtotop").style.display = "none";
-
-
-    //document.getElementsByClassName("navbar")[0].style.color = 'white';
-    //document.getElementsByClassName("navbar")[0].style.backgroundColor =  '#111111';
-
-    //document.getElementsByClassName("navbar-item")[0].firstChild.style.filter =  'invert(1)';
-
-
-  }
-}
-
-function loadScroll(){
-  console.log('loaded');
-  document.onscroll = function() {scrollFunction()};
-
-}
 
 export default Layout

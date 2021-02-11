@@ -19,7 +19,7 @@ const ModalCall = () => {
       backgroundImage: 'linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e6eb 100%)',marginBottom:'12px'}}>
         <div className='columns section'>
           <div className='column' style={{marginRight:'50px',marginLeft:'10%'}}>
-            <h5 className='title' style={{color:'white',fontSize:'29px'}}>
+            <h5 className='title' style={{color:'white',fontSize:'27px'}}>
               Złóż zamówienie
             </h5>
             <h6 className='subtitle' style={{color:'white',fontSize:'18px'}}>

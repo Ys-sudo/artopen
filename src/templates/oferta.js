@@ -47,7 +47,7 @@ const OfertaPage = (props) => {
         </div>
       </section>
 
-      <div style={{textAlign:'center',marginTop:'50px'}}>
+      <div style={{textAlign:'center',marginRight:'15px',marginLeft:'15px',marginTop:'50px'}}>
       <br></br>
 
       <h2 className='title'>

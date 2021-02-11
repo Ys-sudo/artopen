@@ -6,7 +6,7 @@ function OffNav(props) {
 
   return (
     <>
-    <div  style={{textAlign:'center',marginTop:'-50px'}}>
+    <div  style={{textAlign:'center',marginTop:'auto'}}>
       <img width="200px" src='/img/ArtOpen.svg' alt="ArtOpen studio reklamy" />
       <br />
     </div>
