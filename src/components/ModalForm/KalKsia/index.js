@@ -1,6 +1,9 @@
 import React from 'react';
+import AliceCarousel from 'react-alice-carousel'
+import 'react-alice-carousel/lib/alice-carousel.css'
 
 let num;
+const handleDragStart = (e) => e.preventDefault();
 
 function encode(data) {
   const formData = new FormData()
@@ -284,31 +287,31 @@ class KalKsia extends React.Component {
       <div style={{textAlign:'center'}}>
       <label>
         <input className='koloroprawy' type="radio" name="kolor"  />
-        <img className='obrazek' src="/img/oprawy/canvas__zielony.png" width='50px' />
+        <img className='obrazek' src="/img/oprawy/canvas__zielony.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label>
         <input className='koloroprawy' type="radio" name="kolor" />
-        <img className='obrazek' src="/img/oprawy/canvas__czarny.png" width='50px' />
+        <img className='obrazek' src="/img/oprawy/canvas__czarny.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label>
         <input className='koloroprawy' type="radio" name="kolor" />
-        <img className='obrazek' src="/img/oprawy/canvas__szary.png" width='50px' />
+        <img className='obrazek' src="/img/oprawy/canvas__szary.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label>
         <input className='koloroprawy' type="radio" name="kolor"  />
-        <img className='obrazek' src="/img/oprawy/canvas__niebieski.png" width='50px' />
+        <img className='obrazek' src="/img/oprawy/canvas__niebieski.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label>
         <input className='koloroprawy' type="radio" name="kolor"  />
-        <img className='obrazek' src="/img/oprawy/canvas__granatowy.png" width='50px' />
+        <img className='obrazek' src="/img/oprawy/canvas__granatowy.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
@@ -316,20 +319,20 @@ class KalKsia extends React.Component {
 
       <label>
         <input className='koloroprawy' type="radio" name="kolor"  />
-        <img className='obrazek' src="/img/oprawy/canvas__czerwony.png" width='50px' />
+        <img className='obrazek' src="/img/oprawy/canvas__czerwony.png" width='80px' />
       </label>
 
       &nbsp; &nbsp;
 
       <label>
         <input className='koloroprawy' type="radio" name="kolor"  />
-        <img className='obrazek' src="/img/oprawy/canvas__brazowy.png" width='50px' />
+        <img className='obrazek' src="/img/oprawy/canvas__brazowy.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label>
         <input className='koloroprawy' type="radio" name="kolor" />
-        <img className='obrazek' src="" width='50px' />
+        <img className='obrazek' src="" width='80px' />
       </label>
 
 
@@ -367,7 +370,7 @@ class KalKsia extends React.Component {
 
         </select>
         </div>
-        <div className='column'>
+      <div className='column'>
         <label className='label'>Tasiemka:</label>
 
         <select selected="selected"
@@ -378,6 +381,9 @@ class KalKsia extends React.Component {
         <option value="indywidualna">indywidualna</option>
         </select>
         </div>
+
+      </div>
+      <div>
 
       </div>
 
@@ -452,7 +458,7 @@ class KalKsia extends React.Component {
 
 
 
-      <br /><br />
+      <br />
       <label className='label'>Dodatki:</label>
       <br />
       </div>
@@ -611,6 +617,18 @@ class KalKsia extends React.Component {
 
     </div>
 
+
+    <label className='label' style={{marginLeft:'15px'}}>Gumka:</label>
+    <br />
+
+    <div>
+
+    <AliceCarousel autoPlay infinite items={gumki} autoPlayInterval="5000">
+
+    </AliceCarousel>
+
+
+    </div>
 
 
 
@@ -891,5 +909,75 @@ if (num == 0){
 }
 
 changeOne(0);
+
+
+
+
+const gumki = [
+
+  [  <label className="gumki">
+      <input type="radio" name="test" value="small"  />
+      <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+    </label>,
+    <label className="gumki">
+        <input type="radio" name="test" value="small"  />
+        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      </label>,
+      <label className="gumki">
+          <input type="radio" name="test" value="small"  />
+          <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+        </label>,
+        <label className="gumki">
+            <input type="radio" name="test" value="small"  />
+            <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+          </label>,
+          <label className="gumki">
+              <input type="radio" name="test" value="small"  />
+              <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+            </label>,
+          ],[
+
+            <label className="gumki">
+                <input type="radio" name="test" value="small"  />
+                <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+              </label>,
+              <label className="gumki">
+                  <input type="radio" name="test" value="small"  />
+                  <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+                </label>,
+                <label className="gumki">
+                    <input type="radio" name="test" value="small"  />
+                    <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+                  </label>,
+                  <label className="gumki">
+                      <input type="radio" name="test" value="small"  />
+                      <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+                    </label>,
+                    <label className="gumki">
+                        <input type="radio" name="test" value="small"  />
+                        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+                      </label>,
+
+                    ],[
+                      <label className="gumki">
+                          <input type="radio" name="test" value="small"  />
+                          <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+                        </label>,
+                        <label className="gumki">
+                            <input type="radio" name="test" value="small"  />
+                            <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+                          </label>,
+                          <label className="gumki">
+                              <input type="radio" name="test" value="small"  />
+                              <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+                            </label>,
+                            <label className="gumki">
+                                <input type="radio" name="test" value="small"  />
+                                <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+                              </label>,
+                              <label className="gumki">
+                                  <input type="radio" name="test" value="small"  />
+                                  <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+                                </label>]];
 
 export default KalKsia;
