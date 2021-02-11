@@ -302,7 +302,7 @@ const HomePageTemplate = (props) => {
 
 
 
-      <div style={{marginTop:'5%',marginLeft:'10%',marginRight:'10%',marginBottom:'5%'}}>
+      <div style={{marginTop:'5%',marginLeft:'7%',marginRight:'7%',marginBottom:'5%'}}>
       <h5 className='has-text-weight-semibold is-size-2'>Co mówią o nas klienci?</h5>
       <br /><br />
       <div className="columns" style={{border:'1px solid lightgray',padding:'20px 20px 20px 20px',borderRadius:'25px',width:'100%'}}>

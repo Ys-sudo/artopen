@@ -352,7 +352,7 @@ class KalKsia extends React.Component {
 
          </div>
 
-         <div className="field column">
+         <div className="field column" style={{marginLeft:'15px'}}>
            <label className="label" htmlFor={'message'}>
              Wiadomość<sup>*</sup>:
            </label>

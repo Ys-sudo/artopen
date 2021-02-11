@@ -50,7 +50,7 @@ const ContactForm = () => {
           <div className='field column' style={{marginRight:'20px'}}>
             <label className='label'>Imię:<sup>*</sup></label>
             <div className='control'>
-              <Field className='input' type='text' placeholder='Imię' name='imię' id='imię' />
+              <Field className='input' type='text' placeholder='Imię' name='imię' id='imię kontakt' />
             </div>
             {touched.imię && errors.imię && <small className='has-text-danger'>{errors.imię}</small>}
           </div>
@@ -58,7 +58,7 @@ const ContactForm = () => {
           <div className='field column'>
             <label className='label'>Email:<sup>*</sup></label>
             <div className='control'>
-              <Field className='input' type='email' placeholder='Email' name='email' id='email' />
+              <Field className='input' type='email' placeholder='Email' name='email' id='email kontakt' />
             </div>
             {touched.email && errors.email && <small className='has-text-danger'>{errors.email}</small>}
           </div>
@@ -67,7 +67,7 @@ const ContactForm = () => {
         <div className='field'>
           <label className='label'>Telefon:</label>
           <div className='control'>
-            <Field className='input' type='tel' placeholder='Numer telefonu' name='telefon' id='telefon' />
+            <Field className='input' type='tel' placeholder='Numer telefonu' name='telefon' id='telefon kontakt' />
           </div>
           {touched.telefon && errors.telefon && <small className='has-text-danger'>{errors.telefon}</small>}
         </div>
@@ -75,7 +75,7 @@ const ContactForm = () => {
         <div className='field'>
           <label className='label'>Wiadomość:<sup>*</sup></label>
           <div className='control'>
-            <Field className='textarea' component='textarea' placeholder='Wiadomość...' name='wiadomość' id='wiadomość' rows='6' />
+            <Field className='textarea' component='textarea' placeholder='Wiadomość...' name='wiadomość' id='wiadomość kontakt' rows='6' />
           </div>
           {touched.wiadomość && errors.wiadomość && <small className='has-text-danger'>{errors.wiadomość}</small>}
         </div>
