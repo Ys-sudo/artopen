@@ -108,7 +108,7 @@ class Footer extends React.Component {
             posts.slice(0,8)
             .filter(post => post.node.frontmatter.templateKey === 'article-page')
             .map(({ node: post }) => (
-              <a className='submenu-item' href={post.fields.slug+'/'} >
+              <a className='submenu-item' key={post.id} href={post.fields.slug+'/'} >
                 {post.frontmatter.title}
               </a>
           ))}

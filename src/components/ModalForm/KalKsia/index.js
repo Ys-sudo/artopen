@@ -358,9 +358,17 @@ class KalKsia extends React.Component {
             document.getElementById('UszlachetnieniaI').style.display = 'flex';
             document.getElementById('UszlachetnieniaII').style.display = 'none';
 
+            for(let i=0;i<document.getElementsByClassName('u2').length;i++){
+              document.getElementsByClassName('u2')[i].checked = false;
+            }
+
           } else {
             document.getElementById('UszlachetnieniaI').style.display = 'none';
             document.getElementById('UszlachetnieniaII').style.display = 'flex';
+
+            for(let i=0;i<document.getElementsByClassName('u1').length;i++){
+              document.getElementsByClassName('u1')[i].checked =false;
+            }
 
           }
         }}
@@ -395,27 +403,31 @@ class KalKsia extends React.Component {
       <div className='control columns' id='UszlachetnieniaI' style={{display:'flex',flexWrap:'wrap',width:'100%',marginLeft:'3%'}}>
           <div className='column'>
             <label htmlFor="tloczenie" className='label main' style={{fontSize:'14px'}}>Tłoczenie
-            <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Tłoczenie' id='tloczenie' />
+            <input className='checkbox u1' onChange={this.handleChange} type='checkbox'  name='Tłoczenie' id='tloczenie' />
             <span className="check"></span>
             </label>
           </div>
           <div className='column'>
-            <label htmlFor="grawerlaserowy" className='label main' style={{fontSize:'14px'}}>Grawer laserowy<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Grawer laserowy' id='grawerlaserowy' />
+            <label htmlFor="grawerlaserowy" className='label main' style={{fontSize:'14px'}}>Grawer laserowy
+            <input className='checkbox u1' onChange={this.handleChange} type='checkbox'  name='Grawer laserowy' id='grawerlaserowy' />
             <span className="check"></span>
             </label>
           </div>
           <div className='column'>
-            <label className='label main' htmlFor="pattern" style={{fontSize:'14px'}}>Pattern<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Pattern' id='pattern' />
+            <label className='label main' htmlFor="pattern" style={{fontSize:'14px'}}>Pattern
+            <input className='checkbox u1' onChange={this.handleChange} type='checkbox'  name='Pattern' id='pattern' />
             <span className="check"></span>
             </label>
           </div>
           <div className='column'>
-            <label className='label main' htmlFor="przeszycie" style={{fontSize:'14px'}}>Przeszycie artysytczne<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Przeszycie artysytczne' id='przeszycie' />
+            <label className='label main' htmlFor="przeszycie" style={{fontSize:'14px'}}>Przeszycie artysytczne
+            <input className='checkbox u1' onChange={this.handleChange} type='checkbox'  name='Przeszycie artysytczne' id='przeszycie' />
             <span className="check"></span>
             </label>
           </div>
           <div className='column'>
-            <label className='label main' htmlFor="finochrom" style={{fontSize:'14px'}}>Finochrom<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Finochrom' id='finochrom' />
+            <label className='label main' htmlFor="finochrom" style={{fontSize:'14px'}}>Finochrom
+            <input className='checkbox u1' onChange={this.handleChange} type='checkbox'  name='Finochrom' id='finochrom' />
             <span className="check"></span>
             </label>
           </div>
@@ -424,27 +436,31 @@ class KalKsia extends React.Component {
       <div className='control columns' id='UszlachetnieniaII' style={{display:'none',flexWrap:'wrap',width:'100%',marginLeft:'3%'}}>
         <div className='column'>
             <label htmlFor="folia mat" className='label main' style={{fontSize:'14px'}}>Folia mat
-            <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia mat' id='folia mat' />
+            <input className='checkbox u2' onChange={this.handleChange} type='checkbox'  name='Folia mat' id='folia mat' />
             <span className="check"></span>
             </label>
           </div>
           <div className='column'>
-            <label htmlFor="folia blysk" className='label main' style={{fontSize:'14px'}}>Folia błysk<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia błysk' id='folia blysk' />
+            <label htmlFor="folia blysk" className='label main' style={{fontSize:'14px'}}>Folia błysk
+            <input className='checkbox u2' onChange={this.handleChange} type='checkbox'  name='Folia błysk' id='folia blysk' />
             <span className="check"></span>
             </label>
           </div>
           <div className='column'>
-            <label className='label main' htmlFor="foliasoft" style={{fontSize:'14px'}}>Folia soft touch<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia soft touch' id='foliasoft' />
+            <label className='label main' htmlFor="foliasoft" style={{fontSize:'14px'}}>Folia soft touch
+            <input className='checkbox u2' onChange={this.handleChange} type='checkbox'  name='Folia soft touch' id='foliasoft' />
             <span className="check"></span>
             </label>
           </div>
           <div className='column'>
-            <label className='label main' htmlFor="metalprint" style={{fontSize:'14px'}}>Metal print<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Metal print' id='metalprint' />
+            <label className='label main' htmlFor="metalprint" style={{fontSize:'14px'}}>Metal print
+            <input className='checkbox u2' onChange={this.handleChange} type='checkbox'  name='Metal print' id='metalprint' />
             <span className="check"></span>
             </label>
           </div>
           <div className='column'>
-            <label className='label main' htmlFor="lakieruv" style={{fontSize:'14px'}}>Lakier UV<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Lakier UV' id='lakieruv' />
+            <label className='label main' htmlFor="lakieruv" style={{fontSize:'14px'}}>Lakier UV
+            <input className='checkbox u2' onChange={this.handleChange} type='checkbox'  name='Lakier UV' id='lakieruv' />
             <span className="check"></span>
             </label>
           </div>
