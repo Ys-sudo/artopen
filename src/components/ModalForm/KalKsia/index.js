@@ -465,34 +465,34 @@ class KalKsia extends React.Component {
 
       <div className="columns" style={{textAlign:'center'}}>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="barwione brzegi" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_barwione_brzegi_942-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="gumka grzbietowa" value="tak"  />
+        <img className='obrazek' src="/img/dodatki/dodatki_gumka_grzbietowa_738-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="gumka pionowa" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_gumka_pionowa_354-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="gumka pozioma" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_gumka_pozioma_234-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="koperta" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_koperta_493-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="kryształ" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_krysztal_779-300x300.jpg" width='100px' />
       </label>
 
 
@@ -505,34 +505,34 @@ class KalKsia extends React.Component {
 
     <div className="columns" style={{textAlign:'center'}}>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="m1" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_m1_859-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="m2" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_m2_288-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="m3" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_m3_105-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="m4" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_m4_724-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="m11" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_m11_563-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="m14" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_m14_116-300x300.jpg" width='100px' />
       </label>
 
 
@@ -546,34 +546,34 @@ class KalKsia extends React.Component {
 
     <div className="columns" style={{textAlign:'center'}}>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="m15" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_m15_967-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="magnes" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_patka-magnes_660-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="pendrive" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="grawer" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_personalizacja-grawer_777-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="tloczenie" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_personalizacja-tloczenie_186-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input  type="radio" name="kieszonka prostokatna" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_prostokatna-kieszonka_923-300x300.jpg" width='100px' />
       </label>
 
 
@@ -586,25 +586,25 @@ class KalKsia extends React.Component {
 
     <div className="columns" style={{textAlign:'center'}}>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input type="radio" name="szlufka" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_szlufka_na_dlugopis_226-300x300.jpg" width='100px' />
       </label>
 
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input type="radio" name="tasiemki" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_tasiemki_581-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input type="radio" name="kieszonka trojkatna" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_trojkatna-kieszonka_750-300x300.jpg" width='100px' />
       </label>
 
-      <label className='column'>
-        <input type="radio" name="test" value="small"  />
-        <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+      <label onClick={isChecked} className='column'>
+        <input type="radio" name="uchwyt" value="tak"  />
+        <img className='obrazek' src="img/dodatki/dodatki_uchwyt_959-300x300.jpg" width='100px' />
       </label>
 
       <span className='column'>
@@ -623,7 +623,7 @@ class KalKsia extends React.Component {
     <label className='label' style={{marginLeft:'15px'}}>Gumka:</label>
     <br />
 
-    <div className='container'>
+    <div className=''>
 
     <AliceCarousel items={gumki} autoPlayInterval="5000">
 
@@ -785,6 +785,10 @@ let vivela2 = ['bezowy','','','','','','',''];
 let fabra = ['zielony','','','','','','',''];
 
 
+
+
+
+
 const changeOne = (num) => (event) =>{
 
   let colors = document.getElementsByClassName('koloroprawy');
@@ -916,68 +920,82 @@ changeOne(0);
 const gumki = [
 
   [ <label key="d1" className="gumki" style={{width:'100px',height:'100px'}}>
-      <input type="radio" name="test" value="small"  />
-      <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" style={{width:'100px'}} />
+      <input type="radio" name="gumki" value="zielony"  />
+      <img src="/img/gumki/gumka_zielony.png" style={{width:'100px'}} />
     </label>,
     <label  key="d2" className="gumki" style={{width:'100px',height:'100px'}}>
-        <input type="radio" name="test" value="small"  />
-        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" style={{width:'100px'}} />
+        <input type="radio" name="gumki" value="czarny"  />
+        <img src="/img/gumki/gumka_czarny.png" style={{width:'100px'}} />
       </label>,
       <label key="d3" className="gumki" style={{width:'100px',height:'100px'}}>
-          <input type="radio" name="test" value="small"  />
-          <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" style={{width:'100px'}} />
+          <input type="radio" name="gumki" value="pomaranczowy"  />
+          <img src="/img/gumki/gumka_pomaranczowy.png" style={{width:'100px'}} />
         </label>,
         <label key="d4" className="gumki" style={{width:'100px',height:'100px'}}>
-            <input type="radio" name="test" value="small"  />
-            <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" style={{width:'100px'}} />
+            <input type="radio" name="gumki" value="magenta"  />
+            <img src="/img/gumki/gumka_magenta.png" style={{width:'100px'}} />
           </label>,
           <label key="d5" className="gumki" style={{width:'100px',height:'100px'}}>
-              <input type="radio" name="test" value="small"  />
-              <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" style={{width:'100px'}} />
+              <input type="radio" name="gumki" value="multicolor"  />
+              <img src="/img/gumki/gumka_multicolor.png" style={{width:'100px'}} />
             </label>,
           ],[
 
             <label key="d6" className="gumki" style={{width:'100px',height:'100px'}}>
-                <input type="radio" name="test" value="small"  />
-                <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" style={{width:'100px'}} />
+                <input type="radio" name="gumki" value="niebieski"  />
+                <img src="/img/gumki/gumka_niebieski.png" style={{width:'100px'}} />
               </label>,
               <label key="d7" className="gumki" style={{width:'100px',height:'100px'}}>
-                  <input type="radio" name="test" value="small"  />
-                  <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" style={{width:'100px'}} />
+                  <input type="radio" name="gumki" value="fioletowy"  />
+                  <img src="/img/gumki/gumka_fioletowy.png" style={{width:'100px'}} />
                 </label>,
                 <label key="d8" className="gumki" style={{width:'100px',height:'100px'}}>
-                    <input type="radio" name="test" value="small"  />
-                    <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" style={{width:'100px'}} />
+                    <input type="radio" name="gumki" value="granatowy"  />
+                    <img src="/img/gumki/gumka_granatowy.png" style={{width:'100px'}} />
                   </label>,
                   <label key="d9" className="gumki" style={{width:'100px',height:'100px'}}>
-                      <input type="radio" name="test" value="small"  />
-                      <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" style={{width:'100px'}} />
+                      <input type="radio" name="gumki" value="czerwony"  />
+                      <img src="/img/gumki/gumka_czerwony.png" style={{width:'100px'}} />
                     </label>,
                     <label key="d10" className="gumki" style={{width:'100px',height:'100px'}}>
-                        <input type="radio" name="test" value="small"  />
-                        <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" style={{width:'100px'}} />
+                        <input type="radio" name="gumki" value="ciemnogranatowy"  />
+                        <img src="/img/gumki/gumka_ciemnogranatowy.png" style={{width:'100px'}} />
                       </label>,
 
                     ],[
                       <label key="d11" className="gumki" style={{width:'100px',height:'100px'}}>
-                          <input type="radio" name="test" value="small"  />
-                          <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" style={{width:'100px'}} />
+                          <input type="radio" name="gumki" value="brazowy"  />
+                          <img src="/img/gumki/gumka_brazowy.png" style={{width:'100px'}} />
                         </label>,
                         <label key="d12" className="gumki" style={{width:'100px',height:'100px'}}>
-                            <input type="radio" name="test" value="small"  />
-                            <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" style={{width:'100px'}} />
+                            <input type="radio" name="gumki" value="seledynowy"  />
+                            <img src="/img/gumki/gumka_seledynowy.png" style={{width:'100px'}} />
                           </label>,
                           <label key="d13" className="gumki" style={{width:'100px',height:'100px'}}>
-                              <input type="radio" name="test" value="small"  />
-                              <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" style={{width:'100px'}} />
+                              <input type="radio" name="gumki" value="szary"  />
+                              <img src="/img/gumki/gumka_szary.png" style={{width:'100px'}} />
                             </label>,
                             <label key="d14" className="gumki" style={{width:'100px',height:'100px'}}>
-                                <input type="radio" name="test" value="small"  />
-                                <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" style={{width:'100px'}} />
+                                <input type="radio" name="gumki" value="szara"  />
+                                <img src="/img/gumki/gumka_szara.png" style={{width:'100px'}} />
                               </label>,
                               <label key="d15" className="gumki" style={{width:'100px',height:'100px'}}>
-                                  <input type="radio" name="test" value="small"  />
-                                  <img src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" style={{width:'100px'}} />
+                                  <input type="radio" name="gumki" value="zolty"  />
+                                  <img src="/img/gumki/gumka_zolty.png" style={{width:'100px'}} />
                                 </label>]];
+
+
+
+
+function isChecked(event) {
+  console.log(event.target.innerHTML);
+  let radios = document.getElementsByClassName('rdCheck');
+  for (let x =0; x<radios.length;x++){
+
+  }
+  console.log('done');
+};
+
+
 
 export default KalKsia;
