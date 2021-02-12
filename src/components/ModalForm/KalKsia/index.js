@@ -286,31 +286,31 @@ class KalKsia extends React.Component {
       {/* Obrazki radio buttons - kolory*/}
       <div style={{textAlign:'center'}}>
       <label>
-        <input className='koloroprawy' type="radio" name="kolor"  />
+        <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
         <img className='obrazek' src="/img/oprawy/canvas__zielony.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label>
-        <input className='koloroprawy' type="radio" name="kolor" />
+        <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
         <img className='obrazek' src="/img/oprawy/canvas__czarny.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label>
-        <input className='koloroprawy' type="radio" name="kolor" />
+        <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
         <img className='obrazek' src="/img/oprawy/canvas__szary.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label>
-        <input className='koloroprawy' type="radio" name="kolor"  />
+        <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
         <img className='obrazek' src="/img/oprawy/canvas__niebieski.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label>
-        <input className='koloroprawy' type="radio" name="kolor"  />
+        <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
         <img className='obrazek' src="/img/oprawy/canvas__granatowy.png" width='80px' />
       </label>
       &nbsp; &nbsp;
@@ -318,20 +318,20 @@ class KalKsia extends React.Component {
 
 
       <label>
-        <input className='koloroprawy' type="radio" name="kolor"  />
+        <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
         <img className='obrazek' src="/img/oprawy/canvas__czerwony.png" width='80px' />
       </label>
 
       &nbsp; &nbsp;
 
       <label>
-        <input className='koloroprawy' type="radio" name="kolor"  />
+        <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
         <img className='obrazek' src="/img/oprawy/canvas__brazowy.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label>
-        <input className='koloroprawy' type="radio" name="kolor" />
+        <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
         <img className='obrazek' src="" width='80px' />
       </label>
 
@@ -482,32 +482,32 @@ class KalKsia extends React.Component {
       <div className="columns" style={{textAlign:'center'}}>
 
       <label htmlFor='c1' className='column main'>
-        <input type="checkbox" name="barwione brzegi" value="tak" id='c1'   />
+        <input onChange={this.handleChange} type="checkbox" name="barwione brzegi" value="tak" id='c1'   />
         <img className='obrazek' src="/img/dodatki/dodatki_barwione_brzegi_942-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c2'  className='column main'>
-        <input  type="checkbox" name="gumka grzbietowa" value="tak" id='c2' />
+        <input onChange={this.handleChange}  type="checkbox" name="gumka grzbietowa" value="tak" id='c2' />
         <img className='obrazek' src="/img/dodatki/dodatki_gumka_grzbietowa_738-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c3'  className='column main'>
-        <input  type="checkbox" name="gumka pionowa" value="tak" id='c3' />
+        <input onChange={this.handleChange}  type="checkbox" name="gumka pionowa" value="tak" id='c3' />
         <img className='obrazek' src="/img/dodatki/dodatki_gumka_pionowa_354-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c4'  className='column main'>
-        <input  type="checkbox" name="gumka pozioma" value="tak" id='c4' />
+        <input onChange={this.handleChange}  type="checkbox" name="gumka pozioma" value="tak" id='c4' />
         <img className='obrazek' src="/img/dodatki/dodatki_gumka_pozioma_234-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c5'  className='column main'>
-        <input  type="checkbox" name="koperta" value="tak" id='c5' />
+        <input onChange={this.handleChange}  type="checkbox" name="koperta" value="tak" id='c5' />
         <img className='obrazek' src="/img/dodatki/dodatki_koperta_493-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c6'  className='column main'>
-        <input  type="checkbox" name="kryształ" value="tak" id='c6' />
+        <input onChange={this.handleChange}  type="checkbox" name="kryształ" value="tak" id='c6' />
         <img className='obrazek' src="/img/dodatki/dodatki_krysztal_779-300x300.jpg" width='100px' />
       </label>
 
@@ -522,32 +522,32 @@ class KalKsia extends React.Component {
     <div className="columns" style={{textAlign:'center'}}>
 
       <label htmlFor='c7'  className='column main'>
-        <input  type="checkbox" id='c7' name="m1" value="tak"  />
+        <input onChange={this.handleChange}  type="checkbox" id='c7' name="m1" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_m1_859-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c8'  className='column main'>
-        <input  type="checkbox" id='c8' name="m2" value="tak"  />
+        <input onChange={this.handleChange}  type="checkbox" id='c8' name="m2" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_m2_288-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c9'  className='column main'>
-        <input  type="checkbox" id='c9' name="m3" value="tak"  />
+        <input onChange={this.handleChange}  type="checkbox" id='c9' name="m3" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_m3_105-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c10'  className='column main'>
-        <input  type="checkbox" id='c10' name="m4" value="tak"  />
+        <input onChange={this.handleChange}  type="checkbox" id='c10' name="m4" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_m4_724-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c11'  className='column main'>
-        <input  type="checkbox" id='c11' name="m11" value="tak"  />
+        <input onChange={this.handleChange}  type="checkbox" id='c11' name="m11" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_m11_563-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c12'  className='column main'>
-        <input  type="checkbox" id='c12' name="m14" value="tak"  />
+        <input onChange={this.handleChange}  type="checkbox" id='c12' name="m14" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_m14_116-300x300.jpg" width='100px' />
       </label>
 
@@ -563,32 +563,32 @@ class KalKsia extends React.Component {
     <div className="columns" style={{textAlign:'center'}}>
 
       <label htmlFor='c13'  className='column main'>
-        <input  type="checkbox" id='c13' name="m15" value="tak"  />
+        <input onChange={this.handleChange}  type="checkbox" id='c13' name="m15" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_m15_967-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c14'  className='column main'>
-        <input  type="checkbox" id='c14' name="magnes" value="tak"  />
+        <input onChange={this.handleChange}  type="checkbox" id='c14' name="magnes" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_patka-magnes_660-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c15'  className='column main'>
-        <input  type="checkbox" id='c15' name="pendrive" value="tak"  />
+        <input onChange={this.handleChange}  type="checkbox" id='c15' name="pendrive" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c16'  className='column main'>
-        <input  type="checkbox" id='c16' name="grawer" value="tak"  />
+        <input onChange={this.handleChange}  type="checkbox" id='c16' name="grawer" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_personalizacja-grawer_777-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c17'  className='column main'>
-        <input  type="checkbox" id='c17' name="tloczenie" value="tak"  />
+        <input onChange={this.handleChange}  type="checkbox" id='c17' name="tloczenie" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_personalizacja-tloczenie_186-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c18'  className='column main'>
-        <input  type="checkbox" id='c18' name="kieszonka prostokatna" value="tak"  />
+        <input onChange={this.handleChange}  type="checkbox" id='c18' name="kieszonka prostokatna" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_prostokatna-kieszonka_923-300x300.jpg" width='100px' />
       </label>
 
@@ -603,23 +603,23 @@ class KalKsia extends React.Component {
     <div className="columns" style={{textAlign:'center'}}>
 
       <label htmlFor='c19'  className='column main'>
-        <input type="checkbox" id='c19' name="szlufka" value="tak"  />
+        <input onChange={this.handleChange} type="checkbox" id='c19' name="szlufka" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_szlufka_na_dlugopis_226-300x300.jpg" width='100px' />
       </label>
 
 
       <label htmlFor='c20'  className='column main'>
-        <input type="checkbox" id='c20' name="tasiemki" value="tak"  />
+        <input onChange={this.handleChange} type="checkbox" id='c20' name="tasiemki" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_tasiemki_581-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c21'  className='column main'>
-        <input type="checkbox" id='c21' name="kieszonka trojkatna" value="tak"  />
+        <input onChange={this.handleChange} type="checkbox" id='c21' name="kieszonka trojkatna" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_trojkatna-kieszonka_750-300x300.jpg" width='100px' />
       </label>
 
       <label htmlFor='c22'  className='column main'>
-        <input type="checkbox" id='c22' name="uchwyt" value="tak"  />
+        <input onChange={this.handleChange} type="checkbox" id='c22' name="uchwyt" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_uchwyt_959-300x300.jpg" width='100px' />
       </label>
 
