@@ -235,7 +235,7 @@ const NavBar = () => {
 
           </div>
           <div id='modal'
-          style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'white',zIndex:'20000',overflow:'scroll'}}>
+          style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'white',zIndex:'20000',overflow:'scroll', overflowX:'hidden'}}>
             <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'5%'}}>
 
                 <a className='button-green' style={{fontSize:'20px',position:'fixed',top:'1%',left:'1%'}} onMouseOver={modalDestroy} >&nbsp;x&nbsp;</a>
