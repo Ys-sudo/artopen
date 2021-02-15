@@ -17,13 +17,14 @@ import 'react-alice-carousel/lib/alice-carousel.css'
 import PropTypes from 'prop-types'
 
 const HomePageTemplate = (props) => {
-  const { title, meta_title, meta_description } = props
+  const { title, meta_title, meta_description, heading, keywords } = props
 
   return (
     <div>
       <Helmet htmlAttributes={{ lang : 'pl-pl', dir:'ltr' }}>
         <title>{meta_title}</title>
         <meta name='description' content={meta_description} />
+        <meta name='keywords' content={keywords} />
       </Helmet>
       <section className='hero is-primary is-bold is-medium'>
         <div className='hero-body'>
@@ -36,7 +37,7 @@ const HomePageTemplate = (props) => {
                     {title}
                   </h1>
                   <h2 className='subtitle'>
-                    (słowa kluczowe)Ekologia, gadżety, projektowanie graficzne, programowanie i dużo, dużo więcej!
+                    {heading}
                   </h2>
                 </div>
               </div>
@@ -168,7 +169,9 @@ const HomePageTemplate = (props) => {
                 <h5 className='has-text-weight-semibold is-size-2'>Ekologiczne produkty</h5>
                 <h3 className='subtitle'> Co nas wyróżnia? </h3>
                 <br />
-                <h4>Nasz zespół tworzą ludzie pełni pasji, kreatywności i zaangażowania w każdy powierzony projekt. Od blisko dekady, wspólnie z Wami, naszymi Klientami, realizujemy różnorodne przedsięwzięcia z zakresu identyfikacji wizualnej, promocji oraz projektowania graficznego, w tym stron internetowych i realizacji filmów.</h4>
+                <h4>Jednym z niezwykle ważnych działań w naszej firmie są czynności wspierające ochronę środowiska naturalnego poprzez oferowanie produktów ekologicznych i biodegradowalnych takich jak np. papier z kamienia lub trawy. Chcemy przez to dołożyć naszą małą cegiełkę do ogólnoświatowego ruchu proekologicznego.
+                <br /><br />
+                Wszystkie proponowane przez nas produkty z oferty ekologicznej są przyjazne dla środowiska, a także trwałe oraz estetyczne. Rezygnacja z produktów nie podelegających recyklingowi może być dla Ciebie pierwszym, bardzo ważnym krokiem do ekologicznego stylu zarządzania firmą.</h4>
                 <br />
                 <br />
                 <a className='button-green' href='/ekologia/'> ekologia &nbsp;&nbsp;
@@ -204,7 +207,7 @@ const HomePageTemplate = (props) => {
                 <h5 className='has-text-weight-semibold is-size-2'>Kreator kalendarzy</h5>
                 <h3 className='subtitle'> Zaprojektuj kalendarz online </h3>
                 <br />
-                <h4>Nasz zespół tworzą ludzie pełni pasji, kreatywności i zaangażowania w każdy powierzony projekt. Od blisko dekady, wspólnie z Wami, naszymi Klientami, realizujemy różnorodne przedsięwzięcia z zakresu identyfikacji wizualnej, promocji oraz projektowania graficznego, w tym stron internetowych i realizacji filmów.</h4>
+                <h4>Skomponuj swój autorski projekt kalendarza lub notesu,<br /> zgodnie z indywidualnymi preferencjami i potrzebami.</h4>
                 <br />
                 <br />
                 <a className='button-green' href='/kreator-kalendarzy/'> kreator kalendarzy &nbsp;&nbsp;
@@ -520,8 +523,9 @@ element in viewport opacity animation <--
 HomePageTemplate.propTypes = {
   title: PropTypes.string,
   meta_title: PropTypes.string,
-  meta_description: PropTypes.string
-
+  meta_description: PropTypes.string,
+  heading: PropTypes.string,
+  keywords: PropTypes.string
 }
 
 

@@ -14,6 +14,7 @@ const PracaPage = (props) => {
       <Helmet htmlAttributes={{ lang : 'pl-pl', dir:'ltr' }}>
         <title>{post.frontmatter.meta_title}</title>
         <meta name='description' content={post.frontmatter.meta_description} />
+        <meta name='keywords' content={post.frontmatter.keywords} />
       </Helmet>
       <WorkPageTemplate
         contentComponent={HTMLContent}
@@ -38,6 +39,7 @@ export const pracaPageQuery = graphql`
         title
         meta_title
         meta_description
+        keywords
       }
     }
   }

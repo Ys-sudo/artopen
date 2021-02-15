@@ -13,7 +13,7 @@ import NewsCall from '../components/NewsCall'
 import BlogRoll2 from '../components/BlogRoll2'
 
 const ArticlePage = (props) => {
-  const { data: { markdownRemark: { html, fields: { slug }, frontmatter: { title, subtitle, meta_title, meta_description, cover, date, tags } } } } = props
+  const { data: { markdownRemark: { html, fields: { slug }, frontmatter: { title, subtitle, meta_title, meta_description, cover, date, tags, keywords } } } } = props
 
   return (
     <Layout>
@@ -22,6 +22,7 @@ const ArticlePage = (props) => {
           title={title}
           meta_title={meta_title}
           meta_desc={meta_description}
+          keywords={keywords}
           cover={cover.publicURL}
           slug={slug}
           date={date}
@@ -126,6 +127,7 @@ export const pageQuery = graphql`
         meta_title
         meta_description
         tags
+        keywords
       }
     }
   }

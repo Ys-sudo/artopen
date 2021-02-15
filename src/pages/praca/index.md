@@ -7,6 +7,10 @@ meta_description: >-
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
+keywords:
+  - Studio Reklamy
+  - agencja interaktywna
+  - ekologia
 ---
 <div class="columns" style="padding:0px;border-radius:25px;width:100%">
 
@@ -21,7 +25,7 @@ meta_description: >-
 
    <div class="column">
 
-   <img class="oimg" alt="oferta pracy 2021" src="https://artopen.pl/images/2021/01/12/oferta-pracy2021.jpg" width="100%"/>
+   <img class="oimg" alt="oferta pracy 2021" src="http://localhost:8888/img/oferta-pracy2021.jpg" width="100%"/>
 
    </div>
 

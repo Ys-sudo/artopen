@@ -291,12 +291,14 @@ body::-webkit-scrollbar
   width: 0.35em
   z-index: 1000
 
-.catalogimg, .gatsby-resp-image-image
+
+.catalogimg, .catalogimg > span > img
   transition: 2s !important
 
-.catalogimg:hover, .gatsby-resp-image-image:hover
+.catalogimg, .catalogimg:hover > span > img
   transition: 2s !important
   transform: scale(1.05)
+  
 .imgcont
   border-radius: 20px
   box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px

@@ -43,6 +43,7 @@ const BlogPage = (props) => {
         <script type='application/ld+json'>
           {JSON.stringify(websiteSchemaOrgJSONLD)}
         </script>
+        <meta name='keywords' content="Agencja reklamowa, ekologia, Art Open," />
       </Helmet>
       <section className='hero is-primary is-bold'>
         <div className='hero-body'>

@@ -12,7 +12,7 @@ import ModalCall from '../components/ModalCall'
 import NewsCall from '../components/NewsCall'
 
 const OfferPage = (props) => {
-  const { data: { markdownRemark: { html, fields: { slug }, frontmatter: { title, meta_title, meta_description, cover, date, tags, desc, subtitle, icon } } } } = props
+  const { data: { markdownRemark: { html, fields: { slug }, frontmatter: { title, meta_title, meta_description, cover, date, tags, desc, subtitle, icon, keywords } } } } = props
 
   return (
     <Layout>
@@ -21,6 +21,7 @@ const OfferPage = (props) => {
           title={title}
           meta_title={meta_title}
           meta_desc={meta_description}
+          keywords ={keywords}
           cover={cover.publicURL}
           slug={slug}
           date={date}
@@ -109,7 +110,7 @@ export const pageQuery = graphql`
         tags
         desc
         subtitle
-
+        keywords
       }
     }
   }

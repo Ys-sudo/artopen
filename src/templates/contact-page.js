@@ -6,7 +6,7 @@ import ContactPageTemplate from '../components/ContactPageTemplate'
 import Layout from '../components/Layout'
 
 const ContactPage = (props) => {
-  const { data: { markdownRemark: { frontmatter: { title, subtitle, meta_title, meta_description } } } } = props
+  const { data: { markdownRemark: { frontmatter: { title, subtitle, meta_title, meta_description, keywords } } } } = props
 
   return (
     <Layout>
@@ -14,6 +14,7 @@ const ContactPage = (props) => {
         title={title}
         subtitle={subtitle}
         meta_title={meta_title}
+        keywords={keywords}
         meta_description={meta_description}
       />
 
@@ -40,6 +41,7 @@ export const contactPageQuery = graphql`
         meta_title
         meta_description
         heading
+        keywords
       }
     }
   }

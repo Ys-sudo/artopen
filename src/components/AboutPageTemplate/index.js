@@ -114,8 +114,8 @@ const AboutPageTemplate = (props) => {
               <p className='column'>Nieszablonowość, szukanie innowacji, wysoka estetyka to walory naszych projektów. Wyróżnia nas doświadczenie, kreatywność i pełne zaangażowanie w każdą realizację. Cenimy to, co robimy i traktujemy pracę jako osobiste wyzwanie.</p>
         </div>
       </div>
-
-
+      <div className='columns'>
+      <div className='column'>
       <div className='columns' style={{marginTop:'70px',marginLeft:'15%',marginRight:'15%',marginBottom:'50px', textAlign:'center'}}>
 
         <div className='column'>
@@ -225,9 +225,13 @@ const AboutPageTemplate = (props) => {
           <br />
 
         </div>
+        </div>
+        </div>
+        <div className='column'>
+
+        </div>
 
       </div>
-
 
 
 
@@ -237,7 +241,7 @@ const AboutPageTemplate = (props) => {
       <section id='wyroznia-nas'>
         <div className='container' style={{paddingTop:'100px'}}>
           <div className='columns'>
-            <div className='column is-10 is-offset-1'>
+            <div className='column is-10 is-offset-1' style={{margin:'3%'}}>
 
                 <PageContent className='content' content={content} />
 

@@ -282,7 +282,7 @@ class KalKsia extends React.Component {
       </div>
       <br />
 
-      {/*dodać onChange do input*/}
+
       {/* Obrazki radio buttons - kolory*/}
       <div style={{textAlign:'center'}}>
       <label>
@@ -471,7 +471,6 @@ class KalKsia extends React.Component {
 
 
 
-      {/*dodać onChange do input*/}
 
 
       <br />
@@ -935,83 +934,70 @@ changeOne(0);
 
 const gumki = [
 
-  [ <label key="d1" className="gumki" style={{width:'100px',height:'100px'}}>
+  [ <label key="d1" className="gumki">
       <input type="radio" name="gumki" value="zielony"  />
-      <img src="/img/gumki/gumka_zielony.png" style={{width:'100px'}} />
+      <img className="obrazek" src="/img/gumki/gumka_zielony.png" />
     </label>,
-    <label  key="d2" className="gumki" style={{width:'100px',height:'100px'}}>
+    <label  key="d2" className="gumki" >
         <input type="radio" name="gumki" value="czarny"  />
-        <img src="/img/gumki/gumka_czarny.png" style={{width:'100px'}} />
+        <img className="obrazek" src="/img/gumki/gumka_czarny.png" />
       </label>,
-      <label key="d3" className="gumki" style={{width:'100px',height:'100px'}}>
+      <label key="d3" className="gumki" >
           <input type="radio" name="gumki" value="pomaranczowy"  />
-          <img src="/img/gumki/gumka_pomaranczowy.png" style={{width:'100px'}} />
+          <img className="obrazek" src="/img/gumki/gumka_pomaranczowy.png" />
         </label>,
-        <label key="d4" className="gumki" style={{width:'100px',height:'100px'}}>
+        <label key="d4" className="gumki" >
             <input type="radio" name="gumki" value="magenta"  />
-            <img src="/img/gumki/gumka_magenta.png" style={{width:'100px'}} />
+            <img className="obrazek" src="/img/gumki/gumka_magenta.png" />
           </label>,
-          <label key="d5" className="gumki" style={{width:'100px',height:'100px'}}>
+          <label key="d5" className="gumki" >
               <input type="radio" name="gumki" value="multicolor"  />
-              <img src="/img/gumki/gumka_multicolor.png" style={{width:'100px'}} />
+              <img className="obrazek" src="/img/gumki/gumka_multicolor.png" />
             </label>,
           ],[
 
-            <label key="d6" className="gumki" style={{width:'100px',height:'100px'}}>
+            <label key="d6" className="gumki" >
                 <input type="radio" name="gumki" value="niebieski"  />
-                <img src="/img/gumki/gumka_niebieski.png" style={{width:'100px'}} />
+                <img className="obrazek" src="/img/gumki/gumka_niebieski.png" />
               </label>,
-              <label key="d7" className="gumki" style={{width:'100px',height:'100px'}}>
+              <label key="d7" className="gumki" >
                   <input type="radio" name="gumki" value="fioletowy"  />
-                  <img src="/img/gumki/gumka_fioletowy.png" style={{width:'100px'}} />
+                  <img className="obrazek" src="/img/gumki/gumka_fioletowy.png" />
                 </label>,
-                <label key="d8" className="gumki" style={{width:'100px',height:'100px'}}>
+                <label key="d8" className="gumki" >
                     <input type="radio" name="gumki" value="granatowy"  />
-                    <img src="/img/gumki/gumka_granatowy.png" style={{width:'100px'}} />
+                    <img className="obrazek" src="/img/gumki/gumka_granatowy.png" />
                   </label>,
-                  <label key="d9" className="gumki" style={{width:'100px',height:'100px'}}>
+                  <label key="d9" className="gumki" >
                       <input type="radio" name="gumki" value="czerwony"  />
-                      <img src="/img/gumki/gumka_czerwony.png" style={{width:'100px'}} />
+                      <img className="obrazek" src="/img/gumki/gumka_czerwony.png" />
                     </label>,
-                    <label key="d10" className="gumki" style={{width:'100px',height:'100px'}}>
+                    <label key="d10" className="gumki" >
                         <input type="radio" name="gumki" value="ciemnogranatowy"  />
-                        <img src="/img/gumki/gumka_ciemnogranatowy.png" style={{width:'100px'}} />
+                        <img className="obrazek" src="/img/gumki/gumka_ciemnogranatowy.png" />
                       </label>,
 
                     ],[
-                      <label key="d11" className="gumki" style={{width:'100px',height:'100px'}}>
+                      <label key="d11" className="gumki" >
                           <input type="radio" name="gumki" value="brazowy"  />
-                          <img src="/img/gumki/gumka_brazowy.png" style={{width:'100px'}} />
+                          <img className="obrazek" src="/img/gumki/gumka_brazowy.png" />
                         </label>,
-                        <label key="d12" className="gumki" style={{width:'100px',height:'100px'}}>
+                        <label key="d12" className="gumki" >
                             <input type="radio" name="gumki" value="seledynowy"  />
-                            <img src="/img/gumki/gumka_seledynowy.png" style={{width:'100px'}} />
+                            <img className="obrazek" src="/img/gumki/gumka_seledynowy.png" />
                           </label>,
-                          <label key="d13" className="gumki" style={{width:'100px',height:'100px'}}>
+                          <label key="d13" className="gumki" >
                               <input type="radio" name="gumki" value="szary"  />
-                              <img src="/img/gumki/gumka_szary.png" style={{width:'100px'}} />
+                              <img className="obrazek" src="/img/gumki/gumka_szary.png" />
                             </label>,
-                            <label key="d14" className="gumki" style={{width:'100px',height:'100px'}}>
+                            <label key="d14" className="gumki" >
                                 <input type="radio" name="gumki" value="szara"  />
-                                <img src="/img/gumki/gumka_szara.png" style={{width:'100px'}} />
+                                <img className="obrazek" src="/img/gumki/gumka_szara.png" />
                               </label>,
-                              <label key="d15" className="gumki" style={{width:'100px',height:'100px'}}>
+                              <label key="d15" className="gumki" >
                                   <input type="radio" name="gumki" value="zolty"  />
-                                  <img src="/img/gumki/gumka_zolty.png" style={{width:'100px'}} />
+                                  <img className="obrazek" src="/img/gumki/gumka_zolty.png" />
                                 </label>]];
-
-
-
-
-function isChecked(event) {
-  console.log(event.target.innerHTML);
-  let radios = document.getElementsByClassName('rdCheck');
-  for (let x =0; x<radios.length;x++){
-
-  }
-  console.log('done');
-};
-
 
 
 export default KalKsia;

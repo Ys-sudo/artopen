@@ -9,6 +9,10 @@ tags:
   - Studio Reklamy
   - agencja interaktywna
   - ekologia
+keywords:
+  - Studio Reklamy
+  - agencja interaktywna
+  - ekologia
 meta_title: tytuł meta
 meta_description: opis meta
 ---

@@ -4,6 +4,7 @@ import GalleryTemplate from '../../components/GalleryTemplate'
 
 const GalleryPreview = ({ entry, widgetFor }) => {
   const tags = entry.getIn(['data', 'tags'])
+  const keywords = entry.getIn(['data', 'keywords'])
   return (
     <div className='container content'>
       <div className='columns'>
@@ -13,6 +14,7 @@ const GalleryPreview = ({ entry, widgetFor }) => {
             cover={entry.getIn(['data', 'cover'])}
             meta_title={entry.getIn(['data', 'meta_title'])}
             meta_desc={entry.getIn(['data', 'meta_description'])}
+            keywords={keywords && keywords.toJS()}
             title={entry.getIn(['data', 'title'])}
             category={entry.getIn(['data', 'category'])}
             slug={entry.getIn(['data', 'slug'])}

@@ -7,6 +7,10 @@ meta_description: >-
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
+keywords:
+  - Studio Reklamy
+  - agencja interaktywna
+  - ekologia
 ---
 
 
@@ -26,7 +30,7 @@ meta_description: >-
 
    <div class="column">
      <a class="catalogimg" href="https://online.fliphtml5.com/njygn/xbbq/" target="_blank" >
-      <img src="/img/katalogi/expen_katalog.png" width="100%">
+      <img alt="Gadżety premium" src="/img/katalogi/expen_katalog.png" width="100%">
      </a>
    </div>
 

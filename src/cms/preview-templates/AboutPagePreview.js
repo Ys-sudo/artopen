@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import AboutPageTemplate from '../../components/AboutPageTemplate'
 
 const AboutPagePreview = ({ entry, widgetFor }) => (
+
+
   <AboutPageTemplate
     title={entry.getIn(['data', 'title'])}
     meta_title={entry.getIn(['data', 'meta_title'])}

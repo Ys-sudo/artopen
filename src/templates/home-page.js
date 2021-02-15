@@ -5,7 +5,7 @@ import HomePageTemplate from '../components/HomePageTemplate'
 import Layout from '../components/Layout'
 
 const HomePage = (props) => {
-  const { data: { markdownRemark: { frontmatter: { title, meta_title, meta_description } } } } = props
+  const { data: { markdownRemark: { frontmatter: { title, meta_title, meta_description, heading, keywords } } } } = props
 
 
   return (
@@ -14,6 +14,8 @@ const HomePage = (props) => {
         title={title}
         meta_title={meta_title}
         meta_description={meta_description}
+        heading={heading}
+        keywords={keywords}
       />
 
     </Layout>
@@ -37,6 +39,8 @@ export const pageQuery = graphql`
         title
         meta_title
         meta_description
+        heading
+        keywords
       }
     }
   }

@@ -7,55 +7,49 @@ meta_description: >-
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
+keywords:
+  - Studio Reklamy
+  - agencja interaktywna
+  - ekologia
 ---
 #Co nas wyróżnia?
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
-mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
-quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+Nasz wykwalifikowany zespół oferuje kompleksową obsługę w zakresie obszarów szeroko pojętej działalności marketingowej. Znajomość aktualnych trendów i zrozumienie indywidualnych potrzeb Klienta sprawia, że nasza oferta jest elastyczna i spersonalizowana.
+
+Całościowa obsługa pozwala zaoszczędzić czas oraz utrzymać spójność nad całym projektem, która jest tak ważna w profesjonalnym biznesie. Globalne podejście do zamówienia to również zaoszczędzone pieniądze.
 
 ##1. Kompleksowość obsługi.
 
-Nullam dictum felis eu pede mollis
-pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
-Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra
-quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-Etiam ultricies nisi vel augue.  Nam eget dui. *Etiam rhoncus*. Maecenas
-tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
-Nam quam nunc, blandit vel, luctus pulvinar
+Nasz wykwalifikowany zespół oferuje kompleksową obsługę w zakresie obszarów szeroko pojętej działalności marketingowej. Znajomość aktualnych trendów i zrozumienie indywidualnych potrzeb Klienta sprawia, że nasza oferta jest elastyczna i spersonalizowana.
+
+Całościowa obsługa pozwala zaoszczędzić czas oraz utrzymać spójność nad całym projektem, która jest tak ważna w profesjonalnym biznesie. Globalne podejście do zamówienia to również zaoszczędzone pieniądze.
 
 ##2. Wieloletnie doświadczenie
 
-Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
-Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales,
-augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut,
-mollis sed, nonummy id, metus.
+Jesteśmy agencją reklamową z ponad 10-letnim doświadczeniem. Posiadamy własny dział graficzny oraz administracyjny co pozwala realizować Państwa zamówienia wyłącznie przez doświadczoną kadrę. W kontaktach z Klientami dbamy o profesjonalizm oraz partnerskie relacje. Podczas wieloletniej działalności nawiązaliśmy stałą współpracę z blisko 250 firmami.
+
+Dzięki naszemu doświadczeniu mamy przyjemność pracować z największymi przedsiębiorstwami w Polsce, jakimi są: CCC, PGNiG, Hasco-Lek czy KRAUSE.
 
 ##3. Nagrody i wyróżnienia
 
-Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
-Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales,
-augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut,
-mollis sed, nonummy id, metus.
+Jesteśmy laureatem wielu nagród i wyróżnień. Nasza firma została doceniona m.in. w międzynarodowym konkursie ZoomArt za wykonanie kalendarza nietypowego - w pełni spersonalizowanego. Zostaliśmy wyróżnieni również certyfikatem "Wiarygodny Partner", jako firma propagująca uczciwe zachowania w biznesie.
+
+Nasza firma jako jedna z dwóch agencji reklamowych w Polsce może pochwalić się mianem uzyskania certyfikatu "Diamentowego Dystrybutora marki Pier Luigi oraz stonebook". Każda z tych nagród jest dla nas powodem do dumy, a jednocześnie mobilizacją do dalszego działania.
 
 ##4. Ekologiczne surowce
 
-Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
-Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales,
-augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut,
-mollis sed, nonummy id, metus.
+Jednym z niezwykle ważnych działań w naszej firmie są czynności wspierające ochronę środowiska naturalnego poprzez oferowanie produktów ekologicznych i biodegradowalnych takich jak np. papier z kamienia lub trawy. Chcemy przez to dołożyć naszą małą cegiełkę do ogólnoświatowego ruchu proekologicznego.
+
+Wszystkie proponowane przez nas produkty z oferty ekologicznej są przyjazne dla środowiska, a także trwałe oraz estetyczne. Rezygnacja z produktów nie podelegających recyklingowi może być dla Ciebie pierwszym, bardzo ważnym krokiem do ekologicznego stylu zarządzania firmą.
 
 ##5. Otoczenie biznesowe
 
-Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
-Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales,
-augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut,
-mollis sed, nonummy id, metus.
+Należymy do największej na świecie organizacji biznesowej BNI. Będąc członkiem jednej z grup nawiązujemy relacje z innymi właścicielami firm, dzielimy się doświadczeniem oraz biznesową wiedzą, dzięki czemu możemy przekazywać wzajemnie kontakty do swoich najlepszych Klientów czy partnerów biznesowych.
+
+Swoje doświadczenie budujemy również poprzez spotkania networkingowo-rozwojowe, należąc do ogólnopolskiego klubu WFS Polska. Na co dzień kierujemy się dywizą "Jesteś tak inteligentny, jak Środowisko, w którym żyjesz."
 
 ##6. Wsparcie działalności społecznych
 
-Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.
-Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales,
-augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut,
-mollis sed, nonummy id, metus.
+Działania w naszej firmie nie opierają się wyłącznie na realizowaniu zamówień dla naszych Klientów, to również wsparcie i pomoc innym organizacjom. Od lat z dumą wspieramy Fundację "Cząstka Ciebie", której celem jest organizowanie i niesienie wszelkiej pomocy ludziom potrzebującym oparcia w przezwyciężeniu trudnych sytuacji życiowych. Bierzemy czynny udział w licytacjach charytatywnych na rzecz rozwoju Fundacji.
+
+Jako agencja petfriendly nawiązaliśmy również owocną współpracę ze Schroniskiem dla Bezdomnych Zwierząt we Wrocławiu "TOZ", tworząc całoroczny kalendarz ze zdjęciami podopiecznych tej placówki.

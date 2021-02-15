@@ -72,6 +72,7 @@ exports.createPages = ({ actions, graphql }) => {
                 publicURL
               }
               tags
+              keywords
               templateKey
               category
               desc

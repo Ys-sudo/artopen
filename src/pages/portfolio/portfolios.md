@@ -7,6 +7,10 @@ cover: /img/slider_2.jpg
 tags:
   - Portfolio
   - tag2
+keywords:
+  - Studio Reklamy
+  - agencja interaktywna
+  - ekologia
 meta_description: Portfolio
 category: strony internetowe
 meta_title: Portfolio

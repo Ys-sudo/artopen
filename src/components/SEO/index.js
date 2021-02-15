@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 const SE0 = (props) => {
-  const { title, meta_title, meta_desc, cover, slug, date, siteTitleAlt, userName, siteTitle, siteUrl, siteFBAppID, userTwitter, pathPrefix } = props
+  const { title, meta_title, meta_desc, keywords, cover, slug, date, siteTitleAlt, userName, siteTitle, siteUrl, siteFBAppID, userTwitter, pathPrefix } = props
   const postURL = siteUrl + slug
   const realPrefix = pathPrefix === '/' ? '' : pathPrefix
   const image = siteUrl + realPrefix + cover
@@ -69,6 +69,7 @@ const SE0 = (props) => {
       <title>{meta_title}</title>
       {/* General tags */}
       <meta name='description' content={meta_desc} />
+      <meta name='keywords' content={keywords} />
       <meta name='image' content={cover} />
       {/* Schema.org tags */}
       <script type='application/ld+json'>

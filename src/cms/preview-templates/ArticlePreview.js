@@ -4,6 +4,7 @@ import ArticleTemplate from '../../components/ArticleTemplate'
 
 const ArticlePreview = ({ entry, widgetFor }) => {
   const tags = entry.getIn(['data', 'tags'])
+  const keywords = entry.getIn(['data', 'keywords'])
   return (
     <div className='container content'>
       <div className='columns'>
@@ -16,6 +17,7 @@ const ArticlePreview = ({ entry, widgetFor }) => {
             title={entry.getIn(['data', 'title'])}
             subtitle={entry.getIn(['data', 'title'])}
             tags={tags && tags.toJS()}
+            keywords={keywords && keywords.toJS()}
             slug={entry.getIn(['data', 'slug'])}
           />
         </div>
