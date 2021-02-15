@@ -10,6 +10,8 @@ import PolicyPagePreview from './preview-templates/PolicyPagePreview'
 import ContactPagePreview from './preview-templates/ContactPagePreview'
 import HomePagePreview from './preview-templates/HomePagePreview'
 import AboutPagePreview from './preview-templates/AboutPagePreview'
+import WorkPreview from './preview-templates/WorkPreview'
+import KreatorPreview from './preview-templates/KreatorPreview'
 
 CMS.init({
   config: {
@@ -28,3 +30,6 @@ CMS.registerPreviewTemplate('Home', HomePagePreview)
 CMS.registerPreviewTemplate('O nas', AboutPagePreview)
 
 CMS.registerPreviewTemplate('Polityka', PolicyPagePreview)
+CMS.registerPreviewTemplate('Praca', WorkPreview)
+
+CMS.registerPreviewTemplate('Kreator', KreatorPreview)

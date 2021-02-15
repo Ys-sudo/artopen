@@ -14,7 +14,7 @@ const KreatorPage = (props) => {
       <Helmet htmlAttributes={{ lang : 'pl-pl', dir:'ltr' }}>
         <title>{post.frontmatter.meta_title}</title>
         <meta name='description' content={post.frontmatter.meta_description} />
-        <meta name='keywords' content="Agencja reklamowa, ekologia, Art Open," />
+        <meta name='keywords' content={post.frontmatter.keywords} />
       </Helmet>
       <KreatorPageTemplate
         contentComponent={HTMLContent}

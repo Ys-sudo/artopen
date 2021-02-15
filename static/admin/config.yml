@@ -37,7 +37,7 @@ collections:
 
       - file: "src/pages/kontakt/index.md"
         label: "Kontakt"
-        name: "kontakt"
+        name: "Kontakt"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
           - {label: Title, name: title, widget: string}
@@ -48,7 +48,7 @@ collections:
 
       - file: "src/pages/polityka-prywatnosci/index.md"
         label: "Polityka prywatności"
-        name: "polityka prywatnosci"
+        name: "Polityka prywatnosci"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "policy-page"}
           - {label: "Title", name: "title", widget: "string"}
@@ -57,8 +57,8 @@ collections:
           - {label: "Meta Description", name: "meta_description", widget: "text"}
 
       - file: "src/pages/katalogi/index.md"
-        label: "katalogi"
-        name: "katalogi"
+        label: "Katalogi"
+        name: "Katalogi"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "catalogs-page"}
           - {label: "Title", name: "title", widget: "string"}
@@ -68,8 +68,8 @@ collections:
           - {label: "Keywords", name: "keywords", widget: "list"}
 
       - file: "src/pages/praca/index.md"
-        label: "praca"
-        name: "praca"
+        label: "Praca"
+        name: "Praca"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "work-page"}
           - {label: "Title", name: "title", widget: "string"}
@@ -78,7 +78,18 @@ collections:
           - {label: "Meta Description", name: "meta_description", widget: "text"}
           - {label: "Keywords", name: "keywords", widget: "list"}
 
-  - name: "blog"
+      - file: "src/pages/kreator-kalendarzy/index.md"
+        label: "Kreator"
+        name: "Kreator"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "kreator-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Meta Description", name: "meta_description", widget: "text"}
+          - {label: "Keywords", name: "keywords", widget: "list"}
+
+  - name: "Blog"
     label: "Blog"
     folder: "src/pages/blog"
     create: true
@@ -96,7 +107,7 @@ collections:
       - {label: "Meta Title", name: "meta_title", widget: "string"}
       - {label: "Meta Description", name: "meta_description", widget: "text"}
 
-  - name: "portfolio"
+  - name: "Portfolio"
     label: "Portfolio"
     folder: "src/pages/portfolio"
     create: true
@@ -114,7 +125,7 @@ collections:
       - {label: "Meta Description", name: "meta_description", widget: "text"}
       - {label: "Category", name: "category", widget: "string"}
 
-  - name: "oferta"
+  - name: "Oferta"
     label: "Oferta"
     folder: "src/pages/oferta"
     create: true
