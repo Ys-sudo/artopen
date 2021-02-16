@@ -9,7 +9,6 @@ tags:
   - kalendarze książkowe
   - spersonalizowane kalendarze
   - kalendarze firmowe
-  - kalendarze ścienne
 keywords:
   - kalendarze książkowe
   - spersonalizowane kalendarze
@@ -18,9 +17,9 @@ keywords:
   - Wrocław
   - agencja reklamowa
   - agencja multimedialna
-meta_title: Art Open | Akcja charytatywna Gaszyn Challange
+meta_title: Art Open | Agencja reklamowa - Wrocław - Akcja charytatywna Gaszyn Challange
 meta_description: >-
- Art Open | Nasza agencja zdobyła certyfikat "DIAMENTOWY DYSTRYBUTOR" marki Pier Luigi oraz stonebook. Nagroda ta przyznawana jest za znajomość oferty, wysokie efekty sprzedażowe oraz wzorową obsługę Klienta.
+ Art Open | Agencja reklamowa - Wrocław - Nasza agencja zdobyła certyfikat "DIAMENTOWY DYSTRYBUTOR" marki Pier Luigi oraz stonebook. Nagroda ta przyznawana jest za znajomość oferty, wysokie efekty sprzedażowe oraz wzorową obsługę Klienta.
 ---
 # Art Open diamentowym dystrybutorem marki Pier Luigi oraz Stonebook.
 

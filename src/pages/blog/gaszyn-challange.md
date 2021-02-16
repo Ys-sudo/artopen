@@ -13,11 +13,12 @@ tags:
 keywords:
   - akcja charytatywna
   - agencja interaktywna
-  - studio Reklamy
+  - agencja reklamowa
   - Art Open
-meta_title: Art Open | Akcja charytatywna Gaszyn Challange
+  - Wrocław
+meta_title: Art Open | Agencja reklamowa - Wrocław - Akcja charytatywna Gaszyn Challange
 meta_description: >-
- Art Open | Akcja charytatywna Gaszyn Challange
+ Art Open | Agencja reklamowa - Wrocław - Akcja charytatywna Gaszyn Challange
  Otrzymaliśmy nominację do wzięcia udziału w szlachetnej akcji, w którą zaangażowała się cała Polska. Dziękujemy firmie Hunters oraz Marce Pier Luigi 1993 za zaproszenie nas do wyzwania.
 ---
 Otrzymaliśmy nominację do wzięcia udziału w szlachetnej akcji, w którą zaangażowała się cała Polska. Dziękujemy firmie Hunters oraz Marce Pier Luigi 1993 za zaproszenie nas do wyzwania.

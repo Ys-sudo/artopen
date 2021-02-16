@@ -6,21 +6,23 @@ slug: 29-final-wosp
 date: 2021-02-04T13:49:14.606Z
 cover: /img/wosp.jpg
 tags:
+  - akcja charytatywna
+  - spersonalizowane Kalendarze
+  - 29. finał WOŚP
   - kalendarze książkowe
-  - spersonalizowane kalendarze
-  - kalendarze firmowe
-  - kalendarze ścienne
+  - ekologia
 keywords:
   - kalendarze książkowe
   - spersonalizowane kalendarze
   - kalendarze firmowe
-  - kalendarze ścienne
+  - 29. finał WOŚP
   - Wrocław
+  - akcje charytatywne
   - agencja reklamowa
   - agencja multimedialna
-meta_title: Art Open | Akcja charytatywna Gaszyn Challange
+meta_title: Art Open | Agencja reklamowa - Wrocław - 29. finał WOŚP
 meta_description: >-
- Art Open | Nasza agencja zdobyła certyfikat "DIAMENTOWY DYSTRYBUTOR" marki Pier Luigi oraz stonebook. Nagroda ta przyznawana jest za znajomość oferty, wysokie efekty sprzedażowe oraz wzorową obsługę Klienta.
+ Art Open | Agencja reklamowa - Wrocław - Przekazaliśmy na aukcję dla 29 finału unikatowy kalendarz książkowy z papierem z kamienia w środku.
 ---
 # 29. Finał WOŚP
 

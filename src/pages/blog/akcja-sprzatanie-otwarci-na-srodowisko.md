@@ -7,21 +7,19 @@ slug: akcja-sprzatanie-otwarci-na-srodowisko
 date: 2021-02-03T13:49:14.606Z
 cover: /img/sprzatanie.jpg
 tags:
-  - kalendarze książkowe
-  - spersonalizowane kalendarze
-  - kalendarze firmowe
-  - kalendarze ścienne
-keywords:
-  - kalendarze książkowe
-  - spersonalizowane kalendarze
-  - kalendarze firmowe
-  - kalendarze ścienne
-  - Wrocław
+  - ekologia
+  - akcja charytatywna
   - agencja reklamowa
-  - agencja multimedialna
-meta_title: Art Open | Akcja charytatywna Gaszyn Challange
+keywords:
+  - Art Open
+  - agencja reklamowa
+  - ekologia
+  - środowisko
+  - Wrocław
+  - recykling
+meta_title: Art Open | Agencja reklamowa - Wrocław - Akcja sprzątanie - Otwarci na środowisko
 meta_description: >-
- Art Open | Nasza agencja zdobyła certyfikat "DIAMENTOWY DYSTRYBUTOR" marki Pier Luigi oraz stonebook. Nagroda ta przyznawana jest za znajomość oferty, wysokie efekty sprzedażowe oraz wzorową obsługę Klienta.
+ Z roku na rok światowa konsumpcja nie maleje przez co rośnie również ilość wytwarzanych odpadów. Należy je segregować, aby mogły być poddane recyklingowi i otrzymać „drugie życie” zamiast trafić na wysypisko śmieci.
 ---
 # Organizując akcję sprzątania pt. „OTWARCI NA ŚRODOWISKO” mieliśmy na celu zwrócenie uwagi na poważny problem zaśmiecania terenów zielonych, jak też edukacji w kwestii recyklingu i segregacji śmieci.
 

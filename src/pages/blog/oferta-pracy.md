@@ -6,21 +6,21 @@ slug: oferta-pracy-jezyk-niemiecki
 date: 2021-02-05T13:49:14.606Z
 cover: /img/oferta1.jpg
 tags:
-  - kalendarze książkowe
-  - spersonalizowane kalendarze
-  - kalendarze firmowe
-  - kalendarze ścienne
+  - oferta pracy
+  - język niemiecki
+  - specjalista ds sprzedaży i obsługi klienta
+  - sprzedaż zagraniczna
 keywords:
-  - kalendarze książkowe
-  - spersonalizowane kalendarze
-  - kalendarze firmowe
-  - kalendarze ścienne
+  - oferta pracy
+  - język niemiecki
+  - specjalista ds. sprzedaży i obsługi klienta
+  - sprzedaż zagraniczna
   - Wrocław
   - agencja reklamowa
-  - agencja multimedialna
-meta_title: Art Open | Akcja charytatywna Gaszyn Challange
+  - agencja reklamy
+meta_title: Art Open | Agencja reklamowa Wrocław - oferta pracy
 meta_description: >-
- Art Open | Nasza agencja zdobyła certyfikat "DIAMENTOWY DYSTRYBUTOR" marki Pier Luigi oraz stonebook. Nagroda ta przyznawana jest za znajomość oferty, wysokie efekty sprzedażowe oraz wzorową obsługę Klienta.
+  Agencja reklamowa Art Open Sp. z o.o. - Wrocław - poszukuje osoby do pracy na stanowisko: Specjalista ds. Sprzedaży i Obsługi Klienta - Język Niemiecki. Wyślij Nam swoje CV: rekrutacja@artopen.pl.
 ---
 # Oferta pracy - język Niemiecki
 Agencja Reklamowa Art Open Sp. z o.o. poszukuje osoby do pracy na stanowisko: Specjalista ds. Sprzedaży i Obsługi Klienta - Język Niemiecki. Wyślij Nam swoje CV: rekrutacja@artopen.pl

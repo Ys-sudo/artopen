@@ -132,10 +132,10 @@ const HomePageTemplate = (props) => {
 
 
       <div style={{marginTop:'5%',marginLeft:'auto',marginRight:'auto',marginBottom:'5%',textAlign:'center'}}>
-      <div style={{textAlign:'left',marginTop:'50px'}}>
+      <div style={{textAlign:'center',marginTop:'50px',marginLeft:'50px'}}>
 
       {/* TODO: Grafika 2*/}
-      <img src='/img/slider_1.jpg' width='750px'  alt='oferta' />
+      <img src='/img/blog.svg' width='750px'  alt='oferta' />
 
       </div>
 
@@ -226,7 +226,7 @@ const HomePageTemplate = (props) => {
       </section>
 
 
-      <section className='hero is-primary is-bold is-medium' style={{marginTop:'-7px'}}>
+      <section className='hero is-primary is-bold is-medium' style={{marginTop:'-7px', backgroundImage:'url(/img/eco.jpeg)',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'center'}}>
         <div className='hero-body'>
           <div className='container'>
             <div className='columns timers'>

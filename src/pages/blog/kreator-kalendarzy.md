@@ -18,9 +18,9 @@ keywords:
   - Wrocław
   - agencja reklamowa
   - agencja multimedialna
-meta_title: Art Open | Akcja charytatywna Gaszyn Challange
+meta_title: Art Open | Agencja reklamowa - Wrocław - Kreator kalendarzy
 meta_description: >-
- Art Open | Nasza agencja zdobyła certyfikat "DIAMENTOWY DYSTRYBUTOR" marki Pier Luigi oraz stonebook. Nagroda ta przyznawana jest za znajomość oferty, wysokie efekty sprzedażowe oraz wzorową obsługę Klienta.
+ Art Open | Agencja reklamowa - Wrocław - Wybierz przeszycie, rodzaj oprawy, szlufkę na długopis, patkę zamykaną na magnes i inne dodatki. Skomponuj swój autorski projekt kalendarza lub notesu.
 ---
 # Kreator kalendarzy - stwórz swój projekt!
 

@@ -6,21 +6,22 @@ slug: zwierzaki-w-potrzebie
 date: 2021-02-03T13:49:14.606Z
 cover: /img/schronisko.jpg
 tags:
-  - kalendarze książkowe
-  - spersonalizowane kalendarze
-  - kalendarze firmowe
-  - kalendarze ścienne
-keywords:
-  - kalendarze książkowe
-  - spersonalizowane kalendarze
-  - kalendarze firmowe
-  - kalendarze ścienne
-  - Wrocław
+  - akcja charytatywna
+  - pomoc dla zwierząt
+  - ekologia
   - agencja reklamowa
+keywords:
+  - studio reklamy
+  - agencja reklamowa
+  - akcje charytatywne
+  - ekologia
+  - pomoc społeczna
+  - Wrocław
   - agencja multimedialna
-meta_title: Art Open | Akcja charytatywna Gaszyn Challange
+
+meta_title: Art Open | Agencja reklamowa Wrocław - Pomoc bezdomnym zwierzętom
 meta_description: >-
- Art Open | Nasza agencja zdobyła certyfikat "DIAMENTOWY DYSTRYBUTOR" marki Pier Luigi oraz stonebook. Nagroda ta przyznawana jest za znajomość oferty, wysokie efekty sprzedażowe oraz wzorową obsługę Klienta.
+ Art Open | Agencja reklamowa Wrocław - Niesiemy pomoc bezdomnym zwierzakom! Regularnie odwiedzamy schronisko zaopatrując je w wysokiej jakości posiłki dla zwierząt oraz zachęcamy do adopcji!.
 ---
 # Kochamy zwierzęta, ale nie zawsze pamiętamy o tych, które nie mają własnego domu.
 
