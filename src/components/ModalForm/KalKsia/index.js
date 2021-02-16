@@ -990,10 +990,6 @@ const gumki = [
                               <input type="radio" name="gumki" value="szary"  />
                               <img className="obrazek" src="/img/gumki/gumka_szary.png" />
                             </label>,
-                            <label key="d14" className="gumki" >
-                                <input type="radio" name="gumki" value="szara"  />
-                                <img className="obrazek" src="/img/gumki/gumka_szara.png" />
-                              </label>,
                               <label key="d15" className="gumki" >
                                   <input type="radio" name="gumki" value="zolty"  />
                                   <img className="obrazek" src="/img/gumki/gumka_zolty.png" />

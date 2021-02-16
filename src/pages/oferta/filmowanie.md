@@ -17,16 +17,16 @@ keywords:
   - agencja interaktywna
   - ekologia
 ---
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
-
-## Lorem Ipsum.
-
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
-
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
-
-Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
-
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+Hollywood - któż nie zna tej otoczonej nimbem tajemnicy, krainy legendarnych gwiazd i wytwórni filmowych. Odkąd powstał pierwszy film, ludzkość bezgranicznie go pokochała.
+Filmy z międzynarodowymi nagrodami czy klasy B – wszystkie one mają swoich zagorzałych wielbicieli.
+Kogo nie śmieszy dzisiaj plastikowa Godziła z japońskiego filmu o monstrualnym potworze? Można się z tego filmu śmiać ale jest to film kultowy i warto go obejrzeć – choćby tylko po to, aby uświadomić sobie jak spektakularnie rozwinął się przemysł filmowy w tym jedna z jego dziedzin – efekty specjalne. Do podziwiania w wielu współczesnych filmach m.in – Avatar.
+Pomimo rozwoju technologii cyfrowej należy tu oddać hołd takim twórcom jak Stanley Kubrick, który sfilmował swoje największe dzieło, Odyseję kosmiczną: 2001, bez jednego, nawet najmniejszego, cyfrowego efektu specjalnego a mimo to, uzyskane efekty wzbudzają podziw nawet w naszych czasach.
+Dziś wielkie wytwórnie nie mają już monopolu na kręcenie filmów. Współcześnie film, stał się doskonałym narzędziem autoprezentacji i informacji.
+Nawet w krótkim filmie, można zawrzeć niezwykle istotne i ważne treści. Ruchomy obraz przemawia do nas silniej niż stosy zapisanych kartek.
+Wystarczy odwiedzić youtube, żeby się o tym przekonać. Niektórzy, bardziej uzależnieni od kręcenia, dokumentują nawet zakupy w supermarkecie lub swoje własne śniadanie albo nowo zakupione skarpetki. Istne szaleństwo 😊
+My chcemy użyć wspaniałej sztuki filmowej do zaprezentowania firmy, wydarzenia, produktu czy osoby – w zakresie zawodowym i biznesowym.
+Film z procesu produkcji, targów, jubileuszu przedsiębiorstwa, ważnej inwestycji, wizyty na międzynarodowym szczeblu, szkolenia, wydarzenia integracyjnego – jesteśmy gotowi na jego realizację i produkcję.
+Dotychczasowe doświadczenie podpowiada nam, że nie ma dwóch takich samych filmów – każdy ma swoje wymagania, wyzwania i nieoczekiwane zwroty.
+Mimo to, radość i przygoda związana z kręceniem każdego filmu, przewyższa wszystkie obawy i wątpliwości. Każda produkcja jest dla nas prawdziwa radością.
+Na produkcję filmową składa się olbrzymia ilość elementów a i ich koordynacja jest kluczem do sukcesu. Wszystkie poszczególne elementy tj. scenariusz, organizacja na planie zdjęciowym, montaż, muzyka są dokładnie analizowane i w razie potrzeby weryfikowane.
+Nasze doświadczenie daje nam poczucie, że zawsze staniemy na wysokości zadania i oddamy w ręce klienta wspaniały film.
