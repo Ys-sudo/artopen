@@ -45,12 +45,12 @@ const BlogPage = (props) => {
         </script>
         <meta name='keywords' content="Agencja reklamowa, ekologia, Art Open," />
       </Helmet>
-      <section className='hero is-primary is-bold' style={{minHeight:'750px',backgroundImage:'url(/img/blog.svg)',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'top',backgroundAttachment: `fixed`}}>
+      <section className='hero is-primary is-bold' style={{minHeight:'550px',backgroundImage:'url(/img/blog.svg)',backgroundSize:'contain',backgroundRepeat:'no-repeat',backgroundPosition:'top',backgroundAttachment: `fixed`}}>
         <div className='hero-body'>
         <div className='container section'>
           <div className='columns section'>
             <div>
-              <h1 className='title' style={{fontSize:'50px',marginTop:'150px'}}>
+              <h1 className='title' style={{fontSize:'50px',marginTop:'50px'}}>
                 Blog
               </h1>
               <h2 className='subtitle'>

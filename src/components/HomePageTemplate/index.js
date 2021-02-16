@@ -114,7 +114,7 @@ const HomePageTemplate = (props) => {
 
 
       <div style={{marginLeft:'auto',marginRight:'auto',marginTop:'50px'}}>
-        <div style={{textAlign:'right',marginTop:'100px'}}>
+        <div style={{textAlign:'left',marginTop:'100px'}}>
         {/* TODO: Grafika 1*/}
         <img src='/img/slider_1.jpg' width='750px'  alt='oferta' />
 
@@ -132,10 +132,10 @@ const HomePageTemplate = (props) => {
 
 
       <div style={{marginTop:'5%',marginLeft:'auto',marginRight:'auto',marginBottom:'5%',textAlign:'center'}}>
-      <div style={{textAlign:'center',marginTop:'0px',marginLeft:'50px'}}>
+      <div style={{textAlign:'right',marginTop:'0px',marginLeft:'50px'}}>
 
       {/* TODO: Grafika 2*/}
-      <img src='/img/blog.svg' width='1250px' style={{transform:'scale(1.2)'}}  alt='oferta' />
+      <img src='/img/blog.svg' width='1000px' style={{transform:'scale(1.2)'}}  alt='oferta' />
 
       </div>
 
