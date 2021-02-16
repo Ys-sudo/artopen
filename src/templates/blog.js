@@ -45,7 +45,7 @@ const BlogPage = (props) => {
         </script>
         <meta name='keywords' content="Agencja reklamowa, ekologia, Art Open," />
       </Helmet>
-      <section className='hero is-primary is-bold'>
+      <section className='hero is-primary is-bold' style={{minHeight:'550px',backgroundImage:'url(/img/blog.svg)',backgroundSize:'contain',backgroundRepeat:'no-repeat',backgroundPosition:'right'}}>
         <div className='hero-body'>
         <div className='container section'>
           <div className='columns section'>
@@ -62,9 +62,10 @@ const BlogPage = (props) => {
         </div>
       </section>
 
-      <div style={{marginLeft:'7%',marginTop:'50px',marginRight:'10%'}}>
+      <div style={{textAlign:'center',marginTop:'50px',marginRight:'10%',marginLeft:'10%'}}>
       <h2 className='title'> Witaj na blogu studia Art Open.</h2>
       <h3 className='subtitle'> Piszemy tutaj artykuły z zakresu aktualności, eventów oraz innowacji.</h3>
+      <hr />
       </div>
 
       <section className='section'>

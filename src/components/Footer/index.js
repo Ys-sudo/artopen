@@ -62,7 +62,7 @@ class Footer extends React.Component {
           </a>
 
           </div>
-          <div className='column removespace' style={{marginRight:'5%',padding:'5px',marginTop:'30px'}}>
+          <div className='column removespace' style={{padding:'5px',marginTop:'30px'}}>
           <br /><br />
 
           <a className='submenu-item' href='/wydruki/' >
@@ -153,7 +153,7 @@ class Footer extends React.Component {
           <h5><b>Newsletter</b></h5>
           <br />
 
-          <a onClick={newsEnter} className='button-green'> zapisz się </a>
+          <a onClick={newsEnter} className='button-green'> <img width="10px" className='icon-green'  alt="adres" src='/img/address-card.svg'/>zapisz się </a>
 
 
 

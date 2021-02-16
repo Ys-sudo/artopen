@@ -9,7 +9,7 @@ class BlogRoll2 extends React.Component {
 
     return (
       <div>
-      <div className='container columns'>
+      <div className='container columns' style={{marginRight:'auto',marginLeft:'auto'}}>
         {posts &&
           posts.slice(1,3)
           .filter(post => post.node.frontmatter.templateKey === 'article-page')
@@ -17,16 +17,16 @@ class BlogRoll2 extends React.Component {
             <div
               className='article-wrapper'
               key={post.id}
-              style={{margin:'10px'}}
+              style={{margin:'10px', textAlign:'left'}}
             >
             <Link aria-label="przeczytaj wpis"  to={post.fields.slug+'/'}>
             <img src={post.frontmatter.cover.publicURL} alt={post.frontmatter.title} className='fimg' />
             </Link>
             <div className='blogpostroll' >
               <div className='tagline3'>
-              <a className="button-green" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(0,1)} </a>
+              <a className="categblog" style={{fontSize:'12px'}} href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(0,1)} </a>
               &nbsp;&nbsp;
-              <a className="button-green" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(1,2)} </a>
+              <a className="categblog" style={{fontSize:'12px'}} href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(1,2)} </a>
               </div>
 
               <p>

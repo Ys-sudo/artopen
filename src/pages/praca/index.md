@@ -25,7 +25,7 @@ keywords:
 
    <div class="column">
 
-   <img class="oimg" alt="oferta pracy 2021" src="http://localhost:8888/img/oferta-pracy2021.jpg" width="100%"/>
+   <img class="oimg" alt="oferta pracy 2021" src="https://artopen.netlify.app/img/oferta-pracy2021.jpg" width="100%"/>
 
    </div>
 

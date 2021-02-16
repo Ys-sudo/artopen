@@ -1,6 +1,7 @@
 import React from 'react'
 import Content from '../Content'
 import ContactCall from '../ContactCall'
+import CvForm from '../forms/CvForm'
 import PropTypes from 'prop-types'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
@@ -38,6 +39,10 @@ const WorkPageTemplate = (props) => {
 
         </div>
       </section>
+
+      <div className='container oimg' style={{padding:'50px'}}>
+      <CvForm />
+      </div>
 
 
       <div style={{marginTop:'5%',marginLeft:'7%',marginRight:'7%',marginBottom:'5%'}}>
@@ -91,6 +96,8 @@ const WorkPageTemplate = (props) => {
           </div>
         </div>
       </section>
+
+
 
       <ContactCall />
     </div>

@@ -19,11 +19,11 @@ const PostCard = (props) => {
           <div className='featured-post'>
 
           <div className='tagline'>
-          <a className="button-green" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(0,1)} </a>
+          <a className="categblog" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(0,1)} </a>
           &nbsp;&nbsp;
-          <a className="button-green" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(1,2)} </a>
+          <a className="categblog" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(1,2)} </a>
           &nbsp;&nbsp;
-          <a className="button-green" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(2,3)} </a>
+          <a className="categblog" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(2,3)} </a>
           </div>
 
               <Link className='title has-text-primary' to={post.fields.slug+'/'}>
@@ -65,9 +65,9 @@ const PostCard = (props) => {
                 <div className='blogpostroll' >
 
                 <div className='tagline2' >
-                <a className="button-green" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(0,1)} </a>
+                <a className="categblog" style={{fontSize:'12px'}} href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(0,1)} </a>
                 &nbsp;&nbsp;
-                <a className="button-green" href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(1,2)} </a>
+                <a className="categblog" style={{fontSize:'12px'}} href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(1,2)} </a>
                 </div>
                   <p>
                     <Link className='title has-text-primary' to={post.fields.slug+'/'}>
