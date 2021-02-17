@@ -135,7 +135,7 @@ const HomePageTemplate = (props) => {
       <div style={{textAlign:'right',marginTop:'0px',marginLeft:'50px'}}>
 
       {/* TODO: Grafika 2*/}
-      <img src='/img/blog.svg' width='1000px' style={{transform:'scale(1.2)'}}  alt='oferta' />
+      <img src='/img/blog.svg' width='1000px' alt='oferta' />
 
       </div>
 

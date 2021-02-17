@@ -90,8 +90,10 @@ const CatalogsPageTemplate = (props) => {
                  </div>
 
                  <div className='column'>
-                <a href="https://online.fliphtml5.com/njygn/takv/" id='link2'>
-                  <img className='catalogimg' id="carousel" src="https://artopen.pl/images/2020/04/09/gadzety_1.png" width="100%"/>
+                <a className="catalogimg" href="https://online.fliphtml5.com/njygn/takv/" id='link2'>
+                <span>
+                  <img className='' id="carousel" src="https://artopen.pl/images/2020/04/09/gadzety_1.png" width="100%"/>
+                </span>
                   </a>
                  </div>
 
