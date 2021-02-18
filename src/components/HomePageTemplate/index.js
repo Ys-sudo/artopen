@@ -226,7 +226,7 @@ const HomePageTemplate = (props) => {
       </section>
 
 
-      <section className='hero is-primary is-bold is-medium' style={{marginTop:'-7px', backgroundImage:'url(/img/blog.svg)',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'top',backgroundAttachment: `fixed`,}}>
+      <section className='hero is-primary is-bold is-medium' async style={{marginTop:'-7px', backgroundImage:'url(/img/tlo-eko.jpg)',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'top',backgroundAttachment: `fixed`,}}>
         <div className='hero-body'>
           <div className='container'>
             <div className='columns timers'>

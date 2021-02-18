@@ -22,7 +22,9 @@ const OfferTemplate = (props) => {
       className="offimg"
 
     />
+    <a href='#content'>
     <div className='ofintro'>
+
       <div style={{textAlign:'center'}}>
         <img src={icon.publicURL} width='50px'
         style={{filter:'brightness(0) invert(1)'}}
@@ -43,17 +45,27 @@ const OfferTemplate = (props) => {
         {desc}
       </h2>
 
+      <div style={{textAlign:'center',marginBottom:'-20px'}}>
+
+        <img src="/img/angle-down.svg" width='20px'
+        style={{filter:'brightness(0) invert(1)'}}
+        />
+
+      </div>
+
+
     </div>
+    </a>
       <br></br>
-      <div style={{margin:'50px',marginTop:'0px'}}>
+      <div id="content" style={{paddingTop:'100px',paddingBottom:'50px'}}>
         <h3 className='title is-size-3 has-text-weight-bold is-bold-light oftitle2'
-        style={{color:'#00d1b2'}}
+        style={{color:'#00d1b2',marginLeft:'20px',marginRight:'20px'}}
         >
           {subtitle}
         </h3>
         <PostContent content={content} />
 
-        <div style={{ marginTop: `4rem` }}>
+        <div style={{ marginTop: `4rem`, marginLeft:'1rem' }}>
           <h4><b>Tagi:</b></h4>
           <br /><br />
           <ul className='taglist columns' style={{marginLeft:'10px'}}>
