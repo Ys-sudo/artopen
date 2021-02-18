@@ -156,7 +156,7 @@ keywords:
 </div>
 
 
-<div class="columns" style="display: flex; width:96%; margin:2%">
+<div class="columns" style="width:96%; margin:2%">
 <div class="column">
 <img src="http://localhost:8888/img/eco-img/1a.jpg" style="border-bottom:5px solid #00d1b2" />
 <br/>
@@ -198,7 +198,7 @@ keywords:
 
 <div class="columns" style="margin-left:5%;margin-right:5%">
 
-<div class="column" style="max-width:30%;padding-top:100px">
+<div class="column" style="max-width:300px;padding-top:100px">
 <p style="border-left: 5px solid #00d1b2; padding: 0px 0px 0px 10px">Oferujemy produkty biodegradowalne, drewniane oraz pochodzące z recyklingu.
 <br/><br/>
 Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a także trwałe oraz estetyczne.</p>
