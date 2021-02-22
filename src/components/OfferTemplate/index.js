@@ -3,7 +3,7 @@ import Content from '../Content'
 import OfferNav from '../OfferNav'
 import { kebabCase } from 'lodash'
 import { Link } from 'gatsby'
-
+import ModalCall from '../ModalCall'
 import ProgressiveImageContainer from '../ProgressiveImageContainer'
 
 const OfferTemplate = (props) => {
@@ -59,13 +59,30 @@ const OfferTemplate = (props) => {
       <br></br>
       <div id="content" style={{paddingTop:'100px',paddingBottom:'50px'}}>
         <h3 className='title is-size-3 has-text-weight-bold is-bold-light oftitle2'
-        style={{color:'#00d1b2',marginLeft:'20px',marginRight:'20px'}}
+        style={{color:'#00d1b2',marginLeft:'5%',marginRight:'5%'}}
         >
           {subtitle}
         </h3>
         <PostContent content={content} />
 
-        <div style={{ marginTop: `4rem`, marginLeft:'1rem' }}>
+        <br />
+        <br />
+        <ModalCall />
+
+
+        <br />
+        <br />
+        <br />
+
+        <div className='bottomUi' style={{textAlign:'center',marginBottom:'30px',marginLeft:'20px'}}>
+        <a className='button-green' style={{fontSize:'15px'}} href='/portfolio/'> Zobacz nasze realizacje&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a className='button-green' style={{fontSize:'15px'}} href='/blog/'> Poczytaj bloga&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a className='button-green' style={{fontSize:'15px'}} href='/kontakt/'> Skontaktuj się z nami&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+        </div>
+
+        <div style={{marginTop: `2rem`, marginLeft:'5%'}}>
           <h4><b>Tagi:</b></h4>
           <br /><br />
           <ul className='taglist columns' style={{marginLeft:'10px'}}>

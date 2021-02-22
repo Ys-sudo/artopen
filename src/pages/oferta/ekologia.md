@@ -4,7 +4,7 @@ title: Ekologia
 desc: Poznaj naszą ofertę ekologiczną i zobacz jak możesz zadbać z nami o środowisko.
 slug: ekologia
 date: 2020-12-05T13:49:14.606Z
-cover: /img/tlo-eko.svg
+cover: /img/tlo-eko.jpg
 icon: /img/leaf.svg
 subtitle: Dokąd nas to zaprowadzi?
 tags:
@@ -158,37 +158,37 @@ keywords:
 
 <div class="columns" style="width:96%; margin:2%">
 <div class="column">
-<img src="http://localhost:8888/img/eco-img/1a.jpg" style="border-bottom:5px solid #00d1b2" />
+<img src="https://artopen.netlify.app/img/eco-img/1a.jpg" style="border-bottom:5px solid #00d1b2" />
 <br/>
 <p>papier z trawy</p>
 </div>
 <div class="column">
-<img src="http://localhost:8888/img/eco-img/1b.jpg" style="border-bottom:5px solid #00d1b2" />
+<img src="https://artopen.netlify.app/img/eco-img/1b.jpg" style="border-bottom:5px solid #00d1b2" />
 <br/>
 <p>papier z kamienia</p>
 </div>
 <div class="column">
-<img src="http://localhost:8888/img/eco-img/1c.jpg" style="border-bottom:5px solid #00d1b2" />
+<img src="https://artopen.netlify.app/img/eco-img/1c.jpg" style="border-bottom:5px solid #00d1b2" />
 <br/>
 <p>organiczna bawełna</p>
 </div>
 <div class="column">
-<img src="http://localhost:8888/img/eco-img/1d.jpg" style="border-bottom:5px solid #00d1b2" />
+<img src="https://artopen.netlify.app/img/eco-img/1d.jpg" style="border-bottom:5px solid #00d1b2" />
 <br/>
 <p>kukurydziane PLA</p>
 </div>
 <div class="column">
-<img src="http://localhost:8888/img/eco-img/1e.jpg" style="border-bottom:5px solid #00d1b2" />
+<img src="https://artopen.netlify.app/img/eco-img/1e.jpg" style="border-bottom:5px solid #00d1b2" />
 <br/>
 <p>słoma pszeniczna</p>
 </div>
 <div class="column">
-<img src="http://localhost:8888/img/eco-img/1f.jpg" style="border-bottom:5px solid #00d1b2" />
+<img src="https://artopen.netlify.app/img/eco-img/1f.jpg" style="border-bottom:5px solid #00d1b2" />
 <br/>
 <p>bambus</p>
 </div>
 <div class="column">
-<img src="http://localhost:8888/img/eco-img/1g.jpg" style="border-bottom:5px solid #00d1b2" />
+<img src="https://artopen.netlify.app/img/eco-img/1g.jpg" style="border-bottom:5px solid #00d1b2" />
 <br/>
 <p>łuski kawy</p>
 </div>
@@ -214,11 +214,11 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 <div class="columns" style="padding-right:5%">
 
 <div class="column" style="justify-content: center; align-items: center;display:flex">
- <p style="font-size: 30px">Przykładowe produkty<br/>z <b>Łusek kawy</b>. </p>
+ <p style="font-size: 30px">Przykładowe produkty<br/>z <b>łusek kawy</b>. </p>
 </div>
 
 <div class="column" style="">
-<img src="http://localhost:8888/img/eco-img/kubki.jpg" />
+<img src="https://artopen.netlify.app/img/eco-img/kubki.jpg" />
 </div>
 
 </div>
@@ -227,7 +227,7 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 <div class="columns" style="padding-left:5%">
 
 <div class="column" style="">
-<img src="http://localhost:8888/img/eco-img/bambus.jpg" />
+<img src="https://artopen.netlify.app/img/eco-img/bambus.jpg" />
 </div>
 
 <div class="column" style="justify-content: center; align-items: center;display:flex">
@@ -239,11 +239,11 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 <div class="columns" style="padding-right:5%">
 
 <div class="column" style="justify-content: center; align-items: center;display:flex">
- <p style="font-size: 30px">gadżety wykonane ze <br/><b>słomy pszenicznej</b>. </p>
+ <p style="font-size: 30px">Gadżety wykonane ze <br/><b>słomy pszenicznej</b>. </p>
 </div>
 
 <div class="column" style="">
-<img src="http://localhost:8888/img/eco-img/slomapsz.jpg" />
+<img src="https://artopen.netlify.app/img/eco-img/slomapsz.jpg" />
 </div>
 
 </div>
@@ -252,37 +252,37 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 <div class="columns" style="padding-right:5%">
 
 <div class="column" style="">
-<img src="http://localhost:8888/img/eco-img/notes.jpg" />
+<img src="https://artopen.netlify.app/img/eco-img/notes.jpg" />
 </div>
 
-<div class="column" style="justify-content: center; align-items: center;display:flex">
- <p style="font-size: 30px">Notesy w ekologicznych, papierowych oprawach<br/>posiadające <b>certyfikat FSC</b>. </p>
+<div class="column" style="justify-content: center; align-items: center; display:flex">
+ <p style="font-size:30px">Notesy w ekologicznych, papierowych oprawach<br/>posiadające <b>certyfikat FSC</b>. </p>
+</div>
+
+</div>
+
+<div class="columns" style="padding-left:5%">
+
+<div class="column" style="justify-content: center; align-items: center; display:flex">
+ <p style="font-size:30px">Ekologiczny papier <br/> produkowany z<b> włókien trawy</b>. </p>
+</div>
+
+<div class="column" style="">
+<img src="https://artopen.netlify.app/img/eco-img/duo.jpg" />
 </div>
 
 </div>
 
 <div class="columns" style="padding-right:5%">
 
-<div class="column" style="justify-content: center; align-items: center;display:flex">
- <p style="font-size: 30px">Ekologiczny papier <br/> produkowany z<b> włókien trawy</b>. </p>
-</div>
-
 <div class="column" style="">
-<img src="http://localhost:8888/img/eco-img/stonebook.jpg" />
-</div>
-
-</div>
-
-<div class="columns" style="padding-right:5%">
-
-<div class="column" style="">
-<img src="http://localhost:8888/img/eco-img/stonebook.jpg" />
+<img src="https://artopen.netlify.app/img/eco-img/stonebook.jpg" />
 </div>
 
 
 
 <div class="column" style="justify-content: center; align-items: center;display:flex">
- <p style="font-size: 30px">Wodoodporny i wytrzymały<br/>ekologiczny <b>papier z kamienia</b>. </p>
+ <p style="font-size: 30px">Wodoodporny i wytrzymały<br/><b>papier z kamienia</b>. </p>
 </div>
 
 </div>
@@ -290,12 +290,12 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 
 <div class="columns">
 
-<div class="column">
-<img src="http://localhost:8888/img/eco-img/kamienie.svg" width="100%"/>
+<div class="column" style="max-width:45%">
+<img src="https://artopen.netlify.app/img/eco-img/kamienie.svg" width="100%"/>
 </div>
 
 <div class="column">
-<p style="text-align:left; font-size:40px; margin-bottom:50px"> Czy wiesz<br/> że... </p>
+<p style="text-align:left; font-size:40px; margin-bottom:50px"> Czy wiesz<br/> <b>że...</b> </p>
 <br/>
 
   <div class="columns" style="padding-right:10%;padding-left:10%;text-align: left"">
@@ -332,9 +332,6 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 <br/><b>ECO SMART!</b></p>
 <p style="text-align:right; font-size:40px;"> Zapytaj nas o pełną ofertę<br/><b>gadżetów ECO</b></p>
 
-<div style="text-align:center">
-<a class="button-green" style="font-size:20px" href="/kontakt"> skontaktuj się z nami! </a>
-</div>
 </br>
 </br>
 </div>
