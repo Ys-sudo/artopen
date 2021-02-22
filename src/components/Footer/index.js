@@ -184,7 +184,7 @@ class Footer extends React.Component {
           <br />
           <p style={{color:'white',fontSize:'12px'}}>
             {config.copyright} | <a className='link-green' target="_blank"  href="/polityka-prywatnosci/"> Polityka prywatności </a>
-            | <a className='link-green' target="_blank" href="/polityka-prywatnosci#cookies/"> Pliki Cookies </a>
+            | <a className='link-green' href="/polityka-prywatnosci/#cookies/"> Pliki Cookies </a>
             | <a className='link-green' target="_blank" href="/sitemap.xml/"> Mapa strony </a>
           </p>
 
