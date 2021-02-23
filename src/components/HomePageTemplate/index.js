@@ -116,7 +116,7 @@ const HomePageTemplate = (props) => {
       <div style={{marginLeft:'auto',marginRight:'auto',marginTop:'50px'}}>
         <div style={{textAlign:'left',marginTop:'100px'}}>
         {/* TODO: Grafika 1*/}
-        <img src='/img/slider_1.jpg' width='750px'  alt='oferta' />
+        <img src='/img/portfolio2.svg' width='1000px'  alt='oferta' />
 
         <br /><br />
         <h4 className='title' style={{textAlign:'center',marginLeft:'15px',marginRight:'15px'}}> Portfolio </h4>

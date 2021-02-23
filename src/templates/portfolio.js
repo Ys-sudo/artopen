@@ -45,23 +45,20 @@ const PortfolioPage = (props) => {
         </script>
         <meta name='keywords' content="Agencja reklamowa, ekologia, Art Open," />
       </Helmet>
-      <section className='hero is-primary is-bold'>
+      <section className='hero is-primary is-bold' style={{minHeight:'75%',backgroundImage:'url(/img/portfolio.svg)',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'top',backgroundAttachment: `fixed`}}>
         <div className='hero-body'>
         <div className='container section'>
           <div className='columns section'>
             <div>
-              <h1 className='title' style={{fontSize:'50px'}}>
+              <h1 className='title' style={{fontSize:'50px',marginTop:'50px'}}>
                 Portfolio
               </h1>
               <h2 className='subtitle'>
-                Zapraszamy do zapoznania się z naszymi realizacjami
+                Zapraszamy do zapoznania się z naszymi realizacjami.
               </h2>
             </div>
           </div>
-
-
         </div>
-
         </div>
       </section>
 
