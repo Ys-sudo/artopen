@@ -164,19 +164,22 @@ class Footer extends React.Component {
 
       </div>
         <div className='has-text-centered'>
-        <a href='' target="_blank">
-          <img width="25px" className='icon-green' alt="fb" src='/img/facebook-square.svg'/>
+        <a href='https://facebook.com/artopenstudioreklamy/' target="_blank">
+          <img width="25px" className='icon-green' alt="facebook" src='/img/facebook-square.svg'/>
         </a>
-        <a href='' target="_blank">
+        <a href='https://www.youtube.com/channel/UCR45VIn9iEmnQo7JU_FL2uQ/' target="_blank">
+          <img width="25px" className='icon-green' alt="youtube" src='/img/youtube-square.svg'/>
+        </a>
+        <a href='https://www.linkedin.com/company/art-open-studio-reklamy/' target="_blank">
           <img width="25px" className='icon-green' alt="linkedin" src='/img/linkedin.svg'/>
         </a>
-        <a href='' target="_blank">
+        <a href='https://twitter.com/AReklamy/' target="_blank">
           <img width="25px" className='icon-green' alt="tweeter" src='/img/twitter-square.svg'/>
         </a>
-        <a href='' target="_blank">
+        <a href='https://www.instagram.com/artopen.pl/' target="_blank">
           <img width="25px" className='icon-green' alt="instagram" src='/img/instagram-square.svg'/>
         </a>
-        <a href='' target="_blank">
+        <a href='https://www.behance.net/ArtOpenStudioReklamy/' target="_blank">
           <img width="25px" className='icon-green' alt="behance" src='/img/behance-square.svg'/>
         </a>
 
