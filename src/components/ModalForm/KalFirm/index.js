@@ -224,36 +224,59 @@ class KalFirm extends React.Component {
 
         <label className='label'>Uszlachetnienia:</label>
         <br />
-        <div className='control columns' id='UszlachetnieniaIII' style={{display:'flex',flexWrap:'wrap',width:'100%',marginLeft:'3%'}}>
+        <div className='control columns' id='UszlachetnieniaIII' style={{width:'100%'}}>
           <div className='column'>
-              <label htmlFor="HotstamplingII" className='label main' style={{fontSize:'14px'}}>Hotstampling
+              <label htmlFor="HotstamplingII" className='label main' style={{fontSize:'14px'}}>
               <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Hotstampling' id='HotstamplingII' />
-              <span className="check"></span>
+              <img className='obrazek' src="/img/uszlachetnienia/tloczenie.png" width='100px' />
+              <br />
+              Hotstampling
+
               </label>
             </div>
             <div className='column'>
-              <label className='label main' htmlFor="lakieruvII" style={{fontSize:'14px'}}>Lakier UV<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Lakier UV' id='lakieruvII' />
-              <span className="check"></span>
+              <label className='label main' htmlFor="lakieruvII" style={{fontSize:'14px'}}>
+              <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Lakier UV' id='lakieruvII' />
+              <img className='obrazek' src="/img/uszlachetnienia/lakier-uv.png" width='100px' />
+              <br />
+              Lakier UV
+
               </label>
             </div>
             <div className='column'>
-              <label htmlFor="folia blyskII" className='label main' style={{fontSize:'14px'}}>Folia błysk<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia błysk' id='folia blyskII' />
-              <span className="check"></span>
+              <label htmlFor="folia blyskII" className='label main' style={{fontSize:'14px'}}>
+              <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia złota' id='folia blyskII' />
+              <img className='obrazek' src="/img/uszlachetnienia/zlota-folia.png" width='100px' />
+              <br />
+              Folia złota
+
               </label>
             </div>
             <div className='column'>
-              <label htmlFor="folia matII" className='label main' style={{fontSize:'14px'}}>Folia mat<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia mat' id='folia matII' />
-              <span className="check"></span>
+              <label htmlFor="folia matII" className='label main' style={{fontSize:'14px'}}>
+              <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia mat' id='folia matII' />
+              <img className='obrazek' src="/img/uszlachetnienia/mat.png" width='100px' />
+              <br />
+              Folia mat
+
               </label>
             </div>
             <div className='column'>
-              <label className='label main' htmlFor="foliasoftII" style={{fontSize:'14px'}}>Folia soft touch<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia soft touch' id='foliasoftII' />
-              <span className="check"></span>
+              <label className='label main' htmlFor="foliasoftII" style={{fontSize:'14px'}}>
+              <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia srebrna' id='foliasoftII' />
+              <img className='obrazek' src="/img/uszlachetnienia/srebrna-folia.png" width='100px' />
+              <br />
+              Folia srebrna
+
               </label>
             </div>
             <div className='column'>
-              <label className='label main' htmlFor="ecopapierII" style={{fontSize:'14px'}}>Eco papier<input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Eco Papier' id='ecopapierII' />
-              <span className="check"></span>
+              <label className='label main' htmlFor="ecopapierII" style={{fontSize:'14px'}}>
+              <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Eco Papier' id='ecopapierII' />
+              <img className='obrazek' src="/img/uszlachetnienia/papier-eko.png" width='100px' />
+              <br />
+              Eco papier
+
               </label>
             </div>
 

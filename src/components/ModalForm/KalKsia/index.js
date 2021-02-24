@@ -287,31 +287,31 @@ class KalKsia extends React.Component {
       <div className='columns' style={{textAlign:'center',display:'flex',flexWrap:'wrap'}}>
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
-        <img className='obrazek' src="/img/oprawy/Vivela__czarny.png" width='80px' />
+        <img className='obrazek oprawaimg' src="/img/oprawy/Vivela__czarny.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
-        <img className='obrazek' src="/img/oprawy/Vivela__czerwony.png" width='80px' />
+        <img className='obrazek oprawaimg' src="/img/oprawy/Vivela__czerwony.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
-        <img className='obrazek' src="/img/oprawy/Vivela__granatowy.png" width='80px' />
+        <img className='obrazek oprawaimg' src="/img/oprawy/Vivela__granatowy.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
-        <img className='obrazek' src="/img/oprawy/Vivela__magenta.png" width='80px' />
+        <img className='obrazek oprawaimg' src="/img/oprawy/Vivela__magenta.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
-        <img className='obrazek' src="/img/oprawy/Vivela__pomaranczowy.png" width='80px' />
+        <img className='obrazek oprawaimg' src="/img/oprawy/Vivela__pomaranczowy.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
@@ -319,32 +319,32 @@ class KalKsia extends React.Component {
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
-        <img className='obrazek' src="/img/oprawy/Vivela__seledynowy.png" width='80px' />
+        <img className='obrazek oprawaimg' src="/img/oprawy/Vivela__seledynowy.png" width='80px' />
       </label>
 
       &nbsp; &nbsp;
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
-        <img className='obrazek' src="/img/oprawy/Vivela__szary.png" width='80px' />
+        <img className='obrazek oprawaimg' src="/img/oprawy/Vivela__szary.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
-        <img className='obrazek' src="/img/oprawy/Vivela__turkusowy.png" width='80px' />
+        <img className='obrazek oprawaimg' src="/img/oprawy/Vivela__turkusowy.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
-        <img className='obrazek' src="/img/oprawy/Vivela__zielony.png" width='80px' />
+        <img className='obrazek oprawaimg' src="/img/oprawy/Vivela__zielony.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
-        <img className='obrazek' src="/img/oprawy/Vivela__zolty.png" width='80px' />
+        <img className='obrazek oprawaimg' src="/img/oprawy/Vivela__zolty.png" width='80px' />
       </label>
 
 
@@ -928,7 +928,7 @@ let outletjuta = ['brazowy','','','','','','','','',''];
 const changeOne = (num) => (event) =>{
 
   let colors = document.getElementsByClassName('koloroprawy');
-  let pictures = document.getElementsByClassName('obrazek');
+  let pictures = document.getElementsByClassName('oprawaimg');
   let name = event.target.innerText //.toLowerCase();
   name = name.replace(/\s/g, '');
 
@@ -1043,7 +1043,6 @@ if (num == 0){
       for (let i = 0; i < collection.length; i++){
         if (collection[i] === ''){
         pictures[i].src = ' ';
-
         pictures[i].style.display = 'none';
         colors[i].setAttribute("disabled","true");
       } else {
@@ -1058,7 +1057,7 @@ if (num == 0){
 
 }
 
-changeOne(0);
+
 
 
 

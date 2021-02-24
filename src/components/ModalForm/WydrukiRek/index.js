@@ -96,14 +96,16 @@ class WydrukiRek extends React.Component {
       <div className='field' style={{marginLeft:'18px'}}>
       <label className='label'>Rodzaj wydruku:</label>
       <br />
-      <div className='control columns' style={{display:'flex',flexWrap:'wrap',width:'100%',marginLeft:'3%'}}>
+      <div className='control columns' style={{width:'100%'}}>
 
 
             <div className='column'>
-            <label htmlFor="wizytowkiI" className='label main ' style={{fontSize:'14px'}}>Wizytówki
+            <label htmlFor="wizytowkiI" className='label main ' style={{fontSize:'14px'}}>
             <input className='checkbox' onChange={this.handleChange}
             type='checkbox'  name='Wizytówki' id='wizytowkiI' />
-            <span className="check"></span>
+            <img className='obrazek' src="/img/wydruki-form/wizytowki.png" width='100px' />
+            <br />
+            Wizytówki
             </label>
             </div>
 
@@ -111,10 +113,12 @@ class WydrukiRek extends React.Component {
 
 
             <div className='column'>
-            <label htmlFor="ulotkiI" className='label main' style={{fontSize:'14px'}}>Ulotki
+            <label htmlFor="ulotkiI" className='label main' style={{fontSize:'14px'}}>
             <input className='checkbox' onChange={this.handleChange} type='checkbox'
             name='Ulotki' id='ulotkiI' />
-            <span className="check"></span>
+            <img className='obrazek' src="/img/wydruki-form/ulotka.png" width='100px' />
+            <br />
+            Ulotki
             </label>
             </div>
 
@@ -122,39 +126,47 @@ class WydrukiRek extends React.Component {
 
 
             <div className='column'>
-            <label className='label main' htmlFor="teczkiI" style={{fontSize:'14px'}}>Teczki
+            <label className='label main' htmlFor="teczkiI" style={{fontSize:'14px'}}>
             <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Teczki' id='teczkiI'
             />
-            <span className="check"></span>
+            <img className='obrazek' src="/img/wydruki-form/teczka.png" width='100px' />
+            <br />
+            Teczki
             </label>
             </div>
 
 
 
             <div className='column'>
-            <label className='label main' htmlFor="plakaty" style={{fontSize:'14px'}}>Plakaty
+            <label className='label main' htmlFor="plakaty" style={{fontSize:'14px'}}>
             <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Plakaty' id='plakaty'
             />
-            <span className="check"></span>
+            <img className='obrazek' src="/img/wydruki-form/plakat.png" width='100px' />
+            <br />
+            Plakaty
             </label>
             </div>
 
 
 
             <div className='column'>
-            <label className='label main' htmlFor="katalogiI" style={{fontSize:'14px'}}>Katalogi
+            <label className='label main' htmlFor="katalogiI" style={{fontSize:'14px'}}>
             <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='katalogi' id='katalogiI'
            />
-            <span className="check"></span>
+           <img className='obrazek' src="/img/wydruki-form/katalog.png" width='100px' />
+           <br />
+           Katalogi
             </label>
             </div>
 
 
             <div className='column'>
-            <label className='label main' htmlFor="publikacje" style={{fontSize:'14px'}}>Publikacje
+            <label className='label main' htmlFor="publikacje" style={{fontSize:'14px'}}>
             <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Publikacje' id='publikacje'
            />
-            <span className="check"></span>
+           <img className='obrazek' src="/img/wydruki-form/publikacja.png" width='100px' />
+           <br />
+           Publikacje
             </label>
             </div>
 
@@ -257,11 +269,6 @@ class WydrukiRek extends React.Component {
 
           <div className='columns'>
 
-
-          <div className='column'>
-          <label className='label'>Ilość:</label>
-            <input className='input' onChange={this.handleChange} placeholder='100' type='number' min="1" name='Ilość' id='ilośćWR' />
-          </div>
 
 
             <div className='column'>

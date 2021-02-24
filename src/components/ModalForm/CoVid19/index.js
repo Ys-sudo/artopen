@@ -385,7 +385,7 @@ class CoVid19 extends React.Component {
             Długopis<br/> Rio Spray
             </label>
 
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość neilo clean' id='ib4' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość rio spray' id='ib4' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
           </div>
 
         </div>

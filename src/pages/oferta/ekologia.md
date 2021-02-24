@@ -170,12 +170,12 @@ keywords:
 <div class="column">
 <img src="https://artopen.netlify.app/img/eco-img/1c.jpg" style="border-bottom:5px solid #00d1b2" />
 <br/>
-<p>organiczna bawełna</p>
+<p>kukurydziane PLA</p>
 </div>
 <div class="column">
 <img src="https://artopen.netlify.app/img/eco-img/1d.jpg" style="border-bottom:5px solid #00d1b2" />
 <br/>
-<p>kukurydziane PLA</p>
+<p>łuski kawy</p>
 </div>
 <div class="column">
 <img src="https://artopen.netlify.app/img/eco-img/1e.jpg" style="border-bottom:5px solid #00d1b2" />
@@ -190,7 +190,7 @@ keywords:
 <div class="column">
 <img src="https://artopen.netlify.app/img/eco-img/1g.jpg" style="border-bottom:5px solid #00d1b2" />
 <br/>
-<p>łuski kawy</p>
+<p>organiczna bawełna</p>
 </div>
 
 </div>
