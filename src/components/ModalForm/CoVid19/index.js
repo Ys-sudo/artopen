@@ -103,7 +103,7 @@ class CoVid19 extends React.Component {
       <div className='columns'>
 
         <div className='column cv1'>
-          <label className='label main' htmlFor="maseczkawu" style={{fontSize:'14px'}}>Maseczka wielokrotnego użytku z logo
+          <label className='label main' htmlFor="maseczkawu" style={{fontSize:'14px'}}>
           <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Maseczka z logo' id='maseczkawu'
           onInput={(event) => {
 
@@ -115,7 +115,10 @@ class CoVid19 extends React.Component {
 
             }
           }} />
-          <span className="check"></span>
+          <img className='obrazek' src="/img/covid-form/maseczka.png" width='100px' />
+          <br />
+          Maseczka wielokrotnego<br />
+          użytku z logo
           </label>
           <div id='i13' style={{display:'none'}}>
             <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość maseczek z logo' id='iml' style={{maxWidth:'350px',marginBottom:'20px'}} />
@@ -142,7 +145,7 @@ class CoVid19 extends React.Component {
                     className="custom-file-input"
                     type="file"
                     name="plik"
-                    style={{width:'100%',cursor:'pointer'}}
+                    style={{cursor:'pointer'}}
                     onChange={this.handleAttachment}
                     id ="fileinput"
                   />
@@ -150,7 +153,7 @@ class CoVid19 extends React.Component {
 
               </div>
               <br />
-              <p align="center" style={{backgroundColor:'#111111',color:'white',padding:'2px',fontSize:'12px'}}> Maksymalna wielkość pliku to <b>1MB</b>. </p>
+              <p style={{textAlign:'center',backgroundColor:'#111111',color:'white',padding:'2px',fontSize:'12px'}}> Maksymalna wielkość pliku to <b>1MB</b>. </p>
 
             </div>
           </div>
@@ -162,7 +165,7 @@ class CoVid19 extends React.Component {
 
 
           <div className='column'>
-            <label className='label main' htmlFor="maseczka1" style={{fontSize:'14px'}}>Maseczka jednorazowa
+            <label className='label main' htmlFor="maseczka1" style={{fontSize:'14px'}}>
             <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Maseczka jednorazowa' id='maseczka1'
             onInput={(event) => {
 
@@ -174,7 +177,9 @@ class CoVid19 extends React.Component {
 
               }
             }} />
-            <span className="check"></span>
+            <img className='obrazek' src="/img/covid-form/maseczka-jednorazowa.png" width='100px' />
+            <br />
+            Maseczka <br/> jednorazowa
             </label>
 
               <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość maseczek' id='ib' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
@@ -189,7 +194,7 @@ class CoVid19 extends React.Component {
 
 
             <div className='column'>
-            <label className='label main' htmlFor="rękawiczki" style={{fontSize:'14px'}}>Rękawiczki
+            <label className='label main' htmlFor="rękawiczki" style={{fontSize:'14px'}}>
             <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Rękawiczki' id='rękawiczki'
             onInput={(event) => {
 
@@ -201,7 +206,9 @@ class CoVid19 extends React.Component {
 
               }
             }} />
-            <span className="check"></span>
+            <img className='obrazek' src="/img/covid-form/rekawiczki.png" width='100px' />
+            <br />
+            Rękawiczki <br /><br />
             </label>
 
               <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość rękawiczek' id='i19' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
@@ -211,7 +218,7 @@ class CoVid19 extends React.Component {
 
 
             <div className='column'>
-              <label className='label main' htmlFor="płynydez" style={{fontSize:'14px'}}>Płyny dezynfekujące
+              <label className='label main' htmlFor="płynydez" style={{fontSize:'14px'}}>
               <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Płyny dezynfekujące' id='płynydez'
               onInput={(event) => {
 
@@ -223,7 +230,9 @@ class CoVid19 extends React.Component {
 
                 }
               }} />
-              <span className="check"></span>
+              <img className='obrazek' src="/img/covid-form/bacler.png" width='100px' />
+              <br />
+              Płyny <br /> dezynfekujące
               </label>
                 <div id="i15" style={{display:'none'}}>
 
@@ -287,17 +296,99 @@ class CoVid19 extends React.Component {
 
         </div>
 
-        {/*<div className="columns">
-          <div className='column'>
-          <label className='label main' htmlFor="gadzetyanty" style={{fontSize:'14px'}}>Gadżety z powierzchnią antybakteryjną
-          <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Gadżety z powierzchnią antybakteryjną' id='gadzetyanty'
-           />
-          <span className="check"></span>
-          </label>
 
+      </div>
+
+      <br />
+
+      <div className='field' style={{marginLeft:'18px'}}>
+        <div className='columns'>
+
+          <div className='column'>
+            <label className='label main' htmlFor="notouchit" style={{fontSize:'14px'}}>
+            <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Notouchit' id='notouchit'
+            onInput={(event) => {
+
+              if(document.getElementById('ib1').style.display == 'none'){
+              document.getElementById('ib1').style.display = 'block';
+
+              } else {
+              document.getElementById('ib1').style.display = 'none';
+
+              }
+            }} />
+            <img className='obrazek' src="/img/covid-form/notouchit.png" width='100px' />
+            <br />
+            Uchwyt<br/> NoTouchIt
+            </label>
+
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość notouchit' id='ib1' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
           </div>
+
+          <div className='column'>
+            <label className='label main' htmlFor="Neilo clean" style={{fontSize:'14px'}}>
+            <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Neilo clean' id='Neilo clean'
+            onInput={(event) => {
+
+              if(document.getElementById('ib2').style.display == 'none'){
+              document.getElementById('ib2').style.display = 'block';
+
+              } else {
+              document.getElementById('ib2').style.display = 'none';
+
+              }
+            }} />
+            <img className='obrazek' src="/img/covid-form/dlugopis-neilo-clean.png" width='100px' />
+            <br />
+            Długopis<br/> Neilo Clean
+            </label>
+
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość neilo clean' id='ib2' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+          </div>
+
+          <div className='column'>
+            <label className='label main' htmlFor="Rio clean" style={{fontSize:'14px'}}>
+            <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Rio clean' id='Rio clean'
+            onInput={(event) => {
+
+              if(document.getElementById('ib3').style.display == 'none'){
+              document.getElementById('ib3').style.display = 'block';
+
+              } else {
+              document.getElementById('ib3').style.display = 'none';
+
+              }
+            }} />
+            <img className='obrazek' src="/img/covid-form/dlugopis-rio-clean.png" width='100px' />
+            <br />
+            Długopis<br/> Rio Clean
+            </label>
+
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość rio clean' id='ib3' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+          </div>
+
+          <div className='column'>
+            <label className='label main' htmlFor="Rio spray" style={{fontSize:'14px'}}>
+            <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Rio spray' id='Rio spray'
+            onInput={(event) => {
+
+              if(document.getElementById('ib4').style.display == 'none'){
+              document.getElementById('ib4').style.display = 'block';
+
+              } else {
+              document.getElementById('ib4').style.display = 'none';
+
+              }
+            }} />
+            <img className='obrazek' src="/img/covid-form/dlugopis-rio-spray.png" width='100px' />
+            <br />
+            Długopis<br/> Rio Spray
+            </label>
+
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość neilo clean' id='ib4' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+          </div>
+
         </div>
-        */}
       </div>
 
       <hr />

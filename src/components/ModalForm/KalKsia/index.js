@@ -287,31 +287,31 @@ class KalKsia extends React.Component {
       <div className='columns' style={{textAlign:'center',display:'flex',flexWrap:'wrap'}}>
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
-        <img className='obrazek' src="/img/oprawy/canvas__zielony.png" width='80px' />
+        <img className='obrazek' src="/img/oprawy/Vivela__czarny.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
-        <img className='obrazek' src="/img/oprawy/canvas__czarny.png" width='80px' />
+        <img className='obrazek' src="/img/oprawy/Vivela__czerwony.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
-        <img className='obrazek' src="/img/oprawy/canvas__szary.png" width='80px' />
+        <img className='obrazek' src="/img/oprawy/Vivela__granatowy.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
-        <img className='obrazek' src="/img/oprawy/canvas__niebieski.png" width='80px' />
+        <img className='obrazek' src="/img/oprawy/Vivela__magenta.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
-        <img className='obrazek' src="/img/oprawy/canvas__granatowy.png" width='80px' />
+        <img className='obrazek' src="/img/oprawy/Vivela__pomaranczowy.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
@@ -319,32 +319,32 @@ class KalKsia extends React.Component {
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
-        <img className='obrazek' src="/img/oprawy/canvas__czerwony.png" width='80px' />
+        <img className='obrazek' src="/img/oprawy/Vivela__seledynowy.png" width='80px' />
       </label>
 
       &nbsp; &nbsp;
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
-        <img className='obrazek' src="/img/oprawy/canvas__brazowy.png" width='80px' />
+        <img className='obrazek' src="/img/oprawy/Vivela__szary.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
-        <img className='obrazek' src="" width='80px' />
+        <img className='obrazek' src="/img/oprawy/Vivela__turkusowy.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
-        <img className='obrazek' src="" width='80px' />
+        <img className='obrazek' src="/img/oprawy/Vivela__zielony.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
-        <img className='obrazek' src="" width='80px' />
+        <img className='obrazek' src="/img/oprawy/Vivela__zolty.png" width='80px' />
       </label>
 
 
