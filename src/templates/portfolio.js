@@ -45,7 +45,7 @@ const PortfolioPage = (props) => {
         </script>
         <meta name='keywords' content="Agencja reklamowa, ekologia, Art Open," />
       </Helmet>
-      <section className='hero is-primary is-bold' style={{minHeight:'75%',backgroundImage:'url(/img/portfolio.svg)',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'top',backgroundAttachment: `fixed`}}>
+      <section className='hero is-primary is-bold' style={{minHeight:'75%',backgroundImage:'url(/img/portfolio.svg)',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'top center',backgroundAttachment: `fixed`}}>
         <div className='hero-body'>
         <div className='container section'>
           <div className='columns section'>
@@ -65,15 +65,15 @@ const PortfolioPage = (props) => {
       <br></br>
       <br></br>
 
-      <div style={{padding: '0px', marginLeft:'5%',marginBottom:'30px'}}>
-        <h3 className='title'> Poznaj szczegóły naszej pracy: </h3>
+      <div style={{padding: '0px',marginBottom:'0px',textAlign:'center'}}>
+        <h3 className='title'> Poznaj szczegóły naszej pracy, </h3>
 
-        <h4 className='subtitle'> Wybrane realizacje według kategori: </h4>
+        <h4 className='subtitle'> wybrane realizacje według kategori. </h4>
       </div>
 
 
 
-      <section className='section' style={{padding: '0px', marginTop:'5%',marginLeft:'5%',marginRight:'3%'}}>
+      <section className='section' style={{padding: '0px', marginTop:'2%',marginLeft:'5%',marginRight:'3%'}}>
         <GalleryCard posts={group} cats={group} />
         <section className='section'>
           <div className='buttons is-centered'>

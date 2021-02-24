@@ -150,7 +150,7 @@ class KalKsia extends React.Component {
 
       <div id='optionI' className='column'>
       <label className='label' >Kolor:</label>
-      <select selected="selected"
+      <select
       className='button-green select-green' as='select'  name='kolor papieru' id='kolorpapieru'
       onChange={this.handleChange}
       >
@@ -181,102 +181,102 @@ class KalKsia extends React.Component {
       <div className='columns' style={{ display:'flex', flexWrap:'wrap'}}>
       <div className='column'>
         <label onClick={changeOne(0)} className="choicebtn">
-          Canvas
+          Savana
         </label>
         <br /><br />
 
         <label onClick={changeOne(1)} className="choicebtn">
-          Vivela
+          Bambus
         </label>
         <br /><br />
 
         <label onClick={changeOne(2)} className="choicebtn">
-          Image
+          Natura
         </label>
         <br /><br />
 
         <label onClick={changeOne(3)} className="choicebtn">
-          Cross
+          Canvas
         </label>
         <br /><br />
         <label onClick={changeOne(4)} className="choicebtn">
-          Ideo 
+          Kraft
         </label>
         <br /><br />
 
         <label onClick={changeOne(5)} className="choicebtn">
-          Natura 
+          Vivela
         </label>
         <br /><br />
         <label onClick={changeOne(6)} className="choicebtn">
-          Carbon 
+          Image
         </label>
 
       </div>
       <div className='column'>
 
         <label onClick={changeOne(7)} className="choicebtn">
-          Zamsz 
+          Ideo
         </label>
         <br /><br />
 
         <label onClick={changeOne(8)} className="choicebtn">
-          Guma 
+          Carbon
         </label>
         <br /><br />
 
         <label onClick={changeOne(9)} className="choicebtn">
-          Piko 
+          Cross
         </label>
         <br /><br />
 
         <label onClick={changeOne(10)} className="choicebtn">
-          Flesz  
+          Guma
         </label>
         <br /><br />
 
         <label onClick={changeOne(11)} className="choicebtn">
-          Aluminium  
+          Piko
         </label>
         <br /><br />
         <label onClick={changeOne(12)} className="choicebtn">
-          Craft 
+          Holo
         </label>
         <br /><br />
         <label onClick={changeOne(13)} className="choicebtn">
-          Holo  
+          Flesz
         </label>
 
       </div>
 
       <div className='column'>
           <label onClick={changeOne(14)} className="choicebtn">
-            Image   2
+            Aluminium
           </label>
           <br /><br />
 
           <label onClick={changeOne(15)} className="choicebtn">
-            Colorado    
+            Outlet - Zamsz
           </label>
           <br /><br />
           <label onClick={changeOne(16)} className="choicebtn">
-            Juta 
+            Outlet - Duro
           </label>
           <br /><br />
           <label onClick={changeOne(17)} className="choicebtn">
-            Beton  
+            Outlet - Fabra
           </label>
           <br /><br />
           <label onClick={changeOne(18)} className="choicebtn">
-            Cross 2
+            Outlet - Colorado
           </label>
           <br /><br />
           <label onClick={changeOne(19)} className="choicebtn">
-            Vivela  2
+            Outlet - Cross
           </label>
           <br /><br />
           <label onClick={changeOne(20)} className="choicebtn">
-            Fabra  
+            Outlet - Juta
           </label>
         </div>
       </div>
@@ -284,32 +284,32 @@ class KalKsia extends React.Component {
 
 
       {/* Obrazki radio buttons - kolory*/}
-      <div style={{textAlign:'center'}}>
-      <label>
+      <div className='columns' style={{textAlign:'center',display:'flex',flexWrap:'wrap'}}>
+      <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
         <img className='obrazek' src="/img/oprawy/canvas__zielony.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
-      <label>
+      <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
         <img className='obrazek' src="/img/oprawy/canvas__czarny.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
-      <label>
+      <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
         <img className='obrazek' src="/img/oprawy/canvas__szary.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
-      <label>
+      <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
         <img className='obrazek' src="/img/oprawy/canvas__niebieski.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
-      <label>
+      <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
         <img className='obrazek' src="/img/oprawy/canvas__granatowy.png" width='80px' />
       </label>
@@ -317,20 +317,32 @@ class KalKsia extends React.Component {
 
 
 
-      <label>
+      <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
         <img className='obrazek' src="/img/oprawy/canvas__czerwony.png" width='80px' />
       </label>
 
       &nbsp; &nbsp;
 
-      <label>
+      <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
         <img className='obrazek' src="/img/oprawy/canvas__brazowy.png" width='80px' />
       </label>
       &nbsp; &nbsp;
 
-      <label>
+      <label style={{margin:'10px'}}>
+        <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
+        <img className='obrazek' src="" width='80px' />
+      </label>
+      &nbsp; &nbsp;
+
+      <label style={{margin:'10px'}}>
+        <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
+        <img className='obrazek' src="" width='80px' />
+      </label>
+      &nbsp; &nbsp;
+
+      <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor" />
         <img className='obrazek' src="" width='80px' />
       </label>
@@ -478,36 +490,67 @@ class KalKsia extends React.Component {
       <br />
       </div>
 
-      <div className="columns" style={{textAlign:'center'}}>
+      <div className="columns" style={{textAlign:'left',marginLeft:'20px',flexWrap:'wrap'}}>
 
       <label htmlFor='c1' className='column main'>
         <input onChange={this.handleChange} type="checkbox" name="barwione brzegi" value="tak" id='c1'   />
         <img className='obrazek' src="/img/dodatki/dodatki_barwione_brzegi_942-300x300.jpg" width='100px' />
+
+        <br />
+        <b>Barwione brzegi</b>
+        <p style={{fontSize:'10px'}}>możliwość barwienia brzegów bloku kalendarza lub notesu<br /> - minimum 100 sztuk</p>
+
       </label>
 
       <label htmlFor='c2'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" name="gumka grzbietowa" value="tak" id='c2' />
         <img className='obrazek' src="/img/dodatki/dodatki_gumka_grzbietowa_738-300x300.jpg" width='100px' />
+
+
+        <br />
+        <b>Gumka grzbietowa</b>
+        <p style={{fontSize:'10px'}}>miejsce na długopis,<br /> gumka 10 mm</p>
+
       </label>
 
       <label htmlFor='c3'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" name="gumka pionowa" value="tak" id='c3' />
         <img className='obrazek' src="/img/dodatki/dodatki_gumka_pionowa_354-300x300.jpg" width='100px' />
+
+        <br />
+        <b>Gumka pionowa</b>
+        <p style={{fontSize:'10px'}}>gumka 10 mm</p>
+
       </label>
 
       <label htmlFor='c4'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" name="gumka pozioma" value="tak" id='c4' />
         <img className='obrazek' src="/img/dodatki/dodatki_gumka_pozioma_234-300x300.jpg" width='100px' />
+
+        <br />
+        <b>Gumka pozioma</b>
+        <p style={{fontSize:'10px'}}>miejsce na długopis,<br /> gumka 10 mm</p>
+
       </label>
 
       <label htmlFor='c5'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" name="koperta" value="tak" id='c5' />
         <img className='obrazek' src="/img/dodatki/dodatki_koperta_493-300x300.jpg" width='100px' />
+
+        <br />
+        <b>Koperta</b>
+        <p style={{fontSize:'10px'}}><b>wymiar</b> | pod każdy format</p>
+
       </label>
 
       <label htmlFor='c6'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" name="kryształ" value="tak" id='c6' />
         <img className='obrazek' src="/img/dodatki/dodatki_krysztal_779-300x300.jpg" width='100px' />
+
+        <br />
+        <b>Kryształ Swarovski</b>
+        <p style={{fontSize:'10px'}}>przyklejany do oprawy <br /> wymiar | 10 x 10 mm</p>
+
       </label>
 
 
@@ -518,36 +561,74 @@ class KalKsia extends React.Component {
 
 
 
-    <div className="columns" style={{textAlign:'center'}}>
+    <div className="columns" style={{textAlign:'left',marginLeft:'20px',flexWrap:'wrap'}}>
 
       <label htmlFor='c7'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" id='c7' name="m1" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_m1_859-300x300.jpg" width='100px' />
+        <br />
+        <b>M1</b>
+        <p style={{fontSize:'10px'}}>blaszka szczotkowane aluminium pod grawer
+         <br />
+          <b>wymiar</b> | 40 x 14 mm
+           <br />
+          <b>pole graweru</b> | 38 x 12 mm </p>
+
       </label>
 
       <label htmlFor='c8'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" id='c8' name="m2" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_m2_288-300x300.jpg" width='100px' />
+        <br />
+        <b>M2</b>
+        <p style={{fontSize:'10px'}}>blaszka szczotkowane aluminium pod grawer z tłoczonym rokiem
+         <br />
+          <b>wymiar</b> | 40 x 14 mm
+           <br />
+          <b>pole graweru</b> | 26 x 12 mm </p>
+
       </label>
 
       <label htmlFor='c9'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" id='c9' name="m3" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_m3_105-300x300.jpg" width='100px' />
+        <br />
+        <b>M3</b>
+        <p style={{fontSize:'10px'}}>rok finochromowy przyklejany do oprawy
+         <br />
+          <b>wymiar</b> | 45 x 9 mm </p>
+
       </label>
 
       <label htmlFor='c10'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" id='c10' name="m4" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_m4_724-300x300.jpg" width='100px' />
+        <br />
+        <b>M4</b>
+        <p style={{fontSize:'10px'}}>rok finochromowy przyklejany do oprawy
+         <br />
+          <b>wymiar</b> | 10 x 10 mm </p>
+
       </label>
 
       <label htmlFor='c11'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" id='c11' name="m11" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_m11_563-300x300.jpg" width='100px' />
+        <br />
+        <b>M11</b>
+        <p style={{fontSize:'10px'}}>zapinka metalowa (srebrna matowa) mocowana na nit z metalowym zawiasem zamykanym na magnes <br />
+        <b>pole graweru</b> | 26 x 8 mm</p>
+
       </label>
 
       <label htmlFor='c12'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" id='c12' name="m14" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_m14_116-300x300.jpg" width='100px' />
+        <br />
+        <b>M14</b>
+        <p style={{fontSize:'10px'}}>blaszka kwadratowa (srebrna błysk) mocowana do okładki z gumką 2 mm<br />
+        <b>pole graweru</b> | 15 x 15 mm</p>
+
       </label>
 
 
@@ -559,36 +640,59 @@ class KalKsia extends React.Component {
     </div>
 
 
-    <div className="columns" style={{textAlign:'center'}}>
+    <div className="columns" style={{textAlign:'left',marginLeft:'20px',flexWrap:'wrap'}}>
 
       <label htmlFor='c13'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" id='c13' name="m15" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_m15_967-300x300.jpg" width='100px' />
+        <br />
+        <b>M15</b>
+        <p style={{fontSize:'10px'}}>blaszka prostokątna (srebrna matowa) mocowana na gumce 10 mm<br />
+        <b>pole graweru</b> | 34 x 12 mm</p>
       </label>
 
       <label htmlFor='c14'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" id='c14' name="magnes" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_patka-magnes_660-300x300.jpg" width='100px' />
+        <br />
+        <b>Patka na magnes</b>
+        <p style={{fontSize:'10px'}}>zamykana na magnes z miejscem na długopis magnes ukryty w oprawie<br />
+        <b>pole graweru</b> | 8 x 8 mm</p>
       </label>
 
       <label htmlFor='c15'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" id='c15' name="pendrive" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+        <br />
+        <b>Pendrive 16GB</b>
+        <p style={{fontSize:'10px'}}><b>wymiar</b> | 34 x 11 mm
+        <br />
+        <b>pole graweru</b> | 28 x 8 mm</p>
       </label>
 
       <label htmlFor='c16'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" id='c16' name="grawer" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_personalizacja-grawer_777-300x300.jpg" width='100px' />
+        <br />
+        <b>Personalizacja grawerowana</b>
+        <p style={{fontSize:'10px'}}>personalizacja wg projektu </p>
       </label>
 
       <label htmlFor='c17'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" id='c17' name="tloczenie" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_personalizacja-tloczenie_186-300x300.jpg" width='100px' />
+        <br />
+        <b>Personalizacja tłoczona</b>
+        <p style={{fontSize:'10px'}}><b>font</b> | latin it capital 4 mm </p>
       </label>
 
       <label htmlFor='c18'  className='column main'>
         <input onChange={this.handleChange}  type="checkbox" id='c18' name="kieszonka prostokatna" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_prostokatna-kieszonka_923-300x300.jpg" width='100px' />
+        <br />
+        <b>Prostokątna kieszeń</b>
+        <p style={{fontSize:'10px'}}>Kieszeń wykonana z folii <br />
+        <b>wymiar</b> | 90 x 60 mm</p>
       </label>
 
 
@@ -599,27 +703,44 @@ class KalKsia extends React.Component {
 
     </div>
 
-    <div className="columns" style={{textAlign:'center'}}>
+    <div className="columns" style={{textAlign:'left',marginLeft:'20px',flexWrap:'wrap'}}>
 
       <label htmlFor='c19'  className='column main'>
         <input onChange={this.handleChange} type="checkbox" id='c19' name="szlufka" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_szlufka_na_dlugopis_226-300x300.jpg" width='100px' />
+        <br />
+        <b>Szlufka na długopis</b>
+        <p style={{fontSize:'10px'}}>gumka 10 mm</p>
       </label>
 
 
       <label htmlFor='c20'  className='column main'>
         <input onChange={this.handleChange} type="checkbox" id='c20' name="tasiemki" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_tasiemki_581-300x300.jpg" width='100px' />
+        <br />
+        <b>Tasiemki</b>
+        <p style={{fontSize:'10px'}}>tasiemki tkane, sublimacyjne</p>
       </label>
 
       <label htmlFor='c21'  className='column main'>
         <input onChange={this.handleChange} type="checkbox" id='c21' name="kieszonka trojkatna" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_trojkatna-kieszonka_750-300x300.jpg" width='100px' />
+        <br />
+        <b>Trójkątna kieszeń</b>
+        <p style={{fontSize:'10px'}}>
+        Kieszeń wykonana z folii<br />
+        <b>wymiar</b> | 80 x 80 mm,
+        100 x 100 mm, 120 x 120 mm
+        </p>
       </label>
 
       <label htmlFor='c22'  className='column main'>
         <input onChange={this.handleChange} type="checkbox" id='c22' name="uchwyt" value="tak"  />
         <img className='obrazek' src="/img/dodatki/dodatki_uchwyt_959-300x300.jpg" width='100px' />
+        <br />
+        <b>Uchwyt na długopis</b>
+        <p style={{fontSize:'10px'}}>uchwyt wykonany z ekoskóry </p>
+
       </label>
 
       <span className='column'>
@@ -775,29 +896,29 @@ class KalKsia extends React.Component {
 
 
 
-let canvas = ['zielony','czarny','szary','niebieski','granatowy','czerwony','brazowy',''];
-let vivela = ['brazowy','ciemny-granat','czarny','czerwony','magenta','seledynowy','szary','turkusowy'];
-let image = ['bordowy','czarny','czekoladowy','grafitowy','granatowy','pomaranczowy','szary','zielony'];
-let cross = ['czekoladowy','czerwony','granatowy','szary','','','',''];
-let ideo = ['czarny','czerwony','granatowy','seledynowy','','','',''];
-let natura = ['bordowy','brazowy','grafitowy','granatowy','szary','','',''];
-let carbon = ['czarny','grafitowy','','','','','',''];
+let savana = ['bezowy','bordowy','brazowy','granatowy','','','','','',''];
+let bambus = ['granatowy','seledynowy','szary','zielony','','','','','',''];
+let natura = ['bezowy','grafitowy','granatowy','szary','','','','','',''];
+let canvas = ['brazowy','czarny','czerwony','granatowy','niebieski','szary','zielony','','',''];
+let kraft = ['grafitowy','granatowy','koralowy','niebieski','','','','','',''];
+let vivela = ['czarny','czerwony','granatowy','magenta','pomaranczowy','seledynowy','szary','turkusowy','zielony','zolty'];
+let image = ['bordowy','czarny','czekoladowy','grafitowy','granatowy','szary','','','',''];
 
-let zamsz = ['czarny','granatowy','szary','','','','',''];
-let guma = ['czarny-satynowy','czerwony','granat-satynowy','mitowy','niebieski','pomaranczowy','szary-satynowy',''];
-let piko = ['brazowy','czarny','fioletowy','granatowy-blysk','granatowy-mat','srebrny','szary',''];
-let flesz = ['grafitowy','srebrny','zolty','','','','',''];
-let aluminium = ['czarny','granatowy','srebrny','','','','',''];
-let craft = ['grafitowy','granatowy','koralowy','niebieski','','','',''];
-let holo = ['hologram','','','','','','',''];
+let ideo = ['bialy','czarny','czerwony','granatowy','seledynowy','','','','',''];
+let carbon = ['czarny','granatowy','szary','','','','','','',''];
+let cross = ['czarny','czerwony','granatowy','szary','zielony','','','','',''];
+let guma = ['czarny-satynowy','czerwony','granat-satynowy','mietowy','niebieski','pomaranczowy','szary-satynowy','','',''];
+let piko = ['brazowy','czarny','czerwony','fioletowy','granatowy-blysk','granatowy-mat','srebrny','szary','',''];
+let holo = ['hologram','','','','','','','','',''];
+let flesz = ['grafitowy','srebrny','zloty','','','','','','',''];
 
-let image2 = ['cieniowana-cegla','cieniowana-czekolada','','','','','',''];
-let colorado = ['bordowy','czerwony','grafitowy','szary','','','',''];
-let juta = ['brazowy','','','','','','',''];
-let beton = ['granatowy','','','','','','',''];
-let cross2 = ['malinowy','pomaranczowy','','','','','',''];
-let vivela2 = ['bezowy','','','','','','',''];
-let fabra = ['zielony','','','','','','',''];
+let aluminium = ['czarny','granatowy','srebrny','','','','','','',''];
+let outletzamsz = ['granatowy','','','','','','','','',''];
+let outletduro = ['czarny','granatowy','szary','','','','','','',''];
+let outletfabra = ['zielony','','','','','','','','',''];
+let outletcolorado = ['bordowy','szary','','','','','','','',''];
+let outletcross = ['czekoladowy','malinowy','','','','','','','',''];
+let outletjuta = ['brazowy','','','','','','','','',''];
 
 
 
@@ -808,72 +929,72 @@ const changeOne = (num) => (event) =>{
 
   let colors = document.getElementsByClassName('koloroprawy');
   let pictures = document.getElementsByClassName('obrazek');
-  let name = event.target.innerText.toLowerCase();
+  let name = event.target.innerText //.toLowerCase();
   name = name.replace(/\s/g, '');
 
   var collection;
 if (num == 0){
-  collection = canvas;
+  collection = savana;
 }
   else if (num == 1){
-  collection = vivela;
+  collection = bambus;
 }
   else if (num == 2) {
-  collection = image;
-}
-  else if (num == 3) {
-  collection = cross;
-}
-  else if (num == 4) {
-  collection = ideo;
-}
-  else if (num == 5) {
   collection = natura;
 }
+  else if (num == 3) {
+  collection = canvas;
+}
+  else if (num == 4) {
+  collection = kraft;
+}
+  else if (num == 5) {
+  collection = vivela;
+}
   else if (num == 6) {
-  collection = carbon;
+  collection = image;
 }
   else if (num == 7) {
-  collection = zamsz;
+  collection = ideo;
 }
   else if (num == 8) {
-    collection = guma;
+    collection = carbon;
   }
   else if (num == 9) {
-    collection = piko;
+    collection = cross;
   }
   else if (num == 10){
-  collection = flesz;
+  collection = guma;
 }
   else if (num == 11) {
-  collection = aluminium;
+  collection = piko;
 }
   else if (num == 12) {
-  collection = craft;
-}
-  else if (num == 13) {
   collection = holo;
 }
+  else if (num == 13) {
+  collection = flesz;
+}
   else if (num == 14) {
-  collection = image2;
+  collection = aluminium;
   }
   else if (num == 15) {
-  collection = colorado;
+  collection = outletzamsz;
 }
   else if (num == 16) {
-  collection = juta;
+  collection = outletduro;
 }
   else if (num == 17) {
-  collection = beton;
+  collection = outletfabra;
 }
   else if (num == 18) {
-    collection = cross2;
+    collection = outletcolorado;
   }
   else if (num == 19) {
-    collection = vivela2;
+    collection = outletcross;
   }
   else if (num == 20) {
-    collection = fabra;
+    collection = outletjuta;
   }
 
 
@@ -913,12 +1034,22 @@ if (num == 0){
       colors[7].value =  name + collection[7];
       pictures[7].src = '/img/oprawy/'+name+'__'+collection[7]+'.png';
 
+      colors[8].value =  name + collection[8];
+      pictures[8].src = '/img/oprawy/'+name+'__'+collection[8]+'.png';
+
+      colors[9].value =  name + collection[9];
+      pictures[9].src = '/img/oprawy/'+name+'__'+collection[9]+'.png';
+
       for (let i = 0; i < collection.length; i++){
         if (collection[i] === ''){
         pictures[i].src = ' ';
+
+        pictures[i].style.display = 'none';
         colors[i].setAttribute("disabled","true");
       } else {
         colors[i].removeAttribute("disabled");
+        pictures[i].style.display = 'flex';
+
       }
     }
     colors[0].checked = 'true';
