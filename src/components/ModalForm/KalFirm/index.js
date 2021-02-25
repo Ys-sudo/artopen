@@ -226,8 +226,8 @@ class KalFirm extends React.Component {
         <br />
         <div className='control columns' id='UszlachetnieniaIII' style={{width:'100%'}}>
           <div className='column'>
-              <label htmlFor="tloczenie" className='label main' style={{fontSize:'14px'}}>
-              <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Tłoczenie matrycą' id='tloczenie' />
+              <label htmlFor="tloczeniex" className='label main' style={{fontSize:'14px'}}>
+              <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Tłoczenie matrycą' id='tloczeniex' />
               <img className='obrazek' src="/img/uszlachetnienia/tloczenie.png" width='100px' />
               <br />
               Tłoczenie matrycą

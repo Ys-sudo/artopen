@@ -357,8 +357,8 @@ class WydrukiRek extends React.Component {
           <br />
           <div className='control columns' id='UszlachetnieniaIV' style={{width:'100%'}}>
             <div className='column'>
-                <label htmlFor="tloczenie2" className='label main' style={{fontSize:'14px'}}>
-                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Tłoczenie matrycą' id='tloczenie2' />
+                <label htmlFor="tloczeniematryca" className='label main' style={{fontSize:'14px'}}>
+                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Tłoczenie matrycą' id='tloczeniematryca' />
                 <img className='obrazek' src="/img/uszlachetnienia/tloczenie.png" width='100px' />
                 <br />
                 Tłoczenie matrycą
@@ -366,8 +366,8 @@ class WydrukiRek extends React.Component {
                 </label>
               </div>
               <div className='column'>
-                <label className='label main' htmlFor="lakieruvII" style={{fontSize:'14px'}}>
-                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Lakier UV' id='lakieruvIV' />
+                <label className='label main' htmlFor="uv" style={{fontSize:'14px'}}>
+                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Lakier UV' id='uv' />
                 <img className='obrazek' src="/img/uszlachetnienia/lakier-uv.png" width='100px' />
                 <br />
                 Lakier UV
@@ -375,8 +375,8 @@ class WydrukiRek extends React.Component {
                 </label>
               </div>
               <div className='column'>
-                <label htmlFor="folia blyskII" className='label main' style={{fontSize:'14px'}}>
-                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia złota' id='folia blyskIV' />
+                <label htmlFor="foliablysk" className='label main' style={{fontSize:'14px'}}>
+                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia złota' id='foliablysk' />
                 <img className='obrazek' src="/img/uszlachetnienia/zlota-folia.png" width='100px' />
                 <br />
                 Folia złota
@@ -384,8 +384,8 @@ class WydrukiRek extends React.Component {
                 </label>
               </div>
               <div className='column'>
-                <label htmlFor="folia matII" className='label main' style={{fontSize:'14px'}}>
-                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia mat' id='folia matIV' />
+                <label htmlFor="foliamatIV" className='label main' style={{fontSize:'14px'}}>
+                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia mat' id='foliamatIV' />
                 <img className='obrazek' src="/img/uszlachetnienia/mat.png" width='100px' />
                 <br />
                 Folia mat
@@ -393,7 +393,7 @@ class WydrukiRek extends React.Component {
                 </label>
               </div>
               <div className='column'>
-                <label className='label main' htmlFor="foliasoftII" style={{fontSize:'14px'}}>
+                <label className='label main' htmlFor="foliasoftIV" style={{fontSize:'14px'}}>
                 <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia srebrna' id='foliasoftIV' />
                 <img className='obrazek' src="/img/uszlachetnienia/srebrna-folia.png" width='100px' />
                 <br />
@@ -402,7 +402,7 @@ class WydrukiRek extends React.Component {
                 </label>
               </div>
               <div className='column'>
-                <label className='label main' htmlFor="ecopapierII" style={{fontSize:'14px'}}>
+                <label className='label main' htmlFor="ecopapierIV" style={{fontSize:'14px'}}>
                 <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Eco Papier' id='ecopapierIV' />
                 <img className='obrazek' src="/img/uszlachetnienia/papier-eco.png" width='100px' />
                 <br />
