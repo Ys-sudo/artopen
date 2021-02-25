@@ -357,8 +357,8 @@ class WydrukiRek extends React.Component {
           <br />
           <div className='control columns' id='UszlachetnieniaIV' style={{width:'100%'}}>
             <div className='column'>
-                <label htmlFor="tloczenie" className='label main' style={{fontSize:'14px'}}>
-                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Tłoczenie matrycą' id='tloczenieIV' />
+                <label htmlFor="tloczenie2" className='label main' style={{fontSize:'14px'}}>
+                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Tłoczenie matrycą' id='tloczenie2' />
                 <img className='obrazek' src="/img/uszlachetnienia/tloczenie.png" width='100px' />
                 <br />
                 Tłoczenie matrycą
