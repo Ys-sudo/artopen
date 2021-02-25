@@ -1,5 +1,7 @@
 # gatsby-artopen
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/137fd11a-b8da-4572-b9b3-e11227a8d291/deploy-status)](https://app.netlify.com/sites/artopen/deploys)
+
 A [Gatsby v2](https://www.gatsbyjs.org/) and [Netlify CMS](https://www.netlifycms.org) powered generic website.
 
 It follows the [JAMstack architecture](https://jamstack.org) by using Git as a single source of truth, and [Netlify](https://www.netlify.com) for continuous deployment, and CDN distribution.
