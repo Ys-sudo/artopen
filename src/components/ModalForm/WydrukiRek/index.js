@@ -102,11 +102,27 @@ class WydrukiRek extends React.Component {
             <div className='column'>
             <label htmlFor="wizytowkiI" className='label main ' style={{fontSize:'14px'}}>
             <input className='checkbox' onChange={this.handleChange}
-            type='checkbox'  name='Wizytówki' id='wizytowkiI' />
+            type='checkbox'  name='Wizytówki' id='wizytowkiI'
+            onInput={(event) => {
+              if(document.getElementById('ix1').style.display == 'none'){
+              document.getElementById('ix1').style.display = 'block';
+
+              } else {
+              document.getElementById('ix1').style.display = 'none';
+
+              }
+            }}
+            />
             <img className='obrazek' src="/img/wydruki-form/wizytowki.png" width='100px' />
             <br />
             Wizytówki
             </label>
+
+              <div id='ix1' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość wizytówki' id='ilx1' />
+              </div>
+
             </div>
 
 
@@ -115,11 +131,27 @@ class WydrukiRek extends React.Component {
             <div className='column'>
             <label htmlFor="ulotkiI" className='label main' style={{fontSize:'14px'}}>
             <input className='checkbox' onChange={this.handleChange} type='checkbox'
-            name='Ulotki' id='ulotkiI' />
+            name='Ulotki' id='ulotkiI'
+            onInput={(event) => {
+              if(document.getElementById('ix2').style.display == 'none'){
+              document.getElementById('ix2').style.display = 'block';
+
+              } else {
+              document.getElementById('ix2').style.display = 'none';
+
+              }
+            }}
+            />
             <img className='obrazek' src="/img/wydruki-form/ulotka.png" width='100px' />
             <br />
             Ulotki
             </label>
+
+              <div id='ix2' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość ulotki' id='ilx2' />
+              </div>
+
             </div>
 
 
@@ -128,11 +160,26 @@ class WydrukiRek extends React.Component {
             <div className='column'>
             <label className='label main' htmlFor="teczkiI" style={{fontSize:'14px'}}>
             <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Teczki' id='teczkiI'
+            onInput={(event) => {
+              if(document.getElementById('ix3').style.display == 'none'){
+              document.getElementById('ix3').style.display = 'block';
+
+              } else {
+              document.getElementById('ix3').style.display = 'none';
+
+              }
+            }}
             />
             <img className='obrazek' src="/img/wydruki-form/teczka.png" width='100px' />
             <br />
             Teczki
             </label>
+
+              <div id='ix3' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość teczki' id='ilx3' />
+              </div>
+
             </div>
 
 
@@ -140,11 +187,26 @@ class WydrukiRek extends React.Component {
             <div className='column'>
             <label className='label main' htmlFor="plakaty" style={{fontSize:'14px'}}>
             <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Plakaty' id='plakaty'
+            onInput={(event) => {
+              if(document.getElementById('ix4').style.display == 'none'){
+              document.getElementById('ix4').style.display = 'block';
+
+              } else {
+              document.getElementById('ix4').style.display = 'none';
+
+              }
+            }}
             />
             <img className='obrazek' src="/img/wydruki-form/plakat.png" width='100px' />
             <br />
             Plakaty
             </label>
+
+              <div id='ix4' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość plakaty' id='ilx4' />
+              </div>
+
             </div>
 
 
@@ -152,22 +214,53 @@ class WydrukiRek extends React.Component {
             <div className='column'>
             <label className='label main' htmlFor="katalogiI" style={{fontSize:'14px'}}>
             <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='katalogi' id='katalogiI'
+           onInput={(event) => {
+             if(document.getElementById('ix5').style.display == 'none'){
+             document.getElementById('ix5').style.display = 'block';
+
+             } else {
+             document.getElementById('ix5').style.display = 'none';
+
+             }
+           }}
            />
            <img className='obrazek' src="/img/wydruki-form/katalog.png" width='100px' />
            <br />
            Katalogi
             </label>
+
+              <div id='ix5' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość katalogi' id='ilx5' />
+              </div>
+
             </div>
 
 
             <div className='column'>
             <label className='label main' htmlFor="publikacje" style={{fontSize:'14px'}}>
             <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Publikacje' id='publikacje'
-           />
+            onInput={(event) => {
+              if(document.getElementById('ix6').style.display == 'none'){
+              document.getElementById('ix6').style.display = 'block';
+
+              } else {
+              document.getElementById('ix6').style.display = 'none';
+
+              }
+            }}
+            />
            <img className='obrazek' src="/img/wydruki-form/publikacja.png" width='100px' />
            <br />
            Publikacje
             </label>
+
+              <div id='ix6' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość publikacje' id='ilx6' />
+              </div>
+
+
             </div>
 
 
@@ -189,17 +282,24 @@ class WydrukiRek extends React.Component {
             if(document.getElementById('i8').style.display == 'none'){
             document.getElementById('i8').style.display = 'block';
 
+
             } else {
             document.getElementById('i8').style.display = 'none';
+
 
             }
           }} />
           <span className="check"></span>
           </label>
           </div>
-          <div className='column'>
-            <input  onChange={this.handleChange} className='input' type='text' placeholder='wpisz inne rodzaje...' name='inne' id='i8' style={{display:'none',maxWidth:'350px'}} />
+
+          <div className='column' id='i8' style={{display:'none',maxWidth:'350px'}}>
+            <input  onChange={this.handleChange} className='input' type='text' placeholder='wpisz inne rodzaje...' name='inne' id='ixl8'  />
+            <br /><br />
+            <label className="label">Ilość:</label>
+            <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość inne' id='ilx7' />
           </div>
+
 
         </div>
 
@@ -250,21 +350,68 @@ class WydrukiRek extends React.Component {
             </select>
             </div>
 
-            <div className='column'>
-            <label className='label'>Rodzaj uszlachetnienia:</label>
-            <select
-            className='button-green select-green' as='select'  name='Rodzaj uszlachetnienia' id='rodzaj uszlachetnienia'
-            onChange={this.handleChange}
-            >
-            <option value="Folia mat/błysk">Folia mat/błysk</option>
-            <option value="Folia soft-touch">Folia soft-touch</option>
-            <option value="Hotstampling">Hotstampling</option>
-            <option value="Lakier UV">Lakier UV</option>
 
-            </select>
-            </div>
           </div>
 
+          <label className='label'>Rodzaje uszlachetnień:</label>
+          <br />
+          <div className='control columns' id='UszlachetnieniaIV' style={{width:'100%'}}>
+            <div className='column'>
+                <label htmlFor="tloczenie" className='label main' style={{fontSize:'14px'}}>
+                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Tłoczenie matrycą' id='tloczenieIV' />
+                <img className='obrazek' src="/img/uszlachetnienia/tloczenie.png" width='100px' />
+                <br />
+                Tłoczenie matrycą
+
+                </label>
+              </div>
+              <div className='column'>
+                <label className='label main' htmlFor="lakieruvII" style={{fontSize:'14px'}}>
+                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Lakier UV' id='lakieruvIV' />
+                <img className='obrazek' src="/img/uszlachetnienia/lakier-uv.png" width='100px' />
+                <br />
+                Lakier UV
+
+                </label>
+              </div>
+              <div className='column'>
+                <label htmlFor="folia blyskII" className='label main' style={{fontSize:'14px'}}>
+                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia złota' id='folia blyskIV' />
+                <img className='obrazek' src="/img/uszlachetnienia/zlota-folia.png" width='100px' />
+                <br />
+                Folia złota
+
+                </label>
+              </div>
+              <div className='column'>
+                <label htmlFor="folia matII" className='label main' style={{fontSize:'14px'}}>
+                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia mat' id='folia matIV' />
+                <img className='obrazek' src="/img/uszlachetnienia/mat.png" width='100px' />
+                <br />
+                Folia mat
+
+                </label>
+              </div>
+              <div className='column'>
+                <label className='label main' htmlFor="foliasoftII" style={{fontSize:'14px'}}>
+                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Folia srebrna' id='foliasoftIV' />
+                <img className='obrazek' src="/img/uszlachetnienia/srebrna-folia.png" width='100px' />
+                <br />
+                Folia srebrna
+
+                </label>
+              </div>
+              <div className='column'>
+                <label className='label main' htmlFor="ecopapierII" style={{fontSize:'14px'}}>
+                <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Eco Papier' id='ecopapierIV' />
+                <img className='obrazek' src="/img/uszlachetnienia/papier-eco.png" width='100px' />
+                <br />
+                Eco papier
+
+                </label>
+              </div>
+
+          </div>
 
 
           <div className='columns'>

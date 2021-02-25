@@ -284,7 +284,7 @@ class KalKsia extends React.Component {
 
 
       {/* Obrazki radio buttons - kolory*/}
-      <div className='columns' style={{textAlign:'center',display:'flex',flexWrap:'wrap'}}>
+      <div className='columns' style={{textAlign:'center',marginLeft:'auto',marginRight:'auto',display:'flex',flexWrap:'wrap'}}>
       <label style={{margin:'10px'}}>
         <input onChange={this.handleChange} className='koloroprawy' type="radio" name="kolor"  />
         <img className='obrazek oprawaimg' src="/img/oprawy/Vivela__czarny.png" width='80px' />

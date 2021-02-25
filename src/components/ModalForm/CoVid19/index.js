@@ -121,6 +121,7 @@ class CoVid19 extends React.Component {
           użytku z logo
           </label>
           <div id='i13' style={{display:'none'}}>
+            <label className="label">Ilość:</label>
             <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość maseczek z logo' id='iml' style={{maxWidth:'350px',marginBottom:'20px'}} />
             <label className='label'>Rodzaj materiału:</label>
             <select selected="selected"
@@ -181,9 +182,10 @@ class CoVid19 extends React.Component {
             <br />
             Maseczka <br/> jednorazowa
             </label>
-
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość maseczek' id='ib' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
-
+              <div id='ib' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' id='il1' name='ilość maseczek' />
+              </div>
 
 
 
@@ -210,9 +212,10 @@ class CoVid19 extends React.Component {
             <br />
             Rękawiczki <br /><br />
             </label>
-
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość rękawiczek' id='i19' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
-
+            <div id='i19' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość rękawiczek' id='il2'  />
+            </div>
             </div>
 
 
@@ -250,9 +253,10 @@ class CoVid19 extends React.Component {
                 }} />
                 <span className="check"></span>
                 </label>
-
-                <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='Ilość 50ml' id='i16' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
-
+                <div id='i16' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+                <label className="label">Ilość:</label>
+                <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='Ilość 50ml' id='il3' />
+                </div>
 
                 <label className='label main' htmlFor="płynydez500" style={{fontSize:'14px'}}>500 ml
                 <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='500 ml' id='płynydez500'
@@ -268,9 +272,10 @@ class CoVid19 extends React.Component {
                 }} />
                 <span className="check"></span>
                 </label>
-
-                <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='Ilość 500ml' id='i17' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
-
+                <div id='i17' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+                <label className="label">Ilość:</label>
+                <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='Ilość 500ml' id='il4' />
+                </div>
                 <label className='label main' htmlFor="płynydez1000" style={{fontSize:'14px'}}>1000 ml
                 <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='1000 ml' id='płynydez1000'
                 onInput={(event) => {
@@ -285,9 +290,10 @@ class CoVid19 extends React.Component {
                 }} />
                 <span className="check"></span>
                 </label>
-
-                <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='Ilość 1000 ml' id='i18' style={{display:'none',maxWidth:'350px'}} />
-
+                <div id='i18' style={{display:'none',maxWidth:'350px'}}>
+                <label className="label">Ilość:</label>
+                <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='Ilość 1000 ml' id='il5' />
+                </div>
 
 
                 </div>
@@ -321,8 +327,10 @@ class CoVid19 extends React.Component {
             <br />
             Uchwyt<br/> NoTouchIt
             </label>
-
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość notouchit' id='ib1' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+            <div id='ib1' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość notouchit' id='il6' />
+            </div>
           </div>
 
           <div className='column'>
@@ -342,8 +350,10 @@ class CoVid19 extends React.Component {
             <br />
             Długopis<br/> Neilo Clean
             </label>
-
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość neilo clean' id='ib2' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+            <div id='ib2' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość neilo clean' id='il7' />
+            </div>
           </div>
 
           <div className='column'>
@@ -363,8 +373,10 @@ class CoVid19 extends React.Component {
             <br />
             Długopis<br/> Rio Clean
             </label>
-
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość rio clean' id='ib3' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+            <div id='ib3' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość rio clean' id='il8' />
+            </div>
           </div>
 
           <div className='column'>
@@ -384,8 +396,10 @@ class CoVid19 extends React.Component {
             <br />
             Długopis<br/> Rio Spray
             </label>
-
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość rio spray' id='ib4' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+              <div id='ib4' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość rio spray' id='il9' />
+              </div>
           </div>
 
         </div>

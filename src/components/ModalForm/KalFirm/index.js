@@ -226,11 +226,11 @@ class KalFirm extends React.Component {
         <br />
         <div className='control columns' id='UszlachetnieniaIII' style={{width:'100%'}}>
           <div className='column'>
-              <label htmlFor="HotstamplingII" className='label main' style={{fontSize:'14px'}}>
-              <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Hotstampling' id='HotstamplingII' />
+              <label htmlFor="tloczenie" className='label main' style={{fontSize:'14px'}}>
+              <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Tłoczenie matrycą' id='tloczenie' />
               <img className='obrazek' src="/img/uszlachetnienia/tloczenie.png" width='100px' />
               <br />
-              Hotstampling
+              Tłoczenie matrycą
 
               </label>
             </div>
@@ -273,7 +273,7 @@ class KalFirm extends React.Component {
             <div className='column'>
               <label className='label main' htmlFor="ecopapierII" style={{fontSize:'14px'}}>
               <input className='checkbox' onChange={this.handleChange} type='checkbox'  name='Eco Papier' id='ecopapierII' />
-              <img className='obrazek' src="/img/uszlachetnienia/papier-eko.png" width='100px' />
+              <img className='obrazek' src="/img/uszlachetnienia/papier-eco.png" width='100px' />
               <br />
               Eco papier
 

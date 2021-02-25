@@ -91,8 +91,10 @@ class EkoLogia extends React.Component {
             <br />
             Notes<br/> Bambus
             </label>
-
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość notes bambus' id='ic1' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+              <div id='ic1' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość notes bambus' id='ie1' />
+              </div>
           </div>
 
           <div className='column'>
@@ -112,8 +114,10 @@ class EkoLogia extends React.Component {
             <br />
             Ładowarka<br/> indukcyjna
             </label>
-
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość ładowarka indukcyjna' id='ic2' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+              <div id='ic2' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość ładowarka indukcyjna' id='iec' />
+              </div>
           </div>
 
           <div className='column'>
@@ -133,8 +137,10 @@ class EkoLogia extends React.Component {
             <br />
             Stonebook<br/> z papieru z kamienia
             </label>
-
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość stonebook' id='ic3' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+              <div id='ic3' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość stonebook' id='ieco' />
+              </div>
           </div>
 
           <div className='column'>
@@ -154,8 +160,10 @@ class EkoLogia extends React.Component {
             <br />
             Powerbank<br/> ze słomy pszenicznej
             </label>
-
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość powerbank' id='ic4' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+              <div id='ic4' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość powerbank' id='ieco0' />
+              </div>
           </div>
 
           <div className='column'>
@@ -175,8 +183,10 @@ class EkoLogia extends React.Component {
             <br />
             Pendrive<br/> z bambusa
             </label>
-
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość pendrive' id='ic5' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+              <div id='ic5' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość pendrive' id='ieco1' />
+              </div>
           </div>
 
         </div>
@@ -200,8 +210,10 @@ class EkoLogia extends React.Component {
             <br />
             Notes Duo<br/> z włókien trawy
             </label>
-
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość notes duo' id='id1' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+              <div id='id1' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość notes duo' id='ieco2' />
+              </div>
           </div>
 
           <div className='column'>
@@ -221,8 +233,10 @@ class EkoLogia extends React.Component {
             <br />
             Kubek<br/> z kukurydzianego PLA
             </label>
-
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość kubek z kukurydzy' id='id2' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+              <div id='id2' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość kubek z kukurydzy' id='ieco3' />
+              </div>
           </div>
 
           <div className='column'>
@@ -242,8 +256,10 @@ class EkoLogia extends React.Component {
             <br />
             Kubek<br/> z łusek kawy
             </label>
-
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość kubek z łusek kawy' id='id3' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+              <div id='id3' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość kubek z łusek kawy' id='ieco4' />
+              </div>
           </div>
 
           <div className='column'>
@@ -263,8 +279,10 @@ class EkoLogia extends React.Component {
             <br />
             Kubek<br/> szklany
             </label>
-
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość kubek szklany' id='id4' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+              <div id='id4' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość kubek szklany' id='ieco5' />
+              </div>
           </div>
 
           <div className='column'>
@@ -284,8 +302,10 @@ class EkoLogia extends React.Component {
             <br />
             Głośnik<br/> z bambusa
             </label>
-
-              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość głośnik z bambusa' id='id5' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}} />
+              <div id='id5' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
+              <label className="label">Ilość:</label>
+              <input  onChange={this.handleChange} className='input' type='number' min="1" placeholder='100' name='ilość głośnik z bambusa' id='ieco6' />
+              </div>
           </div>
 
         </div>
