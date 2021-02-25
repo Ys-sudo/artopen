@@ -25,7 +25,7 @@ const AboutPageTemplate = (props) => {
       </div>
       </div>
     </section>
-    <section className='hero is-primary is-bold'>
+    <section className='hero is-primary is-bold' style={{marginTop:'-7px', backgroundImage:'url(/img/tlo-o-nas.jpg)',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'left',backgroundAttachment: `fixed`,}}>
       <div className='hero-body'>
         <div className='container'>
           <div className='columns' style={{textAlign:'center'}}>

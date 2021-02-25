@@ -168,7 +168,7 @@ const HomePageTemplate = (props) => {
                 <br />
                 <h5 className='has-text-weight-semibold is-size-2'>Ekologiczne produkty</h5>
                 <h3 className='subtitle'> Co nas wyróżnia? </h3>
-                <br />
+
                 <h4>Jednym z niezwykle ważnych działań w naszej firmie są czynności wspierające ochronę środowiska naturalnego poprzez oferowanie produktów ekologicznych i biodegradowalnych takich jak np. papier z kamienia lub trawy. Chcemy przez to dołożyć naszą małą cegiełkę do ogólnoświatowego ruchu proekologicznego.
                 <br /><br />
                 Wszystkie proponowane przez nas produkty z oferty ekologicznej są przyjazne dla środowiska, a także trwałe oraz estetyczne. Rezygnacja z produktów nie podelegających recyklingowi może być dla Ciebie pierwszym, bardzo ważnym krokiem do ekologicznego stylu zarządzania firmą.</h4>
@@ -183,7 +183,7 @@ const HomePageTemplate = (props) => {
 
 
               <div className='column' style={{marginRight:'0px',padding:'0px',minWidth:'50%'}}>
-              <img src='/img/slider_1.jpg' alt="" height='100%' />
+              <img src='/img/ekologia.jpg' alt="ekologiczne produkty" height='100%' />
               </div>
 
             </div>
@@ -199,7 +199,7 @@ const HomePageTemplate = (props) => {
             <div className='columns' style={{margin:'0px',marginTop:'0px'}}>
 
             <div className='column' style={{marginRight:'0px',padding:'0px',minWidth:'50%'}}>
-            <img src='/img/slider_1.jpg' alt="" height='100%' />
+            <img src='/img/kreator-kalendarz.jpg' alt="" height='100%' />
             </div>
 
               <div className='column halfsize' style={{marginLeft:'50px',marginRight:'50px',textAlign:'right'}}>
@@ -226,7 +226,7 @@ const HomePageTemplate = (props) => {
       </section>
 
 
-      <section className='hero is-primary is-bold is-medium' async style={{marginTop:'-7px', backgroundImage:'url(/img/tlo-eko.jpg)',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'top',backgroundAttachment: `fixed`,}}>
+      <section className='hero is-primary is-bold is-medium' async style={{marginTop:'-7px', backgroundImage:'url(/img/tlo-liczniki.jpg)',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'top',backgroundAttachment: `fixed`,}}>
         <div className='hero-body'>
           <div className='container'>
             <div className='columns timers'>
