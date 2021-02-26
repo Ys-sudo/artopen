@@ -196,7 +196,7 @@ class RekZew extends React.Component {
             <span className="check"></span>
             </label>
 
-              <input  onChange={this.handleChange} className='input' type='text' placeholder='wpisz inne rodzaje...' name='inne' id='i7' style={{display:'none',maxWidth:'350px'}} />
+              <input  onChange={this.handleChange} className='input' type='text' placeholder='wpisz inne rodzaje...' name='inne' id='i7' style={{display:'none',maxWidth:'93%'}} />
 
             </div>
           </div>

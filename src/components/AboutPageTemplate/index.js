@@ -75,27 +75,31 @@ const AboutPageTemplate = (props) => {
         <div className='columns'>
 
           <div className='column'>
-
+              <img src="/img/energy-green.svg" width="100px" />
+              <br /><br />
               <h3 className='is-size-4'> Pomysł </h3>
               <p>Spotykamy się, aby poznać potrzeby naszych Klientów oraz omówić szczegóły projektu. </p>
 
           </div>
 
           <div className='column'>
-
+              <img src="/img/analiza.svg" width="100px" />
+              <br /><br />
               <h3 className='is-size-4'> Analiza </h3>
               <p>Analizujemy zebrane informacje oraz szukamy najbardziej optymalnych rozwiązań dla danego projektu.</p>
 
           </div>
 
           <div className='column'>
-
+              <img src="/img/oferta-o-nas.svg" width="100px" />
+              <br /><br />
               <h3 className='is-size-4'> Oferta </h3>
               <p>Przygotowujemy szczegółową wycenę usługi, którą ostatecznie finalizujemy przesłaniem zamówienia.</p>
           </div>
 
           <div className='column'>
-
+              <img src="/img/realizacja.svg" width="100px" />
+              <br /><br />
               <h3 className='is-size-4'> Realizacja </h3>
               <p>Wykonujemy projekt według określonego wcześniej schematu, konsultując kolejne etapy z Klientem.</p>
 

@@ -250,7 +250,7 @@ const NavBar = () => {
           </div>
           <div id='newsletter'
           style={{display:'none', transition:'opacity 1s',opacity:'0',position:'fixed',top:'0px',left:'0px',height:'100%',width:'100%',backgroundColor:'rgba(255,255,255,0.85)',zIndex:'20000',overflow:'scroll'}}>
-            <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'6%'}}>
+            <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'50px'}}>
 
 
             <NewsletterForm />

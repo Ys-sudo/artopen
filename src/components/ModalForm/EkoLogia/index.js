@@ -89,7 +89,7 @@ class EkoLogia extends React.Component {
             }} />
             <img className='obrazek' src="/img/eco-form/notes-bambus.png" width='100px' />
             <br />
-            Notes<br/> Bambus
+            Notes<br/>z bambusa
             </label>
               <div id='ic1' style={{display:'none',maxWidth:'350px',marginBottom:'20px'}}>
               <label className="label">Ilość:</label>

@@ -98,8 +98,7 @@ const HomePageTemplate = (props) => {
 
       <div style={{marginLeft:'auto',marginRight:'auto',textAlign:'center'}}>
       <br /><br />
-      <img src='/img/slider_1.jpg' style={{maxWidth:'350px'}} alt='oferta' />
-      <br />
+      <img src='/img/katalogi.svg' style={{minWidth:'750px'}} alt='oferta' />
       <h4 className='title'> Poznaj naszą ofertę: </h4>
       <h5 className='subtitle'> Zobacz co możemy dla Ciebie zrobić. </h5>
       <br />
@@ -116,7 +115,7 @@ const HomePageTemplate = (props) => {
       <div style={{marginLeft:'auto',marginRight:'auto',marginTop:'50px'}}>
         <div style={{textAlign:'left',marginTop:'100px'}}>
         {/* TODO: Grafika 1*/}
-        <img src='/img/portfolio2.svg' width='1000px'  alt='oferta' />
+        <img src='/img/portfolio2.svg' width='70%'  alt='portfolio' />
 
         <br /><br />
         <h4 className='title' style={{textAlign:'center',marginLeft:'15px',marginRight:'15px'}}> Portfolio </h4>
@@ -135,7 +134,7 @@ const HomePageTemplate = (props) => {
       <div style={{textAlign:'right',marginTop:'0px',marginLeft:'50px'}}>
 
       {/* TODO: Grafika 2*/}
-      <img src='/img/blog.svg' width='1000px' alt='oferta' />
+      <img src='/img/blog.svg' width='70%' alt='blog' />
 
       </div>
 
@@ -231,28 +230,28 @@ const HomePageTemplate = (props) => {
           <div className='container'>
             <div className='columns timers'>
 
-              <div className='column' style={{textAlign:'center'}}>
+              <div className='column' style={{textAlign:'center',borderLeft:'1px solid white'}}>
               <p>Lat na rynku</p>
               <h5 id='t1' className='is-size-2'>
               0
               </h5>
               </div>
 
-              <div className='column' style={{textAlign:'center'}}>
+              <div className='column' style={{textAlign:'center',borderLeft:'1px solid white'}}>
               <p>Stałych klientów</p>
               <h5 id='t2' className='is-size-2'>
               0
               </h5>
               </div>
 
-              <div className='column' style={{textAlign:'center'}}>
+              <div className='column' style={{textAlign:'center',borderLeft:'1px solid white'}}>
               <p>Projektów graficznych</p>
               <h5 id='t3' className='is-size-2'>
               0
               </h5>
               </div>
 
-              <div className='column' style={{textAlign:'center'}}>
+              <div className='column' style={{textAlign:'center',borderLeft:'1px solid white',borderRight:'1px solid white'}}>
               <p>Wykonanych zamówień</p>
               <h5 id='t4' className='is-size-2'>
               0

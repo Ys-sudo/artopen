@@ -44,23 +44,32 @@ const CatalogsPageTemplate = (props) => {
   const PageContent = contentComponent || Content
 
   return (
-    <div>
-    <section className='hero is-primary is-bold'>
+    <>
+    <section className='hero is-primary is-bold' style={{minHeight:'75%',backgroundImage:'url(/img/katalogi.svg)',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'bottom center',backgroundAttachment: `fixed`}}>
       <div className='hero-body'>
       <div className='container section'>
         <div className='columns section'>
           <div>
-            <h1 className='title' style={{fontSize:'50px'}}>
+            <h1 className='title' style={{fontSize:'50px',marginTop:'50px'}}>
               {title}
             </h1>
             <h2 className='subtitle'>
-              Zestawy ekologicznych produktów oraz gadżetów reklamowych.
+            Zestawy ekologicznych produktów oraz gadżetów reklamowych.
             </h2>
           </div>
         </div>
       </div>
       </div>
     </section>
+
+    <br></br>
+    <br></br>
+
+    <div style={{padding: '0px',marginBottom:'0px',textAlign:'center'}}>
+      <h3 className='title'> Zapraszamy do przejrzenia katalogów, </h3>
+      <h4 className='subtitle'> z pewnością znajdziecie Państwo coś dla Siebie. </h4>
+    </div>
+
       <section className='section section--gradient'>
         <div className='container'>
           <div className='columns'>
@@ -127,7 +136,7 @@ const CatalogsPageTemplate = (props) => {
       <br />
 
       <ContactCall />
-    </div>
+    </>
   )
 }
 

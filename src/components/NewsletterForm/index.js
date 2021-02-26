@@ -82,20 +82,24 @@ class NewsletterForm extends React.Component {
           />
         </label>
       </div>
-
+      <div style={{marginLeft:'auto',marginRight:'auto',textAlign:'center'}}>
+      <br /><br />
+      <img src='/img/newsletter.svg' style={{width:'33%',marginTop:'-12%',marginBottom:'-30px'}} alt='oferta' />
+      </div>
       <div style={{textAlign:'center',marginLeft:'30px',marginRight:'30px'}}>
       <br />
       <br />
       <h5 className='title'>Zapisz się na <b style={{color:'white'}}>newsletter</b>! </h5>
-      <sub className='subtitle'> Nowości, promocje i oferty specjalne.</sub>
-      <br /><br />
+      <h6 className='subtitle'> Nowości, promocje i oferty specjalne.</h6>
+
 
       <input className='field input' required={true} onChange={this.handleChange} name='adres email' type='email' placeholder='Twój adres email'>
       </input>
 
-      <label style={{fontSize: '12px',color:'white'}} className='main'  htmlFor="zgoda">   <input onChange={this.handleChange} required={true} type="checkbox" id="zgoda" name="zgoda" defaultChecked="true" value="true"/>Wyrażam zgodę na otrzymywanie drogą elektroniczną na wskazany przeze mnie adres email informacji handlowej w rozumieniu art. 10 ust. 1 ustawy z dnia 18 lipca 2002 roku o świadczeniu usług drogą elektroniczną od Art Open Sp. z o.o.
+      <label style={{fontSize: '10px',color:'white'}} className='main'  htmlFor="zgoda">   <input onChange={this.handleChange} required={true} type="checkbox" id="zgoda" name="zgoda" defaultChecked="true" value="true"/>Wyrażam zgodę na otrzymywanie drogą elektroniczną na wskazany przeze mnie adres email informacje handlowe w rozumieniu art. 10 ust. 1 ustawy z dnia 18 lipca 2002 roku o świadczeniu usług drogą elektroniczną od Art Open Sp. z o.o.
       <sup>*</sup>.<span className="check"></span></label>
-      <button className="darkbutton" type="submit" >
+      <
+      button className="darkbutton" type="submit" >
       <b>Zapisz mnie!</b>
       </button>
 
