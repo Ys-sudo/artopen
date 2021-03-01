@@ -90,8 +90,8 @@ keywords:
   </div>
   </div>
 
-  <div  style="width: 30%;text-align:right">
-  <img src="/img/eco-img/trawa.svg" height="25%" />
+  <div  style="width: 35%;text-align:right">
+  <img src="/img/covid-img/c1.png" height="25%" />
   </div>
   <br/>
 
@@ -100,7 +100,7 @@ keywords:
 <div class="columns">
 
 <div class="column cimg" style="text-align: left;">
-  <img src="/img/eco-img/drewno.svg" height="25%" />
+  <img src="/img/covid-img/c2.png" height="25%" />
 </div>
 
 <div class="column cimg"
@@ -146,7 +146,7 @@ keywords:
   </div>
 
   <div  style="width: 40%;text-align:right">
-  <img src="/img/eco-img/trawa.svg" height="25%" />
+  <img src="/img/covid-img/c3.png" height="25%" />
   </div>
   <br/>
 
@@ -154,9 +154,9 @@ keywords:
 
 <div class="columns" style="margin-left:10%;margin-right:10%">
 <div class="column" style="text-align:center;">
-<img src="/img/eco-icons/tag.svg" width="100px" />
+<img src="/img/covid-img/a1.png" width="100px" />
 </div>
-<div class="column">
+<div class="column" style="padding-top:50px">
 <p style="margin-left:120px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wszystkie elementy wykonane z folii ułatwiają sterylizację. </p>
 </br>
 <p style="margin-left:80px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Minimalizuje możliwość kontaktu z zarazkami, wirusami i bakteriami.</p>
@@ -174,7 +174,7 @@ keywords:
 <div class="columns">
 
 <div class="column cimg" style="text-align: left;">
-  <img src="/img/eco-img/drewno.svg" height="25%" />
+  <img src="/img/covid-img/c4.png" height="25%" />
 </div>
 
 <div class="column cimg" id="maseczki"
@@ -182,15 +182,15 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 <p style="font-size:30px;">Medyczna maseczka<br/><b>chirurgiczna</b>. </p>
 </br>
 <div style="text-align:center">
-<img src="/img/eco-icons/tag.svg" width="100px" />
+<img src="/img/covid-img/a2.png" width="100px" />
 </div>
 </br>
 <div style="text-align:left">
-<p style="margin-left:60px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Ze względu na regulowany obwód, przyłbica jest w uniwersalnym rozmiarze.</p>
+<p style="margin-left:80px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Ze względu na regulowany obwód, przyłbica jest w uniwersalnym rozmiarze.</p>
 </br>
-<p style="margin-left:20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Opaska dystansowa pozwala na cyrkulację powietrza jednocześnie nie zmniejszając funkcji ochronnej.</p>
+<p style="margin-left:40px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Opaska dystansowa pozwala na cyrkulację powietrza jednocześnie nie zmniejszając funkcji ochronnej.</p>
 </br>
-<p style="margin-left:-20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wielokrotnego użytku i komfortowa w noszeniu ze względu na lekkość.</p>
+<p style="margin-left:0px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wielokrotnego użytku i komfortowa w noszeniu ze względu na lekkość.</p>
 </br>
 </div>
 </div>
@@ -214,7 +214,7 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
   </div>
 
   <div  style="width: 40%;text-align:right">
-  <img src="/img/eco-img/trawa.svg" height="25%" />
+  <img src="/img/covid-img/c5.png" height="25%" />
   </div>
   <br/>
 
@@ -222,18 +222,18 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 
 <div class="columns" style="margin-left:10%;margin-right:10%">
 <div class="column" style="text-align:center;">
-<img src="/img/eco-icons/tag.svg" width="100px" />
+<img src="/img/covid-img/a3.png" width="100px" />
 </div>
 <div class="column">
 <p style="font-size:30px; text-align:right;">Certyfikowany żel<br/><b>antybakteryjny do rąk</b>. </p>
 </br></br>
-<p style="margin-left:80px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Skutecznie chroni zapewniając pełną higienę rąk.</p>
+<p style="margin-left:100px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Skutecznie chroni zapewniając pełną higienę rąk.</p>
 </br>
-<p style="margin-left:40px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Działa bez użycia wody.</p>
+<p style="margin-left:60px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Działa bez użycia wody.</p>
 </br>
-<p style="margin-left:0px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Przebadany deramatologicznie.</p>
+<p style="margin-left:20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Przebadany deramatologicznie.</p>
 </br>
-<p style="margin-left:-40px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Niezbędny w każdym miejscu pracy.</p>
+<p style="margin-left:-20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Niezbędny w każdym miejscu pracy.</p>
 </br>
 </div>
 
@@ -241,7 +241,7 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 </br>
 <div class="columns">
 <div class="column" style="width:45%">
-<img src="https://artopen.netlify.app/img/eco-img/kamienie.svg" width="100%"/>
+<img src="/img/covid-img/c6.png" width="100%"/>
 </div>
 <div class="column">
 <p style="text-align:left; font-size:40px; margin-bottom:50px"> Czy wiesz<br/> <b>że...</b> </p>
@@ -253,13 +253,13 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 <p style="font-size:25px; text-align:center;">W ramach programu “zdalna szkoła”
 dla gmin i powiatów, posiadamy w ofercie sprzęt dla uczniów i nauczycieli?</p>
 </br></br>
-<p style="margin-left:80px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Laptopy i tablety z wbudowaną kamerą i mikrofonem.</p>
+<p style="margin-left:100px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Laptopy i tablety z wbudowaną kamerą i mikrofonem.</p>
 </br>
-<p style="margin-left:40px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> System Windows 10.</p>
+<p style="margin-left:60px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> System Windows 10.</p>
 </br>
-<p style="margin-left:0px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Program edukacyjny Office.</p>
+<p style="margin-left:20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Program edukacyjny Office.</p>
 </br>
-<p style="margin-left:-40px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wytrzymała i trwała obudowa.</p>
+<p style="margin-left:-20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wytrzymała i trwała obudowa.</p>
 </br>
 </br>
 </br>
