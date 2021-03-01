@@ -10,19 +10,18 @@ const OfferTemplate = (props) => {
   const { content, contentComponent, cover, tags, title, desc, subtitle, icon } = props
   const PostContent = contentComponent || Content
 
-
+  function test(){
+    console.log(cover.publicURL);
+  }
 
   return (
 
-    <div>
+    <>
 
-    <ProgressiveImageContainer
-      image={cover}
-      alt={title}
+    <div defer style={{backgroundImage:'url('+cover.publicURL+')',backgroundSize:'cover',backgroundAttachment:'fixed'}}
       className="offimg"
-
-    />
-    <a href='#content'>
+    >
+    <a href='#content' onClick={test}>
     <div className='ofintro'>
 
       <div style={{textAlign:'center'}}>
@@ -56,6 +55,8 @@ const OfferTemplate = (props) => {
 
     </div>
     </a>
+    </div>
+
       <br></br>
       <div id="content" style={{paddingTop:'100px',paddingBottom:'50px'}}>
         <h3 className='title is-size-3 has-text-weight-bold is-bold-light oftitle2'
@@ -101,7 +102,7 @@ const OfferTemplate = (props) => {
       </div>
       <OfferNav />
 
-    </div>
+    </>
 
   )
 }

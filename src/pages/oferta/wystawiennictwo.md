@@ -59,7 +59,7 @@ Proponowane lekkie systemy wystawiennicze otwierają możliwości do dowolnej ko
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-right:40px">
 <p style="font-size:30px">Przenośne <b>systemy</b></p>
 </br>
 <p>
