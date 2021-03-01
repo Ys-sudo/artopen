@@ -51,7 +51,7 @@ keywords:
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Logotyp <b>firmowy</b></p>
 </br>
 <p>
@@ -59,15 +59,15 @@ To znak, który kryje w sobie historię, potencjał, zasoby oraz strategię firm
 </p>
 </div>
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/07/logotyp-skywater.jpg" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/logotyp-skywater.jpg" />
 </div>
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/07/ksiega-strzelin.jpg" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/ksiega-strzelin.jpg" />
 </div>
-<div class="column" style="margin-top:50px;text-align:right">
+<div class="column" style="margin-top:50px;text-align:right;padding-left:30px">
 <p style="font-size:30px">Księga <b>znaku</b></p>
 </br>
 <p>
@@ -77,7 +77,7 @@ Ten niezwykle ważny dokument zawiera w sobie wszystkie niezbędne informacje do
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Firmowe gadżety oraz <b>wydruki</b></p>
 </br>
 <p>
@@ -85,15 +85,15 @@ To znak, który kryje w sobie historię, potencjał, zasoby oraz strategię firm
 </p>
 </div>
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/07/logotyp-skywater.jpg" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/logotyp-skywater.jpg" />
 </div>
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/07/ksiega-strzelin.jpg" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/ksiega-strzelin.jpg" />
 </div>
-<div class="column" style="margin-top:50px;text-align:right">
+<div class="column" style="margin-top:50px;text-align:right;padding-left:30px">
 <p style="font-size:30px">Wizualizacje <b>produktów</b></p>
 </br>
 <p>
@@ -103,7 +103,7 @@ Ten niezwykle ważny dokument zawiera w sobie wszystkie niezbędne informacje do
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Opracowywanie tekstów oraz <b>sloganów</b></p>
 </br>
 <p>
@@ -111,6 +111,6 @@ To znak, który kryje w sobie historię, potencjał, zasoby oraz strategię firm
 </p>
 </div>
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/07/logotyp-skywater.jpg" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/logotyp-skywater.jpg" />
 </div>
 </div>

@@ -100,9 +100,9 @@ keywords:
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/05/01/strona-chemekosystem.jpg" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/05/01/strona-chemekosystem.jpg" />
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Strony <b>internetowe</b></p>
 </br>
 <p>
@@ -112,7 +112,7 @@ Projektowanie logo jest dla nas procesem pełnym twórczej ekspresji. Forma graf
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px;text-align:right">
+<div class="column" style="margin-top:50px;text-align:right;padding-right:30px">
 <p style="font-size:30px">Sklepy <b>internetowe</b></p>
 </br>
 <p>
@@ -120,15 +120,15 @@ Projektowanie logo jest dla nas procesem pełnym twórczej ekspresji. Forma graf
 </p>
 </div>
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/11/strona-cert.png" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/11/strona-cert.png" />
 </div>
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/11/strona-cert.png" />
+<img width="100%" class="oimg" src="https://artopen.pl/images/2020/04/11/strona-cert.png" />
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Aplikacje <b>webowe</b></p>
 </br>
 <p>
@@ -137,7 +137,7 @@ To system pozwalający zachować spójną wizualną koncepcję, chroniącą logo
 
 </div>
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px;text-align:right">
+<div class="column" style="margin-top:50px;text-align:right;padding-right:30px">
 <p style="font-size:30px">Projekty <b>VR</b></p>
 </br>
 <p>
@@ -145,15 +145,15 @@ Jest to nasza propozycja kalendarzy, w których wnętrze jest w całości indywi
 </p>
 </div>
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/11/strona-cert.png" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/11/strona-cert.png" />
 </div>
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/11/strona-cert.png" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/11/strona-cert.png" />
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Audyty <b>stron internetowych</b></p>
 </br>
 <p>
@@ -163,7 +163,7 @@ Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlateg
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px;text-align:right">
+<div class="column" style="margin-top:50px;text-align:right;padding-right:30px">
 <p style="font-size:30px">Szkolenia z obsługi <b>CMS</b></p>
 </br>
 <p>
@@ -171,15 +171,15 @@ Jest to nasza propozycja kalendarzy, w których wnętrze jest w całości indywi
 </p>
 </div>
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/11/strona-cert.png" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/11/strona-cert.png" />
 </div>
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/11/strona-cert.png" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/11/strona-cert.png" />
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Pozycjonowanie <b>SEO</b></p>
 </br>
 <p>
@@ -252,6 +252,40 @@ Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlateg
 <img src="/img/offer-icons/linia-projektow.svg" width="50px" />
 </br></br>
 <p><b>PrestaShop</b></p>
+</div>
+
+</div>
+
+<div style="margin-top:50px;min-height:200px;text-align:center;padding:50px;padding-top:0px;" class="columns">
+
+<div class="column">
+<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
+</br></br>
+<p><b>Woocommerce</b></p>
+</div>
+
+<div class="column">
+<img src="/img/offer-icons/logotypy.svg" width="50px" />
+</br></br>
+<p><b>React.js</b></p>
+</div>
+
+<div class="column">
+<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+</br></br>
+<p><b>Gatsby.js</b></p>
+</div>
+
+<div class="column">
+<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+</br></br>
+<p><b>Aframe</b></p>
+</div>
+
+<div class="column">
+<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+</br></br>
+<p><b>p5.js</b></p>
 </div>
 
 </div>

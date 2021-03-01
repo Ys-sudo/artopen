@@ -21,7 +21,18 @@ keywords:
 <p>Każdy nowy rok rozpoczynasz nowymi postanowieniami i celami, pełen wiary w ich realizację. Aby wprowadzić je w czyn potrzebujesz dobrego i precyzyjnego planu. Sięgasz wówczas po pióro, aby zapisać je w nowym kalendarzu w eleganckiej okładzinie, zdobionej grafiką bądź tłoczeniem. Twoje nowe cele i plany zyskały wspaniałą oprawę. </p>
 </br>
 <img src="https://artopen.pl/images/2020/09/08/diamentowydystrybutor.png" width="400px" />
+<br>
+<div style="margin-top:50px">
+<a class="button-green" target="_blank"  style="margin-right:5px" href="https://online.fliphtml5.com/njygn/yxew/">Zobacz katalog <img width="10px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/></a>
+&nbsp;&nbsp;<a class='button-green' target="_blank"  href='/kreator-kalendarzy/'> kreator kalendarzy &nbsp;&nbsp;
+    <img width="10px"  style="vertical-align:middle;margin-right:5px"   alt="kalendarze" src="/img/calendar-alt.svg"/>
+ </a>
+<br />
+<br>
 </div>
+
+</div>
+
 
 <div style="margin-top:50px;min-height:200px;text-align:center;background-image: linear-gradient(141deg, rgb(0, 158, 108) 0%, rgb(0, 209, 178) 71%, rgb(0, 230, 235) 100%);padding:50px;color:white" class="columns">
 
@@ -47,9 +58,9 @@ keywords:
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/07/bambus.jpg" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/bambus.jpg" />
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Ekologiczne <b>kalendarze</b></p>
 </br>
 <p>
@@ -60,7 +71,7 @@ Bardzo wygodne i bezpieczne narzędzia do planowania i zarządzania czasem. Opra
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Spersonalizowany <b>wygląd</b></p>
 </br>
 <p>
@@ -68,7 +79,7 @@ Bardzo wygodne i bezpieczne narzędzia do planowania i zarządzania czasem. Opra
 </p>
 </div>
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/07/indywidualny-kalendarz.jpg" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/indywidualny-kalendarz.jpg" />
 </div>
 </div>
 

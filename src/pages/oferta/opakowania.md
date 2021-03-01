@@ -47,9 +47,9 @@ keywords:
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/opakowanie-HASCO.jpg" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/opakowanie-HASCO.jpg" />
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;margin-left:30px">
 <p style="font-size:30px">Opakowania<b> reklamowe</b></p>
 </br>
 <p>
@@ -58,14 +58,14 @@ Dobry produkt wymaga dobrego opakowania. Nasze doświadczenie w projektowaniu i 
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;margin-right:30px">
 <p style="font-size:30px">Spersonalizowany  <b>wygląd</b></p>
 </br>
 <p>
 Opakowania wychodzące z naszej produkcji zadowalają bardzo wymagających odbiorców. Ich jakość wzbudza zachwyt i satysfakcję. Z naszym opakowaniem Twój produkt nie tylko będzie doskonale chroniony ale także otrzyma piękna, indywidualną oprawę.</p>
 </div>
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/07/opakowanie-rexer.jpg" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/opakowanie-rexer.jpg" />
 </div>
 </div>
 
@@ -74,6 +74,8 @@ Opakowania wychodzące z naszej produkcji zadowalają bardzo wymagających odbio
 Twoje <b>opakowanie</b>
 </p>
 </br>
+</br>
+
 <img src="https://artopen.pl/images/2020/04/11/twoje-opakowania.jpg" width="100%" />
 </div>
 

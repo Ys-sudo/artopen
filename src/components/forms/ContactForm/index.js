@@ -1,103 +1,242 @@
-import React from 'react'
-import { Formik, Field, ErrorMessage } from 'formik'
-import { navigate } from 'gatsby-link'
-import validationSchema from './validationSchema'
+import React from 'react';
 
-const encode = (data) => {
-  return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-    .join('&')
+
+
+function encode(data) {
+  const formData = new FormData()
+
+
+  for (const key of Object.keys(data)) {
+    formData.append(key, data[key])
+  }
+
+  return formData
+
 }
 
-const ContactForm = () => {
-  return (
-    <Formik
-      initialValues={{ imię: '', email: '', telefon:'',  wiadomość: '', acceptTerms: false }}
-      validationSchema={validationSchema}
-      onSubmit={(values, { setSubmitting }) => {
-        fetch("/?no-cache=1", {                                 //eslint-disable-line
+
+
+
+class ContactForm extends React.Component {
+
+  constructor(props) {
+    super(props)
+    this.state = {}
+  }
+
+  handleChange = e => {
+    this.setState({ [e.target.name]: e.target.value })
+  }
+
+  handleAttachment = e => {
+    this.setState({ [e.target.name]: e.target.files[0] })
+  }
+
+  handleSubmit = e => {
+
+
+    let fileinput = document.getElementById('fileinput');
+    let file = fileinput.files[0];
+    //disableEmptyInputs();
+
+    if (file !== undefined){
+        if (file.size < 1048576){
+        e.preventDefault()
+        const form = e.target;
+
+        fetch('/', {
           method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
           body: encode({
-            'form-name': 'kontakt',
-            ...values,
+            'form-name': form.getAttribute('name'),
+            ...this.state,
           }),
         })
-          .then(() => {
-            navigate('/kontakt/sukces')
-            setSubmitting(false)
-          })
-          .catch(error => {
-            console.log(error)
-            alert("Błąd: proszę spróbować ponownie!");                            //eslint-disable-line
-            setSubmitting(false)
-          })
-      }}>
-      {({
-        errors,
-        touched,
-        isSubmitting,
-        handleSubmit,
-        handleReset,
-      }) => (<form
-        name='kontakt'
-        onSubmit={handleSubmit}
-        onReset={handleReset}
-        data-netlify='true'
-        data-netlify-honeypot='bot-field'
-      >
-      <div className='columns'>
-          <div className='field column' style={{marginRight:'20px'}}>
-            <label className='label'>Imię:<sup>*</sup></label>
-            <div className='control'>
-              <Field className='input' type='text' placeholder='Imię' name='imię' id='imię kontakt' />
-            </div>
-            {touched.imię && errors.imię && <small className='has-text-danger'>{errors.imię}</small>}
-          </div>
+          .then()
+          .catch(error => alert(error))
+      } else {
+        alert('Plik jest zbyt duży. Maksymalna wielkość to 1MB, spróbuj ponownie z mniejszym plikiem');
+        }
+    } else {
+    e.preventDefault()
+    const form = e.target;
 
-          <div className='field column'>
-            <label className='label'>Email:<sup>*</sup></label>
-            <div className='control'>
-              <Field className='input' type='email' placeholder='Email' name='email' id='email kontakt' />
-            </div>
-            {touched.email && errors.email && <small className='has-text-danger'>{errors.email}</small>}
-          </div>
-        </div>
+    fetch('/', {
+      method: 'POST',
+      body: encode({
+        'form-name': form.getAttribute('name'),
+        ...this.state,
+      }),
+    })
+      .then()
+      .catch(error => alert(error))
+  }
 
-        <div className='field'>
-          <label className='label'>Telefon:</label>
-          <div className='control'>
-            <Field className='input' type='tel' placeholder='Numer telefonu' name='telefon' id='telefon kontakt' />
-          </div>
-          {touched.telefon && errors.telefon && <small className='has-text-danger'>{errors.telefon}</small>}
-        </div>
-
-        <div className='field'>
-          <label className='label'>Wiadomość:<sup>*</sup></label>
-          <div className='control'>
-            <Field className='textarea' component='textarea' placeholder='Wiadomość...' name='wiadomość' id='wiadomość kontakt' rows='6' />
-          </div>
-          {touched.wiadomość && errors.wiadomość && <small className='has-text-danger'>{errors.wiadomość}</small>}
-        </div>
-
-        <div className="form-group form-check">
-
-             <label htmlFor="acceptTerms" style={{fontSize:'12px'}} className="main"> <input type="checkbox" defaultChecked="true" id="acceptTerms" name="acceptTerms" className={'form-check-input ' + (errors.acceptTerms && touched.acceptTerms ? ' is-invalid' : '')} />&nbsp; Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z naszą <a target='_blank' className='link-green' href='/polityka-prywatnosci/'>polityką prywatności</a><sup>*</sup>.<span className="check"></span></label>
-             <br />
-             {touched.acceptTerms && errors.acceptTerms && <small className='has-text-danger'>{errors.acceptTerms}</small>}
-         </div>
-         <br />
-         <div className='field is-grouped is-pulled-right'>
-           <div className='control'>
-             <button className='button' type='reset'>Wyczyść</button>
-           </div>
-           <div className='control'>
-             <button className='button is-primary' type='submit' disabled={isSubmitting}>Wyślij</button>
-           </div>
-         </div>
-      </form>)}
-    </Formik>
-  )
 }
 
-export { ContactForm }
+
+  render() {
+    return (
+      <>
+      <div id="kontakt">
+      <form
+        name="kontakt"
+        id = "kontaktform"
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        onSubmit={this.handleSubmit}
+        className="oimg"
+        style={{padding:'20px'}}
+      >
+      <div className='field'>
+
+
+          {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+          <input type="hidden" name="form-name" value="aplikacja" />
+          <div hidden>
+            <label>
+              Don’t fill this out:{' '}
+              <input name="bot-field"
+              onChange={this.handleChange}
+              />
+            </label>
+          </div>
+
+
+          <div className='column'>
+          <div className="field">
+            <label className="label" htmlFor={'name'}>
+              Imię i Nazwisko<sup>*</sup>:
+            </label>
+            <div className="control">
+              <input
+                className="input"
+                type={'text'}
+                name={'imię i nazwisko'}
+                onChange={this.handleChange}
+                id={'imię i nazwiskonew'}
+                required={true}
+              />
+            </div>
+            </div>
+
+            <div className="field">
+              <label className="label" htmlFor={'email'}>
+                Adres E-mail<sup>*</sup>:
+              </label>
+              <div className="control">
+                <input
+                  className="input"
+                  type={'email'}
+                  name={'adres email'}
+                  onChange={this.handleChange}
+                  id={'adres emailnew'}
+                  required={true}
+                />
+              </div>
+            </div>
+
+            <div className="field">
+              <label className="label" htmlFor={'name'}>
+                Numer telefonu:
+              </label>
+              <div className="control">
+                <input
+                  className="input"
+                  type={'number'}
+                  name={'numer telefonu'}
+                  onChange={this.handleChange}
+                  id={'numertelnew'}
+                  required={false}
+                />
+              </div>
+              </div>
+
+            <div className="field ">
+            <div className='control'>
+            <label className='label is-size-10'>Załącz plik:</label>
+            {/*załącz logo*/}
+
+
+              <div className="file">
+                <label className="file-label" style={{width:'100%',cursor:'pointer'}}>
+                {/*onInput ={(o) => handleInput(o)}*/}
+                  <input
+                    className="custom-file-input"
+                    type="file"
+                    name="plik"
+                    style={{width:'100%',cursor:'pointer'}}
+                    onChange={this.handleAttachment}
+                    id ="fileinputnew"
+                  />
+                </label>
+
+              </div>
+              <br />
+              <p align="center" style={{backgroundColor:'#111111',color:'white',padding:'2px',fontSize:'12px'}}> Maksymalna wielkość pliku to <b>1MB</b>. </p>
+
+            </div>
+            </div>
+
+            <label className="label" htmlFor={'message'}>
+              Wiadomość<sup>*</sup>:
+            </label>
+            <div className="control">
+              <textarea
+                className="textarea"
+                type={'text'}
+                name={'wiadomość'}
+                onChange={this.handleChange}
+                id={'wiadomośćnew'}
+                required={true}
+                rows = "7"
+              ></textarea>
+            </div>
+
+
+
+            <br />
+            <div className="control">
+
+            <label style={{fontSize: '12px'}} className='main'  htmlFor="privacynew">   <input required={true} onChange={this.handleChange} type="checkbox" id="privacynew" name="privacy" defaultChecked="true" value="true"/>Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą <a className='link-green' href="/polityka-prywatnosci/">polityką prywatności</a><sup>*</sup>.<span className="check"></span></label>
+
+            </div>
+
+            <div className="field" style={{textAlign:'right'}}>
+
+
+              <button className="button is-primary" style={{border:'1px solid white'}} type="submit" onSubmit={this.handleSubmit} onClick={showFileSize}>
+                Wyślij
+              </button>
+
+
+
+            </div>
+
+          </div>
+
+
+          </div>
+
+      </form>
+      </div>
+
+
+
+      </>
+    )
+  }
+}
+
+function showFileSize() {
+let fileinput = document.getElementById('fileinput');
+
+let file = fileinput.files[0];
+
+if (file !== undefined){
+console.log(file.size);
+}
+
+}
+
+export default ContactForm;

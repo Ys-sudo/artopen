@@ -20,8 +20,13 @@ keywords:
 <div style="margin-left:10%;margin-right:10%">
 <p>Są osobną dziedziną promocji. Eventy, targi i spotkania firmowe to wydarzenia, którym nieodłącznie towarzyszą. Gadżety obejmują swoim zakresem przeróżne dziedziny i są dedykowane dla wielu grup odbiorców w tym dzieci. Najnowszy trend eco pojawił się także w naszych propozycjach gadżetów. </p>
 </br>
-
+<div style="margin-top:50px">
+<a class="button-green" target="_blank"  style="margin-right:5px" href="/katalogi/">Zobacz katalog <img width="10px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/></a>&nbsp;&nbsp;<a class='button-green' target="_blank"  href='/ekologia/'> gadżety ECO &nbsp;&nbsp;
+    <img width="10px"  style="vertical-align:middle;margin-right:5px"   alt="ekologia" src="/img/leaf.svg"/>
+ </a>
 </div>
+</div>
+
 
 <div style="margin-top:50px;min-height:200px;text-align:center;background-image: linear-gradient(141deg, rgb(0, 158, 108) 0%, rgb(0, 209, 178) 71%, rgb(0, 230, 235) 100%);padding:50px;color:white" class="columns">
 
@@ -47,9 +52,9 @@ keywords:
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/07/zestaw-eco.jpg" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/zestaw-eco.jpg" />
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Gadżety <b>reklamowe</b></p>
 </br>
 <p>
@@ -59,14 +64,14 @@ Wykonane z eco tworzyw lub w 100% z naturalnych surowców. Wśród upominków mo
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Inspirujące <b>produkty</b></p>
 </br>
 <p>
 W swojej ofercie często staramy się wprowadzać produkty nietuzinkowe, które zaskakują swoją formułą. Przekaz reklamowy od samego początku powinien wywoływać emocje, tylko wtedy odbiorca poświęci czas na przeanalizowanie jego treści. Bez wątpienia takimi produktami są przekładane karty oraz interaktywne kostki.</p>
 </div>
 <div class="column" style="padding:0px">
-<video width="100%" poster="/img/video-cover.jpg" src="https://artopen.pl/film/Toyota.mp4" controls async  />
+<video class="oimg" width="100%" poster="/img/video-cover.jpg" src="https://artopen.pl/film/Toyota.mp4" controls async  />
 </div>
 </div>
 

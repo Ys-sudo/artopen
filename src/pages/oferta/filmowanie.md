@@ -47,9 +47,9 @@ keywords:
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<iframe width="556" height="312" src="https://www.youtube.com/embed/DUly9BuWc3U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/DUly9BuWc3U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Filmy<b> promocyjne</b></p>
 </br>
 <p>
@@ -59,22 +59,22 @@ Nowoczesne techniki filmowania oraz montażu dają nieograniczone możliwości d
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Profesjonalna<b> obsługa</b></p>
 </br>
 <p>
 Każda produkcja jest przygotowana w najdrobniejszym szczególe. Zaangażowany zespół realizatorów i twórców, w precyzyjnie zgranym procesie produkcji, analizuje i weryfikuje każdy najdrobniejszy element. Doświadczenie twórców jest gwarancją udanego i wyrafinowanego obrazu.</p>
 </div>
 <div class="column" style="padding:0px">
-<iframe width="556" height="312" src="https://www.youtube.com/embed/flmu5HPuiSY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/flmu5HPuiSY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<iframe width="556" height="312" src="https://www.youtube.com/embed/DUly9BuWc3U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/DUly9BuWc3U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Animacje<b> 2D oraz 3D</b></p>
 </br>
 <p>
@@ -84,14 +84,14 @@ Nowoczesne techniki animowania oraz montażu dają nieograniczone możliwości d
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Ujęcia z<b> drona</b></p>
 </br>
 <p>
 Każda produkcja jest przygotowana w najdrobniejszym szczególe. Zaangażowany zespół realizatorów i twórców, w precyzyjnie zgranym procesie produkcji, analizuje i weryfikuje każdy najdrobniejszy element. Doświadczenie twórców jest gwarancją udanego i wyrafinowanego obrazu.</p>
 </div>
 <div class="column" style="padding:0px">
-<iframe width="556" height="312" src="https://www.youtube.com/embed/flmu5HPuiSY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/flmu5HPuiSY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 

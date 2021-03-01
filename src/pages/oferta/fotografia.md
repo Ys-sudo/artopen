@@ -51,9 +51,9 @@ keywords:
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/07/zdjecie-pedzle.jpg" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/zdjecie-pedzle.jpg" />
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Zdjęcia<b> produktowe</b></p>
 </br>
 <p>
@@ -63,14 +63,14 @@ W naszych fotografiach produktowych staramy się pokazać nie tylko sam produkt 
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Sesje <b>zdjęciowe</b></p>
 </br>
 <p>
 Wiele obiektów można sfotografować w studio inne przy pomocy profesjonalnego sprzętu fotografujemy w plenerze. Najważniejsze jest, aby rezultat końcowy zadowalał naszych Klientów, a zdjęcia oprócz utrwalenia produktu na obrazie i praktycznego zastosowania miały w sobie wyrafinowaną nutę artyzmu.</p>
 </div>
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/20/sesje-zdjeciowe.jpg" />
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/20/sesje-zdjeciowe.jpg" />
 </div>
 </div>
 

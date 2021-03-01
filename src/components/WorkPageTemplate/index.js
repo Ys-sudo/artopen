@@ -40,7 +40,7 @@ const WorkPageTemplate = (props) => {
         </div>
       </section>
 
-      <div className='container oimg' style={{padding:'50px',backgroundColor:'#00d1b2'}}>
+      <div className='container oimg' style={{padding:'50px',backgroundColor:'white'}}>
       <CvForm />
       </div>
 

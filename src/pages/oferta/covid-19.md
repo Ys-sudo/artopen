@@ -153,19 +153,19 @@ keywords:
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%">
-<div class="column" style="text-align:center;">
-<img src="/img/covid-img/a1.png" width="100px" />
+<div class="column" style="text-align:left;">
+<img src="/img/covid-img/a1.png" width="50%" />
 </div>
 <div class="column" style="padding-top:50px">
-<p style="margin-left:120px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wszystkie elementy wykonane z folii ułatwiają sterylizację. </p>
+<p style="margin-left:140px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wszystkie elementy wykonane z folii ułatwiają sterylizację. </p>
 </br>
-<p style="margin-left:80px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Minimalizuje możliwość kontaktu z zarazkami, wirusami i bakteriami.</p>
+<p style="margin-left:100px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Minimalizuje możliwość kontaktu z zarazkami, wirusami i bakteriami.</p>
 </br>
-<p style="margin-left:40px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Ze względu na regulowany obwód, przyłbica jest w uniwersalnym rozmiarze.</p>
+<p style="margin-left:60px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Ze względu na regulowany obwód, przyłbica jest w uniwersalnym rozmiarze.</p>
 </br>
-<p style="margin-left:0px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Opaska dystansowa pozwala na cyrkulację powietrza jednocześnie nie zmniejszając funkcji ochronnej.</p>
+<p style="margin-left:20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Opaska dystansowa pozwala na cyrkulację powietrza jednocześnie nie zmniejszając funkcji ochronnej.</p>
 </br>
-<p style="margin-left:-40px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wielokrotnego użytku i komfortowa w noszeniu ze względu na lekkość.</p>
+<p style="margin-left:-20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wielokrotnego użytku i komfortowa w noszeniu ze względu na lekkość.</p>
 </br>
 </div>
 

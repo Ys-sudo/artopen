@@ -48,7 +48,7 @@ keywords:
 <div class="column" style="padding:0px">
 <img width="100%" src="https://artopen.pl/images/2020/04/07/tablet-artopen.png" />
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Logotyp <b>firmowy</b></p>
 </br>
 <p>
@@ -59,7 +59,7 @@ Projektowanie logo jest dla nas procesem pełnym twórczej ekspresji. Forma graf
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px;text-align:right">
+<div class="column" style="margin-top:50px;text-align:right;padding-right:30px">
 <p style="font-size:30px">Strony <b>internetowe</b></p>
 </br>
 <p>
@@ -75,7 +75,7 @@ Projektowanie logo jest dla nas procesem pełnym twórczej ekspresji. Forma graf
 <div class="column" style="padding:0px">
 <img width="100%" src="https://artopen.pl/images/2020/04/07/identyfikacja-artopen.png" />
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Identyfikacje <b>wizualne</b></p>
 </br>
 <p>
@@ -84,7 +84,7 @@ To system pozwalający zachować spójną wizualną koncepcję, chroniącą logo
 
 </div>
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px;text-align:right">
+<div class="column" style="margin-top:50px;text-align:right;padding-right:30px">
 <p style="font-size:30px">Kalendarze <b>firmowe</b></p>
 </br>
 <p>
@@ -100,7 +100,7 @@ Jest to nasza propozycja kalendarzy, w których wnętrze jest w całości indywi
 <div class="column" style="padding:0px">
 <img width="100%" src="https://artopen.pl/images/2020/04/07/drukowane-artopen.png" />
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Materiały <b>drukowane</b></p>
 </br>
 <p>
@@ -110,7 +110,7 @@ Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlateg
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px;text-align:right">
+<div class="column" style="margin-top:50px;text-align:right;padding-right:30px">
 <p style="font-size:30px">Ilustracje <b>wektorowe</b></p>
 </br>
 <p>
@@ -126,7 +126,7 @@ Jest to nasza propozycja kalendarzy, w których wnętrze jest w całości indywi
 <div class="column" style="padding:0px">
 <img width="100%" src="https://artopen.pl/images/2020/04/07/drukowane-artopen.png" />
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Reklamy <b>wielkoformatowe</b></p>
 </br>
 <p>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
-import { ContactForm } from '../forms'
+import ContactForm from '../forms/ContactForm'
 import ModalCall from '../ModalCall'
 import MapContainer from '../Map'
 

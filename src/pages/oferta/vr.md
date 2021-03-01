@@ -51,9 +51,9 @@ keywords:
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<iframe width="556" height="312" src="https://www.youtube.com/embed/C6JhjxWMbQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/C6JhjxWMbQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;margin-left:30px">
 <p style="font-size:30px">Technologia<b> VR</b></p>
 </br>
 <p>
@@ -62,22 +62,22 @@ Niepostrzeżenie wkroczyliśmy w wirtualny świat 3D, którego możemy doświadc
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;margin-right:30px">
 <p style="font-size:30px">Produkty<b> 3D</b></p>
 </br>
 <p>
 Masz pomysł na piękny mebel? Trudno Ci przekonać potencjalnego nabywcę do jego niezwykłych możliwości? Zaprojektujemy jego wersję 3D, którą będziesz mógł umieścić w rzeczywistej przestrzeni mieszkania czy biura, u Twojego klienta. Taki sposób prezentacji będzie już wkrótce niezwykle popularny. Stań razem z nami w awangardzie, wyznaczaj nowe trendy i przecieraj szlaki.</p>
 </div>
 <div class="column" style="padding:0px">
-<iframe width="556" height="312" src="https://www.youtube.com/embed/bmKHA_Lqb60" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/bmKHA_Lqb60" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<iframe width="556" height="312" src="https://www.youtube.com/embed/C6JhjxWMbQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/C6JhjxWMbQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;margin-left:30px">
 <p style="font-size:30px">WEB<b> VR</b></p>
 </br>
 <p>
@@ -86,14 +86,14 @@ Niepostrzeżenie wkroczyliśmy w wirtualny świat 3D, którego możemy doświadc
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px">
-<p style="font-size:30px">Fotografie<b> 360</b> i wirtualne spacery</p>
+<div class="column" style="margin-top:50px;margin-right:30px">
+<p style="font-size:30px"><b>Fotografie 360</b> i <b>wirtualne spacery</b></p>
 </br>
 <p>
 Masz pomysł na piękny mebel? Trudno Ci przekonać potencjalnego nabywcę do jego niezwykłych możliwości? Zaprojektujemy jego wersję 3D, którą będziesz mógł umieścić w rzeczywistej przestrzeni mieszkania czy biura, u Twojego klienta. Taki sposób prezentacji będzie już wkrótce niezwykle popularny. Stań razem z nami w awangardzie, wyznaczaj nowe trendy i przecieraj szlaki.</p>
 </div>
 <div class="column" style="padding:0px">
-<iframe width="556" height="312" src="https://www.youtube.com/embed/bmKHA_Lqb60" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/bmKHA_Lqb60" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 
