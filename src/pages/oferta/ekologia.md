@@ -326,12 +326,17 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 
 </div>
 
-<div style="padding-left:10%; margin-top:100px; padding-right:10%;width:100%">
-<p style="text-align:left; font-size:50px;"> Bądź
-<img src="/img/eco-icons/leaves.svg" width="150px" />
-<br/><b>ECO SMART!</b></p>
-<p style="text-align:right; font-size:40px;"> Zapytaj nas o pełną ofertę<br/><b>gadżetów ECO</b></p>
-
-</br>
-</br>
+<div class="columns" style="padding-left:10%; margin-top:50px; padding-right:10%;width:100%">
+<div class="column">
+<p style="text-align:left; font-size:40px;"> Bądź
+<img src="/img/eco-icons/leaves.svg" width="100px" />
+<br/><b>ECO smart!</b></p>
 </div>
+<div class="column">
+<p style="text-align:right; font-size:40px;">
+<img src="/img/covid-icons/like1.svg" width="100px" />
+Zapytaj nas
+<br/><b>o pełną ofertę</b></p>
+</div>
+</div>
+</br></br>

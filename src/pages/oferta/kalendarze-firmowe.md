@@ -6,7 +6,7 @@ slug: kalendarze-firmowe
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg
 icon: /img/calendar-alt.svg
-subtitle: podtytuł
+subtitle: Kalendarze drukowane
 tags:
   - Studio Reklamy
   - agencja interaktywna
@@ -17,13 +17,63 @@ keywords:
   - agencja interaktywna
   - ekologia
 ---
-Odmierzanie czasu jest nierozerwalnie związane z działalnością człowieka. Wszystkie nasze działania ubrane są w terminy. Nasz czas podzielony jest na okresy: dni, tygodnie, miesiące i lata.
-Dlatego kalendarze ścienne czy też biurkowe są nieodzowne w każdej branży. Wszystko co produkujemy, sprzedajemy, kupujemy odbywa się w czasie i to ściśle określonym.
-Kalendarze firmowe ścienne i biurkowe są tradycyjnym narzędziem użytecznym i niezastąpionym.
-Dodatkowym atutem kalendarzy firmowych jest to, że są nośnikiem wizerunku firmy, marki czy informacji.
-Klasyczne kalendarze trójdzielne są obecne w każdym biurze, prezentują trzy miesiące roku: bieżący, miniony i przyszły co ułatwia planowanie i identyfikację wydarzeń czy ważnych dat w czasie. Przesuwany pasek z okienkiem podkreślającym bieżący dzień są dodatkowym atutem i użytecznym dodatkiem. Główka kalendarza książkowego jest doskonałym miejscem na umieszczenie ciekawej grafiki czy też zdjęcia i może być dodatkowo wyeksponowana poprzez użycie folii błyszczących, matowych, satynowych czy hotstampingu foliami metalicznymi (link do kalendarza Cargounit czarnego z czerwona lokomotywą). Dodatkowym atutem mogą być kalendaria z indywidulanie zaprojektowanym układem graficznym.  Indywidualne kalendaria to wisienka na torcie kalendarza trójdzielnego. Wyróżnia go spośród wielu innych kalendarzy. Przez cały rok cieszy oko swoją wyjątkową niepowtarzalną szatą graficzną.
-Kalendarze ścienne planszowe spełniają rolę nie tylko klasycznego kalendarza ale także mają funkcję ozdobną. Każda plansza może być indywidualnie zaprojektowana lub przedstawiać fotografię, dokumentujące ważne wydarzenia w firmie, proces produkcji, czy inne tematy ważne dla przedsiębiorstwa. Kalendarze planszowe są dostępne w wielu formatach a ich druk może być wzbogacony w dodatkowe elementy ozdobne takie jak hotstamping złotą folia (link do kalendarza planszowego Rawlplug’a).
+<div style="margin-left:10%;margin-right:10%">
+<p>Każdy nowy rok rozpoczynasz nowymi postanowieniami i celami, pełen wiary w ich realizację. Aby wprowadzić je w czyn potrzebujesz dobrego i precyzyjnego planu. Sięgasz wówczas po pióro, aby zapisać je w nowym kalendarzu w eleganckiej okładzinie, zdobionej grafiką bądź tłoczeniem. Twoje nowe cele i plany zyskały wspaniałą oprawę. </p>
+</br>
 
-Kalendarze biurkowe – to bardzo poręczny towarzysz codziennej pracy, szybko możemy ustalać i zaznaczać interesujące i potrzebne terminy. Kalendarz biurkowy  może także stanowić ekonomiczny gadżet, który zdecydujemy się podarować naszym klientom i współpracownikom.
-Kalendarz biurkowy posiada także miejsce na załączenie interesującej grafiki czy fotografii, przez co stanowi doskonały nośnik podstawowych informacji np. teleadresowych.
- 
+</div>
+
+<div style="margin-top:50px;min-height:200px;text-align:center;background-image: linear-gradient(141deg, rgb(0, 158, 108) 0%, rgb(0, 209, 178) 71%, rgb(0, 230, 235) 100%);padding:50px;color:white" class="columns">
+
+<div class="column">
+<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
+</br></br>
+<p><b>Indywidualne kalendaria</b></p>
+</div>
+
+<div class="column">
+<img src="/img/offer-icons/logotypy.svg" width="50px" />
+</br></br>
+<p><b>Bogata paleta uszlachetnień</b></p>
+</div>
+
+<div class="column">
+<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+</br></br>
+<p><b>Unikatowe projekty graficzne</b></p>
+</div>
+
+</div>
+
+<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<div class="column" style="padding:0px">
+<img width="100%" src="https://artopen.pl/images/2020/04/07/kalendarz-epore.jpg" />
+</div>
+<div class="column" style="margin-top:50px">
+<p style="font-size:30px">Kalendarze <b>ścienne</b></p>
+</br>
+<p>
+Oprócz swojej praktycznej funkcji spełniają także tę estetyczną. Zaprojektowane tak aby spełniać oba te warunki, stają się wyjątkowym elementem dekorującym wnętrze. W przypadku autorskich projektów mogą spełniać funkcję obrazów i artystycznych grafik.
+</p>
+</div>
+</div>
+
+<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<div class="column" style="margin-top:50px">
+<p style="font-size:30px">Kalendarze <b>biurkowe</b></p>
+</br>
+<p>
+Spełniają swoją funkcję jako nieskomplikowany terminarz. Są także doskonałym i zawsze potrzebnym upominkiem reklamowym, na którym w wyszukanym projekcie możemy przekazać istotne dla organizacji informacje.
+</p>
+</div>
+<div class="column" style="padding:0px">
+<img width="100%" src="https://artopen.pl/images/2020/04/07/kalendarz-markus.jpg" />
+</div>
+</div>
+
+
+<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<p>
+Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
+</p>
+</div>

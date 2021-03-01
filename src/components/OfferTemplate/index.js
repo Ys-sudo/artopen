@@ -59,10 +59,12 @@ const OfferTemplate = (props) => {
       <br></br>
       <div id="content" style={{paddingTop:'100px',paddingBottom:'50px'}}>
         <h3 className='title is-size-3 has-text-weight-bold is-bold-light oftitle2'
-        style={{color:'#00d1b2',marginLeft:'5%',marginRight:'5%'}}
+        style={{color:'#00d1b2',marginLeft:'5%',marginRight:'5%',maxWidth:'70%'}}
         >
-          {subtitle}
+        &bull; {subtitle}
         </h3>
+        <br />
+        <br />
         <PostContent content={content} />
 
         <br />

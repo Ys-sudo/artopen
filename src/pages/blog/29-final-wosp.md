@@ -4,7 +4,7 @@ title: 29. finał WOŚP - Wspieramy się razem!
 subtitle: Wsparcie dla Wielkiej Orkiestry Świątecznej Pomocy to dla nas oczywistość.
 slug: 29-final-wosp
 date: 2021-02-04T13:49:14.606Z
-cover: /img/wosp.jpg
+cover: /img/wosp.svg
 tags:
   - akcja charytatywna
   - spersonalizowane Kalendarze

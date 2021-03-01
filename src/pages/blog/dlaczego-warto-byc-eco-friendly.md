@@ -4,7 +4,7 @@ title: Dlaczego warto być ECO firendly
 subtitle: Prowadź ekologiczny biznes - dołącz do odpowiedzialnych!
 slug: eco-friendly-dlaczego-warto-byc
 date: 2021-02-04T13:49:14.606Z
-cover: /img/las2.jpg
+cover: /img/eco-friendly.svg
 tags:
   - ekologia
   - agencja reklamowa

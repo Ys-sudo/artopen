@@ -6,7 +6,7 @@ slug: opakowania
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg
 icon: /img/box-open.svg
-subtitle: podtytuł
+subtitle: Opakowania
 tags:
   - Studio Reklamy
   - agencja interaktywna
@@ -17,17 +17,68 @@ keywords:
   - agencja interaktywna
   - ekologia
 ---
-Wszyscy wiemy, że „Nie szata zdobi człowieka” jednak w przypadku produktów jest zgoła odmiennie. Niejednokrotnie opakowanie decyduje o sukcesie produktu.
-Ale nie tylko produkty wymagają stosownego i odpowiedniego opakowania. Obwolut, pudełek i kartoników używamy w bardzo wielu sytuacjach i do wielu przedmiotów.
-Święta, uroczystości rodzinne, firmowe czy branżowe nie mogą się obyć bez upominków a co za tym idzie pudełek prezentowych.
-Odpowiedzią na te potrzeby są dedykowane pudełka, w dowolnym kolorze, zdobione, z nadrukiem lub bez, z kokardką czy inną ozdobą. Ponadto prezent estetycznie zapakowany jest wyrazem szacunku i wdzięczności, dla obdarowanego.
-Opakowania to świat nieskończonych ilości kształtów, kolorów, motywów. Wszystko co tylko sobie jesteśmy w stanie wyobrazić jako opakowanie, może być z powodzeniem przez nas zaprojektowane i wydrukowane. Ekskluzywne opakowanie do perfum ? – Bardzo proszę. (link do opakowania do perfum hasco-lek).Możliwości mamy nieograniczone.
-Dbając o naturę preferujemy opakowania kartonowe i papierowe, podlegające recyklingowi. Opakowania z papierów eco prezentują się skromnie ale z klasą. Na nich także możemy nanosić nadruki ekologicznymi farbami wodnymi czy też dodawać ozdobne ekologiczne elementy – kolorowe sznureczki oraz wstążki.
+<div style="margin-left:10%;margin-right:10%">
+<p>Wprowadzając drobne korekty do ponadczasowego stwierdzenia „Nie szata zdobi człowieka”, otrzymamy niezaprzeczalny fakt - „Szata zdobi produkt”. Nawet te najdoskonalsze potrzebują odpowiedniej oprawy. Dobrze opakowany przedmiot to połowa sukcesu. Bez względu na rodzaj, kształt czy przeznaczenie, zaprojektujemy odpowiednią formę opakowania.</p>
+</br>
 
-Od czego zacząć?
-Jeśli masz wspaniały produkt, o którego sukcesie jesteś przekonany, zadbaj o jego odpowiednie opakowanie. Zaprojektujemy kształt tego opakowania, szatę graficzną i wyprodukujemy go dla Ciebie z najlepszych materiałów.
-Szata graficzna to także bardzo istotny element szczególnie jeśli dotyczy opakowań do produktów o masowym zasięgu. Ważne jest aby wyróżniał się spośród innych do niego podobnych. Większość osób jest wzrokowcami, dlatego warto pochylić się nad tym elementem opakowania i rzetelnie go dopracować.
-Nasze opakowania są różnorodne ponieważ dysponujemy bogatą paletą papierów i kartonów dostosowanych do produkcji wytrzymałych opakowań. Produkcja opakowań to także wykrojniki, które projektujemy i wytwarzamy. Cały proces produkcji opakowań przebiega pod ścisłym nadzorem. Wszystkie etapy produkcji są równie ważne, dlatego efekt końcowy jest spektakularny. (link do opakowania dla Relaxu – albo inny interesujący projekt)
+</div>
 
-Czas realizacji uzależniony jest od zamawianych ilości opakowań ale bez względu na ilość opakowań zawsze otrzymasz wysokiej jakości pudełko, które spełni Twoje oczekiwania.
- 
+<div style="margin-top:50px;min-height:200px;text-align:center;background-image: linear-gradient(141deg, rgb(0, 158, 108) 0%, rgb(0, 209, 178) 71%, rgb(0, 230, 235) 100%);padding:50px;color:white" class="columns">
+
+<div class="column">
+<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
+</br></br>
+<p><b>Indywidualny wymiar</b></p>
+</div>
+
+<div class="column">
+<img src="/img/offer-icons/logotypy.svg" width="50px" />
+</br></br>
+<p><b>Spersonalizowany środek</b></p>
+</div>
+
+<div class="column">
+<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+</br></br>
+<p><b>Uszlachetnienie opakowania</b></p>
+</div>
+
+</div>
+
+<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<div class="column" style="padding:0px">
+<img width="100%" src="https://artopen.pl/images/opakowanie-HASCO.jpg" />
+</div>
+<div class="column" style="margin-top:50px">
+<p style="font-size:30px">Opakowania<b> reklamowe</b></p>
+</br>
+<p>
+Dobry produkt wymaga dobrego opakowania. Nasze doświadczenie w projektowaniu i produkcji opakowań, owocuje niezwykłymi realizacjami i precyzyjnie skonstruowanymi pudełkami. Dodatkowe elementy jak uszlachetnianie, kolorystyka a także uwzględnienie trendu ECO, tworzą festiwal nieograniczonej niczym kreacji.</p>
+</div>
+</div>
+
+<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<div class="column" style="margin-top:50px">
+<p style="font-size:30px">Spersonalizowany  <b>wygląd</b></p>
+</br>
+<p>
+Opakowania wychodzące z naszej produkcji zadowalają bardzo wymagających odbiorców. Ich jakość wzbudza zachwyt i satysfakcję. Z naszym opakowaniem Twój produkt nie tylko będzie doskonale chroniony ale także otrzyma piękna, indywidualną oprawę.</p>
+</div>
+<div class="column" style="padding:0px">
+<img width="100%" src="https://artopen.pl/images/2020/04/07/opakowanie-rexer.jpg" />
+</div>
+</div>
+
+<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<p style="text-align:left;font-size:30px">
+Twoje <b>opakowanie</b>
+</p>
+</br>
+<img src="https://artopen.pl/images/2020/04/11/twoje-opakowania.jpg" width="100%" />
+</div>
+
+<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<p>
+Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
+</p>
+</div>

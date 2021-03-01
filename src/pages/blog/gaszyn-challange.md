@@ -4,7 +4,7 @@ title: Wspólnie pompowaliśmy dla Mii
 subtitle: Gaszyn Challange, Pomagamy
 slug: gaszyn-challange-akcja-charytatywna
 date: 2021-01-30T13:49:14.606Z
-cover: /img/blog-gaszyn1.jpg
+cover: /img/gaszyn.svg
 tags:
   - akcja charytatywna
   - agencja reklamowa

@@ -4,7 +4,7 @@ title: Wizyta w schronisku - zwierzaki w potrzebie
 subtitle: Bezdomne zwierzęta kontra nasza świadomość
 slug: zwierzaki-w-potrzebie
 date: 2021-02-03T13:49:14.606Z
-cover: /img/schronisko.jpg
+cover: /img/schronisko.svg
 tags:
   - akcja charytatywna
   - pomoc dla zwierząt

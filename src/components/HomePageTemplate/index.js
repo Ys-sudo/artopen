@@ -57,21 +57,21 @@ const HomePageTemplate = (props) => {
 
 
               <div className='column columns covidoffer' style={{marginTop:'20px',minWidth:'60%'}}>
-              <a href="/covid-19/" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
+              <a href="/covid-19#maseczki" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
                 <div >
                 <img width="40px"  style={{verticalAlign:'middle'}}   alt="maseczki" src='/img/maseczki.svg'/>
                 <br /><br />
                 <h3 style={{color:'white'}}>maseczki</h3>
                 </div>
               </a>
-              <a href="/covid-19/" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
+              <a href="/covid-19#przylbice" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
                 <div >
                 <img width="40px"  style={{verticalAlign:'middle'}}   alt="przyłbice" src='/img/przylbice.svg'/>
                 <br /><br />
                 <h3 style={{color:'white'}}>przyłbice</h3>
                 </div>
               </a>
-              <a href="/covid-19/" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
+              <a href="/covid-19#produkty-antybakteryjne" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
                 <div>
                 <img width="40px"  style={{verticalAlign:'middle'}}   alt="dezynfekcja" src='/img/dezynfekcja.svg'/>
                 <br /><br />
@@ -230,7 +230,7 @@ const HomePageTemplate = (props) => {
           <div className='container'>
             <div className='columns timers'>
 
-              <div className='column' style={{textAlign:'center',borderLeft:'1px solid white'}}>
+              <div className='column' style={{textAlign:'center'}}>
               <p>Lat na rynku</p>
               <h5 id='t1' className='is-size-2'>
               0
@@ -251,7 +251,7 @@ const HomePageTemplate = (props) => {
               </h5>
               </div>
 
-              <div className='column' style={{textAlign:'center',borderLeft:'1px solid white',borderRight:'1px solid white'}}>
+              <div className='column' style={{textAlign:'center',borderLeft:'1px solid white'}}>
               <p>Wykonanych zamówień</p>
               <h5 id='t4' className='is-size-2'>
               0

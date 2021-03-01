@@ -5,7 +5,7 @@ subtitle: >-
   Organizując akcję sprzątania pt. „OTWARCI NA ŚRODOWISKO” mieliśmy na celu zwrócenie uwagi na poważny problem zaśmiecania terenów zielonych, jak też edukacji w kwestii recyklingu i segregacji śmieci.
 slug: akcja-sprzatanie-otwarci-na-srodowisko
 date: 2021-02-03T13:49:14.606Z
-cover: /img/sprzatanie.jpg
+cover: /img/otwarci-na-srodowisko.svg
 tags:
   - ekologia
   - akcja charytatywna
@@ -29,18 +29,17 @@ Wspólnymi siłami z lokalnymi firmami udało nam się uzbierać prawie kontener
 
 Zachęcamy do obejrzenia filmu z akcji, na którym... zresztą, zobaczcie sami.
 
-poster
-<video src="https://artopen.pl/film/Akcja_Sprzatanie.mp4" controls async></video>
+<video src="https://artopen.pl/film/Akcja_Sprzatanie.mp4" poster="/img/video-cover.jpg" controls async></video>
 
 
 
 W poniższym materiale poznasz argumenty oraz motywację przedstawicieli firm i sponsorów, którzy brali udział w tym niesamowitym przedsięwzięciu, jakie miało miejsce na Kozanowie we Wrocławiu.
 
 ---
-poster
-<div style="text-align:center">
-<video src="https://artopen.pl/film/Wywiady.mp4" controls async></video>
-</div>
+
+
+<video src="https://artopen.pl/film/Wywiady.mp4" poster="/img/video-cover.jpg" controls async></video>
+
 
 ---
 
