@@ -6,7 +6,7 @@ slug: fotografia
 date: 2020-12-05T13:49:14.606Z
 cover: /img/slider_1.jpg
 icon: /img/camera-retro.svg
-subtitle: Fotografie
+subtitle: Fotografia
 tags:
   - Fotografia
   - agencja reklamowa
@@ -30,19 +30,19 @@ keywords:
 <div style="margin-top:50px;min-height:200px;text-align:center;background-image: linear-gradient(141deg, rgb(0, 158, 108) 0%, rgb(0, 209, 178) 71%, rgb(0, 230, 235) 100%);padding:50px;color:white" class="columns">
 
 <div class="column">
-<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
+<img src="/img/offer-icons/zdjecia-produktowe.svg" width="50px" />
 </br></br>
 <p><b>Zdjęcia produktowe</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/logotypy.svg" width="50px" />
+<img src="/img/offer-icons/sesje-zdjeciowe.svg" width="50px" />
 </br></br>
 <p><b>Sesje zdjęciowe</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<img src="/img/offer-icons/obrobka-graficzna.svg" width="50px" />
 </br></br>
 <p><b>Obróbka graficzna zdjęć</b></p>
 </div>

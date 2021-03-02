@@ -31,19 +31,19 @@ keywords:
 <div style="margin-top:50px;min-height:200px;text-align:center;background-image: linear-gradient(141deg, rgb(0, 158, 108) 0%, rgb(0, 209, 178) 71%, rgb(0, 230, 235) 100%);padding:50px;color:white" class="columns">
 
 <div class="column">
-<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
+<img src="/img/offer-icons/produkty-ekologiczne.svg" width="50px" />
 </br></br>
 <p><b>Produkty ekologiczne</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/logotypy.svg" width="50px" />
+<img src="/img/offer-icons/pakiety-startowe.svg" width="50px" />
 </br></br>
 <p><b>Pakiety startowe</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<img src="/img/offer-icons/interaktywne-kostki.svg" width="50px" />
 </br></br>
 <p><b>Interaktywne kostki</b></p>
 </div>

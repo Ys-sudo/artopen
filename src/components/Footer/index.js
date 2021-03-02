@@ -154,10 +154,10 @@ class Footer extends React.Component {
           <br />
 
           <a onClick={newsEnter} className='button-green'> <img width="10px" className='icon-green'  alt="adres" src='/img/address-card.svg'/>zapisz się </a>
-
-
-
-
+          {/* TODO: Google play badge
+          <br /><br /><br /><h5><b>Aplikacja</b></h5>
+          <a href='http://play.google.com/store/?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='pobierz z Google Play' style={{maxWidth:'180px'}} src='https://play.google.com/intl/en_us/badges/static/images/badges/pl_badge_web_generic.png'/></a>
+          */}
         </div>
 
 
@@ -218,13 +218,14 @@ const newsEnter = () => {
 
 
 function scrollFunction() {
-  if ( document.documentElement.scrollTop > 250) {
+  if ( document.documentElement.scrollTop > 100) {
     document.getElementById("backtotop").style.display = "block";
 
     //document.getElementsByClassName("navbar")[0].style.color =  '#111111';
-    //document.getElementsByClassName("navbar")[0].style.backgroundColor = 'rgba(255,255,255,0)';
+    //document.getElementsByClassName("navbar")[0].style.backgroundColor = 'rgba(255,255,255,0.3)';
 
     //document.getElementsByClassName("navbar-item")[0].firstChild.style.filter =  'invert(0)';
+
 
 
 
@@ -232,10 +233,7 @@ function scrollFunction() {
   } else {
     document.getElementById("backtotop").style.display = "none";
 
-
-    //document.getElementsByClassName("navbar")[0].style.color = 'white';
-    //document.getElementsByClassName("navbar")[0].style.backgroundColor =  '#111111';
-
+    //document.getElementsByClassName("navbar")[0].style.backgroundColor =  'white';
     //document.getElementsByClassName("navbar-item")[0].firstChild.style.filter =  'invert(1)';
 
 

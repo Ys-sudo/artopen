@@ -26,17 +26,17 @@ keywords:
 
 <div class="columns">
 <div class="column">
-<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
+<img src="/img/offer-icons/unikalny-projekt.svg" width="50px" />
 </br></br>
 <p><b>Unikalny projekt graficzny</b></p>
 </div>
 <div class="column">
-<img src="/img/offer-icons/logotypy.svg" width="50px" />
+<img src="/img/offer-icons/cms.svg" width="50px" />
 </br></br>
 <p><b>Łatwy system CMS</b></p>
 </div>
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<img src="/img/offer-icons/support.svg" width="50px" />
 </br></br>
 <p><b>Wsparcie techniczne</b></p>
 </div>
@@ -290,7 +290,7 @@ Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlateg
 
 </div>
 
-<p style="font-size:30px;text-align:center"> Strona na każde urządzenie i przeglądarkę </p>
+<p style="font-size:30px;text-align:center"> Projekt dostosowany na każde urządzenie i przeglądarkę </p>
 <div style="margin-top:50px;min-height:200px;text-align:center;padding:50px;" class="columns">
 
 <div class="column">
@@ -329,4 +329,20 @@ Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlateg
 <p><b>Internet Explorer</b></p>
 </div>
 
+</div>
+
+<p style="font-size:30px;text-align:center"> Aplikacja mobilna na androida </p>
+<div style="margin-top:50px;min-height:200px;text-align:center;padding:50px;" class="columns">
+
+<div class="column">
+<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
+</br></br>
+<p><b>Android</b></p>
+</div>
+
+<div class="column">
+<img src="/img/offer-icons/logotypy.svg" width="50px" />
+</br></br>
+<p><b>Google play store</b></p>
+</div>
 </div>

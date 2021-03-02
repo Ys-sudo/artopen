@@ -37,19 +37,19 @@ keywords:
 <div style="margin-top:50px;min-height:200px;text-align:center;background-image: linear-gradient(141deg, rgb(0, 158, 108) 0%, rgb(0, 209, 178) 71%, rgb(0, 230, 235) 100%);padding:50px;color:white" class="columns">
 
 <div class="column">
-<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
+<img src="/img/offer-icons/indywidualne-oprawy.svg" width="50px" />
 </br></br>
 <p><b>Indywidualne oprawy</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/logotypy.svg" width="50px" />
+<img src="/img/offer-icons/papier-z-kamienia-trawy.svg" width="50px" />
 </br></br>
 <p><b>Papier z kamienia oraz trawy</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<img src="/img/offer-icons/autorskie-bloki.svg" width="50px" />
 </br></br>
 <p><b>Autorskie bloki</b></p>
 </div>
