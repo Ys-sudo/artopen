@@ -4,7 +4,7 @@ title: Kreator kalendarzy online
 subtitle: Stwórz swój projekt!
 slug: kreator-kalendarzy-online
 date: 2021-02-02T13:49:14.606Z
-cover: /img/kreator-kalendarzy.svg
+cover: /img/kreator-kalendarzy1.svg
 tags:
   - kalendarze książkowe
   - spersonalizowane kalendarze

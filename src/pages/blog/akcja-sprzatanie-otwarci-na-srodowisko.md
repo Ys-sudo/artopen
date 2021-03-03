@@ -5,7 +5,7 @@ subtitle: >-
   Organizując akcję sprzątania pt. „OTWARCI NA ŚRODOWISKO” mieliśmy na celu zwrócenie uwagi na poważny problem zaśmiecania terenów zielonych, jak też edukacji w kwestii recyklingu i segregacji śmieci.
 slug: akcja-sprzatanie-otwarci-na-srodowisko
 date: 2021-02-03T13:49:14.606Z
-cover: /img/otwarci-na-srodowisko.svg
+cover: /img/otwarci-na-srodowisko1.svg
 tags:
   - ekologia
   - akcja charytatywna

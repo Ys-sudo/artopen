@@ -44,17 +44,17 @@ keywords:
 
 <div class="columns">
 <div class="column">
-<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
+<img src="/img/offer-icons/backup.svg" width="50px" />
 </br></br>
 <p><b>Regularne backupy</b></p>
 </div>
 <div class="column">
-<img src="/img/offer-icons/logotypy.svg" width="50px" />
+<img src="/img/offer-icons/seo.svg" alt="seo" width="50px" />
 </br></br>
 <p><b>Pozycjonowanie (SEO)</b></p>
 </div>
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<img src="/img/offer-icons/email.svg" width="50px" />
 </br></br>
 <p><b>Newsletter</b></p>
 </div>
@@ -62,17 +62,17 @@ keywords:
 
 <div class="columns">
 <div class="column">
-<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
+<img src="/img/offer-icons/analytics.svg" width="50px" />
 </br></br>
 <p><b>Analiza statystyk</b></p>
 </div>
 <div class="column">
-<img src="/img/offer-icons/logotypy.svg" width="50px" />
+<img src="/img/offer-icons/api.svg" width="50px" />
 </br></br>
 <p><b>Integracje API</b></p>
 </div>
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<img src="/img/offer-icons/responsive-design.svg" width="50px" />
 </br></br>
 <p><b>Pełna responsywność</b></p>
 </div>
@@ -80,17 +80,17 @@ keywords:
 
 <div class="columns">
 <div class="column">
-<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
+<img src="/img/offer-icons/WCAG.svg" width="50px" />
 </br></br>
 <p><b>Standaryzacja WCAG 2.1</b></p>
 </div>
 <div class="column">
-<img src="/img/offer-icons/logotypy.svg" width="50px" />
+<img src="/img/offer-icons/chat.svg" width="50px" />
 </br></br>
 <p><b>Live Chat</b></p>
 </div>
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<img src="/img/offer-icons/domain.svg" width="50px" />
 </br></br>
 <p><b>Domena i serwer</b></p>
 </div>

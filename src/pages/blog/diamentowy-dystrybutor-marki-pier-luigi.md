@@ -4,7 +4,7 @@ title: Art Open Diamentowym Dystrybutorem
 subtitle: Marki Pier Luigi oraz Stonebook
 slug: diamentowy-dystrybutor-pier-luigi-i-stonebook
 date: 2021-02-01T13:49:14.606Z
-cover: /img/dystrybutor.svg
+cover: /img/dystrybutor1.svg
 tags:
   - kalendarze książkowe
   - spersonalizowane kalendarze
