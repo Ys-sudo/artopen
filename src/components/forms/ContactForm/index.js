@@ -85,7 +85,7 @@ class ContactForm extends React.Component {
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={this.handleSubmit}
-        className="oimg"
+        className="boxshadow"
         style={{padding:'20px'}}
       >
       <div className='field'>

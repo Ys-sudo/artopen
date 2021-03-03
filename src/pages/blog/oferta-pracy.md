@@ -4,7 +4,7 @@ title: Oferta pracy - język niemiecki
 subtitle: Specjalista ds. Sprzedaży i Obsługi Klienta - Jęz. Niemiecki
 slug: oferta-pracy-jezyk-niemiecki
 date: 2021-02-05T13:49:14.606Z
-cover: /img/oferta1.jpg
+cover: /img/oferta1.svg
 tags:
   - oferta pracy
   - język niemiecki

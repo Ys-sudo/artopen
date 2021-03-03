@@ -71,7 +71,7 @@ Wykonane z eco tworzyw lub w 100% z naturalnych surowców. Wśród upominków mo
 W swojej ofercie często staramy się wprowadzać produkty nietuzinkowe, które zaskakują swoją formułą. Przekaz reklamowy od samego początku powinien wywoływać emocje, tylko wtedy odbiorca poświęci czas na przeanalizowanie jego treści. Bez wątpienia takimi produktami są przekładane karty oraz interaktywne kostki.</p>
 </div>
 <div class="column" style="padding:0px">
-<video class="oimg" width="100%" poster="/img/video-cover.jpg" src="https://artopen.pl/film/Toyota.mp4" controls async  />
+<video class="oimg" width="100%" poster="/img/video-poster.svg" src="https://artopen.pl/film/Toyota.mp4" controls async  />
 </div>
 </div>
 

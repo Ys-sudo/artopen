@@ -29,7 +29,7 @@ Wspólnymi siłami z lokalnymi firmami udało nam się uzbierać prawie kontener
 
 Zachęcamy do obejrzenia filmu z akcji, na którym... zresztą, zobaczcie sami.
 
-<video src="https://artopen.pl/film/Akcja_Sprzatanie.mp4" poster="/img/video-cover.jpg" controls async></video>
+<video src="https://artopen.pl/film/Akcja_Sprzatanie.mp4" poster="/img/video-poster.svg" controls async></video>
 
 
 
@@ -38,7 +38,7 @@ W poniższym materiale poznasz argumenty oraz motywację przedstawicieli firm i 
 ---
 
 
-<video src="https://artopen.pl/film/Wywiady.mp4" poster="/img/video-cover.jpg" controls async></video>
+<video src="https://artopen.pl/film/Wywiady.mp4" poster="/img/video-poster.svg" controls async></video>
 
 
 ---
