@@ -191,31 +191,31 @@ Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlateg
 <div style="margin-top:50px;min-height:200px;text-align:center;padding:50px;" class="columns">
 
 <div class="column">
-<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
+<img src="/img/www-icons/node.svg" style="height:50px" />
 </br></br>
 <p><b>Node.js</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/logotypy.svg" width="50px" />
+<img src="/img/www-icons/wordpress.svg" style="height:50px" />
 </br></br>
 <p><b>Wordpress</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<img src="/img/www-icons/joomla.svg" style="height:50px" />
 </br></br>
 <p><b>Joomla</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<img src="/img/www-icons/js-square.svg" style="height:50px" />
 </br></br>
 <p><b>JavaScript</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<img src="/img/www-icons/php-alt.svg" style="height:50px" />
 </br></br>
 <p><b>PHP</b></p>
 </div>
@@ -225,106 +225,73 @@ Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlateg
 <div style="margin-top:50px;min-height:200px;text-align:center;padding:50px;padding-top:0px;" class="columns">
 
 <div class="column">
-<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
+<img src="/img/www-icons/sass.svg" style="height:50px" />
 </br></br>
 <p><b>Sass</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/logotypy.svg" width="50px" />
+<img src="/img/www-icons/git-alt.svg" style="height:50px" />
 </br></br>
 <p><b>Git</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<img src="/img/www-icons/css3-alt.svg" style="height:50px" />
 </br></br>
 <p><b>CSS3</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<img src="/img/www-icons/html5.svg" style="height:50px" />
 </br></br>
 <p><b>HTML5</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
-</br></br>
-<p><b>PrestaShop</b></p>
-</div>
-
-</div>
-
-<div style="margin-top:50px;min-height:200px;text-align:center;padding:50px;padding-top:0px;" class="columns">
-
-<div class="column">
-<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
-</br></br>
-<p><b>Woocommerce</b></p>
-</div>
-
-<div class="column">
-<img src="/img/offer-icons/logotypy.svg" width="50px" />
+<img src="/img/www-icons/react.svg" style="height:50px" />
 </br></br>
 <p><b>React.js</b></p>
 </div>
 
-<div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
-</br></br>
-<p><b>Gatsby.js</b></p>
 </div>
 
-<div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
-</br></br>
-<p><b>Aframe</b></p>
-</div>
-
-<div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
-</br></br>
-<p><b>p5.js</b></p>
-</div>
-
-</div>
 
 <p style="font-size:30px;text-align:center"> Projekt dostosowany na każde urządzenie i przeglądarkę </p>
 <div style="margin-top:50px;min-height:200px;text-align:center;padding:50px;" class="columns">
 
 <div class="column">
-<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
+<img src="/img/www-icons/chrome.svg" width="50px" />
 </br></br>
 <p><b>Google Chrome</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/logotypy.svg" width="50px" />
+<img src="/img/www-icons/safari.svg" width="50px" />
 </br></br>
 <p><b>Safari</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<img src="/img/www-icons/firefox-browser.svg" width="50px" />
 </br></br>
 <p><b>Firefox</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<img src="/img/www-icons/opera.svg" width="50px" />
 </br></br>
 <p><b>Opera</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<img src="/img/www-icons/edge.svg" width="50px" />
 </br></br>
 <p><b>Microsoft Edge</b></p>
 </div>
 
 <div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<img src="/img/www-icons/internet-explorer.svg" width="50px" />
 </br></br>
 <p><b>Internet Explorer</b></p>
 </div>
@@ -335,14 +302,9 @@ Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlateg
 <div style="margin-top:50px;min-height:200px;text-align:center;padding:50px;" class="columns">
 
 <div class="column">
-<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
+<img src="/img/www-icons/android.svg" width="50px" />
 </br></br>
 <p><b>Android</b></p>
 </div>
 
-<div class="column">
-<img src="/img/offer-icons/logotypy.svg" width="50px" />
-</br></br>
-<p><b>Google play store</b></p>
-</div>
 </div>
