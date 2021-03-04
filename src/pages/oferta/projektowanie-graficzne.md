@@ -42,6 +42,12 @@ keywords:
 <p><b>Spójna linia projektów</b></p>
 </div>
 
+<div class="column">
+<img src="/img/offer-icons/ilustracje-wektorowe.svg" width="50px" />
+</br></br>
+<p><b>Ilustracje wektorowe</b></p>
+</div>
+
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">

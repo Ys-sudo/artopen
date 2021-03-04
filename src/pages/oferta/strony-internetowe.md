@@ -96,6 +96,24 @@ keywords:
 </div>
 </div>
 
+<div class="columns">
+<div class="column">
+<img src="/img/offer-icons/audyt.svg" width="50px" />
+</br></br>
+<p><b>Audyty stron</b></p>
+</div>
+<div class="column">
+<img src="/img/offer-icons/aplikacje.svg" width="50px" />
+</br></br>
+<p><b>Aplikacje dedykowane</b></p>
+</div>
+<div class="column">
+<img src="/img/offer-icons/sklepy-internetowe.svg" width="50px" />
+</br></br>
+<p><b>Sklepy internetowe</b></p>
+</div>
+</div>
+
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
