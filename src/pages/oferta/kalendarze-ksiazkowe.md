@@ -147,26 +147,6 @@ Produkcja papieru kamiennego jest ekologiczna - woda i drewno są tu niepotrzebn
 
 </div>
 
-<div style="margin-left:10%;margin-right:10%;padding:5%">
-<p style="font-size:30px">Wzornik <b>opraw</b></p>
-</br>
-<p>
-Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
-</p>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -179,42 +159,42 @@ Produkcja papieru kamiennego jest ekologiczna - woda i drewno są tu niepotrzebn
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_barwione_brzegi_942-300x300.jpg" width='100px' />
 <br />
 <b>Barwione brzegi</b>
-<p style="fontSize:'10px'">możliwość barwienia brzegów bloku kalendarza lub notesu<br /> - minimum 100 sztuk</p>
+<p style="font-size:10px">możliwość barwienia brzegów bloku kalendarza lub notesu<br /> - minimum 100 sztuk</p>
 </div>
 
 <div class="column main">
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_gumka_grzbietowa_738-300x300.jpg" width='100px' />
 <br />
 <b>Gumka grzbietowa</b>
-<p style="fontSize:'10px'">miejsce na długopis,<br /> gumka 10 mm</p>
+<p style="font-size:10px">miejsce na długopis,<br /> gumka 10 mm</p>
 </div>
 
 <div class="column main">
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_gumka_pionowa_354-300x300.jpg" width='100px' />
 <br />
 <b>Gumka pionowa</b>
-<p style="fontSize:'10px'">gumka 10 mm</p>
+<p style="font-size:10px">gumka 10 mm</p>
 </div>
 
 <div class="column main">
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_gumka_pozioma_234-300x300.jpg" width='100px' />
 <br />
 <b>Gumka pozioma</b>
-<p style="fontSize:'10px'">miejsce na długopis,<br /> gumka 10 mm</p>
+<p style="font-size:10px">miejsce na długopis,<br /> gumka 10 mm</p>
 </div>
 
 <div class="column main">
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_koperta_493-300x300.jpg" width='100px' />
 <br />
 <b>Koperta</b>
-<p style="fontSize:'10px'"><b>wymiar</b> | pod każdy format</p>
+<p style="font-size:10px"><b>wymiar</b> | pod każdy format</p>
 </div>
 
 <div class="column main">
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_krysztal_779-300x300.jpg" width='100px' />
 <br />
 <b>Kryształ Swarovski</b>
-<p style="fontSize:'10px'">przyklejany do oprawy <br /> wymiar | 10 x 10 mm</p>
+<p style="font-size:10px">przyklejany do oprawy <br /> wymiar | 10 x 10 mm</p>
 </div>
 
 
@@ -226,7 +206,7 @@ Produkcja papieru kamiennego jest ekologiczna - woda i drewno są tu niepotrzebn
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_m1_859-300x300.jpg" width='100px' />
 <br />
 <b>M1</b>
-<p style="fontSize:'10px'">blaszka szczotkowane aluminium pod grawer
+<p style="font-size:10px">blaszka szczotkowane aluminium pod grawer
 <br />
 <b>wymiar</b> | 40 x 14 mm
  <br />
@@ -237,7 +217,7 @@ Produkcja papieru kamiennego jest ekologiczna - woda i drewno są tu niepotrzebn
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_m2_288-300x300.jpg" width='100px' />
 <br />
 <b>M2</b>
-<p style="fontSize:'10px'">blaszka szczotkowane aluminium pod grawer z tłoczonym rokiem
+<p style="font-size:10px">blaszka szczotkowane aluminium pod grawer z tłoczonym rokiem
 <br />
 <b>wymiar</b> | 40 x 14 mm
  <br />
@@ -248,7 +228,7 @@ Produkcja papieru kamiennego jest ekologiczna - woda i drewno są tu niepotrzebn
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_m3_105-300x300.jpg" width='100px' />
 <br />
 <b>M3</b>
-<p style="fontSize:'10px'">rok finochromowy przyklejany do oprawy
+<p style="font-size:10px">rok finochromowy przyklejany do oprawy
 <br />
 <b>wymiar</b> | 45 x 9 mm </p>
 </div>
@@ -257,7 +237,7 @@ Produkcja papieru kamiennego jest ekologiczna - woda i drewno są tu niepotrzebn
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_m4_724-300x300.jpg" width='100px' />
 <br />
 <b>M4</b>
-<p style="fontSize:'10px'">rok finochromowy przyklejany do oprawy
+<p style="font-size:10px">rok finochromowy przyklejany do oprawy
 <br />
 <b>wymiar</b> | 10 x 10 mm </p>
 </div>
@@ -266,7 +246,7 @@ Produkcja papieru kamiennego jest ekologiczna - woda i drewno są tu niepotrzebn
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_m11_563-300x300.jpg" width='100px' />
 <br />
 <b>M11</b>
-<p style="fontSize:'10px'">zapinka metalowa (srebrna matowa) mocowana na nit z metalowym zawiasem zamykanym na magnes <br />
+<p style="font-size:10px">zapinka metalowa (srebrna matowa) mocowana na nit z metalowym zawiasem zamykanym na magnes <br />
 <b>pole graweru</b> | 26 x 8 mm</p>
 </div>
 
@@ -274,7 +254,7 @@ Produkcja papieru kamiennego jest ekologiczna - woda i drewno są tu niepotrzebn
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_m14_116-300x300.jpg" width='100px' />
 <br />
 <b>M14</b>
-<p style="fontSize:'10px'">blaszka kwadratowa (srebrna błysk) mocowana do okładki z gumką 2 mm<br />
+<p style="font-size:10px">blaszka kwadratowa (srebrna błysk) mocowana do okładki z gumką 2 mm<br />
 <b>pole graweru</b> | 15 x 15 mm</p>
 </div>
 
@@ -287,7 +267,7 @@ Produkcja papieru kamiennego jest ekologiczna - woda i drewno są tu niepotrzebn
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_m15_967-300x300.jpg" width='100px' />
 <br />
 <b>M15</b>
-<p style="fontSize:'10px'">blaszka prostokątna (srebrna matowa) mocowana na gumce 10 mm<br />
+<p style="font-size:10px">blaszka prostokątna (srebrna matowa) mocowana na gumce 10 mm<br />
 <b>pole graweru</b> | 34 x 12 mm</p>
 </div>
 
@@ -296,7 +276,7 @@ Produkcja papieru kamiennego jest ekologiczna - woda i drewno są tu niepotrzebn
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_patka-magnes_660-300x300.jpg" width='100px' />
 <br />
 <b>Patka na magnes</b>
-<p style="fontSize:'10px'">zamykana na magnes z miejscem na długopis magnes ukryty w oprawie<br />
+<p style="font-size:10px">zamykana na magnes z miejscem na długopis magnes ukryty w oprawie<br />
 <b>pole graweru</b> | 8 x 8 mm</p>
 </div>
 
@@ -305,7 +285,7 @@ Produkcja papieru kamiennego jest ekologiczna - woda i drewno są tu niepotrzebn
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
 <br />
 <b>Pendrive 16GB</b>
-<p style="fontSize:'10px'"><b>wymiar</b> | 34 x 11 mm
+<p style="font-size:10px"><b>wymiar</b> | 34 x 11 mm
 <br />
 <b>pole graweru</b> | 28 x 8 mm</p>
 </div>
@@ -314,21 +294,21 @@ Produkcja papieru kamiennego jest ekologiczna - woda i drewno są tu niepotrzebn
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_personalizacja-grawer_777-300x300.jpg" width='100px' />
 <br />
 <b>Personalizacja grawerowana</b>
-<p style="fontSize:'10px'">personalizacja wg projektu </p>
+<p style="font-size:10px">personalizacja wg projektu </p>
 </div>
 
 <div class="column main">
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_personalizacja-tloczenie_186-300x300.jpg" width='100px' />
 <br />
 <b>Personalizacja tłoczona</b>
-<p style="fontSize:'10px'"><b>font</b> | latin it capital 4 mm </p>
+<p style="font-size:10px"><b>font</b> | latin it capital 4 mm </p>
 </div>
 
 <div class="column main">
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_prostokatna-kieszonka_923-300x300.jpg" width='100px' />
 <br />
 <b>Prostokątna kieszeń</b>
-<p style="fontSize:'10px'">Kieszeń wykonana z folii <br />
+<p style="font-size:10px">Kieszeń wykonana z folii <br />
 <b>wymiar</b> | 90 x 60 mm</p>
 </div>
 
@@ -340,21 +320,21 @@ Produkcja papieru kamiennego jest ekologiczna - woda i drewno są tu niepotrzebn
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_szlufka_na_dlugopis_226-300x300.jpg" width='100px' />
 <br />
 <b>Szlufka na długopis</b>
-<p style="fontSize:'10px'">gumka 10 mm</p>
+<p style="font-size:10px">gumka 10 mm</p>
 </div>
 
 <div class="column main">
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_tasiemki_581-300x300.jpg" width='100px' />
 <br />
 <b>Tasiemki</b>
-<p style="fontSize:'10px'">tasiemki tkane, sublimacyjne</p>
+<p style="font-size:10px">tasiemki tkane, sublimacyjne</p>
 </div>
 
 <div class="column main">
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_trojkatna-kieszonka_750-300x300.jpg" width='100px' />
 <br />
 <b>Trójkątna kieszeń</b>
-<p style="fontSize:'10px'">
+<p style="font-size:10px">
 Kieszeń wykonana z folii<br />
 <b>wymiar</b> | 80 x 80 mm,
 100 x 100 mm, 120 x 120 mm
@@ -365,7 +345,7 @@ Kieszeń wykonana z folii<br />
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_uchwyt_959-300x300.jpg" width='100px' />
 <br />
 <b>Uchwyt na długopis</b>
-<p style="fontSize:'10px'">uchwyt wykonany z ekoskóry </p>
+<p style="font-size:10px">uchwyt wykonany z ekoskóry </p>
 </div>
 
 <span class='column'>
@@ -379,20 +359,713 @@ Kieszeń wykonana z folii<br />
 </div>
 
 
+<div style="margin-left:10%;margin-right:10%;padding:5%;">
+<p style="font-size:30px">Wzornik <b>opraw</b></p>
+</br>
+
+<p> Savana </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/savana__bezowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/savana__bordowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/savana__brazowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/savana__granatowy.png" width='70px' />
+</div>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
 
 
+</div>
+
+<p> Bambus </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/bambus__granatowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/bambus__seledynowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/bambus__szary.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/bambus__zielony.png" width='70px' />
+</div>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
 
 
+</div>
+
+<p> Natura </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/natura__bezowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/natura__grafitowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/natura__granatowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/natura__szary.png" width='70px' />
+</div>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+</div>
+
+<p> Canvas </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/canvas__brazowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/canvas__czarny.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/canvas__czerwony.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/canvas__granatowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/canvas__niebieski.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/canvas__szary.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/canvas__zielony.png" width='70px' />
+</div>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+</div>
+
+<p> Kraft </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/kraft__grafitowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/kraft__granatowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/kraft__koralowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/kraft__niebieski.png" width='70px' />
+</div>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+</div>
+
+<p> Vivela </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/vivela__czarny.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/vivela__czerwony.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/vivela__granatowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/vivela__magenta.png" width='70px' />
+</div>
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/vivela__pomaranczowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/vivela__seledynowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/vivela__szary.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/vivela__turkusowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/vivela__zielony.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/vivela__zolty.png" width='70px' />
+</div>
+
+</div>
+
+<p> Image </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/image__bordowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/image__czarny.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/image__czekoladowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/image__grafitowy.png" width='70px' />
+</div>
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/image__granatowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/image__szary.png" width='70px' />
+</div>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+</div>
 
 
+<p> Ideo </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/ideo__bialy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/ideo__czarny.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/ideo__czerwony.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/ideo__granatowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/ideo__seledynowy.png" width='70px' />
+</div>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+</div>
+
+<p> Carbon </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/carbon__czarny.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/carbon__granatowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/carbon__szary.png" width='70px' />
+</div>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+</div>
+
+<p> Cross </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/cross__czarny.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/cross__czerwony.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/cross__granatowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/cross__szary.png" width='70px' />
+</div>
 
 
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/cross__zielony.png" width='70px' />
+</div>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
 
 
+</div>
+
+<p> Guma </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/guma__czarny-satynowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/guma__czerwony.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/guma__granat-satynowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/guma__mietowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/guma__niebieski.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/guma__pomaranczowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/guma__szary-satynowy.png" width='70px' />
+</div>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+</div>
+
+<p> Piko </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/piko__brazowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/piko__czarny.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/piko__czerwony.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/piko__fioletowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/piko__granatowy-blysk.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/piko__granatowy-mat.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/piko__srebrny.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/piko__szary.png" width='70px' />
+</div>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+</div>
+
+<p> Holo </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/holo__hologram.png" width='70px' />
+</div>
+
+</div>
 
 
+<p> Flesz </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/flesz__grafitowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/flesz__srebrny.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/flesz__zloty.png" width='70px' />
+</div>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+</div>
 
 
+<p> Aluminium </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/aluminium__srebrny.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/aluminium__czarny.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/aluminium__czarny.png" width='70px' />
+</div>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+</div>
+
+<p> Outlet - Zamsz </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/outlet-zamsz__granatowy.png" width='70px' />
+</div>
+
+</div>
+
+<p> Outlet - Duro </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/outlet-duro__czarny.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/outlet-duro__szary.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/outlet-duro__granatowy.png" width='70px' />
+</div>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+<span class="column">
+</span>
+
+
+</div>
+
+<p> Outlet - Fabra </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/outlet-fabra__zielony.png" width='70px' />
+</div>
+
+
+</div>
+
+<p> Outlet - Colorado </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/outlet-colorado__bordowy.png" width='70px' />
+</div>
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/outlet-colorado__szary.png" width='70px' />
+</div>
+
+<span class="column">
+</span>
+<span class="column">
+</span>
+<span class="column">
+</span>
+<span class="column">
+</span>
+<span class="column">
+</span>
+<span class="column">
+</span>
+<span class="column">
+</span>
+<span class="column">
+</span>
+
+</div>
+
+<p> Outlet - Cross </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/outlet-cross__czekoladowy.png" width='70px' />
+</div>
+
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/outlet-cross__malinowy.png" width='70px' />
+</div>
+
+<span class="column">
+</span>
+<span class="column">
+</span>
+<span class="column">
+</span>
+<span class="column">
+</span>
+<span class="column">
+</span>
+<span class="column">
+</span>
+<span class="column">
+</span>
+<span class="column">
+</span>
+
+
+</div>
+
+
+<p> Outlet - Juta </p>
+<div class="columns" style="display:flex;flex-wrap:wrap">
+
+<div class="column">
+<img class='obrazek' src="https://artopen.netlify.app/img/oprawy/outlet-juta__brazowy.png" width='70px' />
+</div>
+
+</div>
+
+
+</div>
 
 
 <div style="margin-left:10%;margin-right:10%;padding:5%">
@@ -419,7 +1092,7 @@ Kieszeń wykonana z folii<br />
 
 </div>
 
-<div class="columns" style="textAlign:'left',marginLeft:'20px',flexWrap:'wrap'">
+<div class="columns" style="text-align:left,margin-left:20px,flex-wrap:wrap">
 
 <div class="column" >
 <img class="obrazek" src="https://artopen.netlify.app/img/gumki/gumka_niebieski.png" />

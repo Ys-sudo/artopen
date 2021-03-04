@@ -14,6 +14,7 @@ import NewsCall from '../components/NewsCall'
 const OfferPage = (props) => {
   const { data: { markdownRemark: { html, fields: { slug }, frontmatter: { title, meta_title, meta_description, cover, date, tags, desc, subtitle, icon, keywords } } } } = props
 
+
   return (
     <Layout>
       <section className='full'>
@@ -49,7 +50,7 @@ const OfferPage = (props) => {
                 desc={desc}
                 subtitle={subtitle}
               />
-              
+
 
         </div>
       </section>
@@ -64,6 +65,8 @@ OfferPage.propTypes = {
     markdownRemark: PropTypes.object,
   }),
 }
+
+
 
 export default OfferPage
 
