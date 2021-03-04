@@ -18,7 +18,7 @@ const OfferTemplate = (props) => {
 
     <>
 
-    <div defer style={{backgroundImage:'url('+cover.publicURL+')',backgroundSize:'cover',backgroundAttachment:'fixed'}}
+    <div style={{backgroundImage:'url('+cover.publicURL+')',backgroundSize:'cover',backgroundAttachment:'fixed'}}
       className="offimg"
     >
     <a href='#content' onClick={test}>

@@ -22,8 +22,8 @@ const ArticleTemplate = (props) => {
       <small className='categ' style={{marginLeft:'0px'}}> {date}</small>
       <br></br>
       <br></br>
-      <ProgressiveImageContainer
-        image={cover}
+      <img
+        src={cover.publicURL}
         alt={title}
         className="imgcont"
 

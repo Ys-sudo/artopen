@@ -75,7 +75,7 @@ Masz pomysł na piękny mebel? Trudno Ci przekonać potencjalnego nabywcę do je
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/C6JhjxWMbQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="oimg" width="556" height="312" async src="https://puuf-vr-2.glitch.me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <div class="column" style="margin-top:50px;margin-left:30px">
 <p style="font-size:30px">WEB<b> VR</b></p>
