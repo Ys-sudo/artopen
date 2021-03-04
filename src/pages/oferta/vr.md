@@ -93,7 +93,7 @@ Niepostrzeżenie wkroczyliśmy w wirtualny świat 3D, którego możemy doświadc
 Masz pomysł na piękny mebel? Trudno Ci przekonać potencjalnego nabywcę do jego niezwykłych możliwości? Zaprojektujemy jego wersję 3D, którą będziesz mógł umieścić w rzeczywistej przestrzeni mieszkania czy biura, u Twojego klienta. Taki sposób prezentacji będzie już wkrótce niezwykle popularny. Stań razem z nami w awangardzie, wyznaczaj nowe trendy i przecieraj szlaki.</p>
 </div>
 <div class="column" style="padding:0px">
-<iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/bmKHA_Lqb60" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="oimg" src="https://www.google.com/maps/embed?pb=!4v1614858350370!6m8!1m7!1sCAoSLEFGMVFpcE9LYmxFbVMwQTBKUDQxTldUaXZqWWFMdGI0aTdBRDJFTzBDNEdo!2m2!1d51.1059172!2d17.0442672!3f20!4f10!5f0.7820865974627469" width="556" height="312" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
 </div>
 
