@@ -798,7 +798,8 @@ Kieszeń wykonana z folii<br />
 
 <span class="column">
 </span>
-
+<span class="column">
+</span>
 <span class="column">
 </span>
 
