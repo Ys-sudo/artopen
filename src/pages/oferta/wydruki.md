@@ -44,40 +44,40 @@ keywords:
 </div>
 
 <p style="font-size:30px;text-align:center;margin-top:100px"> Rodzaje wydruków </p>
-<div style="margin-top:50px;min-height:200px;text-align:center;padding:50px;" class="columns">
+<div style="text-align:center;padding:50px;margin-left:5%;margin-right:5%" class="columns">
 
-<div class="column">
-<img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
+<div class="column" style="margin:10px">
+<img class="oimg" src="https://artopen.netlify.app/img/wydruki-form/wizytowki.png" width="100%" />
 </br></br>
 <p><b>Wizytówki</b></p>
 </div>
 
-<div class="column">
-<img src="/img/offer-icons/logotypy.svg" width="50px" />
+<div class="column" style="margin:10px">
+<img class="oimg" src="https://artopen.netlify.app/img/wydruki-form/ulotka.png" width="100%" />
 </br></br>
 <p><b>Ulotki</b></p>
 </div>
 
-<div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<div class="column" style="margin:10px">
+<img class="oimg" src="https://artopen.netlify.app/img/wydruki-form/teczka.png" width="100%" />
 </br></br>
 <p><b>Teczki</b></p>
 </div>
 
-<div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<div class="column" style="margin:10px">
+<img class="oimg" src="https://artopen.netlify.app/img/wydruki-form/plakat.png" width="100%" />
 </br></br>
 <p><b>Plakaty</b></p>
 </div>
 
-<div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<div class="column" style="margin:10px">
+<img class="oimg" src="https://artopen.netlify.app/img/wydruki-form/katalog.png" width="100%" />
 </br></br>
 <p><b>Katalogi</b></p>
 </div>
 
-<div class="column">
-<img src="/img/offer-icons/linia-projektow.svg" width="50px" />
+<div class="column" style="margin:10px">
+<img class="oimg" src="https://artopen.netlify.app/img/wydruki-form/publikacja.png" width="100%" />
 </br></br>
 <p><b>Publikacje</b></p>
 </div>
