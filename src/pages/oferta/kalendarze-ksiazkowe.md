@@ -153,20 +153,307 @@ Produkcja papieru kamiennego jest ekologiczna - woda i drewno są tu niepotrzebn
 <p>
 Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
 </p>
+
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div style="margin-left:10%;margin-right:10%;padding:5%">
 <p style="font-size:30px"><b>Dodatki</b></p>
 </br>
-<p>
-Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
+<div class="columns" style="textAlign:'left',marginLeft:'20px',flexWrap:'wrap'">
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_barwione_brzegi_942-300x300.jpg" width='100px' />
+<br />
+<b>Barwione brzegi</b>
+<p style="fontSize:'10px'">możliwość barwienia brzegów bloku kalendarza lub notesu<br /> - minimum 100 sztuk</p>
+</div>
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_gumka_grzbietowa_738-300x300.jpg" width='100px' />
+<br />
+<b>Gumka grzbietowa</b>
+<p style="fontSize:'10px'">miejsce na długopis,<br /> gumka 10 mm</p>
+</div>
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_gumka_pionowa_354-300x300.jpg" width='100px' />
+<br />
+<b>Gumka pionowa</b>
+<p style="fontSize:'10px'">gumka 10 mm</p>
+</div>
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_gumka_pozioma_234-300x300.jpg" width='100px' />
+<br />
+<b>Gumka pozioma</b>
+<p style="fontSize:'10px'">miejsce na długopis,<br /> gumka 10 mm</p>
+</div>
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_koperta_493-300x300.jpg" width='100px' />
+<br />
+<b>Koperta</b>
+<p style="fontSize:'10px'"><b>wymiar</b> | pod każdy format</p>
+</div>
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_krysztal_779-300x300.jpg" width='100px' />
+<br />
+<b>Kryształ Swarovski</b>
+<p style="fontSize:'10px'">przyklejany do oprawy <br /> wymiar | 10 x 10 mm</p>
+</div>
+
+
+</div>
+
+<div class="columns" style="textAlign:'left',marginLeft:'20px',flexWrap:'wrap'">
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_m1_859-300x300.jpg" width='100px' />
+<br />
+<b>M1</b>
+<p style="fontSize:'10px'">blaszka szczotkowane aluminium pod grawer
+<br />
+<b>wymiar</b> | 40 x 14 mm
+ <br />
+<b>pole graweru</b> | 38 x 12 mm </p>
+</div>
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_m2_288-300x300.jpg" width='100px' />
+<br />
+<b>M2</b>
+<p style="fontSize:'10px'">blaszka szczotkowane aluminium pod grawer z tłoczonym rokiem
+<br />
+<b>wymiar</b> | 40 x 14 mm
+ <br />
+<b>pole graweru</b> | 26 x 12 mm </p>
+</div>
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_m3_105-300x300.jpg" width='100px' />
+<br />
+<b>M3</b>
+<p style="fontSize:'10px'">rok finochromowy przyklejany do oprawy
+<br />
+<b>wymiar</b> | 45 x 9 mm </p>
+</div>
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_m4_724-300x300.jpg" width='100px' />
+<br />
+<b>M4</b>
+<p style="fontSize:'10px'">rok finochromowy przyklejany do oprawy
+<br />
+<b>wymiar</b> | 10 x 10 mm </p>
+</div>
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_m11_563-300x300.jpg" width='100px' />
+<br />
+<b>M11</b>
+<p style="fontSize:'10px'">zapinka metalowa (srebrna matowa) mocowana na nit z metalowym zawiasem zamykanym na magnes <br />
+<b>pole graweru</b> | 26 x 8 mm</p>
+</div>
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_m14_116-300x300.jpg" width='100px' />
+<br />
+<b>M14</b>
+<p style="fontSize:'10px'">blaszka kwadratowa (srebrna błysk) mocowana do okładki z gumką 2 mm<br />
+<b>pole graweru</b> | 15 x 15 mm</p>
+</div>
+
+</div>
+
+
+<div class="columns" style="textAlign:'left',marginLeft:'20px',flexWrap:'wrap'">
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_m15_967-300x300.jpg" width='100px' />
+<br />
+<b>M15</b>
+<p style="fontSize:'10px'">blaszka prostokątna (srebrna matowa) mocowana na gumce 10 mm<br />
+<b>pole graweru</b> | 34 x 12 mm</p>
+</div>
+
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_patka-magnes_660-300x300.jpg" width='100px' />
+<br />
+<b>Patka na magnes</b>
+<p style="fontSize:'10px'">zamykana na magnes z miejscem na długopis magnes ukryty w oprawie<br />
+<b>pole graweru</b> | 8 x 8 mm</p>
+</div>
+
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_pendrive_112-300x300.jpg" width='100px' />
+<br />
+<b>Pendrive 16GB</b>
+<p style="fontSize:'10px'"><b>wymiar</b> | 34 x 11 mm
+<br />
+<b>pole graweru</b> | 28 x 8 mm</p>
+</div>
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_personalizacja-grawer_777-300x300.jpg" width='100px' />
+<br />
+<b>Personalizacja grawerowana</b>
+<p style="fontSize:'10px'">personalizacja wg projektu </p>
+</div>
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_personalizacja-tloczenie_186-300x300.jpg" width='100px' />
+<br />
+<b>Personalizacja tłoczona</b>
+<p style="fontSize:'10px'"><b>font</b> | latin it capital 4 mm </p>
+</div>
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_prostokatna-kieszonka_923-300x300.jpg" width='100px' />
+<br />
+<b>Prostokątna kieszeń</b>
+<p style="fontSize:'10px'">Kieszeń wykonana z folii <br />
+<b>wymiar</b> | 90 x 60 mm</p>
+</div>
+
+</div>
+
+<div class="columns" style="textAlign:'left',marginLeft:'20px',flexWrap:'wrap'">
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_szlufka_na_dlugopis_226-300x300.jpg" width='100px' />
+<br />
+<b>Szlufka na długopis</b>
+<p style="fontSize:'10px'">gumka 10 mm</p>
+</div>
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_tasiemki_581-300x300.jpg" width='100px' />
+<br />
+<b>Tasiemki</b>
+<p style="fontSize:'10px'">tasiemki tkane, sublimacyjne</p>
+</div>
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_trojkatna-kieszonka_750-300x300.jpg" width='100px' />
+<br />
+<b>Trójkątna kieszeń</b>
+<p style="fontSize:'10px'">
+Kieszeń wykonana z folii<br />
+<b>wymiar</b> | 80 x 80 mm,
+100 x 100 mm, 120 x 120 mm
 </p>
 </div>
+
+<div class="column main">
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_uchwyt_959-300x300.jpg" width='100px' />
+<br />
+<b>Uchwyt na długopis</b>
+<p style="fontSize:'10px'">uchwyt wykonany z ekoskóry </p>
+</div>
+
+<span class='column'>
+</span>
+
+<span class='column'>
+</span>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div style="margin-left:10%;margin-right:10%;padding:5%">
 <p style="font-size:30px"><b>Gumki</b></p>
 </br>
-<p>
-Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
-</p>
+
+<div class="columns" style="textAlign:'left',marginLeft:'20px',flexWrap:'wrap'">
+
+<div class="column">
+<img class="obrazek" src="https://artopen.netlify.app/img/gumki/gumka_zielony.png" />
+</div>
+<div  class="column" >
+<img class="obrazek" src="https://artopen.netlify.app/img/gumki/gumka_czarny.png" />
+</div>
+<div class="column" >
+<img class="obrazek" src="https://artopen.netlify.app/img/gumki/gumka_pomaranczowy.png" />
+</div>
+<div class="column" >
+<img class="obrazek" src="https://artopen.netlify.app/img/gumki/gumka_magenta.png" />
+</div>
+<div class="column" >
+<img class="obrazek" src="https://artopen.netlify.app/img/gumki/gumka_multicolor.png" />
+</div>
+
+</div>
+
+<div class="columns" style="textAlign:'left',marginLeft:'20px',flexWrap:'wrap'">
+
+<div class="column" >
+<img class="obrazek" src="https://artopen.netlify.app/img/gumki/gumka_niebieski.png" />
+</div>
+<div class="column" >
+<img class="obrazek" src="https://artopen.netlify.app/img/gumki/gumka_fioletowy.png" />
+</div>
+<div class="column" >
+<img class="obrazek" src="https://artopen.netlify.app/img/gumki/gumka_granatowy.png" />
+</div>
+<div class="column" >
+<img class="obrazek" src="https://artopen.netlify.app/img/gumki/gumka_czerwony.png" />
+</div>
+<div class="column" >
+<img class="obrazek" src="https://artopen.netlify.app/img/gumki/gumka_ciemnogranatowy.png" />
+</div>
+
+</div>
+
+<div class="columns" style="textAlign:'left',marginLeft:'20px',flexWrap:'wrap'">
+<div class="column" >
+<img class="obrazek" src="https://artopen.netlify.app/img/gumki/gumka_brazowy.png" />
+</div>
+<div class="column" >
+<img class="obrazek" src="https://artopen.netlify.app/img/gumki/gumka_seledynowy.png" />
+</div>
+<div class="column" >
+<img class="obrazek" src="https://artopen.netlify.app/img/gumki/gumka_szary.png" />
+</div>
+<div class="column" >
+<img class="obrazek" src="https://artopen.netlify.app/img/gumki/gumka_zolty.png" />
+</div>
+<span class="column">
+</span>
+</div>
+
 </div>
