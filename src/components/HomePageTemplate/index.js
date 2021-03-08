@@ -343,7 +343,7 @@ const HomePageTemplate = (props) => {
 
       </div>
 
-      <section className='is-primary is-bold is-medium'>
+      <section onLoad={loadTimers} className='is-primary is-bold is-medium'>
         <div className='hero-body'>
           <div className='container'>
           <h5 className='has-text-weight-semibold is-size-2' style={{textAlign:'center'}}>Zaufali nam:</h5>
@@ -509,10 +509,11 @@ var d =  setInterval( function(){
 
 }
 
+function loadTimers(){
 setTimeout(()=>{
   countDown();console.log('time');}
 ,3000);
-
+}
 {/*
 https://stackoverflow.com/questions/49916259/show-element-when-in-viewport-on-scroll
 element in viewport opacity animation <--

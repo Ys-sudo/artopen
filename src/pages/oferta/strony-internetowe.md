@@ -19,6 +19,10 @@ keywords:
 ---
 
 <div style="margin-left:10%;margin-right:10%">
+<p>To niezbędny system pozwalający zachować spójną wizualną koncepcję, chroniącą logotyp firmowy, przestrzegającą zasad jego prezentacji oraz wskazującą użycie właściwej kolorystyki i pozostałych elementów w różnorodnych projektach graficznych czy materiałach multimedialnych. </p>
+</div>
+
+<div style="margin-left:10%;margin-right:10%">
 <p>Internet to nasz świat równoległy. Tworzy odbicie rzeczywistości. Istnienie w nim nie jest już kwestią wyboru, ale koniecznością. Jak odnaleźć się jednak pośród gąszcza informacji? Jak się wyróżnić i zaistnieć w zbiorowej świadomości Internetu? Odpowiedzią są dedykowane strony internetowe stworzone przez nas zgodnie z potrzebami Twojej organizacji.</p>
 </div>
 
