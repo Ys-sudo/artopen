@@ -81,13 +81,13 @@ module.exports = {
         exclude: [`/tagi`, `/tagi/*`, `/sukces`],
       },
     },
-    {
+    /*{
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
         id: config.googleTagManagerID,
         includeInDevelopment: false,
       },
-    },
+    },*/
     {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
