@@ -17,17 +17,17 @@ const NavBar = () => {
     console.log(document.getElementsByClassName('subMenu')[0].style.display == 'none');
 
       document.getElementsByClassName('subMenu')[0].style.display = 'block';
-      document.getElementsByClassName('subMenu')[0].style.transition = 'opacity 0.5s';
-      setTimeout(function(){document.getElementsByClassName('subMenu')[0].style.opacity = '1';},500);
+      document.getElementsByClassName('subMenu')[0].style.transition = 'opacity 0.3s';
+      setTimeout(function(){document.getElementsByClassName('subMenu')[0].style.opacity = '1';},300);
 
   }
   const hideSubMenu = () => {
 
     console.log(document.getElementsByClassName('subMenu')[0].style.display == 'none');
 
-      document.getElementsByClassName('subMenu')[0].style.transition = 'opacity 1s';
+      document.getElementsByClassName('subMenu')[0].style.transition = 'opacity 0.3s';
       document.getElementsByClassName('subMenu')[0].style.opacity = '0';
-      setTimeout(function(){document.getElementsByClassName('subMenu')[0].style.display = 'none';},1000);
+      setTimeout(function(){document.getElementsByClassName('subMenu')[0].style.display = 'none';},300);
 
   }
 
