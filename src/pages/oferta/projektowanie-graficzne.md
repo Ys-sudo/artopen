@@ -124,13 +124,13 @@ Jest to nasza propozycja kalendarzy, w których wnętrze jest w całości indywi
 </p>
 </div>
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/07/kalendarz-artopen.png" />
+<img width="100%" src="https://artopen.netlify.app/img/portfolio.svg" />
 </div>
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/07/drukowane-artopen.png" />
+<img width="100%" class="oimg" src="http://localhost:8888/img/outdoor_delaval.jpg" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Reklamy <b>wielkoformatowe</b></p>

@@ -72,7 +72,7 @@ Każda produkcja jest przygotowana w najdrobniejszym szczególe. Zaangażowany z
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/DUly9BuWc3U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/4zwn52HH-Jc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Animacje<b> 2D oraz 3D</b></p>
@@ -91,7 +91,7 @@ Nowoczesne techniki animowania oraz montażu dają nieograniczone możliwości d
 Każda produkcja jest przygotowana w najdrobniejszym szczególe. Zaangażowany zespół realizatorów i twórców, w precyzyjnie zgranym procesie produkcji, analizuje i weryfikuje każdy najdrobniejszy element. Doświadczenie twórców jest gwarancją udanego i wyrafinowanego obrazu.</p>
 </div>
 <div class="column" style="padding:0px">
-<iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/flmu5HPuiSY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/C3SM3Tx3Z8k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 
