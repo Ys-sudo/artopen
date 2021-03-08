@@ -2,19 +2,15 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Offerings from '../Offerings'
 import Testimonials from '../Testimonials'
-
+import PropTypes from 'prop-types'
 import ContactCall from '../ContactCall'
 import ModalCall from '../ModalCall'
 import NewsCall from '../NewsCall'
-
 import OfferRoll from '../OfferRoll'
 import BlogRoll from '../BlogRoll'
 import PortfolioRoll from '../PortfolioRoll'
-
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
-
-import PropTypes from 'prop-types'
 
 const HomePageTemplate = (props) => {
   const { title, meta_title, meta_description, heading, keywords } = props
@@ -181,8 +177,8 @@ const HomePageTemplate = (props) => {
               </div>
 
 
-              <div className='column' style={{marginRight:'0px',padding:'0px',minWidth:'50%'}}>
-              <img src='/img/ekologia.jpg' alt="ekologiczne produkty" height='100%' />
+              <div className='column' style={{marginRight:'0px',minWidth:'50%',textAlign:'right',padding:'0px',minWidth:'50%'}}>
+              <img src='/img/ekologia.jpg' alt="ekologiczne produkty" width='100%' />
               </div>
 
             </div>
@@ -198,7 +194,7 @@ const HomePageTemplate = (props) => {
             <div className='columns' style={{margin:'0px',marginTop:'0px'}}>
 
             <div className='column' style={{marginRight:'0px',padding:'0px',minWidth:'50%'}}>
-            <img src='/img/kreator-kalendarz.jpg' alt="" height='100%' />
+            <img src='/img/kreator-kalendarz.jpg' alt="" width='100%' />
             </div>
 
               <div className='column halfsize' style={{marginLeft:'50px',marginRight:'50px',textAlign:'right'}}>

@@ -34,7 +34,7 @@ keywords:
 
 
   <div class="column">
-  <p style="font-size:40px; color:#00d1b2;">Zabezpiecz firmę<br/>przed <b>COVID-19</b>. </p>
+  <p style="font-size:40px; color:#00d1b2;">Zabezpiecz firmę<br>przed <b>COVID-19</b>. </p>
   </div>
 
   <div class="column cimg" style="text-align:center; vertical-align:middle">
@@ -44,11 +44,11 @@ keywords:
 
   <div class="column" style="padding-top:0px">
   <p style="border-right: 5px solid #00d1b2; padding:0px 10px 0px 0px">W dobie pandemii niezwykle ważną role pełnią środki ochrony osobistej oraz produkty wirusobójcze, zapewniające nam skuteczne zabezpieczenie przed zarażeniem.
-  <br/><br/>
+  <br><br>
   Będąc świadomi realnego zagrożenia dla życia, z którym codziennie się borykamy - wyszliśmy Państwu na przeciw oferując środki minimalizujące możliwość zakażenia.
   </p>
   </div>
-  <br/>
+  <br>
 
 </div>
 
@@ -56,35 +56,35 @@ keywords:
 <div class="columns" style="margin-top:70px;margin-left:5%;">
 
   <div class="column" style="width:60%;">
-  <p style="font-size:30px">Zminimalizuj ryzyko zachorowania<br/> z <b>naszą pomocą</b>. </p>
+  <p style="font-size:30px">Zminimalizuj ryzyko zachorowania<br> z <b>naszą pomocą</b>. </p>
   <br><br>
   <div style="margin-left:25%">
   <div style="text-align:center">
   <img src="/img/covid-icons/clinic.svg" width="100px" />
-  <br/><br/>
-  <p><b>Zadbaj</b> o <br/> bezpieczeństwo</p>
+  <br><br>
+  <p><b>Zadbaj</b> o <br> bezpieczeństwo</p>
   </div>
-  <br/><br/>
+  <br><br>
   <div class="columns" style="text-align:center">
     <div class="column cimg">
       <img src="/img/covid-icons/washing-hands.svg" width="100px" />
-      <br/><br/>
-      <p><b>Myj</b> <br/>często ręce</p>
+      <br><br>
+      <p><b>Myj</b> <br>często ręce</p>
     </div>
     <div class="column cimg">
       <img src="/img/covid-icons/avoid-crowds.svg" width="100px" />
-      <br/><br/>
-      <p><b>Unikaj</b> <br/> zgromadzeń </p>
+      <br><br>
+      <p><b>Unikaj</b> <br> zgromadzeń </p>
     </div>
     <div class="column cimg">
       <img src="/img/covid-icons/liquid-soap.svg" width="100px" />
-      <br/><br/>
-      <p><b>Odkażaj</b> <br/> powierzchnie </p>
+      <br><br>
+      <p><b>Odkażaj</b> <br> powierzchnie </p>
     </div>
     <div class="column cimg">
       <img src="/img/covid-icons/face-mask.svg" width="100px" />
-      <br/><br/>
-      <p><b>Stosuj</b> <br/> środki ochrony </p>
+      <br><br>
+      <p><b>Stosuj</b> <br> środki ochrony </p>
     </div>
   </div>
   </div>
@@ -93,7 +93,7 @@ keywords:
   <div  style="width: 35%;text-align:right">
   <img src="/img/covid-img/c1.png" height="25%" />
   </div>
-  <br/>
+  <br>
 
 </div>
 
@@ -114,17 +114,17 @@ keywords:
 </div>
 </div>
 <br>
-<p style="text-align:right;font-size:30px">Środki ochrony osobistej niezbędne<br/>w <b>ograniczeniu transmisji wirusa</b>. </p>
+<p style="text-align:right;font-size:30px">Środki ochrony osobistej niezbędne<br>w <b>ograniczeniu transmisji wirusa</b>. </p>
 <div class="columns">
 <div class="column cimg" style="text-align: center;padding-top:150px; horizontal-align: center">
   <img src="/img/covid-icons/face.svg" width="100px" />
-  <br/><br/>
-  <p><b>Przyłbica</b><br/>ochronna</p>
+  <br><br>
+  <p><b>Przyłbica</b><br>ochronna</p>
 </div>
 <div class="column cimg" style="text-align: center;padding-top:150px; horizontal-align: center">
   <img src="/img/covid-icons/medical-mask.svg" width="100px" />
-  <br/><br/>
-  <p><b>Maska</b><br/>chirurgiczna</p>
+  <br><br>
+  <p><b>Maska</b><br>chirurgiczna</p>
 </div>
 
 </div>
@@ -141,14 +141,14 @@ keywords:
   </p>
   <br><br>
   <div id="przylbice" style="text-align:left;padding-top:150px">
-  <p style="font-size:30px;">Przyłbica ochronna z regulowanym<br/><b>paskiem mocującym</b>. </p>
+  <p style="font-size:30px;">Przyłbica ochronna z regulowanym<br><b>paskiem mocującym</b>. </p>
   </div>
   </div>
 
   <div  style="width: 40%;text-align:right">
   <img src="/img/covid-img/c3.png" height="25%" />
   </div>
-  <br/>
+  <br>
 
 </div>
 
@@ -179,7 +179,7 @@ keywords:
 
 <div class="column cimg" id="maseczki"
 style="text-align: right; margin-right: 5%; padding-top: 150px;">
-<p style="font-size:30px;">Medyczna maseczka<br/><b>chirurgiczna</b>. </p>
+<p style="font-size:30px;">Medyczna maseczka<br><b>chirurgiczna</b>. </p>
 <br>
 <div style="text-align:center">
 <img src="/img/covid-img/a2.png" width="100px" />
@@ -201,7 +201,7 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 
   <div class="column" id="produkty-antybakteryjne" style="width:60%;">
   <div style="text-align:left;padding-top:150px">
-  <p style="font-size:30px;">Produkty<br/><b>antybakteryjne</b>. </p>
+  <p style="font-size:30px;">Produkty<br><b>antybakteryjne</b>. </p>
   <br><br>
   <div style="text-align:center">
   <img src="/img/covid-icons/hand-gel.svg" width="100px" />
@@ -216,7 +216,7 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
   <div  style="width: 40%;text-align:right">
   <img src="/img/covid-img/c5.png" height="25%" />
   </div>
-  <br/>
+  <br>
 
 </div>
 
@@ -225,7 +225,7 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 <img src="/img/covid-img/a3.png" width="100px" />
 </div>
 <div class="column">
-<p style="font-size:30px; text-align:right;">Certyfikowany żel<br/><b>antybakteryjny do rąk</b>. </p>
+<p style="font-size:30px; text-align:right;">Certyfikowany żel<br><b>antybakteryjny do rąk</b>. </p>
 <br><br>
 <p style="margin-left:100px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Skutecznie chroni zapewniając pełną higienę rąk.</p>
 <br>
@@ -244,8 +244,8 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 <img src="/img/covid-img/c6.png" width="100%"/>
 </div>
 <div class="column">
-<p style="text-align:left; font-size:40px; margin-bottom:50px"> Czy wiesz<br/> <b>że...</b> </p>
-<br/>
+<p style="text-align:left; font-size:40px; margin-bottom:50px"> Czy wiesz<br> <b>że...</b> </p>
+<br>
 <div class="column" style="text-align:center;">
 <img src="/img/covid-icons/training.svg" width="100px" />
 </div>
@@ -284,13 +284,13 @@ dla komputerów stacjonarnych </p>
 <div class="column">
 <p style="text-align:left; font-size:40px;"> Wspierajmy się
 <img src="/img/covid-icons/help.svg" width="100px" />
-<br/><b>w trudnych czasach!</b></p>
+<br><b>w trudnych czasach!</b></p>
 </div>
 <div class="column">
 <p style="text-align:right; font-size:40px;">
 <img src="/img/covid-icons/like1.svg" width="100px" />
 Zapytaj nas
-<br/><b>o pełną ofertę</b></p>
+<br><b>o pełną ofertę</b></p>
 </div>
 </div>
 <br><br>
