@@ -75,7 +75,7 @@ const Layout = (props) => {
 
 
 
-      <Footer copyright={config.copyright} />
+      <Footer defer copyright={config.copyright} />
 
       <CookieConsent
         location="bottom"

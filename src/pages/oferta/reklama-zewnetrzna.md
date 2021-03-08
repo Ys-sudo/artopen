@@ -19,7 +19,7 @@ keywords:
 ---
 <div style="margin-left:10%;margin-right:10%">
 <p>Twoja firma działa prężnie i rozwija się coraz szybciej ? Najwyższy czas aby pochwalić się swoim wizerunkiem na zewnątrz! Idealnie posłużą temu obrendowane auta służbowe, dokładnie wyklejone witryny biurowe, podświetlane litery przestrzenne, złocone logo na ścianie budynku oraz wyróżniające się szatą graficzną banery, tablice i popularne siatki mesh.</p>
-</br>
+<br>
 
 </div>
 
@@ -27,19 +27,19 @@ keywords:
 
 <div class="column">
 <img src="/img/offer-icons/kasetony-reklamowe.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Kasetony reklamowe</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/druki-wielkopowierzchniowe.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Druki wielkopowierzchniowe</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/tablice-dibondowe.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Tablice dibondowe</b></p>
 </div>
 
@@ -51,7 +51,7 @@ keywords:
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Kasetony<b> reklamowe</b></p>
-</br>
+<br>
 <p>
 Są doskonałym przykładem zewnętrznej promocji i informacji. Zbudowane z wytrzymałych materiałów, podświetlane, zamontowane na fasadzie budynku pozwalają na zaprezentowanie i identyfikację firmy w przestrzeni zewnętrznej. Dzięki swojej konstrukcji są użyteczne zarówno w dzień jak i w nocy. Nadają siedzibom organizacji uroczysty charakter.
 </p>
@@ -61,7 +61,7 @@ Są doskonałym przykładem zewnętrznej promocji i informacji. Zbudowane z wytr
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Reklama <b>wielkopowierzchniowa</b></p>
-</br>
+<br>
 <p>
 Bilbordy czy wielkopowierzchniowe druki reklamowe to doskonałe uzupełnienie kampanii reklamowej. Zainstalowane czasowo na powierzchni budynków, są niezwykle czytelnym i obejmującym olbrzymią liczbę odbiorców - medium. Wykonujemy i montujemy siatki mesh, litery przestrzenne z dibondu oraz tablice, a także wyklejamy folią w zadruku pełnokolorowym.</p>
 </div>

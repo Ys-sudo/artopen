@@ -19,7 +19,7 @@ keywords:
 ---
 <div style="margin-left:10%;margin-right:10%">
 <p>Każdy nowy rok rozpoczynasz nowymi postanowieniami i celami, pełen wiary w ich realizację. Aby wprowadzić je w czyn potrzebujesz dobrego i precyzyjnego planu. Sięgasz wówczas po pióro, aby zapisać je w nowym kalendarzu w eleganckiej okładzinie, zdobionej grafiką bądź tłoczeniem. Twoje nowe cele i plany zyskały wspaniałą oprawę. </p>
-</br>
+<br>
 
 </div>
 
@@ -27,19 +27,19 @@ keywords:
 
 <div class="column">
 <img src="/img/offer-icons/indywidualne-kalendaria.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Indywidualne kalendaria</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/paleta-uszlachetnien.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Bogata paleta uszlachetnień</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/unikatowe-projekty-graficzne.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Unikatowe projekty graficzne</b></p>
 </div>
 
@@ -51,7 +51,7 @@ keywords:
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Kalendarze <b>ścienne</b></p>
-</br>
+<br>
 <p>
 Oprócz swojej praktycznej funkcji spełniają także tę estetyczną. Zaprojektowane tak aby spełniać oba te warunki, stają się wyjątkowym elementem dekorującym wnętrze. W przypadku autorskich projektów mogą spełniać funkcję obrazów i artystycznych grafik.
 </p>
@@ -61,7 +61,7 @@ Oprócz swojej praktycznej funkcji spełniają także tę estetyczną. Zaprojekt
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Kalendarze <b>biurkowe</b></p>
-</br>
+<br>
 <p>
 Spełniają swoją funkcję jako nieskomplikowany terminarz. Są także doskonałym i zawsze potrzebnym upominkiem reklamowym, na którym w wyszukanym projekcie możemy przekazać istotne dla organizacji informacje.
 </p>

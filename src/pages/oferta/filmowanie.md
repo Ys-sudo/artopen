@@ -19,7 +19,7 @@ keywords:
 ---
 <div style="margin-left:10%;margin-right:10%">
 <p>Kamera start! Klaps i zaczynamy - film o Twojej firmie, organizacji, instytucji czy wydarzeniu. Dzięki współpracy z doświadczonymi producentami i przy wykorzystaniu nowoczesnych technik produkcji oraz profesjonalnego sprzętu nagrywającego, tworzymy autorskie filmy informacyjne i reklamowe oraz oryginalne spoty radiowe.</p>
-</br>
+<br>
 
 </div>
 
@@ -27,19 +27,19 @@ keywords:
 
 <div class="column">
 <img src="/img/offer-icons/filmy-promocyjne.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Filmy promocyjne</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/spoty-radiowe.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Spoty radiowe</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/filmy-eventy.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Filmy z eventów</b></p>
 </div>
 
@@ -51,7 +51,7 @@ keywords:
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Filmy<b> promocyjne</b></p>
-</br>
+<br>
 <p>
 Nowoczesne techniki filmowania oraz montażu dają nieograniczone możliwości dla twórczości i wyobraźni. Bez ogromnych nakładów finansowych, tworzymy niezwykłe realizacje, które zachwycają swoim rozmachem. Filmy kręcone są zarówno we wnętrzach obiektów jak i w plenerze przy użyciu np. drona.
 </p>
@@ -61,7 +61,7 @@ Nowoczesne techniki filmowania oraz montażu dają nieograniczone możliwości d
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Profesjonalna<b> obsługa</b></p>
-</br>
+<br>
 <p>
 Każda produkcja jest przygotowana w najdrobniejszym szczególe. Zaangażowany zespół realizatorów i twórców, w precyzyjnie zgranym procesie produkcji, analizuje i weryfikuje każdy najdrobniejszy element. Doświadczenie twórców jest gwarancją udanego i wyrafinowanego obrazu.</p>
 </div>
@@ -76,7 +76,7 @@ Każda produkcja jest przygotowana w najdrobniejszym szczególe. Zaangażowany z
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Animacje<b> 2D oraz 3D</b></p>
-</br>
+<br>
 <p>
 Nowoczesne techniki animowania oraz montażu dają nieograniczone możliwości dla twórczości i wyobraźni. Bez ogromnych nakładów finansowych, tworzymy niezwykłe realizacje, które zachwycają swoim rozmachem. Filmy kręcone są zarówno we wnętrzach obiektów jak i w plenerze przy użyciu np. drona.
 </p>
@@ -86,7 +86,7 @@ Nowoczesne techniki animowania oraz montażu dają nieograniczone możliwości d
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Ujęcia z<b> drona</b></p>
-</br>
+<br>
 <p>
 Każda produkcja jest przygotowana w najdrobniejszym szczególe. Zaangażowany zespół realizatorów i twórców, w precyzyjnie zgranym procesie produkcji, analizuje i weryfikuje każdy najdrobniejszy element. Doświadczenie twórców jest gwarancją udanego i wyrafinowanego obrazu.</p>
 </div>

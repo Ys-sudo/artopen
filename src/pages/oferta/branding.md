@@ -32,34 +32,34 @@ keywords:
 <div class="columns">
 <div class="column">
 <img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Pełne księgi znaków</b></p>
 </div>
 <div class="column">
 <img src="/img/offer-icons/logotypy.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Logotypy firmowe</b></p>
 </div>
 <div class="column">
 <img src="/img/offer-icons/linia-projektow.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Spójna linia projektów</b></p>
 </div>
 </div>
 <div class="columns">
 <div class="column">
 <img src="/img/offer-icons/wizualizacje.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Wizualizacje produktów</b></p>
 </div>
 <div class="column">
 <img src="/img/offer-icons/gadzety-firmowe.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Firmowe gadżety oraz wydruki</b></p>
 </div>
 <div class="column">
 <img src="/img/offer-icons/teksty.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Teksty i slogany</b></p>
 </div>
 
@@ -70,7 +70,7 @@ keywords:
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Logotyp <b>firmowy</b></p>
-</br>
+<br>
 <p>
 To znak, który kryje w sobie historię, potencjał, zasoby oraz strategię firmy. Reprezentuje organizację w przestrzeni biznesowej i publicznej. Jego właściwa prezentacja przekłada się bezpośrednio na wizerunek organizacji.
 </p>
@@ -86,7 +86,7 @@ To znak, który kryje w sobie historię, potencjał, zasoby oraz strategię firm
 </div>
 <div class="column" style="margin-top:50px;text-align:right;padding-left:30px">
 <p style="font-size:30px">Księga <b>znaku</b></p>
-</br>
+<br>
 <p>
 Ten niezwykle ważny dokument zawiera w sobie wszystkie niezbędne informacje dotyczące identyfikacji wizualnej organizacji. Poszczególne rozdziały szczegółowo opisują wszystkie elementy tego systemu - począwszy od logo a skończywszy na jego zastosowaniu na różnego rodzaju akcydensach i gadżetach promocyjnych.
 </p>
@@ -96,7 +96,7 @@ Ten niezwykle ważny dokument zawiera w sobie wszystkie niezbędne informacje do
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Firmowe gadżety oraz <b>wydruki</b></p>
-</br>
+<br>
 <p>
 To znak, który kryje w sobie historię, potencjał, zasoby oraz strategię firmy. Reprezentuje organizację w przestrzeni biznesowej i publicznej. Jego właściwa prezentacja przekłada się bezpośrednio na wizerunek organizacji.
 </p>
@@ -112,7 +112,7 @@ To znak, który kryje w sobie historię, potencjał, zasoby oraz strategię firm
 </div>
 <div class="column" style="margin-top:50px;text-align:right;padding-left:30px">
 <p style="font-size:30px">Wizualizacje <b>produktów</b></p>
-</br>
+<br>
 <p>
 Ten niezwykle ważny dokument zawiera w sobie wszystkie niezbędne informacje dotyczące identyfikacji wizualnej organizacji. Poszczególne rozdziały szczegółowo opisują wszystkie elementy tego systemu - począwszy od logo a skończywszy na jego zastosowaniu na różnego rodzaju akcydensach i gadżetach promocyjnych.
 </p>
@@ -122,7 +122,7 @@ Ten niezwykle ważny dokument zawiera w sobie wszystkie niezbędne informacje do
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Opracowywanie tekstów oraz <b>sloganów</b></p>
-</br>
+<br>
 <p>
 To znak, który kryje w sobie historię, potencjał, zasoby oraz strategię firmy. Reprezentuje organizację w przestrzeni biznesowej i publicznej. Jego właściwa prezentacja przekłada się bezpośrednio na wizerunek organizacji.
 </p>

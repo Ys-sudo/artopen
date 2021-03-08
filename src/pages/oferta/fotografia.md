@@ -23,7 +23,7 @@ keywords:
 ---
 <div style="margin-left:10%;margin-right:10%">
 <p>Doskonale wykonane zdjęcie uratuje nawet najgorszy projekt graficzny, lecz nawet najlepiej przygotowana praca nie udźwignie słabej fotografii. Jedna z naszych podstawowych zasad brzmi: wysokiej jakości projekt graficzny muszą uzupełniać nienagannie wykonane profesjonalne zdjęcia.</p>
-</br>
+<br>
 
 </div>
 
@@ -31,19 +31,19 @@ keywords:
 
 <div class="column">
 <img src="/img/offer-icons/zdjecia-produktowe.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Zdjęcia produktowe</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/sesje-zdjeciowe.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Sesje zdjęciowe</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/obrobka-graficzna.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Obróbka graficzna zdjęć</b></p>
 </div>
 
@@ -55,7 +55,7 @@ keywords:
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Zdjęcia<b> produktowe</b></p>
-</br>
+<br>
 <p>
 W naszych fotografiach produktowych staramy się pokazać nie tylko sam produkt ale także, szczególnie w przypadku zdjęć do katalogów, przedstawić je w jak najbardziej atrakcyjny sposób. Nie ma tu znaczenia, czy jest to pędzel malarski czy wagon kolejowy. Każdy z tych obiektów jest potraktowany indywidualnie.
 </p>
@@ -65,7 +65,7 @@ W naszych fotografiach produktowych staramy się pokazać nie tylko sam produkt 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Sesje <b>zdjęciowe</b></p>
-</br>
+<br>
 <p>
 Wiele obiektów można sfotografować w studio inne przy pomocy profesjonalnego sprzętu fotografujemy w plenerze. Najważniejsze jest, aby rezultat końcowy zadowalał naszych Klientów, a zdjęcia oprócz utrwalenia produktu na obrazie i praktycznego zastosowania miały w sobie wyrafinowaną nutę artyzmu.</p>
 </div>

@@ -25,19 +25,19 @@ keywords:
 
 <div class="column">
 <img src="/img/offer-icons/paleta.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Bogata paleta uszlachetnień</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/nieszablonowe-realizacje.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Nieszablonowe realizacje</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/ozdobne-papiery.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Ozdobne papiery</b></p>
 </div>
 
@@ -48,37 +48,37 @@ keywords:
 
 <div class="column" style="margin:10px">
 <img class="oimg" src="https://artopen.netlify.app/img/wydruki-form/wizytowki.png" width="100%" />
-</br></br>
+<br><br>
 <p><b>Wizytówki</b></p>
 </div>
 
 <div class="column" style="margin:10px">
 <img class="oimg" src="https://artopen.netlify.app/img/wydruki-form/ulotka.png" width="100%" />
-</br></br>
+<br><br>
 <p><b>Ulotki</b></p>
 </div>
 
 <div class="column" style="margin:10px">
 <img class="oimg" src="https://artopen.netlify.app/img/wydruki-form/teczka.png" width="100%" />
-</br></br>
+<br><br>
 <p><b>Teczki</b></p>
 </div>
 
 <div class="column" style="margin:10px">
 <img class="oimg" src="https://artopen.netlify.app/img/wydruki-form/plakat.png" width="100%" />
-</br></br>
+<br><br>
 <p><b>Plakaty</b></p>
 </div>
 
 <div class="column" style="margin:10px">
 <img class="oimg" src="https://artopen.netlify.app/img/wydruki-form/katalog.png" width="100%" />
-</br></br>
+<br><br>
 <p><b>Katalogi</b></p>
 </div>
 
 <div class="column" style="margin:10px">
 <img class="oimg" src="https://artopen.netlify.app/img/wydruki-form/publikacja.png" width="100%" />
-</br></br>
+<br><br>
 <p><b>Publikacje</b></p>
 </div>
 
@@ -91,7 +91,7 @@ keywords:
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Uszlachetnienia<b> wydruków</b></p>
-</br>
+<br>
 <p>
 W naszych wydrukach wykorzystujemy przeróżne podłoża: matowe, kredowe i powlekane. Dodatkowym procesem wpływającym na końcowy efekt wizualny projektu są uszlachetnienia. Lakier UV, folie hot stampingowe, tłoczenia czy srebrzenia - wzbogacają projekt nadając mu oryginalności i niepowtarzalności.
 </p>
@@ -102,7 +102,7 @@ W naszych wydrukach wykorzystujemy przeróżne podłoża: matowe, kredowe i powl
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;text-align:right;padding-right:30px">
 <p style="font-size:30px">Ekologiczne <b>surowce</b></p>
-</br>
+<br>
 <p>
 Dbamy o to, aby podłoża pochodziły z recyklingu, co ma uświadomić naszym Klientom ogromny wpływ ich decyzji na stan naszego środowiska naturalnego. Posiadamy w swojej ofercie takie rozwiązania jak wydruk na papierze z kamienia czy trawy.
 </p>
@@ -118,37 +118,37 @@ Dbamy o to, aby podłoża pochodziły z recyklingu, co ma uświadomić naszym Kl
 
 <div class="column">
 <img class="oimg" src="https://artopen.pl/images/2020/04/11/hotsamping_foliamat.jpg" width="100%" />
-</br></br>
+<br><br>
 <p><b>Hot-stamping srebrny na podłożu z folią mat</b></p>
 </div>
 
 <div class="column">
 <img class="oimg" src="https://artopen.pl/images/2020/04/11/hotsamping_barwiony.jpg" width="100%" />
-</br></br>
+<br><br>
 <p><b>Hot-stamping złoty na podłożu barwionym w masie</b></p>
 </div>
 
 <div class="column">
 <img class="oimg" src="https://artopen.pl/images/2020/04/11/hotsamping_softtouch.jpg" width="100%" />
-</br></br>
+<br><br>
 <p><b>Hot-stamping srebrny na podłożu z folią soft-touch</b></p>
 </div>
 
 <div class="column">
 <img class="oimg" src="https://artopen.pl/images/2020/04/11/lakieruv_mat.jpg" width="100%" />
-</br></br>
+<br><br>
 <p><b>Lakier UV na podłożu z papieru kredowego mat</b></p>
 </div>
 
 <div class="column">
 <img class="oimg" src="https://artopen.pl/images/2020/04/11/lakieruv_barwiony.jpg" width="100%" />
-</br></br>
+<br><br>
 <p><b>Lakier UV wybiórczy na podłożu barwionym w masie</b></p>
 </div>
 
 <div class="column">
 <img class="oimg" src="https://artopen.pl/images/2020/04/11/barwione_brzegi.jpg" width="100%" />
-</br></br>
+<br><br>
 <p><b>Barwione brzegi składają się z trzech połączonych warstw</b></p>
 </div>
 
@@ -157,37 +157,37 @@ Dbamy o to, aby podłoża pochodziły z recyklingu, co ma uświadomić naszym Kl
 
 <div class="column">
 <img class="oimg" src="https://artopen.pl/images/2020/04/11/uv_platinum.jpg" width="100%" />
-</br></br>
+<br><br>
 <p><b>Lakier błysk UV z tłoczeniem na podłożu Platinum</b></p>
 </div>
 
 <div class="column">
 <img class="oimg" src="https://artopen.pl/images/2020/04/11/lakieruv_gold.jpg" width="100%" />
-</br></br>
+<br><br>
 <p><b>Podłoże ozdobne Gold z lakierem UV błysk</b></p>
 </div>
 
 <div class="column">
 <img class="oimg" src="https://artopen.pl/images/2020/04/11/hotstamping_srebrny.jpg" width="100%" />
-</br></br>
+<br><br>
 <p><b>Hot-stamping srebrny na podłożu ozdobnym</b></p>
 </div>
 
 <div class="column">
 <img class="oimg" src="https://artopen.pl/images/2020/04/11/zlote_podloze.jpg" width="100%" />
-</br></br>
+<br><br>
 <p><b>Zadruk na złotym podłożu barwionym w masie</b></p>
 </div>
 
 <div class="column">
 <img class="oimg" src="https://artopen.pl/images/2020/04/11/lakieruv_3d.jpg" width="100%" />
-</br></br>
+<br><br>
 <p><b>Tłoczenie z lakierem wybiórczym UV</b></p>
 </div>
 
 <div class="column">
 <img class="oimg" src="https://artopen.pl/images/2020/04/11/perlowe_podloza.jpg" width="100%" />
-</br></br>
+<br><br>
 <p><b>Perłowe podłoża ozdobne o brokatowym połysku</b></p>
 </div>
 

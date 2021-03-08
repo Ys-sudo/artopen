@@ -19,7 +19,7 @@ keywords:
 ---
 <div style="margin-left:10%;margin-right:10%">
 <p>Są osobną dziedziną promocji. Eventy, targi i spotkania firmowe to wydarzenia, którym nieodłącznie towarzyszą. Gadżety obejmują swoim zakresem przeróżne dziedziny i są dedykowane dla wielu grup odbiorców w tym dzieci. Najnowszy trend eco pojawił się także w naszych propozycjach gadżetów. </p>
-</br>
+<br>
 <div style="margin-top:50px">
 <a class="button-green" target="_blank"  style="margin-right:5px" href="/katalogi/">Zobacz katalog <img width="10px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/></a>&nbsp;&nbsp;<a class='button-green' target="_blank"  href='/ekologia/'> gadżety ECO &nbsp;&nbsp;
     <img width="10px"  style="vertical-align:middle;margin-right:5px"   alt="ekologia" src="/img/leaf.svg"/>
@@ -32,19 +32,19 @@ keywords:
 
 <div class="column">
 <img src="/img/offer-icons/produkty-ekologiczne.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Produkty ekologiczne</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/pakiety-startowe.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Pakiety startowe</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/interaktywne-kostki.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Interaktywne kostki</b></p>
 </div>
 
@@ -56,7 +56,7 @@ keywords:
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Gadżety <b>reklamowe</b></p>
-</br>
+<br>
 <p>
 Wykonane z eco tworzyw lub w 100% z naturalnych surowców. Wśród upominków można wymienić te, które cieszą się największą popularnością: kubki, notesy, długopisy, torby. Ponadto wysokiej klasy latarki z sygnalizacją alarmową, niezawodne powerbanki, zabawki i gry dla dzieci, a także ubrania firmowe - wszystko obrendowane przy użyciu nowoczesnych technik znakowania.
 </p>
@@ -66,7 +66,7 @@ Wykonane z eco tworzyw lub w 100% z naturalnych surowców. Wśród upominków mo
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Inspirujące <b>produkty</b></p>
-</br>
+<br>
 <p>
 W swojej ofercie często staramy się wprowadzać produkty nietuzinkowe, które zaskakują swoją formułą. Przekaz reklamowy od samego początku powinien wywoływać emocje, tylko wtedy odbiorca poświęci czas na przeanalizowanie jego treści. Bez wątpienia takimi produktami są przekładane karty oraz interaktywne kostki.</p>
 </div>

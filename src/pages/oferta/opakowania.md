@@ -19,7 +19,7 @@ keywords:
 ---
 <div style="margin-left:10%;margin-right:10%">
 <p>Wprowadzając drobne korekty do ponadczasowego stwierdzenia „Nie szata zdobi człowieka”, otrzymamy niezaprzeczalny fakt - „Szata zdobi produkt”. Nawet te najdoskonalsze potrzebują odpowiedniej oprawy. Dobrze opakowany przedmiot to połowa sukcesu. Bez względu na rodzaj, kształt czy przeznaczenie, zaprojektujemy odpowiednią formę opakowania.</p>
-</br>
+<br>
 
 </div>
 
@@ -27,19 +27,19 @@ keywords:
 
 <div class="column">
 <img src="/img/offer-icons/indywidualny-wymiar.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Indywidualny wymiar</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/spersonalizowany-srodek.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Spersonalizowany środek</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/uszlachetnienia-opakowania.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Uszlachetnienie opakowania</b></p>
 </div>
 
@@ -51,7 +51,7 @@ keywords:
 </div>
 <div class="column" style="margin-top:50px;margin-left:30px">
 <p style="font-size:30px">Opakowania<b> reklamowe</b></p>
-</br>
+<br>
 <p>
 Dobry produkt wymaga dobrego opakowania. Nasze doświadczenie w projektowaniu i produkcji opakowań, owocuje niezwykłymi realizacjami i precyzyjnie skonstruowanymi pudełkami. Dodatkowe elementy jak uszlachetnianie, kolorystyka a także uwzględnienie trendu ECO, tworzą festiwal nieograniczonej niczym kreacji.</p>
 </div>
@@ -60,7 +60,7 @@ Dobry produkt wymaga dobrego opakowania. Nasze doświadczenie w projektowaniu i 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;margin-right:30px">
 <p style="font-size:30px">Spersonalizowany  <b>wygląd</b></p>
-</br>
+<br>
 <p>
 Opakowania wychodzące z naszej produkcji zadowalają bardzo wymagających odbiorców. Ich jakość wzbudza zachwyt i satysfakcję. Z naszym opakowaniem Twój produkt nie tylko będzie doskonale chroniony ale także otrzyma piękna, indywidualną oprawę.</p>
 </div>
@@ -73,8 +73,8 @@ Opakowania wychodzące z naszej produkcji zadowalają bardzo wymagających odbio
 <p style="text-align:left;font-size:30px">
 Twoje <b>opakowanie</b>
 </p>
-</br>
-</br>
+<br>
+<br>
 
 <img src="https://artopen.pl/images/2020/04/11/twoje-opakowania.jpg" width="100%" />
 </div>

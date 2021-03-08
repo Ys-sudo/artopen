@@ -19,7 +19,7 @@ keywords:
 ---
 <div style="margin-left:10%;margin-right:10%">
 <p>Olbrzymia hala targowa. Zewsząd szum, gwar i oślepiające światła, a Twoje stoisko błyszczy jak zielona oaza na jałowej pustyni. Przyciąga odwiedzających swoim oryginalnym designem, a klient czuje się u Ciebie komfortowo. Nowoczesne systemy wystawiennicze, które składają się na konstrukcję Twojego stoiska, w sposób wyjątkowy budują i organizują przestrzeń.</p>
-</br>
+<br>
 
 </div>
 
@@ -27,19 +27,19 @@ keywords:
 
 <div class="column">
 <img src="/img/offer-icons/systemy-targowe.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Systemy targowe</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/rollupy-scianki.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Rollup'y i standy</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/flagi-reklamowe.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Flagi reklamowe</b></p>
 </div>
 
@@ -51,7 +51,7 @@ keywords:
 </div>
 <div class="column" style="margin-top:50px">
 <p style="font-size:30px">Stoiska<b> targowe</b></p>
-</br>
+<br>
 <p>
 Proponowane lekkie systemy wystawiennicze otwierają możliwości do dowolnej konfiguracji poszczególnych elementów, wielokrotnych zmian wydruków, czy rozbudowywania w miarę potrzeby całej aranżacji stoiska. W dobie ery ECO te cechy są niezwykle pożądane, ponieważ pozwalają na zaoszczędzenie zasobów i wielokrotne użycie.
 </p>
@@ -61,7 +61,7 @@ Proponowane lekkie systemy wystawiennicze otwierają możliwości do dowolnej ko
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;padding-right:40px">
 <p style="font-size:30px">Przenośne <b>systemy</b></p>
-</br>
+<br>
 <p>
 Doskonale sprawdzają się w przypadku małych powierzchni wystawienniczych. Są estetyczne w wyglądzie i wygodne w montażu oraz transporcie. Można je dowolnie konfigurować, rozbudowywać i przekształcać np. poprze zmianę wydruków. Naszą ofertę wzbogacamy o rollup'y, uniwersalne ścianki, standy reklamowe oraz flagi.</p>
 </div>

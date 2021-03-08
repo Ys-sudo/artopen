@@ -57,7 +57,7 @@ keywords:
 
   <div class="column" style="width:60%;">
   <p style="font-size:30px">Zminimalizuj ryzyko zachorowania<br/> z <b>naszą pomocą</b>. </p>
-  </br></br>
+  <br><br>
   <div style="margin-left:25%">
   <div style="text-align:center">
   <img src="/img/covid-icons/clinic.svg" width="100px" />
@@ -113,7 +113,7 @@ keywords:
 <img src="/img/covid-icons/important.svg" width="100px" />
 </div>
 </div>
-</br>
+<br>
 <p style="text-align:right;font-size:30px">Środki ochrony osobistej niezbędne<br/>w <b>ograniczeniu transmisji wirusa</b>. </p>
 <div class="columns">
 <div class="column cimg" style="text-align: center;padding-top:150px; horizontal-align: center">
@@ -139,7 +139,7 @@ keywords:
   <p style="border-left: 5px solid #00d1b2; padding:0px 0px 0px 10px;width:50%">
   Dbając o bezpieczeństwo naszych Klientów, przygotowaliśmy ofertę środków ochrony, zapewniających komfort życia codziennego w dobie pandemii koronawirusa, a także pracy w miejscach publicznych - szczególnie narażonych na potencjalny kontakt z wirusem.
   </p>
-  </br></br>
+  <br><br>
   <div id="przylbice" style="text-align:left;padding-top:150px">
   <p style="font-size:30px;">Przyłbica ochronna z regulowanym<br/><b>paskiem mocującym</b>. </p>
   </div>
@@ -158,15 +158,15 @@ keywords:
 </div>
 <div class="column" style="padding-top:50px">
 <p style="margin-left:140px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wszystkie elementy wykonane z folii ułatwiają sterylizację. </p>
-</br>
+<br>
 <p style="margin-left:100px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Minimalizuje możliwość kontaktu z zarazkami, wirusami i bakteriami.</p>
-</br>
+<br>
 <p style="margin-left:60px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Ze względu na regulowany obwód, przyłbica jest w uniwersalnym rozmiarze.</p>
-</br>
+<br>
 <p style="margin-left:20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Opaska dystansowa pozwala na cyrkulację powietrza jednocześnie nie zmniejszając funkcji ochronnej.</p>
-</br>
+<br>
 <p style="margin-left:-20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wielokrotnego użytku i komfortowa w noszeniu ze względu na lekkość.</p>
-</br>
+<br>
 </div>
 
 </div>
@@ -180,18 +180,18 @@ keywords:
 <div class="column cimg" id="maseczki"
 style="text-align: right; margin-right: 5%; padding-top: 150px;">
 <p style="font-size:30px;">Medyczna maseczka<br/><b>chirurgiczna</b>. </p>
-</br>
+<br>
 <div style="text-align:center">
 <img src="/img/covid-img/a2.png" width="100px" />
 </div>
-</br>
+<br>
 <div style="text-align:left">
 <p style="margin-left:80px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Ze względu na regulowany obwód, przyłbica jest w uniwersalnym rozmiarze.</p>
-</br>
+<br>
 <p style="margin-left:40px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Opaska dystansowa pozwala na cyrkulację powietrza jednocześnie nie zmniejszając funkcji ochronnej.</p>
-</br>
+<br>
 <p style="margin-left:0px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wielokrotnego użytku i komfortowa w noszeniu ze względu na lekkość.</p>
-</br>
+<br>
 </div>
 </div>
 
@@ -202,12 +202,12 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
   <div class="column" id="produkty-antybakteryjne" style="width:60%;">
   <div style="text-align:left;padding-top:150px">
   <p style="font-size:30px;">Produkty<br/><b>antybakteryjne</b>. </p>
-  </br></br>
+  <br><br>
   <div style="text-align:center">
   <img src="/img/covid-icons/hand-gel.svg" width="100px" />
   </div>
   </div>
-  </br></br>
+  <br><br>
   <p style="border-left: 5px solid #00d1b2; padding:0px 0px 0px 10px;width:50%">
   Środki antybakteryjne do dezynfekcji dłoni skutecznie niszczą bakterie i wirusy, które znajdują się na skórze rąk. Warto je stosować w sytuacji, kiedy nie ma możliwości umycia rąk ciepłą wodą z mydłem. Stosując płyny o działaniu antybakteryjnym chronisz siebie i otoczenie przed rozprzestrzenianiem się wirusów i bakterii.
   </p>
@@ -226,19 +226,19 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 </div>
 <div class="column">
 <p style="font-size:30px; text-align:right;">Certyfikowany żel<br/><b>antybakteryjny do rąk</b>. </p>
-</br></br>
+<br><br>
 <p style="margin-left:100px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Skutecznie chroni zapewniając pełną higienę rąk.</p>
-</br>
+<br>
 <p style="margin-left:60px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Działa bez użycia wody.</p>
-</br>
+<br>
 <p style="margin-left:20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Przebadany deramatologicznie.</p>
-</br>
+<br>
 <p style="margin-left:-20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Niezbędny w każdym miejscu pracy.</p>
-</br>
+<br>
 </div>
 
 </div>
-</br>
+<br>
 <div class="columns">
 <div class="column" style="width:45%">
 <img src="/img/covid-img/c6.png" width="100%"/>
@@ -252,17 +252,17 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 <div class="column">
 <p style="font-size:25px; text-align:center;">W ramach programu “zdalna szkoła”
 dla gmin i powiatów, posiadamy w ofercie sprzęt dla uczniów i nauczycieli?</p>
-</br></br>
+<br><br>
 <p style="margin-left:100px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Laptopy i tablety z wbudowaną kamerą i mikrofonem.</p>
-</br>
+<br>
 <p style="margin-left:60px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> System Windows 10.</p>
-</br>
+<br>
 <p style="margin-left:20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Program edukacyjny Office.</p>
-</br>
+<br>
 <p style="margin-left:-20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wytrzymała i trwała obudowa.</p>
-</br>
-</br>
-</br>
+<br>
+<br>
+<br>
 <div class="columns">
 <div class="column" style="text-align:center">
 <img src="/img/covid-icons/cam.svg" width="100px" />
@@ -293,4 +293,4 @@ Zapytaj nas
 <br/><b>o pełną ofertę</b></p>
 </div>
 </div>
-</br></br>
+<br><br>

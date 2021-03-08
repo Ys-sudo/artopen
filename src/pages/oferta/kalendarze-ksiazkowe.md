@@ -19,7 +19,7 @@ keywords:
 ---
 <div style="margin-left:10%;margin-right:10%">
 <p>Każdy nowy rok rozpoczynasz nowymi postanowieniami i celami, pełen wiary w ich realizację. Aby wprowadzić je w czyn potrzebujesz dobrego i precyzyjnego planu. Sięgasz wówczas po pióro, aby zapisać je w nowym kalendarzu w eleganckiej okładzinie, zdobionej grafiką bądź tłoczeniem. Twoje nowe cele i plany zyskały wspaniałą oprawę. </p>
-</br>
+<br>
 <img src="https://artopen.pl/images/2020/09/08/diamentowydystrybutor.png" width="400px" />
 <br>
 <div style="margin-top:50px">
@@ -38,19 +38,19 @@ keywords:
 
 <div class="column">
 <img src="/img/offer-icons/indywidualne-oprawy.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Indywidualne oprawy</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/papier-z-kamienia-trawy.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Papier z kamienia oraz trawy</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/autorskie-bloki.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Autorskie bloki</b></p>
 </div>
 
@@ -62,7 +62,7 @@ keywords:
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Ekologiczne <b>kalendarze</b></p>
-</br>
+<br>
 <p>
 Bardzo wygodne i bezpieczne narzędzia do planowania i zarządzania czasem. Oprawione w nowoczesne materiały, ekologiczne lub ze skóry naturalnej, są bardzo estetycznym i przyjemnym towarzyszem codziennej pracy. Nasze kalendarze produkujemy z papieru kamiennego, z trawy oraz materiałów podlegających recyklingowi tak aby jak najbardziej chronić nasze środowisko naturalne.
 </p>
@@ -73,7 +73,7 @@ Bardzo wygodne i bezpieczne narzędzia do planowania i zarządzania czasem. Opra
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;padding-right:30px">
 <p style="font-size:30px">Spersonalizowany <b>wygląd</b></p>
-</br>
+<br>
 <p>
 Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
 </p>
@@ -88,7 +88,7 @@ Bardzo wygodne i bezpieczne narzędzia do planowania i zarządzania czasem. Opra
 <p style="font-size:20px">
 <b>
 Czy wiesz, że...?
-</br></br>
+<br><br>
 Jedna tona papieru z kamienia pozwala zaoszczędzić naszej planecie 34 l wody, 75 kg zanieczyszczeń, 19 kg odpadów i 477,5 kW energii!
 </b>
 </p>
@@ -96,7 +96,7 @@ Jedna tona papieru z kamienia pozwala zaoszczędzić naszej planecie 34 l wody, 
 <div class="column" style="margin-top:50px">
 <p>
 Produkcja papieru kamiennego jest całkowicie ekologiczna - drewno i woda są tutaj niepotrzebne. Dodatkowo papier ulega biodegradacji, nadając się do ponownego wykorzystania.
-</br></br>
+<br><br>
 Nasz papier z kamienia jest papierem ekologicznym, składającym się w 75% z węglanu wapnia i 25% ze spoiwa, w tym żywicy i polietylenu. Obecny w składzie wapń sprawia, że powierzchnia kartki jest naturalnie biała, gładka, wręcz aksamitna w dotyku. Niezwykle istotnym walorem papieru kamiennego jest jego wysoka odporność na rozdarcia i działanie wilgoci. Po zalaniu kartki np. herbatą czy wodą, notatki nie rozmazują się, a papier w dalszym ciągu nadaje się do pisania.
 </p>
 </div>
@@ -105,19 +105,19 @@ Nasz papier z kamienia jest papierem ekologicznym, składającym się w 75% z w�
 <p style="font-size:30px;margin-top:100px;margin-left:10%"> Kluczowe <b>cechy</b> </p>
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%;padding-bottom:0%">
 <div class="column" style="padding:0px">
-</br></br>
+<br><br>
 <img style="height:150px" src="https://artopen.pl/images/2020/04/11/odporny.png" />
 <p style="font-size:30px">Odporny na <b>rozdarcia</b></p>
-</br>
+<br>
 <p style="padding-right:40px">
 Papier z kamienia, w przeciwieństwie do papieru tradycyjnego, jest wysoce odporny na rozdarcia.
 </p>
 </div>
 <div class="column" style="padding:0px">
-</br></br>
+<br><br>
 <img style="height:150px" src="https://artopen.pl/images/2020/04/11/woda.png" />
 <p style="font-size:30px">Odporny na <b>wodę</b></p>
-</br>
+<br>
 <p>
 Wysoka odporność papieru na wodę i tłuszcz, skutecznie chroni notatki przed zniszczeniem.
 </p>
@@ -127,19 +127,19 @@ Wysoka odporność papieru na wodę i tłuszcz, skutecznie chroni notatki przed 
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-</br></br>
+<br><br>
 <img style="height:150px" src="https://artopen.pl/images/2020/04/11/bialy.png" />
 <p style="font-size:30px">Naturalnie <b>biały</b></p>
-</br>
+<br>
 <p style="padding-right:40px">
 Wapń, będący głównym składnikiem papieru kamiennego, pozwala uzyskać efekt naturalnej bieli.
 </p>
 </div>
 <div class="column" style="padding:0px">
-</br></br>
+<br><br>
 <img style="height:150px" src="https://artopen.pl/images/2020/04/11/ekologiczny.png" />
 <p style="font-size:30px"><b>Ekologiczny</b></p>
-</br>
+<br>
 <p style="padding-right:40px">
 Produkcja papieru kamiennego jest ekologiczna - woda i drewno są tu niepotrzebne.
 </p>
@@ -152,7 +152,7 @@ Produkcja papieru kamiennego jest ekologiczna - woda i drewno są tu niepotrzebn
 
 <div style="margin-left:10%;margin-right:10%;padding:5%">
 <p style="font-size:30px"><b>Dodatki</b></p>
-</br>
+<br>
 <div class="columns" style="textAlign:'left',marginLeft:'20px',flexWrap:'wrap'">
 
 <div class="column main">
@@ -361,7 +361,7 @@ Kieszeń wykonana z folii<br />
 
 <div style="margin-left:10%;margin-right:10%;padding:5%;">
 <p style="font-size:30px">Wzornik <b>opraw</b></p>
-</br>
+<br>
 
 <p> Savana </p>
 <div class="columns" style="display:flex;flex-wrap:wrap">
@@ -1071,7 +1071,7 @@ Kieszeń wykonana z folii<br />
 
 <div style="margin-left:10%;margin-right:10%;padding:5%">
 <p style="font-size:30px"><b>Gumki</b></p>
-</br>
+<br>
 
 <div class="columns" style="textAlign:'left',marginLeft:'20px',flexWrap:'wrap'">
 

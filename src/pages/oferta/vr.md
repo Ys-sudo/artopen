@@ -31,19 +31,19 @@ keywords:
 
 <div class="column">
 <img src="/img/offer-icons/vr.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Technologia VR</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/produkty3d.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Produkty 3D</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/wirtualne-spacery.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Wirtualne spacery</b></p>
 </div>
 
@@ -55,7 +55,7 @@ keywords:
 </div>
 <div class="column" style="margin-top:50px;margin-left:30px">
 <p style="font-size:30px">Technologia<b> VR</b></p>
-</br>
+<br>
 <p>
 Niepostrzeżenie wkroczyliśmy w wirtualny świat 3D, którego możemy doświadczyć nie tylko w kinie ale już we własnym biurze, w domu czy na zewnątrz. Technologia VR, daje nieograniczone możliwości zaprezentowania w przestrzeni rzeczywistej, istniejących jedynie w przestrzeni wirtualnej produktów, obiektów, postaci.</p>
 </div>
@@ -64,7 +64,7 @@ Niepostrzeżenie wkroczyliśmy w wirtualny świat 3D, którego możemy doświadc
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;margin-right:30px">
 <p style="font-size:30px">Produkty<b> 3D</b></p>
-</br>
+<br>
 <p>
 Masz pomysł na piękny mebel? Trudno Ci przekonać potencjalnego nabywcę do jego niezwykłych możliwości? Zaprojektujemy jego wersję 3D, którą będziesz mógł umieścić w rzeczywistej przestrzeni mieszkania czy biura, u Twojego klienta. Taki sposób prezentacji będzie już wkrótce niezwykle popularny. Stań razem z nami w awangardzie, wyznaczaj nowe trendy i przecieraj szlaki.</p>
 </div>
@@ -79,7 +79,7 @@ Masz pomysł na piękny mebel? Trudno Ci przekonać potencjalnego nabywcę do je
 </div>
 <div class="column" style="margin-top:50px;margin-left:30px">
 <p style="font-size:30px">WEB<b> VR</b></p>
-</br>
+<br>
 <p>
 Niepostrzeżenie wkroczyliśmy w wirtualny świat 3D, którego możemy doświadczyć nie tylko w kinie ale już we własnym biurze, w domu czy na zewnątrz. Technologia VR, daje nieograniczone możliwości zaprezentowania w przestrzeni rzeczywistej, istniejących jedynie w przestrzeni wirtualnej produktów, obiektów, postaci.</p>
 </div>
@@ -88,7 +88,7 @@ Niepostrzeżenie wkroczyliśmy w wirtualny świat 3D, którego możemy doświadc
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;margin-right:30px">
 <p style="font-size:30px"><b>Fotografie 360</b> i <b>wirtualne spacery</b></p>
-</br>
+<br>
 <p>
 Masz pomysł na piękny mebel? Trudno Ci przekonać potencjalnego nabywcę do jego niezwykłych możliwości? Zaprojektujemy jego wersję 3D, którą będziesz mógł umieścić w rzeczywistej przestrzeni mieszkania czy biura, u Twojego klienta. Taki sposób prezentacji będzie już wkrótce niezwykle popularny. Stań razem z nami w awangardzie, wyznaczaj nowe trendy i przecieraj szlaki.</p>
 </div>

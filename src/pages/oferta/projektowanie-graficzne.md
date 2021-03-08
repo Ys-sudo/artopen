@@ -26,25 +26,25 @@ keywords:
 
 <div class="column">
 <img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Pełne księgi znaków</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/logotypy.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Logotypy firmowe</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/linia-projektow.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Spójna linia projektów</b></p>
 </div>
 
 <div class="column">
 <img src="/img/offer-icons/ilustracje-wektorowe.svg" width="50px" />
-</br></br>
+<br><br>
 <p><b>Ilustracje wektorowe</b></p>
 </div>
 
@@ -56,7 +56,7 @@ keywords:
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Logotyp <b>firmowy</b></p>
-</br>
+<br>
 <p>
 Projektowanie logo jest dla nas procesem pełnym twórczej ekspresji. Forma graficzna logo musi być unikalna i charakterystyczna ponieważ jest znakiem działającym w przestrzeni zewnętrznej, identyfikującym firmę, przedsiębiorstwo lub markę. Minimalizm i czystość formy to najbardziej pożądane cechy logotypu.
 </p>
@@ -67,7 +67,7 @@ Projektowanie logo jest dla nas procesem pełnym twórczej ekspresji. Forma graf
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;text-align:right;padding-right:30px">
 <p style="font-size:30px">Strony <b>internetowe</b></p>
-</br>
+<br>
 <p>
 Żyjemy w czasach szybkiego rozwoju sieci internetowej. Każda branża, firma czy instytucja posługuje się stroną internetową jako formą autoprezentacji. Dlatego też, niezwykle istotny jest projekt graficzny takiej strony. Sprawi, że strona będzie wyróżniała się na tle innych swoją intuicyjnością, trafnością zawartych na niej informacji, które to pozwolą na właściwie pozycjonowanie i dotarcie do dedykowanej grupy docelowej.
 </p>
@@ -83,7 +83,7 @@ Projektowanie logo jest dla nas procesem pełnym twórczej ekspresji. Forma graf
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Identyfikacje <b>wizualne</b></p>
-</br>
+<br>
 <p>
 To system pozwalający zachować spójną wizualną koncepcję, chroniącą logo firmy, przestrzegającą zasad jego prezentacji oraz wskazującą użycie właściwej kolorystyki i elementów w różnorodnych projektach graficznych czy multimedialnych.</p>
 </div>
@@ -92,7 +92,7 @@ To system pozwalający zachować spójną wizualną koncepcję, chroniącą logo
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;text-align:right;padding-right:30px">
 <p style="font-size:30px">Kalendarze <b>firmowe</b></p>
-</br>
+<br>
 <p>
 Jest to nasza propozycja kalendarzy, w których wnętrze jest w całości indywidualnie zaprojektowane. Pozwala to na nieograniczoną formę ekspresji graficznej i dopasowania projektu do wyrafinowanych potrzeb odbiorcy. Kalendarze w ten sposób przygotowane stanowią zawsze bardzo wyjątkowe realizacje, które prezentujemy w naszym portfolio.
 </p>
@@ -108,7 +108,7 @@ Jest to nasza propozycja kalendarzy, w których wnętrze jest w całości indywi
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Materiały <b>drukowane</b></p>
-</br>
+<br>
 <p>
 Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlatego jego jakość jest niezwykle ważna. Weryfikujemy i oceniamy każdy wydrukowany projekt. Mamy wówczas pewność, że do naszych Klientów trafią wydruki zgodne z projektem.</p>
 </div>
@@ -118,7 +118,7 @@ Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlateg
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;text-align:right;padding-right:30px">
 <p style="font-size:30px">Ilustracje <b>wektorowe</b></p>
-</br>
+<br>
 <p>
 Jest to nasza propozycja kalendarzy, w których wnętrze jest w całości indywidualnie zaprojektowane. Pozwala to na nieograniczoną formę ekspresji graficznej i dopasowania projektu do wyrafinowanych potrzeb odbiorcy. Kalendarze w ten sposób przygotowane stanowią zawsze bardzo wyjątkowe realizacje, które prezentujemy w naszym portfolio.
 </p>
@@ -134,7 +134,7 @@ Jest to nasza propozycja kalendarzy, w których wnętrze jest w całości indywi
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Reklamy <b>wielkoformatowe</b></p>
-</br>
+<br>
 <p>
 Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlatego jego jakość jest niezwykle ważna. Weryfikujemy i oceniamy każdy wydrukowany projekt. Mamy wówczas pewność, że do naszych Klientów trafią wydruki zgodne z projektem.</p>
 </div>
