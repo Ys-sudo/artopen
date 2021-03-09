@@ -70,11 +70,36 @@ Doskonale sprawdzają się w przypadku małych powierzchni wystawienniczych. Są
 </div>
 </div>
 
+<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<div class="column" style="padding:0px">
+<img width="100%" src="https://artopen.pl/images/2020/04/07/stoiska-targowe.jpg" />
+</div>
+<div class="column" style="margin-top:50px">
+<p style="font-size:30px">Instalacje<b> multimedialne</b></p>
+<br>
+<p>
+Proponowane lekkie systemy wystawiennicze otwierają możliwości do dowolnej konfiguracji poszczególnych elementów, wielokrotnych zmian wydruków, czy rozbudowywania w miarę potrzeby całej aranżacji stoiska. W dobie ery ECO te cechy są niezwykle pożądane, ponieważ pozwalają na zaoszczędzenie zasobów i wielokrotne użycie.
+</p>
+</div>
+</div>
+
+<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<div class="column" style="margin-top:50px;padding-right:40px">
+<p style="font-size:30px"><b>Flagi</b></p>
+<br>
+<p>
+Doskonale sprawdzają się w przypadku małych powierzchni wystawienniczych. Są estetyczne w wyglądzie i wygodne w montażu oraz transporcie. Można je dowolnie konfigurować, rozbudowywać i przekształcać np. poprze zmianę wydruków. Naszą ofertę wzbogacamy o rollup'y, uniwersalne ścianki, standy reklamowe oraz flagi.</p>
+</div>
+<div class="column" style="padding:0px">
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/rollupy-cargo.jpg" />
+</div>
+</div>
+
 <p style="text-align:center;font-size:30px;margin-top:50px;">
 Przykładowe <b>systemy</b>
 </p>
 
-<div style="margin-top:50px;min-height:200px;text-align:center;padding:50px;" class="columns">
+<div style="margin-left:10%;margin-right:10%;margin-top:50px;min-height:200px;text-align:center;padding:50px;" class="columns">
 <div class="column" style="padding:0px">
 <img src="https://artopen.pl/images/MAESTRO.jpg" width="100%" />
 </div>
@@ -90,7 +115,7 @@ Przykładowe <b>systemy</b>
 </div>
 
 
-<div style="margin-top:0px;min-height:200px;text-align:center;padding:50px;" class="columns">
+<div style="margin-left:10%;margin-right:10%;margin-top:0px;min-height:200px;text-align:center;padding:50px;" class="columns">
 <div class="column" style="padding:0px">
 <img src="https://artopen.pl/images/BRICOMAISON.jpg" width="100%" />
 </div>
@@ -103,4 +128,10 @@ Przykładowe <b>systemy</b>
 <div class="column" style="padding:0px">
 <img src="https://artopen.pl/images/PIXEL_BANK.jpg" width="100%" />
 </div>
+</div>
+
+<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<p>
+Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
+</p>
 </div>

@@ -132,3 +132,9 @@ To znak, który kryje w sobie historię, potencjał, zasoby oraz strategię firm
 <img class="oimg" width="100%" src="https://artopen.pl/images/Torba-VOGELE-CCC.jpg" />
 </div>
 </div>
+
+<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<p>
+Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
+</p>
+</div>

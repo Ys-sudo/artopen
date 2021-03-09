@@ -167,7 +167,7 @@ Jest to nasza propozycja kalendarzy, w których wnętrze jest w całości indywi
 </p>
 </div>
 <div class="column" style="padding:0px">
-<iframe class="oimg" width="556" height="312" async src="https://iris-mesquite-snowshoe.glitch.me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="oimg" width="100%" height="312" async src="https://iris-mesquite-snowshoe.glitch.me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -244,7 +244,7 @@ Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlateg
 
 </div>
 
-<div style="margin-top:50px;min-height:200px;text-align:center;padding:50px;padding-top:0px;" class="columns">
+<div class="removespace" style="margin-top:50px;min-height:200px;text-align:center;padding:50px;padding-top:0px;" class="columns">
 
 <div class="column">
 <img src="/img/www-icons/sass.svg" style="height:50px" />
@@ -280,7 +280,7 @@ Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlateg
 
 
 <p style="font-size:30px;text-align:center"> Projekt dostosowany na każde urządzenie i przeglądarkę </p>
-<div style="margin-top:50px;min-height:200px;text-align:center;padding:50px;" class="columns">
+<div style="min-height:200px;text-align:center;padding:100px;" class="columns">
 
 <div class="column">
 <img src="/img/www-icons/chrome.svg" width="50px" />
@@ -329,4 +329,10 @@ Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlateg
 <p><b>Android</b></p>
 </div>
 
+</div>
+
+<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<p>
+Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
+</p>
 </div>

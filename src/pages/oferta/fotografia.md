@@ -74,6 +74,30 @@ Wiele obiektów można sfotografować w studio inne przy pomocy profesjonalnego 
 </div>
 </div>
 
+<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<div class="column" style="padding:0px">
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/zdjecie-pedzle.jpg" />
+</div>
+<div class="column" style="margin-top:50px;padding-left:30px">
+<p style="font-size:30px">Obróbka<b> graficzna zdjęć</b></p>
+<br>
+<p>
+W naszych fotografiach produktowych staramy się pokazać nie tylko sam produkt ale także, szczególnie w przypadku zdjęć do katalogów, przedstawić je w jak najbardziej atrakcyjny sposób. Nie ma tu znaczenia, czy jest to pędzel malarski czy wagon kolejowy. Każdy z tych obiektów jest potraktowany indywidualnie.
+</p>
+</div>
+</div>
+
+<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<div class="column" style="margin-top:50px;padding-right:30px">
+<p style="font-size:30px">Zdjęcia z <b>drona</b></p>
+<br>
+<p>
+Wiele obiektów można sfotografować w studio inne przy pomocy profesjonalnego sprzętu fotografujemy w plenerze. Najważniejsze jest, aby rezultat końcowy zadowalał naszych Klientów, a zdjęcia oprócz utrwalenia produktu na obrazie i praktycznego zastosowania miały w sobie wyrafinowaną nutę artyzmu.</p>
+</div>
+<div class="column" style="padding:0px">
+<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/20/sesje-zdjeciowe.jpg" />
+</div>
+</div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <p>

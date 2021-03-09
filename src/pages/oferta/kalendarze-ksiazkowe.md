@@ -60,7 +60,7 @@ keywords:
 <div class="column" style="padding:0px">
 <img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/bambus.jpg" />
 </div>
-<div class="column" style="margin-top:50px;padding-left:30px">
+<div class="column" style="margin-top:50px;padding-left:50px">
 <p style="font-size:30px">Ekologiczne <b>kalendarze</b></p>
 <br>
 <p>
@@ -71,7 +71,7 @@ Bardzo wygodne i bezpieczne narzędzia do planowania i zarządzania czasem. Opra
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px;padding-right:30px">
+<div class="column" style="margin-top:50px;padding-right:50px">
 <p style="font-size:30px">Spersonalizowany <b>wygląd</b></p>
 <br>
 <p>
@@ -1130,4 +1130,10 @@ Kieszeń wykonana z folii<br />
 </span>
 </div>
 
+</div>
+
+<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<p>
+Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
+</p>
 </div>
