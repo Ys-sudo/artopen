@@ -94,7 +94,7 @@ const HomePageTemplate = (props) => {
 
       <div style={{marginLeft:'auto',marginRight:'auto',textAlign:'center'}}>
       <br /><br />
-      <img src='/img/katalogi.svg' style={{minWidth:'750px'}} alt='oferta' />
+      <img src='/img/katalogi.svg' style={{minWidth:'50%'}} alt='oferta' />
       <h4 className='title'> Poznaj naszą ofertę: </h4>
       <h5 className='subtitle'> Zobacz co możemy dla Ciebie zrobić. </h5>
       <br />
