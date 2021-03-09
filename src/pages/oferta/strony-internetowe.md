@@ -244,7 +244,7 @@ Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlateg
 
 </div>
 
-<div class="removespace" style="margin-top:50px;min-height:200px;text-align:center;padding:50px;padding-top:0px;" class="columns">
+<div style="margin-top:50px;min-height:200px;text-align:center;padding:50px;padding-top:0px;" class="columns removespace">
 
 <div class="column">
 <img src="/img/www-icons/sass.svg" style="height:50px" />
