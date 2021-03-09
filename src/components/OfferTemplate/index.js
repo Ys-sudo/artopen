@@ -25,7 +25,7 @@ const OfferTemplate = (props) => {
     <div className='ofintro'>
 
       <div style={{textAlign:'center'}}>
-        <img src={icon.publicURL} width='50px'
+        <img src={icon} width='50px'
         style={{filter:'brightness(0) invert(1)'}}
         />
 

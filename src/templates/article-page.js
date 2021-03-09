@@ -40,7 +40,7 @@ const ArticlePage = (props) => {
               <ArticleTemplate
                 content={html}
                 contentComponent={HTMLContent}
-                cover={cover}
+                cover={cover.publicURL}
                 meta_title={meta_title}
                 meta_desc={meta_description}
                 tags={tags}

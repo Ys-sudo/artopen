@@ -46,7 +46,7 @@ const OfferPage = (props) => {
                 tags={tags}
                 title={title}
                 date={date}
-                icon={icon}
+                icon={icon.publicURL}
                 desc={desc}
                 subtitle={subtitle}
               />

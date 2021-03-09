@@ -23,7 +23,7 @@ const ArticleTemplate = (props) => {
       <br></br>
       <br></br>
       <img
-        src={cover.publicURL}
+        src={cover}
         alt={title}
         className="imgcont"
 
