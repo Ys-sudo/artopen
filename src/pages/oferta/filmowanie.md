@@ -4,7 +4,7 @@ title: Filmowanie
 desc: Kręcimy filmy oraz spoty reklamowe według określonego scenariusza
 slug: filmowanie
 date: 2020-12-05T13:49:14.606Z
-cover: /img/slider_1.jpg
+cover: /img/offer-headers/filmowanie.jpg
 icon: /img/film.svg
 subtitle: Filmy reklamowe
 tags:

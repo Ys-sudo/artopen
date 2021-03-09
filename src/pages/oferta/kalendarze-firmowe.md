@@ -4,7 +4,7 @@ title: Kalendarze firmowe
 desc: Realizujemy indywidualne kalendarze książkowe, trójdzielne, biurkowe
 slug: kalendarze-firmowe
 date: 2020-12-05T13:49:14.606Z
-cover: /img/slider_1.jpg
+cover: /img/offer-headers/kalendarze-firmowe.jpg
 icon: /img/calendar-alt.svg
 subtitle: Kalendarze drukowane
 tags:

@@ -4,7 +4,7 @@ title: Gadżety
 desc: Produkujemy ekologiczne gadżety oraz inspirujące karty MAGIC
 slug: gadzety
 date: 2020-12-05T13:49:14.606Z
-cover: /img/slider_1.jpg
+cover: /img/offer-headers/gadzety-reklamowe.jpg
 icon: /img/lightbulb.svg
 subtitle: Gadżety reklamowe
 tags:

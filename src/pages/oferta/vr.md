@@ -4,7 +4,7 @@ title: VR
 desc: Kreujemy wirtualną rzeczywistość dla biznesu, instytucji kultury i marek
 slug: vr
 date: 2020-12-05T13:49:14.606Z
-cover: /img/slider_1.jpg
+cover: /img/offer-headers/vr.jpg
 icon: /img/vr-cardboard.svg
 subtitle: Wirtualna rzeczywistość
 

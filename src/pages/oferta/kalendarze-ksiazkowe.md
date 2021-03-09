@@ -4,7 +4,7 @@ title: Kalendarze książkowe
 desc: Spersonalizowane kalendarze książkowe i notesy
 slug: kalendarze-ksiazkowe
 date: 2020-12-05T13:49:14.606Z
-cover: /img/slider_1.jpg
+cover: /img/offer-headers/kalendarze-ksiazkowe.jpg
 icon: /img/book.svg
 subtitle: Kalendarze książkowe dla Ciebie i bliskich
 tags:

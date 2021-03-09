@@ -4,7 +4,7 @@ title: Reklama zewnętrzna
 desc: Montujemy reklamy wielkoformatowe - banery, tablice, siatki mesh
 slug: reklama-zewnetrzna
 date: 2020-12-05T13:49:14.606Z
-cover: /img/slider_1.jpg
+cover: /img/offer-headers/reklama-zewnetrzna.jpg
 icon: /img/object-ungroup.svg
 subtitle: Reklamy outdoor
 tags:

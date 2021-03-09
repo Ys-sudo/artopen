@@ -4,7 +4,7 @@ title: Branding
 desc: Wykonujemy pełne systemy identyfikacji wizualnej dla firm, marek i instytucji.
 slug: branding
 date: 2020-12-05T13:49:14.606Z
-cover: /img/slider_1.jpg
+cover: /img/offer-headers/branding.jpg
 icon: /img/pencil-ruler.svg
 subtitle: Branding - identyfikacja wizualna
 tags:
