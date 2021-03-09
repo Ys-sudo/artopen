@@ -3,7 +3,7 @@ templateKey: offer-page
 title: Strony internetowe
 desc: Tworzymy responsywne strony internetowe oparte na systemie CMS
 slug: strony-internetowe
-date: 2020-12-05T13:49:14.606Z
+date: 2021-10-03T13:49:14.606Z
 cover: /img/offer-headers/strony-internetowe.jpg
 icon: /img/laptop-code.svg
 subtitle: Strony internetowe

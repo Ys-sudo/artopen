@@ -3,7 +3,7 @@ templateKey: offer-page
 title: Filmowanie
 desc: Kręcimy filmy oraz spoty reklamowe według określonego scenariusza
 slug: filmowanie
-date: 2020-12-05T13:49:14.606Z
+date: 2021-02-03T13:49:14.606Z
 cover: /img/offer-headers/filmowanie.jpg
 icon: /img/film.svg
 subtitle: Filmy reklamowe

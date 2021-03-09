@@ -3,7 +3,7 @@ templateKey: offer-page
 title: Projektowanie graficzne
 desc: Projektujemy logotypy, księgi znaków, foldery, ulotki, kalendarze i wiele innych
 slug: projektowanie-graficzne
-date: 2020-12-05T13:49:14.606Z
+date: 2021-10-03T13:49:14.606Z
 cover: /img/offer-headers/projektowanie-graficzne.jpg
 icon: /img/pencil-alt.svg
 subtitle: Projekty graficzne

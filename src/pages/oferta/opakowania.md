@@ -3,7 +3,7 @@ templateKey: offer-page
 title: Opakowania
 desc: Produkujemy opakowania z wykrojnika o indywidualnych parametrach
 slug: opakowania
-date: 2020-12-05T13:49:14.606Z
+date: 2021-01-03T13:49:14.606Z
 cover: /img/offer-headers/opakowania.jpg
 icon: /img/box-open.svg
 subtitle: Opakowania

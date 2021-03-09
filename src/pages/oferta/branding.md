@@ -3,7 +3,7 @@ templateKey: offer-page
 title: Branding
 desc: Wykonujemy pełne systemy identyfikacji wizualnej dla firm, marek i instytucji.
 slug: branding
-date: 2020-12-05T13:49:14.606Z
+date: 2021-08-09T13:49:14.606Z
 cover: /img/offer-headers/branding.jpg
 icon: /img/pencil-ruler.svg
 subtitle: Branding - identyfikacja wizualna
@@ -11,9 +11,9 @@ tags:
   - branding
   - agencja reklamowa
   - identyfikacja wizualna
-meta_title: Art Open | Agencja reklamowa - Wrocław - Branding, identyfikacja wizualna, projektowanie graficzne, budowanie wizerunku marki
+meta_title: Branding | Agencja reklamowa | Art Open - identyfikacja wizualna, projektowanie graficzne, budowanie wizerunku marki, strony internetowe
 meta_description: >-
- Branding | Art Open | Agencja reklamowa - Wrocław - Identyfikacja wizualna to system służący kreowaniu wizerunku firmy bądź marki. Składają się na niego symbole graficzne i ich ściśle określone zastosowanie a także zasady postępowania w firmie, których zadaniem jest wygenerowanie spójnej i czytelnej identyfikacji rynkowej, służącej wyróżnieniu firmy (marki) na rynku.
+ Branding | Agencja reklamowa | Art Open - Identyfikacja wizualna to system służący kreowaniu wizerunku firmy bądź marki. Składają się na niego symbole graficzne i ich ściśle określone zastosowanie a także zasady postępowania w firmie, których zadaniem jest wygenerowanie spójnej i czytelnej identyfikacji rynkowej.
 keywords:
   - branding
   - identyfikacja wizualna
@@ -22,6 +22,7 @@ keywords:
   - projektowanie graficzne
   - Wrocław
   - Art Open
+  - strony internetowe
 ---
 
 <div style="margin-left:10%;margin-right:10%">
@@ -68,7 +69,7 @@ keywords:
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px;padding-right:30px">
+<div class="column" style="margin-top:50px;padding-right:50px">
 <p style="font-size:30px">Logotyp <b>firmowy</b></p>
 <br>
 <p>
@@ -84,7 +85,7 @@ To znak, który kryje w sobie historię, potencjał, zasoby oraz strategię firm
 <div class="column" style="padding:0px">
 <img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/ksiega-strzelin.jpg" />
 </div>
-<div class="column" style="margin-top:50px;text-align:right;padding-left:30px">
+<div class="column" style="margin-top:50px;text-align:right;padding-left:50px">
 <p style="font-size:30px">Księga <b>znaku</b></p>
 <br>
 <p>
@@ -94,7 +95,7 @@ Ten niezwykle ważny dokument zawiera w sobie wszystkie niezbędne informacje do
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px;padding-right:30px">
+<div class="column" style="margin-top:50px;padding-right:50px">
 <p style="font-size:30px">Firmowe gadżety oraz <b>wydruki</b></p>
 <br>
 <p>
@@ -110,7 +111,7 @@ To znak, który kryje w sobie historię, potencjał, zasoby oraz strategię firm
 <div class="column" style="padding:0px">
 <img class="oimg" width="100%" src="https://artopen.pl/images/krowki_Ocado.jpg" />
 </div>
-<div class="column" style="margin-top:50px;text-align:right;padding-left:30px">
+<div class="column" style="margin-top:50px;text-align:right;padding-left:50px">
 <p style="font-size:30px">Wizualizacje <b>produktów</b></p>
 <br>
 <p>
@@ -120,7 +121,7 @@ Ten niezwykle ważny dokument zawiera w sobie wszystkie niezbędne informacje do
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px;padding-right:30px">
+<div class="column" style="margin-top:50px;padding-right:50px">
 <p style="font-size:30px">Opracowywanie tekstów oraz <b>sloganów</b></p>
 <br>
 <p>

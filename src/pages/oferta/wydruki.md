@@ -3,7 +3,7 @@ templateKey: offer-page
 title: Wydruki reklamowe
 desc: Drukujemy foldery, ulotki, teczki z uszlachetnieniem hot-stamplingowym.
 slug: wydruki
-date: 2020-12-05T13:49:14.606Z
+date: 2021-04-03T13:49:14.606Z
 cover: /img/offer-headers/wydruki-reklamowe.jpg
 icon: /img/map.svg
 subtitle: Wydruki reklamowe

@@ -3,7 +3,7 @@ templateKey: offer-page
 title: COVID-19
 desc: Przydatne artykuły do dezynfekcji oraz ochrony zdrowia, w tym m.in. maseczki.
 slug: covid-19
-date: 2020-12-05T13:49:14.606Z
+date: 2021-12-04T13:49:14.606Z
 cover: /img/offer-headers/covid.jpg
 icon: /img/viruses.svg
 subtitle: Wydarzenia minionego roku prawie zatrzymały świat. Pandemia COVID-19 wymusiła zmiany w naszym postępowaniu i myśleniu.

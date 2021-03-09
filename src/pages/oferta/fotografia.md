@@ -3,7 +3,7 @@ templateKey: offer-page
 title: Fotografia
 desc: Wykonujemy profesjonalne sesje fotograficzne produktów firmowych
 slug: fotografia
-date: 2020-12-05T13:49:14.606Z
+date: 2021-03-03T13:49:14.606Z
 cover: /img/offer-headers/fotografia-produktowa.jpg
 icon: /img/camera-retro.svg
 subtitle: Fotografia

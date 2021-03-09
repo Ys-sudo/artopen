@@ -3,7 +3,7 @@ templateKey: offer-page
 title: Ekologia
 desc: Poznaj naszą ofertę ekologiczną i zobacz jak możesz zadbać z nami o środowisko.
 slug: ekologia
-date: 2020-12-05T13:49:14.606Z
+date: 2021-11-03T13:49:14.606Z
 cover: /img/offer-headers/ekologia.jpg
 icon: /img/leaf.svg
 subtitle: Dokąd nas to zaprowadzi?
