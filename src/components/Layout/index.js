@@ -76,7 +76,6 @@ const Layout = (props) => {
 
 
       <Footer copyright={config.copyright} />
-
       <CookieConsent
         location="bottom"
         buttonText="Akceptuję"

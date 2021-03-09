@@ -164,6 +164,11 @@ class Footer extends React.Component {
 
       </div>
         <div className='has-text-centered'>
+
+        <p className='control' style={{marginBottom:'25px'}}>
+            <a className="button-green" onClick={setdarkMode}>tryb ciemny</a>
+          </p>
+
         <a href='https://facebook.com/artopenstudioreklamy/' target="_blank">
           <img width="25px" className='icon-green' alt="facebook" src='/img/facebook-square.svg'/>
         </a>
@@ -221,10 +226,7 @@ function scrollFunction() {
   if ( document.documentElement.scrollTop > 100) {
     document.getElementById("backtotop").style.display = "block";
 
-    //document.getElementsByClassName("navbar")[0].style.color =  '#111111';
-    //document.getElementsByClassName("navbar")[0].style.backgroundColor = 'rgba(255,255,255,0.3)';
 
-    //document.getElementsByClassName("navbar-item")[0].firstChild.style.filter =  'invert(0)';
 
 
 
@@ -233,8 +235,7 @@ function scrollFunction() {
   } else {
     document.getElementById("backtotop").style.display = "none";
 
-    //document.getElementsByClassName("navbar")[0].style.backgroundColor =  'white';
-    //document.getElementsByClassName("navbar-item")[0].firstChild.style.filter =  'invert(1)';
+
 
 
   }
@@ -245,6 +246,68 @@ function loadScroll(){
   document.onscroll = function() {scrollFunction()};
 
 }
+
+//dark mode grind
+let isDark;
+
+
+function setdarkMode(){
+  if (isDark==true){
+    isDark = false;
+    global.localStorage.setItem('theme', 'dracula');
+    console.log(global.localStorage.getItem('theme'));
+    darkMode();
+  } else {
+    isDark = true;
+    global.localStorage.setItem('theme', 'normal');
+    console.log(global.localStorage.getItem('theme'));
+    console.log(isDark);
+    darkMode();
+  }
+}
+
+
+
+function darkMode(){
+
+  if (global.localStorage.getItem('theme')=='normal'){
+  document.querySelector("nav").style.backgroundColor = 'black';
+
+  document.getElementsByClassName("navbar-item")[0].firstChild.style.filter =  'invert(1)';
+  document.querySelector("html").style.backgroundColor = 'black';
+
+
+  for (let i=0;i<document.getElementsByClassName("full").lenght;i++){
+  document.getElementsByClassName("full")[i].style.backgroundColor =  'black';
+  }
+
+  for (let i=0;i<document.getElementsByClassName("section").lenght;i++){
+  document.getElementsByClassName("section")[i].style.backgroundColor =  'black';
+  }
+
+  for (let i=0;i<document.getElementsByClassName("blogpostroll").lenght;i++){
+  document.getElementsByClassName("blogpostroll")[i].style.backgroundColor =  'black';
+  }
+
+  }
+  else {
+    document.querySelector("nav").style.backgroundColor = 'white';
+    document.getElementsByClassName("navbar-item")[0].firstChild.style.filter =  'invert(0)';
+    document.querySelector("html").style.backgroundColor = 'white';
+
+
+    for (let i=0;i<document.getElementsByClassName("full").lenght;i++){
+    document.getElementsByClassName("full")[i].style.backgroundColor =  'white';
+    }
+
+    for (let i=0;i<document.getElementsByClassName("section").lenght;i++){
+    document.getElementsByClassName("section")[i].style.backgroundColor =  'white';
+    }
+
+
+  }
+}
+
 
 
 Footer.propTypes = {

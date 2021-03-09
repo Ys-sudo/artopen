@@ -64,7 +64,7 @@ const NavBar = () => {
             }
         `}
       render={data => (
-        <nav className='navbar is-fixed-top' id='bignav' onMouseLeave={hideSubMenu} aria-label='main navigation'>
+        <nav onLoad={checkLoad} className='navbar is-fixed-top' id='bignav' onMouseLeave={hideSubMenu} aria-label='main navigation'>
           <div className='navbar-brand'>
             <a href='/' className='navbar-item' style={{marginLeft:'10px'}}>
               <img width="100px" style={{transform:'scale(1.3)'}} src='/img/ArtOpen.svg' alt="ArtOpen multimedialna agencja reklamowa" />
@@ -265,6 +265,55 @@ const NavBar = () => {
   )
 
 }
+
+
+
+function darkMode(){
+
+  if (global.localStorage.getItem('theme')=='normal'){
+  document.querySelector("nav").style.backgroundColor = 'black';
+
+  document.getElementsByClassName("navbar-item")[0].firstChild.style.filter =  'invert(1)';
+  document.querySelector("html").style.backgroundColor = 'black';
+
+
+  for (let i=0;i<document.getElementsByClassName("full").lenght;i++){
+  document.getElementsByClassName("full")[i].style.backgroundColor =  'black';
+  }
+
+  for (let i=0;i<document.getElementsByClassName("section").lenght;i++){
+  document.getElementsByClassName("section")[i].style.backgroundColor =  'black';
+  }
+
+  for (let i=0;i<document.getElementsByClassName("blogpostroll").lenght;i++){
+  document.getElementsByClassName("blogpostroll")[i].style.backgroundColor =  'black';
+  }
+
+  }
+  else {
+    document.querySelector("nav").style.backgroundColor = 'white';
+    document.getElementsByClassName("navbar-item")[0].firstChild.style.filter =  'invert(0)';
+    document.querySelector("html").style.backgroundColor = 'white';
+
+
+    for (let i=0;i<document.getElementsByClassName("full").lenght;i++){
+    document.getElementsByClassName("full")[i].style.backgroundColor =  'white';
+    }
+
+    for (let i=0;i<document.getElementsByClassName("section").lenght;i++){
+    document.getElementsByClassName("section")[i].style.backgroundColor =  'white';
+    }
+
+
+  }
+}
+function checkLoad(){
+  console.log('darklord');
+  console.log(global.localStorage.getItem('theme'));
+  darkMode();
+}
+
+
 
 
 
