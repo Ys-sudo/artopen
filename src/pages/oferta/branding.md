@@ -24,7 +24,6 @@ keywords:
   - Art Open
   - strony internetowe
 ---
-
 <div style="margin-left:10%;margin-right:10%">
 <p>To niezbędny system pozwalający zachować spójną wizualną koncepcję, chroniącą logotyp firmowy, przestrzegającą zasad jego prezentacji oraz wskazującą użycie właściwej kolorystyki i pozostałych elementów w różnorodnych projektach graficznych czy materiałach multimedialnych. </p>
 </div>
@@ -46,7 +45,9 @@ keywords:
 <br><br>
 <p><b>Spójna linia projektów</b></p>
 </div>
+
 </div>
+
 <div class="columns">
 <div class="column">
 <img src="/img/offer-icons/wizualizacje.svg" width="50px" />
@@ -79,6 +80,7 @@ To znak, który kryje w sobie historię, potencjał, zasoby oraz strategię firm
 <div class="column" style="padding:0px">
 <img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/logotyp-skywater.jpg" />
 </div>
+
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
@@ -92,6 +94,7 @@ To znak, który kryje w sobie historię, potencjał, zasoby oraz strategię firm
 Ten niezwykle ważny dokument zawiera w sobie wszystkie niezbędne informacje dotyczące identyfikacji wizualnej organizacji. Poszczególne rozdziały szczegółowo opisują wszystkie elementy tego systemu - począwszy od logo a skończywszy na jego zastosowaniu na różnego rodzaju akcydensach i gadżetach promocyjnych.
 </p>
 </div>
+
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
@@ -105,6 +108,7 @@ To znak, który kryje w sobie historię, potencjał, zasoby oraz strategię firm
 <div class="column" style="padding:0px">
 <img class="oimg" width="100%" src="https://artopen.pl/images/worek-fortum.jpg" />
 </div>
+
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
@@ -118,6 +122,7 @@ To znak, który kryje w sobie historię, potencjał, zasoby oraz strategię firm
 Ten niezwykle ważny dokument zawiera w sobie wszystkie niezbędne informacje dotyczące identyfikacji wizualnej organizacji. Poszczególne rozdziały szczegółowo opisują wszystkie elementy tego systemu - począwszy od logo a skończywszy na jego zastosowaniu na różnego rodzaju akcydensach i gadżetach promocyjnych.
 </p>
 </div>
+
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
@@ -131,6 +136,7 @@ To znak, który kryje w sobie historię, potencjał, zasoby oraz strategię firm
 <div class="column" style="padding:0px">
 <img class="oimg" width="100%" src="https://artopen.pl/images/Torba-VOGELE-CCC.jpg" />
 </div>
+
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">

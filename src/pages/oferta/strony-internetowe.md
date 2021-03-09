@@ -324,7 +324,7 @@ Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlateg
 <div style="margin-top:50px;min-height:200px;text-align:center;padding:50px;" class="columns">
 
 <div class="column">
-<img src="/img/www-icons/android.svg" width="50px" />
+<img src="/img/www-icons/android-aplikacja.svg" width="50px" />
 <br><br>
 <p><b>Android</b></p>
 </div>

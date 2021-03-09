@@ -153,24 +153,25 @@ class Footer extends React.Component {
           <h5><b>Newsletter</b></h5>
           <br />
 
-          <a onClick={newsEnter} className='button-green'> <img width="10px" className='icon-green'  alt="adres" src='/img/address-card.svg'/>zapisz się </a>
-          {/* TODO: Google play badge
-          <br /><br /><br /><h5><b>Aplikacja</b></h5>
-          <a href='http://play.google.com/store/?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='pobierz z Google Play' style={{maxWidth:'180px'}} src='https://play.google.com/intl/en_us/badges/static/images/badges/pl_badge_web_generic.png'/></a>
-          */}
+          <a onClick={newsEnter} className='button-green' > <img width="10px" className='icon-green'  alt="adres" src='/img/address-card.svg'/>zapisz się </a>
+          <br />
+          <h5  style={{marginTop:'20px'}}><b>Motyw</b></h5>
+          <br />
+          <p className='control'>
+              <a className="button-green" onClick={setdarkMode}>
+              <img width="10px" id="dark-mode-img" className='icon-green'  alt="darkmode" src='/img/moon.svg'/>
+              <span id="dark-mode-btn">tryb ciemny</span></a>
+            </p>
+         {/*}//TODO: Google play badge*/}
+          <br /><h5 style={{marginTop:'20px'}}><b>Aplikacja</b></h5>
+          <a href='http://play.google.com/store/?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img className="oimg" alt='pobierz z Google Play' style={{maxWidth:'150px'}} src='https://play.google.com/intl/en_us/badges/static/images/badges/pl_badge_web_generic.png'/></a>
+
         </div>
 
 
 
       </div>
         <div className='has-text-centered'>
-
-        <p className='control' style={{marginBottom:'25px'}}>
-            <a className="button-green" onClick={setdarkMode}>
-            <img width="10px" id="dark-mode-img" className='icon-green'  alt="darkmode" src='/img/moon.svg'/>
-            <span id="dark-mode-btn">tryb ciemny</span></a>
-          </p>
-
         <a href='https://facebook.com/artopenstudioreklamy/' target="_blank">
           <img width="25px" className='icon-green' alt="facebook" src='/img/facebook-square.svg'/>
         </a>

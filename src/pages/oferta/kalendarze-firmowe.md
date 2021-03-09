@@ -153,7 +153,6 @@ Oprócz swojej praktycznej funkcji spełniają także tę estetyczną. Zaprojekt
 
 </div>
 
-
 <div class="columns" style="padding:5%">
 <p>
 Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
