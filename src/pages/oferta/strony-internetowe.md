@@ -167,7 +167,7 @@ Jest to nasza propozycja kalendarzy, w których wnętrze jest w całości indywi
 </p>
 </div>
 <div class="column" style="padding:0px">
-<iframe class="oimg" width="556" height="312" async src="https://aframe.io/aframe/examples/boilerplate/hello-world/" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="oimg" width="556" height="312" async src="https://iris-mesquite-snowshoe.glitch.me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 
