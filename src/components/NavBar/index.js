@@ -239,7 +239,7 @@ const NavBar = () => {
             <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'5%'}}>
 
                 <a className='button-green' style={{fontSize:'20px',position:'fixed',top:'1%',left:'1%'}} onMouseOver={modalDestroy} >&nbsp;x&nbsp;</a>
-                <ModalForm />
+                <ModalForm defer />
 
                 <a className='button-green' onClick={topFunction} style={{position:'fixed',bottom:'1%',right:'1%'}}><img width="15px"  alt="backtotop" src='/img/angle-up.svg'/></a>
 
@@ -285,19 +285,17 @@ function darkMode(){
   document.getElementsByClassName("section")[i].style.backgroundColor =  'black';
   }
 
-  for (let i=0;i<document.getElementsByClassName("blogpostroll").lenght;i++){
-  document.getElementsByClassName("blogpostroll")[i].style.backgroundColor =  'black';
-  }
-
   document.getElementById('dark-mode-btn').innerText = 'tryb jasny';
   document.getElementById('dark-mode-img').src = '/img/sun.svg';
+
+
+
 
   }
   else {
     document.querySelector("nav").style.backgroundColor = 'white';
     document.getElementsByClassName("navbar-item")[0].firstChild.style.filter =  'invert(0)';
     document.querySelector("html").style.backgroundColor = 'white';
-
 
     for (let i=0;i<document.getElementsByClassName("full").lenght;i++){
     document.getElementsByClassName("full")[i].style.backgroundColor =  'white';
@@ -313,8 +311,8 @@ function darkMode(){
   }
 }
 function checkLoad(){
-  console.log('darklord');
-  console.log(global.localStorage.getItem('theme'));
+  //console.log('darklord');
+  //console.log(global.localStorage.getItem('theme'));
   darkMode();
 }
 

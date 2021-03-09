@@ -28,7 +28,9 @@ keywords:
 <p>To niezbędny system pozwalający zachować spójną wizualną koncepcję, chroniącą logotyp firmowy, przestrzegającą zasad jego prezentacji oraz wskazującą użycie właściwej kolorystyki i pozostałych elementów w różnorodnych projektach graficznych czy materiałach multimedialnych. </p>
 </div>
 
+
 <div style="margin-top:50px;min-height:200px;text-align:center;background-image: linear-gradient(141deg, rgb(0, 158, 108) 0%, rgb(0, 209, 178) 71%, rgb(0, 230, 235) 100%);padding:50px;color:white">
+
 <div class="columns">
 <div class="column">
 <img src="/img/offer-icons/ksiega-znaku.svg" width="50px" />
@@ -45,7 +47,6 @@ keywords:
 <br><br>
 <p><b>Spójna linia projektów</b></p>
 </div>
-
 </div>
 
 <div class="columns">
@@ -64,7 +65,6 @@ keywords:
 <br><br>
 <p><b>Teksty i slogany</b></p>
 </div>
-
 </div>
 
 </div>

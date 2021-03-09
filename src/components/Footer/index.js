@@ -280,10 +280,8 @@ function darkMode(){
 
   if (global.localStorage.getItem('theme')=='normal'){
   document.querySelector("nav").style.backgroundColor = 'black';
-
   document.getElementsByClassName("navbar-item")[0].firstChild.style.filter =  'invert(1)';
   document.querySelector("html").style.backgroundColor = 'black';
-
 
   for (let i=0;i<document.getElementsByClassName("full").lenght;i++){
   document.getElementsByClassName("full")[i].style.backgroundColor =  'black';
@@ -294,7 +292,6 @@ function darkMode(){
   }
 
 
-
   }
   else {
     document.querySelector("nav").style.backgroundColor = 'white';
@@ -302,14 +299,14 @@ function darkMode(){
     document.querySelector("html").style.backgroundColor = 'white';
 
 
-    for (let i=0;i<document.getElementsByClassName("full").lenght;i++){
-    document.getElementsByClassName("full")[i].style.backgroundColor =  'white';
+
+    for (let i=0;i<document.querySelectorAll('.full').lenght;i++){
+    document.querySelectorAll('.full')[i].style.backgroundColor =  'white';
     }
 
     for (let i=0;i<document.getElementsByClassName("section").lenght;i++){
     document.getElementsByClassName("section")[i].style.backgroundColor =  'white';
     }
-
 
   }
 }
