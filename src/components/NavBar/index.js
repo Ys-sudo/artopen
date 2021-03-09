@@ -289,6 +289,9 @@ function darkMode(){
   document.getElementsByClassName("blogpostroll")[i].style.backgroundColor =  'black';
   }
 
+  document.getElementById('dark-mode-btn').innerText = 'tryb jasny';
+  document.getElementById('dark-mode-img').src = '/img/sun.svg';
+
   }
   else {
     document.querySelector("nav").style.backgroundColor = 'white';
@@ -304,6 +307,8 @@ function darkMode(){
     document.getElementsByClassName("section")[i].style.backgroundColor =  'white';
     }
 
+    document.getElementById('dark-mode-btn').innerText = 'tryb ciemny';
+    document.getElementById('dark-mode-img').src = '/img/moon.svg';
 
   }
 }

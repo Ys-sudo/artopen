@@ -166,7 +166,9 @@ class Footer extends React.Component {
         <div className='has-text-centered'>
 
         <p className='control' style={{marginBottom:'25px'}}>
-            <a className="button-green" onClick={setdarkMode}>tryb ciemny</a>
+            <a className="button-green" onClick={setdarkMode}>
+            <img width="10px" id="dark-mode-img" className='icon-green'  alt="darkmode" src='/img/moon.svg'/>
+            <span id="dark-mode-btn">tryb ciemny</span></a>
           </p>
 
         <a href='https://facebook.com/artopenstudioreklamy/' target="_blank">
@@ -257,12 +259,16 @@ function setdarkMode(){
     global.localStorage.setItem('theme', 'dracula');
     console.log(global.localStorage.getItem('theme'));
     darkMode();
+    document.getElementById('dark-mode-btn').innerText = 'tryb ciemny';
+    document.getElementById('dark-mode-img').src = '/img/moon.svg';
   } else {
     isDark = true;
     global.localStorage.setItem('theme', 'normal');
     console.log(global.localStorage.getItem('theme'));
     console.log(isDark);
     darkMode();
+    document.getElementById('dark-mode-btn').innerText = 'tryb jasny';
+    document.getElementById('dark-mode-img').src = '/img/sun.svg';
   }
 }
 
@@ -285,9 +291,7 @@ function darkMode(){
   document.getElementsByClassName("section")[i].style.backgroundColor =  'black';
   }
 
-  for (let i=0;i<document.getElementsByClassName("blogpostroll").lenght;i++){
-  document.getElementsByClassName("blogpostroll")[i].style.backgroundColor =  'black';
-  }
+
 
   }
   else {
