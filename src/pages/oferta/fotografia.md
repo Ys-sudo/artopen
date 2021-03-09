@@ -4,7 +4,7 @@ title: Fotografia
 desc: Wykonujemy profesjonalne sesje fotograficzne produktów firmowych
 slug: fotografia
 date: 2020-12-05T13:49:14.606Z
-cover: /img/offer-headers/fotografia.jpg
+cover: /img/offer-headers/fotografia-produtkowa.jpg
 icon: /img/camera-retro.svg
 subtitle: Fotografia
 tags:
