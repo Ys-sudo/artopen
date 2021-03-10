@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import config from '../../../config'
-import { graphql, StaticQuery } from 'gatsby'
+import { Link, graphql, StaticQuery } from 'gatsby'
 class Footer extends React.Component {
   render() {
     const { data } = this.props
@@ -12,7 +12,7 @@ class Footer extends React.Component {
 
       <div className='container'>
         <div style={{textAlign:'center'}}>
-          <a href="/"><img width="200px" src='/img/ArtOpen-white.svg' alt="ArtOpen studio reklamy" /></a>
+          <Link to="/"><img width="200px" src='/img/ArtOpen-white.svg' alt="ArtOpen studio reklamy" /></Link>
           <br></br>
         </div>
       <br></br>

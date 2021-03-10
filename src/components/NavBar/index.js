@@ -66,9 +66,9 @@ const NavBar = () => {
       render={data => (
         <nav onLoad={checkLoad} className='navbar is-fixed-top' id='bignav' onMouseLeave={hideSubMenu} aria-label='main navigation'>
           <div className='navbar-brand'>
-            <a href='/' className='navbar-item' style={{marginLeft:'10px'}}>
+            <Link to='/' className='navbar-item' style={{marginLeft:'10px'}}>
               <img width="100px" style={{transform:'scale(1.3)'}} src='/img/ArtOpen.svg' alt="ArtOpen multimedialna agencja reklamowa" />
-            </a>
+            </Link>
             <button
               className={`button navbar-burger ${active ? 'is-active' : ''}`}
               data-target='navMenu'
@@ -239,7 +239,7 @@ const NavBar = () => {
             <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'5%'}}>
 
                 <a className='button-green' style={{fontSize:'20px',position:'fixed',top:'1%',left:'1%'}} onMouseOver={modalDestroy} >&nbsp;x&nbsp;</a>
-              <ModalForm /> 
+              <ModalForm />
 
                 <a className='button-green' onClick={topFunction} style={{position:'fixed',bottom:'1%',right:'1%'}}><img width="15px"  alt="backtotop" src='/img/angle-up.svg'/></a>
 
