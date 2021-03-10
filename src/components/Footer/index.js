@@ -125,12 +125,12 @@ class Footer extends React.Component {
           <br />
 
 
-          <Link to="tel:+48 71 728 29 13" className='submenu-item' style={{textDecoration:'underline'}}>
-          <img width="10px" className='icon-green'  alt="email" src='/img/phone.svg'/>Tel: +48 71 728 29 13</Link>
+          <a href="tel:+48 71 728 29 13" className='submenu-item' style={{textDecoration:'underline'}}>
+          <img width="10px" className='icon-green'  alt="email" src='/img/phone.svg'/>Tel: +48 71 728 29 13</a>
 
 
-          <Link to="mailto:biuro@artopen.pl" className='submenu-item' style={{textDecoration:'underline'}}>
-          <img width="10px" className='icon-green'  alt="email" src='/img/paper-plane.svg'/>biuro@artopen.pl</Link>
+          <a href="mailto:biuro@artopen.pl" className='submenu-item' style={{textDecoration:'underline'}}>
+          <img width="10px" className='icon-green'  alt="email" src='/img/paper-plane.svg'/>biuro@artopen.pl</a>
 
 
           <br />
