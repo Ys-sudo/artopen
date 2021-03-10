@@ -91,7 +91,7 @@ keywords:
   </div>
 
   <div  style="width: 35%;text-align:right">
-  <img src="/img/covid-img/c1.png" height="25%" />
+  <img src="https://artopen.netlify.app/img/covid-img/c1.png" height="25%" />
   </div>
   <br>
 
@@ -100,7 +100,7 @@ keywords:
 <div class="columns">
 
 <div class="column cimg" style="text-align: left;">
-  <img src="/img/covid-img/c2.png" height="25%" />
+  <img src="https://artopen.netlify.app/img/covid-img/c2.png" height="25%" />
 </div>
 
 <div class="column cimg"
@@ -146,7 +146,7 @@ keywords:
   </div>
 
   <div  style="width: 40%;text-align:right">
-  <img src="/img/covid-img/c3.png" height="25%" />
+  <img src="https://artopen.netlify.app/img/covid-img/c3.png" height="25%" />
   </div>
   <br>
 
@@ -154,7 +154,7 @@ keywords:
 
 <div class="columns" style="margin-left:10%;margin-right:10%">
 <div class="column" style="text-align:left;">
-<img src="/img/covid-img/a1.png" width="50%" />
+<img src="https://artopen.netlify.app/img/covid-img/a1.png" width="50%" />
 </div>
 <div class="column" style="padding-top:50px">
 <p style="margin-left:140px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wszystkie elementy wykonane z folii ułatwiają sterylizację. </p>
@@ -174,7 +174,7 @@ keywords:
 <div class="columns">
 
 <div class="column cimg" style="text-align: left;">
-  <img src="/img/covid-img/c4.png" height="25%" />
+  <img src="https://artopen.netlify.app/img/covid-img/c4.png" height="25%" />
 </div>
 
 <div class="column cimg" id="maseczki"
@@ -182,7 +182,7 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 <p style="font-size:30px;">Medyczna maseczka<br><b>chirurgiczna</b>. </p>
 <br>
 <div style="text-align:center">
-<img src="/img/covid-img/a2.png" width="100px" />
+<img src="https://artopen.netlify.app/img/covid-img/a2.png" width="100px" />
 </div>
 <br>
 <div style="text-align:left">
@@ -214,7 +214,7 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
   </div>
 
   <div  style="width: 40%;text-align:right">
-  <img src="/img/covid-img/c5.png" height="25%" />
+  <img src="https://artopen.netlify.app/img/covid-img/c5.png" height="25%" />
   </div>
   <br>
 
@@ -222,7 +222,7 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 
 <div class="columns" style="margin-left:10%;margin-right:10%">
 <div class="column" style="text-align:center;">
-<img src="/img/covid-img/a3.png" width="100px" />
+<img src="https://artopen.netlify.app/img/covid-img/a3.png" width="100px" />
 </div>
 <div class="column">
 <p style="font-size:30px; text-align:right;">Certyfikowany żel<br><b>antybakteryjny do rąk</b>. </p>
@@ -241,7 +241,7 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 <br>
 <div class="columns">
 <div class="column" style="width:45%">
-<img src="/img/covid-img/c6.png" width="100%"/>
+<img src="https://artopen.netlify.app/img/covid-img/c6.png" width="100%"/>
 </div>
 <div class="column">
 <p style="text-align:left; font-size:40px; margin-bottom:50px"> Czy wiesz<br> <b>że...</b> </p>
