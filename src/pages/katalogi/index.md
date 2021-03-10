@@ -1,7 +1,7 @@
 ---
 templateKey: catalogs-page
 title: Katalogi
-meta_title: Katalogi | ArtOpen Studio
+meta_title: Katalogi 🌱 Art Open Sp. z o.o. | Agencja reklamowa 
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam

@@ -18,7 +18,7 @@ keywords:
   - Wrocław
   - agencja reklamowa
   - agencja multimedialna
-meta_title: Art Open | Agencja reklamowa - Wrocław - Kreator kalendarzy
+meta_title: Kreator kalendarzy 🌱 Blog | Art Open Sp. z o.o. 
 meta_description: >-
  Art Open | Agencja reklamowa - Wrocław - Wybierz przeszycie, rodzaj oprawy, szlufkę na długopis, patkę zamykaną na magnes i inne dodatki. Skomponuj swój autorski projekt kalendarza lub notesu.
 ---

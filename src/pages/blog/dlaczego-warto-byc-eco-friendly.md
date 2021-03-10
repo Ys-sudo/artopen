@@ -18,7 +18,7 @@ keywords:
   - Wrocław
   - agencja reklamowa
   - ekologia
-meta_title: Art Open | Agencja reklamowa - Wrocław - dlaczego warto być ECO?
+meta_title: Dlaczego warto być ECO? 🌱 Blog | Art Open Sp. z o.o. 
 meta_description: >-
  Art Open | Agencja reklamowa - Wrocław - Hasło eco-friendly znajduje uzasadnienie nie tylko w wymiarze etycznym, ale także finansowym! Prowadź ekologiczny biznes - dołącz do odpowiedzialnych. .
 ---

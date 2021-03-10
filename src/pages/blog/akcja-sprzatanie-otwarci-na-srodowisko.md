@@ -17,7 +17,7 @@ keywords:
   - środowisko
   - Wrocław
   - recykling
-meta_title: Art Open | Agencja reklamowa - Wrocław - Akcja sprzątanie - Otwarci na środowisko
+meta_title: Akcja sprzątanie 🌱 Blog | Art Open Sp. z o.o. 
 meta_description: >-
  Z roku na rok światowa konsumpcja nie maleje przez co rośnie również ilość wytwarzanych odpadów. Należy je segregować, aby mogły być poddane recyklingowi i otrzymać „drugie życie” zamiast trafić na wysypisko śmieci.
 ---

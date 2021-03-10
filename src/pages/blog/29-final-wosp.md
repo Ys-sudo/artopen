@@ -20,7 +20,7 @@ keywords:
   - akcje charytatywne
   - agencja reklamowa
   - agencja multimedialna
-meta_title: Art Open | Agencja reklamowa - Wrocław - 29. finał WOŚP
+meta_title: Agencja reklamowa 🌱 Art Open Sp. z o.o. | Blog | 29. finał WOŚP
 meta_description: >-
  Art Open | Agencja reklamowa - Wrocław - Przekazaliśmy na aukcję dla 29 finału unikatowy kalendarz książkowy z papierem z kamienia w środku.
 ---

@@ -16,7 +16,7 @@ keywords:
   - agencja reklamowa
   - Art Open
   - Wrocław
-meta_title: Art Open | Agencja reklamowa - Wrocław - Akcja charytatywna Gaszyn Challange
+meta_title: Akcja charytatywna Gaszyn Challange 🌱 Blog | Art Open Sp. z o.o.
 meta_description: >-
  Art Open | Agencja reklamowa - Wrocław - Akcja charytatywna Gaszyn Challange
  Otrzymaliśmy nominację do wzięcia udziału w szlachetnej akcji, w którą zaangażowała się cała Polska. Dziękujemy firmie Hunters oraz Marce Pier Luigi 1993 za zaproszenie nas do wyzwania.

@@ -38,7 +38,7 @@ const BlogPage = (props) => {
   return (
     <Layout>
       <Helmet htmlAttributes={{ lang : 'pl-pl', dir:'ltr' }}>
-        <title>Blog | ArtOpen</title>
+        <title>Blog 🌱 Art Open Sp. z o.o. | Agencja reklamowa </title>
         {/* Schema.org tags */}
         <script type='application/ld+json'>
           {JSON.stringify(websiteSchemaOrgJSONLD)}

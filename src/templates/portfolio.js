@@ -38,7 +38,7 @@ const PortfolioPage = (props) => {
   return (
     <Layout>
       <Helmet htmlAttributes={{ lang : 'pl-pl', dir:'ltr' }}>
-        <title>Portfolio | ArtOpen</title>
+        <title>Portfolio 🌱 Art Open Sp. z o.o. | Agencja reklamowa </title>
         {/* Schema.org tags */}
         <script type='application/ld+json'>
           {JSON.stringify(websiteSchemaOrgJSONLD)}

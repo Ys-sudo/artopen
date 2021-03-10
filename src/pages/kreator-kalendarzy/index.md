@@ -1,7 +1,7 @@
 ---
 templateKey: kreator-page
 title: Kreator kalendarzy
-meta_title: Kreator kalendarzy | ArtOpen Studio
+meta_title: Kreator kalendarzy 🌱 Agencja reklamowa | Art Open Sp. z o.o.
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam

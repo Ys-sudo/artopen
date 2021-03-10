@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 title: O nas
-meta_title: O nas | ArtOpen Studio
+meta_title: O nas 🌱 Art Open Sp. z o.o. | Agencja reklamowa 
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam

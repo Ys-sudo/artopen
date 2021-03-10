@@ -1,7 +1,7 @@
 ---
 templateKey: work-page
 title: Praca
-meta_title: Praca | ArtOpen Studio
+meta_title: Praca 🌱 Art Open Sp. z o.o. | Agencja reklamowa 
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam

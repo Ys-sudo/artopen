@@ -24,7 +24,7 @@ const OfertaPage = (props) => {
   return (
     <Layout>
       <Helmet htmlAttributes={{ lang : 'pl-pl', dir:'ltr' }}>
-        <title>Oferta | ArtOpen</title>
+        <title>Oferta 🌱 Art Open Sp. z o.o. | Agencja reklamowa </title>
         {/* Schema.org tags */}
         <script type='application/ld+json'>
           {JSON.stringify(websiteSchemaOrgJSONLD)}

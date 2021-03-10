@@ -17,7 +17,7 @@ keywords:
   - Wrocław
   - agencja reklamowa
   - agencja multimedialna
-meta_title: Art Open | Agencja reklamowa - Wrocław - Akcja charytatywna Gaszyn Challange
+meta_title: Diamentowy dystrybutor 🌱 Blog | Art Open Sp. z o.o. 
 meta_description: >-
  Art Open | Agencja reklamowa - Wrocław - Nasza agencja zdobyła certyfikat "DIAMENTOWY DYSTRYBUTOR" marki Pier Luigi oraz stonebook. Nagroda ta przyznawana jest za znajomość oferty, wysokie efekty sprzedażowe oraz wzorową obsługę Klienta.
 ---

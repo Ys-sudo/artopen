@@ -18,7 +18,7 @@ keywords:
   - Wrocław
   - agencja reklamowa
   - agencja reklamy
-meta_title: Art Open | Agencja reklamowa Wrocław - oferta pracy
+meta_title: Oferta pracy 🌱 Blog | Art Open Sp. z o.o. 
 meta_description: >-
   Agencja reklamowa Art Open Sp. z o.o. - Wrocław - poszukuje osoby do pracy na stanowisko: Specjalista ds. Sprzedaży i Obsługi Klienta - Język Niemiecki. Wyślij Nam swoje CV: rekrutacja@artopen.pl.
 ---
