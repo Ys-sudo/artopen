@@ -239,7 +239,7 @@ const NavBar = () => {
             <div style={{marginLeft:'5%',marginRight:'5%',paddingTop:'5%'}}>
 
                 <a className='button-green' style={{fontSize:'20px',position:'fixed',top:'1%',left:'1%'}} onMouseOver={modalDestroy} >&nbsp;x&nbsp;</a>
-              {/*  <ModalForm defer /> */}
+              <ModalForm /> 
 
                 <a className='button-green' onClick={topFunction} style={{position:'fixed',bottom:'1%',right:'1%'}}><img width="15px"  alt="backtotop" src='/img/angle-up.svg'/></a>
 

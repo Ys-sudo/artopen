@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'gatsby'
 
 
 
@@ -7,86 +7,86 @@ const OfferNav = () => {
 
   return (
 
-    <div className='offer-nav'>
+    <nav className='offer-nav'>
 
-      <a className='button-green ofnav' href='/covid-19/'>
+      <Link className='button-green ofnav' to='/covid-19/'>
       <img width="10px" className='icon-green'  alt="covid-19" src='/img/viruses.svg'/>
         COVID-19
-      </a>
+      </Link>
         <br />
-      <a className='button-green ofnav' href='/ekologia/'>
+      <Link className='button-green ofnav' to='/ekologia/'>
       <img width="10px" className='icon-green'  alt="ekologia" src='/img/leaf.svg'/>
         Ekologia
-      </a>
+      </Link>
       <br />
-      <a className='button-green ofnav' href='/branding/' >
+      <Link className='button-green ofnav' to='/branding/' >
       <img width="10px" className='icon-green'  alt="branding" src='/img/pencil-ruler.svg'/>
         Branding
-      </a>
+      </Link>
       <br />
-      <a className='button-green ofnav' href='/projektowanie-graficzne/' >
+      <Link className='button-green ofnav' to='/projektowanie-graficzne/' >
       <img width="10px" className='icon-green'  alt="branding" src='/img/pencil-alt.svg'/>
         Projektowanie graficzne
-      </a>
+      </Link>
       <br />
-      <a className='button-green ofnav' href='/strony-internetowe/' >
+      <Link className='button-green ofnav' to='/strony-internetowe/' >
       <img width="10px" className='icon-green'  alt="strony internetowe" src='/img/code.svg'/>
         Strony internetowe
-      </a>
+      </Link>
       <br />
-      <a className='button-green ofnav' href='/kalendarze-ksiazkowe/' >
+      <Link className='button-green ofnav' to='/kalendarze-ksiazkowe/' >
       <img width="10px" className='icon-green'  alt="kalendarze książkowe" src='/img/book.svg'/>
         Kalendarze książkowe
-      </a>
+      </Link>
       <br />
-      <a className='button-green ofnav' href='/kalendarze-firmowe/' >
+      <Link className='button-green ofnav' to='/kalendarze-firmowe/' >
       <img width="10px" className='icon-green'  alt="kalendarze firmowe" src='/img/calendar-alt.svg'/>
         Kalendarze firmowe
-      </a>
+      </Link>
       <br />
-      <a className='button-green ofnav' href='/gadzety/' >
+      <Link className='button-green ofnav' to='/gadzety/' >
       <img width="10px" className='icon-green'  alt="gadżety" src='/img/lightbulb.svg'/>
         Gadżety reklamowe 
-      </a>
+      </Link>
       <br />
-      <a className='button-green ofnav' href='/wydruki/' >
+      <Link className='button-green ofnav' to='/wydruki/' >
       <img width="10px" className='icon-green'  alt="wydruki" src='/img/map.svg'/>
         Wydruki reklamowe
-      </a>
+      </Link>
       <br />
-      <a className='button-green ofnav' href='/reklama-zewnetrzna/' >
+      <Link className='button-green ofnav' to='/reklama-zewnetrzna/' >
       <img width="10px" className='icon-green'  alt="reklama zewnętrzna" src='/img/object-ungroup.svg'/>
         Reklama zewnętrzna
-      </a>
+      </Link>
       <br />
-      <a className='button-green ofnav' href='/fotografia/' >
+      <Link className='button-green ofnav' to='/fotografia/' >
       <img width="10px" className='icon-green'  alt="fotografia" src='/img/camera-retro.svg'/>
         Fotografia produktowa
-      </a>
+      </Link>
       <br />
-      <a className='button-green ofnav' href='/wystawiennictwo/' >
+      <Link className='button-green ofnav' to='/wystawiennictwo/' >
       <img width="10px" className='icon-green'  alt="wystawiennictwo" src='/img/cubes.svg'/>
         Wystawiennictwo
-      </a>
+      </Link>
       <br />
-      <a className='button-green ofnav' href='/filmowanie/' >
+      <Link className='button-green ofnav' to='/filmowanie/' >
       <img width="10px" className='icon-green'  alt="filmowanie" src='/img/film.svg'/>
         Filmowanie
-      </a>
+      </Link>
       <br />
-      <a className='button-green ofnav' href='/opakowania/' >
+      <Link className='button-green ofnav' to='/opakowania/' >
       <img width="10px" className='icon-green'  alt="opakowania" src='/img/box-open.svg'/>
         Opakowania
-      </a>
+      </Link>
       <br />
-      <a  onLoad={ActiveBtn} className='button-green ofnav' href='/vr/' >
+      <Link  onLoad={ActiveBtn} className='button-green ofnav' to='/vr/' >
       <img width="10px" className='icon-green'  alt="VR" src='/img/vr-cardboard.svg'/>
         VR
-      </a>
+      </Link>
 
       <br />
 
-    </div>
+    </nav>
 
   )
 }

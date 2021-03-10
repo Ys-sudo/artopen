@@ -16,14 +16,11 @@ class OfferRoll extends React.Component {
 
         .filter(post => post.node.frontmatter.templateKey === 'offer-page')
         .map(({ node: post }) => (
-          <a className='offer'
+          <a className='offer' key={post.id}
           style={{margin:'1%',textAlign:'left',marginBottom:'30px',
           border:'1px solid #f5f5f5',borderRadius:'10px',padding:'10px'}}
           href={post.fields.slug+'/'}>
-          <div
-            key={post.id}
-          >
-
+          <div>
           <div style={{textAlign:'center'}}>
           <img alt={post.frontmatter.title} src={post.frontmatter.icon.publicURL}
           style={{width:'35px',height:'35px',marginBottom:'5px'}} />

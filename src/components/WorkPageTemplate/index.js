@@ -148,54 +148,54 @@ function changeTestminus() {
 
 const handleDragStart = (e) => e.preventDefault();
 {/*TODO:// when on wifi download +3 images*/}
-const items = [
+  const items = [
 
-  [<img src="/img/logo-svg/betafence.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/bieg-piastow.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/bny-mellon.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/ccc.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/careeflet.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/cargounit.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/chemeko.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/columbus.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />],
+    [<img src="/img/logo-svg/betafence.svg" key="k1" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/bieg-piastow.svg" key="k2" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/bny-mellon.svg" key="k3" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/ccc.svg" alt="" key="k4" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/careeflet.svg" key="k5" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/cargounit.svg" key="k6" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/chemeko.svg" key="k7" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/columbus.svg" key="k8" alt="" onDragStart={handleDragStart} className="sliderimg" />],
 
-  [<img src="/img/logo-svg/cooper.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/credit.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/de-dietrich.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/delavalh.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/diehl.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/donako.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/epore.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/fortum.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />],
+    [<img src="/img/logo-svg/cooper.svg" key="k9" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/credit.svg" key="k10" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/de-dietrich.svg" key="k11" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/delavalh.svg" key="k12" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/diehl.svg" key="k13" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/donako.svg" key="k14" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/epore.svg" key="k15" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/fortum.svg" key="k16" alt="" onDragStart={handleDragStart} className="sliderimg" />],
 
-  [<img src="/img/logo-svg/gazoprojekt.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/inter-ubezpieczenia.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/intrum.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/kd.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/kghm.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/krause.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/lpgk.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/maco.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />],
+    [<img src="/img/logo-svg/gazoprojekt.svg" key="k17" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/inter-ubezpieczenia.svg" key="k18" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/intrum.svg" key="k19" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/kd.svg" key="k20" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/kghm.svg" key="k21" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/krause.svg" key="k22" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/lpgk.svg" key="k23" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/maco.svg" key="k24" alt="" onDragStart={handleDragStart} className="sliderimg" />],
 
-  [<img src="/img/logo-svg/ocado.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/pbi.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/posco.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/powiat.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/rawiplug.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/rotomat.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/sa.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/sweco.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />],
+    [<img src="/img/logo-svg/ocado.svg" key="k25" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/pbi.svg" key="k26" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/posco.svg" key="k27" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/powiat.svg" key="k28" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/rawiplug.svg" key="k29" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/rotomat.svg" key="k30" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/sa.svg" key="k31" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/sweco.svg" key="k32" alt="" onDragStart={handleDragStart} className="sliderimg" />],
 
-  [<img src="/img/logo-svg/telka.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/totalizator-sportowy.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/urtica.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/vintage.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/vw.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/wagony.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/womak.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />,
-  <img src="/img/logo-svg/zamek-topacz.svg" alt="" onDragStart={handleDragStart} className="sliderimg" />]
+    [<img src="/img/logo-svg/telka.svg" key="k33" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/totalizator-sportowy.svg" key="k34" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/urtica.svg" key="k35" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/vintage.svg" key="k36" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/vw.svg" key="k37" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/wagony.svg" key="k38" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/womak.svg" key="k39" alt="" onDragStart={handleDragStart} className="sliderimg" />,
+    <img src="/img/logo-svg/zamek-topacz.svg" key="k40" alt="" onDragStart={handleDragStart} className="sliderimg" />]
 
-];
+  ];
 
 
 
