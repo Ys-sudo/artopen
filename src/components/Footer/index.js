@@ -21,84 +21,84 @@ class Footer extends React.Component {
         <div className='column' style={{ padding:'5px',marginTop:'30px'}}>
           <h5><b>Oferta</b></h5>
           <br />
-          <a className='submenu-item' href='/covid-19/'>
+          <Link className='submenu-item' to='/covid-19/'>
           <img width="10px" className='icon-green'  alt="covid-19" src='/img/viruses.svg'/>
             Covid-19
-          </a>
+          </Link>
 
-          <a className='submenu-item' href='/ekologia/'>
+          <Link className='submenu-item' to='/ekologia/'>
           <img width="10px" className='icon-green'  alt="ekologia" src='/img/leaf.svg'/>
             Ekologia
-          </a>
+          </Link>
 
-          <a className='submenu-item' href='/branding/' >
+          <Link className='submenu-item' to='/branding/' >
           <img width="10px" className='icon-green'  alt="branding" src='/img/pencil-ruler.svg'/>
             Branding
-          </a>
+          </Link>
 
-          <a className='submenu-item' href='/projektowanie-graficzne/' >
+          <Link className='submenu-item' to='/projektowanie-graficzne/' >
           <img width="10px" className='icon-green'  alt="branding" src='/img/pencil-alt.svg'/>
             Projektowanie graficzne
-          </a>
+          </Link>
 
-          <a className='submenu-item' href='/strony-internetowe/' >
+          <Link className='submenu-item' to='/strony-internetowe/' >
           <img width="10px" className='icon-green'  alt="strony internetowe" src='/img/code.svg'/>
             Strony internetowe
-          </a>
+          </Link>
 
-          <a className='submenu-item' href='/kalendarze-ksiazkowe/' >
+          <Link className='submenu-item' to='/kalendarze-ksiazkowe/' >
           <img width="10px" className='icon-green'  alt="kalendarze książkowe" src='/img/book.svg'/>
             Kalendarze książkowe
-          </a>
+          </Link>
 
-          <a className='submenu-item' href='/kalendarze-firmowe/' >
+          <Link className='submenu-item' to='/kalendarze-firmowe/' >
           <img width="10px" className='icon-green'  alt="kalendarze firmowe" src='/img/calendar-alt.svg'/>
             Kalendarze firmowe
-          </a>
+          </Link>
 
-          <a className='submenu-item' href='/gadzety/' >
+          <Link className='submenu-item' to='/gadzety/' >
           <img width="10px" className='icon-green'  alt="gadżety" src='/img/lightbulb.svg'/>
             Gadżety reklamowe 
-          </a>
+          </Link>
 
           </div>
           <div className='column removespace' style={{padding:'5px',marginTop:'30px'}}>
           <br /><br />
 
-          <a className='submenu-item' href='/wydruki/' >
+          <Link className='submenu-item' to='/wydruki/' >
           <img width="10px" className='icon-green'  alt="wydruki" src='/img/map.svg'/>
             Wydruki reklamowe
-          </a>
+          </Link>
 
-          <a className='submenu-item' href='/reklama-zewnetrzna/' >
+          <Link className='submenu-item' to='/reklama-zewnetrzna/' >
           <img width="10px" className='icon-green'  alt="reklama zewnętrzna" src='/img/object-ungroup.svg'/>
             Reklamy outdoor
-          </a>
+          </Link>
 
-          <a className='submenu-item' href='/fotografia/' >
+          <Link className='submenu-item' to='/fotografia/' >
           <img width="10px" className='icon-green'  alt="fotografia" src='/img/camera-retro.svg'/>
             Fotografie produktowe
-          </a>
+          </Link>
 
-          <a className='submenu-item' href='/wystawiennictwo/' >
+          <Link className='submenu-item' to='/wystawiennictwo/' >
           <img width="10px" className='icon-green'  alt="wystawiennictwo" src='/img/cubes.svg'/>
             Systemy wystawiennicze
-          </a>
+          </Link>
 
-          <a className='submenu-item' href='/filmowanie/' >
+          <Link className='submenu-item' to='/filmowanie/' >
           <img width="10px" className='icon-green'  alt="filmowanie" src='/img/film.svg'/>
             Filmy reklamowe
-          </a>
+          </Link>
 
-          <a className='submenu-item' href='/opakowania/' >
+          <Link className='submenu-item' to='/opakowania/' >
           <img width="10px" className='icon-green'  alt="opakowania" src='/img/box-open.svg'/>
             Opakowania
-          </a>
+          </Link>
 
-          <a className='submenu-item' href='/vr/' >
+          <Link className='submenu-item' to='/vr/' >
           <img width="10px" className='icon-green'  alt="VR" src='/img/vr-cardboard.svg'/>
             Wirtualna rzeczywistość
-          </a>
+          </Link>
           </div>
 
         <div className='column' style={{marginTop:'20px'}}>
@@ -108,9 +108,9 @@ class Footer extends React.Component {
             posts.slice(0,8)
             .filter(post => post.node.frontmatter.templateKey === 'article-page')
             .map(({ node: post }) => (
-              <a className='submenu-item' key={post.id} href={post.fields.slug+'/'} >
+              <Link className='submenu-item' key={post.id} to={post.fields.slug+'/'} >
                 {post.frontmatter.title}
-              </a>
+              </Link>
           ))}
 
         </div>
@@ -125,12 +125,12 @@ class Footer extends React.Component {
           <br />
 
 
-          <a href="tel:+48 71 728 29 13" className='submenu-item' style={{textDecoration:'underline'}}>
-          <img width="10px" className='icon-green'  alt="email" src='/img/phone.svg'/>Tel: +48 71 728 29 13</a>
+          <Link to="tel:+48 71 728 29 13" className='submenu-item' style={{textDecoration:'underline'}}>
+          <img width="10px" className='icon-green'  alt="email" src='/img/phone.svg'/>Tel: +48 71 728 29 13</Link>
 
 
-          <a href="mailto:biuro@artopen.pl" className='submenu-item' style={{textDecoration:'underline'}}>
-          <img width="10px" className='icon-green'  alt="email" src='/img/paper-plane.svg'/>biuro@artopen.pl</a>
+          <Link to="mailto:biuro@artopen.pl" className='submenu-item' style={{textDecoration:'underline'}}>
+          <img width="10px" className='icon-green'  alt="email" src='/img/paper-plane.svg'/>biuro@artopen.pl</Link>
 
 
           <br />
@@ -165,7 +165,7 @@ class Footer extends React.Component {
 
          {/*}//TODO: Google play badge
           <br /><h5 style={{marginTop:'20px'}}><b>Aplikacja</b></h5>
-          <a href='http://play.google.com/store/?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img className="oimg" alt='pobierz z Google Play' style={{maxWidth:'150px'}} src='https://play.google.com/intl/en_us/badges/static/images/badges/pl_badge_web_generic.png'/></a>
+          <Link to='http://play.google.com/store/?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img className="oimg" alt='pobierz z Google Play' style={{maxWidth:'150px'}} src='https://play.google.com/intl/en_us/badges/static/images/badges/pl_badge_web_generic.png'/></Link>
           */}
         </div>
 
@@ -195,9 +195,9 @@ class Footer extends React.Component {
           <br />
           <br />
           <p style={{color:'white',fontSize:'12px'}}>
-            {config.copyright} | <a className='link-green' target="_blank"  href="/polityka-prywatnosci/"> Polityka prywatności </a>
-            | <a className='link-green' href="/polityka-prywatnosci#cookies/"> Pliki Cookies </a>
-            | <a className='link-green' target="_blank" href="/sitemap.xml/"> Mapa strony </a>
+            {config.copyright} | <Link className='link-green' target="_blank"  to="/polityka-prywatnosci/"> Polityka prywatności </Link>
+            | <Link className='link-green' to="/polityka-prywatnosci#cookies"> Pliki Cookies </Link>
+            | <Link className='link-green' target="_blank" to="/sitemap.xml/"> Mapa strony </Link>
           </p>
 
         </div>
@@ -207,7 +207,7 @@ class Footer extends React.Component {
       style={{display:'none',position:'fixed',right:'2px',
       bottom:'4px',padding:'4px', width:'27px',textAlign:'center',
       height:'27px',backgroundColor:'#111111',borderRadius:'5px'}}>
-      <a href="#"><img width="20px"  alt="backtotop" src='/img/angle-up.svg'/></a>
+      <Link to="#"><img width="20px"  alt="backtotop" src='/img/angle-up.svg'/></Link>
     </div>
 
 
