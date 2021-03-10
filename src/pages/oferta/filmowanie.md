@@ -10,7 +10,7 @@ subtitle: Filmy reklamowe
 tags:
   - Studio Reklamy
   - agencja interaktywna
-meta_title: tytuł meta
+meta_title: Filmowanie, montaż, animacja 🌱 Agencja reklamowa | Art Open Sp. z o.o.
 meta_description: opis meta
 keywords:
   - Studio Reklamy

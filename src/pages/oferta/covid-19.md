@@ -13,7 +13,7 @@ tags:
   - artykuły przeciwbakteryjne
   - Maseczki
 
-meta_title: Art Open | Agencja reklamowa - Wrocław - Covid-19, artykuły przeciwbakteryjne, dezynfekcja, maseczki
+meta_title: Covid-19 🌱 maseczki z logo, artykuły przeciwbakteryjne, dezynfekcja | Agencja reklamowa | Art Open Sp. z o.o.
 meta_description: >-
  Covid-19 Art Open | Agencja reklamowa - Wrocław - Trudna sytuacja pandemiczna wymaga od nas odpowiedzialności nie tylko za siebie ale także za ludzi wokół nas. Najlepszym sposobem uniknięcia zarażenia COVID-19 i nie tylko, jest zapobieganie. Maseczki, środki do dezynfekcji, żele antybakteryjne.
 keywords:

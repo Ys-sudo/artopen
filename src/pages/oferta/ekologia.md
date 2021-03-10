@@ -11,7 +11,7 @@ tags:
   - ekologia
   - agencja reklamowa
   - recykling
-meta_title: Art Open | Agencja reklamowa - Wrocław - Ekologia, produkty z tworzyw odnawialnych.
+meta_title: Ekologiczne produkty 🌱  Agencja reklamowa | Art Open Sp. z o.o.
 meta_description: >-
  Ekologia | Art Open | Agencja reklamowa - Wrocław - Przedstawiamy w naszej ofercie szereg artykułów, które doskonale wpisują się w plan ochrony środowiska naturalnego. Wykonane z dobrych, naturalnych materiałów lub podlegających recyklingowi, nie obciążają już i tak mocno wyeksploatowanej natury.
 keywords:

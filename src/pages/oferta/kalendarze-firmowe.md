@@ -10,8 +10,8 @@ subtitle: Kalendarze drukowane
 tags:
   - Studio Reklamy
   - agencja interaktywna
-meta_title: tytuł meta
-meta_description: opis meta
+meta_title: Kalendarze drukowane 2021 🌱 Agencja reklamowa | Art Open Sp. z o.o.
+meta_description: Branding, identyfikacja wizualna, budowanie wizerunku marki 🌳 Agencja reklamowa Art Open | Identyfikacja wizualna to system służący kreowaniu wizerunku firmy bądź marki. Składają się na niego symbole graficzne i ich ściśle określone zastosowanie a także zasady postępowania w firmie, których zadaniem jest wygenerowanie spójnej i czytelnej identyfikacji rynkowej.
 keywords:
   - Studio Reklamy
   - agencja interaktywna

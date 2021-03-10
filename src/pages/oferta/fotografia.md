@@ -10,7 +10,7 @@ subtitle: Fotografia
 tags:
   - Fotografia
   - agencja reklamowa
-meta_title: Art Open | Agencja reklamowa - Wrocław - Branding, identyfikacja wizualna, projektowanie graficzne
+meta_title: Fotografia - Fotografika 🌱  Agencja reklamowa | Art Open Sp. z o.o.
 meta_description: >-
  Fotografia | Art Open | Agencja reklamowa - Wrocław - Udokumentujemy na fotografii twoje produkty, wydarzenia, czy osoby. Stworzymy zdjęcia o niepowtarzalnej atmosferze. Zdjęcia produktowe będą oddawać najlepsze walory Twojego produktu.
 keywords:

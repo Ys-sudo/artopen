@@ -11,17 +11,15 @@ tags:
   - branding
   - agencja reklamowa
   - identyfikacja wizualna
-meta_title: Branding | Agencja reklamowa | Art Open - identyfikacja wizualna, projektowanie graficzne, budowanie wizerunku marki, strony internetowe
+meta_title: Branding 🌱 identyfikacja wizualna | Agencja reklamowa | Art Open Sp. z o.o.
 meta_description: >-
- Branding | Agencja reklamowa | Art Open - Identyfikacja wizualna to system służący kreowaniu wizerunku firmy bądź marki. Składają się na niego symbole graficzne i ich ściśle określone zastosowanie a także zasady postępowania w firmie, których zadaniem jest wygenerowanie spójnej i czytelnej identyfikacji rynkowej.
+ Branding, identyfikacja wizualna, budowanie wizerunku marki 🌳 Agencja reklamowa Art Open | Identyfikacja wizualna to system służący kreowaniu wizerunku firmy bądź marki. Składają się na niego symbole graficzne i ich ściśle określone zastosowanie a także zasady postępowania w firmie, których zadaniem jest wygenerowanie spójnej i czytelnej identyfikacji rynkowej.
 keywords:
   - branding
   - identyfikacja wizualna
   - agencja reklamowa
   - ekologia
   - projektowanie graficzne
-  - Wrocław
-  - Art Open
   - strony internetowe
 ---
 <div style="margin-left:10%;margin-right:10%">

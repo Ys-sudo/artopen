@@ -8,14 +8,22 @@ cover: /img/offer-headers/strony-internetowe.jpg
 icon: /img/laptop-code.svg
 subtitle: Strony internetowe
 tags:
-  - Studio Reklamy
-  - agencja interaktywna
-meta_title: tytuł meta
-meta_description: opis meta
+  - strony internetowe
+  - sklepy internetowe
+  - projekty VR
+  - projekty 3D
+  - aplikacje web
+meta_title: Strony internetowe 🌱 e-commerce, aplikacje | Agencja reklamowa | Art Open Sp. z o.o.
+meta_description: Strony internetowe, sklepy e-commerce, aplikacje mobilne i web. 🌳 Agencja reklamowa Art Open | Zaprogramowane do Twoich potrzeb. Wykorzystujemy nowoczesne frameworki i technologie realizując założone targety. Przeprowadzimy audyt Twojej obecnej strony gratis, zadbamy o serwer oraz regularny backup, zapewniamy opiekę techniczną nad projektem. Nie zwlekaj poznaj pełną ofertę.
 keywords:
-  - Studio Reklamy
-  - agencja interaktywna
-  - ekologia
+  - strony internetowe
+  - sklepy internetowe
+  - aplikacje web
+  - VR
+  - android
+  - e-commerce
+  - web design
+  - web development
 ---
 
 <div style="margin-left:10%;margin-right:10%">

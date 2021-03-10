@@ -1,16 +1,26 @@
 ---
 templateKey: 'home-page'
 title: Multimedialne Studio Reklamy - Art Open
-meta_title: Home | ArtOpen Studio Reklamy
+meta_title: Agencja reklamowa 🌱 Art Open Sp. z o.o.
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
-heading: Ekologia, gadżety, projektowanie graficzne, programowanie i dużo, dużo więcej!
+  Agencja reklamowa 🌳 Art Open - covid-19, ekologia, branding, strony i sklepy internetowe, aplikacje, projektowanie graficzne, kalendarze książkowe, gadżety reklamowe, wydruki, reklama zewnętrzna, fotografie, filmowanie, animacje i montaż, systemy wystawiennicze, opakowania, projekty VR i 3D. Zapraszamy do zapoznania się ze szczegółami naszej działalności!
+heading: Agencja reklamowa realizująca projekty multimedialne oraz kampanie reklamowe.
 keywords:
-  - Studio Reklamy
-  - agencja interaktywna
-  - ekologia
+  - agencja reklamowa
+  - branding
+  - strony internetowe
+  - sklepy internetowe
+  - aplikacje
+  - projektowanie graficzne
+  - kalendarze książkowe
+  - gadżety
+  - wydruki
+  - reklama
+  - fotografia
+  - filmowanie
+  - wystawiennictwo
+  - opakowania
+  - vr
+  - 3D
 
 ---

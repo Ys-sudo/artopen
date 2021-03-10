@@ -10,7 +10,7 @@ subtitle: Systemy wystawiennicze
 tags:
   - Studio Reklamy
   - agencja interaktywna
-meta_title: tytuł meta
+meta_title: Wystawiennictwo 🌱 Agencja reklamowa | Art Open Sp. z o.o.
 meta_description: opis meta
 keywords:
   - Studio Reklamy
