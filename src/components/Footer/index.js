@@ -197,7 +197,7 @@ class Footer extends React.Component {
           <p style={{color:'white',fontSize:'12px'}}>
             {config.copyright} | <Link className='link-green' target="_blank"  to="/polityka-prywatnosci/"> Polityka prywatności </Link>
             | <Link className='link-green' to="/polityka-prywatnosci#cookies"> Pliki Cookies </Link>
-            | <a className='link-green' target="_blank" href="https://artopen.netlify.app/sitemap.xml/"> Mapa strony </href>
+            | <a className='link-green' target="_blank" href="https://artopen.netlify.app/sitemap.xml/"> Mapa strony </a>
           </p>
 
         </div>
