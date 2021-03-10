@@ -143,11 +143,11 @@ class Footer extends React.Component {
           <h5><b>Art Open Sp. z o.o.</b></h5>
           <br />
 
-          <p className='submenu-item'>NIP: 8943 13 39 19</p>
+          <p className='submenu-item'>NIP: 8943133919</p>
 
           <p className='submenu-item'>REGON: 381593714</p>
 
-          <p className='submenu-item'>KRS: 0000 75 19 13</p>
+          <p className='submenu-item'>KRS: 0000751913</p>
 
           <br />
           <p className='control'>
