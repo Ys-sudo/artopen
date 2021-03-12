@@ -261,16 +261,18 @@ function setdarkMode(){
     global.localStorage.setItem('theme', 'dracula');
     console.log(global.localStorage.getItem('theme'));
     darkMode();
-    document.getElementById('dark-mode-btn').innerText = 'tryb ciemny';
-    document.getElementById('dark-mode-img').src = '/img/moon.svg';
+    document.getElementById('dark-mode-btn').innerText = 'tryb jasny';
+    document.getElementById('dark-mode-img').src = '/img/sun.svg';
+
   } else {
     isDark = true;
     global.localStorage.setItem('theme', 'normal');
     console.log(global.localStorage.getItem('theme'));
     console.log(isDark);
     darkMode();
-    document.getElementById('dark-mode-btn').innerText = 'tryb jasny';
-    document.getElementById('dark-mode-img').src = '/img/sun.svg';
+    document.getElementById('dark-mode-btn').innerText = 'tryb ciemny';
+    document.getElementById('dark-mode-img').src = '/img/moon.svg';
+
   }
 }
 
@@ -281,9 +283,6 @@ function darkMode(){
   if (global.localStorage.getItem('theme')=='normal'){
   document.querySelector("nav").style.backgroundColor = 'black';
   document.getElementsByClassName("navbar-item")[0].firstChild.src =  '/img/ArtOpen-white.svg';
-
-  document.getElementById('dark-mode-btn').innerText = 'tryb jasny';
-  document.getElementById('dark-mode-img').src = '/img/sun.svg';
 
   if (document.getElementById("logointro")!= null){
   document.getElementById("logointro").src =  '/img/ArtOpen-white.svg';
@@ -303,13 +302,12 @@ function darkMode(){
   else {
     document.querySelector("nav").style.backgroundColor = 'white';
     document.getElementsByClassName("navbar-item")[0].firstChild.src =  '/img/ArtOpen.svg';
+
     if (document.getElementById("logointro")!= null){
     document.getElementById("logointro").src =  '/img/ArtOpen.svg';
     }
-    document.querySelector("html").style.backgroundColor = 'white';
 
-    document.getElementById('dark-mode-btn').innerText = 'tryb ciemny';
-    document.getElementById('dark-mode-img').src = '/img/moon.svg';
+    document.querySelector("html").style.backgroundColor = 'white';
 
     for (let i=0;i<document.querySelectorAll('.full').lenght;i++){
     document.querySelectorAll('.full')[i].style.backgroundColor =  'white';

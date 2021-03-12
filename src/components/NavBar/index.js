@@ -274,9 +274,11 @@ function darkMode(){
   document.querySelector("nav").style.backgroundColor = 'black';
 
   document.getElementsByClassName("navbar-item")[0].firstChild.src =  '/img/ArtOpen-white.svg';
+
   if (document.getElementById("logointro")!= null){
   document.getElementById("logointro").src =  '/img/ArtOpen-white.svg';
   }
+
   document.querySelector("html").style.backgroundColor = 'black';
 
 
@@ -290,8 +292,6 @@ function darkMode(){
 
   document.getElementById('dark-mode-btn').innerText = 'tryb jasny';
   document.getElementById('dark-mode-img').src = '/img/sun.svg';
-
-
 
 
   }
