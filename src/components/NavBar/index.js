@@ -273,7 +273,10 @@ function darkMode(){
   if (global.localStorage.getItem('theme')=='normal'){
   document.querySelector("nav").style.backgroundColor = 'black';
 
-  document.getElementsByClassName("navbar-item")[0].firstChild.style.filter =  'invert(1)';
+  document.getElementsByClassName("navbar-item")[0].firstChild.src =  '/img/ArtOpen-white.svg';
+  if (document.getElementById("logointro")!= null){
+  document.getElementById("logointro").src =  '/img/ArtOpen-white.svg';
+  }
   document.querySelector("html").style.backgroundColor = 'black';
 
 
@@ -294,7 +297,10 @@ function darkMode(){
   }
   else {
     document.querySelector("nav").style.backgroundColor = 'white';
-    document.getElementsByClassName("navbar-item")[0].firstChild.style.filter =  'invert(0)';
+    document.getElementsByClassName("navbar-item")[0].firstChild.src =  '/img/ArtOpen.svg';
+    if (document.getElementById("logointro")!= null){
+    document.getElementById("logointro").src =  '/img/ArtOpen.svg';
+    }
     document.querySelector("html").style.backgroundColor = 'white';
 
     for (let i=0;i<document.getElementsByClassName("full").lenght;i++){

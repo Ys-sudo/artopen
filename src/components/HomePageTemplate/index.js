@@ -22,13 +22,13 @@ const HomePageTemplate = (props) => {
         <meta name='description' content={meta_description} />
         <meta name='keywords' content={keywords} />
       </Helmet>
-      <section className='hero is-primary is-bold is-medium'>
+      <section className='hero is-bold is-medium'>
         <div className='hero-body'>
           <div className='container'>
             <div className='columns'>
               <div className='column is-10 is-offset-1'>
                 <div className='section'>
-                  <img src="/img/ArtOpen-white.svg" style={{marginLeft:'-25px'}} width="400px"/>
+                  <img id="logointro" src="/img/ArtOpen.svg" style={{marginLeft:'-25px'}} width="400px"/>
                   <h1 className='title'>
                     {title}
                   </h1>
@@ -44,7 +44,7 @@ const HomePageTemplate = (props) => {
 
 
       <section className='hero is-primary is-bold'>
-        <div className='hero-body' style={{backgroundColor:'#333333'}}>
+        <div className='hero-body' style={{backgroundColor:'#111111'}}>
           <div className='container' style={{marginLeft:'auto',marginRight:'auto'}}>
             <div className='columns' style={{textAlign:'center'}}>
               <div className='column ofert'>

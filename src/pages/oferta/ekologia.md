@@ -203,11 +203,19 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 <div class="columns" style="padding-right:5%">
 
 <div class="column" style="justify-content: center; align-items: center;display:flex">
- <p style="font-size: 30px">Przykładowe produkty<br>z <b>łusek kawy</b>. </p>
+<div style="display:block">
+ <p style="font-size: 30px">Przykładowe produkty<br>z <b>łusek kawy</b>.</p>
+ <br>
+ <p style="margin-left:14px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Kubek termiczny Brazil White</p>
+ <br>
+ <p style="margin-left:14px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Kubek termiczny Brazil Mug</p>
+ <br>
+ <p style="margin-left:14px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Kubek termiczny Brazil</p>
+</div>
 </div>
 
 <div class="column" style="">
-<img src="https://artopen.netlify.app/img/eco-img/kubki.jpg" />
+<img src="http://localhost:8888/img/eco-img/kubki.png" />
 </div>
 
 </div>
@@ -220,7 +228,17 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 </div>
 
 <div class="column" style="justify-content: center; align-items: center;display:flex">
- <p style="font-size: 30px">Propozycje z zastosowaniem<br><b>biodegradowalnego bambusa</b>. </p>
+ <div style="display:block">
+  <p style="font-size: 30px">Propozycje z zastosowaniem<br><b>biodegradowalnego bambusa</b>. </p>
+  <br>
+  <p style="margin-left:14px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Stojak na smartphone i wzmacniacz Caracol</p>
+  <br>
+  <p style="margin-left:14px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Ładowarka indukcyjna</p>
+  <br>
+  <p style="margin-left:14px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Pendrive</p>
+  <br>
+  <p style="margin-left:14px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Głośnik bluetooth z ładowarką indukcyjną</p>
+ </div>
 </div>
 
 </div>
@@ -228,7 +246,15 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 <div class="columns" style="padding-right:5%">
 
 <div class="column" style="justify-content: center; align-items: center;display:flex">
- <p style="font-size: 30px">Gadżety wykonane ze <br><b>słomy pszenicznej</b>. </p>
+ <div style="display:block">
+  <p style="font-size: 30px">Gadżety wykonane ze <br><b>słomy pszenicznej</b>. </p>
+  <br>
+  <p style="margin-left:14px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Głośnik bluetooth</p>
+  <br>
+  <p style="margin-left:14px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Ładowarka indukcyjna Square</p>
+  <br>
+  <p style="margin-left:14px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Ładowarka indukcyjna Ring</p>
+ </div>
 </div>
 
 <div class="column" style="">
@@ -271,7 +297,12 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 
 
 <div class="column" style="justify-content: center; align-items: center;display:flex">
- <p style="font-size: 30px">Wodoodporny i wytrzymały<br><b>papier z kamienia</b>. </p>
+ <div style="display:block">
+  <p style="font-size: 30px">Wodoodporny i wytrzymały<br><b>papier z kamienia</b>. </p>
+  <br>
+  <p style="margin-left:14px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Znakowany ploterem notes z kamienia Stonebook</p>
+  <br>
+ </div>
 </div>
 
 </div>
@@ -318,12 +349,12 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 <div class="columns" style="padding-left:10%; margin-top:50px; padding-right:10%;width:100%">
 <div class="column">
 <p style="text-align:left; font-size:40px;"> Bądź
-<img src="/img/eco-icons/leaves.svg" width="100px" />
+<img src="/img/eco-icons/leaf.svg" width="100px" />
 <br><b>ECO smart!</b></p>
 </div>
 <div class="column">
 <p style="text-align:right; font-size:40px;">
-<img src="/img/covid-icons/like1.svg" width="100px" />
+<img src="/img/eco-icons/like.svg" width="100px" />
 Zapytaj nas
 <br><b>o pełną ofertę</b></p>
 </div>
