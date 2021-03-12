@@ -271,7 +271,13 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 </div>
 
 <div class="column" style="justify-content: center; align-items: center; display:flex">
+<div style="display:block">
  <p style="font-size:30px">Notesy w ekologicznych, papierowych oprawach<br>posiadające <b>certyfikat FSC</b>. </p>
+ <br>
+ <p style="margin-left:14px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wnętrze notesu może być także ekologiczne –
+wydrukowane na papierze z kamienia lub z trawy.</p>
+ <br>
+</div>
 </div>
 
 </div>
@@ -279,7 +285,12 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 <div class="columns" style="padding-left:5%">
 
 <div class="column" style="justify-content: center; align-items: center; display:flex">
+<div style="display:block">
  <p style="font-size:30px">Ekologiczny papier <br> produkowany z<b> włókien trawy</b>. </p>
+ <br>
+ <p style="margin-left:14px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Zestaw dwóch notesów Duo wyprodukowanych z ekologicznego papieru z włókien trawy.</p>
+ <br>
+</div>
 </div>
 
 <div class="column" style="">
