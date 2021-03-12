@@ -215,7 +215,7 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 </div>
 
 <div class="column" style="">
-<img src="http://localhost:8888/img/eco-img/kubki.png" />
+<img src="https://artopen.netlify.app/img/eco-img/kubki.png" />
 </div>
 
 </div>
@@ -224,7 +224,7 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 <div class="columns" style="padding-left:5%">
 
 <div class="column" style="">
-<img src="https://artopen.netlify.app/img/eco-img/bambus.jpg" />
+<img src="https://artopen.netlify.app/img/eco-img/bambus.png" />
 </div>
 
 <div class="column" style="justify-content: center; align-items: center;display:flex">
@@ -258,7 +258,7 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 </div>
 
 <div class="column" style="">
-<img src="https://artopen.netlify.app/img/eco-img/slomapsz.jpg" />
+<img src="https://artopen.netlify.app/img/eco-img/slomapsz.png" />
 </div>
 
 </div>
@@ -267,7 +267,7 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 <div class="columns" style="padding-right:5%">
 
 <div class="column" style="">
-<img src="https://artopen.netlify.app/img/eco-img/notes.jpg" />
+<img src="https://artopen.netlify.app/img/eco-img/notes.png" />
 </div>
 
 <div class="column" style="justify-content: center; align-items: center; display:flex">
@@ -283,7 +283,7 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 </div>
 
 <div class="column" style="">
-<img src="https://artopen.netlify.app/img/eco-img/duo.jpg" />
+<img src="https://artopen.netlify.app/img/eco-img/duo.png" />
 </div>
 
 </div>
@@ -291,7 +291,7 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 <div class="columns" style="padding-right:5%">
 
 <div class="column" style="">
-<img src="https://artopen.netlify.app/img/eco-img/stonebook.jpg" />
+<img src="https://artopen.netlify.app/img/eco-img/stonebook.png" />
 </div>
 
 
