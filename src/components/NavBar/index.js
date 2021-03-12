@@ -64,10 +64,10 @@ const NavBar = () => {
             }
         `}
       render={data => (
-        <nav onLoad={checkLoad} className='navbar is-fixed-top' id='bignav' onMouseLeave={hideSubMenu} aria-label='main navigation'>
+        <nav className='navbar is-fixed-top' id='bignav' onMouseLeave={hideSubMenu} aria-label='main navigation'>
           <div className='navbar-brand'>
             <Link to='/' className='navbar-item' style={{marginLeft:'10px'}}>
-              <img width="100px" style={{transform:'scale(1.3)'}} src='/img/ArtOpen.svg' alt="ArtOpen multimedialna agencja reklamowa" />
+              <img onLoad={checkLoad} width="100px" style={{transform:'scale(1.3)'}} src='/img/ArtOpen.svg' alt="ArtOpen multimedialna agencja reklamowa" />
             </Link>
             <button
               className={`button navbar-burger ${active ? 'is-active' : ''}`}
