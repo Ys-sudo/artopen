@@ -10,10 +10,10 @@ const GalleryTemplate = (props) => {
 
   return (
     <>
-    <div style={{backgroundImage:'url('+cover.publicURL+')',backgroundSize:'cover',backgroundAttachment:'fixed',paddingTop:'30%'}}
-      className="imgcont"
+    <div className="imgcont"
+    style={{backgroundImage:'url('+cover.publicURL+')',backgroundSize:'cover',backgroundAttachment:'fixed',marginTop:'2%',paddingBottom:'2%',paddingTop:'30%',marginLeft:'10%',marginRight:'10%'}}
     >
-      <div className='portitle' >
+      <div className='portitle'>
       <h1 className='title is-size-2 has-text-weight-bold is-bold-light'>
         {title}
       </h1>
