@@ -42,7 +42,7 @@ const GalleryCard = (props) => {
         rest[i].style.display = 'none';
       }
 
-      for (let i =0;i<all.length;i++){
+      for (let i =0;i<Linkll.length;i++){
         all[i].style.display = 'block';
       }
 
@@ -83,7 +83,7 @@ const GalleryCard = (props) => {
         .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
         .slice(0,1)
         .map(({ node: post }) => (
-          <a  href={post.fields.slug+'/'}
+          <Link  to={post.fields.slug+'/'}
           className={post.frontmatter.category + ' portfo'+' forty8' + ' i350'}
           key={post.id}
           style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
@@ -105,7 +105,7 @@ const GalleryCard = (props) => {
             </div>
 
 
-          </a>
+          </Link>
         ))}
 
         {posts
@@ -113,7 +113,7 @@ const GalleryCard = (props) => {
           .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
           .slice(1,3)
           .map(({ node: post }) => (
-            <a  href={post.fields.slug+'/'}
+            <Link  to={post.fields.slug+'/'}
             className={post.frontmatter.category + ' portfo' + ' twenty1'+' i350'}
             key={post.id}
             style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
@@ -134,14 +134,14 @@ const GalleryCard = (props) => {
               </div>
               </div>
 
-            </a>
+            </Link>
           ))}
           <div className='flexWrapper'>
           {posts
             .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
             .slice(3,5)
             .map(({ node: post }) => (
-              <a  href={post.fields.slug+'/'}
+              <Link  to={post.fields.slug+'/'}
               className={post.frontmatter.category + ' portfo'+' twenty2'+' i160'}
               key={post.id}
               style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
@@ -162,7 +162,7 @@ const GalleryCard = (props) => {
                 </div>
                 </div>
 
-              </a>
+              </Link>
 
             ))}
 
@@ -170,7 +170,7 @@ const GalleryCard = (props) => {
               .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
               .slice(6,8)
               .map(({ node: post }) => (
-                <a  href={post.fields.slug+'/'}
+                <Link  to={post.fields.slug+'/'}
                 className={post.frontmatter.category + ' portfo'+' twenty2'+' i160'}
                 key={post.id}
                 style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
@@ -191,14 +191,14 @@ const GalleryCard = (props) => {
                   </div>
                   </div>
 
-                </a>
+                </Link>
               ))}
             </div>
             {posts
               .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
               .slice(5,6)
               .map(({ node: post }) => (
-                <a  href={post.fields.slug+'/'}
+                <Link  to={post.fields.slug+'/'}
                 className={post.frontmatter.category + ' portfo'+' forty5'+' i350'}
                 key={post.id}
                 style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
@@ -219,7 +219,7 @@ const GalleryCard = (props) => {
                   </div>
                   </div>
 
-                </a>
+                </Link>
               ))}
 
 
@@ -228,7 +228,7 @@ const GalleryCard = (props) => {
                   .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
                   .slice(8,9)
                   .map(({ node: post }) => (
-                    <a  href={post.fields.slug+'/'}
+                    <Link  to={post.fields.slug+'/'}
                     className={post.frontmatter.category + ' portfo'+' forty8' + ' i250'}
                     key={post.id}
                     style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}
@@ -249,7 +249,7 @@ const GalleryCard = (props) => {
                       </div>
                       </div>
 
-                    </a>
+                    </Link>
 
                   ))}
 
@@ -257,7 +257,7 @@ const GalleryCard = (props) => {
                     .filter(post => post.node.frontmatter.templateKey === 'gallery-page')
                     .slice(9,11)
                     .map(({ node: post }) => (
-                      <a  href={post.fields.slug+'/'}
+                      <Link  to={post.fields.slug+'/'}
                       className={post.frontmatter.category + ' portfo' +' twenty1'+' i250'}
                       key={post.id}
                       style={{backgroundImage:'url('+post.frontmatter.cover.publicURL+')'}}>
@@ -277,7 +277,7 @@ const GalleryCard = (props) => {
                         </div>
                         </div>
 
-                      </a>
+                      </Link>
 
                     ))}
 

@@ -91,7 +91,7 @@ const GalleryPage = (props) => {
         <PortfolioRoll2 />
         <br />
         <br />
-        <a className='button-green' style={{fontSize:'18px'}} href='/portfolio/'> Wróć do portfolio &nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+        <Link className='button-green' style={{fontSize:'18px'}} to='/portfolio/'> Wróć do portfolio &nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </Link>
         <br />
       </div>
       <ModalCall />
