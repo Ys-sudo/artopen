@@ -21,7 +21,7 @@ const OfferTemplate = (props) => {
     <div style={{backgroundImage:'url('+cover.publicURL+')',backgroundSize:'cover',backgroundAttachment:'fixed'}}
       className="offimg"
     >
-    <a href='#content' onClick={test}>
+    <Link to='#content' onClick={test}>
     <div className='ofintro'>
 
       <div style={{textAlign:'center'}}>
@@ -54,7 +54,7 @@ const OfferTemplate = (props) => {
 
 
     </div>
-    </a>
+    </Link>
     </div>
 
       <br></br>
@@ -78,11 +78,11 @@ const OfferTemplate = (props) => {
         <br />
 
         <div className='bottomUi' style={{textAlign:'center',marginBottom:'30px',marginLeft:'20px'}}>
-        <a className='button-green' style={{fontSize:'15px'}} href='/portfolio/'> Zobacz nasze realizacje&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+        <Link className='button-green' style={{fontSize:'15px'}} to='/portfolio/'> Zobacz nasze realizacje&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </Link>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a className='button-green' style={{fontSize:'15px'}} href='/blog/'> Poczytaj bloga&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+        <Link className='button-green' style={{fontSize:'15px'}} to='/blog/'> Poczytaj bloga&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </Link>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a className='button-green' style={{fontSize:'15px'}} href='/kontakt/'> Skontaktuj się z nami&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+        <Link className='button-green' style={{fontSize:'15px'}} to='/kontakt/'> Skontaktuj się z nami&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </Link>
         </div>
 
         <div style={{marginTop: `2rem`, marginLeft:'5%'}}>

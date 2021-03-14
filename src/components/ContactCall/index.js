@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'gatsby'
 const ContactCall = () => {
 
   return (
@@ -17,7 +17,7 @@ const ContactCall = () => {
           </div>
         </div>
         <div style={{textAlign:'center'}}>
-          <a className='button-white' style={{fontSize:'14px',fontWeight:'800'}} href="/kontakt/" > Skontaktuj się z nami! &nbsp;&nbsp; <img width="15px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="brief" src='/img/angle-right.svg'/> </a>
+          <Link className='button-white' style={{fontSize:'14px',fontWeight:'800'}} to="/kontakt/" > Skontaktuj się z nami! &nbsp;&nbsp; <img width="15px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="brief" src='/img/angle-right.svg'/> </Link>
         </div>
       </div>
 

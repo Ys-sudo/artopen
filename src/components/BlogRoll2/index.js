@@ -24,9 +24,9 @@ class BlogRoll2 extends React.Component {
             </Link>
             <div className='blogpostroll' >
               <div className='tagline3'>
-              <a className="categblog" style={{fontSize:'12px'}} href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(0,1)} </a>
+              <Link className="categblog" style={{fontSize:'12px'}} to={post.fields.slug+'/'}> {post.frontmatter.tags.slice(0,1)} </Link>
               &nbsp;&nbsp;
-              <a className="categblog" style={{fontSize:'12px'}} href={post.fields.slug+'/'}> {post.frontmatter.tags.slice(1,2)} </a>
+              <Link className="categblog" style={{fontSize:'12px'}} to={post.fields.slug+'/'}> {post.frontmatter.tags.slice(1,2)} </Link>
               </div>
 
               <p>

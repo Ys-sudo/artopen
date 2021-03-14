@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { Link } from 'gatsby'
 import Offerings from '../Offerings'
 import Testimonials from '../Testimonials'
 import PropTypes from 'prop-types'
@@ -21,6 +22,8 @@ const HomePageTemplate = (props) => {
         <title>{meta_title}</title>
         <meta name='description' content={meta_description} />
         <meta name='keywords' content={keywords} />
+        <link rel="preload" as="image" href="img/sun.svg" />
+        <link rel="preload" as="image" href="img/moon.svg" />
       </Helmet>
       <section className='hero is-bold is-medium'>
         <div className='hero-body'>
@@ -53,33 +56,33 @@ const HomePageTemplate = (props) => {
 
 
               <div className='column columns covidoffer' style={{marginTop:'20px',minWidth:'60%'}}>
-              <a href="/covid-19#maseczki" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
+              <Link to="/covid-19#maseczki" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
                 <div >
                 <img width="40px"  style={{verticalAlign:'middle'}}   alt="maseczki" src='/img/maseczki.svg'/>
                 <br /><br />
                 <h3 style={{color:'white'}}>maseczki</h3>
                 </div>
-              </a>
-              <a href="/covid-19#przylbice" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
+              </Link>
+              <Link to="/covid-19#przylbice" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
                 <div >
                 <img width="40px"  style={{verticalAlign:'middle'}}   alt="przyłbice" src='/img/przylbice.svg'/>
                 <br /><br />
                 <h3 style={{color:'white'}}>przyłbice</h3>
                 </div>
-              </a>
-              <a href="/covid-19#produkty-antybakteryjne" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
+              </Link>
+              <Link to="/covid-19#produkty-antybakteryjne" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
                 <div>
                 <img width="40px"  style={{verticalAlign:'middle'}}   alt="dezynfekcja" src='/img/dezynfekcja.svg'/>
                 <br /><br />
                 <h3 style={{color:'white'}}>dezynfekcja</h3>
                 </div>
-              </a>
+              </Link>
               </div>
               <div className='column'>
               <br />
-              <a className='button-white' href='/covid-19/' ><b>sprawdź</b> &nbsp;&nbsp;
+              <Link className='button-white' to='/covid-19/' ><b>sprawdź</b> &nbsp;&nbsp;
               <img width="20px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="covid-19" src='/img/viruses.svg'/>
-              </a>
+              </Link>
               </div>
             </div>
             <br />
@@ -121,7 +124,7 @@ const HomePageTemplate = (props) => {
         <PortfolioRoll />
         < br/>
         <div style={{textAlign:'center'}}>
-          <a className="button-green" style={{fontSize:'18px'}} href="/portfolio/"> Zobacz nasze projekty <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+          <Link className="button-green" style={{fontSize:'18px'}} to="/portfolio/"> Zobacz nasze projekty <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </Link>
         </div>
       </div>
 
@@ -144,7 +147,7 @@ const HomePageTemplate = (props) => {
 
       < br/>< br/>
 
-          <a className="button-green" style={{fontSize:'18px'}} href="/blog/"> Zobacz wszystkie wpisy <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+          <Link className="button-green" style={{fontSize:'18px'}} to="/blog/"> Zobacz wszystkie wpisy <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </Link>
       < br/>< br/>
       </div>
 
@@ -169,9 +172,9 @@ const HomePageTemplate = (props) => {
                 Wszystkie proponowane przez nas produkty z oferty ekologicznej są przyjazne dla środowiska, a także trwałe oraz estetyczne. Rezygnacja z produktów nie podelegających recyklingowi może być dla Ciebie pierwszym, bardzo ważnym krokiem do ekologicznego stylu zarządzania firmą.</h4>
                 <br />
                 <br />
-                <a className='button-green' href='/ekologia/'> ekologia &nbsp;&nbsp;
+                <Link className='button-green' to='/ekologia/'> ekologia &nbsp;&nbsp;
                 <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="ekologia" src='/img/leaf.svg'/>
-                 </a>
+                 </Link>
                 <br />
                 <br />
               </div>
@@ -205,9 +208,9 @@ const HomePageTemplate = (props) => {
                 <h4>Skomponuj swój autorski projekt kalendarza lub notesu,<br /> zgodnie z indywidualnymi preferencjami i potrzebami.</h4>
                 <br />
                 <br />
-                <a className='button-green' href='/kreator-kalendarzy/'> kreator kalendarzy &nbsp;&nbsp;
+                <Link className='button-green' to='/kreator-kalendarzy/'> kreator kalendarzy &nbsp;&nbsp;
                     <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="kalendarze" src='/img/calendar-alt.svg'/>
-                 </a>
+                 </Link>
                 <br />
                 <br />
               </div>
@@ -277,9 +280,9 @@ const HomePageTemplate = (props) => {
                 <h4>Nasz zespół tworzą ludzie pełni pasji, kreatywności i zaangażowania w każdy powierzony projekt. Od blisko dekady, wspólnie z Wami, naszymi Klientami, realizujemy różnorodne przedsięwzięcia z zakresu identyfikacji wizualnej, promocji oraz projektowania graficznego, w tym stron internetowych i realizacji filmów.</h4>
                 <br />
                 <br />
-                <a className='button-green' href='/o-nas/'> poznaj nasz zespół &nbsp;&nbsp;
+                <Link className='button-green' to='/o-nas/'> poznaj nasz zespół &nbsp;&nbsp;
                   <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/>
-                </a>
+                </Link>
               </div>
 
 

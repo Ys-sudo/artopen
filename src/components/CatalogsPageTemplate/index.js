@@ -2,6 +2,7 @@ import React from 'react'
 import Content from '../Content'
 import PropTypes from 'prop-types'
 import ContactCall from '../ContactCall'
+import { Link } from 'gatsby'
 
 const links = ['https://online.fliphtml5.com/njygn/takv/','https://online.fliphtml5.com/ohnj/knuu','https://online.fliphtml5.com/njygn/pips/','https://online.fliphtml5.com/njygn/zxyl/','https://online.fliphtml5.com/njygn/uist'];
 const imgs = ['/img/katalogi/gadzety_1.png','/img/katalogi/gadzety_2.png','/img/katalogi/gadzety_3.png','/img/katalogi/gadzety_4.png','/img/katalogi/gadzety_5.png'];
@@ -125,11 +126,11 @@ const CatalogsPageTemplate = (props) => {
 
       <br />
       <div className='bottomUi' style={{textAlign:'center',marginBottom:'30px'}}>
-      <a className='button-green' style={{fontSize:'15px'}} href='/oferta/'> Poznaj naszą ofertę&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+      <Link className='button-green' style={{fontSize:'15px'}} to='/oferta/'> Poznaj naszą ofertę&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </Link>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a className='button-green' style={{fontSize:'15px'}} href='/portfolio/'> Zobacz portfolio&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+      <Link className='button-green' style={{fontSize:'15px'}} to='/portfolio/'> Zobacz portfolio&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </Link>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a className='button-green' style={{fontSize:'15px'}} href='/o-nas/'> Poznaj nas bliżej&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+      <Link className='button-green' style={{fontSize:'15px'}} to='/o-nas/'> Poznaj nas bliżej&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </Link>
       </div>
 
 

@@ -2,6 +2,7 @@ import React from 'react'
 import Content from '../Content'
 import PropTypes from 'prop-types'
 import ContactCall from '../ContactCall'
+import { Link } from 'gatsby'
 
 const KreatorPageTemplate = (props) => {
   const { title, content, contentComponent } = props
@@ -25,17 +26,17 @@ const KreatorPageTemplate = (props) => {
             <br />
             <div className='columns' style={{marginLeft:'20px'}}>
             <div>
-            <a className='button-white' href="/kalendarze-firmowe/">
+            <Link className='button-white' to="/kalendarze-firmowe/">
             <img width="12px"  style={{verticalAlign:'middle', marginRight:'15px'}}   alt="kalendarze firmowe" src='/img/calendar-alt.svg'/>
             kalendarze firmowe
-            </a>
+            </Link>
             </div>
             &nbsp;&nbsp;&nbsp;
             <div>
-            <a className='button-white' href="/kalendarze-ksiazkowe/">
+            <Link className='button-white' to="/kalendarze-ksiazkowe/">
             <img width="12px"  style={{verticalAlign:'middle', marginRight:'15px'}}   alt="kalendarze książkowe" src='/img/book.svg'/>
             kalendarze książkowe
-            </a>
+            </Link>
             </div>
             </div>
           </div>
@@ -59,11 +60,11 @@ const KreatorPageTemplate = (props) => {
       </div>
 
       <div className='bottomUi' style={{textAlign:'center',marginBottom:'30px'}}>
-      <a className='button-green' style={{fontSize:'15px'}} href='/oferta/'> Poznaj naszą ofertę&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+      <Link className='button-green' style={{fontSize:'15px'}} to='/oferta/'> Poznaj naszą ofertę&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </Link>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a className='button-green' style={{fontSize:'15px'}} href='/portfolio/'> Zobacz portfolio&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+      <Link className='button-green' style={{fontSize:'15px'}} to='/portfolio/'> Zobacz portfolio&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </Link>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a className='button-green' style={{fontSize:'15px'}} href='/blog/'> Poczytaj bloga&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </a>
+      <Link className='button-green' style={{fontSize:'15px'}} to='/blog/'> Poczytaj bloga&nbsp;&nbsp; <img width="12px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="arrow" src='/img/angle-right.svg'/> </Link>
       </div>
 
 

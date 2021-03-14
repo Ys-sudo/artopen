@@ -1,11 +1,11 @@
 ---
 templateKey: gallery-page
-title: dedietrich
-slug: dedietrich
+title: De Dietrich
+slug: branding-identyfikacja-wizualna-de-dietrich
 date: 2020-12-05T13:51:41.657Z
 cover: /img/portfolio/dedietrich/2dedietrich.jpg
 tags:
-  - dedietrich
+  - Dedietrich
 keywords:
   - Studio Reklamy
   - agencja interaktywna
