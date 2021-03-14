@@ -66,8 +66,9 @@ const NavBar = () => {
       render={data => (
         <nav className='navbar is-fixed-top' id='bignav' onMouseLeave={hideSubMenu} aria-label='main navigation'>
           <div className='navbar-brand'>
+          <span onLoad={checkLoad} />
             <Link to='/' className='navbar-item' style={{marginLeft:'10px'}}>
-              <img onLoad={checkLoad} width="100px" style={{transform:'scale(1.3)'}} src='/img/ArtOpen.svg' alt="ArtOpen multimedialna agencja reklamowa" />
+              <img width="100px" style={{transform:'scale(1.3)'}} src='/img/ArtOpen.svg' alt="ArtOpen multimedialna agencja reklamowa" />
             </Link>
             <button
               className={`button navbar-burger ${active ? 'is-active' : ''}`}
@@ -298,6 +299,7 @@ function darkMode(){
   else {
     document.querySelector("nav").style.backgroundColor = 'white';
     document.getElementsByClassName("navbar-item")[0].firstChild.src =  '/img/ArtOpen.svg';
+
     if (document.getElementById("logointro")!= null){
     document.getElementById("logointro").src =  '/img/ArtOpen.svg';
     }

@@ -44,7 +44,7 @@ const HomePageTemplate = (props) => {
 
 
       <section className='hero is-primary is-bold'>
-        <div className='hero-body' style={{backgroundColor:'#111111'}}>
+        <div className='hero-body' style={{backgroundColor:'#404040'}}>
           <div className='container' style={{marginLeft:'auto',marginRight:'auto'}}>
             <div className='columns' style={{textAlign:'center'}}>
               <div className='column ofert'>

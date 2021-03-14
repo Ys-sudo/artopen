@@ -17,7 +17,7 @@ const GalleryPage = (props) => {
 
   return (
     <Layout>
-      <section className='section'>
+      <section className=''>
         <SE0
           title={title}
           meta_title={meta_title}
@@ -34,9 +34,8 @@ const GalleryPage = (props) => {
           userTwitter={config.userTwitter}
           pathPrefix={config.pathPrefix}
         />
-        <div className='container content'>
-          <div className='columns'>
-            <div className='column is-10 is-offset-1'>
+        <div style={{marginLeft:'0px',padding:'0px'}}>
+
 
               <GalleryTemplate
                 content={html}
@@ -49,6 +48,8 @@ const GalleryPage = (props) => {
                 category={category}
                 date={date}
               />
+              <div className='columns'>
+                <div className='column is-10 is-offset-1'>
               <Share
                 title={title}
                 slug={slug}

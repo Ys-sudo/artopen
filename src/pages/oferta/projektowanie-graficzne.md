@@ -130,7 +130,7 @@ Jest to nasza propozycja kalendarzy, w których wnętrze jest w całości indywi
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" class="oimg" src="http://localhost:8888/img/outdoor_delaval.jpg" />
+<img width="100%" class="oimg" src="https://artopen.netlify.app/img/outdoor_delaval.jpg" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Reklamy <b>wielkoformatowe</b></p>

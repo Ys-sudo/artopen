@@ -182,7 +182,7 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 <p style="font-size:30px;">Medyczna maseczka<br><b>chirurgiczna</b>. </p>
 <br>
 <div style="text-align:center">
-<img src="https://artopen.netlify.app/img/covid-img/a2.png" width="100px" />
+<img src="https://artopen.netlify.app/img/covid-img/a2.png" width="50%" />
 </div>
 <br>
 <div style="text-align:left">
@@ -222,7 +222,7 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 
 <div class="columns" style="margin-left:10%;margin-right:10%">
 <div class="column" style="text-align:center;">
-<img src="https://artopen.netlify.app/img/covid-img/a3.png" width="100px" />
+<img src="https://artopen.netlify.app/img/covid-img/a3.png" width="50%" />
 </div>
 <div class="column">
 <p style="font-size:30px; text-align:right;">Certyfikowany żel<br><b>antybakteryjny do rąk</b>. </p>
