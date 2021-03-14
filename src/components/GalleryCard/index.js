@@ -42,7 +42,7 @@ const GalleryCard = (props) => {
         rest[i].style.display = 'none';
       }
 
-      for (let i =0;i<Linkll.length;i++){
+      for (let i =0;i<all.length;i++){
         all[i].style.display = 'block';
       }
 
