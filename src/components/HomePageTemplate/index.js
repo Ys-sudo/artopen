@@ -232,28 +232,28 @@ const HomePageTemplate = (props) => {
               <div className='column' style={{textAlign:'center'}}>
               <p>Lat na rynku</p>
               <h5 id='t1' className='is-size-2'>
-              0
+              12
               </h5>
               </div>
 
               <div className='column' style={{textAlign:'center',borderLeft:'1px solid white'}}>
               <p>Stałych klientów</p>
               <h5 id='t2' className='is-size-2'>
-              0
+              250
               </h5>
               </div>
 
               <div className='column' style={{textAlign:'center',borderLeft:'1px solid white'}}>
               <p>Projektów graficznych</p>
               <h5 id='t3' className='is-size-2'>
-              0
+              5000
               </h5>
               </div>
 
               <div className='column' style={{textAlign:'center',borderLeft:'1px solid white'}}>
               <p>Wykonanych zamówień</p>
               <h5 id='t4' className='is-size-2'>
-              0
+              12500
               </h5>
               </div>
 
