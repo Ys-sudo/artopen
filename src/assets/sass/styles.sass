@@ -175,7 +175,6 @@ input[type=range]::-webkit-slider-runnable-track
   width: 100%
   height: 5px
   cursor: pointer
-  animate: 0.2s
   box-shadow: 0px 0px 0px #000000
   background: #23C495
   border-radius: 1px
@@ -199,7 +198,6 @@ input[type=range]::-moz-range-track
   width: 100%
   height: 5px
   cursor: pointer
-  animate: 0.2s
   box-shadow: 0px 0px 0px #000000
   background: #23C495
   border-radius: 1px
@@ -218,7 +216,6 @@ input[type=range]::-ms-track
   width: 100%
   height: 5px
   cursor: pointer
-  animate: 0.2s
   background: transparent
   border-color: transparent
   color: transparent
@@ -521,6 +518,7 @@ nav, button
 .portfolio
   display: flex
   flex-wrap: wrap
+  margin-left: 2%
 
 .port-nav
   background-color: white
@@ -763,7 +761,6 @@ nav, button
   padding: 20px
   border-radius: 20px
 
-//TODO: work on the breakpoint for portfolio - correct margins to %
 @media screen and (max-width: 1401px)
   .offer-nav
     display: none
@@ -1013,3 +1010,36 @@ nav, button
     width: 95% !important
   .halfsize
     margin-bottom: 50px
+
+//TODO: work on the breakpoint for portfolio - correct margins to %
+@media screen and (min-width: 1701px)
+  .forty5
+    width: 43.9%
+    margin-left: 0.9%
+  .twenty2
+    width: 44.8%
+@media screen and (min-width: 2150px)
+  .forty5
+    width: 44.1%
+    margin-left: -0.2%
+  .twenty2
+    width: 44.9%
+  .navbar-end
+    margin-left: 25% !important
+@media screen and (min-width: 2750px)
+  .forty5
+    width: 43.35%
+    margin-left: -0.5%
+  .twenty2
+    width: 45%
+  .navbar-end
+    margin-left: 30% !important
+
+@media screen and (min-width: 3550px)
+  .forty5
+    width: 43.3%
+    margin-left: -1.3%
+  .twenty2
+    width: 46%
+  .navbar-end
+    margin-left: 30% !important

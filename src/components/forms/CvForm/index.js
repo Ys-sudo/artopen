@@ -86,7 +86,7 @@ class CvForm extends React.Component {
         data-netlify-honeypot="bot-field"
         onSubmit={this.handleSubmit}
       >
-      <input name='Aplikacja - praca' id='praca' className='subtitle' placeholder='Złóż aplikację:' disabled style={{color:'#111111',fontFamily:'Poppins',border:'0px solid white',marginBottom:'20px'}} />
+      <input name='Aplikacja - praca' id='praca' className='subtitle' placeholder='Złóż aplikację:' disabled style={{color:'gray',fontFamily:'Poppins',maxWidth:'200px', backgroundColor:'white',border:'0px solid white'}} />
       <br />
       <div className='field' style={{marginLeft:'18px'}}>
       <div className='columns'>
