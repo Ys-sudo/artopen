@@ -1,9 +1,9 @@
 ---
 templateKey: gallery-page
 title: Logo
-slug: logo
+slug: projektowanie-logo-portfolio
 date: 2020-12-05T13:51:41.657Z
-cover: /img/portfolio/kd/4kd.jpg
+cover: /img/portfolio/logo/1logo.jpg
 tags:
   - Koleje dolnośląskie
 keywords:
@@ -16,28 +16,28 @@ category: projektowanie graficzne
 
 
 ---
-kd - identyfikacja wizualna
+logo - identyfikacja wizualna
 
-<img alt="" src="http://localhost:8888/img/portfolio/kd/2kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="http://localhost:8888/img/portfolio/logo/2logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/kd/3kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="http://localhost:8888/img/portfolio/logo/3logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/kd/4kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="http://localhost:8888/img/portfolio/logo/4logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/kd/5kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="http://localhost:8888/img/portfolio/logo/5logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/kd/6kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="http://localhost:8888/img/portfolio/logo/6logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/kd/7kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="http://localhost:8888/img/portfolio/logo/7logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/kd/8kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="http://localhost:8888/img/portfolio/logo/8logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/kd/9kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="http://localhost:8888/img/portfolio/logo/9logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/kd/10kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="http://localhost:8888/img/portfolio/logo/10logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/kd/11kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="http://localhost:8888/img/portfolio/logo/11logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/kd/12kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="http://localhost:8888/img/portfolio/logo/12logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/kd/13kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="http://localhost:8888/img/portfolio/logo/13logo.jpg" width="100%" style="margin-bottom:-7px" />

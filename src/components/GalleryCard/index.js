@@ -59,9 +59,9 @@ const GalleryCard = (props) => {
     <div style={{textAlign:'center'}}>
       <select onChange={filterGallery} className='button-green select-green' name="kategorie" id="catlist">
         <option value="wszystkie realizacje" >Wszystkie realizacje</option>
-        <option value="projekty graficzne" >Projektowanie graficzne</option>
+        <option value="projektowanie graficzne" >Projektowanie graficzne</option>
         <option value="strony internetowe" >Strony internetowe</option>
-        <option value="identyfikacje wizualne" >Branding</option>
+        <option value="branding" >Branding</option>
         <option value="kalendarze książkowe" >Kalendarze książkowe</option>
         <option value="kalendarze drukowane" >Kalendarze drukowane</option>
         <option value="gadżety reklamowe" >Gadżety reklamowe</option>

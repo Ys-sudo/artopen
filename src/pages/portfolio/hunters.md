@@ -1,9 +1,9 @@
 ---
 templateKey: gallery-page
 title: Hunters
-slug: hunters
+slug: branding-hunters
 date: 2020-12-05T13:51:41.657Z
-cover: /img/portfolio/kd/4kd.jpg
+cover: /img/portfolio/hunters/3hunters.jpg
 tags:
   - Koleje dolnośląskie
 keywords:
@@ -27,17 +27,3 @@ kd - identyfikacja wizualna
 <img alt="" src="http://localhost:8888/img/portfolio/kd/5kd.jpg" width="100%" style="margin-bottom:-7px" />
 
 <img alt="" src="http://localhost:8888/img/portfolio/kd/6kd.jpg" width="100%" style="margin-bottom:-7px" />
-
-<img alt="" src="http://localhost:8888/img/portfolio/kd/7kd.jpg" width="100%" style="margin-bottom:-7px" />
-
-<img alt="" src="http://localhost:8888/img/portfolio/kd/8kd.jpg" width="100%" style="margin-bottom:-7px" />
-
-<img alt="" src="http://localhost:8888/img/portfolio/kd/9kd.jpg" width="100%" style="margin-bottom:-7px" />
-
-<img alt="" src="http://localhost:8888/img/portfolio/kd/10kd.jpg" width="100%" style="margin-bottom:-7px" />
-
-<img alt="" src="http://localhost:8888/img/portfolio/kd/11kd.jpg" width="100%" style="margin-bottom:-7px" />
-
-<img alt="" src="http://localhost:8888/img/portfolio/kd/12kd.jpg" width="100%" style="margin-bottom:-7px" />
-
-<img alt="" src="http://localhost:8888/img/portfolio/kd/13kd.jpg" width="100%" style="margin-bottom:-7px" />

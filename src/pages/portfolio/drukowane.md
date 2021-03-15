@@ -3,7 +3,7 @@ templateKey: gallery-page
 title: Kalendarze firmowe
 slug: kalendarze-firmowe-portfolio
 date: 2020-12-05T13:51:41.657Z
-cover: /img/portfolio/kd/4kd.jpg
+cover: /img/portfolio/drukowane/10trojdzielne.jpg
 tags:
   - Koleje dolnośląskie
 keywords:
@@ -12,7 +12,7 @@ keywords:
   - ekologia
 meta_title: Koleje dolnośląskie 🌱 Portfolio | Art Open Sp. z o.o. | Agencja reklamowa
 meta_description:   Agencja reklamowa 🌳 Art Open - covid-19, ekologia, branding, strony i sklepy internetowe, aplikacje, projektowanie graficzne, kalendarze książkowe, gadżety reklamowe, wydruki, reklama zewnętrzna, fotografie, filmowanie, animacje i montaż, systemy wystawiennicze, opakowania, projekty VR i 3D. Zapraszamy do zapoznania się ze szczegółami naszej działalności!
-category: projektowanie graficzne
+category: kalendarze drukowane
 
 
 ---

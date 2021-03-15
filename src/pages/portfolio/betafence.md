@@ -1,7 +1,7 @@
 ---
 templateKey: gallery-page
 title: Betafence
-slug: betafence
+slug: branding-betafence
 date: 2020-12-05T13:51:41.657Z
 cover: /img/portfolio/betafence/2betafence.jpg
 tags:

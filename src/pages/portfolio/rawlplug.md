@@ -3,7 +3,7 @@ templateKey: gallery-page
 title: Rawlplug
 slug: rawlplug
 date: 2020-12-05T13:51:41.657Z
-cover: /img/portfolio/kd/4kd.jpg
+cover: /img/portfolio/rawlplug/1rawlplug.jpg
 tags:
   - Koleje dolnośląskie
 keywords:
