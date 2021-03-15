@@ -18,26 +18,26 @@ category: projektowanie graficzne
 ---
 logo - identyfikacja wizualna
 
-<img alt="" src="http://localhost:8888/img/portfolio/logo/2logo.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/logo/2logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/logo/3logo.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/logo/3logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/logo/4logo.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/logo/4logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/logo/5logo.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/logo/5logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/logo/6logo.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/logo/6logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/logo/7logo.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/logo/7logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/logo/8logo.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/logo/8logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/logo/9logo.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/logo/9logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/logo/10logo.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/logo/10logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/logo/11logo.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/logo/11logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/logo/12logo.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/logo/12logo.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/logo/13logo.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/logo/13logo.jpg" width="100%" style="margin-bottom:-7px" />

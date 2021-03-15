@@ -18,6 +18,6 @@ category: kalendarze książkowe
 ---
 kd - identyfikacja wizualna
 
-<img alt="" src="http://localhost:8888/img/portfolio/kd/2kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/2kd.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="http://localhost:8888/img/portfolio/kd/3kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/3kd.jpg" width="100%" style="margin-bottom:-7px" />
