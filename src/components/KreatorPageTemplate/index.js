@@ -45,7 +45,7 @@ const KreatorPageTemplate = (props) => {
       </div>
       </div>
     </section>
-    <iframe style={{width: '100%!important', height: '865px', overflow: 'visible'}} src="https://generator.ass3.hostingasp.pl/" width="100%" height="150%"></iframe>
+    <iframe async style={{width: '100%!important', height: '865px', overflow: 'visible'}} src="https://generator.ass3.hostingasp.pl/" width="100%" height="150%"></iframe>
 
 
 
