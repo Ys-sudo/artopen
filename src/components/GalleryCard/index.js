@@ -18,7 +18,38 @@ const GalleryCard = (props) => {
 
 }
 
+let uniquesArray = [];
 
+const removeDupli = () => {
+
+let listArray = posts.filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+  .map(({ node: post }) => (
+    post.frontmatter.category
+  ));
+
+let counting = 0;
+let found = false;
+
+for (let i = 0; i < listArray.length; i++) {
+	for (let y = 0; y < uniquesArray.length; y++) {
+		if ( listArray[i] == uniquesArray[y] ) {
+			found = true;
+		}
+	}
+	counting++;
+	if (counting == 1 && found == false) {
+		uniquesArray.push(listArray[i]);
+    let node =  document.createElement("option");
+    node.value = listArray[i];
+    let textnode = document.createTextNode(listArray[i].charAt(0).toUpperCase()+listArray[i].slice(1));
+    node.appendChild(textnode);
+    document.getElementById('catlist').appendChild(node);
+	}
+	found = false;
+	counting = 0;
+}
+console.log(uniquesArray);
+}
 
   const filterGallery = () =>{
 
@@ -35,6 +66,12 @@ const GalleryCard = (props) => {
 
     if (name == "wszystkie realizacje"){
       resetGallery();
+      console.log(posts.filter(post => post.node.frontmatter.templateKey === 'gallery-page')
+        .map(({ node: post }) => (
+          post.frontmatter.category
+        )));
+
+
     } else {
       console.log(rest.length);
 
@@ -51,7 +88,6 @@ const GalleryCard = (props) => {
     }
 
 
-
   return (
 
 
@@ -59,24 +95,12 @@ const GalleryCard = (props) => {
     <div style={{textAlign:'center'}}>
       <select onChange={filterGallery} className='button-green select-green' name="kategorie" id="catlist">
         <option value="wszystkie realizacje" >Wszystkie realizacje</option>
-        <option value="projektowanie graficzne" >Projektowanie graficzne</option>
-        <option value="strony internetowe" >Strony internetowe</option>
-        <option value="branding" >Branding</option>
-        <option value="kalendarze książkowe" >Kalendarze książkowe</option>
-        <option value="kalendarze drukowane" >Kalendarze drukowane</option>
-        <option value="gadżety reklamowe" >Gadżety reklamowe</option>
-        <option value="wydruki reklamowe" >Wydruki reklamowe</option>
-        <option value="reklamy outdoor" >Reklamy outdoor</option>
-        <option value="fotografia marketingowa" >Fotografia marketingowa</option>
-        <option value="systemy wystawiennicze" >Systemy wystawiennicze</option>
-        <option value="filmy reklamowe" >Filmy reklamowe</option>
-        <option value="opakowania" >Opakowania</option>
       </select>
     </div>
 
 
 
-    <div className='portfolio'>
+    <div onLoad={removeDupli} className='portfolio'>
 
       {posts
 
