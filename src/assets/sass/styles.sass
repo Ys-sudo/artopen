@@ -313,6 +313,7 @@ body::-webkit-scrollbar
 .imgcont
   border-radius: 20px
   box-shadow: rgba(23, 19, 43, 0.2) -5px 5px 15px
+  transition-duration: 1.5s
 
 .imgcontp
   border-radius: 20px
@@ -716,9 +717,9 @@ nav, button
   flex-flow: row wrap
   width: 100%
 
-.portfo:hover
+.portfo:hover, .imgcont:hover
   transition-duration: 1.5s
-  background-color: darkturquoise
+  background-color: #23C495
   background-blend-mode: overlay
 .portfo:hover > div > div > span > img
   filter: brightness(0) invert(1)

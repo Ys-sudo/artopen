@@ -10,6 +10,7 @@ const GalleryTemplate = (props) => {
 
   return (
     <>
+    <a href="#content">
     <div className="imgcont"
     style={{backgroundImage:'url('+cover.publicURL+')',backgroundSize:'cover',backgroundAttachment:'fixed',marginTop:'2%',paddingBottom:'2%',paddingTop:'30%',marginLeft:'10%',marginRight:'10%'}}
     >
@@ -22,6 +23,7 @@ const GalleryTemplate = (props) => {
       <small className='categ' style={{marginLeft:'0px'}}>{date}</small>
       </div>
       </div>
+      </a>
       <br />
       <div id="content" style={{paddingTop:'100px',paddingBottom:'50px'}}>
 
@@ -30,7 +32,7 @@ const GalleryTemplate = (props) => {
         <PostContent content={content} />
 
         <br />
-      
+
         <div style={{marginTop: `2rem`, marginLeft:'5%'}}>
           <h4><b>Tagi:</b></h4>
           <br /><br />
