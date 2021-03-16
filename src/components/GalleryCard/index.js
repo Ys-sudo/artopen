@@ -48,7 +48,7 @@ for (let i = 0; i < listArray.length; i++) {
 	found = false;
 	counting = 0;
 }
-console.log(uniquesArray);
+//console.log(uniquesArray);
 }
 
   const filterGallery = () =>{
@@ -97,8 +97,6 @@ console.log(uniquesArray);
         <option value="wszystkie realizacje" >Wszystkie realizacje</option>
       </select>
     </div>
-
-
 
     <div onLoad={removeDupli} className='portfolio'>
 
