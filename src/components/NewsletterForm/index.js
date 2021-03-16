@@ -107,7 +107,7 @@ class NewsletterForm extends React.Component {
       <div style={{textAlign:'center'}}>
       <br />
 
-      <img width="150px" src='/img/ArtOpen-white.svg' alt="ArtOpen studio reklamy" />
+      <img width="150px" src='/img/artopen-white-mono.svg' alt="ArtOpen studio reklamy" />
       <br />
       <a className='link-white' href="/polityka-prywatnosci/">Polityka prywatności</a>
       <br />
