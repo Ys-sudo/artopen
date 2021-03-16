@@ -16,12 +16,25 @@ category: projektowanie graficzne
 
 
 ---
-kd - identyfikacja wizualna
+---
+Posco - identyfikacja wizualna
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/2kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/posco/1posco.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/3kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/posco/2posco.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/4kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/posco/3posco.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/5kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/posco/4posco.jpg" width="50%" style="margin-bottom:-7px" /><img alt="" src="https://artopen.netlify.app/img/portfolio/posco/5posco.jpg" width="50%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/posco/6posco.jpg" width="100%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/posco/7posco.jpg" width="100%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/posco/8posco.jpg" width="100%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/posco/9posco.jpg" width="100%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/posco/10posco.jpg" width="100%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/posco/11posco.jpg" width="100%" style="margin-bottom:-7px" />

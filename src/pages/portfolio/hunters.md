@@ -16,14 +16,24 @@ category: projektowanie graficzne
 
 
 ---
-kd - identyfikacja wizualna
+Hunters - identyfikacja wizualna
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/2kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/hunters/1hunters.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/3kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/hunters/2hunters.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/4kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/hunters/3hunters.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/5kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/hunters/4hunters.jpg" width="50%" style="margin-bottom:-7px" /><img alt="" src="https://artopen.netlify.app/img/portfolio/hunters/5hunters.jpg" width="50%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/6kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/hunters/6hunters.jpg" width="100%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/hunters/7hunters.jpg" width="100%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/hunters/8hunters.jpg" width="100%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/hunters/9hunters.jpg" width="100%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/hunters/10hunters.jpg" width="100%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/hunters/11hunters.jpg" width="100%" style="margin-bottom:-7px" />

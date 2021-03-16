@@ -16,14 +16,25 @@ category: kalendarze książkowe
 
 
 ---
-kd - identyfikacja wizualna
+---
+KGHM - identyfikacja wizualna
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/2kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/1kghm.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/3kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/2kghm.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/4kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/3kghm.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/5kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/4kghm.jpg" width="50%" style="margin-bottom:-7px" /><img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/5kghm.jpg" width="50%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/6kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/6kghm.jpg" width="100%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/7kghm.jpg" width="100%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/8kghm.jpg" width="100%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/9kghm.jpg" width="100%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/10kghm.jpg" width="100%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/11kghm.jpg" width="100%" style="margin-bottom:-7px" />

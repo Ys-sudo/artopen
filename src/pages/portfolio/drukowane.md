@@ -16,28 +16,24 @@ category: kalendarze drukowane
 
 
 ---
-kd - identyfikacja wizualna
+Kalendarze drukowane
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/2kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/drukowane/1trojdzielne.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/3kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/drukowane/2trojdzielne.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/4kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/drukowane/3trojdzielne.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/5kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/drukowane/4trojdzielne.jpg" width="50%" style="margin-bottom:-7px" /><img alt="" src="https://artopen.netlify.app/img/portfolio/drukowane/5trojdzielne.jpg" width="50%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/6kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/drukowane/6trojdzielne.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/7kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/drukowane/7trojdzielne.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/8kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/drukowane/8trojdzielne.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/9kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/drukowane/9trojdzielne.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/10kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/drukowane/10trojdzielne.jpg" width="100%" style="margin-bottom:-7px" />
 
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/11kd.jpg" width="100%" style="margin-bottom:-7px" />
-
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/12kd.jpg" width="100%" style="margin-bottom:-7px" />
-
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kd/13kd.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/drukowane/11trojdzielne.jpg" width="100%" style="margin-bottom:-7px" />
