@@ -81,7 +81,7 @@ const Layout = (props) => {
         buttonText="Akceptuję"
         cookieName="ArtOpen Cookie"
         style={{ background: "#111111", color:"white",width:"270px", marginLeft:"0.5%",marginBottom:"0.5%",borderRadius:"10px",minHeight:'200px' }}
-        buttonStyle={{ color: "#222222",marginTop:'0px', backgroundColor:'#00d1b2', fontSize: "12px",marginLeft: '90px',padding:'12px',borderRadius:'10px'}}
+        buttonStyle={{ color: "white",marginTop:'0px', backgroundColor:'#23C495', fontSize: "12px",marginLeft: '90px',padding:'12px',borderRadius:'10px'}}
         expires={150}
         debug={false}
         >

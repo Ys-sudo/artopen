@@ -53,7 +53,7 @@ keywords:
 </div>
 
 
-<div class="columns" style="margin-top:70px;margin-left:5%;">
+<div class="columns" style="margin-top:70px;margin-left:5%;display:flex;">
 
   <div class="column" style="width:60%;">
   <p style="font-size:30px">Zminimalizuj ryzyko zachorowania<br> z <b>naszą pomocą</b>. </p>
@@ -90,7 +90,7 @@ keywords:
   </div>
   </div>
 
-  <div  style="width: 35%;text-align:right">
+  <div style="width: 35%;text-align:right">
   <img src="https://artopen.netlify.app/img/covid-img/c1.png" height="25%" />
   </div>
   <br>
@@ -103,8 +103,7 @@ keywords:
   <img src="https://artopen.netlify.app/img/covid-img/c2.png" height="25%" />
 </div>
 
-<div class="column cimg"
-  style="text-align: left; margin-right: 5%; padding-top: 150px;">
+<div class="column cimg" style="text-align: left; margin-right: 5%; padding-top: 150px;">
 <div class="columns">
 <div class="column">
 <p>W tych wyjątkowo niebezpiecznych czasach nie ma miejsca na eksperymenty i półśrodki. Zadbaj o zdrowie swoje i swoich pracowników i nie przerywaj prowadzenia działalności.</p>
@@ -133,7 +132,7 @@ keywords:
 
 </div>
 
-<div class="columns" style="margin-top:70px;margin-left:5%;">
+<div class="columns" style="margin-top:70px;margin-left:5%;display:flex">
 
   <div class="column" style="width:60%;">
   <p style="border-left: 5px solid #00d1b2; padding:0px 0px 0px 10px;width:50%">
