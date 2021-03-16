@@ -280,7 +280,7 @@ function setdarkMode(){
 
 function darkMode(){
 
-  if (global.localStorage.getItem('theme')=='normal'){
+  if (global.localStorage.getItem('theme')=='dracula'){
   document.querySelector("nav").style.backgroundColor = 'black';
   document.getElementsByClassName("navbar-item")[0].firstChild.src =  '/img/ArtOpen-white.svg';
 
