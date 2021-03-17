@@ -17,7 +17,6 @@ keywords:
   - agencja interaktywna
   - ekologia
 ---
-
 <div style="margin-left:10%;margin-right:10%">
 <p>Otaczająca nas przestrzeń jest pełna obrazów i symboli. Towarzyszą nam podczas każdej czynności: w pracy, domu, teatrze. Obraz kształtuje naszą rzeczywistość, przemawia do nas, informuje. Dlatego też doskonale i z największym kunsztem przygotowana grafika, jest nie tylko miła dla oczu odbiorcy, ale także pozwala na przekazanie informacji. </p>
 </div>
