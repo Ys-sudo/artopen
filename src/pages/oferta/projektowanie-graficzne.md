@@ -1,21 +1,34 @@
 ---
 templateKey: offer-page
 title: Projektowanie graficzne
-desc: Projektujemy logotypy, księgi znaków, foldery, ulotki, kalendarze i wiele innych
+desc: >-
+ Projektowanie graficzne to nasza pasja. Wykonujemy unikatowe projekty graficzne w tym, logotypy, strony internetowe, identyfikacje wizualne, reklamy wielkoformatowe i wizualizacje produktów.
 slug: projektowanie-graficzne
 date: 2021-10-03T13:49:14.606Z
 cover: /img/offer-headers/projektowanie-graficzne.jpg
 icon: /img/pencil-alt.svg
-subtitle: Projekty graficzne
+subtitle: Projektowanie graficzne
 tags:
-  - Studio Reklamy
-  - agencja interaktywna
+  - projektowanie graficzne
+  - agencja reklamowa
+  - logotypy
+  - strony internetowe
+  - identyfikacja wizualna
+  - reklamy wielkoformatowe
+  - wydruki reklamowe
+  - wizualizacje produktów
 meta_title: Projektowanie graficzne 🌱 Agencja reklamowa | Art Open Sp. z o.o.
-meta_description: opis meta
+meta_description: >-
+ Projektowanie graficzne | Agencja reklamowa Art Open 🌳 Grafika do każdego projektu, branding, identyfikacja wizualna, projektowanie logotypu, firmowe kalendarze książkowe, strony internetowe, aplikacje, grafika 3D oraz grafika wektorowa. Zapraszamy do zapoznania się z oferowanymi przez nas usługami!
 keywords:
-  - Studio Reklamy
-  - agencja interaktywna
-  - ekologia
+  - agencja reklamowa
+  - projektowanie graficzne
+  - branding
+  - strony internetowe
+  - grafika wektorowa
+  - grafika 3D
+  - identyfikacja wizualna
+  - wydruki reklamowe
 ---
 <div style="margin-left:10%;margin-right:10%">
 <p>Otaczająca nas przestrzeń jest pełna obrazów i symboli. Towarzyszą nam podczas każdej czynności: w pracy, domu, teatrze. Obraz kształtuje naszą rzeczywistość, przemawia do nas, informuje. Dlatego też doskonale i z największym kunsztem przygotowana grafika, jest nie tylko miła dla oczu odbiorcy, ale także pozwala na przekazanie informacji. </p>
@@ -116,10 +129,10 @@ Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlateg
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;text-align:right;padding-right:30px">
-<p style="font-size:30px">Ilustracje <b>wektorowe</b></p>
+<p style="font-size:30px">Grafika <b>wektorowa</b></p>
 <br>
 <p>
-Jest to nasza propozycja kalendarzy, w których wnętrze jest w całości indywidualnie zaprojektowane. Pozwala to na nieograniczoną formę ekspresji graficznej i dopasowania projektu do wyrafinowanych potrzeb odbiorcy. Kalendarze w ten sposób przygotowane stanowią zawsze bardzo wyjątkowe realizacje, które prezentujemy w naszym portfolio.
+Grafika wektorowa zapisana jest za pomocą współrzędnych dzięki czemu zachowuje jakość w każdych wymiarach! Projekty wektorowe świetnie sprawdzają się pod wycinanie z plotera, wydruki wielkoformatowe, animacje czy aplikacje i strony internetowe. Unikalne ilustracje w odpowiednio dobranych gamach kolorystycznych sprawią że Twój projekt wyróżni się na tle konkurencji.
 </p>
 </div>
 <div class="column" style="padding:0px">
@@ -135,13 +148,27 @@ Jest to nasza propozycja kalendarzy, w których wnętrze jest w całości indywi
 <p style="font-size:30px">Reklamy <b>wielkoformatowe</b></p>
 <br>
 <p>
-Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlatego jego jakość jest niezwykle ważna. Weryfikujemy i oceniamy każdy wydrukowany projekt. Mamy wówczas pewność, że do naszych Klientów trafią wydruki zgodne z projektem.</p>
+Zaprojektujemy dla Państwa czytelne i chwytające za oko reklamy wielkoformatowe, dobierzemy odpowiednie nośniki i lokalizacje, nasze projekty cechują się przejrzystością, starannie dobraną kolorystyką oraz dopracowaniem co do najmniejszego szczegółu.</p>
 </div>
 
 </div>
 
-<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<div style="margin-left:10%;margin-right:10%;padding:5%">
 <p>
-Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
+Współczesny marketing i reklama nie może się obyć bez tej niezwykle istotnej dziedziny, jaką jest projektowanie graficzne. To fundament każdej liczącej się agencji kreatywnej. Nasz zespół tworzą ludzie pełni pasji do projektowania, którzy nieustannie podnoszą swoje kwalifikacje i wzbogacają warsztat.
+Aby stworzyć interesujący i ponadczasowy projekt graficzny nie wystarczą umiejętności czysto techniczne jak doskonała obsługa programów graficznych z rodziny Adobe. Wyobraźnia niczym nieograniczona, odwaga i radość tworzenia – to nieodzowne składniki wspaniałego projektu graficznego.
+Umiejętność zabawy formą i kolorem, łączenie elementów w nietypowy i nie oczywisty sposób – to tylko niektóre tajemnice warsztatu dobrego grafika.
+Często nasza wyobraźnia musi jednak ustąpić miejsca innym istotnym warunkom. Poruszanie się w zawężonej przez SIW kolorystyce to prawdziwa sztuka. Jak stworzyć monochromatyczny projekt, który zachwyci odbiorców? Wyzwań jest wiele, a te lubimy najbardziej. To test naszych umiejętności i motywacja do ich ciągłego doskonalenia.
+Jednak najważniejsze dla każdego projektanta graficznego jest akceptacja projektu przez klienta.
+Jego zadowolenie jest dla nas priorytetem. Nic nie motywuje nas tak bardzo jak przedstawienie klientowi wspaniałego projektu, z którego my i on będziemy dumni.
+Jak wspaniale jest widzieć zaprojektowane przez nas logo, które towarzyszy naszemu klientowi w jego sukcesie biznesowym. Staje się ono rozpoznawalnym na rynku znakiem. To daje nam niezwykłą satysfakcję, bo mamy w tym sukcesie swój skromny udział.
 </p>
+<br>
+<p>Myślisz o zmianie szaty graficznej swoich akcydensów?</p>
+<br>
+<p>
+Nasz zespół graficzny jest do dyspozycji. Po przeanalizowaniu Twoich potrzeb i oczekiwań przygotujemy i zaprezentujemy ciekawe rozwiązania zmian graficznych w twoich materiałach promocyjnych i informacyjnych. Jeśli potrzebujesz rebrandingu lub odświeżenia logo, także służymy pomocą. Jesteśmy doświadczonym zespołem i mamy w swoim portfolio znaki firmowe funkcjonujące już w przestrzeni biznesowej ( logo SA, logo Skywater itp.)
+Przygotowujemy także skomplikowane projekty katalogów produktowych zawierających liczne informacje techniczne o produktach.
+Jesteśmy przygotowani merytorycznie i praktycznie do podjęcia się wielu zadań związanych z projektowaniem graficznym.
+Możesz liczyć na nasze doświadczenie, pasję i zaangażowanie.</p>
 </div>
