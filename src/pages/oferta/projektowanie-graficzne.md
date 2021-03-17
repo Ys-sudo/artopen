@@ -2,7 +2,7 @@
 templateKey: offer-page
 title: Projektowanie graficzne
 desc: >-
- Projektowanie graficzne to nasza pasja. Wykonujemy unikatowe projekty graficzne w tym, logotypy, strony internetowe, identyfikacje wizualne, reklamy wielkoformatowe i wizualizacje produktów.
+ Projektowanie graficzne to nasza pasja. Wykonujemy unikatowe projekty graficzne w tym, logotypy, strony internetowe, identyfikacje wizualne i reklamy wielkoformatowe.
 slug: projektowanie-graficzne
 date: 2021-10-03T13:49:14.606Z
 cover: /img/offer-headers/projektowanie-graficzne.jpg
