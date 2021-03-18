@@ -3,7 +3,7 @@ templateKey: offer-page
 title: Gadżety
 desc: >-
  Produkujemy ekologiczne gadżety z firmowymi grafikami przy użyciu nowoczesnych technik znakowania oraz inspirujące karty MAGIC, ładowarki indukcyjne, głośniki, pendrive'y i wiele innych.
-slug: gadzety-reklamowe-eco
+slug: gadzety
 date: 2021-05-03T13:49:14.606Z
 cover: /img/offer-headers/gadzety-reklamowe.jpg
 icon: /img/lightbulb.svg
