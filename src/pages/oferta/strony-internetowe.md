@@ -153,7 +153,7 @@ keywords:
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="http://localhost:8888/img/strony.svg" />
+<img width="100%" src="https://artopen.netlify.app/img/strony.svg" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:50px">
 <p style="font-size:30px">Strony <b>internetowe</b></p>
@@ -173,13 +173,13 @@ Wykonamy dla Państwa projekty e-commerce oparte o łatwe w obsłudze systemy CM
 </p>
 </div>
 <div class="column" style="padding:0px">
-<img width="100%" alt="e-commerce" src="http://localhost:8888/img/sklepy.svg" />
+<img width="100%" alt="e-commerce" src="https://artopen.netlify.app/img/sklepy.svg" />
 </div>
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" alt="aplikacje webowe" src="http://localhost:8888/img/aplikacje.svg" />
+<img width="100%" alt="aplikacje webowe" src="https://artopen.netlify.app/img/aplikacje.svg" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:50px">
 <p style="font-size:30px">Aplikacje <b>webowe</b></p>
@@ -205,7 +205,7 @@ Projekty wykonane z obiektów 3D w technologii WEB VR, docelowo na okulary VR al
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" alt="audyty stron" src="http://localhost:8888/img/audyt.svg" />
+<img width="100%" alt="audyty stron" src="https://artopen.netlify.app/img/audyt.svg" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:50px">
 <p style="font-size:30px"><b>Audyty</b> stron internetowych</p>
@@ -226,13 +226,13 @@ Przeprowadzamy szkolenia oraz prace z zakresu modernizacji oraz rozbudowy najpop
 </p>
 </div>
 <div class="column" style="padding:0px">
-<img width="100%" alt="szkolenia cms" src="http://localhost:8888/img/szkolenia.svg" />
+<img width="100%" alt="szkolenia cms" src="https://artopen.netlify.app/img/szkolenia.svg" />
 </div>
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" alt="seo" src="http://localhost:8888/img/seo.svg" />
+<img width="100%" alt="seo" src="https://artopen.netlify.app/img/seo.svg" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:50px">
 <p style="font-size:30px">Pozycjonowanie <b>SEO</b></p>

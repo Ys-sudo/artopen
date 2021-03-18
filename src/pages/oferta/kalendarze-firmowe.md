@@ -87,7 +87,7 @@ Spełniają swoją funkcję jako nieskomplikowany terminarz. Są także doskona�
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img class="oimg" width="100%" src="http://localhost:8888/img/indywidualne-kalendarium.png" />
+<img class="oimg" width="100%" src="https://artopen.netlify.app/img/indywidualne-kalendarium.png" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:50px">
 <p style="font-size:30px">Indywidualne <b>kalendaria</b></p>
@@ -107,13 +107,13 @@ Uszlachetniamy wydruki naszych kalendarzy poprzez użycie folii błyszczących, 
 </p>
 </div>
 <div class="column" style="padding:0px">
-<img class="oimg" width="100%" src="http://localhost:8888/img/uszlachetnienia.png" />
+<img class="oimg" width="100%" src="https://artopen.netlify.app/img/uszlachetnienia.png" />
 </div>
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img class="oimg" width="100%" src="http://localhost:8888/img/unikalne-projekty.png" />
+<img class="oimg" width="100%" src="https://artopen.netlify.app/img/unikalne-projekty.png" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:50px">
 <p style="font-size:30px">Unikalne <b>projekty graficzne</b></p>

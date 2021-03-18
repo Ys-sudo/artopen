@@ -72,7 +72,7 @@ Opakowania wychodzące z naszej produkcji zadowalają bardzo wymagających odbio
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img class="oimg" width="100%" src="http://localhost:8888/img/indywidualny-wymiar.png" />
+<img class="oimg" width="100%" src="https://artopen.netlify.app/img/indywidualny-wymiar.png" />
 </div>
 <div class="column" style="margin-top:50px;margin-left:30px">
 <p style="font-size:30px">Indywidualny<b> wymiar</b></p>
@@ -90,7 +90,7 @@ Dobry produkt wymaga dobrego opakowania. Nasze doświadczenie w projektowaniu i 
 Opakowania wychodzące z naszej produkcji zadowalają bardzo wymagających odbiorców. Ich jakość wzbudza zachwyt i satysfakcję. Z naszym opakowaniem Twój produkt nie tylko będzie doskonale chroniony ale także otrzyma piękna, indywidualną oprawę.</p>
 </div>
 <div class="column" style="padding:0px">
-<img class="oimg" width="100%" src="http://localhost:8888/img/uszlachetnienie-opakowanie.png" />
+<img class="oimg" width="100%" src="https://artopen.netlify.app/img/uszlachetnienie-opakowanie.png" />
 </div>
 </div>
 
@@ -142,7 +142,7 @@ Twoje <b>opakowanie</b>
 </p>
 <br>
 <br>
-<img alt="opakowania" src="http://localhost:8888/img/twoje-opakowanie.png" width="100%" />
+<img alt="opakowania" src="https://artopen.netlify.app/img/twoje-opakowanie.png" width="100%" />
 </div>
 
 

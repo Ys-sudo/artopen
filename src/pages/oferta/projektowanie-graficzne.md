@@ -64,7 +64,7 @@ keywords:
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="http://localhost:8888/img/tablet-artopen.png" />
+<img width="100%" src="https://artopen.netlify.app/img/tablet-artopen.png" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Logotyp <b>firmowy</b></p>
@@ -136,13 +136,13 @@ Grafika wektorowa zapisana jest za pomocą współrzędnych dzięki czemu zachow
 </p>
 </div>
 <div class="column" style="padding:0px">
-<img width="100%" class="oimg" alt="grafika wektorowa" src="http://localhost:8888/img/ilustracje-wektorowe.png" />
+<img width="100%" class="oimg" alt="grafika wektorowa" src="https://artopen.netlify.app/img/ilustracje-wektorowe.png" />
 </div>
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" alt="reklama zewnętrzna" class="oimg" src="http://localhost:8888/img/reklama-wielkoformatowa.png" />
+<img width="100%" alt="reklama zewnętrzna" class="oimg" src="https://artopen.netlify.app/img/reklama-wielkoformatowa.png" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Reklamy <b>wielkoformatowe</b></p>
