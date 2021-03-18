@@ -1,7 +1,8 @@
 ---
 templateKey: offer-page
 title: Opakowania
-desc: Produkujemy opakowania z wykrojnika o indywidualnych parametrach
+desc: >-
+  Produkujemy opakowania z wykrojnika o indywidualnych parametrach, z uszlachetnieniami oraz znakowaniem nowoczesnymi technikami. Oferujemy niepowtarzalny projekt graficzny oraz ekologiczne materiały.
 slug: opakowania
 date: 2021-01-03T13:49:14.606Z
 cover: /img/offer-headers/opakowania.jpg
@@ -71,7 +72,7 @@ Opakowania wychodzące z naszej produkcji zadowalają bardzo wymagających odbio
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img class="oimg" width="100%" src="https://artopen.pl/images/opakowanie-HASCO.jpg" />
+<img class="oimg" width="100%" src="http://localhost:8888/img/indywidualny-wymiar.png" />
 </div>
 <div class="column" style="margin-top:50px;margin-left:30px">
 <p style="font-size:30px">Indywidualny<b> wymiar</b></p>
@@ -89,7 +90,7 @@ Dobry produkt wymaga dobrego opakowania. Nasze doświadczenie w projektowaniu i 
 Opakowania wychodzące z naszej produkcji zadowalają bardzo wymagających odbiorców. Ich jakość wzbudza zachwyt i satysfakcję. Z naszym opakowaniem Twój produkt nie tylko będzie doskonale chroniony ale także otrzyma piękna, indywidualną oprawę.</p>
 </div>
 <div class="column" style="padding:0px">
-<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/opakowanie-rexer.jpg" />
+<img class="oimg" width="100%" src="http://localhost:8888/img/uszlachetnienie-opakowanie.png" />
 </div>
 </div>
 
@@ -141,7 +142,7 @@ Twoje <b>opakowanie</b>
 </p>
 <br>
 <br>
-<img src="https://artopen.pl/images/2020/04/11/twoje-opakowania.jpg" width="100%" />
+<img alt="opakowania" src="http://localhost:8888/img/twoje-opakowanie.png" width="100%" />
 </div>
 
 

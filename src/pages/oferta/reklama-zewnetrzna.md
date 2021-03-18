@@ -1,7 +1,8 @@
 ---
 templateKey: offer-page
 title: Reklama zewnętrzna
-desc: Montujemy reklamy wielkoformatowe - banery, tablice, siatki mesh
+desc: >-
+  Projektujemy i montujemy reklamy wielkoformatowe - banery, tablice, siatki mesh, billboardy reklamowe i inne. Zadbamy o odpowiednią lokalizację oraz przygotowanie.
 slug: reklama-zewnetrzna
 date: 2021-04-03T13:49:14.606Z
 cover: /img/offer-headers/reklama-zewnetrzna.jpg

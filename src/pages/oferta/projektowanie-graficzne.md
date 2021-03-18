@@ -2,7 +2,7 @@
 templateKey: offer-page
 title: Projektowanie graficzne
 desc: >-
- Projektowanie graficzne to nasza pasja. Wykonujemy unikatowe projekty graficzne w tym, logotypy, strony internetowe, identyfikacje wizualne i reklamy wielkoformatowe.
+ Projektowanie graficzne to nasza pasja. Wykonujemy unikatowe projekty graficzne w tym, logotypy, strony internetowe, identyfikacje wizualne, reklamy wielkoformatowe, grafiki 3D oraz wektorowe.
 slug: projektowanie-graficzne
 date: 2021-10-03T13:49:14.606Z
 cover: /img/offer-headers/projektowanie-graficzne.jpg
@@ -19,7 +19,7 @@ tags:
   - wizualizacje produktów
 meta_title: Projektowanie graficzne 🌱 Agencja reklamowa | Art Open Sp. z o.o.
 meta_description: >-
- Projektowanie graficzne | Agencja reklamowa Art Open 🌳 Grafika do każdego projektu, branding, identyfikacja wizualna, projektowanie logotypu, firmowe kalendarze książkowe, strony internetowe, aplikacje, grafika 3D oraz grafika wektorowa. Zapraszamy do zapoznania się z oferowanymi przez nas usługami!
+ Projektowanie graficzne | Agencja reklamowa | Art Open 🌳 Grafika do każdego projektu, branding, identyfikacja wizualna, projektowanie logotypu, firmowe kalendarze książkowe, strony internetowe, aplikacje, grafika 3D oraz grafika wektorowa. Zapraszamy do zapoznania się z oferowanymi przez nas usługami!
 keywords:
   - agencja reklamowa
   - projektowanie graficzne
@@ -64,7 +64,7 @@ keywords:
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/07/tablet-artopen.png" />
+<img width="100%" src="http://localhost:8888/img/tablet-artopen.png" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Logotyp <b>firmowy</b></p>
@@ -91,7 +91,7 @@ Projektowanie logo jest dla nas procesem pełnym twórczej ekspresji. Forma graf
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/07/identyfikacja-artopen.png" />
+<img width="100%" class="oimg" src="https://artopen.pl/images/2020/04/07/identyfikacja-artopen.png" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Identyfikacje <b>wizualne</b></p>
@@ -136,13 +136,13 @@ Grafika wektorowa zapisana jest za pomocą współrzędnych dzięki czemu zachow
 </p>
 </div>
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.netlify.app/img/portfolio.svg" />
+<img width="100%" class="oimg" alt="grafika wektorowa" src="http://localhost:8888/img/ilustracje-wektorowe.png" />
 </div>
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" class="oimg" src="https://artopen.netlify.app/img/outdoor_delaval.jpg" />
+<img width="100%" alt="reklama zewnętrzna" class="oimg" src="http://localhost:8888/img/reklama-wielkoformatowa.png" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Reklamy <b>wielkoformatowe</b></p>

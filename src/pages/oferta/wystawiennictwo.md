@@ -1,7 +1,8 @@
 ---
 templateKey: offer-page
 title: Wystawiennictwo
-desc: Realizujemy całościowe systemy targowe, m.in. ścianki, rollup'y, lady
+desc: >-
+ Realizujemy całościowe systemy targowe, m.in. ścianki, rollup'y, lady, stoiska multimedialne, systemy wystawiennicze, firmowe flagi oraz przenośnie stoiska targowe.
 slug: wystawiennictwo
 date: 2021-02-03T13:49:14.606Z
 cover: /img/offer-headers/wystawiennictwo.jpg
@@ -47,9 +48,9 @@ keywords:
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/07/stoiska-targowe.jpg" />
+<img width="100%" class="oimg" src="https://artopen.pl/images/2020/04/07/stoiska-targowe.jpg" />
 </div>
-<div class="column" style="margin-top:50px">
+<div class="column" style="margin-top:50px;padding-left:40px">
 <p style="font-size:30px">Stoiska<b> targowe</b></p>
 <br>
 <p>
@@ -72,10 +73,10 @@ Doskonale sprawdzają się w przypadku małych powierzchni wystawienniczych. Są
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img width="100%" src="https://artopen.pl/images/2020/04/07/stoiska-targowe.jpg" />
+<img width="100%" class="oimg" src="http://localhost:8888/img/stoiska-multimedialne.png" />
 </div>
-<div class="column" style="margin-top:50px">
-<p style="font-size:30px">Instalacje<b> multimedialne</b></p>
+<div class="column" style="margin-top:50px;padding-left:40px">
+<p style="font-size:30px">Stoiska<b> multimedialne</b></p>
 <br>
 <p>
 Proponowane lekkie systemy wystawiennicze otwierają możliwości do dowolnej konfiguracji poszczególnych elementów, wielokrotnych zmian wydruków, czy rozbudowywania w miarę potrzeby całej aranżacji stoiska. W dobie ery ECO te cechy są niezwykle pożądane, ponieważ pozwalają na zaoszczędzenie zasobów i wielokrotne użycie.
@@ -91,7 +92,7 @@ Proponowane lekkie systemy wystawiennicze otwierają możliwości do dowolnej ko
 Doskonale sprawdzają się w przypadku małych powierzchni wystawienniczych. Są estetyczne w wyglądzie i wygodne w montażu oraz transporcie. Można je dowolnie konfigurować, rozbudowywać i przekształcać np. poprze zmianę wydruków. Naszą ofertę wzbogacamy o rollup'y, uniwersalne ścianki, standy reklamowe oraz flagi.</p>
 </div>
 <div class="column" style="padding:0px">
-<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/rollupy-cargo.jpg" />
+<img class="oimg" width="100%" src="http://localhost:8888/img/flaga.png" />
 </div>
 </div>
 

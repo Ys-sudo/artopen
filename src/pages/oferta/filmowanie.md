@@ -1,7 +1,8 @@
 ---
 templateKey: offer-page
 title: Filmowanie
-desc: Kręcimy filmy oraz spoty reklamowe według określonego scenariusza
+desc: >-
+  Kręcimy filmy oraz spoty reklamowe według określonego scenariusza, zajmiemy się montażem, postprodukcją oraz efektami specjalnymi takimi jak animacje 2D lub 3D.
 slug: filmowanie
 date: 2021-02-03T13:49:14.606Z
 cover: /img/offer-headers/filmowanie.jpg

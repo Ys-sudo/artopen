@@ -62,9 +62,7 @@ function OffNav(props) {
 
     <a onClick={selectOffer} className='ofnav1' >
     <img  width="10px" className='icon-green' style={{marginRight:'0px'}} alt="gadżety" src='/img/lightbulb.svg'/>
-    <br />
-      Gadżety reklamowe 
-    </a>
+    <br />Gadżety reklamowe </a>
 
     <a onClick={selectOffer} className='ofnav1' >
     <img  width="10px" className='icon-green' style={{marginRight:'0px'}} alt="wydruki" src='/img/map.svg'/>

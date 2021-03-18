@@ -1,7 +1,8 @@
 ---
 templateKey: offer-page
 title: VR
-desc: Kreujemy wirtualną rzeczywistość dla biznesu, instytucji kultury i marek
+desc: >-
+  Kreujemy wirtualną rzeczywistość dla biznesu, instytucji kultury i marek. Projekty na okulary VR zapewnią twoim klientom niezapomniane przeżycie zarazem kreując nowoczesny wizerunek dla Twojego biznesu.
 slug: vr
 date: 2020-12-05T13:49:14.606Z
 cover: /img/offer-headers/vr.jpg

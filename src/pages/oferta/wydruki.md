@@ -1,7 +1,8 @@
 ---
 templateKey: offer-page
 title: Wydruki reklamowe
-desc: Drukujemy foldery, ulotki, teczki z uszlachetnieniem hot-stamplingowym.
+desc: >-
+  Drukujemy foldery, ulotki, wizytówki, teczki, kalendarze, plakaty, publikacje, katalogi i inne produkty wykorzystując ekologiczny papier oraz farby.
 slug: wydruki
 date: 2021-04-03T13:49:14.606Z
 cover: /img/offer-headers/wydruki-reklamowe.jpg

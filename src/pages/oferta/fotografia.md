@@ -1,7 +1,8 @@
 ---
 templateKey: offer-page
 title: Fotografia
-desc: Wykonujemy profesjonalne sesje fotograficzne produktów firmowych
+desc: >-
+  Wykonujemy profesjonalne sesje fotograficzne produktów firmowych, obiektów, eventów oraz ludzi, oferujemy obróbkę graficzną zdjęć oraz ujęcia z drona.
 slug: fotografia
 date: 2021-03-03T13:49:14.606Z
 cover: /img/offer-headers/fotografia-produktowa.jpg

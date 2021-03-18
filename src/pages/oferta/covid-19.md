@@ -1,30 +1,37 @@
 ---
 templateKey: offer-page
 title: COVID-19
-desc: Przydatne artykuły do dezynfekcji oraz ochrony zdrowia, w tym m.in. maseczki.
+desc: >-
+ Maski chirurgiczne, maski z logo, przyłbice, produkty do dezynfekcji i żele do rąk - te i inne przydatne artykuły do ochrony zdrowia znajdziecie Państwo w naszej ofercie przeciwko Covid-19.
 slug: covid-19
 date: 2021-12-04T13:49:14.606Z
 cover: /img/offer-headers/covid.jpg
 icon: /img/viruses.svg
-subtitle: Wydarzenia minionego roku prawie zatrzymały świat. Pandemia COVID-19 wymusiła zmiany w naszym postępowaniu i myśleniu.
+subtitle: Pandemia COVID-19 wymusiła zmiany w naszym postępowaniu i myśleniu. Wydarzenia minionego roku prawie zatrzymały świat.
 tags:
   - covid-19
   - artykuły do dezynfekcji
   - artykuły przeciwbakteryjne
-  - Maseczki
+  - przyłbice
+  - maski z logo
+  - maski chirurgiczne
+  - maski wielokrotnego użytku
+  - żele do dezynfekcji
 
-meta_title: Covid-19 🏥 maseczki z logo, artykuły przeciwbakteryjne, dezynfekcja | Agencja reklamowa | Art Open Sp. z o.o.
+meta_title: Covid-19 🏥 maseczki z logo, artykuły antybakteryjne, dezynfekcja | Agencja reklamowa | Art Open Sp. z o.o.
 meta_description: >-
- Covid-19 Art Open | Agencja reklamowa - Wrocław - Trudna sytuacja pandemiczna wymaga od nas odpowiedzialności nie tylko za siebie ale także za ludzi wokół nas. Najlepszym sposobem uniknięcia zarażenia COVID-19 i nie tylko, jest zapobieganie. Maseczki, środki do dezynfekcji, żele antybakteryjne.
+ COVID-19 | Agencja reklamowa | Art Open 🌳 Artykuły do dezynfekcji, produkty antybakteryjne, spersonalizowane maski z logo, przyłbice, maski chirurgiczne, artykuły do ochrony zdrowia. Zabezpiecz firmę przed COVID-19, zminimalizuj ryzyko zachorowania z naszą pomocą. Środki ochrony osobistej niezbędne w ograniczeniu transmisji wirusa. Sprawdź!
 keywords:
   - artykuły do dezynfekcji
   - artykuły przeciwbakteryjne
-  - maseczki
+  - maski chirurgiczne
+  - maski wielokrotnego użytku
+  - maski z logo
+  - żele do dezynfekcji
   - covid-19
   - agencja reklamowa
-  - Wrocław
-  - Dezynfekcja
-  - srodki do dezynfekcji
+  - dezynfekcja
+  - środki do dezynfekcji
   - ochrona zdrowia
 ---
 
@@ -196,7 +203,7 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 
 </div>
 
-<div class="columns" style="margin-left:5%;">
+<div class="columns" style="margin-left:5%;display:flex;">
 
   <div class="column" id="produkty-antybakteryjne" style="width:60%;">
   <div style="text-align:left;padding-top:150px">
@@ -213,7 +220,7 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
   </div>
 
   <div  style="width: 40%;text-align:right">
-  <img src="https://artopen.netlify.app/img/covid-img/c5.png" height="25%" />
+  <img alt="produkty antybakteryjne" src="https://artopen.netlify.app/img/covid-img/c5.png" height="25%" />
   </div>
   <br>
 
@@ -293,3 +300,31 @@ Zapytaj nas
 </div>
 </div>
 <br><br>
+
+<div style="margin-left:10%;margin-right:10%;padding:5%">
+<p>
+Trudna sytuacja pandemiczna wymaga od nas odpowiedzialności nie tylko za siebie ale także za ludzi wokół nas. Najlepszym sposobem uniknięcia zarażenia COVID-19 i nie tylko, jest zapobieganie.
+W dbaniu o czystość pomagają nam środki dezynfekcyjne przeznaczone do odkażania dłoni oraz różnych powierzchni tj. meble, podłogi, klamki, czy urządzenia sanitarne. Dezynfekcja to  podstawowe działanie prewencyjne pozwalające zmniejszyć ryzyko zachorowania.
+Stosując niżej wymienione środki do dezynfekcji:
+- spraye do odkażania blatów i mebli
+- osobiste spraye dezynfekcyjne, mieszczące się w każdej nawet najmniejszej torebce (ma bardzo ładny zapach 😊)
+– link do naszego produktu
+- żele do dezynfekcji dłoni bez użycia wody, - link
+- spraye do dezynfekcji dłoni idealne do pomieszczeń sanitarnych, - link
+zabezpieczamy siebie oraz osoby w naszym otoczeniu przed kontaktem z groźnymi wirusami i bakteriami.
+Doskonałym uzupełnieniem dezynfekcji jest prewencyjne noszenie maseczek ochronnych - link. Ich stosowanie ogranicza w dużym stopniu emisję wszelkich bakterii i wirusów, których źródłem jest każdy z nas. Pozwala to na zmniejszenie w pomieszczeniach np. biurowych,  liczby patogenów we wdychanym powietrzu. Maseczki ochronne wykonane z przyjaznej bawełny wielowarstwowej, są wygodne w użyciu, pozwalają na swobodne oddychanie przy jednoczesnym zabezpieczeniu przed zainfekowaniem patogenami zawieszonymi w powietrzu. Możemy być pewni, że chronimy siebie i osoby przebywające z nami w jednym pomieszczeniu.
+Kolejnym ciekawym produktem, przydatnym podczas trudnego czasu pandemii jest długopis antybakteryjny. Powierzchnia tego długopisu nie pozwala na przylgnięcie do niej patogenów. Tym samym przedmiot wielokrotnego użytku, jakim jest długopis antybakteryjny, staje się naszym sprzymierzeńcem w rozprzestrzenianiu się chorobotwórczych patogenów.
+</p>
+<br>
+<p>Jak się chronić?</p>
+<br>
+<p>
+Pamiętaj o higienie osobistej, częstym myciu i dezynfekowaniu rąk środkami do tego przeznaczonymi tj., żele, spraye i płyny dezynfekcyjne bakterio i wirusobójcze.
+Utrzymuj czystość pomieszczeń, w których przebywasz poprzez czyszczenie ich środkami dezynfekcyjnymi dedykowanymi do mebli i podłóg.
+Używaj maseczek ochronnych lub przyłbic w przestrzeni publicznej
+Często dezynfekuj klawiatury, myszki, telefony.
+Przecieraj płynami wirusobójczymi klamki.
+Wietrz pomieszczania tak często jak to możliwe nawet zimą.
+Prowadź zdrowy i zrównoważony tryb życia dbaj o właściwie zbilansowane posiłki, przyjmuj suplementy jeśli lekarz je zaleci, ćwicz i zadbaj o właściwą ilość snu.
+Także życzliwość i pozytywne nastawienie do ludzi i świata pomoże nam wszystkim w tej trudnej i wymagającej sytuacji, która jest sprawdzianem dla naszej odpowiedzialności i rozwagi. </p>
+</div>
