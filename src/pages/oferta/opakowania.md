@@ -2,7 +2,7 @@
 templateKey: offer-page
 title: Opakowania
 desc: >-
-  Produkujemy opakowania z wykrojnika o indywidualnych parametrach, z uszlachetnieniami oraz znakowaniem nowoczesnymi technikami. Oferujemy niepowtarzalny projekt graficzny oraz ekologiczne materiały.
+  Opakowania produkowane z wykrojnika o indywidualnych parametrach, z uszlachetnieniami oraz znakowaniem nowoczesnymi technikami. Oferujemy niepowtarzalny projekt graficzny oraz ekologiczne materiały.
 slug: opakowania
 date: 2021-01-03T13:49:14.606Z
 cover: /img/offer-headers/opakowania.jpg
@@ -136,13 +136,11 @@ Opakowania wychodzące z naszej produkcji zadowalają bardzo wymagających odbio
 
 </div>
 
-<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<div style="margin-left:10%;margin-right:10%;padding:5%">
 <p style="text-align:left;font-size:30px">
-Twoje <b>opakowanie</b>
+Twoje <b style="color:#23C495">opakowanie</b>
 </p>
-<br>
-<br>
-<img alt="opakowania" src="https://artopen.netlify.app/img/twoje-opakowanie.png" width="100%" />
+<img alt="opakowania" src="https://artopen.netlify.app/img/twoje-opakowanie.png" width="90%" style="margin-left:15%" />
 </div>
 
 

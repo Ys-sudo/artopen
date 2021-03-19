@@ -17,7 +17,8 @@ tags:
   - reklamy wielkoformatowe
   - wydruki reklamowe
   - wizualizacje produktów
-meta_title: Projektowanie graficzne 🌱 Agencja reklamowa | Art Open Sp. z o.o.
+meta_title: >-
+  Projektowanie graficzne 🌱 Agencja reklamowa | Art Open Sp. z o.o.
 meta_description: >-
  Projektowanie graficzne | Agencja reklamowa | Art Open 🌳 Grafika do każdego projektu, branding, identyfikacja wizualna, projektowanie logotypu, firmowe kalendarze książkowe, strony internetowe, aplikacje, grafika 3D oraz grafika wektorowa. Zapraszamy do zapoznania się z oferowanymi przez nas usługami!
 keywords:

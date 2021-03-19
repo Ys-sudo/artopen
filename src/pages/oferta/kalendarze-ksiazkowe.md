@@ -122,7 +122,7 @@ Nasz papier z kamienia jest papierem ekologicznym, składającym się w 75% z w�
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%;padding-bottom:0%">
 <div class="column" style="padding:0px">
 <br><br>
-<img style="height:150px" src="https://artopen.pl/images/2020/04/11/odporny.png" />
+<img style="height:150px" src="https://artopen.netlify.app/img/odporny.png" />
 <p style="font-size:30px">Odporny na <b>rozdarcia</b></p>
 <br>
 <p style="padding-right:40px">
@@ -131,7 +131,7 @@ Papier z kamienia, w przeciwieństwie do papieru tradycyjnego, jest wysoce odpor
 </div>
 <div class="column" style="padding:0px">
 <br><br>
-<img style="height:150px" src="https://artopen.pl/images/2020/04/11/woda.png" />
+<img style="height:150px" src="https://artopen.netlify.app/img/woda.png" />
 <p style="font-size:30px">Odporny na <b>wodę</b></p>
 <br>
 <p>
@@ -144,7 +144,7 @@ Wysoka odporność papieru na wodę i tłuszcz, skutecznie chroni notatki przed 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
 <br><br>
-<img style="height:150px" src="https://artopen.pl/images/2020/04/11/bialy.png" />
+<img style="height:150px" src="https://artopen.netlify.app/img/bialy.png" />
 <p style="font-size:30px">Naturalnie <b>biały</b></p>
 <br>
 <p style="padding-right:40px">
@@ -153,7 +153,7 @@ Wapń, będący głównym składnikiem papieru kamiennego, pozwala uzyskać efek
 </div>
 <div class="column" style="padding:0px">
 <br><br>
-<img style="height:150px" src="https://artopen.pl/images/2020/04/11/ekologiczny.png" />
+<img style="height:150px" src="https://artopen.netlify.app/img/ekologiczny.png" />
 <p style="font-size:30px"><b>Ekologiczny</b></p>
 <br>
 <p style="padding-right:40px">
