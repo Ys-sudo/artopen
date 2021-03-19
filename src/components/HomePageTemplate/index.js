@@ -268,8 +268,11 @@ const HomePageTemplate = (props) => {
 
       <section className='is-bold is-medium'>
         <div className='hero-body'>
-          <div className='container'>
-          <h5 className='has-text-weight-semibold is-size-2' style={{textAlign:'center'}}>O nas:</h5>
+          <div className='container' >
+          <div style={{textAlign:'center'}}>
+          <img id='rotate' src="/img/logo-square.svg" width="120px" />
+          <h5 className='has-text-weight-semibold is-size-2' >O nas:</h5>
+          </div>
           <br />
           <br />
             <div className='columns'>
