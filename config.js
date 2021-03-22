@@ -10,7 +10,7 @@ module.exports = {
   googleTagManagerID: '', // GTM tracking ID.
   disqusShortname: 'Art Open', // Disqus shortname.
   userName: '🌱 Art Open',
-  userTwitter: '',
+  userTwitter: '@AReklamy',
   userLocation: 'Wrocław, Poland',
   userDescription: '🌱 Pro Ekologiczna agencja reklamowa zajmująca się planowaniem, projektowaniem i wdrażaniem rozwiązań marketingowych. 🖥️  💻 📱',
   copyright: '©  2021 Art Open | Wszelkie prawa zastrzeżone', // Copyright string for the footer of the website and RSS feed.

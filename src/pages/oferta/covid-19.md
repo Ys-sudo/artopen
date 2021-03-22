@@ -302,21 +302,29 @@ Zapytaj nas
 <br><br>
 
 <div style="margin-left:10%;margin-right:10%;padding:5%">
+<b> Covid-19 </b>
+<br>
 <p>
 Trudna sytuacja pandemiczna wymaga od nas odpowiedzialności nie tylko za siebie ale także za ludzi wokół nas. Najlepszym sposobem uniknięcia zarażenia COVID-19 i nie tylko, jest zapobieganie.
 W dbaniu o czystość pomagają nam środki dezynfekcyjne przeznaczone do odkażania dłoni oraz różnych powierzchni tj. meble, podłogi, klamki, czy urządzenia sanitarne. Dezynfekcja to  podstawowe działanie prewencyjne pozwalające zmniejszyć ryzyko zachorowania.
-Stosując niżej wymienione środki do dezynfekcji:
-- spraye do odkażania blatów i mebli
-- osobiste spraye dezynfekcyjne, mieszczące się w każdej nawet najmniejszej torebce (ma bardzo ładny zapach 😊)
-– link do naszego produktu
-- żele do dezynfekcji dłoni bez użycia wody, - link
-- spraye do dezynfekcji dłoni idealne do pomieszczeń sanitarnych, - link
-zabezpieczamy siebie oraz osoby w naszym otoczeniu przed kontaktem z groźnymi wirusami i bakteriami.
+</p>
+<br>
+<b>Stosując niżej wymienione środki do dezynfekcji:</b>
+<ul style="list-style-type: circle;margin-left:20px">
+<li> spraye do odkażania blatów i mebli </li>
+<li>osobiste spraye dezynfekcyjne, mieszczące się w każdej nawet najmniejszej torebce (ma bardzo ładny zapach 😊) - link do naszego produktu</li>
+<li>żele do dezynfekcji dłoni bez użycia wody, - link</li>
+<li>spraye do dezynfekcji dłoni idealne do pomieszczeń sanitarnych, - link</li>
+</ul>
+<br>
+<p>
+Zabezpieczamy siebie oraz osoby w naszym otoczeniu przed kontaktem z groźnymi wirusami i bakteriami.
 Doskonałym uzupełnieniem dezynfekcji jest prewencyjne noszenie maseczek ochronnych - link. Ich stosowanie ogranicza w dużym stopniu emisję wszelkich bakterii i wirusów, których źródłem jest każdy z nas. Pozwala to na zmniejszenie w pomieszczeniach np. biurowych,  liczby patogenów we wdychanym powietrzu. Maseczki ochronne wykonane z przyjaznej bawełny wielowarstwowej, są wygodne w użyciu, pozwalają na swobodne oddychanie przy jednoczesnym zabezpieczeniu przed zainfekowaniem patogenami zawieszonymi w powietrzu. Możemy być pewni, że chronimy siebie i osoby przebywające z nami w jednym pomieszczeniu.
+<br><br>
 Kolejnym ciekawym produktem, przydatnym podczas trudnego czasu pandemii jest długopis antybakteryjny. Powierzchnia tego długopisu nie pozwala na przylgnięcie do niej patogenów. Tym samym przedmiot wielokrotnego użytku, jakim jest długopis antybakteryjny, staje się naszym sprzymierzeńcem w rozprzestrzenianiu się chorobotwórczych patogenów.
 </p>
 <br>
-<p>Jak się chronić?</p>
+<p><b>Jak się chronić?</b></p>
 <br>
 <p>
 Pamiętaj o higienie osobistej, częstym myciu i dezynfekowaniu rąk środkami do tego przeznaczonymi tj., żele, spraye i płyny dezynfekcyjne bakterio i wirusobójcze.

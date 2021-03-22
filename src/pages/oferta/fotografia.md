@@ -95,7 +95,7 @@ Wiele obiektów można sfotografować w studio inne przy pomocy profesjonalnego 
 <p style="font-size:30px">Obróbka<b> graficzna zdjęć</b></p>
 <br>
 <p>
-W naszych fotografiach produktowych staramy się pokazać nie tylko sam produkt ale także, szczególnie w przypadku zdjęć do katalogów, przedstawić je w jak najbardziej atrakcyjny sposób. Nie ma tu znaczenia, czy jest to pędzel malarski czy wagon kolejowy. Każdy z tych obiektów jest potraktowany indywidualnie.
+Zadbamy o odpowiednią obróbkę wykonanych zdjęć dostosowując odpowiednie parametry pod docelowe zapotrzebowanie. Sprawimy że zdjęcia wyglądać będą profesjonalnie a w dodatku będą odpowiednio przygotowane pod wydruki lub użycie w sieci.
 </p>
 </div>
 </div>
@@ -105,15 +105,43 @@ W naszych fotografiach produktowych staramy się pokazać nie tylko sam produkt 
 <p style="font-size:30px">Zdjęcia z <b>drona</b></p>
 <br>
 <p>
-Wiele obiektów można sfotografować w studio inne przy pomocy profesjonalnego sprzętu fotografujemy w plenerze. Najważniejsze jest, aby rezultat końcowy zadowalał naszych Klientów, a zdjęcia oprócz utrwalenia produktu na obrazie i praktycznego zastosowania miały w sobie wyrafinowaną nutę artyzmu.</p>
+Zdjęcia lotnicze z perspektywy ptaka nadadzą Państwa sesji kinematograficzny charakter, stanowią świetne rozwiązanie w przypadku zdjęć z eventów czy pod kampanie promocyjne i marketingowe, pozwalają odbiorcą wznieść się wysoko i zobaczyć Państwa aranżacje z innej perspektywy.</p>
 </div>
 <div class="column" style="padding:0px">
 <img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/20/sesje-zdjeciowe.jpg" />
 </div>
 </div>
 
-<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<div style="margin-left:10%;margin-right:10%;padding:5%">
+<b>Fotografia</b>
+<br>
 <p>
-Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
+Ach ten Internet. Czego w nim nie ma! Kuszą nas strony, na których prezentują się doskonale sfotografowane przedmioty, pejzaże, ludzie.
+Aktualna sytuacja niewątpliwie przyspieszyła rozwój Internetu i rzeczywistości wirtualnej, która stała się nierozerwalną częścią naszego życia.
+Istniejemy w dwóch światach jednocześnie – i choć te światy tak bardzo różnią się miedzy sobą – jedna rzecz pozostaje niezmienna – oba doświadczamy przede wszystkim naszym zmysłem wzroku.
+Czy zdarzyło Ci się, że piękna fotografia z Paryża, wzbudziła w tobie nagłe pragnienie odwiedzenia tego miejsca ? Magia fotografii.
+<br><br>
+To prawdziwa sztuka zawrzeć w jednej małej klatce tyle emocji, piękna i pasji, żeby wzbudzić zainteresowanie czy pragnienie.
+O takim pragnieniu wiedzą doskonale np. kobiety – widzą piękną suknię czy biżuterię i już chcą ją mieć.
+Dobrze sfotografowany przedmiot to nie tylko dowód jego istnienia, to cała gama różnych emocji, która kryje się za zdjęciem.
+Niewątpliwie dobre fotografie przyciągają uwagę. Każdy, kto ceni swoją pracę, swoje produkty, chce
+zaprezentować je jak najlepiej.
+<br><br>
+My służymy pomocą. Udokumentujemy na fotografii twoje produkty, wydarzenia, czy osoby.
+Stworzymy zdjęcia o niepowtarzalnej atmosferze.
+Zdjęcia produktowe będą oddawać najlepsze walory Twojego produktu.
+Czy to szpilka do krawatu czy wagon kolejowy – nie ma dla nas trudnych wyzwań.
+A co ze zdjęciami w przestrzeni kosmicznej? Zapytacie? Jeśli się tam wybierzecie, to my na pewno razem z Wami 😊
+Dobra fotografia, to nie tylko ta ostra, przejrzysta.
+Czy w ogóle istnieje ideał fotografii?
+Mistrzów w tej dziedzinie jest wielu.
+Wspaniałe współczesne aparaty cyfrowe, obróbka graficzna zdjęć w profesjonalnych programach, pozwalają na stworzenie powalających efektów wizualnych.
+Jednak zdjęcie prababci, oprawione w złoconą ramkę, czarno-białe lub w sepii, także ma niepowtarzalny urok i piękno. Czar dawno minionych epok.
+<br><br>
+Co zatem znaczy fotografia idealna – czy w ogóle taka istnieje?
+Każdy z nas ma swój własny ideał, i żaden nie jest ani lepszy ani gorszy – jest nasz, własny.
+Każdy fotograf ma swój warsztat i charakterystyczny sposób fotografowania. Inne detale mają dla niego znaczenie, inne światło czy barwa.
+Ideałem jest to, że możemy swobodnie wyrażać się tworząc na pewno niepowtarzalne fotografie.
+Może spodoba Ci się nasze spojrzenie?
 </p>
 </div>

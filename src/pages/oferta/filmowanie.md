@@ -12,19 +12,22 @@ tags:
   - filmowanie
   - filmy reklamowe
   - montaż
-  - animacja
+  - animacje 3D
+  - animacje 2D
   - efekty specjalne
   - scenariusz
   - agencja reklamowa
   - spoty reklamowe
 meta_title: Filmowanie, montaż, animacja 🌱 Agencja reklamowa | Art Open Sp. z o.o.
 meta_description: >-
-  Filmowanie - montaż - animacje 🌳 Agencja reklamowa Art Open | Filmy i spoty reklamowe kręcone według scenariusza, oferujemy również montaż i obróbkę video, oraz animacje i infografiki. Zrealizujemy dla Ciebie twój wymarzony film, oferujemy również ujęcia z drona. Nie zwlekaj poznaj pełną ofertę!
+  Filmowanie - montaż - animacje 🌳 Agencja reklamowa Art Open | Filmy i spoty reklamowe kręcone według scenariusza, oferujemy również montaż i obróbkę video, oraz animacje 2D, 3D i infografiki. Zrealizujemy dla Ciebie twój wymarzony film, oferujemy również ujęcia z drona. Nie zwlekaj poznaj pełną ofertę!
 keywords:
   - filmowanie
   - filmy reklamowe
   - montaż
+  - animacje 3D
   - animacja
+  - animacje 2D
   - efekty specjalne
   - scenariusz
   - agencja reklamowa
@@ -91,7 +94,7 @@ Każda produkcja jest przygotowana w najdrobniejszym szczególe. Zaangażowany z
 <p style="font-size:30px">Animacje<b> 2D oraz 3D</b></p>
 <br>
 <p>
-Nowoczesne techniki animowania oraz montażu dają nieograniczone możliwości dla twórczości i wyobraźni. Bez ogromnych nakładów finansowych, tworzymy niezwykłe realizacje, które zachwycają swoim rozmachem. Filmy kręcone są zarówno we wnętrzach obiektów jak i w plenerze przy użyciu np. drona.
+Wykonamy dla Państwa animacje tradycyjne 2D oraz animacje 3D, niepowtarzalne animowane grafiki świetnie sprawdzają się na stronach internetowych, do promocji produktu lub jako infografiki edukujące odbiorców na dane tematy. Dynamika, niepowtarzalna fabuła oraz ciekawe rozwiązania animacyjne - to cechy naszych animacji.
 </p>
 </div>
 </div>
@@ -101,15 +104,36 @@ Nowoczesne techniki animowania oraz montażu dają nieograniczone możliwości d
 <p style="font-size:30px">Ujęcia z<b> drona</b></p>
 <br>
 <p>
-Każda produkcja jest przygotowana w najdrobniejszym szczególe. Zaangażowany zespół realizatorów i twórców, w precyzyjnie zgranym procesie produkcji, analizuje i weryfikuje każdy najdrobniejszy element. Doświadczenie twórców jest gwarancją udanego i wyrafinowanego obrazu.</p>
+Ujęcia z drona sprawią że Twój film nabierze hollywoodzkiego klimatu, odpowiednio wykonane, z efektami slow-motion zapewnią widzą Twojego filmu niezapomniane emocje. Zapraszamy do kontaktu!</p>
 </div>
 <div class="column" style="padding:0px">
 <iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/C3SM3Tx3Z8k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 
-<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<div style="margin-left:10%;margin-right:10%;padding:5%">
+<b>Filmowanie</b>
+<br>
 <p>
-Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
+Hollywood -  któż nie zna tej otoczonej nimbem tajemnicy, krainy legendarnych gwiazd i wytwórni filmowych. Odkąd powstał pierwszy film, ludzkość bezgranicznie go pokochała.
+<br><br>
+Filmy z międzynarodowymi nagrodami czy klasy B – wszystkie one mają swoich zagorzałych wielbicieli.
+Kogo nie śmieszy dzisiaj plastikowa Godziła z japońskiego filmu o monstrualnym potworze? Można się z tego filmu śmiać ale jest to film kultowy i warto go obejrzeć – choćby tylko po to, aby uświadomić sobie jak spektakularnie rozwinął się przemysł filmowy w tym jedna z jego dziedzin – efekty specjalne. Do podziwiania w wielu współczesnych filmach m.in – Avatar.
+Pomimo rozwoju technologii cyfrowej należy tu oddać hołd takim twórcom jak Stanley Kubrick, który sfilmował swoje największe dzieło, Odyseję kosmiczną: 2001, bez jednego, nawet najmniejszego, cyfrowego efektu specjalnego a mimo to, uzyskane efekty wzbudzają podziw nawet w naszych czasach.
+<br><br>
+Dziś wielkie wytwórnie nie mają już monopolu na kręcenie filmów. Współcześnie film, stał się doskonałym narzędziem autoprezentacji i informacji.
+Nawet w krótkim filmie, można zawrzeć niezwykle istotne i ważne treści. Ruchomy obraz przemawia do nas silniej niż stosy zapisanych kartek.
+<br><br>
+Wystarczy odwiedzić youtube, żeby się o tym przekonać. Niektórzy, bardziej uzależnieni od kręcenia, dokumentują nawet zakupy w supermarkecie lub swoje własne śniadanie albo nowo zakupione skarpetki. Istne szaleństwo 😊
+My chcemy użyć wspaniałej sztuki filmowej do zaprezentowania firmy, wydarzenia, produktu czy osoby – w zakresie zawodowym i biznesowym.
+<br><br>
+Film z procesu produkcji, targów, jubileuszu przedsiębiorstwa, ważnej inwestycji, wizyty na międzynarodowym szczeblu, szkolenia, wydarzenia integracyjnego – jesteśmy gotowi na jego realizację i produkcję.
+Dotychczasowe doświadczenie podpowiada nam, że nie ma dwóch takich samych filmów – każdy ma swoje wymagania, wyzwania i nieoczekiwane zwroty.
+<br><br>
+Mimo to, radość i przygoda związana z kręceniem każdego filmu, przewyższa wszystkie obawy i wątpliwości. Każda produkcja jest dla nas prawdziwa radością.
+<br><br>
+Na produkcję filmową składa się olbrzymia ilość elementów a i ich koordynacja jest kluczem do sukcesu. Wszystkie poszczególne elementy tj. scenariusz, organizacja na planie zdjęciowym, montaż, muzyka są dokładnie analizowane i w razie potrzeby weryfikowane.
+<br><br>
+Nasze doświadczenie daje nam poczucie, że zawsze staniemy na wysokości zadania i oddamy w ręce klienta wspaniały film.
 </p>
 </div>

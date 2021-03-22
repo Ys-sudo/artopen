@@ -125,11 +125,22 @@ Zestawy gadżetów dobrane tak by pomagać w życiu codziennym, w zestawach znaj
 </div>
 
 
-<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
+<div style="margin-left:10%;margin-right:10%;padding:5%">
+<b>Gadżety reklamowe eco</b>
+<br>
 <p>
 Prezenty, upominki, podarunki – lubimy je otrzymywać ale także ofiarowywać. Uśmiech i radość z otrzymanego upominku daje ogromną satysfakcję. Każda okazja wymaga innego podejścia.
 Upominki mogą być przeznaczone dla odwiedzających np. na targach. Inne upominki będą przeznaczone dla stałych klientów, inne dla współpracowników jeszcze inne dla pracowników.
 Święta Bożego Narodzenia,  jubileusze, wydarzenia okolicznościowe, spotkania, targi, nie mogą obejść się bez upominków, gadżetów i podarunków.
-Te wszystkie potrzeby zaspokoi nasza szeroka oferta różnych upominków i gadżetów z bardzo wielu dziedzin. Mamy upominki codziennego użytku tj. parasole. Urządzenia elektroniczne jak niezbędne w dzisiejszych czasach pendrive'y czy powerbank'i. Kable usb, micro-usb i inne także znajdziecie w naszej ofercie oraz potrzebne w każdym samochodzie ładowarki do telefonów komórkowych.
+<br><br>
+Te wszystkie potrzeby zaspokoi nasza szeroka oferta różnych upominków i gadżetów z bardzo wielu dziedzin. Mamy upominki codziennego użytku tj. parasole. Informacje o tych użytecznych przedmiotach znajdziecie poniżej*, urządzenia elektroniczne jak niezbędne w dzisiejszych czasach pendrivy czy powerbanki. Kabelki usb także znajdziecie w naszej ofercie oraz potrzebne w każdym samochodzie ładowarki do telefonów komórkowych.
+Panie domu i osoby lubiące gotowanie znajdą u nas ciekawą ofertę artykułów kuchennych.
+Jeśli wybieracie się na piknik czy wycieczkę nieodzownym i sprawdzonym przedmiotem będzie kosz piknikowy z talerzami, sztućcami i obrusem. Kocyk piknikowy z powłoką zabezpieczająca przed wilgocią i zimnem to doskonały wybór na wycieczki plenerowe. Jak przyjemnie zjeść posiłek na łonie natury w cieniu potężnego drzewa, nad jeziorem, morzem czy rzeką.
+Kiedy nie mamy cienia w postaci wiekowego drzewa na pomoc przychodzą nam parasole, które można rozpiąć w plenerze i cieszyć się upragnionym cieniem w każdych okolicznościach. Oprócz słońca mogą także ochronić nas przed niespodziewanym przelotnym deszczykiem.
+<br><br>
+Oprócz rekreacyjnych produktów znajdują się w naszej ofercie także artykuły biurowe, kalkulatory, notesy, długopisy, zestawy piśmiennicze, teczki, torby, i wiele innych. Wszystkie te artykuły mogą zostać obradowane.
+Uwzględniając rodzaj materiału, z którego upominki zostały wyprodukowane, można znakować je wybierając odpowiednią technikę a jest ich wiele. Poczynając od tradycyjnego tampodruku przez termotransfer, sitodruk, grawer laserowy, tłoczenie a na hotstampingu kończąc.
+<br><br>
+W naszej ofercie znajdują się produkty na każda okazję. Jeśli masz określone potrzeby, zgłoś się do nas. Wybierzemy dla Ciebie kilka propozycji najbardziej pasujących upominków.
 </p>
 </div>

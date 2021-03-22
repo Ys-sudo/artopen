@@ -155,6 +155,8 @@ Zaprojektujemy dla Państwa czytelne i chwytające za oko reklamy wielkoformatow
 </div>
 
 <div style="margin-left:10%;margin-right:10%;padding:5%">
+<b> Projektowanie graficzne </b>
+<br>
 <p>
 Współczesny marketing i reklama nie może się obyć bez tej niezwykle istotnej dziedziny, jaką jest projektowanie graficzne. To fundament każdej liczącej się agencji kreatywnej. Nasz zespół tworzą ludzie pełni pasji do projektowania, którzy nieustannie podnoszą swoje kwalifikacje i wzbogacają warsztat.
 Aby stworzyć interesujący i ponadczasowy projekt graficzny nie wystarczą umiejętności czysto techniczne jak doskonała obsługa programów graficznych z rodziny Adobe. Wyobraźnia niczym nieograniczona, odwaga i radość tworzenia – to nieodzowne składniki wspaniałego projektu graficznego.
@@ -165,7 +167,7 @@ Jego zadowolenie jest dla nas priorytetem. Nic nie motywuje nas tak bardzo jak p
 Jak wspaniale jest widzieć zaprojektowane przez nas logo, które towarzyszy naszemu klientowi w jego sukcesie biznesowym. Staje się ono rozpoznawalnym na rynku znakiem. To daje nam niezwykłą satysfakcję, bo mamy w tym sukcesie swój skromny udział.
 </p>
 <br>
-<p>Myślisz o zmianie szaty graficznej swoich akcydensów?</p>
+<p><b>Myślisz o zmianie szaty graficznej swoich akcydensów?</b></p>
 <br>
 <p>
 Nasz zespół graficzny jest do dyspozycji. Po przeanalizowaniu Twoich potrzeb i oczekiwań przygotujemy i zaprezentujemy ciekawe rozwiązania zmian graficznych w twoich materiałach promocyjnych i informacyjnych. Jeśli potrzebujesz rebrandingu lub odświeżenia logo, także służymy pomocą. Jesteśmy doświadczonym zespołem i mamy w swoim portfolio znaki firmowe funkcjonujące już w przestrzeni biznesowej ( logo SA, logo Skywater itp.)

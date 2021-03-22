@@ -9,15 +9,29 @@ cover: /img/offer-headers/opakowania.jpg
 icon: /img/box-open.svg
 subtitle: Opakowania
 tags:
-  - Studio Reklamy
-  - agencja interaktywna
+  - opakowania
+  - opakowania produktowe
+  - indywidualny wymiar
+  - znakowanie
+  - projektowanie opakowań
+  - wydruki
+  - wykrojnik
+  - ekologiczne opakowania
 meta_title: Opakowania 🌱 Agencja reklamowa | Art Open Sp. z o.o.
 meta_description: >-
-  Strony internetowe, sklepy e-commerce, aplikacje mobilne i web. 🌳 Agencja reklamowa Art Open | Zaprogramowane do Twoich potrzeb. Wykorzystujemy nowoczesne frameworki i technologie realizując założone cele. Przeprowadzimy audyt Twojej obecnej strony gratis, zadbamy o serwer oraz regularny backup, zapewniamy opiekę techniczną nad projektem. Nie zwlekaj poznaj pełną ofertę!
+  Opakowania - indywidualne wymiary, znakowanie - 🌳 Agencja reklamowa Art Open | Opakowania produktowe dostosowane do indywidualnych wymiarów, zajmiemy się zaprojektowaniem, wydrukiem, znakowaniem oraz wycięciem i złożeniem Twojego opakowania. Nie zwlekaj poznaj pełną ofertę!
 keywords:
-  - Studio Reklamy
-  - agencja interaktywna
-  - ekologia
+  - agencja reklamowa
+  - opakowania produktowe
+  - ekologiczne opakowania
+  - opakowania
+  - pakowanie
+  - naturalne surowce
+  - indywidualny wymiar
+  - znakowanie
+  - projektowanie opakowań
+  - wydruki
+  - wykrojnik
 ---
 <div style="margin-left:10%;margin-right:10%">
 <p>Wprowadzając drobne korekty do ponadczasowego stwierdzenia „Nie szata zdobi człowieka”, otrzymamy niezaprzeczalny fakt - „Szata zdobi produkt”. Nawet te najdoskonalsze potrzebują odpowiedniej oprawy. Dobrze opakowany przedmiot to połowa sukcesu. Bez względu na rodzaj, kształt czy przeznaczenie, zaprojektujemy odpowiednią formę opakowania.</p>
@@ -79,7 +93,7 @@ Opakowania wychodzące z naszej produkcji zadowalają bardzo wymagających odbio
 <p style="font-size:30px">Indywidualny<b> wymiar</b></p>
 <br>
 <p>
-Dobry produkt wymaga dobrego opakowania. Nasze doświadczenie w projektowaniu i produkcji opakowań, owocuje niezwykłymi realizacjami i precyzyjnie skonstruowanymi pudełkami. Dodatkowe elementy jak uszlachetnianie, kolorystyka a także uwzględnienie trendu ECO, tworzą festiwal nieograniczonej niczym kreacji.</p>
+Dostosujemy projekt opakowania do indywidualnych, nieszablonowych wymiarów, zadbamy o to by proces wykrajania przebiegł poprawnie oraz o to aby opakowanie wyróżniało się swoją formą i pomysłowym projektem nadając opakowaniu niepowtarzalność.</p>
 </div>
 </div>
 
@@ -88,7 +102,7 @@ Dobry produkt wymaga dobrego opakowania. Nasze doświadczenie w projektowaniu i 
 <p style="font-size:30px">Uszlachetnienie <b>opakowania</b></p>
 <br>
 <p>
-Opakowania wychodzące z naszej produkcji zadowalają bardzo wymagających odbiorców. Ich jakość wzbudza zachwyt i satysfakcję. Z naszym opakowaniem Twój produkt nie tylko będzie doskonale chroniony ale także otrzyma piękna, indywidualną oprawę.</p>
+Uszlachetniamy nasze opakowania stosująć zaawansowane techniki drukarskie takie jak np. tłoczenie matrycą, lakier UV użycie ozdobnych foli oraz wyszukanych materiałów. Posiadamy również papier oraz materiały przyjazne środowisku - zadbaj o naszą planetę i postaw na ekologiczne opakowania.</p>
 </div>
 <div class="column" style="padding:0px">
 <img class="oimg" width="100%" src="https://artopen.netlify.app/img/uszlachetnienie-opakowanie.png" />
@@ -147,8 +161,17 @@ Twoje <b style="color:#23C495">opakowanie</b>
 
 
 
-<div class="columns" style="padding:5%">
+<div style="margin-left:5%;margin-right:5%;padding:5%">
+<b>Opakowania poduktów</b>
+<br>
 <p>
-Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
+Wszyscy wiemy, że „Nie szata zdobi człowieka” jednak w przypadku produktów jest zgoła odmiennie. Niejednokrotnie opakowanie decyduje o sukcesie produktu.
+Ale nie tylko produkty wymagają stosownego i odpowiedniego opakowania. Obwolut, pudełek i kartoników używamy w bardzo wielu sytuacjach i do wielu przedmiotów.
+<br><br>
+Święta, uroczystości rodzinne, firmowe czy branżowe nie mogą się obyć bez upominków a co za tym idzie pudełek prezentowych.
+Odpowiedzią na te potrzeby są dedykowane pudełka, w dowolnym kolorze, zdobione, z nadrukiem lub bez, z kokardką czy inną ozdobą. Ponadto prezent estetycznie zapakowany jest wyrazem szacunku i wdzięczności, dla obdarowanego.
+Opakowania to świat nieskończonych ilości kształtów, kolorów, motywów. Wszystko co tylko sobie jesteśmy w stanie wyobrazić jako opakowanie, może być z powodzeniem przez nas zaprojektowane i wydrukowane. Ekskluzywne opakowanie do perfum ? – Bardzo proszę. (link do opakowania do perfum hasco-lek).Możliwości mamy nieograniczone.
+<br><br>
+Dbając o naturę preferujemy opakowania kartonowe i papierowe, podlegające recyklingowi. Opakowania z papierów eco prezentują się skromnie ale z klasą. Na nich także możemy nanosić nadruki ekologicznymi farbami wodnymi czy też dodawać ozdobne ekologiczne elementy – kolorowe sznureczki oraz wstążki.
 </p>
 </div>

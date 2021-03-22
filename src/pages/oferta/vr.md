@@ -8,17 +8,31 @@ date: 2020-12-05T13:49:14.606Z
 cover: /img/offer-headers/vr.jpg
 icon: /img/vr-cardboard.svg
 subtitle: Wirtualna rzeczywistość
-
 tags:
-  - Studio Reklamy
-  - agencja interaktywna
+  - VR
+  - webVR
+  - wirtualna rzeczywistość
+  - 3D
+  - AR
+  - produkty 3D
+  - fotografie 360
+  - wirtualne spacery
+  - grafika 3D
+  - animacje 3D
+  - agencja reklamowa
 meta_title: VR 🌱 Agencja reklamowa | Art Open Sp. z o.o.
 meta_description: >-
-  Strony internetowe, sklepy e-commerce, aplikacje mobilne i web. 🌳 Agencja reklamowa Art Open | Zaprogramowane do Twoich potrzeb. Wykorzystujemy nowoczesne frameworki i technologie realizując założone cele. Przeprowadzimy audyt Twojej obecnej strony gratis, zadbamy o serwer oraz regularny backup, zapewniamy opiekę techniczną nad projektem. Nie zwlekaj poznaj pełną ofertę!
+  VR - wirtualna rzeczywistość 🌳 Agencja reklamowa Art Open | Tworzymy nowoczesne projekty VR oraz AR, animowane, interaktywne, dostępne z przeglądarki w technologii webVR, szkolenia, ekspozycje, gry i inne kreatywne projekty - zafunduj swoim klientom niezapomniane przeżycie. Nie zwlekaj poznaj pełną ofertę!
 keywords:
-  - Studio Reklamy
-  - agencja interaktywna
-  - ekologia
+  - VR
+  - agencja reklamowa
+  - webVR
+  - wirtualna rzeczywistość
+  - 3D
+  - AR
+  - produkty 3D
+  - fotografie 360
+  - wirtualne spacery
 ---
 <div style="margin-left:10%;margin-right:10%" class="columns">
 <div class="column" style="min-width:70%">
@@ -34,7 +48,7 @@ keywords:
 <div class="column">
 <img src="/img/offer-icons/vr.svg" width="50px" />
 <br><br>
-<p><b>Technologia VR</b></p>
+<p><b>Technologia VR i AR</b></p>
 </div>
 
 <div class="column">
@@ -56,7 +70,7 @@ keywords:
 <iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/C6JhjxWMbQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <div class="column" style="margin-top:50px;margin-left:30px">
-<p style="font-size:30px">Technologia<b> VR</b></p>
+<p style="font-size:30px">Technologia<b> VR i AR</b></p>
 <br>
 <p>
 Niepostrzeżenie wkroczyliśmy w wirtualny świat 3D, którego możemy doświadczyć nie tylko w kinie ale już we własnym biurze, w domu czy na zewnątrz. Technologia VR, daje nieograniczone możliwości zaprezentowania w przestrzeni rzeczywistej, istniejących jedynie w przestrzeni wirtualnej produktów, obiektów, postaci.</p>
@@ -68,7 +82,7 @@ Niepostrzeżenie wkroczyliśmy w wirtualny świat 3D, którego możemy doświadc
 <p style="font-size:30px">Produkty<b> 3D</b></p>
 <br>
 <p>
-Masz pomysł na piękny mebel? Trudno Ci przekonać potencjalnego nabywcę do jego niezwykłych możliwości? Zaprojektujemy jego wersję 3D, którą będziesz mógł umieścić w rzeczywistej przestrzeni mieszkania czy biura, u Twojego klienta. Taki sposób prezentacji będzie już wkrótce niezwykle popularny. Stań razem z nami w awangardzie, wyznaczaj nowe trendy i przecieraj szlaki.</p>
+Masz pomysł na piękny mebel? Trudno Ci przekonać potencjalnego nabywcę do jego niezwykłych możliwości? Zaprojektujemy jego wersję 3D w technologii AR, którą będziesz mógł umieścić w rzeczywistej przestrzeni mieszkania czy biura, u Twojego klienta. Taki sposób prezentacji będzie już wkrótce niezwykle popularny. Stań razem z nami w awangardzie, wyznaczaj nowe trendy i przecieraj szlaki.</p>
 </div>
 <div class="column" style="padding:0px">
 <iframe class="oimg" width="556" height="312" src="https://www.youtube.com/embed/bmKHA_Lqb60" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -83,7 +97,7 @@ Masz pomysł na piękny mebel? Trudno Ci przekonać potencjalnego nabywcę do je
 <p style="font-size:30px">WEB<b> VR</b></p>
 <br>
 <p>
-Niepostrzeżenie wkroczyliśmy w wirtualny świat 3D, którego możemy doświadczyć nie tylko w kinie ale już we własnym biurze, w domu czy na zewnątrz. Technologia VR, daje nieograniczone możliwości zaprezentowania w przestrzeni rzeczywistej, istniejących jedynie w przestrzeni wirtualnej produktów, obiektów, postaci.</p>
+Interaktywne projekty VR dostępne z poziomu przeglądarki wykonane w technologii webVR, kompatybilne również do umieszczenia na stronie internetowej, świetnie sprawdzają się przy prezentacji produktów na okularach VR. Zapewnij swoim klientom niezapomniane doświadczenie i zaprezentuj się w nowoczesny sposób.</p>
 </div>
 </div>
 
@@ -92,7 +106,7 @@ Niepostrzeżenie wkroczyliśmy w wirtualny świat 3D, którego możemy doświadc
 <p style="font-size:30px"><b>Fotografie 360</b> i <b>wirtualne spacery</b></p>
 <br>
 <p>
-Masz pomysł na piękny mebel? Trudno Ci przekonać potencjalnego nabywcę do jego niezwykłych możliwości? Zaprojektujemy jego wersję 3D, którą będziesz mógł umieścić w rzeczywistej przestrzeni mieszkania czy biura, u Twojego klienta. Taki sposób prezentacji będzie już wkrótce niezwykle popularny. Stań razem z nami w awangardzie, wyznaczaj nowe trendy i przecieraj szlaki.</p>
+Fotografie sferyczne 360 stopni pomogą zaprezentować przestrzeń w niezapomniany sposób, wirtualne spacery świetnie sprawdzą się podczas prezentacji nieruchomości czy terenów, obiektów do zwiedzania. Wykonamy dla Państwa profesjonalne fotografie 360 oraz zaprogramujemy interfejs wirtualnego spaceru.</p>
 </div>
 <div class="column" style="padding:0px">
 <iframe class="oimg" src="https://www.google.com/maps/embed?pb=!4v1614858350370!6m8!1m7!1sCAoSLEFGMVFpcE9LYmxFbVMwQTBKUDQxTldUaXZqWWFMdGI0aTdBRDJFTzBDNEdo!2m2!1d51.1059172!2d17.0442672!3f20!4f10!5f0.7820865974627469" width="556" height="312" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -101,8 +115,22 @@ Masz pomysł na piękny mebel? Trudno Ci przekonać potencjalnego nabywcę do je
 
 
 
-<div class="columns" style="padding:5%">
+<div style="margin-left:10%;margin-right:10%;padding:5%">
+<b>Technologia VR, AR i webVR, fotografie 360 oraz wirtualne spacery</b>
 <p>
-Żyjemy w erze komunikacji internetowej. Duża część naszego życia skupia się na działaniach w rzeczywistości wirtualnej. Mimo to klasyczne kalendarze nadal cieszą się ogromnym zainteresowaniem. Pięknie oprawione i zaprojektowane są niezawodne, ponadczasowe i zawsze gotowe by z nich skorzystać.
+Virtual reality – niegdyś fantastyka, dzisiaj niezaprzeczalny fakt. Wydawać by się mogło, że tworzenie VR jest niepotrzebnym kaprysem współczesnej cywilizacji. Jednakże, wbrew pozorom technologia VR wykorzystywana jest w bardzo interesujący sposób.
+Pierwszym takim przykładem mogą być wirtualne spacery po nieruchomościach. W dzisiejszych czasach, bezpośrednie spotkania są mocno ograniczone, a często niemożliwe. Dlatego przygotowanie wirtualnych spacerów pozwala na odwiedziny bez wychodzenia z domu. Do prezentacji rzeczywistości VR i obiektów 3D służą specjalne gogle lub aplikacja telefoniczna.
+Obraz przetworzony jest w taki sposób, że odwiedzający czuje się jak w realnym świecie. Przechadzając się po pomieszczeniach, odwiedzający klienci mogą swobodnie zapoznać się z mieszkaniem, budynkiem, czy tez innym obiektem. Zdjęcia są bardzo dobrym nośnikiem informacji jednak możliwość obejrzenia obiektu w formacie trójwymiarowym zdecydowanie ułatwia podjęcie decyzji o zakupie.
+<br><br>
+Kolejnym sposobem na użycie VR do celów biznesowych jest stworzenie obiektu, będącego jeszcze w fazie projektowej. Zanim zostanie wyprodukowany, już możemy prezentować go potencjalnym klientom.
+Każdy nasz produkt, może być zaprezentowany w wersji 3D. Aplikacja w telefonie, dedykowana do prezentacji obiektów VR ułatwia ich prezentację. Nasze produkty możemy pokazywać na każdym smartfonie, tym samym zawsze mamy pod ręką doskonałe narzędzie do prezentacji.
+<br><br>
+Bardzo dogodne jest to w przypadku wyposażenia wnętrz. Na rzeczywisty obraz aplikacja narzuca obiekt w wersji 3D np. kanapę. Dzięki temu, możemy sprawdzić czy ten rodzaj mebla pasuje do pomieszczenia, w którym chcemy go umieścić.
+Możemy tak postępować z każdym dowolnym przedmiotem, czy to będzie obraz, krzesło, zasłony, okna, drzwi, lampa, auto, traktor etc.
+<br><br>
+Możemy przygotować odpowiedni program i wyposażyć zainteresowanych w odpowiednie narzędzia tj. gogle i aplikacje telefoniczne. W ramach całego przedsięwzięcia gwarantujemy także szkolenie z obsługi narzędzi VR i z możliwości ich wykorzystania w działalności biznesowej.
+<br><br>
+VR daje nieskończone możliwości realizowania wszelkich, nawet najbardziej nieprawdopodobnych wizji. W rzeczywistości wirtualnej ogranicza nas jedynie nasza wyobraźnia, a jej podstawową cechą jest to, że ma nieograniczone możliwości.
+
 </p>
 </div>

@@ -48,7 +48,7 @@ keywords:
 
 
   <div class="column cimg" style="text-align:center; vertical-align:middle">
-  <img src="/img/eco-icons/eco.svg" width="30%" />
+  <img alt="ekologia gadżety" src="/img/eco-icons/eco.svg" width="30%" />
   </div>
 
 
@@ -72,14 +72,14 @@ keywords:
 
   <br>
   <div class="column cimg" style="text-align: center;padding-top:250px; horizontal-align: center">
-    <img src="/img/eco-icons/ecology.svg" width="30%" />
+    <img alt="produky ekologiczne" src="/img/eco-icons/ecology.svg" width="30%" />
     <br><br>
     <p><b>Chroń</b> <br> naszą planetę! </p>
   </div>
 
 
   <div class="column" style="min-width: 40%;text-align:right">
-    <img src="/img/eco-img/trawa.svg" height="25%" />
+    <img alt="eco" src="/img/eco-img/trawa.svg" height="25%" />
   </div>
 
 
@@ -90,25 +90,25 @@ keywords:
 <div class="columns" style="padding-left:20%;padding-right:20%;">
 
   <div class="column cimg" style="text-align: center;padding-top:0px; horizontal-align: center">
-    <img src="/img/eco-icons/biodegradable.svg" width="100px" />
+    <img alt="ekologiczne materiały" src="/img/eco-icons/biodegradable.svg" width="100px" />
     <br><br>
     <p><b>Wybieraj</b> <br> odpowiedzialnie </p>
   </div>
 
   <div class="column cimg" style="text-align: center;padding-top:50px; horizontal-align: center">
-    <img src="/img/eco-icons/recycling-bin.svg" width="100px" />
+    <img alt="recykling" src="/img/eco-icons/recycling-bin.svg" width="100px" />
     <br><br>
     <p><b>Redukuj</b> <br> ilość odpadów </p>
   </div>
 
   <div class="column cimg" style="text-align: center;padding-top:100px; horizontal-align: center">
-    <img src="/img/eco-icons/budget.svg" width="100px" />
+    <img alt="eko" src="/img/eco-icons/budget.svg" width="100px" />
     <br><br>
     <p><b>Zmniejsz</b> <br> koszty biznesu </p>
   </div>
 
   <div class="column cimg" style="text-align: center;padding-top:150px; horizontal-align: center">
-    <img src="/img/eco-icons/forest.svg" width="100px" />
+    <img alt="ekologia" src="/img/eco-icons/forest.svg" width="100px" />
     <br><br>
     <p><b>Buduj</b> <br> wizerunek ECO </p>
   </div>
@@ -119,7 +119,7 @@ keywords:
 <div class="columns" style="">
 
   <div class="column cimg" style="text-align: left;">
-    <img src="/img/eco-img/drewno.svg" height="25%" />
+    <img alt="bambus" src="/img/eco-img/drewno.svg" height="25%" />
   </div>
 
   <div class="column cimg"
@@ -129,19 +129,19 @@ keywords:
   <div class="columns">
 
   <div class="column cimg" style="text-align: center;padding-top:150px; horizontal-align: center">
-    <img src="/img/eco-icons/no-plastic-bottles.svg" width="100px" />
+    <img alt="papier eco" src="/img/eco-icons/no-plastic-bottles.svg" width="100px" />
     <br><br>
     <p>Alternatywne rozwiązania <br><b>ogranicz zużycie plastiku</b> </p>
   </div>
 
   <div class="column cimg" style="text-align: center;padding-top:150px; horizontal-align: center">
-    <img src="/img/eco-icons/tag.svg" width="100px" />
+    <img alt="biodegradowalne" src="/img/eco-icons/tag.svg" width="100px" />
     <br><br>
     <p>Certyfikaty<br> <b>biodegradowalności </p>
   </div>
 
   <div class="column cimg" style="text-align: center;padding-top:150px; horizontal-align: center">
-    <img src="/img/eco-icons/reusable.svg" width="100px" />
+    <img alt="zero waste" src="/img/eco-icons/reusable.svg" width="100px" />
     <br><br>
     <p>Recyklingowe produkty <br> w duchu <b>zero waste</b> </p>
   </div>
@@ -161,37 +161,37 @@ keywords:
 
 <div class="columns" style="width:96%; margin:2%">
 <div class="column">
-<img src="https://artopen.netlify.app/img/eco-img/1a.jpg" style="border-bottom:5px solid #00d1b2" />
+<img alt="papier z trawy" src="https://artopen.netlify.app/img/eco-img/1a.jpg" style="border-bottom:5px solid #00d1b2" />
 <br>
 <p>papier z trawy</p>
 </div>
 <div class="column">
-<img src="https://artopen.netlify.app/img/eco-img/1b.jpg" style="border-bottom:5px solid #00d1b2" />
+<img alt="papier z kamienia" src="https://artopen.netlify.app/img/eco-img/1b.jpg" style="border-bottom:5px solid #00d1b2" />
 <br>
 <p>papier z kamienia</p>
 </div>
 <div class="column">
-<img src="https://artopen.netlify.app/img/eco-img/1c.jpg" style="border-bottom:5px solid #00d1b2" />
+<img alt="kukurydziane PLA" src="https://artopen.netlify.app/img/eco-img/1c.jpg" style="border-bottom:5px solid #00d1b2" />
 <br>
 <p>kukurydziane PLA</p>
 </div>
 <div class="column">
-<img src="https://artopen.netlify.app/img/eco-img/1d.jpg" style="border-bottom:5px solid #00d1b2" />
+<img alt="łuski kawy" src="https://artopen.netlify.app/img/eco-img/1d.jpg" style="border-bottom:5px solid #00d1b2" />
 <br>
 <p>łuski kawy</p>
 </div>
 <div class="column">
-<img src="https://artopen.netlify.app/img/eco-img/1e.jpg" style="border-bottom:5px solid #00d1b2" />
+<img alt="słoma pszeniczna" src="https://artopen.netlify.app/img/eco-img/1e.jpg" style="border-bottom:5px solid #00d1b2" />
 <br>
 <p>słoma pszeniczna</p>
 </div>
 <div class="column">
-<img src="https://artopen.netlify.app/img/eco-img/1f.jpg" style="border-bottom:5px solid #00d1b2" />
+<img alt="bambus" src="https://artopen.netlify.app/img/eco-img/1f.jpg" style="border-bottom:5px solid #00d1b2" />
 <br>
 <p>bambus</p>
 </div>
 <div class="column">
-<img src="https://artopen.netlify.app/img/eco-img/1g.jpg" style="border-bottom:5px solid #00d1b2" />
+<img alt="bawełna organiczna" src="https://artopen.netlify.app/img/eco-img/1g.jpg" style="border-bottom:5px solid #00d1b2" />
 <br>
 <p>organiczna bawełna</p>
 </div>
@@ -228,7 +228,7 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 </div>
 
 <div class="column" style="">
-<img src="https://artopen.netlify.app/img/eco-img/kubki.png" />
+<img alt="ekologiczne gadżety" src="https://artopen.netlify.app/img/eco-img/kubki.png" />
 </div>
 
 </div>
@@ -237,7 +237,7 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 <div class="columns" style="padding-left:5%">
 
 <div class="column" style="">
-<img src="https://artopen.netlify.app/img/eco-img/bambus.png" />
+<img alt="biodegradowalny bambus" src="https://artopen.netlify.app/img/eco-img/bambus.png" />
 </div>
 
 <div class="column" style="justify-content: center; align-items: center;display:flex">
@@ -271,7 +271,7 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 </div>
 
 <div class="column" style="">
-<img src="https://artopen.netlify.app/img/eco-img/slomapsz.png" />
+<img alt="ekologia" src="https://artopen.netlify.app/img/eco-img/slomapsz.png" />
 </div>
 
 </div>
@@ -280,7 +280,7 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 <div class="columns" style="padding-right:5%">
 
 <div class="column" style="">
-<img src="https://artopen.netlify.app/img/eco-img/notes.png" />
+<img alt="notesy eko" src="https://artopen.netlify.app/img/eco-img/notes.png" />
 </div>
 
 <div class="column" style="justify-content: center; align-items: center; display:flex">
@@ -306,8 +306,8 @@ wydrukowane na papierze z kamienia lub z trawy.</p>
 </div>
 </div>
 
-<div class="column" style="">
-<img src="https://artopen.netlify.app/img/eco-img/duo.png" />
+<div class="column"  style="">
+<img alt="notesy eco" src="https://artopen.netlify.app/img/eco-img/duo.png" />
 </div>
 
 </div>
@@ -315,7 +315,7 @@ wydrukowane na papierze z kamienia lub z trawy.</p>
 <div class="columns" style="padding-right:5%">
 
 <div class="column" style="">
-<img src="https://artopen.netlify.app/img/eco-img/stonebook.png" />
+<img alt="papier z kamienia eco" src="https://artopen.netlify.app/img/eco-img/stonebook.png" />
 </div>
 
 
@@ -335,7 +335,7 @@ wydrukowane na papierze z kamienia lub z trawy.</p>
 <div class="columns">
 
 <div class="column" style="max-width:45%">
-<img src="https://artopen.netlify.app/img/eco-img/kamienie.svg" width="100%"/>
+<img alt="papier z kamienia" src="https://artopen.netlify.app/img/eco-img/kamienie.svg" width="100%"/>
 </div>
 
 <div class="column">
@@ -345,7 +345,7 @@ wydrukowane na papierze z kamienia lub z trawy.</p>
   <div class="columns" style="padding-right:10%;padding-left:10%;text-align: left"">
 
   <div class="column" style="">
-  <img src="/img/eco-icons/forest.svg" width="150px" />
+  <img alt="ekologia" src="/img/eco-icons/forest.svg" width="150px" />
     <p style="font-size:30px">Papier z kamienia <br> <b>oszczędza drzewa i wodę?</b>
     <br>
     </p>
@@ -355,7 +355,7 @@ wydrukowane na papierze z kamienia lub z trawy.</p>
   </div>
 
   <div class="column" style="padding-top:100px">
-  <img src="/img/eco-icons/renewable-energy.svg" width="150px" />
+  <img alt="ekologia" src="/img/eco-icons/renewable-energy.svg" width="150px" />
    <p style="font-size:30px">Redukuje<br> <b>zużycie energii</b>.
    <br>
    </p>
@@ -373,12 +373,12 @@ wydrukowane na papierze z kamienia lub z trawy.</p>
 <div class="columns" style="padding-left:10%; margin-top:50px; padding-right:10%;width:100%">
 <div class="column">
 <p style="text-align:left; font-size:40px;"> Bądź
-<img src="/img/eco-icons/leaf.svg" width="100px" />
+<img alt="eco" src="/img/eco-icons/leaf.svg" width="100px" />
 <br><b>ECO smart!</b></p>
 </div>
 <div class="column">
 <p style="text-align:right; font-size:40px;">
-<img src="/img/eco-icons/like.svg" width="100px" />
+<img alt="eco gadżety" src="/img/eco-icons/like.svg" width="100px" />
 Zapytaj nas
 <br><b>o pełną ofertę</b></p>
 </div>
@@ -386,6 +386,8 @@ Zapytaj nas
 <br><br>
 
 <div style="margin-left:10%;margin-right:10%;padding:5%">
+<b>Ekologia</b>
+<br>
 <p>
 Nasza współczesna cywilizacja osiągnęła rozwój jakiego jeszcze nie widziała nasza planeta. Pokonujemy kolejne bariery technologiczne, w szybkim tempie wprowadzamy zmiany w naszym otoczeniu, środowisku, życiu. Jesteśmy dumni z naszych osiągnięć w wielu dziedzinach tj. technologia, informatyka, biologia, genetyka, medycyna, fizyka czy astronomia. Sięgamy coraz dalej w kosmos i coraz głębiej w strukturę komórkową. Badamy cegiełki budujące wszechświat, w którym żyjemy. W potężnych akceleratorach prowadzimy wspaniałe eksperymenty na cząstkach elementarnych. Ujarzmiamy energię atomu, a to dopiero początek.
 W tym pędzie ku coraz szybszemu rozwojowi gdzieś w tyle zostawiliśmy sprawy fundamentalne, mające bezpośredni związek z naszym życiem. Przestaliśmy zauważać powiększającą się od dekad przepaść pomiędzy nami a środowiskiem, w którym żyjemy. Zachłyśnięci wielkimi osiągnięciami techniki, straciliśmy kontakt z podstawą naszej egzystencji – Matką Ziemią.
@@ -393,7 +395,7 @@ Tak kiedyś, minione cywilizacje i kultury nazywały naszą planetę. I słuszni
 Teraz to o czym zapomnieliśmy w bolesny sposób przypomina nam o sobie. Zatrute przez nas samych środowisko stało się naszym przeciwnikiem, który realnie nam zagraża. Powietrze, wody, gleba – nadmiernie eksploatowane i wykorzystywane – straciły swoje życiodajne właściwości.
 </p>
 <br>
-<p>Czy istnieje rozwiązanie…</p>
+<p><b>Czy istnieje rozwiązanie…</b></p>
 <br>
 <p>
 Stajemy teraz przed wyzwaniem na skalę niemalże kosmiczną. Musimy pogodzić naszą potrzebę rozwoju i ekspansji -  z poszanowaniem środowiska, w którym żyjemy – w przeciwnym razie unicestwimy samych siebie. Nie mamy dostępu do Ziemi Nr 2.
@@ -405,11 +407,17 @@ Wyeliminuj ze swojego otoczenia produkty generujące bezużyteczne śmieci.
 Wprowadź produkty, które, podlegają recyklingowi, i z materiałów, które można ponownie uzyć w procesie produkcyjnym. Stosuj artykuły wielokrotnego użytku, porzuć plastik na rzecz naturalnych materiałów takich jak drewno, bambus, szkło. Na zakupy zabieraj torby bawełniane i z konopi. Są bardzo wytrzymałe, można je wyprać cieszyć się nimi przez długie lata.
 Segreguj odpady, w czym pomogą Ci specjalnie zaprojektowane pojemniki i torby do segregacji odpadów, które znajdziesz w naszej ofercie. Ogranicz ilość zużytych opakowań przez stosowanie opakowań wielokrotnego użytku bądź wyprodukowanych z papieru podlegającego recyklingowi.
 Kubki termiczne z bambusa i ze stali nierdzewnej też będą nam służyć przez długi czas.
+<br><br>
 Przedstawiamy w naszej ofercie szereg artykułów, które doskonale wpisują się w plan ochrony środowiska naturalnego. Wykonane z dobrych, naturalnych materiałów lub podlegających recyklingowi, nie obciążają już i tak mocno wyeksploatowanej natury.
-Proponujemy:
-Notesy z papieru z kamienia
-Notesy z papieru z trawy
-Głośniki wykonane z gipsu i bambusa
-Artykuły wykonane z nowoczesnych  tworzyw podlegających recyklingowi, w których składzie mamy biomasę tj. słoma, trawa czy liście kukurydzy.
-i wiele innych</p>
+</p>
+<br>
+<b>Proponujemy:</b>
+<ul style="list-style-type: circle;margin-left:20px">
+<li> Notesy z papieru z kamienia </li>
+<li> Notesy z papieru z trawy</li>
+<li> Głośniki wykonane z gipsu i bambusa</li>
+</ul>
+<br>
+<p>
+Artykuły wykonane z nowoczesnych  tworzyw podlegających recyklingowi, w których składzie mamy biomasę tj. słoma, trawa czy liście kukurydzy i wiele innych.</p>
 </div>
