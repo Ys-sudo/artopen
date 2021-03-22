@@ -23,7 +23,10 @@ meta_title: Kalendarze książkowe 2021 🌱 Portfolio | Art Open Sp. z o.o. | A
 meta_description:   Agencja reklamowa 🌳 Art Open - covid-19, ekologia, branding, strony i sklepy internetowe, aplikacje, projektowanie graficzne, kalendarze książkowe, gadżety reklamowe, wydruki, reklama zewnętrzna, fotografie, filmowanie, animacje i montaż, systemy wystawiennicze, opakowania, projekty VR i 3D. Zapraszamy do zapoznania się ze szczegółami naszej działalności!
 category: kalendarze książkowe
 ---
-Kalendarze książkowe - portfolio
+<div style="text-align:center;margin-bottom:30px">
+<p class="title">KALENDARZE KSIĄŻKOWE</p>
+<p class="subtitle">Jeden z głównych działów naszej działalności. Realizacja indywidualnych kalendarzy książkowych.</p>
+</div>
 
 <img alt="" src="https://artopen.netlify.app/img/portfolio/ksiazkowe/1ksiazkowe.jpg" width="100%" style="margin-bottom:-7px" />
 

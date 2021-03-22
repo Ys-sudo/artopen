@@ -51,7 +51,7 @@ const GalleryTemplate = (props) => {
       </div>
       </a>
       <br />
-      <div style={{textAlign:'center',marginBottom:'-20px'}}>
+      <div style={{textAlign:'center',marginTop:'20px',marginBottom:'-20px'}}>
 
         <img src="/img/angle-down.svg" width='20px'
         style={{filter:'brightness(1) invert(0)'}}

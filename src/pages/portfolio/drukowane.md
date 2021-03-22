@@ -20,7 +20,10 @@ meta_description: >-
   Agencja reklamowa 🌳 Art Open - covid-19, ekologia, branding, strony i sklepy internetowe, aplikacje, projektowanie graficzne, kalendarze książkowe, gadżety reklamowe, wydruki, reklama zewnętrzna, fotografie, filmowanie, animacje i montaż, systemy wystawiennicze, opakowania, projekty VR i 3D. Zapraszamy do zapoznania się ze szczegółami naszej działalności!
 category: kalendarze drukowane
 ---
-Kalendarze drukowane
+<div style="text-align:center;margin-bottom:30px">
+<p class="title">KALENDARZE DRUKOWANE</p>
+<p class="subtitle">Jeden z głównych działów naszej działalności. Realizacja indywidualnych kalendarzy drukowanych.</p>
+</div>
 
 <img alt="" src="https://artopen.netlify.app/img/portfolio/drukowane/1trojdzielne.jpg" width="100%" style="margin-bottom:-7px" />
 
