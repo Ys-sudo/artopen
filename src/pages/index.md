@@ -22,6 +22,9 @@ keywords:
   - reklama
   - fotografia
   - filmowanie
+  - covid-19
+  - maski chirurgiczne
+  - maski z logo
   - wystawiennictwo
   - opakowania
   - vr

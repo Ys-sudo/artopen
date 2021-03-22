@@ -1,20 +1,24 @@
 ---
 templateKey: gallery-page
 title: Kalendarze firmowe
-slug: kalendarze-firmowe-portfolio
+slug: kalendarze-drukowane-2021-portfolio
 date: 2020-12-05T13:51:41.657Z
 cover: /img/portfolio/drukowane/10trojdzielne.jpg
 tags:
-  - Koleje dolnośląskie
+  - Kalendarze drukowane
+  - kalendarze firmowe
+  - kalendarze 2021
+  - projektowanie graficzne
 keywords:
-  - Studio Reklamy
-  - agencja interaktywna
-  - ekologia
-meta_title: Koleje dolnośląskie 🌱 Portfolio | Art Open Sp. z o.o. | Agencja reklamowa
-meta_description:   Agencja reklamowa 🌳 Art Open - covid-19, ekologia, branding, strony i sklepy internetowe, aplikacje, projektowanie graficzne, kalendarze książkowe, gadżety reklamowe, wydruki, reklama zewnętrzna, fotografie, filmowanie, animacje i montaż, systemy wystawiennicze, opakowania, projekty VR i 3D. Zapraszamy do zapoznania się ze szczegółami naszej działalności!
+  - agencja reklamowa
+  - Kalendarze drukowane
+  - kalendarze firmowe
+  - kalendarze 2021
+  - projektowanie graficzne
+meta_title: Kalendarze drukowane 🌱 Portfolio | Art Open Sp. z o.o. | Agencja reklamowa
+meta_description: >-
+  Agencja reklamowa 🌳 Art Open - covid-19, ekologia, branding, strony i sklepy internetowe, aplikacje, projektowanie graficzne, kalendarze książkowe, gadżety reklamowe, wydruki, reklama zewnętrzna, fotografie, filmowanie, animacje i montaż, systemy wystawiennicze, opakowania, projekty VR i 3D. Zapraszamy do zapoznania się ze szczegółami naszej działalności!
 category: kalendarze drukowane
-
-
 ---
 Kalendarze drukowane
 

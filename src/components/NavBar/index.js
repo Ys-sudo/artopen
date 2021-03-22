@@ -184,7 +184,7 @@ const NavBar = () => {
               <p className='control'>
                 <a
                   className='button-green'
-                  href='#'>
+                  href='https://artopen.co.uk'>
                   EN
                 </a>
               </p>
@@ -192,7 +192,7 @@ const NavBar = () => {
               <p className='control'>
                 <a
                   className='button-green'
-                  href='#'>
+                  href='https://artopen.com.de'>
                   DE
                 </a>
               </p>
@@ -228,6 +228,7 @@ const NavBar = () => {
 
             </div>
             </div>
+            
         </nav>
 
       )}

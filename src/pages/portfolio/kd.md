@@ -6,10 +6,23 @@ date: 2020-12-05T13:51:41.657Z
 cover: /img/portfolio/kd/4kd.jpg
 tags:
   - Koleje dolnośląskie
+  - branding
+  - projektowanie graficzne
+  - identyfikacja wizualna
+  - wizualizacje produktów
+  - agencja reklamowa
+  - wydruki reklamowe
+  - systemy wystawiennicze
 keywords:
-  - Studio Reklamy
-  - agencja interaktywna
-  - ekologia
+  - agencja reklamowa
+  - koleje dolnośląskie
+  - branding
+  - projektowanie graficzne
+  - identyfikacja wizualna
+  - wizualizacje produktów
+  - agencja reklamowa
+  - wydruki reklamowe
+  - systemy wystawiennicze
 meta_title: Koleje dolnośląskie 🌱 Portfolio | Art Open Sp. z o.o. | Agencja reklamowa
 meta_description:   Agencja reklamowa 🌳 Art Open - covid-19, ekologia, branding, strony i sklepy internetowe, aplikacje, projektowanie graficzne, kalendarze książkowe, gadżety reklamowe, wydruki, reklama zewnętrzna, fotografie, filmowanie, animacje i montaż, systemy wystawiennicze, opakowania, projekty VR i 3D. Zapraszamy do zapoznania się ze szczegółami naszej działalności!
 category: projektowanie graficzne
