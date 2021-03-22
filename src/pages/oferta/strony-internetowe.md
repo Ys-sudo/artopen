@@ -22,8 +22,9 @@ tags:
   - responsive web design
   - szkolenia cms
   - API
-meta_title: Strony internetowe 🌱 e-commerce, aplikacje | Agencja reklamowa | Art Open Sp. z o.o.
-meta_description: Strony internetowe, sklepy e-commerce, aplikacje mobilne i web. 🌳 Agencja reklamowa Art Open | Zaprogramowane do Twoich potrzeb. Wykorzystujemy nowoczesne frameworki i technologie realizując założone cele. Przeprowadzimy audyt Twojej obecnej strony gratis, zadbamy o serwer oraz regularny backup, zapewniamy opiekę techniczną nad projektem. Nie zwlekaj poznaj pełną ofertę!
+meta_title: Strony i sklepy internetowe e-commerce 🌱 aplikacje | Agencja reklamowa | Art Open Sp. z o.o.
+meta_description: >-
+  Strony internetowe, sklepy e-commerce, aplikacje mobilne i web. 🌳 Agencja reklamowa Art Open | Zaprogramowane do Twoich potrzeb. Wykorzystujemy nowoczesne frameworki i technologie realizując założone cele. Przeprowadzimy audyt Twojej obecnej strony gratis, zadbamy o serwer oraz regularny backup, zapewniamy opiekę techniczną nad projektem. Nie zwlekaj poznaj pełną ofertę!
 keywords:
   - strony internetowe
   - sklepy internetowe

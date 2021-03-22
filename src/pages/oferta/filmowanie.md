@@ -9,14 +9,26 @@ cover: /img/offer-headers/filmowanie.jpg
 icon: /img/film.svg
 subtitle: Filmy reklamowe
 tags:
-  - Studio Reklamy
-  - agencja interaktywna
+  - filmowanie
+  - filmy reklamowe
+  - montaż
+  - animacja
+  - efekty specjalne
+  - scenariusz
+  - agencja reklamowa
+  - spoty reklamowe
 meta_title: Filmowanie, montaż, animacja 🌱 Agencja reklamowa | Art Open Sp. z o.o.
-meta_description: opis meta
+meta_description: >-
+  Filmowanie - montaż - animacje 🌳 Agencja reklamowa Art Open | Filmy i spoty reklamowe kręcone według scenariusza, oferujemy również montaż i obróbkę video, oraz animacje i infografiki. Zrealizujemy dla Ciebie twój wymarzony film, oferujemy również ujęcia z drona. Nie zwlekaj poznaj pełną ofertę!
 keywords:
-  - Studio Reklamy
-  - agencja interaktywna
-  - ekologia
+  - filmowanie
+  - filmy reklamowe
+  - montaż
+  - animacja
+  - efekty specjalne
+  - scenariusz
+  - agencja reklamowa
+  - spoty reklamowe
 ---
 <div style="margin-left:10%;margin-right:10%">
 <p>Kamera start! Klaps i zaczynamy - film o Twojej firmie, organizacji, instytucji czy wydarzeniu. Dzięki współpracy z doświadczonymi producentami i przy wykorzystaniu nowoczesnych technik produkcji oraz profesjonalnego sprzętu nagrywającego, tworzymy autorskie filmy informacyjne i reklamowe oraz oryginalne spoty radiowe.</p>

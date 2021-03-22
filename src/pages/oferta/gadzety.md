@@ -14,12 +14,13 @@ tags:
   - ładowarki indukcyjne
   - głośniki bluetooth
   - prezenty
-  - upomniki
+  - upominki
+  - prezenty
   - materiały promocyjne
   - gadżety reklamowe
   - znakowanie
 meta_title: Gadżety reklamowe, upominki, prezenty 🌱 Agencja reklamowa | Art Open Sp. z o.o.
-meta_description: Gadżety reklamowe, upominki, prezenty 🌳 Agencja reklamowa Art Open | Gadżety na każdą okazje idealnie nadające się na prezenty, wykonane z przyjaznych dla środowiska materiałów, ładowarki indukcyjne, głośniki bluetooth, pendrive'y, notesy, długopisy i wiele innych. Zapraszamy do zapoznania się z naszą ofertą!
+meta_description: Gadżety reklamowe, upominki, prezenty 🌳 Agencja reklamowa Art Open | Gadżety na każdą okazje! idealnie nadające się na prezenty, wykonane z przyjaznych dla środowiska materiałów, ładowarki indukcyjne, głośniki bluetooth, pendrive'y, notesy, długopisy i wiele innych. Zapraszamy do zapoznania się z naszą ofertą!
 keywords:
   - gadżety
   - prezenty

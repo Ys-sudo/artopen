@@ -12,7 +12,8 @@ tags:
   - Studio Reklamy
   - agencja interaktywna
 meta_title: Wystawiennictwo 🌱 Agencja reklamowa | Art Open Sp. z o.o.
-meta_description: opis meta
+meta_description: >-
+  Wystawiennictwo - systemy wystawiennicze 🌳 Agencja reklamowa Art Open | Zaprogramowane do Twoich potrzeb. Wykorzystujemy nowoczesne frameworki i technologie realizując założone cele. Przeprowadzimy audyt Twojej obecnej strony gratis, zadbamy o serwer oraz regularny backup, zapewniamy opiekę techniczną nad projektem. Nie zwlekaj poznaj pełną ofertę!
 keywords:
   - Studio Reklamy
   - agencja interaktywna
