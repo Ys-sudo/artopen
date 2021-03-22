@@ -136,7 +136,7 @@ exports.createPages = ({ actions, graphql }) => {
       edges: portfolios,
       createPage: createPage,
       pageTemplate: 'src/templates/portfolio.js',
-      pageLength: 15, // This is optional and defaults to 10 if not used
+      pageLength: 22, // This is optional and defaults to 10 if not used
       pathPrefix: 'portfolio', // This is optional and defaults to an empty string if not used
       context: {}, // This is optional and defaults to an empty object if not used
     })

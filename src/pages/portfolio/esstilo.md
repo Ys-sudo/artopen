@@ -78,7 +78,9 @@ Spójny projekt graficzny teczki ofertowej. Wydruk teczki dwubigowej uszlachetni
 Seria rollupów z masztem teleskopowym na użytek targów branżowych. Wymiary rollupów 100x200 cm, zadruk na materiale blockout. Jest to podłoże półmatowe z najwyższego gatunku, o wysokim stopniu bieli, która posiada specjalną przekładkę blokującą światło.
 </h4>
 </div>
-<img alt="" src="https://artopen.netlify.app/img/portfolio/esstilo/12esstilo.jpg" width="50%" style="margin-bottom:-7px" /><img alt="" src="https://artopen.netlify.app/img/portfolio/esstilo/13esstilo.jpg" width="50%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/esstilo/12esstilo.jpg" width="100%" style="margin-bottom:-7px" />
+
+<img alt="" src="https://artopen.netlify.app/img/portfolio/esstilo/13esstilo.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%;text-align:right">
 <h3 class="title">Oklejanie aut &bull;</h3>
 <h4 class="subtitle"  style="border-right:10px solid #23C495;padding-right:10px">
