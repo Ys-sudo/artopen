@@ -227,7 +227,7 @@ const HomePageTemplate = (props) => {
       <section className='hero is-primary is-bold is-medium' async style={{marginTop:'-7px', backgroundImage:'url(/img/tlo-liczniki.jpg)',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'top',backgroundAttachment: `fixed`,}}>
         <div className='hero-body'>
           <div className='container'>
-            <div className='columns timers'>
+            <div onLoad={fireTime} className='columns timers'>
 
               <div className='column' style={{textAlign:'center'}}>
               <p>Lat na rynku</p>
@@ -511,10 +511,12 @@ var d =  setInterval( function(){
 
 }
 
+function fireTime() {
+  setTimeout(()=>{
+    countDown();console.log('time');}
+  ,3000);
+}
 
-setTimeout(()=>{
-  countDown();console.log('time');}
-,3000);
 
 {/*
 https://stackoverflow.com/questions/49916259/show-element-when-in-viewport-on-scroll
