@@ -58,21 +58,21 @@ const HomePageTemplate = (props) => {
               <div className='column columns covidoffer' style={{marginTop:'20px',minWidth:'60%'}}>
               <Link to="/covid-19#maseczki" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
                 <div >
-                <img width="40px"  style={{verticalAlign:'middle'}}   alt="maseczki" src='/img/maseczki.svg'/>
+                <img alt="maski chirurgiczne, maski bawełniane, maski z logo, covid-19" width="40px"  style={{verticalAlign:'middle'}}   alt="maseczki" src='/img/maseczki.svg'/>
                 <br /><br />
-                <h3 style={{color:'white'}}>maseczki</h3>
+                <h3 style={{color:'white'}}>maski</h3>
                 </div>
               </Link>
               <Link to="/covid-19#przylbice" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
                 <div >
-                <img width="40px"  style={{verticalAlign:'middle'}}   alt="przyłbice" src='/img/przylbice.svg'/>
+                <img alt="przyłbice covid-19" width="40px"  style={{verticalAlign:'middle'}}   alt="przyłbice" src='/img/przylbice.svg'/>
                 <br /><br />
                 <h3 style={{color:'white'}}>przyłbice</h3>
                 </div>
               </Link>
               <Link to="/covid-19#produkty-antybakteryjne" className='column offer' style={{margin:'10px',borderRadius:'15px'}}>
                 <div>
-                <img width="40px"  style={{verticalAlign:'middle'}}   alt="dezynfekcja" src='/img/dezynfekcja.svg'/>
+                <img alt="dezynfekcja, żele przeciwbakteryjne, covid-19" width="40px"  style={{verticalAlign:'middle'}}   alt="dezynfekcja" src='/img/dezynfekcja.svg'/>
                 <br /><br />
                 <h3 style={{color:'white'}}>dezynfekcja</h3>
                 </div>
@@ -114,7 +114,7 @@ const HomePageTemplate = (props) => {
       <div style={{marginLeft:'auto',marginRight:'auto',marginTop:'50px'}}>
         <div style={{textAlign:'left',marginTop:'100px'}}>
         {/* TODO: Grafika 1*/}
-        <img src='/img/portfolio2.svg' width='70%'  alt='portfolio' />
+        <img alt="agencja reklamowa ArtOpen Wrocław" src='/img/portfolio2.svg' width='70%'  alt='portfolio' />
 
         <br /><br />
         <h4 className='title' style={{textAlign:'center',marginLeft:'15px',marginRight:'15px'}}> Portfolio </h4>
@@ -133,7 +133,7 @@ const HomePageTemplate = (props) => {
       <div style={{textAlign:'right',marginTop:'0px',marginLeft:'50px'}}>
 
       {/* TODO: Grafika 2*/}
-      <img src='/img/blog.svg' width='70%' alt='blog' />
+      <img alt="agencja reklamowa ArtOpen Wrocław" src='/img/blog.svg' width='70%' alt='blog' />
 
       </div>
 
@@ -278,7 +278,7 @@ const HomePageTemplate = (props) => {
             <div className='columns'>
 
               <div className='column' style={{marginLeft:'50px',marginRight:'50px'}}>
-                <h3 className='title'> Studio Art Open,<br /> kreatywna agencja </h3>
+                <h3 className='title'> Agencja reklamowa Art Open,<br /> multimedialne studio projektowania </h3>
                 <br />
                 <h4>Nasz zespół tworzą ludzie pełni pasji, kreatywności i zaangażowania w każdy powierzony projekt. Od blisko dekady, wspólnie z Wami, naszymi Klientami, realizujemy różnorodne przedsięwzięcia z zakresu identyfikacji wizualnej, promocji oraz projektowania graficznego, w tym stron internetowych i realizacji filmów.</h4>
                 <br />
@@ -290,7 +290,7 @@ const HomePageTemplate = (props) => {
 
 
               <div className='column' style={{marginRight:'50px'}}>
-              <img src='/img/slider_1.jpg' alt="" height='100%' />
+              <img alt="agencja reklamowa" src='/img/slider_1.jpg' alt="" height='100%' />
               </div>
 
             </div>
