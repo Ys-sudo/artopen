@@ -51,6 +51,9 @@ const OfertaPage = (props) => {
       <div style={{textAlign:'center',marginRight:'15px',marginLeft:'15px',marginTop:'50px'}}>
       <br></br>
 
+      <img id='rotate' src="/img/logo-square.svg" width="120px" />
+      <br />
+
       <h2 className='title'>
        Zakres naszych <b>działań</b>:
       </h2>
@@ -59,6 +62,14 @@ const OfertaPage = (props) => {
       </div>
       <section className='section' style={{padding: '0px', margin:'0px',marginTop:'50px'}}>
         <OfferRoll />
+        <br />
+        <div className="section" style={{marginLeft:'5%',marginRight:'5%',textAlign:'left',padding:'5%'}}>
+        <p className="title">Zapewniamy kompleksową obsługę Państwa firmy, projektu czy marki oferując powyższe usługi.</p>
+        <br />
+        <p className="subtitle" style={{paddingLeft:'10px',borderLeft:'10px solid #23C495'}}>Nasza działalność jednak nie kończy się tylko na nich, jako agencja reklamowa angażujemy się w różnego rodzaju akcje charytatywne,
+        zbiórki funduszy, pomoc społeczną, pomoc dla zwierząt, dbamy o środowisko organizując akcje sprzątania miesjc publicznych i dużo dużo więcej. Zapraszamy do szczegółowego zapoznania się z prowadzonymi przez nas działalnośćiami. Więcej informacji możecie znaleźć Państwo na blogu, w zakładce <i>O nas</i> lub przeglądając portfolio.
+        </p>
+        </div>
         <br />
         <br />
         <div className='bottomUi' style={{textAlign:'center',marginBottom:'60px'}}>
