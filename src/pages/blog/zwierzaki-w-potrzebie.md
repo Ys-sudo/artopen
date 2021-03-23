@@ -19,11 +19,11 @@ keywords:
   - Wrocław
   - agencja multimedialna
 
-meta_title: Zwierzaki w potrzebie 🌱 Blog | Art Open Sp. z o.o. 
+meta_title: Zwierzaki w potrzebie 🌱 Blog | Art Open Sp. z o.o.
 meta_description: >-
  Art Open | Agencja reklamowa Wrocław - Niesiemy pomoc bezdomnym zwierzakom! Regularnie odwiedzamy schronisko zaopatrując je w wysokiej jakości posiłki dla zwierząt oraz zachęcamy do adopcji!.
 ---
-# Kochamy zwierzęta, ale nie zawsze pamiętamy o tych, które nie mają własnego domu.
+## Kochamy zwierzęta, ale nie zawsze pamiętamy o tych, które nie mają własnego domu.
 
 Będąc świadomi ogromu problemu bezdomności zwierząt w naszym kraju, chcielibyśmy zachęcić Was do adopcji cudownych istot, jakie udało nam się wyczochrać za uchem i wygłaskać we Wrocławskim schronisku.
 

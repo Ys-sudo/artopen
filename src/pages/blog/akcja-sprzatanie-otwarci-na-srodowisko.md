@@ -17,17 +17,17 @@ keywords:
   - środowisko
   - Wrocław
   - recykling
-meta_title: Akcja sprzątanie 🌱 Blog | Art Open Sp. z o.o. 
+meta_title: Akcja sprzątanie 🌱 Blog | Art Open Sp. z o.o.
 meta_description: >-
  Z roku na rok światowa konsumpcja nie maleje przez co rośnie również ilość wytwarzanych odpadów. Należy je segregować, aby mogły być poddane recyklingowi i otrzymać „drugie życie” zamiast trafić na wysypisko śmieci.
 ---
-# Organizując akcję sprzątania pt. „OTWARCI NA ŚRODOWISKO” mieliśmy na celu zwrócenie uwagi na poważny problem zaśmiecania terenów zielonych, jak też edukacji w kwestii recyklingu i segregacji śmieci.
+## Organizując akcję sprzątania pt. „OTWARCI NA ŚRODOWISKO” mieliśmy na celu zwrócenie uwagi na poważny problem zaśmiecania terenów zielonych, jak też edukacji w kwestii recyklingu i segregacji śmieci.
 
 Z roku na rok światowa konsumpcja nie maleje przez co rośnie również ilość wytwarzanych odpadów. Należy je segregować, aby mogły być poddane recyklingowi i otrzymać „drugie życie” zamiast trafić na wysypisko śmieci. Głównie są to butelki PET po napojach, słomki, kubki, jednorazowe sztućce plastikowe opakowania kartonowe tzw. tetrapaki oraz jednorazowe reklamówki, z tych ostatnich tak naprawdę możemy i powinniśmy zrezygnować zastępując ich materiałowymi torbami wielokrotnego użytku.
 
 Wspólnymi siłami z lokalnymi firmami udało nam się uzbierać prawie kontener śmieci, na nie tak wielkiej powierzchni nadbrzeża Odry. To co kryło się w zaroślach, przeraziło nas i zmusiło do refleksji – czy aby na pewno świadomość Polaków w kwestii generowanych odpadów jest wystarczająca?
 
-Zachęcamy do obejrzenia filmu z akcji, na którym... zresztą, zobaczcie sami.
+### Zachęcamy do obejrzenia filmu z akcji, na którym... zresztą, zobaczcie sami.
 
 <video src="https://artopen.pl/film/Akcja_Sprzatanie.mp4" poster="/img/video-poster.svg" controls async></video>
 

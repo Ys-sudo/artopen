@@ -22,11 +22,11 @@ meta_title: Dlaczego warto być ECO? 🌱 Blog | Art Open Sp. z o.o.
 meta_description: >-
  Art Open | Agencja reklamowa - Wrocław - Hasło eco-friendly znajduje uzasadnienie nie tylko w wymiarze etycznym, ale także finansowym! Prowadź ekologiczny biznes - dołącz do odpowiedzialnych. .
 ---
-# Dlaczego warto być ECO friendly?
+## Dlaczego warto być ECO friendly?
 Hasło eco-friendly znajduje uzasadnienie nie tylko w wymiarze etycznym, ale także finansowym! Prowadź ekologiczny biznes - dołącz do odpowiedzialnych.
 
 
-## Przede wszystkim - wizerunek
+### Przede wszystkim - wizerunek
 
 Ekologiczna postawa w biznesie powoli staje się standardem. Przygotowany przez Instytut Gallupa raport pokazuje, że aż 94% konsumentów woli korzystać z usług i produktów firm, które dbają o środowisko. Strategia eco-friendly buduje zaufanie klientów i zachęca do długoterminowej współpracy.
 

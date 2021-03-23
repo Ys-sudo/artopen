@@ -24,9 +24,9 @@ meta_title: Agencja reklamowa 🌱 Art Open Sp. z o.o. | Blog | 29. finał WOŚP
 meta_description: >-
  Art Open | Agencja reklamowa - Wrocław - Przekazaliśmy na aukcję dla 29 finału unikatowy kalendarz książkowy z papierem z kamienia w środku.
 ---
-# 29. Finał WOŚP
+## 29. Finał WOŚP
 
-## Przekazaliśmy na aukcję dla 29 finału unikatowy kalendarz książkowy z papierem z kamienia w środku.
+### Przekazaliśmy na aukcję dla 29 finału unikatowy kalendarz książkowy z papierem z kamienia w środku.
 
 <div style="text-align:center;margin-top:50px">
 <img class="oimg" width="45%" src="https://artopen.pl/images/BLOG/Kalendarz_przd_ty.png" />

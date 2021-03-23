@@ -22,7 +22,7 @@ meta_title: Kreator kalendarzy 🌱 Blog | Art Open Sp. z o.o.
 meta_description: >-
  Art Open | Agencja reklamowa - Wrocław - Wybierz przeszycie, rodzaj oprawy, szlufkę na długopis, patkę zamykaną na magnes i inne dodatki. Skomponuj swój autorski projekt kalendarza lub notesu.
 ---
-# Kreator kalendarzy - stwórz swój projekt!
+## Kreator kalendarzy - stwórz swój projekt!
 
 Wybierz przeszycie, rodzaj oprawy, szlufkę na długopis, patkę zamykaną na magnes i inne dodatki. Skomponuj swój autorski projekt kalendarza lub notesu.
 
@@ -37,7 +37,7 @@ Kalendarze książkowe, które dla Państwa wykonujemy są produkowane całkowic
 
 Warto dodać, że od maja 2021 r. rozpoczynamy kolejny sezon kalendarzowy, który będzie obfitował w nowości - już dziś zachęcamy Państwa do kontaktu, aby omówić szczegóły projektu.
 
-## Sprawdź kreator
+### Sprawdź kreator
 <div style="text-align:center">
 <iframe defer style="height: 865px; overflow: visible" src="https://generator.ass3.hostingasp.pl/" width="100%"> </iframe>
 </div>

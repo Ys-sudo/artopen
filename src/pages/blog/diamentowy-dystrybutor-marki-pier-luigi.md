@@ -17,11 +17,11 @@ keywords:
   - Wrocław
   - agencja reklamowa
   - agencja multimedialna
-meta_title: Diamentowy dystrybutor 🌱 Blog | Art Open Sp. z o.o. 
+meta_title: Diamentowy dystrybutor 🌱 Blog | Art Open Sp. z o.o.
 meta_description: >-
  Art Open | Agencja reklamowa - Wrocław - Nasza agencja zdobyła certyfikat "DIAMENTOWY DYSTRYBUTOR" marki Pier Luigi oraz stonebook. Nagroda ta przyznawana jest za znajomość oferty, wysokie efekty sprzedażowe oraz wzorową obsługę Klienta.
 ---
-# Art Open diamentowym dystrybutorem marki Pier Luigi oraz Stonebook.
+## Art Open diamentowym dystrybutorem marki Pier Luigi oraz Stonebook.
 
 Pier Luigi to renomowany producent najwyższej jakości kalendarzy książkowych. Jako jedyna firma w Polsce produkuje notesy i kalendarze wykonane z papieru z kamienia, którego główne cechy to wodoodporność i wytrzymałość.
 
