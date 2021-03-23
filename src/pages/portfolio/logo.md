@@ -46,5 +46,3 @@ logo - identyfikacja wizualna
 <img alt="" src="https://artopen.netlify.app/img/portfolio/logo/11logo.jpg" width="100%" style="margin-bottom:-7px" />
 
 <img alt="" src="https://artopen.netlify.app/img/portfolio/logo/12logo.jpg" width="100%" style="margin-bottom:-7px" />
-
-<img alt="" src="https://artopen.netlify.app/img/portfolio/logo/13logo.jpg" width="100%" style="margin-bottom:-7px" />

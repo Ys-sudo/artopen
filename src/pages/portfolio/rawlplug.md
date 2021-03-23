@@ -65,7 +65,3 @@ Wykonanie kalendarza spiralowanego, wieloplanszowego w formacie B2. Kalendarz zr
 <img alt="" src="https://artopen.netlify.app/img/portfolio/rawlplug/8rawlplug.jpg" width="100%" style="margin-bottom:-7px" />
 
 <img alt="" src="https://artopen.netlify.app/img/portfolio/rawlplug/9rawlplug.jpg" width="100%" style="margin-bottom:-7px" />
-
-<img alt="" src="https://artopen.netlify.app/img/portfolio/rawlplug/10rawlplug.jpg" width="100%" style="margin-bottom:-7px" />
-
-<img alt="" src="https://artopen.netlify.app/img/portfolio/rawlplug/11rawlplug.jpg" width="100%" style="margin-bottom:-7px" />

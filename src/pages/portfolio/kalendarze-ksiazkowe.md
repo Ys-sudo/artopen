@@ -45,5 +45,3 @@ category: kalendarze książkowe
 <img alt="" src="https://artopen.netlify.app/img/portfolio/ksiazkowe/9ksiazkowe.jpg" width="100%" style="margin-bottom:-7px" />
 
 <img alt="" src="https://artopen.netlify.app/img/portfolio/ksiazkowe/10ksiazkowe.jpg" width="100%" style="margin-bottom:-7px" />
-
-<img alt="" src="https://artopen.netlify.app/img/portfolio/ksiazkowe/11ksiazkowe.jpg" width="100%" style="margin-bottom:-7px" />

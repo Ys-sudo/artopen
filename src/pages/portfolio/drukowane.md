@@ -42,5 +42,3 @@ category: kalendarze drukowane
 <img alt="" src="https://artopen.netlify.app/img/portfolio/drukowane/9trojdzielne.jpg" width="100%" style="margin-bottom:-7px" />
 
 <img alt="" src="https://artopen.netlify.app/img/portfolio/drukowane/10trojdzielne.jpg" width="100%" style="margin-bottom:-7px" />
-
-<img alt="" src="https://artopen.netlify.app/img/portfolio/drukowane/11trojdzielne.jpg" width="100%" style="margin-bottom:-7px" />

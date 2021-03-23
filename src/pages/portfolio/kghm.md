@@ -60,7 +60,3 @@ Kalendarz wzbogaciło 6 wklejek, które są integralną częścią bloku. Projek
 <img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/6kghm.jpg" width="50%" style="margin-bottom:-7px" /><img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/7kghm.jpg" width="50%" style="margin-bottom:-7px" />
 
 <img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/8kghm.jpg" width="50%" style="margin-bottom:-7px" /><img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/9kghm.jpg" width="50%" style="margin-bottom:-7px" />
-
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/10kghm.jpg" width="100%" style="margin-bottom:-7px" />
-
-<img alt="" src="https://artopen.netlify.app/img/portfolio/kghm/11kghm.jpg" width="100%" style="margin-bottom:-7px" />

@@ -26,7 +26,7 @@ keywords:
 meta_title: Astro System 🌱 Portfolio | Art Open Sp. z o.o. | Agencja reklamowa
 meta_description: >-
  Agencja reklamowa 🌳 Art Open - covid-19, ekologia, branding, strony i sklepy internetowe e-commerce, aplikacje, projektowanie graficzne, kalendarze książkowe, gadżety reklamowe, wydruki, reklama zewnętrzna, fotografie, filmowanie, animacje i montaż, systemy wystawiennicze, opakowania, projekty VR i 3D. Zapraszamy do zapoznania się ze szczegółami naszej działalności!
-category: aplikacje web
+category: strony internetowe
 ---
 <div style="text-align:center;margin-bottom:30px">
 <p class="title">Betafence</p>

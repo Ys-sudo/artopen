@@ -227,7 +227,7 @@ const HomePageTemplate = (props) => {
       <section className='hero is-primary is-bold is-medium' async style={{marginTop:'-7px', backgroundImage:'url(/img/tlo-liczniki.jpg)',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'top',backgroundAttachment: `fixed`,}}>
         <div className='hero-body'>
           <div className='container'>
-            <div onLoad={fireTime} className='columns timers'>
+            <div className='columns timers'>
 
               <div className='column' style={{textAlign:'center'}}>
               <p>Lat na rynku</p>
@@ -261,10 +261,6 @@ const HomePageTemplate = (props) => {
           </div>
         </div>
       </section>
-
-
-
-
 
       <section className='is-bold is-medium'>
         <div className='hero-body'>
@@ -514,8 +510,12 @@ var d =  setInterval( function(){
 function fireTime() {
   setTimeout(()=>{
     countDown();console.log('time');}
-  ,3000);
+  ,2000);
 }
+
+setTimeout(()=>{
+fireTime();}
+,1000);
 
 
 {/*
