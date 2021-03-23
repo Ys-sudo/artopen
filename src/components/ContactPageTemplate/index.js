@@ -87,6 +87,7 @@ const ContactPageTemplate = (props) => {
       <h5 style={{textAlign:'center'}} className='subtitle'>
       <img width="40px"  style={{verticalAlign:'middle', marginBottom:'15px'}}   alt="numer komórkowy" src='/img/map-marked.svg'/>
       <br />
+      <a href="/kontakt/sukces/" style={{display:'none'}}></a>
       <b>Odwiedź naszą siedzibę:</b> </h5>
       <h6 style={{textAlign:'center'}}> Nasz ekspres do kawy czeka na Ciebie! </h6>
       <br />
