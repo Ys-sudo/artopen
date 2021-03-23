@@ -88,7 +88,7 @@ Bilbordy czy wielkopowierzchniowe druki reklamowe to doskonałe uzupełnienie ka
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img class="oimg" width="100%" src="http://localhost:8888/img/siatki-mesh.jpg" />
+<img class="oimg" width="100%" src="https://artopen.netlify.app/img/siatki-mesh.jpg" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:50px">
 <p style="font-size:30px">Siatki<b> mesh</b></p>
@@ -107,7 +107,7 @@ Siatka mesh to materiał zbudowany na bazie tkaniny poliestrowej powleczonej PCV
 Strategiczna lokalizacja oraz odpowiednie przygotowanie nośnika nie tylko zapewnią skuteczność kampanii oraz dotarcie do klientów docelowych ale również gwarantują jej prawidłowy przebieg od strony technicznej. Zadbamy o to by Państwa reklama została zauważona a cała kampania przebiegła pomyślnie.</p>
 </div>
 <div class="column" style="padding:0px">
-<img class="oimg" width="100%" src="http://localhost:8888/img/flagi.jpg" />
+<img class="oimg" width="100%" src="https://artopen.netlify.app/img/flagi.jpg" />
 </div>
 </div>
 

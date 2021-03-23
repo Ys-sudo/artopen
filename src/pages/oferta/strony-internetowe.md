@@ -227,7 +227,7 @@ Przeprowadzamy szkolenia oraz prace z zakresu modernizacji oraz rozbudowy najpop
 </p>
 </div>
 <div class="column" style="padding:0px">
-<img width="100%" alt="szkolenia cms" src="http://localhost:8888/img/szkolenia1.svg" />
+<img width="100%" alt="szkolenia cms" src="https://artopen.netlify.app/img/szkolenia1.svg" />
 </div>
 </div>
 

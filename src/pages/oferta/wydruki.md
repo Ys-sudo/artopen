@@ -131,7 +131,7 @@ Dbamy o to, aby podłoża pochodziły z recyklingu, co ma uświadomić naszym Kl
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img class="oimg" width="100%" src="http://localhost:8888/img/nieszablonowe-realizacje.jpg" />
+<img class="oimg" width="100%" src="https://artopen.netlify.app/img/nieszablonowe-realizacje.jpg" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:50px">
 <p style="font-size:30px">Nieszablonowe<b> realizacje</b></p>
@@ -152,7 +152,7 @@ W naszych wydrukach wykorzystujemy przeróżne podłoża: matowe, kredowe i powl
 </p>
 </div>
 <div class="column" style="padding:0px">
-<img class="oimg" width="100%" src="http://localhost:8888/img/uszlachetnienia-wydrukow.jpg" />
+<img class="oimg" width="100%" src="https://artopen.netlify.app/img/uszlachetnienia-wydrukow.jpg" />
 </div>
 </div>
 

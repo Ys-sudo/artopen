@@ -76,7 +76,7 @@ keywords:
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img class="oimg" width="100%" src="http://localhost:8888/img/gadzety-reklamowe.jpg" />
+<img class="oimg" width="100%" src="https://artopen.netlify.app/img/gadzety-reklamowe.jpg" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:50px">
 <p style="font-size:30px">Gadżety <b>reklamowe</b></p>
@@ -120,7 +120,7 @@ Do produkcji naszych gadżetów używamy materiałów takich jak bambus, łuski 
 Zestawy gadżetów dobrane tak by pomagać w życiu codziennym, w zestawach znajdziecie Państwo przydatne artykuły do obsługi elektroniki w tym ładowarki indukcyjne, głośniki bluetooth, pendrive'y, notesy, długopisy i wiele innych poręcznych gadżetów. </p>
 </div>
 <div class="column" style="padding:0px">
-<img class="oimg" width="100%" src="http://localhost:8888/img/zestawy-gadzetow.jpg" />
+<img class="oimg" width="100%" src="https://artopen.netlify.app/img/zestawy-gadzetow.jpg" />
 </div>
 </div>
 
