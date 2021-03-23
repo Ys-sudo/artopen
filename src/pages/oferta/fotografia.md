@@ -89,7 +89,7 @@ Wiele obiektów można sfotografować w studio inne przy pomocy profesjonalnego 
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="padding:0px">
-<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/07/zdjecie-pedzle.jpg" />
+<img class="oimg" width="100%" src="http://localhost:8888/img/retusz_zdj.jpg" />
 </div>
 <div class="column" style="margin-top:50px;padding-left:30px">
 <p style="font-size:30px">Obróbka<b> graficzna zdjęć</b></p>
@@ -108,7 +108,7 @@ Zadbamy o odpowiednią obróbkę wykonanych zdjęć dostosowując odpowiednie pa
 Zdjęcia lotnicze z perspektywy ptaka nadadzą Państwa sesji kinematograficzny charakter, stanowią świetne rozwiązanie w przypadku zdjęć z eventów czy pod kampanie promocyjne i marketingowe, pozwalają odbiorcą wznieść się wysoko i zobaczyć Państwa aranżacje z innej perspektywy.</p>
 </div>
 <div class="column" style="padding:0px">
-<img class="oimg" width="100%" src="https://artopen.pl/images/2020/04/20/sesje-zdjeciowe.jpg" />
+<img class="oimg" width="100%" src="http://localhost:8888/img/zdjecia_z_drona.jpg" />
 </div>
 </div>
 
