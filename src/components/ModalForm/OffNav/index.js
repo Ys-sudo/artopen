@@ -60,7 +60,7 @@ function OffNav(props) {
     </a>
 
 
-    <a onClick={selectOffer} className='ofnav1' >
+    <a href="https://opengadzet.pl/" target="_blank" className='ofnav1' >
     <img  width="10px" className='icon-green' style={{marginRight:'0px'}} alt="gadżety" src='/img/lightbulb.svg'/>
     <br />Gadżety reklamowe </a>
 

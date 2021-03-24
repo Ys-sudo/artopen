@@ -164,7 +164,7 @@ const NavBar = () => {
                 <p className='control'>
                   <a
                     className='button-green'
-                    href='#'>
+                    href="https://opengadzet.pl/">
                     Sklep online
                   </a>
                 </p>
@@ -228,7 +228,7 @@ const NavBar = () => {
 
             </div>
             </div>
-            
+
         </nav>
 
       )}
