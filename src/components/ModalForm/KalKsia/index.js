@@ -743,9 +743,14 @@ class KalKsia extends React.Component {
 
       </label>
 
-      <span className='column'>
+      <label htmlFor='cx23'  className='column main'>
+        <input onChange={this.handleChange} type="checkbox" id='cx23' name="rok tloczony" value="tak"  />
+        <img className='obrazek' src="/img/dodatki/dodatki_rok_tloczony.jpg" width='100px' />
+        <br />
+        <b>Rok tłoczony</b>
+        <p style={{fontSize:'10px'}}>aktualny rok tłoczony na okładce</p>
 
-      </span>
+      </label>
       <span className='column'>
 
       </span>
