@@ -99,7 +99,7 @@ Interaktywne projekty VR dostępne z poziomu przeglądarki wykonane w technologi
 </div>
 <br>
 <div class="" style="padding:0px">
-<iframe class="" style="border-radius:20px" width="100%" height="512" defer="true" src="https://iris-mesquite-snowshoe.glitch.me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="" style="border-radius:20px" width="100%" height="512" defer src="https://iris-mesquite-snowshoe.glitch.me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 
@@ -112,7 +112,7 @@ Interaktywne projekty VR dostępne z poziomu przeglądarki wykonane w technologi
 </div>
 <br>
 <div class="" style="padding:0px">
-<iframe class="" style="border-radius:20px" width="100%" height="512" defer="true" src="https://gabby-honey-gear.glitch.me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="" style="border-radius:20px" width="100%" height="512" defer src="https://gabby-honey-gear.glitch.me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 
