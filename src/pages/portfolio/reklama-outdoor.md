@@ -3,7 +3,7 @@ templateKey: gallery-page
 title: Reklama zewnętrzna
 slug: reklama-zewnetrzna-outdoor
 date: 2020-12-05T13:51:41.657Z
-cover: /img/portfolio/outdoor/1outdoor.jpg
+cover: /img/portfolio/outdoor/outdoor.jpg
 tags:
   - Betafence
   - branding

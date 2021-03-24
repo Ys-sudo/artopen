@@ -3,7 +3,7 @@ templateKey: gallery-page
 title: Koleje dolnośląskie
 slug: projektowanie-graficzne-koleje-dolnoslaskie
 date: 2020-12-05T13:51:41.657Z
-cover: /img/portfolio/kd/4kd.jpg
+cover: /img/portfolio/kd/kd.jpg
 tags:
   - Koleje dolnośląskie
   - branding

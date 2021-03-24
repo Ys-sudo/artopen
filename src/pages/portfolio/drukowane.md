@@ -3,7 +3,7 @@ templateKey: gallery-page
 title: Kalendarze firmowe
 slug: kalendarze-drukowane-2021-portfolio
 date: 2020-12-05T13:51:41.657Z
-cover: /img/portfolio/drukowane/10trojdzielne.jpg
+cover: /img/portfolio/drukowane/trojdzielne.jpg
 tags:
   - Kalendarze drukowane
   - kalendarze firmowe

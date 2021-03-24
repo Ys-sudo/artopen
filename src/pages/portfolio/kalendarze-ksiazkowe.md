@@ -3,7 +3,7 @@ templateKey: gallery-page
 title: Kalendarze książkowe
 slug: kalendarze-ksiazkowe-2021-portfolio
 date: 2020-12-05T13:51:41.657Z
-cover: /img/portfolio/ksiazkowe/1ksiazkowe.jpg
+cover: /img/portfolio/ksiazkowe/ksiazkowe.jpg
 tags:
   - Kalendarze książkowe
   - kalendarze firmowe

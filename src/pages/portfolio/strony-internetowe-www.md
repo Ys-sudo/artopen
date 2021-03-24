@@ -47,7 +47,7 @@ category: strony internetowe
 <h3 class="title">&bull; Kasetony reklamowe</h3>
 <h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Realizacja kasetonów świetlnych o wymiarach 100x50 cm. Zadruk dwustronny, konstrukcja i elementy mocujące wykonane z profili aluminiowych. Reklamowa powierzchnia świetlna wykonana z tkaniny dekor z drukiem UV. Rama aluminiowa malowana w kolorze RAL.</h4>
 </div>
-<img alt="" src="https://artopen.netlify.app/img/portfolio/www/4www.jpg" width="50%" style="margin-bottom:-7px" /><img alt="" src="https://artopen.netlify.app/img/portfolio/www/5www.jpg" width="50%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/www/4www.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%;text-align:right">
 <h3 class="title">Katalog szyty &bull;</h3>
 <h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Wprowadzenie zmian merytorycznych oraz przygotowanie projektu pod wymagania drukarskie. Wydruk 40-stronnicowego szytego katalogu w formacie A4, całość na podłożu 170g.</h4>
