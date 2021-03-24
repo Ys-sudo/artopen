@@ -29,15 +29,30 @@ category: kalendarze książkowe
 </div>
 
 <img alt="" src="https://artopen.netlify.app/img/portfolio/ksiazkowe/1ksiazkowe.jpg" width="100%" style="margin-bottom:-7px" />
-
+<div style="padding: 10%;">
+<h3 class="title">&bull; Niestandardowe rozwiązania</h3>
+<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Wykonanie kalendarzy książkowych przy użyciu złotej folii hotstampingowej. Możliwość tłoczenia folią z szerokiej palety kolorów.</h4>
+</div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/ksiazkowe/2ksiazkowe.jpg" width="100%" style="margin-bottom:-7px" />
-
+<div style="padding: 10%;text-align:right">
+<h3 class="title">Czarny pattern &bull;</h3>
+<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Projekt kalendarza książkowego przy wykorzystaniu dwóch technik znakowania. Zadruk dwustronny czarnym patternem połączony ze złotą folią hotsampingową. Całości dopełnia papierowa oprawa - beżowa natura.</h4>
+</div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/ksiazkowe/3ksiazkowe.jpg" width="100%" style="margin-bottom:-7px" />
-
+<div style="padding: 10%;">
+<h3 class="title">&bull; Notes z ołówkiem</h3>
+<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Indywidualny projekt okładki kalendarza z gumką zamykającą oraz ołówkiem w zestawie. Nadruk na całej powierzchni w jednym kolorze. Możliwość zadrukowania również ołówka. Projekt graficzny w środku notesu może być spersonalizowany.</h4>
+</div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/ksiazkowe/4ksiazkowe.jpg" width="50%" style="margin-bottom:-7px" /><img alt="" src="https://artopen.netlify.app/img/portfolio/ksiazkowe/5ksiazkowe.jpg" width="50%" style="margin-bottom:-7px" />
-
+<div style="padding: 10%;text-align:right">
+<h3 class="title">Kalendarz jubileuszowy &bull;</h3>
+<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Realizacja kalendarza dla firmy Mercus Logistyka z okazji jubileuszu 30-lecia powstania spółki. Zadruk czarny pattern w połączeniu ze złotą folią hotspmpingową oraz wyciętą blaszką z rokiem. Środek kalendarza z indywidualnymi wklejkami oraz wyklejkami.</h4>
+</div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/ksiazkowe/6ksiazkowe.jpg" width="100%" style="margin-bottom:-7px" />
-
+<div style="padding: 10%;">
+<h3 class="title">&bull; Wyklejka</h3>
+<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Projekt graficzny wyklejki kalendarza. Spójny z realizacją pozostałych materiałów drukowanych na potrzeby obchodów jubileuszowych.</h4>
+</div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/ksiazkowe/7ksiazkowe.jpg" width="100%" style="margin-bottom:-7px" />
 
 <img alt="" src="https://artopen.netlify.app/img/portfolio/ksiazkowe/8ksiazkowe.jpg" width="100%" style="margin-bottom:-7px" />
