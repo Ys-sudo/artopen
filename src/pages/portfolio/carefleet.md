@@ -29,51 +29,39 @@ meta_description: >-
 category: strony internetowe
 ---
 <div style="text-align:center;margin-bottom:30px">
-<p class="title">Betafence</p>
-<p class="subtitle">identyfikacja wizualna</p>
+<p class="title">CAREFLEET</p>
+<p class="subtitle">Realizacja serii spójnych projektów dla firmy z branży Car Fleet Management.</p>
 </div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/1Carefleet.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%;">
-<h3 class="title">&bull; Ulotki reklamowe</h3>
-<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Wykonanie projektu graficznego składanej ulotki w formacie 2x A4. Wydruk na papierze o wysokiej gramaturze 350g.</h4>
+<h3 class="title">&bull; Outdoor</h3>
+<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Wykonanie projektu graficznego na nośniki Citylight. Nowoczesna i estetyczna forma tego nośnika gwarantuje najwyższej jakości przekaz na temat reklamowanej firmy lub produktu. Rozwiązanie dzięki któremu reklama dociera do dużej liczby osób.</h4>
 </div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/2Carefleet.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%;text-align:right">
-<h3 class="title">Wizytówki firmowe &bull;</h3>
-<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Projekt graficzny wizytówek dla grupy Betafence. Wizytówki wydrukowane na papierze kredowym o gramaturze 350g, uszlachetnione dwustronnie folią soft touch.</h4>
+<h3 class="title">Ulotki reklamowe &bull;</h3>
+<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Realizacja ulotek reklamowych  w formacie DL poziom. Wykonanie projektu graficznego ulotki oraz wydruk na papierze o gramaturze 170g, papier powlekany folią błysk.
+</h4>
 </div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/3Carefleet.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%">
-<h3 class="title">&bull; Kasetony reklamowe</h3>
-<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Realizacja kasetonów świetlnych o wymiarach 100x50 cm. Zadruk dwustronny, konstrukcja i elementy mocujące wykonane z profili aluminiowych. Reklamowa powierzchnia świetlna wykonana z tkaniny dekor z drukiem UV. Rama aluminiowa malowana w kolorze RAL.</h4>
+<h3 class="title">&bull; Billboard</h3>
+<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Kolejny projekt graficzny billboardu przedstawiający ofertę firmy. Możliwość wyklejenia tablic billboardowych na terenie całego kraju.</h4>
 </div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/4Carefleet.jpg" width="50%" style="margin-bottom:-7px" /><img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/5Carefleet.jpg" width="50%" style="margin-bottom:-7px" />
 <div style="padding: 10%;text-align:right">
-<h3 class="title">Katalog szyty &bull;</h3>
-<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Wprowadzenie zmian merytorycznych oraz przygotowanie projektu pod wymagania drukarskie. Wydruk 40-stronnicowego szytego katalogu w formacie A4, całość na podłożu 170g.</h4>
+<h3 class="title">Tablice &bull;</h3>
+<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Realizacja tablic z białego dibondu osadzonych na dystansach chromowanych. Tablica wyklejona trwałą folią polimerową. Przygotowanie projektu graficznego oraz składu do druku.</h4>
 </div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/6Carefleet.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%">
-<h3 class="title">&bull; Kalendarz ścienny</h3>
-<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Projekt kalendarza trójdzielnego z indywidualnymi kalendariami. Praca nad przygotowaniem świąt narodowych dla każdego Państwa europejskiego w którym znajduje się jednostka Klienta. Wydruk kalendarza na płaskiej główce z folią błysk.</h4>
+<h3 class="title">&bull; Projekt makiety</h3>
+<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Wykonanie graficzne nowoczesnego designu makiety, portalu sprzedażowego aut poleasingowych. Zakres prac dotyczył zaprojektowanie makiety strony głównej, podstrony kategorii oraz kartę produktową.</h4>
 </div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/7Carefleet.jpg" width="100%" style="margin-bottom:-7px" />
-<div style="padding: 10%;text-align:right">
-<h3 class="title">Maszt flagowy &bull;</h3>
-<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Maszt o wysokości 8m, wykonany z włókna szklanego z wysięgnikiem. Flaga o wymiarach 400x120 cm mocowana na windtrackerze.</h4>
-</div>
+
 <img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/8Carefleet.jpg" width="100%" style="margin-bottom:-7px" />
-<div style="padding: 10%">
-<h3 class="title">&bull; Ochrona RFID</h3>
-<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Karta RFID Card Blocker uniemożliwiająca zeskanowanie danych, które są zapisane na kartach płatniczych, kredytowych czy dostępowych. Możliwość zadruku jedno i dwustronnego grafiką pełnokolorową.</h4>
-</div>
+
 <img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/9Carefleet.jpg" width="100%" style="margin-bottom:-7px" />
-<div style="padding: 10%;text-align:right">
-<h3 class="title">Torba bawełniana &bull;</h3>
-<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Wykonanie torby bawełnianej na zakupy z krótkimi uchwytami o gramaturze 160g. Możliwy zadruk w kolorze PANTONE. </h4>
-</div>
+
 <img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/10Carefleet.jpg" width="100%" style="margin-bottom:-7px" />
-<div style="padding: 10%">
-<h3 class="title">&bull; Krówki z logo</h3>
-<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Produkcja tradycyjnych krówek mlecznych produkowanych ręcznie według sprawdzonej receptury z pełnowartościowego mleka. Krówki są zawijane w specjalnie przygotowaną, dedykowaną etykietę z projektem graficznym.</h4>
-</div>

@@ -29,52 +29,61 @@ meta_description: >-
 category: strony internetowe
 ---
 <div style="text-align:center;margin-bottom:30px">
-<p class="title">Strony internetowe</p>
-<p class="subtitle">Zestawienie wykonanych przez nas stron internetowych</p>
+<p class="title">STRONY INTERNETOWE</p>
+<p class="subtitle">Wybrane realizacje stron www, opartych na popularnych systemach zarządzania treścią CMS, oraz strony dedykowane i aplikacje.</p>
 </div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/www/1www.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%;">
-<h3 class="title">&bull; Ulotki reklamowe</h3>
-<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Wykonanie projektu graficznego składanej ulotki w formacie 2x A4. Wydruk na papierze o wysokiej gramaturze 350g.</h4>
+<h3 class="title">&bull; Astro System</h3>
+<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Zaprojektowanie oraz wdrożenie responsywnej strony internetowej opartej na systemie zarządzania treścią CMS. Wykonanie makiety poglądowej strony głównej serwisu.</h4>
 </div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/www/2www.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%;text-align:right">
-<h3 class="title">Wizytówki firmowe &bull;</h3>
-<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Projekt graficzny wizytówek dla grupy Betafence. Wizytówki wydrukowane na papierze kredowym o gramaturze 350g, uszlachetnione dwustronnie folią soft touch.</h4>
+<h3 class="title">BEST – Systemy Grzewcze &bull;</h3>
+<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Stworzenie nowej strony internetowej dla firmy BEST Systemy Grzewcze. Wykonanie witryny dwujęzycznej, zakres dotyczył również przygotowania tłumaczenia materiałów na język angielski. Przed realizacją stworzenie makiety poglądowej strony głównej.</h4>
 </div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/www/3www.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%">
-<h3 class="title">&bull; Kasetony reklamowe</h3>
-<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Realizacja kasetonów świetlnych o wymiarach 100x50 cm. Zadruk dwustronny, konstrukcja i elementy mocujące wykonane z profili aluminiowych. Reklamowa powierzchnia świetlna wykonana z tkaniny dekor z drukiem UV. Rama aluminiowa malowana w kolorze RAL.</h4>
+<h3 class="title">&bull; Chemeko System</h3>
+<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Realizacja strony internetowej dla firmy sprzątającej Chemeko-System. Wdrożenie witryny na serwerze Klienta. Wykonanie makiety poglądowej głównej strony serwisu.</h4>
 </div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/www/4www.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%;text-align:right">
-<h3 class="title">Katalog szyty &bull;</h3>
-<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Wprowadzenie zmian merytorycznych oraz przygotowanie projektu pod wymagania drukarskie. Wydruk 40-stronnicowego szytego katalogu w formacie A4, całość na podłożu 170g.</h4>
+<h3 class="title">Esstilo &bull;</h3>
+<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Budowa strony internetowej dla marki ESSTILO. Przedstawienie szerokiej oferty firmy w minimalistycznej formie. Przejrzysty interfejs oraz łatwość w administracji.</h4>
 </div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/www/6www.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%">
-<h3 class="title">&bull; Kalendarz ścienny</h3>
-<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Projekt kalendarza trójdzielnego z indywidualnymi kalendariami. Praca nad przygotowaniem świąt narodowych dla każdego Państwa europejskiego w którym znajduje się jednostka Klienta. Wydruk kalendarza na płaskiej główce z folią błysk.</h4>
+<h3 class="title">&bull; Outdoor Market</h3>
+<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Stworzenie serwisu e-commerce dla firmy OUTDOOR MARKET. W projekcie wdrożono działania SEO oraz optymalizacje serwisu, polegające na stworzeniu struktury fraz kluczowych, research konkurencji oraz prace nad metadanymi. Wykonano również prace copywriting na podstawie treści tekstowych otrzymanych od Klienta.</h4>
 </div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/www/7www.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%;text-align:right">
-<h3 class="title">Maszt flagowy &bull;</h3>
-<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Maszt o wysokości 8m, wykonany z włókna szklanego z wysięgnikiem. Flaga o wymiarach 400x120 cm mocowana na windtrackerze.</h4>
+<h3 class="title">Projekt PGK &bull;</h3>
+<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Wykonanie strony internetowej dla Przedsiębiorstwa Gospodarki Komunalnej Sp. z o.o. w Wiszni Małej w ramach projektu unijnego. Bieżąca obsługa strony internetowej polegająca na aktualizowaniu danych oraz wykonywaniu backupów witryny. Na potrzeby strony internetowej zrealizowano reportaże video z poszczególnych etapów przedsięwzięcia.</h4>
 </div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/www/8www.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%">
-<h3 class="title">&bull; Ochrona RFID</h3>
-<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Karta RFID Card Blocker uniemożliwiająca zeskanowanie danych, które są zapisane na kartach płatniczych, kredytowych czy dostępowych. Możliwość zadruku jedno i dwustronnego grafiką pełnokolorową.</h4>
+<h3 class="title">&bull; Pracodawcy.pl</h3>
+<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Realizacja portalu dla Związku Pracodawców Polska Miedź. Obszerny projekt z dużą zawartością merytoryczną. Stworzenie interaktywnego kalendarza wydarzeń. Dodatkowo integracja z zewnętrznymi serwisami oraz praca nad optymalizacją witryny.</h4>
 </div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/www/9www.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%;text-align:right">
-<h3 class="title">Torba bawełniana &bull;</h3>
-<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Wykonanie torby bawełnianej na zakupy z krótkimi uchwytami o gramaturze 160g. Możliwy zadruk w kolorze PANTONE. </h4>
+<h3 class="title">S&A Service &bull;</h3>
+<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Zaprojektowanie oraz wdrożenie nowej strony internetowej dla spółki S&A Service. Zakres prac dotyczył budowy struktury serwisu wspólnie z Klientem, prace nad interfejsem oraz przeprowadzenie testów funkcjonalnych. Serwis osadzony na domenie oraz serwerze Klienta.</h4>
 </div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/www/10www.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%">
-<h3 class="title">&bull; Krówki z logo</h3>
-<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Produkcja tradycyjnych krówek mlecznych produkowanych ręcznie według sprawdzonej receptury z pełnowartościowego mleka. Krówki są zawijane w specjalnie przygotowaną, dedykowaną etykietę z projektem graficznym.</h4>
+<h3 class="title">&bull; Willa Lawenda</h3>
+<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Projekt wykonany dla pensjonatu „Willa Lawenda” znajdującego się w Dusznikach Zdroju. Witryna oparta na systemie Wordpress w formie przejrzystego one-page.</h4>
 </div>
 <img alt="" src="https://artopen.netlify.app/img/portfolio/www/11www.jpg" width="100%" style="margin-bottom:-7px" />
+<div style="padding: 10%;text-align:right">
+<h3 class="title">Alfa-Laval &bull;</h3>
+<h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Projekt odtwarzacza wgrywany na urządzenia lokalne, docelowo na tablety. Zaimportowanie kilkudziesięciu krótkich animacji instruktażowych. Stworzenie aplikacji dla przeglądarek w języku JavaScript. Przeprowadzenie testów pod kątem różnych przeglądarek internetowych oraz systemów operacyjnych.</h4>
+</div>
+<img alt="" src="https://artopen.netlify.app/img/portfolio/www/5www.jpg" width="100%" style="margin-bottom:-7px" />
+<div style="padding: 10%">
+<h3 class="title">&bull; ZEM</h3>
+<h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Wykonanie projektu nowej strony internetowej dla firmy produkcyjnej - Zakłady Elektrotechniki Motoryzacyjnej. Wdrożenie modułu umożliwiającego przedstawienie zdjęć na płaszczyźnie 360 stopni. Rozbudowanie serwisu do wersji anglojęzycznej oraz integracja z mediami społecznościowymi.</h4>
+</div>
