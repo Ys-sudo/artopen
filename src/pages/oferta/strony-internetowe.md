@@ -14,8 +14,8 @@ tags:
   - aplikacje web
   - aplikacje android
   - audyt strony
-  - projekty 3D
-  - projekty VR
+  - 3D
+  - VR
   - e-commerce
   - CMS
   - SEO
@@ -191,16 +191,17 @@ Dedykowane aplikacje webowe oparte na nowoczesnych środowiskach programistyczny
 </div>
 
 </div>
-<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px;text-align:right;padding-right:50px">
+<div class="" style="margin-left:10%;margin-right:10%;padding:5%">
+<div class="" style="margin-top:50px;text-align:left;padding-right:50px">
 <p style="font-size:30px">Projekty <b>VR</b></p>
 <br>
 <p>
-Projekty wykonane z obiektów 3D w technologii WEB VR, docelowo na okulary VR ale również dostępne z poziomu przeglądarki w wersji 3D. Pozwalają zagłębić się użytkownikowi w wirtualny świat zarazem przeprowadzając interakcje z obiektami, mogą przybrać formę wirtualnego spaceru, gry czy interaktywnej prezentacji lub szkolenia. Ten nowatorski sposób przedstawiania usług pozwala zapaść w pamięć odbiorcy poprzez poruszające wyobraźnie interaktywne doświadczenie.
+Projekty wykonane z obiektów 3D w technologii WEB VR, docelowo na okulary VR ale również dostępne z poziomu przeglądarki w wersji 3D. Pozwalają zagłębić się użytkownikowi w wirtualny świat zarazem przeprowadzając interakcje z obiektami, mogą przybrać formę wirtualnego spaceru, gry czy interaktywnej prezentacji lub szkolenia. Ten nowatorski sposób przedstawiania usług pozwala zapaść w pamięć odbiorcy poprzez poruszające wyobraźnie interaktywne doświadczenie.<br><br>Przetestuj nasz projekt VR - kliknij w ramkę poniżej i użyj strzałek na klawiaturze by przemieścić się w przestrzeni 3D, kliknij w model logo lub kulę by przeprowadzić interakcję.
 </p>
 </div>
-<div class="column" style="padding:0px">
-<iframe class="oimg" width="100%" height="412" defer src="https://iris-mesquite-snowshoe.glitch.me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<div class="" style="padding:0px">
+<iframe class="" style="border-radius:20px" width="100%" height="512" defer src="https://iris-mesquite-snowshoe.glitch.me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 

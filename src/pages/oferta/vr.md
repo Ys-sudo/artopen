@@ -89,15 +89,17 @@ Masz pomysł na piękny mebel? Trudno Ci przekonać potencjalnego nabywcę do je
 </div>
 </div>
 
-<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="padding:0px">
-<iframe class="oimg" width="556" height="312" async src="https://iris-mesquite-snowshoe.glitch.me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<div class="column" style="margin-top:50px;margin-left:30px">
-<p style="font-size:30px">WEB<b> VR</b></p>
+<div class="" style="margin-left:10%;margin-right:10%;padding:5%">
+<div class="" style="margin-top:50px;text-align:left;padding-right:50px">
+<p style="font-size:30px">Projekty <b>WEB VR</b></p>
 <br>
 <p>
-Interaktywne projekty VR dostępne z poziomu przeglądarki wykonane w technologii webVR, kompatybilne również do umieszczenia na stronie internetowej, świetnie sprawdzają się przy prezentacji produktów na okularach VR. Zapewnij swoim klientom niezapomniane doświadczenie i zaprezentuj się w nowoczesny sposób.</p>
+Interaktywne projekty VR dostępne z poziomu przeglądarki wykonane w technologii webVR, kompatybilne również do umieszczenia na stronie internetowej w trybie 3D, świetnie sprawdzają się przy prezentacji produktów na okularach VR. Pozwalają zagłębić się użytkownikowi w wirtualny świat zarazem przeprowadzając interakcje z obiektami, mogą przybrać formę wirtualnego spaceru, gry czy interaktywnej prezentacji lub szkolenia. Ten nowatorski sposób przedstawiania usług pozwala zapaść w pamięć odbiorcy poprzez poruszające wyobraźnie interaktywne doświadczenie. Zapewnij swoim klientom niezapomniane doświadczenie i zaprezentuj się w nowoczesny sposób.<br><br>Przetestuj nasz projekt VR - kliknij w ramkę poniżej i użyj strzałek na klawiaturze by przemieścić się w przestrzeni 3D, kliknij w model logo lub kulę by przeprowadzić interakcję.
+</p>
+</div>
+<br>
+<div class="" style="padding:0px">
+<iframe class="" style="border-radius:20px" width="100%" height="512" defer src="https://iris-mesquite-snowshoe.glitch.me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
 
