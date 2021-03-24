@@ -156,7 +156,7 @@ Odpowiedni slogan reklamowy zapada w pamięć odbiorcy na długi czas. Opracujem
 <br>
 <p>
 Kiedy wypływasz na szerokie wody biznesu, zewsząd otrzymujesz propozycje współpracy oraz nowe zamówienia. Podpisujesz kontrakty i umowy na dedykowanym tylko dla Twojej organizacji papierze firmowym.
-Lśni na nim wspaniałe logo, które trafnie opisuje charakter działalności Twojej firmy i budzi uznanie w oczach partnerów biznesowych, konkurencji i klientów.
+Lśni na nim wspaniałe logo, które trafnie opisuje charakter działalności Twojej firmy i budzi uznanie  w oczach partnerów biznesowych, konkurencji i klientów.
 Wizytówki, które z dumą wręczasz, są ozdobą każdego wizytownika. Rozdając foldery na targach, widzisz, jak klienci przeglądają je z zaciekawieniem i uznaniem. Starannie dopracowana szata graficzna, zgodna z założeniami systemu identyfikacji wizualnej, dba o spójność i czytelność zawartych w akcydensach informacji.
 Dzięki systemowi identyfikacji wizualnej masz zapewnioną integralność swojego wizerunku na zewnątrz i wyróżniasz się na tle wielu innych firm na rynku.
 </p>

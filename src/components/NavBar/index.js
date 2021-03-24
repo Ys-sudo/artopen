@@ -102,31 +102,31 @@ const NavBar = () => {
 
                 <Link className='submenu-item' to='/ekologia/'>EKOLOGIA</Link>
 
-                <Link className='submenu-item' to='/projektowanie-graficzne/' >PROJEKTOWANIE GRAFICZNE</Link>
+                <Link className='submenu-item' to='/projektowanie-graficzne/'>PROJEKTOWANIE GRAFICZNE</Link>
 
-                <Link className='submenu-item' to='/strony-internetowe/' >STRONY INTERNETOWE</Link>
+                <Link className='submenu-item' to='/strony-internetowe/'>STRONY INTERNETOWE</Link>
 
-                <Link className='submenu-item' to='/branding/' >BRANDING</Link>
+                <Link className='submenu-item' to='/branding/'>BRANDING</Link>
 
-                <Link className='submenu-item' to='/kalendarze-ksiazkowe/' >KALENDARZE KSIĄŻKOWE </Link>
+                <Link className='submenu-item' to='/kalendarze-ksiazkowe/'>KALENDARZE KSIĄŻKOWE </Link>
 
-                <Link className='submenu-item' to='/kalendarze-firmowe/' >KALENDARZE FIRMOWE </Link>
+                <Link className='submenu-item' to='/kalendarze-firmowe/'>KALENDARZE FIRMOWE </Link>
 
-                <Link className='submenu-item' to='/gadzety/' >GADŻETY REKLAMOWE </Link>
+                <Link className='submenu-item' to='/gadzety/'>GADŻETY REKLAMOWE </Link>
 
-                <Link className='submenu-item' to='/wydruki/' >WYDRUKI REKLAMOWE </Link>
+                <Link className='submenu-item' to='/wydruki/'>WYDRUKI REKLAMOWE </Link>
 
-                <Link className='submenu-item' to='/reklama-zewnetrzna/' >REKLAMY OUTDOOR </Link>
+                <Link className='submenu-item' to='/reklama-zewnetrzna/'>REKLAMY OUTDOOR </Link>
 
-                <Link className='submenu-item' to='/fotografia/' >FOTOGRAFIE PRODUKTOWE </Link>
+                <Link className='submenu-item' to='/fotografia/'>FOTOGRAFIE PRODUKTOWE </Link>
 
-                <Link className='submenu-item' to='/wystawiennictwo/' >SYSTEMY WYSTAWIENNICZE  </Link>
+                <Link className='submenu-item' to='/wystawiennictwo/'>SYSTEMY WYSTAWIENNICZE  </Link>
 
-                <Link className='submenu-item' to='/filmowanie/' >FILMY REKLAMOWE </Link>
+                <Link className='submenu-item' to='/filmowanie/'>FILMY REKLAMOWE </Link>
 
-                <Link className='submenu-item' to='/opakowania/' >OPAKOWANIA </Link>
+                <Link className='submenu-item' to='/opakowania/'>OPAKOWANIA </Link>
 
-                <Link className='submenu-item' to='/vr/' >WIRTUALNA RZECZYWISTOŚĆ</Link>
+                <Link className='submenu-item' to='/vr/'>WIRTUALNA RZECZYWISTOŚĆ</Link>
 
 
               </nav>

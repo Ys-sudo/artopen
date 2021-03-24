@@ -44,7 +44,7 @@ Wszystkie proponowane przez nas produkty z oferty ekologicznej są przyjazne dla
 
 ### 5. Otoczenie biznesowe
 
-Należymy do największej na świecie organizacji biznesowej BNI. Będąc członkiem jednej z grup nawiązujemy relacje z innymi właścicielami firm, dzielimy się doświadczeniem oraz biznesową wiedzą, dzięki czemu możemy przekazywać wzajemnie kontakty do swoich najlepszych Klientów czy partnerów biznesowych.
+Nawiązujemy relacje z innymi właścicielami firm, dzielimy się doświadczeniem oraz biznesową wiedzą, dzięki czemu możemy przekazywać wzajemnie kontakty do swoich najlepszych Klientów czy partnerów biznesowych.
 
 Swoje doświadczenie budujemy również poprzez spotkania networkingowo-rozwojowe, należąc do ogólnopolskiego klubu WFS Polska. Na co dzień kierujemy się dywizą "Jesteś tak inteligentny, jak Środowisko, w którym żyjesz."
 

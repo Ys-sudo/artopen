@@ -192,11 +192,13 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 </div>
 <br>
 <div style="text-align:left">
-<p style="margin-left:80px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Ze względu na regulowany obwód, przyłbica jest w uniwersalnym rozmiarze.</p>
+<p style="margin-left:80px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wyprodukowana z hipoalergicznej i niepylącej włókniny.</p>
 <br>
-<p style="margin-left:40px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Opaska dystansowa pozwala na cyrkulację powietrza jednocześnie nie zmniejszając funkcji ochronnej.</p>
+<p style="margin-left:40px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Jednorazowego użytku z gumką, ściśle przylegająca
+do twarzy.</p>
 <br>
-<p style="margin-left:0px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wielokrotnego użytku i komfortowa w noszeniu ze względu na lekkość.</p>
+<p style="margin-left:0px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wysoka przepuszczalność powietrza, nie ogranicza
+swobodnego oddychania.</p>
 <br>
 </div>
 </div>

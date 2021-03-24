@@ -56,10 +56,7 @@ class Footer extends React.Component {
             Kalendarze firmowe
           </Link>
 
-          <Link className='submenu-item' to='/gadzety/' >
-          <img width="10px" className='icon-green'  alt="gadżety" src='/img/lightbulb.svg'/>
-            Gadżety reklamowe 
-          </Link>
+          <Link className='submenu-item' to='/gadzety/'><img width="10px" className='icon-green'  alt="gadżety" src='/img/lightbulb.svg'/>Gadżety reklamowe </Link>
 
           </div>
           <div className='column removespace' style={{padding:'5px',marginTop:'30px'}}>
