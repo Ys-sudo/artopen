@@ -122,33 +122,29 @@ Przykładowe <b>systemy</b>
 
 <div style="margin-left:10%;margin-right:10%;margin-top:50px;min-height:200px;text-align:center;padding:50px;" class="columns">
 <div class="column" style="padding:0px">
-<img src="https://artopen.pl/images/MAESTRO.jpg" width="100%" />
+<img src="http://localhost:8888/img/stoiska/stoisko1.png" width="100%" />
 </div>
 <div class="column" style="padding:0px">
-<img src="https://artopen.pl/images/CLOUD_COMPUTING.jpg" width="100%" />
+<img src="http://localhost:8888/img/stoiska/stoisko2.png" width="100%" />
 </div>
 <div class="column" style="padding:0px">
-<img src="https://artopen.pl/images/VOYAGER.jpg" width="100%" />
+<img src="http://localhost:8888/img/stoiska/stoisko3.png" width="100%" />
 </div>
-<div class="column" style="padding:0px">
-<img src="https://artopen.pl/images/BE_CREATIVE.jpg" width="100%" />
-</div>
+
 </div>
 
 
 <div style="margin-left:10%;margin-right:10%;margin-top:0px;min-height:200px;text-align:center;padding:50px;" class="columns">
 <div class="column" style="padding:0px">
-<img src="https://artopen.pl/images/BRICOMAISON.jpg" width="100%" />
+<img src="http://localhost:8888/img/stoiska/stoisko5.png" width="100%" />
 </div>
 <div class="column" style="padding:0px">
-<img src="https://artopen.pl/images/BALHI.jpg" width="100%" />
+<img src="http://localhost:8888/img/stoiska/stoisko4.png" width="100%" />
 </div>
 <div class="column" style="padding:0px">
-<img src="https://artopen.pl/images/DWELLING_INSURANCE.jpg" width="100%" />
+<img src="http://localhost:8888/img/stoiska/stoisko7.png" width="100%" />
 </div>
-<div class="column" style="padding:0px">
-<img src="https://artopen.pl/images/PIXEL_BANK.jpg" width="100%" />
-</div>
+
 </div>
 
 <div style="margin-left:10%;margin-right:10%;padding:5%">

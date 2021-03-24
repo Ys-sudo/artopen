@@ -1,7 +1,7 @@
 ---
 templateKey: catalogs-page
 title: Katalogi
-meta_title: Katalogi 🌱 Art Open Sp. z o.o. | Agencja reklamowa 
+meta_title: Katalogi 🌱 Art Open Sp. z o.o. | Agencja reklamowa
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
@@ -30,7 +30,7 @@ keywords:
 
    <div class="column">
      <a class="catalogimg" href="https://online.fliphtml5.com/njygn/xbbq/" target="_blank" >
-      <img alt="Gadżety premium" src="/img/katalogi/expen_katalog.png" width="100%">
+      <img alt="Gadżety premium" src="http://localhost:8888/img/katalogi/gadzety_premium.png" width="100%">
      </a>
    </div>
 
@@ -55,7 +55,7 @@ keywords:
 
    <div class="column">
    <a class="catalogimg" href="https://online.fliphtml5.com/njygn/yxew/" target="_blank" >
-    <img  src="/img/katalogi/kalendarze.jpg" width="100%">
+    <img  src="http://localhost:8888/img/katalogi/kalendarze_i_notesy.png" width="100%">
    </a>
    </div>
 
@@ -80,7 +80,7 @@ keywords:
 
    <div class="column">
    <a class="catalogimg" href="https://online.fliphtml5.com/njygn/lzyd/" target="_blank" >
-    <img src="/img/katalogi/ceramika.png" width="100%">
+    <img src="http://localhost:8888/img/katalogi/ceramika.png" width="100%">
    </a>
    </div>
 
@@ -105,7 +105,7 @@ keywords:
 
    <div class="column">
    <a class="catalogimg" href="https://online.fliphtml5.com/njygn/tbku/" target="_blank" >
-    <img src="/img/katalogi/elektronika.png" width="100%">
+    <img src="http://localhost:8888/img/katalogi/elektronika.png" width="100%">
    </a>
    </div>
 
@@ -130,7 +130,7 @@ keywords:
 
    <div class="column">
    <a class="catalogimg" href="https://online.fliphtml5.com/njygn/tbku/" target="_blank" >
-    <img src="/img/katalogi/tekstylia.jpg" width="100%">
+    <img src="http://localhost:8888/img/katalogi/tekstylia.png" width="100%">
    </a>
    </div>
 
@@ -155,7 +155,7 @@ keywords:
 
    <div class="column">
    <a class="catalogimg" href="https://online.fliphtml5.com/njygn/zxwy/" target="_blank" >
-    <img src="/img/katalogi/rollupy_scianki_katalog.png" width="100%">
+    <img src="http://localhost:8888/img/katalogi/rollupy_scianki_flagi.png" width="100%">
    </a>
    </div>
 
@@ -180,7 +180,7 @@ keywords:
 
    <div class="column">
    <a class="catalogimg" href="https://online.fliphtml5.com/njygn/oogv/" target="_blank" >
-    <img src="/img/katalogi/stoiska.png" width="100%">
+    <img src="http://localhost:8888/img/katalogi/systemy_wystawiennicze.png" width="100%">
    </a>
    </div>
 
@@ -205,7 +205,7 @@ keywords:
 
    <div class="column">
    <a class="catalogimg" href="https://online.fliphtml5.com/njygn/jyez/" target="_blank" >
-    <img src="/img/katalogi/zestawy-pismiennicze.png" width="100%">
+    <img src="http://localhost:8888/img/katalogi/zestawy-pismiennicze.png" width="100%">
    </a>
    </div>
 
@@ -230,7 +230,7 @@ keywords:
 
    <div class="column">
    <a class="catalogimg" href="https://online.fliphtml5.com/njygn/izga/" target="_blank" >
-    <img src="/img/katalogi/puchary.png" width="100%">
+    <img src="http://localhost:8888/img/katalogi/puchary_medale.png" width="100%">
    </a>
    </div>
 
