@@ -122,13 +122,13 @@ Przykładowe <b>systemy</b>
 
 <div style="margin-left:10%;margin-right:10%;margin-top:50px;min-height:200px;text-align:center;padding:50px;" class="columns">
 <div class="column" style="padding:0px">
-<img src="http://localhost:8888/img/stoiska/stoisko1.png" width="100%" />
+<img src="https://artopen.netlify.appimg/stoiska/stoisko1.png" width="100%" />
 </div>
 <div class="column" style="padding:0px">
-<img src="http://localhost:8888/img/stoiska/stoisko2.png" width="100%" />
+<img src="https://artopen.netlify.appimg/stoiska/stoisko2.png" width="100%" />
 </div>
 <div class="column" style="padding:0px">
-<img src="http://localhost:8888/img/stoiska/stoisko3.png" width="100%" />
+<img src="https://artopen.netlify.appimg/stoiska/stoisko3.png" width="100%" />
 </div>
 
 </div>
@@ -136,13 +136,13 @@ Przykładowe <b>systemy</b>
 
 <div style="margin-left:10%;margin-right:10%;margin-top:0px;min-height:200px;text-align:center;padding:50px;" class="columns">
 <div class="column" style="padding:0px">
-<img src="http://localhost:8888/img/stoiska/stoisko5.png" width="100%" />
+<img src="https://artopen.netlify.appimg/stoiska/stoisko5.png" width="100%" />
 </div>
 <div class="column" style="padding:0px">
-<img src="http://localhost:8888/img/stoiska/stoisko4.png" width="100%" />
+<img src="https://artopen.netlify.appimg/stoiska/stoisko4.png" width="100%" />
 </div>
 <div class="column" style="padding:0px">
-<img src="http://localhost:8888/img/stoiska/stoisko7.png" width="100%" />
+<img src="https://artopen.netlify.appimg/stoiska/stoisko7.png" width="100%" />
 </div>
 
 </div>
