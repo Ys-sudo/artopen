@@ -3,7 +3,7 @@ templateKey: gallery-page
 title: Esstilo
 slug: branding-esstilo
 date: 2020-12-05T13:51:41.657Z
-cover: /img/portfolio/esstilo/2esstilo.jpg
+cover: /img/portfolio/esstilo/esstilo.jpg
 tags:
   - Esstilo
   - branding

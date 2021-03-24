@@ -3,7 +3,7 @@ templateKey: gallery-page
 title: Posco
 slug: projektowanie-graficzne-posco
 date: 2020-12-05T13:51:41.657Z
-cover: /img/portfolio/posco/14posco.jpg
+cover: /img/portfolio/posco/posco.jpg
 tags:
   - Posco
   - branding

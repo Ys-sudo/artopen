@@ -3,7 +3,7 @@ templateKey: gallery-page
 title: Betafence
 slug: branding-betafence
 date: 2020-12-05T13:51:41.657Z
-cover: /img/portfolio/betafence/3betafence.jpg
+cover: /img/portfolio/betafence/betafence.jpg
 tags:
   - Betafence
   - branding

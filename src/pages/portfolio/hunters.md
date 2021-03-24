@@ -3,7 +3,7 @@ templateKey: gallery-page
 title: Hunters
 slug: projektowanie-graficzne-hunters
 date: 2020-12-05T13:51:41.657Z
-cover: /img/portfolio/hunters/3hunters.jpg
+cover: /img/portfolio/hunters/hunters.jpg
 tags:
   - Hunters
   - branding

@@ -3,7 +3,7 @@ templateKey: gallery-page
 title: Rawlplug
 slug: projektowanie-graficzne-rawlplug
 date: 2020-12-05T13:51:41.657Z
-cover: /img/portfolio/rawlplug/1rawlplug.jpg
+cover: /img/portfolio/rawlplug/rawlplug.jpg
 tags:
   - Rawlplug
   - branding

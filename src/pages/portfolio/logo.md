@@ -3,7 +3,7 @@ templateKey: gallery-page
 title: Logo
 slug: projektowanie-logo-portfolio
 date: 2020-12-05T13:51:41.657Z
-cover: /img/portfolio/logo/1logo.jpg
+cover: /img/portfolio/logo/logo.jpg
 tags:
   - projektowanie logo
   - projekty graficzne

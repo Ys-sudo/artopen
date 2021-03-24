@@ -3,7 +3,7 @@ templateKey: gallery-page
 title: KGHM
 slug: kalendarze-ksiazkowe-kghm
 date: 2020-12-05T13:51:41.657Z
-cover: /img/portfolio/kghm/3kghm.jpg
+cover: /img/portfolio/kghm/kghm.jpg
 tags:
   - KGHM
   - Kalendarze książkowe

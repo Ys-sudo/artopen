@@ -3,7 +3,7 @@ templateKey: gallery-page
 title: De Dietrich
 slug: projektowanie-graficzne-de-dietrich
 date: 2020-12-05T13:51:41.657Z
-cover: /img/portfolio/dedietrich/2dedietrich.jpg
+cover: /img/portfolio/dedietrich/dedietrich.jpg
 tags:
   - De Dietrich
   - branding
