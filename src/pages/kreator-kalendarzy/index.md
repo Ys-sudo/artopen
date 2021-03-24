@@ -12,6 +12,6 @@ keywords:
   - agencja interaktywna
   - ekologia
 ---
-## Lorem ipsum dolor sit amet, consectetuer
+## Kreator kalendarzy online - stwórz swój projekt!
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+Zapraszamy do skorzystania z naszej aplikacji aby  spersonalizować dla Państwa wyjątkowy kalendarz książkowy. Możecie w nim Państwo wybrać kolor oprawy, dodatki, gadżety i uszlachetnienia, które dzięki aplikacji można nałożyć na podgląd graficzny i przesunąć w odpowiednie miejsce. Po zakończeniu personalizacji możecie Państwo wyeksportować plik graficzny z wizualizacją Państwa indywidualnej konfiguracji. Zapraszamy również do skorzystania z formularza *złóż zamówienie* w którym mogą Państwo zamówić określoną ilość spersonalizowanych kalendarzy.

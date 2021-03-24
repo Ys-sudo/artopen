@@ -126,7 +126,7 @@ const AboutPageTemplate = (props) => {
         <div className='column'>
           <img className='oimg' src='https://artopen.netlify.app/img/jw.jpg' width='50%' />
           <p><strong> Jacek Wiśniewski </strong></p>
-          <small> Prezes Zarządu </small>
+          <small style={{fontSize:'10px'}}> President of the Board </small>
           <br />
           <a className='link-green' style={{fontSize:'12px'}} href='mailto:jwisniewski@artopen.pl' target="_blank" >
           <img width="12px"  style={{verticalAlign:'middle',marginLeft:'5px', marginRight:'15px'}}   alt="email" src='/img/envelope-alt.svg'/>
@@ -138,7 +138,7 @@ const AboutPageTemplate = (props) => {
         <div className='column'>
           <img className='oimg' src='https://artopen.pl/images/2020/04/14/b-w-2.jpg' width='50%' />
           <p><strong> Beata Wiśniewska </strong></p>
-          <small> Członek Zarządu </small>
+          <small style={{fontSize:'10px'}}> Member of the Board </small>
           <br />
           <a className='link-green' style={{fontSize:'12px'}} href='mailto:bwisniewska@artopen.pl' target="_blank" >
           <img width="12px"  style={{verticalAlign:'middle',marginLeft:'5px', marginRight:'15px'}}   alt="email" src='/img/envelope-alt.svg'/>
@@ -153,7 +153,7 @@ const AboutPageTemplate = (props) => {
         <div className='column'>
           <img className='oimg' src='https://artopen.pl/images/2020/04/17/a_t.jpg' width='50%' />
           <p><strong> Anna Turska </strong></p>
-          <small> Kierownik działu obsługi klienta </small>
+          <small style={{fontSize:'10px'}}> Customer Care Manager </small>
           <br />
           <a className='link-green' style={{fontSize:'12px'}} href='mailto:biuro@artopen.pl' target="_blank" >
           <img width="12px"  style={{verticalAlign:'middle',marginLeft:'5px', marginRight:'15px'}}   alt="email" src='/img/envelope-alt.svg'/>
@@ -165,7 +165,7 @@ const AboutPageTemplate = (props) => {
         <div className='column'>
           <img className='oimg' src='https://artopen.pl/images/2020/04/14/a-g.jpg' width='50%' />
           <p><strong> Aga Grabowska </strong></p>
-          <small> Sales Director / Key Account Manager</small>
+          <small style={{fontSize:'10px'}}> Sales Director / Key Account Manager</small>
           <br />
           <a className='link-green' style={{fontSize:'12px'}} href='mailto:agrabowska@artopen.pl' target="_blank" >
           <img width="12px"  style={{verticalAlign:'middle',marginLeft:'5px', marginRight:'15px'}}   alt="email" src='/img/envelope-alt.svg'/>
@@ -181,7 +181,7 @@ const AboutPageTemplate = (props) => {
         <div className='column'>
           <img className='oimg' src='https://artopen.pl/images/2020/08/13/patryk.jpg' width='50%' />
           <p><strong> Patryk Łagódka </strong></p>
-          <small> Kierownik Działu Graficznego </small>
+          <small style={{fontSize:'10px'}}> Graphics Department Manager </small>
           <br />
           <a className='link-green' style={{fontSize:'12px'}} href='mailto:plagodka@artopen.pl' target="_blank" >
           <img width="12px"  style={{verticalAlign:'middle',marginLeft:'5px', marginRight:'15px'}}   alt="email" src='/img/envelope-alt.svg'/>
@@ -193,7 +193,7 @@ const AboutPageTemplate = (props) => {
         <div className='column'>
           <img className='oimg' src='https://artopen.pl/images/2020/04/14/n-g.jpg' width='50%' />
           <p><strong> Natalia Grodź </strong></p>
-          <small> Projektant graficzny </small>
+          <small style={{fontSize:'10px'}}> Senior Graphic Designer </small>
           <br />
           <a className='link-green' style={{fontSize:'12px'}} href='mailto:grafik@artopen.pl' target="_blank" >
           <img width="12px"  style={{verticalAlign:'middle',marginLeft:'5px', marginRight:'15px'}}   alt="email" src='/img/envelope-alt.svg'/>
@@ -209,7 +209,7 @@ const AboutPageTemplate = (props) => {
         <div className='column'>
           <img className='oimg' src='https://artopen.pl/images/2020/08/13/darek.jpg' width='50%' />
           <p><strong> Dariusz Kawalec </strong></p>
-          <small> Projektant graficzny </small>
+          <small style={{fontSize:'10px'}}> Junior Graphic Designer </small>
           <br />
           <a className='link-green' style={{fontSize:'12px'}} href='mailto:kontakt@artopen.pl' target="_blank" >
           <img width="12px"  style={{verticalAlign:'middle',marginLeft:'5px', marginRight:'15px'}}   alt="email" src='/img/envelope-alt.svg'/>
@@ -221,7 +221,7 @@ const AboutPageTemplate = (props) => {
         <div className='column'>
           <img className='oimg' src='https://artopen.pl/images/2020/08/13/jerzy.jpg' width='50%' />
           <p><strong> Jerzy Lazaridis </strong></p>
-          <small>Full-stack Web Developer <br /> SEO expert </small>
+          <small style={{fontSize:'10px'}}>Full-Stack Web Developer & SEO Expert </small>
           <br />
           <a className='link-green' style={{fontSize:'12px'}} href='mailto:jerzy@artopen.pl' target="_blank" >
           <img width="12px"  style={{verticalAlign:'middle',marginLeft:'5px', marginRight:'15px'}}   alt="email" src='/img/envelope-alt.svg'/>
