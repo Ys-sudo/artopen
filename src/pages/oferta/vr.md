@@ -103,19 +103,18 @@ Interaktywne projekty VR dostępne z poziomu przeglądarki wykonane w technologi
 </div>
 </div>
 
-<div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
-<div class="column" style="margin-top:50px;margin-right:30px">
+<div class="" style="margin-left:10%;margin-right:10%;padding:5%">
+<div class="" style="margin-top:50px;text-align:left;padding-right:50px">
 <p style="font-size:30px"><b>Fotografie 360</b> i <b>wirtualne spacery</b></p>
 <br>
-<p>
-Fotografie sferyczne 360 stopni pomogą zaprezentować przestrzeń w niezapomniany sposób, wirtualne spacery świetnie sprawdzą się podczas prezentacji nieruchomości czy terenów, obiektów do zwiedzania. Wykonamy dla Państwa profesjonalne fotografie 360 oraz zaprogramujemy interfejs wirtualnego spaceru.</p>
+<p>Fotografie sferyczne 360 stopni pomogą zaprezentować przestrzeń w niezapomniany sposób, wirtualne spacery świetnie sprawdzą się podczas prezentacji nieruchomości czy terenów, obiektów do zwiedzania. Wykonamy dla Państwa profesjonalne fotografie 360 oraz zaprogramujemy interfejs wirtualnego spaceru.
+</p>
 </div>
-<div class="column" style="padding:0px">
-<iframe src="https://www.google.com/maps/embed?pb=!4v1616585046983!6m8!1m7!1s8yaiehKqAnwArpugApZlHA!2m2!1d51.14309658112636!2d16.96671906885165!3f91.85729361197608!4f-17.502147758530867!5f0.7820865974627469" width="100%" height="450" style="border:0; border-radius:10px" allowfullscreen="" loading="lazy"></iframe>
+<br>
+<div class="" style="padding:0px">
+<iframe class="" style="border-radius:20px" width="100%" height="512" defer src="https://gabby-honey-gear.glitch.me" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 </div>
-
-
 
 <div style="margin-left:10%;margin-right:10%;padding:5%">
 <b>Technologia VR, AR i webVR, fotografie 360 oraz wirtualne spacery</b>
