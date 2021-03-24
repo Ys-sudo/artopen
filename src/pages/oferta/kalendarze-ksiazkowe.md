@@ -361,10 +361,14 @@ Kieszeń wykonana z folii<br />
 <img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_uchwyt_959-300x300.jpg" width='100px' />
 <br />
 <b>Uchwyt na długopis</b>
-<p style="font-size:10px">uchwyt wykonany z ekoskóry </p>
+<p style="font-size:10px">uchwyt wykonany z ecoskóry </p>
 </div>
 
-<span class='column'>
+<span class='column main'>
+<img class='obrazek' src="https://artopen.netlify.app/img/dodatki/dodatki_rok_tloczony.jpg" width='100px' />
+<br />
+<b>Rok tłoczony</b>
+<p style="font-size:10px">aktualna data wytłoczona na okładce</p>
 </span>
 
 <span class='column'>
