@@ -124,7 +124,7 @@ const AboutPageTemplate = (props) => {
       <div className='columns' style={{marginTop:'70px',marginLeft:'15%',marginRight:'15%',marginBottom:'50px', textAlign:'center'}}>
 
         <div className='column'>
-          <img className='oimg' src='https://artopen.pl/images/2020/04/14/j-w.jpg' width='50%' />
+          <img className='oimg' src='https://artopen.netlify.app/img/jw.jpg' width='50%' />
           <p><strong> Jacek Wiśniewski </strong></p>
           <small> Prezes Zarządu </small>
           <br />
@@ -165,11 +165,11 @@ const AboutPageTemplate = (props) => {
         <div className='column'>
           <img className='oimg' src='https://artopen.pl/images/2020/04/14/a-g.jpg' width='50%' />
           <p><strong> Aga Grabowska </strong></p>
-          <small> Specjalista ds. Obsługi Klienta </small>
+          <small> Sales Director / Key Account Manager</small>
           <br />
-          <a className='link-green' style={{fontSize:'12px'}} href='mailto:bok@artopen.pl' target="_blank" >
+          <a className='link-green' style={{fontSize:'12px'}} href='mailto:agrabowska@artopen.pl' target="_blank" >
           <img width="12px"  style={{verticalAlign:'middle',marginLeft:'5px', marginRight:'15px'}}   alt="email" src='/img/envelope-alt.svg'/>
-          bok@artopen.pl
+          agrabowska@artopen.pl
           </a>
           <br />
 
@@ -221,7 +221,7 @@ const AboutPageTemplate = (props) => {
         <div className='column'>
           <img className='oimg' src='https://artopen.pl/images/2020/08/13/jerzy.jpg' width='50%' />
           <p><strong> Jerzy Lazaridis </strong></p>
-          <small> Web Developer </small>
+          <small>Full-stack Web Developer <br /> SEO expert </small>
           <br />
           <a className='link-green' style={{fontSize:'12px'}} href='mailto:jerzy@artopen.pl' target="_blank" >
           <img width="12px"  style={{verticalAlign:'middle',marginLeft:'5px', marginRight:'15px'}}   alt="email" src='/img/envelope-alt.svg'/>
