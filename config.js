@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Agencja reklamowa 🌱 Art Open Sp. z o.o.', // Site title.
+  siteTitle: 'Agencja reklamowa 🌱 Art Open', // Site title.
   siteTitleAlt: 'Agencja reklamowa 🌳 Art Open - covid-19, ekologia, branding, strony i sklepy internetowe e-commerce, aplikacje, projektowanie graficzne, kalendarze książkowe, gadżety reklamowe, wydruki, reklama zewnętrzna, fotografie, filmowanie, animacje i montaż, systemy wystawiennicze, opakowania, projekty VR i 3D.', // Alternative site title for SEO.
   siteLogo: '/icons/icon-512-512.png', // Logo used for SEO and manifest.
   siteUrl: 'https://artopen.netlify.app', // Domain of your website without pathPrefix.

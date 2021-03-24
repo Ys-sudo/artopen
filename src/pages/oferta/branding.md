@@ -19,7 +19,7 @@ tags:
   - logotypy
   - SIW
   - rebranding
-meta_title: Branding 🌱 identyfikacja wizualna | Agencja reklamowa | Art Open Sp. z o.o.
+meta_title: Branding 🌱 identyfikacja wizualna | agencja reklamowa | Art Open. z o.o.
 meta_description: >-
  Branding, identyfikacja wizualna 🌳 Agencja reklamowa Art Open | Branding to działania służące kreowaniu wizerunku firmy bądź marki. Składają się na niego symbole graficzne i ich ściśle określone zastosowanie a także zasady postępowania w firmie, których zadaniem jest wygenerowanie spójnej i czytelnej identyfikacji rynkowej.
 keywords:
@@ -156,7 +156,7 @@ Odpowiedni slogan reklamowy zapada w pamięć odbiorcy na długi czas. Opracujem
 <br>
 <p>
 Kiedy wypływasz na szerokie wody biznesu, zewsząd otrzymujesz propozycje współpracy oraz nowe zamówienia. Podpisujesz kontrakty i umowy na dedykowanym tylko dla Twojej organizacji papierze firmowym.
-Lśni na nim wspaniałe logo, które trafnie opisuje charakter działalności Twojej firmy i budzi uznanie  w oczach partnerów biznesowych, konkurencji i klientów.
+Lśni na nim wspaniałe logo, które trafnie opisuje charakter działalności Twojej firmy i budzi uznanie w oczach partnerów biznesowych, konkurencji i klientów.
 Wizytówki, które z dumą wręczasz, są ozdobą każdego wizytownika. Rozdając foldery na targach, widzisz, jak klienci przeglądają je z zaciekawieniem i uznaniem. Starannie dopracowana szata graficzna, zgodna z założeniami systemu identyfikacji wizualnej, dba o spójność i czytelność zawartych w akcydensach informacji.
 Dzięki systemowi identyfikacji wizualnej masz zapewnioną integralność swojego wizerunku na zewnątrz i wyróżniasz się na tle wielu innych firm na rynku.
 </p>

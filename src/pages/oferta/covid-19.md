@@ -18,7 +18,7 @@ tags:
   - maski wielokrotnego użytku
   - żele do dezynfekcji
 
-meta_title: Covid-19 🏥 maseczki z logo, artykuły antybakteryjne, dezynfekcja | Agencja reklamowa | Art Open Sp. z o.o.
+meta_title: Covid-19 🏥 maski z logo, artykuły antybakteryjne, dezynfekcja - Art Open
 meta_description: >-
  COVID-19 | Agencja reklamowa | Art Open 🌳 Artykuły do dezynfekcji, produkty antybakteryjne, spersonalizowane maski z logo, przyłbice, maski chirurgiczne, artykuły do ochrony zdrowia. Zabezpiecz firmę przed COVID-19, zminimalizuj ryzyko zachorowania z naszą pomocą. Środki ochrony osobistej niezbędne w ograniczeniu transmisji wirusa. Sprawdź!
 keywords:

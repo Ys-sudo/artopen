@@ -18,7 +18,7 @@ tags:
   - fotografie z eventów
   - zdjęcia do e-sklepu
   - zdjęcia e-commerce
-meta_title: Fotografia - sesje zdjęciowe, obróbka zdjęć 🌱  Agencja reklamowa | Art Open Sp. z o.o.
+meta_title: Fotografia, sesje zdjęciowe, obróbka zdjęć 🌱agencja reklamowa Art Open
 meta_description: >-
   Fotografia - zdjęcia produktowe, sesje zdjęciowe, obróbka zdjęć 🌳 Agencja reklamowa Art Open | Zapraszamy do skorzystania z proponowanych przez nas usług z dziedziny fotografii, zorganizujemy sesję zdjęciową według wymagań Klienta, zadbamy o odpowiednie oświetlenie oraz parametry zdjęć. Nie zwlekaj poznaj pełną ofertę!
 keywords:
