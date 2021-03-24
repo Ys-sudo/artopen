@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: */admin/
-Disallow: */tags/
+Disallow: */tagi/
 
 sitemap: https://artopen.netlify.app/sitemap.xml
