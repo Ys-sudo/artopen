@@ -1,7 +1,7 @@
 ---
 templateKey: gallery-page
 title: Carefleet
-slug: strony-internetowe-zwiazek-pracodawcow
+slug: branding-carefleet
 date: 2020-12-05T13:51:41.657Z
 cover: /img/portfolio/carefleet/1Carefleet.jpg
 tags:
@@ -26,13 +26,13 @@ keywords:
 meta_title: Carefleet 🌱 Portfolio | Art Open | Agencja reklamowa
 meta_description: >-
  Agencja reklamowa 🌳 Art Open - covid-19, ekologia, branding, strony i sklepy internetowe e-commerce, aplikacje, projektowanie graficzne, kalendarze książkowe, gadżety reklamowe, wydruki, reklama zewnętrzna, fotografie, filmowanie, animacje i montaż, systemy wystawiennicze, opakowania, projekty VR i 3D. Zapraszamy do zapoznania się ze szczegółami naszej działalności!
-category: strony internetowe
+category: branding
 ---
 <div style="text-align:center;margin-bottom:30px">
 <p class="title">CAREFLEET</p>
 <p class="subtitle">Realizacja serii spójnych projektów dla firmy z branży Car Fleet Management.</p>
 </div>
-<img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/1Carefleet.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/7Carefleet.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%;">
 <h3 class="title">&bull; Outdoor</h3>
 <h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Wykonanie projektu graficznego na nośniki Citylight. Nowoczesna i estetyczna forma tego nośnika gwarantuje najwyższej jakości przekaz na temat reklamowanej firmy lub produktu. Rozwiązanie dzięki któremu reklama dociera do dużej liczby osób.</h4>
@@ -48,17 +48,16 @@ category: strony internetowe
 <h3 class="title">&bull; Billboard</h3>
 <h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Kolejny projekt graficzny billboardu przedstawiający ofertę firmy. Możliwość wyklejenia tablic billboardowych na terenie całego kraju.</h4>
 </div>
-<img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/4Carefleet.jpg" width="50%" style="margin-bottom:-7px" /><img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/5Carefleet.jpg" width="50%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/4Carefleet.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%;text-align:right">
 <h3 class="title">Tablice &bull;</h3>
 <h4 class="subtitle" style="border-right:10px solid #23C495;padding-right:10px">Realizacja tablic z białego dibondu osadzonych na dystansach chromowanych. Tablica wyklejona trwałą folią polimerową. Przygotowanie projektu graficznego oraz składu do druku.</h4>
 </div>
-<img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/6Carefleet.jpg" width="100%" style="margin-bottom:-7px" />
+<img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/5Carefleet.jpg" width="100%" style="margin-bottom:-7px" />
 <div style="padding: 10%">
 <h3 class="title">&bull; Projekt makiety</h3>
 <h4 class="subtitle" style="border-left:10px solid #23C495;padding-left:10px">Wykonanie graficzne nowoczesnego designu makiety, portalu sprzedażowego aut poleasingowych. Zakres prac dotyczył zaprojektowanie makiety strony głównej, podstrony kategorii oraz kartę produktową.</h4>
 </div>
-<img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/7Carefleet.jpg" width="100%" style="margin-bottom:-7px" />
 
 <img alt="" src="https://artopen.netlify.app/img/portfolio/Carefleet/8Carefleet.jpg" width="100%" style="margin-bottom:-7px" />
 

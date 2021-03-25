@@ -58,7 +58,7 @@ const GalleryTemplate = (props) => {
         />
 
       </div>
-      <div id="content" style={{paddingTop:'100px',paddingBottom:'50px'}}>
+      <div id="content" style={{paddingTop:'0px',paddingBottom:'50px'}}>
 
         <br />
         <br />
