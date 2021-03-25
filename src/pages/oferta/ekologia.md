@@ -71,7 +71,7 @@ keywords:
 
 
   <br>
-  <div class="column cimg" style="text-align: center;padding-top:250px; horizontal-align: center">
+  <div class="column cimg" style="text-align: center;padding-top:10%; horizontal-align: center">
     <img alt="produky ekologiczne" src="/img/eco-icons/ecology.svg" width="30%" />
     <br><br>
     <p><b>Chroń</b> <br> naszą planetę! </p>
@@ -155,7 +155,7 @@ keywords:
 
 
 <div class="columns" style="margin-left:2%">
-<p style="font-size: 40px">Zrezygnuj ze szkodliwych tworzyw<br>  zamieniając je na<b> te bliskie naturze</b>. </p>
+<p style="font-size: 40px;padding:10px">Zrezygnuj ze szkodliwych tworzyw<br>  zamieniając je na<b> te bliskie naturze</b>. </p>
 </div>
 
 
@@ -285,7 +285,7 @@ Wszystkie proponowanie przez nas gadżety są przyjazne dla środowiska, a takż
 
 <div class="column" style="justify-content: center; align-items: center; display:flex">
 <div style="display:block">
- <p style="font-size:30px">Notesy w ekologicznych, papierowych oprawach<br>posiadające <b>certyfikat FSC</b>. </p>
+ <p style="font-size:30px;margin-left:20px">Notesy w ekologicznych, papierowych oprawach<br>posiadające <b>certyfikat FSC</b>. </p>
  <br>
  <p style="margin-left:14px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wnętrze notesu może być także ekologiczne –
 wydrukowane na papierze z kamienia lub z trawy.</p>
@@ -322,7 +322,7 @@ wydrukowane na papierze z kamienia lub z trawy.</p>
 
 <div class="column" style="justify-content: center; align-items: center;display:flex">
  <div style="display:block">
-  <p style="font-size: 30px">Wodoodporny i wytrzymały<br><b>papier z kamienia</b>. </p>
+  <p style="font-size: 30px;margin-left:20px">Wodoodporny i wytrzymały<br><b>papier z kamienia</b>. </p>
   <br>
   <p style="margin-left:14px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Znakowany ploterem notes z kamienia Stonebook</p>
   <br>
@@ -339,7 +339,7 @@ wydrukowane na papierze z kamienia lub z trawy.</p>
 </div>
 
 <div class="column">
-<p style="text-align:left; font-size:40px; margin-bottom:50px"> Czy wiesz<br> <b>że...</b> </p>
+<p style="text-align:left; font-size:40px; margin-bottom:50px;margin-left:5%"> Czy wiesz<br> <b>że...</b> </p>
 <br>
 
   <div class="columns" style="padding-right:10%;padding-left:10%;text-align: left"">

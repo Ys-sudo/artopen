@@ -113,9 +113,9 @@ keywords:
 <div class="column cimg" style="text-align: left; margin-right: 5%; padding-top: 150px;">
 <div class="columns">
 <div class="column">
-<p>W tych wyjątkowo niebezpiecznych czasach nie ma miejsca na eksperymenty i półśrodki. Zadbaj o zdrowie swoje i swoich pracowników i nie przerywaj prowadzenia działalności.</p>
+<p style="margin-left:5%">W tych wyjątkowo niebezpiecznych czasach nie ma miejsca na eksperymenty i półśrodki. Zadbaj o zdrowie swoje i swoich pracowników i nie przerywaj prowadzenia działalności.</p>
 </div>
-<div class="column">
+<div class="column" style="text-align:center">
 <img src="/img/covid-icons/important.svg" width="100px" />
 </div>
 </div>
@@ -141,8 +141,8 @@ keywords:
 
 <div class="columns" style="margin-top:70px;margin-left:5%;display:flex">
 
-  <div class="column" style="width:60%;">
-  <p style="border-left: 5px solid #00d1b2; padding:0px 0px 0px 10px;width:50%">
+  <div class="column" style="min-width:60%; text-align:left">
+  <p style="border-left: 5px solid #00d1b2; padding:0px 0px 0px 10px;min-width:50%">
   Dbając o bezpieczeństwo naszych Klientów, przygotowaliśmy ofertę środków ochrony, zapewniających komfort życia codziennego w dobie pandemii koronawirusa, a także pracy w miejscach publicznych - szczególnie narażonych na potencjalny kontakt z wirusem.
   </p>
   <br><br>
@@ -192,12 +192,12 @@ style="text-align: right; margin-right: 5%; padding-top: 150px;">
 </div>
 <br>
 <div style="text-align:left">
-<p style="margin-left:80px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wyprodukowana z hipoalergicznej i niepylącej włókniny.</p>
+<p style="margin-left:100px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wyprodukowana z hipoalergicznej i niepylącej włókniny.</p>
 <br>
-<p style="margin-left:40px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Jednorazowego użytku z gumką, ściśle przylegająca
+<p style="margin-left:60px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Jednorazowego użytku z gumką, ściśle przylegająca
 do twarzy.</p>
 <br>
-<p style="margin-left:0px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wysoka przepuszczalność powietrza, nie ogranicza
+<p style="margin-left:20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wysoka przepuszczalność powietrza, nie ogranicza
 swobodnego oddychania.</p>
 <br>
 </div>
@@ -207,7 +207,7 @@ swobodnego oddychania.</p>
 
 <div class="columns" style="margin-left:5%;display:flex;">
 
-  <div class="column" id="produkty-antybakteryjne" style="width:60%;">
+  <div class="column" id="produkty-antybakteryjne" style="min-width:60%;">
   <div style="text-align:left;padding-top:150px">
   <p style="font-size:30px;">Produkty<br><b>antybakteryjne</b>. </p>
   <br><br>
@@ -216,7 +216,7 @@ swobodnego oddychania.</p>
   </div>
   </div>
   <br><br>
-  <p style="border-left: 5px solid #00d1b2; padding:0px 0px 0px 10px;width:50%">
+  <p style="border-left: 5px solid #00d1b2; padding:0px 0px 0px 10px;min-width:50%">
   Środki antybakteryjne do dezynfekcji dłoni skutecznie niszczą bakterie i wirusy, które znajdują się na skórze rąk. Warto je stosować w sytuacji, kiedy nie ma możliwości umycia rąk ciepłą wodą z mydłem. Stosując płyny o działaniu antybakteryjnym chronisz siebie i otoczenie przed rozprzestrzenianiem się wirusów i bakterii.
   </p>
   </div>
@@ -252,7 +252,7 @@ swobodnego oddychania.</p>
 <img src="https://artopen.netlify.app/img/covid-img/c6.png" width="100%"/>
 </div>
 <div class="column">
-<p style="text-align:left; font-size:40px; margin-bottom:50px"> Czy wiesz<br> <b>że...</b> </p>
+<p style="text-align:left; font-size:40px;margin-left:5%; margin-bottom:50px"> Czy wiesz<br> <b>że...</b> </p>
 <br>
 <div class="column" style="text-align:center;">
 <img src="/img/covid-icons/training.svg" width="100px" />
@@ -261,13 +261,13 @@ swobodnego oddychania.</p>
 <p style="font-size:25px; text-align:center;">W ramach programu “zdalna szkoła”
 dla gmin i powiatów, posiadamy w ofercie sprzęt dla uczniów i nauczycieli?</p>
 <br><br>
-<p style="margin-left:100px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Laptopy i tablety z wbudowaną kamerą i mikrofonem.</p>
+<p style="margin-left:120px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Laptopy i tablety z wbudowaną kamerą i mikrofonem.</p>
 <br>
-<p style="margin-left:60px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> System Windows 10.</p>
+<p style="margin-left:80px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> System Windows 10.</p>
 <br>
-<p style="margin-left:20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Program edukacyjny Office.</p>
+<p style="margin-left:40px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Program edukacyjny Office.</p>
 <br>
-<p style="margin-left:-20px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wytrzymała i trwała obudowa.</p>
+<p style="margin-left: 0px"><img src="/img/covid-icons/tick.svg" width="20px" style="margin-right:20px" /> Wytrzymała i trwała obudowa.</p>
 <br>
 <br>
 <br>
