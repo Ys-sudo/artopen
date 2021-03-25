@@ -30,11 +30,11 @@ const AboutPageTemplate = (props) => {
       <div className='hero-body'>
         <div className='container'>
           <div className='columns' style={{textAlign:'center'}}>
-            <div className='column' style={{marginLeft:'50px',marginRight:'100px'}}>
-            <h3 style={{textAlign:'left'}}><strong style={{color:'white', fontSize:'20px'}}>Studio reklamy Art Open</strong></h3>
+            <div className='column' style={{marginLeft:'5%',marginRight:'10%'}}>
+            <h3 style={{textAlign:'left'}}><strong style={{color:'white', fontSize:'20px'}}>Agencja reklamowa Art Open</strong></h3>
             <br />
             <p style={{textAlign:'left'}}>Nasz zespół tworzą ludzie pełni pasji, kreatywności i zaangażowania w każdy powierzony projekt. Od blisko dekady, wspólnie z Wami, naszymi Klientami, realizujemy różnorodne przedsięwzięcia z zakresu identyfikacji wizualnej, promocji oraz projektowania graficznego, w tym stron internetowych i realizacji filmów.</p>
-              <div className='columns' style={{marginLeft:'20px',marginTop:'50px'}}>
+              <div className='columns' style={{marginLeft:'2%',marginTop:'50px'}}>
               <div>
               <a className='button-white' href="#zespol">
               <img width="12px"  style={{verticalAlign:'middle', marginRight:'15px'}}   alt="nasz zespół" src='/img/team.svg'/>
@@ -53,7 +53,7 @@ const AboutPageTemplate = (props) => {
 
             </div>
 
-            <div className='column' style={{marginLeft:'50px',marginRight:'50px'}}>
+            <div className='column' style={{marginLeft:'5%',marginRight:'5%'}}>
             <br />
             <br />
             <p style={{textAlign:'left'}}>Każdy Wasz nowy projekt wzbogaca nas o nowe doświadczenia, które pozwalają nam sprostać kolejnym wyzwaniom. Jesteśmy wdzięczni naszym Klientom za obdarzenie nas zaufaniem i włączenie do grona swoich współpracowników. Daje nam to poczucie satysfakcji z dążenia do wspólnych celów. </p>

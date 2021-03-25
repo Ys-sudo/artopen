@@ -107,7 +107,7 @@ Interaktywne projekty VR dostępne z poziomu przeglądarki wykonane w technologi
 <div class="" style="margin-top:50px;text-align:left;padding-right:50px">
 <p style="font-size:30px"><b>Fotografie 360</b> i <b>wirtualne spacery</b></p>
 <br>
-<p>Fotografie sferyczne 360 stopni pomogą zaprezentować przestrzeń w niezapomniany sposób, wirtualne spacery świetnie sprawdzą się podczas prezentacji nieruchomości czy terenów, obiektów do zwiedzania. Wykonamy dla Państwa profesjonalne fotografie 360 oraz zaprogramujemy interfejs wirtualnego spaceru.
+<p>Fotografie sferyczne 360 stopni pomogą zaprezentować przestrzeń w niezapomniany sposób, wirtualne spacery świetnie sprawdzą się podczas prezentacji nieruchomości czy terenów, obiektów do zwiedzania. Wykonamy dla Państwa profesjonalne fotografie 360 oraz zaprogramujemy interfejs wirtualnego spaceru. Poniżej mała próbka - najedź kołem kursora na kwadrat i kliknij aby zmienić środowisko.
 </p>
 </div>
 <br>

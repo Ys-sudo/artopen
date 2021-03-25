@@ -273,8 +273,8 @@ const HomePageTemplate = (props) => {
           <br />
             <div className='columns'>
 
-              <div className='column' style={{marginLeft:'50px',marginRight:'50px'}}>
-                <h3 className='title'> Agencja reklamowa Art Open,<br /> multimedialne studio projektowania </h3>
+              <div className='column' style={{marginLeft:'5%',marginRight:'5%'}}>
+                <h3 className='title'> Agencja reklamowa<br /> Art Open</h3>
                 <br />
                 <h4>Nasz zespół tworzą ludzie pełni pasji, kreatywności i zaangażowania w każdy powierzony projekt. Od blisko dekady, wspólnie z Wami, naszymi Klientami, realizujemy różnorodne przedsięwzięcia z zakresu identyfikacji wizualnej, promocji oraz projektowania graficznego, w tym stron internetowych i realizacji filmów.</h4>
                 <br />

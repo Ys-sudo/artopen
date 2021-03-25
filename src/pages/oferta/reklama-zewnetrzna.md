@@ -76,7 +76,7 @@ Są doskonałym przykładem zewnętrznej promocji i informacji. Zbudowane z wytr
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;padding-right:50px">
-<p style="font-size:30px">Reklama <b>wielkopowierzchniowa</b></p>
+<p style="font-size:30px">Reklama <b>zewnętrzna</b></p>
 <br>
 <p>
 Bilbordy czy wielkopowierzchniowe druki reklamowe to doskonałe uzupełnienie kampanii reklamowej. Zainstalowane czasowo na powierzchni budynków, są niezwykle czytelnym i obejmującym olbrzymią liczbę odbiorców - medium. Wykonujemy i montujemy siatki mesh, litery przestrzenne z dibondu oraz tablice, a także wyklejamy folią w zadruku pełnokolorowym.</p>

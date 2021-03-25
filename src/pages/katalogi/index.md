@@ -14,7 +14,7 @@ keywords:
 ---
 
 
-<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+<div class="columns" style="border:1px solid lightgray;padding:50px 20px;border-radius:25px;width:100%">
 
 
    <div class="column">
@@ -23,7 +23,7 @@ keywords:
      </p>
      <br>
      <br>
-     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/xbbq/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <a class="button-green" target="_blank"  style="padding-right:20px" href="https://online.fliphtml5.com/njygn/xbbq/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
      <br>
      <br>
    </div>
@@ -39,7 +39,7 @@ keywords:
 
 <br></br>
 
-<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+<div class="columns" style="border:1px solid lightgray;padding:50px 20px;border-radius:25px;width:100%">
 
 
    <div class="column">
@@ -48,7 +48,7 @@ keywords:
      </p>
      <br>
      <br>
-     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/yxew/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <a class="button-green" target="_blank"  style="padding-right:20px" href="https://online.fliphtml5.com/njygn/yxew/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
      <br>
      <br>
    </div>
@@ -64,7 +64,7 @@ keywords:
 
 <br></br>
 
-<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+<div class="columns" style="border:1px solid lightgray;padding:50px 20px;border-radius:25px;width:100%">
 
 
    <div class="column">
@@ -73,7 +73,7 @@ keywords:
      </p>
      <br>
      <br>
-     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/lzyd/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <a class="button-green" target="_blank"  style="padding-right:20px" href="https://online.fliphtml5.com/njygn/lzyd/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
      <br>
      <br>
    </div>
@@ -89,7 +89,7 @@ keywords:
 
 <br></br>
 
-<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+<div class="columns" style="border:1px solid lightgray;padding:50px 20px;border-radius:25px;width:100%">
 
 
    <div class="column">
@@ -98,7 +98,7 @@ keywords:
      </p>
      <br>
      <br>
-     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/tbku/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <a class="button-green" target="_blank"  style="padding-right:20px" href="https://online.fliphtml5.com/njygn/tbku/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
      <br>
      <br>
    </div>
@@ -114,7 +114,7 @@ keywords:
 
 <br></br>
 
-<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+<div class="columns" style="border:1px solid lightgray;padding:50px 20px;border-radius:25px;width:100%">
 
 
    <div class="column">
@@ -123,7 +123,7 @@ keywords:
      </p>
      <br>
      <br>
-     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/ptud/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <a class="button-green" target="_blank"  style="padding-right:20px" href="https://online.fliphtml5.com/njygn/ptud/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
      <br>
      <br>
    </div>
@@ -139,7 +139,7 @@ keywords:
 
 <br></br>
 
-<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+<div class="columns" style="border:1px solid lightgray;padding:50px 20px;border-radius:25px;width:100%">
 
 
    <div class="column">
@@ -148,7 +148,7 @@ keywords:
      </p>
      <br>
      <br>
-     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/zxwy/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <a class="button-green" target="_blank"  style="padding-right:20px" href="https://online.fliphtml5.com/njygn/zxwy/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
      <br>
      <br>
    </div>
@@ -164,7 +164,7 @@ keywords:
 
 <br></br>
 
-<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+<div class="columns" style="border:1px solid lightgray;padding:50px 20px;border-radius:25px;width:100%">
 
 
    <div class="column">
@@ -173,7 +173,7 @@ keywords:
      </p>
      <br>
      <br>
-     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/oogv/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <a class="button-green" target="_blank"  style="padding-right:20px" href="https://online.fliphtml5.com/njygn/oogv/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
      <br>
      <br>
    </div>
@@ -189,7 +189,7 @@ keywords:
 
 <br></br>
 
-<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+<div class="columns" style="border:1px solid lightgray;padding:50px 20px;border-radius:25px;width:100%">
 
 
    <div class="column">
@@ -198,7 +198,7 @@ keywords:
      </p>
      <br>
      <br>
-     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/jyez/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <a class="button-green" target="_blank"  style="padding-right:20px" href="https://online.fliphtml5.com/njygn/jyez/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
      <br>
      <br>
    </div>
@@ -214,7 +214,7 @@ keywords:
 
 <br></br>
 
-<div class="columns" style="border:1px solid lightgray;padding:50px 70px 50px 70px;border-radius:25px;width:100%">
+<div class="columns" style="border:1px solid lightgray;padding:50px 20px;border-radius:25px;width:100%">
 
 
    <div class="column">
@@ -223,7 +223,7 @@ keywords:
      </p>
      <br>
      <br>
-     <a class="button-green" target="_blank"  style="font-size:15px;padding-right:20px" href="https://online.fliphtml5.com/njygn/izga/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
+     <a class="button-green" target="_blank"  style="padding-right:20px" href="https://online.fliphtml5.com/njygn/izga/"><img width="20px"  style="vertical-align:middle;margin-left:5px;margin-right:10px;"   alt="katalogi" src='/img/eye.svg'/>Zobacz katalog</a>
      <br>
      <br>
    </div>
