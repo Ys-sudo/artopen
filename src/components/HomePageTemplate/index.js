@@ -25,7 +25,7 @@ const HomePageTemplate = (props) => {
         <link rel="preload" as="image" href="img/sun.svg" />
         <link rel="preload" as="image" href="img/moon.svg" />
       </Helmet>
-      <section className='hero is-bold is-medium' style={{height:'75%',backgroundImage:'url(/img/home.svg)',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'top',backgroundAttachment: `fixed`}}>
+      <section className='hero is-bold is-medium' style={{height:'70%',backgroundImage:'url(/img/home.svg)',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'top',backgroundAttachment: `fixed`}}>
         <div className='hero-body'>
           <div className='container'>
             <div className='columns'>
@@ -44,19 +44,29 @@ const HomePageTemplate = (props) => {
                   <Link className='button-green' to='/ekologia/'> ekologia &nbsp;&nbsp;
                   <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="eco" src='/img/leaf.svg'/>
                    </Link>&nbsp;&nbsp;
+                   <Link className='button-green' to='/gadzety/'> gadżety &nbsp;&nbsp;
+                   <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="gadzety" src='/img/lightbulb.svg'/>
+                    </Link>&nbsp;&nbsp;
+                    <br /><br />
                    <Link className='button-green' to='/strony-internetowe/'> strony internetowe &nbsp;&nbsp;
                    <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="strony internetowe" src='/img/code.svg'/>
-                    </Link>
+                    </Link>&nbsp;&nbsp;
+                    <Link className='button-green' to='/vr/'> VR &nbsp;&nbsp;
+                    <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="VR" src='/img/vr-cardboard.svg'/>
+                     </Link>&nbsp;&nbsp;
+                     <Link className='button-green' to='/branding/'> branding &nbsp;&nbsp;
+                     <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="branding" src='/img/pencil-ruler.svg'/>
+                      </Link>
+
                     <br /><br />
                     <Link className='button-green' to='/kalendarze-ksiazkowe/'> kalendarze książkowe &nbsp;&nbsp;
                     <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="strony internetowe" src='/img/book.svg'/>
                      </Link>&nbsp;&nbsp;
-                     <Link className='button-green' to='/branding/'> branding &nbsp;&nbsp;
-                     <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="branding" src='/img/pencil-ruler.svg'/>
+                     <Link className='button-green' to='/kalendarze-firmowe/'> kalendarze firmowe &nbsp;&nbsp;
+                     <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="kalendarze firmowe" src='/img/calendar-alt.svg'/>
                       </Link>&nbsp;&nbsp;
-                      <Link className='button-green' to='/vr/'> VR &nbsp;&nbsp;
-                      <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="VR" src='/img/vr-cardboard.svg'/>
-                       </Link>
+
+
                 </div>
               </div>
             </div>
@@ -66,7 +76,7 @@ const HomePageTemplate = (props) => {
 
 
       <section className='hero is-primary is-bold'>
-        <div className='hero-body' style={{backgroundColor:'#404040'}}>
+        <div className='hero-body' style={{backgroundColor:'#404040',marginTop:'-5%'}}>
           <div className='container' style={{marginLeft:'auto',marginRight:'auto'}}>
             <div className='columns' style={{textAlign:'center'}}>
               <div className='column ofert'>

@@ -74,7 +74,6 @@ keywords:
 Projektowanie logo jest dla nas procesem pełnym twórczej ekspresji. Forma graficzna logo musi być unikalna i charakterystyczna ponieważ jest znakiem działającym w przestrzeni zewnętrznej, identyfikującym firmę, przedsiębiorstwo lub markę. Minimalizm i czystość formy to najbardziej pożądane cechy logotypu.
 </p>
 </div>
-
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
@@ -100,8 +99,8 @@ Projektowanie logo jest dla nas procesem pełnym twórczej ekspresji. Forma graf
 <p>
 To system pozwalający zachować spójną wizualną koncepcję, chroniącą logo firmy, przestrzegającą zasad jego prezentacji oraz wskazującą użycie właściwej kolorystyki i elementów w różnorodnych projektach graficznych czy multimedialnych.</p>
 </div>
-
 </div>
+
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
 <div class="column" style="margin-top:50px;text-align:right;padding-right:30px">
 <p style="font-size:30px">Kalendarze <b>firmowe</b></p>
@@ -125,7 +124,6 @@ Jest to nasza propozycja kalendarzy, w których wnętrze jest w całości indywi
 <p>
 Projekty graficzne przybierają rzeczywistą formę w chwili ich wydruku. Dlatego jego jakość jest niezwykle ważna. Weryfikujemy i oceniamy każdy wydrukowany projekt. Mamy wówczas pewność, że do naszych Klientów trafią wydruki zgodne z projektem.</p>
 </div>
-
 </div>
 
 <div class="columns" style="margin-left:10%;margin-right:10%;padding:5%">
@@ -151,7 +149,6 @@ Grafika wektorowa zapisana jest za pomocą współrzędnych dzięki czemu zachow
 <p>
 Zaprojektujemy dla Państwa czytelne i chwytające za oko reklamy wielkoformatowe, dobierzemy odpowiednie nośniki i lokalizacje, nasze projekty cechują się przejrzystością, starannie dobraną kolorystyką oraz dopracowaniem co do najmniejszego szczegółu.</p>
 </div>
-
 </div>
 
 <div style="margin-left:10%;margin-right:10%;padding:5%">
