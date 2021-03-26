@@ -25,7 +25,7 @@ const HomePageTemplate = (props) => {
         <link rel="preload" as="image" href="img/sun.svg" />
         <link rel="preload" as="image" href="img/moon.svg" />
       </Helmet>
-      <section className='hero is-bold is-medium'>
+      <section className='hero is-bold is-medium' style={{height:'75%',backgroundImage:'url(/img/home.svg)',backgroundSize:'cover',backgroundRepeat:'no-repeat',backgroundPosition:'top',backgroundAttachment: `fixed`}}>
         <div className='hero-body'>
           <div className='container'>
             <div className='columns'>
@@ -38,6 +38,25 @@ const HomePageTemplate = (props) => {
                   <h2 className='subtitle'>
                     {heading}
                   </h2>
+                  <Link className='button-green' to='/covid-19/'> covid 19 &nbsp;&nbsp;
+                  <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="covid-19" src='/img/viruses.svg'/>
+                   </Link>&nbsp;&nbsp;
+                  <Link className='button-green' to='/ekologia/'> ekologia &nbsp;&nbsp;
+                  <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="eco" src='/img/leaf.svg'/>
+                   </Link>&nbsp;&nbsp;
+                   <Link className='button-green' to='/strony-internetowe/'> strony internetowe &nbsp;&nbsp;
+                   <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="strony internetowe" src='/img/code.svg'/>
+                    </Link>
+                    <br /><br />
+                    <Link className='button-green' to='/kalendarze-ksiazkowe/'> kalendarze książkowe &nbsp;&nbsp;
+                    <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="strony internetowe" src='/img/book.svg'/>
+                     </Link>&nbsp;&nbsp;
+                     <Link className='button-green' to='/branding/'> branding &nbsp;&nbsp;
+                     <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="branding" src='/img/pencil-ruler.svg'/>
+                      </Link>&nbsp;&nbsp;
+                      <Link className='button-green' to='/vr/'> VR &nbsp;&nbsp;
+                      <img width="10px"  style={{verticalAlign:'middle', marginRight:'5px'}}   alt="VR" src='/img/vr-cardboard.svg'/>
+                       </Link>
                 </div>
               </div>
             </div>
@@ -97,7 +116,7 @@ const HomePageTemplate = (props) => {
 
       <div style={{marginLeft:'auto',marginRight:'auto',textAlign:'center'}}>
       <br /><br />
-      <img src='/img/katalogi.svg' style={{minWidth:'50%'}} alt='oferta' />
+      <img src='/img/oferta.svg' style={{width:'70%'}} alt='oferta' />
       <h4 className='title'> Poznaj naszą ofertę: </h4>
       <h5 className='subtitle'> Zobacz co możemy dla Ciebie zrobić. </h5>
       <br />
@@ -133,7 +152,7 @@ const HomePageTemplate = (props) => {
       <div style={{textAlign:'right',marginTop:'0px',marginLeft:'50px'}}>
 
       {/* TODO: Grafika 2*/}
-      <img alt="agencja reklamowa ArtOpen Wrocław" src='/img/blog.svg' width='70%' alt='blog' />
+      <img alt="agencja reklamowa ArtOpen Wrocław" src='/img/blog.svg' width='90%' alt='blog' />
 
       </div>
 

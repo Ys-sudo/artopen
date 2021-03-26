@@ -12,7 +12,7 @@ class Footer extends React.Component {
 
       <div className='container'>
         <div style={{textAlign:'center'}}>
-          <Link to="/"><img width="200px" src='/img/ArtOpen-white.svg' alt="ArtOpen studio reklamy" /></Link>
+          <Link to="/"><img width="200px" src='/img/ArtOpen-white.svg' id="logo-footer" alt=" Agencja reklamowa Art Open" /></Link>
           <br></br>
         </div>
       <br></br>

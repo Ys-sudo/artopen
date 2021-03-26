@@ -68,7 +68,7 @@ class NewsletterForm extends React.Component {
       data-netlify="true"
       data-netlify-honeypot="bot-field"
       onSubmit={this.handleSubmit}
-      style={{marginLeft:'auto',marginRight:'auto',minHeight:'450px',maxWidth:'600px',backgroundColor:'#00d1b2',borderRadius:'25px',padding:'10px',paddingTop:'35px'}}>
+      style={{marginLeft:'auto',marginRight:'auto',minHeight:'450px',maxWidth:'600px',backgroundColor:'#23C495',borderRadius:'25px',padding:'10px',paddingTop:'35px'}}>
       <a className='button-white' style={{fontSize:'20px'}} onMouseOver={newsDestroy} >&nbsp;x&nbsp;</a>
 
 
